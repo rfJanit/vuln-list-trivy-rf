@@ -10,34 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "0:1.7.0-5.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "1.9.0-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2023-53161": {
-      "cve_id": "CVE-2023-53161",
-      "title": "The buffered-reader crate before 1.1.5 for Rust allows out-of-bou ...",
-      "description": "The buffered-reader crate before 1.1.5 for Rust allows out-of-bounds array access and a panic.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.5.0-1.fc37",
-          "identifier": "fc37"
         }
       ]
     },
@@ -49,16 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "0:1.7.0-5.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "1.9.0-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -70,16 +36,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "0:1.7.0-5.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "1.9.0-2.fc43",
-          "identifier": "fc43"
         }
       ]
     }

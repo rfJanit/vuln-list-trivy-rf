@@ -141,8 +141,67 @@
       "status": "open",
       "events": [
         {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
           "introduced": "3:10.11.13-9.fc43",
           "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-44169": {
+      "cve_id": "CVE-2026-44169",
+      "title": "MariaDB server is a community developed fork of MySQL server. Fro ...",
+      "description": "MariaDB server is a community developed fork of MySQL server. From versions 11.4.1 to before 11.4.11, 11.8.1 to before 11.8.7, and 12.3.1, a user getting EXECUTE access to a stored routine via a role, could see the routine definition even without SHOW CREATE ROUTINE privilege. This issue has been patched in versions 11.4.11, 11.8.7, and 12.3.2.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
         }
       ]
     },
@@ -153,6 +212,31 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
         {
           "introduced": "3:10.11.13-9.fc43",
           "identifier": "fc43"
@@ -167,8 +251,67 @@
       "status": "open",
       "events": [
         {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
           "introduced": "3:10.11.13-9.fc43",
           "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-44172": {
+      "cve_id": "CVE-2026-44172",
+      "title": "MariaDB server is a community developed fork of MySQL server. In  ...",
+      "description": "MariaDB server is a community developed fork of MySQL server. In versions 3.3.18 and 3.4.8, an application that was taking non-validated user input, escaping it with mysql_real_escape_string() and sending it to the database using text protocol and big5 character set was vulnerable to SQL injections, even though mysql_real_escape_string() was supposed to prevent them. This issue has been patched in versions 3.3.19 and 3.4.9.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
         }
       ]
     },
@@ -179,6 +322,31 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
         {
           "introduced": "3:10.11.13-9.fc43",
           "identifier": "fc43"
@@ -193,6 +361,31 @@
       "status": "open",
       "events": [
         {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
           "introduced": "3:10.11.13-9.fc43",
           "identifier": "fc43"
         }
@@ -205,6 +398,31 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "3:10.5.29-3.el9_7",
+          "fixed": "3:11.8.8-1.module+el9.8.0+24389+c97c30be.aarch64::mariadb:11",
+          "identifier": "el9"
+        },
         {
           "introduced": "3:10.11.13-9.fc43",
           "identifier": "fc43"
