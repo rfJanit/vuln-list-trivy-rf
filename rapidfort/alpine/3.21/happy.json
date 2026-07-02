@@ -1,0 +1,36 @@
+{
+  "package_name": "happy",
+  "distro_version": "3.21",
+  "advisories": {
+    "CVE-2025-68556": {
+      "cve_id": "CVE-2025-68556",
+      "title": "Missing Authorization vulnerability in VillaTheme HAPPY happy-hel ...",
+      "description": "Missing Authorization vulnerability in VillaTheme HAPPY happy-helpdesk-support-ticket-system allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects HAPPY: from n/a through \u003c= 1.0.9.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.21.0-r1"
+        },
+        {
+          "introduced": "1.21.0-r1"
+        },
+        {
+          "introduced": "1.21.0-r1"
+        },
+        {
+          "introduced": "1.21.0-r2"
+        },
+        {
+          "introduced": "1.21.0-r2"
+        },
+        {
+          "introduced": "1.21.0-r2"
+        },
+        {
+          "introduced": "1.21.0-r2"
+        }
+      ]
+    }
+  }
+}

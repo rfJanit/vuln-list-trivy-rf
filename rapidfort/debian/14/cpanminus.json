@@ -1,0 +1,18 @@
+{
+  "package_name": "cpanminus",
+  "distro_version": "14",
+  "advisories": {
+    "CVE-2024-45321": {
+      "cve_id": "CVE-2024-45321",
+      "title": "The App::cpanminus package through 1.7047 for Perl downloads code ...",
+      "description": "The App::cpanminus package through 1.7047 for Perl downloads code via insecure HTTP, enabling code execution for network attackers.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:1.7046-1"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "package_name": "postsrsd",
+  "distro_version": "22.04",
+  "advisories": {
+    "CVE-2021-35525": {
+      "cve_id": "CVE-2021-35525",
+      "title": "PostSRSd before 1.11 allows a denial of service (subprocess hang) ...",
+      "description": "PostSRSd before 1.11 allows a denial of service (subprocess hang) if Postfix sends certain long data fields such as multiple concatenated email addresses. NOTE: the PostSRSd maintainer acknowledges \"theoretically, this error should never occur ... I'm not sure if there's a reliable way to trigger this condition by an external attacker, but it is a security bug in PostSRSd nevertheless.\"",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:1.10-2"
+        },
+        {
+          "introduced": "0:1.10-2"
+        },
+        {
+          "introduced": "0:1.10-2.1build1"
+        },
+        {
+          "introduced": "0:1.10-2"
+        },
+        {
+          "introduced": "0:1.10-2"
+        },
+        {
+          "introduced": "0:1.10-2.1build1"
+        }
+      ]
+    }
+  }
+}

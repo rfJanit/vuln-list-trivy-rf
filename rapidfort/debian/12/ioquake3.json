@@ -1,0 +1,18 @@
+{
+  "package_name": "ioquake3",
+  "distro_version": "12",
+  "advisories": {
+    "CVE-2019-1010043": {
+      "cve_id": "CVE-2019-1010043",
+      "title": "Quake3e \u003c 5ed740d is affected by: Buffer Overflow. The impact is: ...",
+      "description": "Quake3e \u003c 5ed740d is affected by: Buffer Overflow. The impact is: Possible code execution and denial of service. The component is: Argument string creation.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:1.36+u20221123.70d07d9+dfsg-1"
+        }
+      ]
+    }
+  }
+}

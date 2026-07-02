@@ -1,0 +1,35 @@
+{
+  "package_name": "openslide",
+  "distro_version": "12",
+  "advisories": {
+    "CVE-2026-48977": {
+      "cve_id": "CVE-2026-48977",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:3.4.1+dfsg-6",
+          "fixed": "0:3.4.1+dfsg-9"
+        },
+        {
+          "introduced": "0:3.4.1+dfsg-7",
+          "fixed": "0:3.4.1+dfsg-9"
+        }
+      ]
+    },
+    "CVE-2026-54604": {
+      "cve_id": "CVE-2026-54604",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:3.4.1+dfsg-6"
+        }
+      ]
+    }
+  }
+}

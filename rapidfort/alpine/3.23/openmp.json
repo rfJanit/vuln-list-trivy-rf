@@ -1,0 +1,33 @@
+{
+  "package_name": "openmp",
+  "distro_version": "3.23",
+  "advisories": {
+    "CVE-2022-26345": {
+      "cve_id": "CVE-2022-26345",
+      "title": "Uncontrolled search path element in the Intel(R) oneAPI Toolkit O ...",
+      "description": "Uncontrolled search path element in the Intel(R) oneAPI Toolkit OpenMP before version 2022.1 may allow an authenticated user to potentially enable escalation of privilege via local access.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "17.0.6-r0"
+        },
+        {
+          "introduced": "18.1.8-r1"
+        },
+        {
+          "introduced": "18.1.8-r2"
+        },
+        {
+          "introduced": "18.1.8-r3"
+        },
+        {
+          "introduced": "18.1.8-r3"
+        },
+        {
+          "introduced": "18.1.8-r3"
+        }
+      ]
+    }
+  }
+}

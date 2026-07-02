@@ -1,0 +1,18 @@
+{
+  "package_name": "protobuf",
+  "distro_version": "22.04",
+  "advisories": {
+    "CVE-2026-6409": {
+      "cve_id": "CVE-2026-6409",
+      "title": "A Denial of Service (DoS) vulnerability exists in the Protobuf PH ...",
+      "description": "A Denial of Service (DoS) vulnerability exists in the Protobuf PHP library during the parsing of untrusted input. Maliciously structured messages—specifically those containing negative varints or deep recursion—can be used to crash the application, impacting service availability.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:3.21.12-8.2ubuntu0.3"
+        }
+      ]
+    }
+  }
+}

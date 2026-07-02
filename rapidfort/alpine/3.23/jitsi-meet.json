@@ -1,0 +1,24 @@
+{
+  "package_name": "jitsi-meet",
+  "distro_version": "3.23",
+  "advisories": {
+    "CVE-2025-64754": {
+      "cve_id": "CVE-2025-64754",
+      "title": "Jitsi Meet is an open source video conferencing application. A vu ...",
+      "description": "Jitsi Meet is an open source video conferencing application. A vulnerability present in versions prior to 2.0.10532 allows attackers to hijack the OAuth authentication window for Microsoft accounts. This is fixed in version 2.0.10532. No known workarounds are available.",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.0.8242-r0"
+        },
+        {
+          "introduced": "1.0.8384-r0"
+        },
+        {
+          "introduced": "1.0.8648-r0"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "package_name": "catdoc",
+  "distro_version": "20.04",
+  "advisories": {
+    "CVE-2019-7156": {
+      "cve_id": "CVE-2019-7156",
+      "title": "In libdoc through 2019-01-28, calcFileBlockOffset in ole.c allows ...",
+      "description": "In libdoc through 2019-01-28, calcFileBlockOffset in ole.c allows division by zero.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:0.95-5"
+        },
+        {
+          "introduced": "1:0.95-5"
+        },
+        {
+          "introduced": "1:0.95-5build1"
+        },
+        {
+          "introduced": "1:0.95-5"
+        },
+        {
+          "introduced": "1:0.95-5build1"
+        },
+        {
+          "introduced": "1:0.95-5"
+        },
+        {
+          "introduced": "1:0.95-5build1"
+        }
+      ]
+    }
+  }
+}

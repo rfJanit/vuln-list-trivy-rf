@@ -1,0 +1,24 @@
+{
+  "package_name": "librecad",
+  "distro_version": "20.04",
+  "advisories": {
+    "CVE-2023-30259": {
+      "cve_id": "CVE-2023-30259",
+      "title": "A Buffer Overflow vulnerability in importshp plugin in LibreCAD 2 ...",
+      "description": "A Buffer Overflow vulnerability in importshp plugin in LibreCAD 2.2.0 allows attackers to obtain sensitive information via a crafted DBF file.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:2.2.0.2-1build3"
+        },
+        {
+          "introduced": "0:2.2.0.2-1build3"
+        },
+        {
+          "introduced": "0:2.2.0.2-1build3"
+        }
+      ]
+    }
+  }
+}

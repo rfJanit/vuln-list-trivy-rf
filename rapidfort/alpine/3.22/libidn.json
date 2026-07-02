@@ -1,0 +1,33 @@
+{
+  "package_name": "libidn",
+  "distro_version": "3.22",
+  "advisories": {
+    "CVE-2026-57053": {
+      "cve_id": "CVE-2026-57053",
+      "title": "GNU libidn before 1.44 is prone to out-of-bounds reads of uniniti ...",
+      "description": "GNU libidn before 1.44 is prone to out-of-bounds reads of uninitialized memory in the ToUnicode APIs because of mishandling in idna_to_unicode_internal. The affected code is not present in libidn2.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.42-r0"
+        },
+        {
+          "introduced": "1.42-r0"
+        },
+        {
+          "introduced": "1.42-r0"
+        },
+        {
+          "introduced": "1.43-r0"
+        },
+        {
+          "introduced": "1.43-r0"
+        },
+        {
+          "introduced": "1.43-r0"
+        }
+      ]
+    }
+  }
+}

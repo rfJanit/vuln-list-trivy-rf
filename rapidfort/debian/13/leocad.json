@@ -1,0 +1,18 @@
+{
+  "package_name": "leocad",
+  "distro_version": "13",
+  "advisories": {
+    "CVE-2021-31804": {
+      "cve_id": "CVE-2021-31804",
+      "title": "LeoCAD before 21.03 sometimes allows a use-after-free during the  ...",
+      "description": "LeoCAD before 21.03 sometimes allows a use-after-free during the opening of a new document.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:21.06-1"
+        }
+      ]
+    }
+  }
+}

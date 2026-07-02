@@ -1,0 +1,32 @@
+{
+  "package_name": "java-1.8.0-openjdk",
+  "distro_version": "7",
+  "advisories": {
+    "CVE-2026-22020": {
+      "cve_id": "CVE-2026-22020",
+      "title": "[updated libpng in Oracle Java]",
+      "description": "[updated libpng in Oracle Java]",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
+    "CVE-2026-41254": {
+      "cve_id": "CVE-2026-41254",
+      "title": "Little CMS (lcms2) through 2.18 has an integer overflow in CubeSi ...",
+      "description": "Little CMS (lcms2) through 2.18 has an integer overflow in CubeSize in cmslut.c because the overflow check is performed after the multiplication.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    }
+  }
+}

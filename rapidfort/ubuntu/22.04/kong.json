@@ -1,0 +1,19 @@
+{
+  "package_name": "kong",
+  "distro_version": "22.04",
+  "advisories": {
+    "CVE-2023-44487": {
+      "cve_id": "CVE-2023-44487",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.4.2"
+        }
+      ]
+    }
+  }
+}

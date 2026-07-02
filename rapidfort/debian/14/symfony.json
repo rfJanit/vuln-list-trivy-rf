@@ -1,0 +1,490 @@
+{
+  "package_name": "symfony",
+  "distro_version": "14",
+  "advisories": {
+    "CVE-2024-36611": {
+      "cve_id": "CVE-2024-36611",
+      "title": "In Symfony v7.07, a security vulnerability was identified in the  ...",
+      "description": "In Symfony v7.07, a security vulnerability was identified in the FormLoginAuthenticator component, where it failed to adequately handle cases where the username or password field of a login request is empty. This flaw could lead to various security risks, including improper authentication logic handling or denial of service. NOTE: the Supplier has concluded that this is a false report.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:7.4.0~beta2+dfsg-2"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:7.4.0~beta2+dfsg-2"
+        }
+      ]
+    },
+    "CVE-2024-50340": {
+      "cve_id": "CVE-2024-50340",
+      "title": "symfony/runtime is a module for the Symphony PHP framework which  ...",
+      "description": "symfony/runtime is a module for the Symphony PHP framework which enables decoupling PHP applications from global state. When the `register_argv_argc` php directive is set to `on` , and users call any URL with a special crafted query string, they are able to change the environment or debug mode used by the kernel when handling the request. As of versions 5.4.46, 6.4.14, and 7.1.7 the `SymfonyRuntime` now ignores the `argv` values for non-SAPI PHP runtimes. All users are advised to upgrade. There are no known workarounds for this vulnerability.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2025-64500": {
+      "cve_id": "CVE-2025-64500",
+      "title": "Symfony is a PHP framework for web and console applications and a ...",
+      "description": "Symfony is a PHP framework for web and console applications and a set of reusable PHP components. Symfony's HttpFoundation component defines an object-oriented layer for the HTTP specification. Starting in version 2.0.0 and prior to version 5.4.50, 6.4.29, and 7.3.7, the `Request` class improperly interprets some `PATH_INFO` in a way that leads to representing some URLs with a path that doesn't start with a `/`. This can allow bypassing some access control rules that are built with this `/`-prefix assumption. Starting in versions 5.4.50, 6.4.29, and 7.3.7, the `Request` class now ensures that URL paths always start with a `/`.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.23+dfsg-1+deb12u5"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.21+dfsg-2+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45063": {
+      "cve_id": "CVE-2026-45063",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45064": {
+      "cve_id": "CVE-2026-45064",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45065": {
+      "cve_id": "CVE-2026-45065",
+      "title": "Symfony has a UrlGenerator Route-Requirement Bypass via Unanchored Regex Alternation → Off-Site //host URL Injection",
+      "description": "### Description\n\nSymfony routes can declare a requirements regex per path parameter, e.g. a route `/{_locale}/blog` with `requirements: { _locale: 'en|fr|de' }`. The Twig `path()` / `url()` helpers (backed by `UrlGenerator`) validate supplied parameter values against that regex before building the URL.\n\nUrlGenerator constructs the validation pattern as `'#^'.$req.'$#'`, where `$req` is the raw requirement string. For a requirement expressed as an alternation, e.g. `_locale: 'ar|bg|...|vi|...|zh_CN'` (very common), `^` and `$` anchor only the first and last alternatives, so any middle alternative matches as an unanchored substring. A value like `/evil.com` satisfies the requirement (because it contains `vi`), and the generated path becomes `//evil.com/...`: a protocol-relative URL the browser navigates off-site.\n\n### Resolution\n\nThe `UrlGenerator` class now wraps the requirement in a non-capturing group so the `^` and `$` anchors apply to the whole alternation.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/bcf487c22f3240ba994124e0e0fe8616f3cfc47a) for branch 5.4.\n\n### Credits\n\nSymfony would like to thank Claude Mythos Preview (via Project Glasswing) for reporting the issue and providing the fix.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45066": {
+      "cve_id": "CVE-2026-45066",
+      "title": "Symfony has an HtmlSanitizer allowLinkHosts() / allowMediaHosts() Bypass via URL-Parser Differentials and \u003carea\u003e Misclassification",
+      "description": "### Description\n\n`symfony/html-sanitizer` lets applications sanitise untrusted HTML. The configuration methods `allowLinkHosts([...])` and `allowLinkSchemes([...])` are intended to restrict `\u003ca href\u003e` targets to an allowlist of hosts/schemes; `allowMediaHosts()` / `allowMediaSchemes()` do the same for `\u003cimg src\u003e` etc.\n\nThree distinct bypasses allow a content author to smuggle off-allowlist URLs past these checks. First, `UrlSanitizer::parse()` parses the input following RFC-3986, while browsers follow the WHATWG URL Standard which normalises `\\` to `/` before parsing the authority of \"special\" schemes; so an input like `https://evil\\@trusted.com/` parses with host `trusted.com` server-side but navigates to `https://evil/` in the browser. Second, WHATWG collapses any run of `/` after the scheme into `//`, while RFC-3986 does not; so `https:/evil.com/` and `https:///evil.com/` parse as host-less (skipping the host allowlist) but resolve to `evil.com` in the browser. Third, `UrlAttributeSanitizer` checks `'a' === $element` to route to the link policy and falls through to the media policy otherwise, but `\u003carea\u003e` is a navigable hyperlink equivalent to `\u003ca\u003e`; so `\u003carea href\u003e` was sanitised against the media policy (which typically allows `data:` and may have no host allowlist), bypassing `allowLinkHosts()` / `allowLinkSchemes()` entirely.\n\n### Resolution\n\n`UrlSanitizer::sanitize()` now rejects URLs that contain a backslash or that use a special scheme (`http`, `https`, `ftp`, `ws`, `wss`) followed by a single slash or three slashes before parsing, eliminating the parser-differential bypasses. `UrlAttributeSanitizer` now applies the link policy to both `\u003ca\u003e` and `\u003carea\u003e` elements.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/d506b556d3d3906f3e8660ad82257ce87edbaac4) for branch 5.4.\n\n### Credits\n\nSymfony would like to thank Claude Mythos Preview (via Project Glasswing) for reporting the issue and providing the fix.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45067": {
+      "cve_id": "CVE-2026-45067",
+      "title": "Symfony has Email Header / SMTP Command Injection via CRLF in Symfony\\Component\\Mime\\Address",
+      "description": "### Description\n\n`Symfony\\Component\\Mime\\Address` is the value-object every Symfony Mailer address (to/cc/bcc/from/reply-to) flows through; its constructor is documented as validating the address and throwing on invalid input, so developers treat it as a security boundary.\n\nThe constructor accepts email addresses whose local-part (the part before `@`) is an RFC-5322 *quoted string* containing raw `\\r\\n` bytes, e.g. `\"x\\r\\nBcc: attacker@evil\"@example.com`. The stored address is later emitted verbatim into (1) the rendered message headers and (2) `SmtpTransport`'s `MAIL FROM:\u003c...\u003e` / `RCPT TO:\u003c...\u003e` protocol lines, turning the embedded CRLF into a new mail header and/or a new SMTP command.\n\n### Resolution\n\nThe `Address` constructor now rejects addresses containing line breaks.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/dc2dbd29211eb4ddc451373fa1374fb926e94604) for branch 5.4.\n\n### Credits\n\nWe would like to thank Claude Mythos Preview (via Project Glasswing) for reporting the issue and providing the fix.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45068": {
+      "cve_id": "CVE-2026-45068",
+      "title": "Symfony has an Argument Injection in SendmailTransport via Dash-Prefixed Recipient Address",
+      "description": "### Description\n\nSymfony Mailer selects a transport via the `MAILER_DSN` environment variable / configuration (e.g. `smtp://...`, `sendmail://...`, `native://default`). `SendmailTransport` invokes the local `sendmail` binary and supports two modes: `-bs` (speak SMTP over stdin: the default) and `-t` (read the message on stdin, pass recipients as command-line arguments).\n\nIn `-t` mode, recipient addresses are appended to the sendmail command line **without a `--` end-of-options separator**. A recipient address beginning with `-` (which `Symfony\\Component\\Mime\\Address` accepts as valid) is therefore interpreted by sendmail as a command-line option rather than an address.\n\n### Resolution\n\nThe `SendmailTransport` transport now ensure `--` is set before the list of recipients.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/c45144862dc289d03952f41f6078174089a3afc6) for branch 5.4.\n\n### Credits\n\nSymfony would like to thank Claude Mythos Preview (via Project Glasswing) for reporting the issue and providing the fix.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45069": {
+      "cve_id": "CVE-2026-45069",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45070": {
+      "cve_id": "CVE-2026-45070",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45071": {
+      "cve_id": "CVE-2026-45071",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45072": {
+      "cve_id": "CVE-2026-45072",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45073": {
+      "cve_id": "CVE-2026-45073",
+      "title": "Symfony Vulnerable to SQL Injection in PdoAdapter::doClear() via Unsanitized $prefix",
+      "description": "### Description\n\n`Symfony\\Component\\Cache\\Adapter\\PdoAdapter` is the PDO-backed cache adapter. Its `clear($prefix)` method (inherited from `AbstractAdapterTrait`) is documented to delete cache items whose key starts with `$prefix`.\n\nIn the non-versioning code path, the caller-supplied `$prefix` is concatenated into `$namespace = $this-\u003enamespace.$prefix` and passed to `PdoAdapter::doClear()`, which builds:\n\n```sql\nDELETE FROM \u003ctable\u003e WHERE \u003cid_col\u003e LIKE '\u003cnamespace\u003e%'\n```\n\nThe value is interpolated directly into the SQL text and executed with `PDO::exec()`: `$namespace` is not bound. A caller able to influence `$prefix` can break out of the literal and inject SQL, expanding deletion scope from the intended prefix to arbitrary rows, or otherwise reshape query semantics.\n\nMost applications don't expose `clear($prefix)` to untrusted input directly, but the contract of the method is to safely accept any prefix string, so the lack of escaping is a defect of the adapter itself.\n\n### Resolution\n\n`AbstractAdapterTrait::clear()` now rejects any `$prefix` containing characters outside `[-+.A-Za-z0-9]`: when an invalid prefix is supplied, the method logs a warning and returns `false` instead of reaching the SQL layer. This blocks quotes, `%`, null bytes and other characters that would let an attacker break out of the `LIKE` literal.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/ec50b799d79ebe24561f29351c1efcb6da95c9b1) for branch 5.4.\n\n### Credits\nSymfony would like to thank secsys_codex for reporting the issue and Nicolas Grekas for fixing it.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45074": {
+      "cve_id": "CVE-2026-45074",
+      "title": "Symfony's Cas2Handler Derives CAS service URL from Client Host Header → Cross-Service Ticket Replay",
+      "description": "`Cas2Handler` builds this `service` parameter from `Request::getSchemeAndHttpHost()`, which reflects the attacker-controlled HTTP `Host` header whenever Symfony's `framework.trusted_hosts` setting is not configured (the default). An attacker who controls any *other* application registered with the same CAS server can replay a victim's ticket against the Symfony application, with a spoofed `Host` header, and be authenticated as that victim.\n\n### Resolution\n\nA new required `service_url` configuration option is introduced on `Cas2Handler`. The CAS `service` parameter sent to the validation endpoint is now built from this configured URL instead of being derived from the request's `Host` header, preventing cross-service ticket replay via Host header spoofing.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/5ba145dba702404801bdf9e7e8d6df170060d541) for branch 7.4.\n\n### Credits\n\nSymfony would like to thank Claude Mythos Preview (via Project Glasswing) for reporting the issue and Nicolas Grekas for providing the fix.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:7.4.12+dfsg-1"
+        }
+      ]
+    },
+    "CVE-2026-45075": {
+      "cve_id": "CVE-2026-45075",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:7.4.12+dfsg-1"
+        }
+      ]
+    },
+    "CVE-2026-45077": {
+      "cve_id": "CVE-2026-45077",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45133": {
+      "cve_id": "CVE-2026-45133",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45304": {
+      "cve_id": "CVE-2026-45304",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45305": {
+      "cve_id": "CVE-2026-45305",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45753": {
+      "cve_id": "CVE-2026-45753",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45754": {
+      "cve_id": "CVE-2026-45754",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-45755": {
+      "cve_id": "CVE-2026-45755",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:7.4.12+dfsg-1"
+        }
+      ]
+    },
+    "CVE-2026-45756": {
+      "cve_id": "CVE-2026-45756",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:7.4.12+dfsg-1"
+        }
+      ]
+    },
+    "CVE-2026-46626": {
+      "cve_id": "CVE-2026-46626",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-47212": {
+      "cve_id": "CVE-2026-47212",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-48489": {
+      "cve_id": "CVE-2026-48489",
+      "title": "Symfony: Security Firewall Bypass via failure_forward Subrequest: Unauthenticated Access to access_control-Protected GET Routes",
+      "description": "### Description\n\nWhen a firewall is configured with `form-login` (or any authenticator using `DefaultAuthenticationFailureHandler`) and the `failure_forward: true` option, the handler reads the `_failure_path` parameter from the failing login request and uses it as the path of an internal subrequest dispatched through `HttpKernelInterface::SUB_REQUEST`.\n\nSymfony's `Firewall::onKernelRequest` listener intentionally skips subrequests under the assumption they are internally generated and trusted, which also means `AccessListener` (the listener that evaluates `access_control`) does not run. Because the attacker controls the target of the subrequest, an unauthenticated POST to the check path with `_failure_path=/admin/whatever` performs a local request forgery that executes the target controller outside the firewall perimeter and returns its response to the caller.\n\nApplications that follow Symfony's recommended best practice of protecting administrative areas with broad `access_control` rules (e.g. `^/admin` requires `ROLE_ADMIN`) and expose read-only GET endpoints under that area (data exports, internal APIs, account views) are fully exposed: any such GET route can be read by an unauthenticated attacker without any developer misconfiguration, debug mode, or state-changing GET handler being required.\n\n### Resolution\n\n`DefaultAuthenticationFailureHandler` no longer honors the request-supplied `_failure_path` parameter when `failure_forward` is enabled. The subrequest is always dispatched to the configured `failure_path` option (defaulting to `login_path`), which is set by the application owner and not by the request. The redirect branch (`failure_forward: false`) is unchanged because redirects re-enter the firewall on the next request and are not subject to this bypass.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/c48a4276309e11aedeeb0ce3a89dfbf0b4fe04ff) for branch 5.4.\n\n### Credits\n\nSymfony would like to thank Nguyen Ngoc Toan Thang (@a-tt-om) and Tran Quoc Tri Trung (@teebow1e) for reporting the issue, and Nicolas Grekas for providing the fix.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-48736": {
+      "cve_id": "CVE-2026-48736",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-48747": {
+      "cve_id": "CVE-2026-48747",
+      "title": "Symfony: Mailomat Mailer Webhook Parser Reads the HMAC Algorithm from the Request: Signature Algorithm Downgrade",
+      "description": "### Description\n\n`Symfony\\Component\\Mailer\\Bridge\\Mailomat\\Webhook\\MailomatRequestParser::validateSignature()` parses the `X-MOM-Webhook-Signature` request header as `algo=signature` and passes the wire-supplied `$algo` directly to `hash_hmac()` when verifying the request against the configured webhook secret. The request therefore selects the HMAC primitive used to authenticate it.\n\nPHP's `hash_hmac()` enforces only that the chosen algorithm is HMAC-compatible. That set still includes primitives with known cryptanalysis (`md4`, `md5`, `ripemd128`, `tiger128,3`, … — e.g. existential forgery of HMAC-MD4, Contini \u0026 Yin, ASIACRYPT 2006). This is the canonical algorithm-confusion shape, analogous to JWT `alg=none` / `alg=HS256` downgrades: any future cryptographic weakness in any HMAC primitive PHP exposes becomes immediately exploitable against a Mailomat webhook receiver, the moment an attacker is in a position to compute a signature for that primitive, without a code change on the Symfony side.\n\nMailomat's [documented webhook security](https://api.mailomat.swiss/docs/#tag/webhook-security) pins SHA-256; the parser did not.\n\n### Resolution\n\n`MailomatRequestParser::validateSignature()` now requires the signature header to be of the form `sha256=\u003chex\u003e` and verifies the signature with HMAC-SHA256 keyed by the configured secret using a constant-time comparison. Any other algorithm declared on the wire (including the HMAC primitives PHP would otherwise accept) is rejected.\n\nThe patch for this issue is available [here](https://github.com/symfony/symfony/commit/bdfe9fe0d94d33dfaca0bc2fe0b00b54767b0c88) for branch 7.4 (and forward-ported to 8.0 and 8.1).\n\n### Credits\n\nSymfony would like to thank Omar Alshammari, Essam Alanazi and Alwaleed Alshammari for reporting the issue and Nicolas Grekas for providing the fix.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:7.4.13+dfsg-1"
+        }
+      ]
+    },
+    "CVE-2026-48760": {
+      "cve_id": "CVE-2026-48760",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-48761": {
+      "cve_id": "CVE-2026-48761",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    },
+    "CVE-2026-48784": {
+      "cve_id": "CVE-2026-48784",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:5.4.23+dfsg-1+deb12u4",
+          "fixed": "0:5.4.53+dfsg-0+deb12u1"
+        },
+        {
+          "introduced": "0:6.4.15+dfsg-1",
+          "fixed": "0:6.4.41+dfsg-0+deb13u1"
+        }
+      ]
+    }
+  }
+}

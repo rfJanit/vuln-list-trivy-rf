@@ -1,0 +1,21 @@
+{
+  "package_name": "blender",
+  "distro_version": "22.04",
+  "advisories": {
+    "CVE-2021-29338": {
+      "cve_id": "CVE-2021-29338",
+      "title": "Integer Overflow in OpenJPEG v2.4.0 allows remote attackers to cr ...",
+      "description": "Integer Overflow in OpenJPEG v2.4.0 allows remote attackers to crash the application, causing a Denial of Service (DoS). This occurs when the attacker uses the command line option \"-ImgDir\" on a directory that contains 1048576 files.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:3.0.1+dfsg-7"
+        },
+        {
+          "introduced": "0:4.0.2+dfsg-1ubuntu8"
+        }
+      ]
+    }
+  }
+}
