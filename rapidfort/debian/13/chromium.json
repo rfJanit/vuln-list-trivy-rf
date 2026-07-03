@@ -16901,7 +16901,7 @@
       "cve_id": "CVE-2026-13937",
       "title": "(Insufficient policy enforcement in Passwords in Google Chrome pr...",
       "description": "(Insufficient policy enforcement in Passwords in Google Chrome prior to ...)",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -16913,7 +16913,7 @@
       "cve_id": "CVE-2026-13938",
       "title": "(Integer overflow in Fonts in Google Chrome prior to 150.0.7871.4...",
       "description": "(Integer overflow in Fonts in Google Chrome prior to 150.0.7871.47 allo ...)",
-      "severity": "",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -17093,7 +17093,7 @@
       "cve_id": "CVE-2026-13953",
       "title": "(Inappropriate implementation in SplitView in Google Chrome prior...",
       "description": "(Inappropriate implementation in SplitView in Google Chrome prior to 15 ...)",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -17165,7 +17165,7 @@
       "cve_id": "CVE-2026-13959",
       "title": "(Insufficient validation of untrusted input in Blink in Google Ch...",
       "description": "(Insufficient validation of untrusted input in Blink in Google Chrome p ...)",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -17201,7 +17201,7 @@
       "cve_id": "CVE-2026-13962",
       "title": "(Insufficient data validation in PDF in Google Chrome prior to 15...",
       "description": "(Insufficient data validation in PDF in Google Chrome prior to 150.0.78 ...)",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -17225,7 +17225,7 @@
       "cve_id": "CVE-2026-13964",
       "title": "(Insufficient policy enforcement in WebView in Google Chrome on A...",
       "description": "(Insufficient policy enforcement in WebView in Google Chrome on Android ...)",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -17345,7 +17345,7 @@
       "cve_id": "CVE-2026-13974",
       "title": "(Integer overflow in Safe Browsing in Google Chrome on Mac prior ...",
       "description": "(Integer overflow in Safe Browsing in Google Chrome on Mac prior to 150 ...)",
-      "severity": "",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -18725,7 +18725,7 @@
       "cve_id": "CVE-2026-14090",
       "title": "(Insufficient validation of untrusted input in CameraCapture in G...",
       "description": "(Insufficient validation of untrusted input in CameraCapture in Google  ...)",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -18893,7 +18893,7 @@
       "cve_id": "CVE-2026-14104",
       "title": "(Insufficient validation of untrusted input in WebAppInstalls in ...",
       "description": "(Insufficient validation of untrusted input in WebAppInstalls in Google ...)",
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "status": "open",
       "events": [
         {
@@ -18905,7 +18905,7 @@
       "cve_id": "CVE-2026-14105",
       "title": "(Insufficient policy enforcement in Speech in Google Chrome prior...",
       "description": "(Insufficient policy enforcement in Speech in Google Chrome prior to 15 ...)",
-      "severity": "CRITICAL",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -19097,7 +19097,7 @@
       "cve_id": "CVE-2026-14121",
       "title": "(Use after free in Chromoting in Google Chrome on Linux prior to ...",
       "description": "(Use after free in Chromoting in Google Chrome on Linux prior to 150.0. ...)",
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "status": "open",
       "events": [
         {
@@ -19518,6 +19518,630 @@
       "title": "(Insufficient policy enforcement in StorageAccessAPI in Google Ch...",
       "description": "(Insufficient policy enforcement in StorageAccessAPI in Google Chrome p ...)",
       "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14381": {
+      "cve_id": "CVE-2026-14381",
+      "title": "(Incorrect security UI in WebAppInstalls in Google Chrome prior t...",
+      "description": "(Incorrect security UI in WebAppInstalls in Google Chrome prior to 150. ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14382": {
+      "cve_id": "CVE-2026-14382",
+      "title": "(Insufficient validation of untrusted input in ANGLE in Google Ch...",
+      "description": "(Insufficient validation of untrusted input in ANGLE in Google Chrome p ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14383": {
+      "cve_id": "CVE-2026-14383",
+      "title": "(Inappropriate implementation in V8 in Google Chrome prior to 150...",
+      "description": "(Inappropriate implementation in V8 in Google Chrome prior to 150.0.787 ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14384": {
+      "cve_id": "CVE-2026-14384",
+      "title": "(Out of bounds read in ANGLE in Google Chrome on Windows prior to...",
+      "description": "(Out of bounds read in ANGLE in Google Chrome on Windows prior to 150.0 ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14385": {
+      "cve_id": "CVE-2026-14385",
+      "title": "(Heap buffer overflow in ANGLE in Google Chrome on Mac prior to 1...",
+      "description": "(Heap buffer overflow in ANGLE in Google Chrome on Mac prior to 150.0.7 ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14386": {
+      "cve_id": "CVE-2026-14386",
+      "title": "(Out of bounds read in ANGLE in Google Chrome prior to 150.0.7871...",
+      "description": "(Out of bounds read in ANGLE in Google Chrome prior to 150.0.7871.46 al ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14387": {
+      "cve_id": "CVE-2026-14387",
+      "title": "(Integer overflow in Skia in Google Chrome prior to 150.0.7871.46...",
+      "description": "(Integer overflow in Skia in Google Chrome prior to 150.0.7871.46 allow ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14388": {
+      "cve_id": "CVE-2026-14388",
+      "title": "(Out of bounds read in ANGLE in Google Chrome prior to 150.0.7871...",
+      "description": "(Out of bounds read in ANGLE in Google Chrome prior to 150.0.7871.46 al ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14389": {
+      "cve_id": "CVE-2026-14389",
+      "title": "(Integer overflow in Skia in Google Chrome prior to 150.0.7871.46...",
+      "description": "(Integer overflow in Skia in Google Chrome prior to 150.0.7871.46 allow ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14390": {
+      "cve_id": "CVE-2026-14390",
+      "title": "(Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 ...",
+      "description": "(Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowe ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14391": {
+      "cve_id": "CVE-2026-14391",
+      "title": "(Integer overflow in ANGLE in Google Chrome on Windows prior to 1...",
+      "description": "(Integer overflow in ANGLE in Google Chrome on Windows prior to 150.0.7 ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14392": {
+      "cve_id": "CVE-2026-14392",
+      "title": "(Out of bounds write in Tint in Google Chrome prior to 150.0.7871...",
+      "description": "(Out of bounds write in Tint in Google Chrome prior to 150.0.7871.46 al ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14393": {
+      "cve_id": "CVE-2026-14393",
+      "title": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 all...",
+      "description": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 allowed a ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14394": {
+      "cve_id": "CVE-2026-14394",
+      "title": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 all...",
+      "description": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 allowed a ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14395": {
+      "cve_id": "CVE-2026-14395",
+      "title": "(Out of bounds write in V8 in Google Chrome prior to 150.0.7871.4...",
+      "description": "(Out of bounds write in V8 in Google Chrome prior to 150.0.7871.46 allo ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14396": {
+      "cve_id": "CVE-2026-14396",
+      "title": "(Out of bounds read in ANGLE in Google Chrome prior to 150.0.7871...",
+      "description": "(Out of bounds read in ANGLE in Google Chrome prior to 150.0.7871.46 al ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14397": {
+      "cve_id": "CVE-2026-14397",
+      "title": "(Out of bounds write in ANGLE in Google Chrome on Mac prior to 15...",
+      "description": "(Out of bounds write in ANGLE in Google Chrome on Mac prior to 150.0.78 ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14398": {
+      "cve_id": "CVE-2026-14398",
+      "title": "(Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 ...",
+      "description": "(Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowe ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14399": {
+      "cve_id": "CVE-2026-14399",
+      "title": "(Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.4...",
+      "description": "(Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.46 allo ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14400": {
+      "cve_id": "CVE-2026-14400",
+      "title": "(Out of bounds write in ANGLE in Google Chrome prior to 150.0.787...",
+      "description": "(Out of bounds write in ANGLE in Google Chrome prior to 150.0.7871.46 a ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14401": {
+      "cve_id": "CVE-2026-14401",
+      "title": "(Insufficient validation of untrusted input in ANGLE in Google Ch...",
+      "description": "(Insufficient validation of untrusted input in ANGLE in Google Chrome o ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14402": {
+      "cve_id": "CVE-2026-14402",
+      "title": "(Uninitialized Use in ANGLE in Google Chrome on Windows prior to ...",
+      "description": "(Uninitialized Use in ANGLE in Google Chrome on Windows prior to 150.0. ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14403": {
+      "cve_id": "CVE-2026-14403",
+      "title": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 all...",
+      "description": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 allowed a ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14404": {
+      "cve_id": "CVE-2026-14404",
+      "title": "(Inappropriate implementation in PDFium in Google Chrome prior to...",
+      "description": "(Inappropriate implementation in PDFium in Google Chrome prior to 150.0 ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14405": {
+      "cve_id": "CVE-2026-14405",
+      "title": "(Uninitialized Use in V8 in Google Chrome prior to 150.0.7871.46 ...",
+      "description": "(Uninitialized Use in V8 in Google Chrome prior to 150.0.7871.46 allowe ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14406": {
+      "cve_id": "CVE-2026-14406",
+      "title": "(Out of bounds read in V8 in Google Chrome prior to 150.0.7871.46...",
+      "description": "(Out of bounds read in V8 in Google Chrome prior to 150.0.7871.46 allow ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14407": {
+      "cve_id": "CVE-2026-14407",
+      "title": "(Inappropriate implementation in V8 in Google Chrome prior to 150...",
+      "description": "(Inappropriate implementation in V8 in Google Chrome prior to 150.0.787 ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14408": {
+      "cve_id": "CVE-2026-14408",
+      "title": "(Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.4...",
+      "description": "(Uninitialized Use in Dawn in Google Chrome prior to 150.0.7871.46 allo ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14409": {
+      "cve_id": "CVE-2026-14409",
+      "title": "(Inappropriate implementation in V8 in Google Chrome prior to 150...",
+      "description": "(Inappropriate implementation in V8 in Google Chrome prior to 150.0.787 ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14410": {
+      "cve_id": "CVE-2026-14410",
+      "title": "(Inappropriate implementation in Skia in Google Chrome prior to 1...",
+      "description": "(Inappropriate implementation in Skia in Google Chrome prior to 150.0.7 ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14411": {
+      "cve_id": "CVE-2026-14411",
+      "title": "(Insufficient validation of untrusted input in ANGLE in Google Ch...",
+      "description": "(Insufficient validation of untrusted input in ANGLE in Google Chrome p ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14412": {
+      "cve_id": "CVE-2026-14412",
+      "title": "(Insufficient validation of untrusted input in ANGLE in Google Ch...",
+      "description": "(Insufficient validation of untrusted input in ANGLE in Google Chrome p ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14413": {
+      "cve_id": "CVE-2026-14413",
+      "title": "(Uninitialized Use in ANGLE in Google Chrome prior to 150.0.7871....",
+      "description": "(Uninitialized Use in ANGLE in Google Chrome prior to 150.0.7871.46 all ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14414": {
+      "cve_id": "CVE-2026-14414",
+      "title": "(Insufficient validation of untrusted input in Skia in Google Chr...",
+      "description": "(Insufficient validation of untrusted input in Skia in Google Chrome pr ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14415": {
+      "cve_id": "CVE-2026-14415",
+      "title": "(Inappropriate implementation in V8 in Google Chrome prior to 150...",
+      "description": "(Inappropriate implementation in V8 in Google Chrome prior to 150.0.787 ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14416": {
+      "cve_id": "CVE-2026-14416",
+      "title": "(Out of bounds read in Dawn in Google Chrome prior to 150.0.7871....",
+      "description": "(Out of bounds read in Dawn in Google Chrome prior to 150.0.7871.46 all ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14417": {
+      "cve_id": "CVE-2026-14417",
+      "title": "(Use after free in Dawn in Google Chrome prior to 150.0.7871.46 a...",
+      "description": "(Use after free in Dawn in Google Chrome prior to 150.0.7871.46 allowed ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14418": {
+      "cve_id": "CVE-2026-14418",
+      "title": "(Uninitialized Use in ANGLE in Google Chrome prior to 150.0.7871....",
+      "description": "(Uninitialized Use in ANGLE in Google Chrome prior to 150.0.7871.46 all ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14419": {
+      "cve_id": "CVE-2026-14419",
+      "title": "(Use after free in Skia in Google Chrome prior to 150.0.7871.46 a...",
+      "description": "(Use after free in Skia in Google Chrome prior to 150.0.7871.46 allowed ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14420": {
+      "cve_id": "CVE-2026-14420",
+      "title": "(Out of bounds read and write in Dawn in Google Chrome prior to 1...",
+      "description": "(Out of bounds read and write in Dawn in Google Chrome prior to 150.0.7 ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14421": {
+      "cve_id": "CVE-2026-14421",
+      "title": "(Uninitialized Use in Dawn in Google Chrome on ChromeOS prior to ...",
+      "description": "(Uninitialized Use in Dawn in Google Chrome on ChromeOS prior to 150.0. ...)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14422": {
+      "cve_id": "CVE-2026-14422",
+      "title": "(Out of bounds read and write in Tint in Google Chrome prior to 1...",
+      "description": "(Out of bounds read and write in Tint in Google Chrome prior to 150.0.7 ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14423": {
+      "cve_id": "CVE-2026-14423",
+      "title": "(Type Confusion in Tint in Google Chrome prior to 150.0.7871.46 a...",
+      "description": "(Type Confusion in Tint in Google Chrome prior to 150.0.7871.46 allowed ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14424": {
+      "cve_id": "CVE-2026-14424",
+      "title": "(Use after free in Dawn in Google Chrome on Mac prior to 150.0.78...",
+      "description": "(Use after free in Dawn in Google Chrome on Mac prior to 150.0.7871.46  ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14425": {
+      "cve_id": "CVE-2026-14425",
+      "title": "(Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 ...",
+      "description": "(Use after free in ANGLE in Google Chrome prior to 150.0.7871.46 allowe ...)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14426": {
+      "cve_id": "CVE-2026-14426",
+      "title": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 all...",
+      "description": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 allowed a ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14427": {
+      "cve_id": "CVE-2026-14427",
+      "title": "(Heap buffer overflow in Skia in Google Chrome prior to 150.0.787...",
+      "description": "(Heap buffer overflow in Skia in Google Chrome prior to 150.0.7871.46 a ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14428": {
+      "cve_id": "CVE-2026-14428",
+      "title": "(Insufficient validation of untrusted input in Dawn in Google Chr...",
+      "description": "(Insufficient validation of untrusted input in Dawn in Google Chrome on ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14429": {
+      "cve_id": "CVE-2026-14429",
+      "title": "(Insufficient validation of untrusted input in Skia in Google Chr...",
+      "description": "(Insufficient validation of untrusted input in Skia in Google Chrome pr ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14430": {
+      "cve_id": "CVE-2026-14430",
+      "title": "(Integer overflow in V8 in Google Chrome prior to 150.0.7871.46 a...",
+      "description": "(Integer overflow in V8 in Google Chrome prior to 150.0.7871.46 allowed ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14431": {
+      "cve_id": "CVE-2026-14431",
+      "title": "(Type Confusion in V8 in Google Chrome prior to 150.0.7871.46 all...",
+      "description": "(Type Confusion in V8 in Google Chrome prior to 150.0.7871.46 allowed a ...)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:138.0.7204.183-1~deb12u1"
+        }
+      ]
+    },
+    "CVE-2026-14432": {
+      "cve_id": "CVE-2026-14432",
+      "title": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 all...",
+      "description": "(Use after free in V8 in Google Chrome prior to 150.0.7871.46 allowed a ...)",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

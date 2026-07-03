@@ -154,6 +154,11 @@
           "introduced": "0",
           "fixed": "5.3.9-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "5.3.15-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -261,6 +266,11 @@
           "introduced": "0",
           "fixed": "5.3.9-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "5.3.15-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -315,6 +325,11 @@
           "introduced": "0",
           "fixed": "5.3.9-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "5.3.15-1.fc45",
+          "identifier": "fc45"
         }
       ]
     }
