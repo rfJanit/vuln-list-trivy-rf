@@ -392,6 +392,64 @@
         {
           "introduced": "1:10.1.46-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.26-1.fc31",
+          "identifier": "fc31"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.26-1.fc32",
+          "identifier": "fc32"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.31-1.fc33",
+          "identifier": "fc33"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.38-1.fc34",
+          "identifier": "fc34"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.43-2.fc35",
+          "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.52-1.fc36",
+          "identifier": "fc36"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.59-1.fc37",
+          "identifier": "fc37"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.68-1.fc38",
+          "identifier": "fc38"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.73-1.fc39",
+          "identifier": "fc39"
+        }
+      ]
+    },
+    "CVE-2026-55956": {
+      "cve_id": "CVE-2026-55956",
+      "title": "Improper Authorization vulnerability in Apache Tomcat leads to se ...",
+      "description": "Improper Authorization vulnerability in Apache Tomcat leads to security constraints specified for the default servlet ignoring any method or method omission configured as part of the constraint.\n\nThis issue affects Apache Tomcat: from 11.0.0-M1 through 11.0.22, from 10.1.0-M1 through 10.1.55, from 9.0.0.M1 through 9.0.118, from 8.5.0 through 8.5.100, from 7.0.0 through 7.0.109. Other versions that have reached end of support may also be affected.\n\nUsers are recommended to upgrade to version 11.0.23, 10.1.56 or 9.0.119, which fix the issue.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:10.1.46-1.fc43",
+          "identifier": "fc43"
         }
       ]
     }
