@@ -412,8 +412,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.12.12-r1",
-          "fixed": "3.12.13-r1"
+          "introduced": "3.12.12-r0",
+          "fixed": "3.12.12-r1"
         }
       ]
     },

@@ -76,10 +76,6 @@
       "events": [
         {
           "introduced": "1.26.18-r1",
-          "fixed": "2.6.3-r0"
-        },
-        {
-          "introduced": "1.26.18-r1",
           "fixed": "1.26.18-r2"
         },
         {
