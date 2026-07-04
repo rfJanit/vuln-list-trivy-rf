@@ -4426,6 +4426,19 @@
         }
       ]
     },
+    "CVE-2026-57456": {
+      "cve_id": "CVE-2026-57456",
+      "title": "Vim is an open source, command line text editor. Prior to 9.2.069 ...",
+      "description": "Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el6"
+        }
+      ]
+    },
     "CVE-2026-9530": {
       "cve_id": "CVE-2026-9530",
       "title": "A weakness has been identified in GNU LibreDWG up to 0.14. The im ...",

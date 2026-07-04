@@ -15,6 +15,19 @@
         }
       ]
     },
+    "CVE-2026-13574": {
+      "cve_id": "CVE-2026-13574",
+      "title": "A vulnerability was determined in llvm llvm-project up to 22.1.6. ...",
+      "description": "A vulnerability was determined in llvm llvm-project up to 22.1.6. This impacts the function GCRelocateInst::getBasePtr in the library llvm/lib/IR/IntrinsicInst.cpp of the component Bitcode File Handler. This manipulation causes heap-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been publicly disclosed and may be utilized. The project was informed of the problem early through an issue report but has not responded yet.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        }
+      ]
+    },
     "CVE-2026-27903": {
       "cve_id": "CVE-2026-27903",
       "title": "minimatch is a minimal matching utility for converting glob expre ...",

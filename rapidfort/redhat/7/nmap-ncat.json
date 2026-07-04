@@ -26,6 +26,11 @@
           "introduced": "0",
           "fixed": "7.92-11.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "7.92-11.fc45",
+          "identifier": "fc45"
         }
       ]
     }
