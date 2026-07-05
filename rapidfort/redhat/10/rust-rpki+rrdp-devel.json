@@ -18,6 +18,11 @@
           "introduced": "0",
           "fixed": "0.19.3-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0.19.3-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -170,6 +175,11 @@
           "introduced": "0",
           "fixed": "0.19.3-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0.19.3-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -189,6 +199,11 @@
           "introduced": "0",
           "fixed": "0.19.3-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0.19.3-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -208,6 +223,11 @@
           "introduced": "0",
           "fixed": "0.19.3-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0.19.3-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -227,6 +247,11 @@
           "introduced": "0",
           "fixed": "0.19.3-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0.19.3-1.fc45",
+          "identifier": "fc45"
         }
       ]
     }
