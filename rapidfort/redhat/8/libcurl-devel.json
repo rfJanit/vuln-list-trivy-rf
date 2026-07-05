@@ -20,6 +20,19 @@
         }
       ]
     },
+    "CVE-2025-11563": {
+      "cve_id": "CVE-2025-11563",
+      "title": "URLs containing percent-encoded slashes (`/` or `\\`) can trick wc ...",
+      "description": "URLs containing percent-encoded slashes (`/` or `\\`) can trick wcurl into\nsaving the output file outside of the current directory without the user\nexplicitly asking for it.\n\nThis flaw only affects the wcurl command line tool.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "8.15.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2025-13034": {
       "cve_id": "CVE-2025-13034",
       "title": "When using `CURLOPT_PINNEDPUBLICKEY` option with libcurl or `--pi ...",
@@ -447,7 +460,7 @@
       "cve_id": "CVE-2026-8286",
       "title": "A vulnerability exists where a new transfer that uses STARTTLS to ...",
       "description": "A vulnerability exists where a new transfer that uses STARTTLS to upgrade the\nconnection might reuse an existing live connection even though the TLS\nconfiguration mismatches so it should not.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -577,7 +590,7 @@
       "cve_id": "CVE-2026-9547",
       "title": "When a libcurl-based application performs transfers via `SCP://`  ...",
       "description": "When a libcurl-based application performs transfers via `SCP://` or `SFTP://`\nand utilizes the `CURLOPT_SSH_KEYFUNCTION` callback, it may silently accept an\nuntrusted server. This vulnerability occurs when a server presents a host key\ntype that does not match the specific key type already recorded for that host\nin the `known_hosts` file. Instead of rejecting the mismatch, the callback\nmechanism fails to properly enforce the restriction, allowing the connection\nto succeed without warning and risking a potential man-in-the-middle attack.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
