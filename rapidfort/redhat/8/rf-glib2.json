@@ -7,11 +7,10 @@
       "title": "glib: GVariant offset table entry size is not checked in is_normal()",
       "description": "A flaw was found in GLib. GVariant deserialization fails to validate that the input conforms to the expected format, leading to denial of service.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.2-2.fc45",
           "identifier": "rf"
         }
       ]
@@ -21,11 +20,10 @@
       "title": "glib: g_variant_byteswap() can take a long time with some non-normal inputs",
       "description": "A flaw was found in GLib. GVariant deserialization is vulnerable to a slowdown issue where a crafted GVariant can cause excessive processing, leading to denial of service.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.2-2.fc45",
           "identifier": "rf"
         }
       ]
@@ -48,11 +46,10 @@
       "title": "glib: GVariant deserialisation does not match spec for non-normal data",
       "description": "A flaw was found in GLib. GVariant deserialization is vulnerable to an exponential blowup issue where a crafted GVariant can cause excessive processing, leading to denial of service.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.2-2.fc45",
           "identifier": "rf"
         }
       ]
@@ -104,11 +101,10 @@
       "title": "glibc: GLib prior to 2.82.5 is vulnerable to integer  overflow and buffer under-read when parsing a very long invalid ISO  8601 timestamp with g_date_time_new_from_iso8601().",
       "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.2-2.fc45",
           "identifier": "rf"
         }
       ]
@@ -144,11 +140,10 @@
       "title": "Glib: Integer Overflow Leading to Buffer Underflow and Out-of-Bounds Write in GLib g_base64_encode()",
       "description": "A flaw was found in the GLib Base64 encoding routine when processing very large input data. Due to incorrect use of integer types during length calculation, the library may miscalculate buffer boundaries. This can cause memory writes outside the allocated buffer. Applications that process untrusted or extremely large Base64 input using GLib may crash or behave unpredictably.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.0-1.fc44",
           "identifier": "rf"
         }
       ]
@@ -158,11 +153,10 @@
       "title": "Glib: Glib: Local denial of service via buffer underflow in content type parsing",
       "description": "A flaw was found in Glib's content type parsing logic. This buffer underflow vulnerability occurs because the length of a header line is stored in a signed integer, which can lead to integer wraparound for very large inputs. This results in pointer underflow and out-of-bounds memory access. Exploitation requires a local user to install or process a specially crafted treemagic file, which can lead to local denial of service or application instability.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.0-1.fc44",
           "identifier": "rf"
         }
       ]
@@ -172,11 +166,10 @@
       "title": "Glib: GLib: Memory corruption via integer overflow in Unicode case conversion",
       "description": "A flaw was found in GLib. An integer overflow vulnerability in its Unicode case conversion implementation can lead to memory corruption. By processing specially crafted and extremely large Unicode strings, an attacker could trigger an undersized memory allocation, resulting in out-of-bounds writes. This could cause applications utilizing GLib for string conversion to crash or become unstable.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.0-1.fc44",
           "identifier": "rf"
         }
       ]
@@ -186,11 +179,10 @@
       "title": "glib: buffer over-read in glib/gvariant-serialiser.c via gvs_tuple_is_normal()",
       "description": "A flaw was found in GLib. An off-by-one error can occur in the gvs_tuple_is_normal function in the glib/gvariant-serialiser.c file when doing an alignment padding check because the bounds check uses \u003e instead of \u003e=, causing an out-of-bounds read of only 1 byte. This issue can cause a minor information disclosure of 1 byte and a denial of service when the out-of-bounds read crosses a page boundary.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.0-1.fc44",
           "identifier": "rf"
         }
       ]
@@ -200,11 +192,10 @@
       "title": "glib: out-of-bounds read in glib/gdatetime.c:g_date_time_get_ymd via invalid GDateTime",
       "description": "A flaw was found in GLib. An out-of-bounds read of only 2 bytes can occur in the g_date_time_get_ymd function in the glib/gdatetime.c file when an invalid GDateTime object produced by the g_date_time_add_full function is processed. This flaw can corrupt the date output and potentially cause logic errors that may lead to a denial of service.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.0-1.fc44",
           "identifier": "rf"
         }
       ]
@@ -214,11 +205,10 @@
       "title": "glib: buffer over-read in g_regex_replace() via glib/gregex.c:string_append() and g_utf8_next_char()",
       "description": "A flaw was found in GLib. A buffer over-read can occur in the g_regex_replace function when used with the `G_REGEX_RAW` compile flag and case-change replacement escapes because the string_append function processes matched substrings using UTF-8 functions that assume valid UTF-8 input, even when the string is treated as raw bytes. This vulnerability can cause a minor information disclosure of 1-5 bytes and a denial of service when the buffer over-read crosses a page boundary.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2.86.5-11.rf",
-          "fixed": "2.87.0-1.fc44",
           "identifier": "rf"
         }
       ]
@@ -231,9 +221,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.5-11.rf",
-          "fixed": "2.88.1-1.fc44",
+          "introduced": "0",
+          "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     },
@@ -245,9 +240,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.5-11.rf",
-          "fixed": "2.88.1-1.fc44",
+          "introduced": "0",
+          "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     },
@@ -259,9 +259,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.5-11.rf",
-          "fixed": "2.88.1-1.fc44",
+          "introduced": "0",
+          "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     },
@@ -273,9 +278,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.5-11.rf",
-          "fixed": "2.88.1-1.fc44",
+          "introduced": "0",
+          "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     }
