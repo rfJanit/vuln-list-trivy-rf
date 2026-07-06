@@ -682,10 +682,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
           "introduced": "0:3.13.11-2.fc42",
           "identifier": "fc42"
         },
