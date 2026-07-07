@@ -27988,7 +27988,7 @@
       "cve_id": "CVE-2026-53190",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/virtio: fix dma_fence refcount leak on error in virtio_gpu_dma_fence_wait()\n\ndma_fence_unwrap_for_each() internally calls dma_fence_unwrap_first()\nwhich does cursor-\u003echain = dma_fence_get(head), taking an extra\nreference. On normal loop completion, dma_fence_unwrap_next()\nreleases this via dma_fence_chain_walk() -\u003e dma_fence_put().\n\nWhen virtio_gpu_do_fence_wait() fails and the function returns early\nfrom inside the loop, the cursor-\u003echain reference is never released.\nThis is the only caller in the entire kernel that does an early return\ninside dma_fence_unwrap_for_each.\n\nAdd dma_fence_put(itr.chain) before the early return.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -28053,7 +28053,7 @@
       "cve_id": "CVE-2026-53195",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nUSB: serial: io_ti: fix heap overflow in build_i2c_fw_hdr()\n\nbuild_i2c_fw_hdr() allocates a fixed-size buffer of\n(16*1024 - 512) + sizeof(struct ti_i2c_firmware_rec) bytes, then\ncopies le16_to_cpu(img_header-\u003eLength) bytes into it without\nvalidating that Length fits within the available space after the\nfirmware record header.\n\nimg_header-\u003eLength is a __le16 from the firmware file and can be\nup to 65535. check_fw_sanity() validates the total firmware size\nbut not img_header-\u003eLength specifically.\n\nFix by rejecting images where img_header-\u003eLength exceeds the\navailable destination space.",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -29244,23 +29244,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-53362": {
-      "cve_id": "CVE-2026-53362",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nipv6: account for fraggap on the paged allocation path\n\nIn __ip6_append_data(), when the paged-allocation branch is taken\n(MSG_MORE / NETIF_F_SG / large fraglen), alloclen and pagedlen are\ncomputed as\n\n\talloclen = fragheaderlen + transhdrlen;\n\tpagedlen = datalen - transhdrlen;\n\ndatalen already includes fraggap (datalen = length + fraggap). When\nfraggap is non-zero, this is not the first skb and transhdrlen is zero.\nThe fraggap bytes carried over from the previous skb are copied just past\nthe fragment headers in the new skb's linear area. The linear area is\ntherefore undersized by fraggap bytes while pagedlen is overstated by the\nsame amount, and the copy writes past skb-\u003eend into the trailing\nskb_shared_info.\n\nAn unprivileged user can trigger this via a UDPv6 socket using\nMSG_MORE together with MSG_SPLICE_PAGES.\n\nThe bad accounting was introduced by commit 773ba4fe9104 (\"ipv6:\navoid partial copy for zc\"). Before commit ce650a166335 (\"udp6: Fix\n__ip6_append_data()'s handling of MSG_SPLICE_PAGES\"), the negative\ncopy value caused -EINVAL to be returned. That later commit allowed\nMSG_SPLICE_PAGES to proceed in this case, making the corruption\ntriggerable.\n\nThe non-paged branch sets alloclen to fraglen, which already accounts\nfor fraggap because datalen does. Bring the paged branch in line by\nadding fraggap to alloclen and subtracting it from pagedlen.\n\nAfter this adjustment, copy no longer collapses to -fraggap on the\npaged path, so remove the stale comment describing that old arithmetic.\nSince a negative copy is no longer expected for a valid MSG_SPLICE_PAGES\ncase, remove the MSG_SPLICE_PAGES exception from the negative copy check.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
         {
           "introduced": "6.17.1-300.fc43",
           "identifier": "fc43"
