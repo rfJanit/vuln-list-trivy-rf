@@ -495,9 +495,9 @@
     },
     "CVE-2026-39043": {
       "cve_id": "CVE-2026-39043",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
-      "severity": "HIGH",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -516,8 +516,8 @@
     },
     "CVE-2026-39044": {
       "cve_id": "CVE-2026-39044",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "open",
       "events": [

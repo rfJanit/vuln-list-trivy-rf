@@ -192,6 +192,10 @@
           "identifier": "el9"
         },
         {
+          "introduced": "0:1.11.0-3.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "1.11.1-2.fc43",
           "fixed": "1.11.1-4.fc43",
           "identifier": "fc43"

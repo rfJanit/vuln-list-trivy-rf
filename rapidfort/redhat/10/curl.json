@@ -2260,6 +2260,32 @@
         }
       ]
     },
+    "CVE-2026-11352": {
+      "cve_id": "CVE-2026-11352",
+      "title": "An issue in curl’s QUIC UDP receive function allows a malicious H ...",
+      "description": "An issue in curl’s QUIC UDP receive function allows a malicious HTTP/3 server\nto trigger a remote denial of service against a curl or libcurl client.\nBecause the helper function discards zero-length UDP datagrams before counting\nthem toward the per-call packet budget, a connected QUIC peer can continuously\nstream empty datagrams to indefinitely stall the client.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
+    },
+    "CVE-2026-11586": {
+      "cve_id": "CVE-2026-11586",
+      "title": "By default, curl automatically responds to WebSocket PING frames. ...",
+      "description": "By default, curl automatically responds to WebSocket PING frames. Because curl\nlacks an upper bound on memory allocation for unacknowledged frames, a\nmalicious server can exhaust all available memory by flooding curl with rapid,\nsequential PING messages.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
+    },
     "CVE-2026-11856": {
       "cve_id": "CVE-2026-11856",
       "title": "Successfully using libcurl to do a transfer to a specific HTTP or ...",
@@ -2280,6 +2306,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
         {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
@@ -2525,6 +2555,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }
@@ -2551,6 +2585,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }
@@ -2564,6 +2602,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }
@@ -2576,6 +2618,10 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
         {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"

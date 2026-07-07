@@ -21653,19 +21653,6 @@
         }
       ]
     },
-    "CVE-2026-43276": {
-      "cve_id": "CVE-2026-43276",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: mana: Fix double destroy_workqueue on service rescan PCI path\n\nWhile testing corner cases in the driver, a use-after-free crash\nwas found on the service rescan PCI path.\n\nWhen mana_serv_reset() calls mana_gd_suspend(), mana_gd_cleanup()\ndestroys gc-\u003eservice_wq. If the subsequent mana_gd_resume() fails\nwith -ETIMEDOUT or -EPROTO, the code falls through to\nmana_serv_rescan() which triggers pci_stop_and_remove_bus_device().\nThis invokes the PCI .remove callback (mana_gd_remove), which calls\nmana_gd_cleanup() a second time, attempting to destroy the already-\nfreed workqueue. Fix this by NULL-checking gc-\u003eservice_wq in\nmana_gd_cleanup() and setting it to NULL after destruction.\n\nCall stack of issue for reference:\n[Sat Feb 21 18:53:48 2026] Call Trace:\n[Sat Feb 21 18:53:48 2026]  \u003cTASK\u003e\n[Sat Feb 21 18:53:48 2026]  mana_gd_cleanup+0x33/0x70 [mana]\n[Sat Feb 21 18:53:48 2026]  mana_gd_remove+0x3a/0xc0 [mana]\n[Sat Feb 21 18:53:48 2026]  pci_device_remove+0x41/0xb0\n[Sat Feb 21 18:53:48 2026]  device_remove+0x46/0x70\n[Sat Feb 21 18:53:48 2026]  device_release_driver_internal+0x1e3/0x250\n[Sat Feb 21 18:53:48 2026]  device_release_driver+0x12/0x20\n[Sat Feb 21 18:53:48 2026]  pci_stop_bus_device+0x6a/0x90\n[Sat Feb 21 18:53:48 2026]  pci_stop_and_remove_bus_device+0x13/0x30\n[Sat Feb 21 18:53:48 2026]  mana_do_service+0x180/0x290 [mana]\n[Sat Feb 21 18:53:48 2026]  mana_serv_func+0x24/0x50 [mana]\n[Sat Feb 21 18:53:48 2026]  process_one_work+0x190/0x3d0\n[Sat Feb 21 18:53:48 2026]  worker_thread+0x16e/0x2e0\n[Sat Feb 21 18:53:48 2026]  kthread+0xf7/0x130\n[Sat Feb 21 18:53:48 2026]  ? __pfx_worker_thread+0x10/0x10\n[Sat Feb 21 18:53:48 2026]  ? __pfx_kthread+0x10/0x10\n[Sat Feb 21 18:53:48 2026]  ret_from_fork+0x269/0x350\n[Sat Feb 21 18:53:48 2026]  ? __pfx_kthread+0x10/0x10\n[Sat Feb 21 18:53:48 2026]  ret_from_fork_asm+0x1a/0x30\n[Sat Feb 21 18:53:48 2026]  \u003c/TASK\u003e",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-43277": {
       "cve_id": "CVE-2026-43277",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -24631,23 +24618,6 @@
         }
       ]
     },
-    "CVE-2026-46116": {
-      "cve_id": "CVE-2026-46116",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm: defensively unhash xfrm_state lists in __xfrm_state_delete\n\nKASAN reproduces a slab-use-after-free in __xfrm_state_delete()'s\nhlist_del_rcu calls under syzkaller load on linux-6.12.y stable\n(reproduced on 6.12.47, also reachable via the same code path on\ntorvalds/master and on the ipsec tree). Nine unique signatures cluster\nin the xfrm_state lifecycle, the load-bearing one being:\n\n  BUG: KASAN: slab-use-after-free in __hlist_del include/linux/list.h:990 [inline]\n  BUG: KASAN: slab-use-after-free in hlist_del_rcu include/linux/rculist.h:516 [inline]\n  BUG: KASAN: slab-use-after-free in __xfrm_state_delete net/xfrm/xfrm_state.c\n  Write of size 8 at addr ffff8881198bcb70 by task kworker/u8:9/435\n\n  Workqueue: netns cleanup_net\n  Call Trace:\n   __hlist_del / hlist_del_rcu\n   __xfrm_state_delete\n   xfrm_state_delete\n   xfrm_state_flush\n   xfrm_state_fini\n   ops_exit_list\n   cleanup_net\n\nThe other observed signatures hit the same slab object from\n__xfrm_state_lookup, xfrm_alloc_spi, __xfrm_state_insert and an OOB\nwrite variant of __xfrm_state_delete, all on the byseq/byspi\nhash chains.\n\n__xfrm_state_delete() guards its byseq and byspi unhashes with\nvalue-based predicates:\n\n\tif (x-\u003ekm.seq)\n\t\thlist_del_rcu(\u0026x-\u003ebyseq);\n\tif (x-\u003eid.spi)\n\t\thlist_del_rcu(\u0026x-\u003ebyspi);\n\nwhile everywhere else in the file (e.g. state_cache, state_cache_input)\nthe safer hlist_unhashed() check is used. xfrm_alloc_spi() sets\nx-\u003eid.spi = newspi inside xfrm_state_lock and then immediately inserts\ninto byspi, but a path that observes x-\u003eid.spi != 0 outside of\nxfrm_state_lock can still skip-or-hit the byspi unhash inconsistently\nwith whether x is actually on the list. The same holds for x-\u003ekm.seq\nversus byseq, and the bydst/bysrc unhashes have no predicate at all,\nso a second __xfrm_state_delete() on the same object writes through\nLIST_POISON pprev.\n\nThe defensive change here:\n\n  - Use hlist_del_init_rcu() instead of hlist_del_rcu() on bydst,\n    bysrc, byseq and byspi so a second deletion is a no-op rather\n    than a write through LIST_POISON pprev. The byseq/byspi nodes\n    are already initialised in xfrm_state_alloc().\n  - Test hlist_unhashed() rather than the value predicate for\n    byseq/byspi, so the unhash decision tracks list state rather than\n    mutable scalar fields.\n\nEmpirical verification: applied this patch on top of v6.12.47, rebuilt,\nand re-ran the same syzkaller harness for 1h16m on a previously-crashy\nconfiguration that produced ~100 hits each of slab-use-after-free\nRead in xfrm_alloc_spi / Read in __xfrm_state_lookup / Write in\n__xfrm_state_delete. After the patch, 7.1M execs across 32 VMs at\n~1550 exec/sec produced zero xfrm_state UAF/OOB hits. /proc/slabinfo\nconfirms the xfrm_state slab is actively allocated and freed during\nthe run (~143 KiB resident), so the fuzzer is still exercising those\ncode paths -- they just no longer crash.\n\nReproduction:\n\n  - Linux 6.12.47 x86_64 + KASAN_GENERIC + KASAN_INLINE + KCOV\n  - syzkaller @ 746545b8b1e4c3a128db8652b340d3df90ce61db\n  - 32 QEMU/KVM VMs x 2 vCPU on AWS c5.metal bare metal\n  - 9 unique signatures collected in ~9h, all within xfrm_state\n    lifecycle",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-46119": {
       "cve_id": "CVE-2026-46119",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -24891,19 +24861,6 @@
           "introduced": "0",
           "identifier": "el6"
         },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-46155": {
-      "cve_id": "CVE-2026-46155",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb/client: fix out-of-bounds read in smb2_compound_op()\n\nIf a server sends a truncated response but a large OutputBufferLength, and\nterminates the EA list early, check_wsl_eas() returns success without\nvalidating that the entire OutputBufferLength fits within iov_len.\n\nThen smb2_compound_op() does:\n    memcpy(idata-\u003ewsl.eas, data[0], size[0]);\n\nWhere size[0] is OutputBufferLength. If iov_len is smaller than size[0],\nmemcpy can read beyond the end of the rsp_iov allocation and leak adjacent\nkernel heap memory.",
-      "severity": "CRITICAL",
-      "status": "open",
-      "events": [
         {
           "introduced": "6.17.1-300.fc43",
           "identifier": "fc43"
@@ -25292,23 +25249,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-46259": {
-      "cve_id": "CVE-2026-46259",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nprocfs: fix missing RCU protection when reading real_parent in do_task_stat()\n\nWhen reading /proc/[pid]/stat, do_task_stat() accesses task-\u003ereal_parent\nwithout proper RCU protection, which leads to:\n\n  cpu 0                               cpu 1\n  -----                               -----\n  do_task_stat\n    var = task-\u003ereal_parent\n                                      release_task\n                                        call_rcu(delayed_put_task_struct)\n    task_tgid_nr_ns(var)\n      rcu_read_lock   \u003c--- Too late to protect task-\u003ereal_parent!\n      task_pid_ptr    \u003c--- UAF!\n      rcu_read_unlock\n\nThis patch uses task_ppid_nr_ns() instead of task_tgid_nr_ns() to add\nproper RCU protection for accessing task-\u003ereal_parent.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
         {
           "introduced": "6.17.1-300.fc43",
           "identifier": "fc43"
