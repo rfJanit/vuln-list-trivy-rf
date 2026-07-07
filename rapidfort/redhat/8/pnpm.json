@@ -290,6 +290,19 @@
           "identifier": "fc43"
         }
       ]
+    },
+    "CVE-2026-59196": {
+      "cve_id": "CVE-2026-59196",
+      "title": "pnpm is a package manager. Prior to 10.34.4 and 11.7.0, a crafted ...",
+      "description": "pnpm is a package manager. Prior to 10.34.4 and 11.7.0, a crafted lockfile alias could be joined directly under a hoisted node_modules directory. Traversal aliases could escape that directory, while reserved aliases such as .bin or .pnpm could overwrite pnpm-owned layout.  This vulnerability is fixed in 10.34.4 and 11.7.0.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "10.12.2-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
     }
   }
 }

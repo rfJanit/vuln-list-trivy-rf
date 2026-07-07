@@ -64,6 +64,25 @@
         }
       ]
     },
+    "CVE-2025-13946": {
+      "cve_id": "CVE-2025-13946",
+      "title": "MEGACO dissector infinite loop in Wireshark 4.6.0 to 4.6.1 and 4. ...",
+      "description": "MEGACO dissector infinite loop in Wireshark 4.6.0 to 4.6.1 and 4.4.0 to 4.4.11 allows denial of service",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.4-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.6.4-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
     "CVE-2026-0959": {
       "cve_id": "CVE-2026-0959",
       "title": "IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2  ...",
@@ -882,10 +901,11 @@
       "title": "SMB2 protocol dissector crash in Wireshark 4.6.0 to 4.6.4 and 4.4 ...",
       "description": "SMB2 protocol dissector crash in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1:4.6.4-1.fc43",
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -952,10 +972,11 @@
       "title": "UDS protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4  ...",
       "description": "UDS protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1:4.6.4-1.fc43",
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -965,10 +986,11 @@
       "title": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial  ...",
       "description": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1:4.6.4-1.fc43",
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -978,10 +1000,11 @@
       "title": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial  ...",
       "description": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1:4.6.4-1.fc43",
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -991,10 +1014,11 @@
       "title": "Memory leak in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows d ...",
       "description": "Memory leak in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1:4.6.4-1.fc43",
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1004,10 +1028,11 @@
       "title": "ROHC protocol dissector crash in Wireshark 4.6.0 to 4.6.5 and 4.4 ...",
       "description": "ROHC protocol dissector crash in Wireshark 4.6.0 to 4.6.5 and 4.4.0 to 4.4.15 allows denial of service",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1:4.6.4-1.fc43",
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.4-1.fc43",
           "identifier": "fc43"
         }
       ]
