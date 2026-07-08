@@ -11,17 +11,17 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "10.5.15-1.fc37",
+          "fixed": "3:10.5.15-1.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "10.5.18-1.fc38",
+          "fixed": "3:10.5.18-1.fc38",
           "identifier": "fc38"
         },
         {
           "introduced": "0",
-          "fixed": "10.5.18-2.fc39",
+          "fixed": "3:10.5.18-2.fc39",
           "identifier": "fc39"
         }
       ]
@@ -35,17 +35,17 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "10.11.9-1.fc41",
+          "fixed": "3:10.11.9-1.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.11-1.fc42",
+          "fixed": "3:10.11.11-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.13-9.fc43",
+          "fixed": "3:10.11.13-9.fc43",
           "identifier": "fc43"
         }
       ]
@@ -59,7 +59,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "11.8.6-1.fc45",
+          "fixed": "3:11.8.6-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -95,7 +95,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "11.8.6-1.fc45",
+          "fixed": "3:11.8.6-1.fc45",
           "identifier": "fc45"
         }
       ]

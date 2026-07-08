@@ -174,7 +174,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.12-55.fc45",
+          "fixed": "1:2.12-55.fc45",
           "identifier": "fc45"
         }
       ]
@@ -196,7 +196,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.12-55.fc45",
+          "fixed": "1:2.12-55.fc45",
           "identifier": "fc45"
         }
       ]
@@ -218,7 +218,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.12-55.fc45",
+          "fixed": "1:2.12-55.fc45",
           "identifier": "fc45"
         }
       ]
@@ -236,7 +236,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.12-55.fc45",
+          "fixed": "1:2.12-55.fc45",
           "identifier": "fc45"
         }
       ]
@@ -258,7 +258,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.12-55.fc45",
+          "fixed": "1:2.12-55.fc45",
           "identifier": "fc45"
         }
       ]
@@ -280,7 +280,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.12-55.fc45",
+          "fixed": "1:2.12-55.fc45",
           "identifier": "fc45"
         }
       ]

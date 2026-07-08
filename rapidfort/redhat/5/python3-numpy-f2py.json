@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.22.0-4.fc37",
+          "fixed": "1:1.22.0-4.fc37",
           "identifier": "fc37"
         }
       ]

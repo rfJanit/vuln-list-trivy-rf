@@ -15,12 +15,12 @@
         },
         {
           "introduced": "7:6.14-2.fc43",
-          "fixed": "7.5-1.fc43",
+          "fixed": "7:7.5-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "7.5-1.fc44",
+          "fixed": "7:7.5-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -55,12 +55,12 @@
         },
         {
           "introduced": "7:6.14-2.fc43",
-          "fixed": "7.5-1.fc43",
+          "fixed": "7:7.5-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "7.5-1.fc44",
+          "fixed": "7:7.5-1.fc44",
           "identifier": "fc44"
         }
       ]

@@ -11,17 +11,17 @@
       "events": [
         {
           "introduced": "1:1.4.3-3.fc43",
-          "fixed": "1.4.3-4.fc43",
+          "fixed": "1:1.4.3-4.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "1.4.3-5.fc44",
+          "fixed": "1:1.4.3-5.fc44",
           "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "1.4.3-5.fc45",
+          "fixed": "1:1.4.3-5.fc45",
           "identifier": "fc45"
         }
       ]

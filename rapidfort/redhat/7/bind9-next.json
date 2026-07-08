@@ -11,12 +11,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.17-1.fc43",
+          "fixed": "32:9.21.17-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.17-2.fc42",
+          "fixed": "32:9.21.17-2.fc42",
           "identifier": "fc42"
         }
       ]
@@ -30,12 +30,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.14-2.fc43",
+          "fixed": "32:9.21.14-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.14-2.fc42",
+          "fixed": "32:9.21.14-2.fc42",
           "identifier": "fc42"
         }
       ]
@@ -49,12 +49,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.14-2.fc43",
+          "fixed": "32:9.21.14-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.14-2.fc42",
+          "fixed": "32:9.21.14-2.fc42",
           "identifier": "fc42"
         }
       ]
@@ -68,17 +68,17 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.14-2.fc43",
+          "fixed": "32:9.21.14-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.14-2.fc42",
+          "fixed": "32:9.21.14-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.14-2.fc44",
+          "fixed": "32:9.21.14-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -92,17 +92,17 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.20-1.fc43",
+          "fixed": "32:9.21.20-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc42",
+          "fixed": "32:9.21.20-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc44",
+          "fixed": "32:9.21.20-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -116,12 +116,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.22-2.fc43",
+          "fixed": "32:9.21.22-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.22-2.fc44",
+          "fixed": "32:9.21.22-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -135,17 +135,17 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.20-1.fc43",
+          "fixed": "32:9.21.20-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc42",
+          "fixed": "32:9.21.20-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc44",
+          "fixed": "32:9.21.20-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -159,17 +159,17 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.20-1.fc43",
+          "fixed": "32:9.21.20-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc42",
+          "fixed": "32:9.21.20-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc44",
+          "fixed": "32:9.21.20-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -183,17 +183,17 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.20-1.fc43",
+          "fixed": "32:9.21.20-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc42",
+          "fixed": "32:9.21.20-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.20-1.fc44",
+          "fixed": "32:9.21.20-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -207,12 +207,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.22-2.fc43",
+          "fixed": "32:9.21.22-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.22-2.fc44",
+          "fixed": "32:9.21.22-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -226,12 +226,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.22-2.fc43",
+          "fixed": "32:9.21.22-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.22-2.fc44",
+          "fixed": "32:9.21.22-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -245,12 +245,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.22-2.fc43",
+          "fixed": "32:9.21.22-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.22-2.fc44",
+          "fixed": "32:9.21.22-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -264,12 +264,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.22-2.fc43",
+          "fixed": "32:9.21.22-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.22-2.fc44",
+          "fixed": "32:9.21.22-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -283,12 +283,12 @@
       "events": [
         {
           "introduced": "32:9.21.11-4.fc43",
-          "fixed": "9.21.22-2.fc43",
+          "fixed": "32:9.21.22-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "9.21.22-2.fc44",
+          "fixed": "32:9.21.22-2.fc44",
           "identifier": "fc44"
         }
       ]

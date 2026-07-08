@@ -28,7 +28,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-1.fc42",
+          "fixed": "0:3.13.12-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -42,12 +42,12 @@
       "events": [
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.12-1.fc45",
+          "fixed": "0:3.13.12-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -82,7 +82,7 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -96,12 +96,12 @@
       "events": [
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.12-1.fc45",
+          "fixed": "0:3.13.12-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -115,12 +115,12 @@
       "events": [
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.12-1.fc45",
+          "fixed": "0:3.13.12-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -134,7 +134,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-1.fc42",
+          "fixed": "0:3.13.12-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -148,12 +148,12 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-1.fc42",
+          "fixed": "0:3.13.12-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.12-1.fc43",
+          "fixed": "0:3.13.12-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -167,12 +167,12 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-1.fc42",
+          "fixed": "0:3.13.12-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.12-1.fc43",
+          "fixed": "0:3.13.12-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -186,12 +186,12 @@
       "events": [
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.11-1.fc43",
+          "fixed": "0:3.13.11-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.11-1.fc42",
+          "fixed": "0:3.13.11-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -205,7 +205,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-1.fc42",
+          "fixed": "0:3.13.12-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -236,7 +236,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-1.fc42",
+          "fixed": "0:3.13.12-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -301,7 +301,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-1.fc42",
+          "fixed": "0:3.13.12-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -319,12 +319,12 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.14-1.fc44",
+          "fixed": "0:3.13.14-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -338,7 +338,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.13-1.fc42",
+          "fixed": "0:3.13.13-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -356,7 +356,7 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -374,12 +374,12 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.14-1.fc44",
+          "fixed": "0:3.13.14-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -397,7 +397,7 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -411,7 +411,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.13-1.fc42",
+          "fixed": "0:3.13.13-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -425,7 +425,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.13-1.fc42",
+          "fixed": "0:3.13.13-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -439,7 +439,7 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.13-1.fc42",
+          "fixed": "0:3.13.13-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -470,22 +470,22 @@
       "events": [
         {
           "introduced": "0:3.13.11-2.fc42",
-          "fixed": "3.13.12-2.fc42",
+          "fixed": "0:3.13.12-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.12-2.fc43",
+          "fixed": "0:3.13.12-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.12-2.fc44",
+          "fixed": "0:3.13.12-2.fc44",
           "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.12-2.fc45",
+          "fixed": "0:3.13.12-2.fc45",
           "identifier": "fc45"
         }
       ]
@@ -503,12 +503,12 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.14-1.fc44",
+          "fixed": "0:3.13.14-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -543,7 +543,7 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -561,12 +561,12 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.14-1.fc44",
+          "fixed": "0:3.13.14-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -584,12 +584,12 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "3.13.14-1.fc44",
+          "fixed": "0:3.13.14-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -607,7 +607,7 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -625,7 +625,7 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -643,7 +643,7 @@
         },
         {
           "introduced": "3.13.7-1.fc43",
-          "fixed": "3.13.14-1.fc43",
+          "fixed": "0:3.13.14-1.fc43",
           "identifier": "fc43"
         }
       ]

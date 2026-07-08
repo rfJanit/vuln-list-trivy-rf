@@ -49,7 +49,7 @@
         },
         {
           "introduced": "2.45-1.fc43",
-          "fixed": "2.45.1-1.fc43",
+          "fixed": "0:2.45.1-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -67,7 +67,7 @@
         },
         {
           "introduced": "2.45-1.fc43",
-          "fixed": "2.45.1-1.fc43",
+          "fixed": "0:2.45.1-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -294,7 +294,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.46-1.fc45",
+          "fixed": "0:2.46-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -317,7 +317,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.46-1.fc45",
+          "fixed": "0:2.46-1.fc45",
           "identifier": "fc45"
         }
       ]

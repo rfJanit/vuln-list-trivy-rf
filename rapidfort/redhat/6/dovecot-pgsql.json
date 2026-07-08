@@ -11,12 +11,12 @@
       "events": [
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.1-8.fc43",
+          "fixed": "1:2.4.1-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.1-6.fc44",
+          "fixed": "1:2.4.1-6.fc44",
           "identifier": "fc44"
         }
       ]
@@ -51,12 +51,12 @@
         },
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.4-1.fc43",
+          "fixed": "1:2.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.4-1.fc44",
+          "fixed": "1:2.4.4-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -74,12 +74,12 @@
         },
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.4-1.fc43",
+          "fixed": "1:2.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.3-2.fc44",
+          "fixed": "1:2.4.3-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -97,12 +97,12 @@
         },
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.3-2.fc43",
+          "fixed": "1:2.4.3-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.3-2.fc44",
+          "fixed": "1:2.4.3-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -154,12 +154,12 @@
         },
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.4-1.fc43",
+          "fixed": "1:2.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.4-1.fc44",
+          "fixed": "1:2.4.4-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -177,12 +177,12 @@
         },
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.4-1.fc43",
+          "fixed": "1:2.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.4-1.fc44",
+          "fixed": "1:2.4.4-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -200,12 +200,12 @@
         },
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.4-1.fc43",
+          "fixed": "1:2.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.4-1.fc44",
+          "fixed": "1:2.4.4-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -223,12 +223,12 @@
         },
         {
           "introduced": "1:2.4.1-5.fc43",
-          "fixed": "2.4.4-1.fc43",
+          "fixed": "1:2.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.4-1.fc44",
+          "fixed": "1:2.4.4-1.fc44",
           "identifier": "fc44"
         }
       ]

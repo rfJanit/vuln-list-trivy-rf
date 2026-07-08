@@ -15,17 +15,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "18.0-1.fc43",
+          "fixed": "0:18.0-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "18.0-2.fc44",
+          "fixed": "0:18.0-2.fc44",
           "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "18.4-1.fc45",
+          "fixed": "0:18.4-1.fc45",
           "identifier": "fc45"
         }
       ]

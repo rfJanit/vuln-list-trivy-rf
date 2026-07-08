@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "1:1.54.0-2.fc43",
-          "fixed": "1.54.3-2.fc43",
+          "fixed": "1:1.54.3-2.fc43",
           "identifier": "fc43"
         }
       ]

@@ -63,7 +63,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "1.17.1-1.fc45",
+          "fixed": "2:1.17.1-1.fc45",
           "identifier": "fc45"
         }
       ]

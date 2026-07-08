@@ -11,12 +11,12 @@
       "events": [
         {
           "introduced": "1:1.2025.4-3.fc43",
-          "fixed": "1.2026.1-1.fc43",
+          "fixed": "1:1.2026.1-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "1.2026.1-1.fc42",
+          "fixed": "1:1.2026.1-1.fc42",
           "identifier": "fc42"
         }
       ]

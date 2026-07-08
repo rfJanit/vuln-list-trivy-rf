@@ -11,47 +11,47 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         }
       ]
@@ -65,47 +65,47 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         }
       ]
@@ -119,47 +119,47 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         }
       ]
@@ -173,47 +173,47 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         }
       ]
@@ -227,67 +227,67 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -301,12 +301,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -320,12 +320,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -339,12 +339,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -358,12 +358,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -377,67 +377,67 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -451,12 +451,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -470,72 +470,72 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -549,7 +549,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -563,7 +563,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -577,7 +577,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -591,7 +591,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -618,72 +618,72 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -697,7 +697,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -711,7 +711,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -725,7 +725,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -739,12 +739,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.7.0-1.fc39",
+          "fixed": "1:20.7.0-1.fc39",
           "identifier": "fc39"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -758,92 +758,92 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "22.4.1-2.fc41",
+          "fixed": "1:22.4.1-2.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "22.14.0-2.fc42",
+          "fixed": "1:22.14.0-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "22.18.0-8.fc43",
+          "fixed": "1:22.18.0-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -857,7 +857,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -871,22 +871,22 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "22.4.1-2.fc41",
+          "fixed": "1:22.4.1-2.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "22.14.0-2.fc42",
+          "fixed": "1:22.14.0-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "22.18.0-8.fc43",
+          "fixed": "1:22.18.0-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -900,72 +900,72 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "20.11.1-2.fc40",
+          "fixed": "1:20.11.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -979,92 +979,92 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "22.4.1-2.fc41",
+          "fixed": "1:22.4.1-2.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "22.14.0-2.fc42",
+          "fixed": "1:22.14.0-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "22.18.0-8.fc43",
+          "fixed": "1:22.18.0-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1082,87 +1082,87 @@
         },
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "22.14.0-2.fc42",
+          "fixed": "1:22.14.0-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "22.18.0-8.fc43",
+          "fixed": "1:22.18.0-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1180,82 +1180,82 @@
         },
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "22.14.0-2.fc42",
+          "fixed": "1:22.14.0-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "22.18.0-8.fc43",
+          "fixed": "1:22.18.0-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1269,87 +1269,87 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         },
         {
           "introduced": "0",
-          "fixed": "22.18.0-8.fc43",
+          "fixed": "1:22.18.0-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1363,87 +1363,87 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         },
         {
           "introduced": "0",
-          "fixed": "22.18.0-8.fc43",
+          "fixed": "1:22.18.0-8.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1457,77 +1457,77 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         }
       ]
@@ -1559,7 +1559,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1578,7 +1578,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1597,7 +1597,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1629,7 +1629,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1648,67 +1648,67 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1807,82 +1807,82 @@
         },
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         },
         {
           "introduced": "0",
-          "fixed": "22.22.0-2.fc44",
+          "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -1910,77 +1910,77 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         }
       ]
@@ -2016,77 +2016,77 @@
         },
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         }
       ]
@@ -2158,77 +2158,77 @@
         },
         {
           "introduced": "0",
-          "fixed": "4.4.1-1.fc24",
+          "fixed": "1:4.4.1-1.fc24",
           "identifier": "fc24"
         },
         {
           "introduced": "0",
-          "fixed": "6.3.1-100.fc25",
+          "fixed": "1:6.3.1-100.fc25",
           "identifier": "fc25"
         },
         {
           "introduced": "0",
-          "fixed": "6.10.0-1.fc26",
+          "fixed": "1:6.10.0-1.fc26",
           "identifier": "fc26"
         },
         {
           "introduced": "0",
-          "fixed": "8.6.0-1.fc27",
+          "fixed": "1:8.6.0-1.fc27",
           "identifier": "fc27"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.0-1.fc28",
+          "fixed": "1:8.11.0-1.fc28",
           "identifier": "fc28"
         },
         {
           "introduced": "0",
-          "fixed": "10.11.0-1.fc29",
+          "fixed": "1:10.11.0-1.fc29",
           "identifier": "fc29"
         },
         {
           "introduced": "0",
-          "fixed": "10.15.3-1.fc30",
+          "fixed": "1:10.15.3-1.fc30",
           "identifier": "fc30"
         },
         {
           "introduced": "0",
-          "fixed": "12.6.0-2.fc31~bootstrap",
+          "fixed": "1:12.6.0-2.fc31~bootstrap",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "12.8.1-1.fc32",
+          "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "12.16.0-1.fc33",
+          "fixed": "1:12.16.0-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "14.7.0-2.fc34",
+          "fixed": "1:14.7.0-2.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "14.16.0-1.fc35",
+          "fixed": "1:14.16.0-1.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "16.8.0-1.fc36",
+          "fixed": "1:16.8.0-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "16.14.0-2.fc37",
+          "fixed": "1:16.14.0-2.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "18.9.0-1.fc38",
+          "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
         }
       ]

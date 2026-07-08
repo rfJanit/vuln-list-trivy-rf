@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.5.1-2.fc40",
+          "fixed": "1:1.5.1-2.fc40",
           "identifier": "fc40"
         }
       ]
@@ -25,22 +25,22 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.8.0-2.fc41",
+          "fixed": "1:1.8.0-2.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "1.8.0-2.fc42",
+          "fixed": "1:1.8.0-2.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "1.8.0-2.fc43",
+          "fixed": "1:1.8.0-2.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "1.8.0-2.fc44",
+          "fixed": "1:1.8.0-2.fc44",
           "identifier": "fc44"
         }
       ]
@@ -54,22 +54,22 @@
       "events": [
         {
           "introduced": "1.8.0-2.fc43",
-          "fixed": "1.9.1-1.fc43",
+          "fixed": "1:1.9.1-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "1.9.1-1.fc42",
+          "fixed": "1:1.9.1-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "1.9.1-1.fc44",
+          "fixed": "1:1.9.1-1.fc44",
           "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "1.9.1-1.fc45",
+          "fixed": "1:1.9.1-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -83,7 +83,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.9.0-1.fc44",
+          "fixed": "1:1.9.0-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -97,7 +97,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.9.0-1.fc44",
+          "fixed": "1:1.9.0-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -111,7 +111,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.9.0-1.fc44",
+          "fixed": "1:1.9.0-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -125,7 +125,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.9.0-1.fc44",
+          "fixed": "1:1.9.0-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -152,7 +152,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1.9.0-1.fc44",
+          "fixed": "1:1.9.0-1.fc44",
           "identifier": "fc44"
         }
       ]

@@ -20,7 +20,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.1.52-2.fc45",
+          "fixed": "1:10.1.52-2.fc45",
           "identifier": "fc45"
         }
       ]
@@ -43,7 +43,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.1.52-2.fc45",
+          "fixed": "1:10.1.52-2.fc45",
           "identifier": "fc45"
         }
       ]
@@ -66,7 +66,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.1.52-2.fc45",
+          "fixed": "1:10.1.52-2.fc45",
           "identifier": "fc45"
         }
       ]
@@ -85,7 +85,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.1.52-2.fc45",
+          "fixed": "1:10.1.52-2.fc45",
           "identifier": "fc45"
         }
       ]
@@ -403,47 +403,47 @@
         },
         {
           "introduced": "0",
-          "fixed": "9.0.26-1.fc31",
+          "fixed": "1:9.0.26-1.fc31",
           "identifier": "fc31"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.26-1.fc32",
+          "fixed": "1:9.0.26-1.fc32",
           "identifier": "fc32"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.31-1.fc33",
+          "fixed": "1:9.0.31-1.fc33",
           "identifier": "fc33"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.38-1.fc34",
+          "fixed": "1:9.0.38-1.fc34",
           "identifier": "fc34"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.43-2.fc35",
+          "fixed": "1:9.0.43-2.fc35",
           "identifier": "fc35"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.52-1.fc36",
+          "fixed": "1:9.0.52-1.fc36",
           "identifier": "fc36"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.59-1.fc37",
+          "fixed": "1:9.0.59-1.fc37",
           "identifier": "fc37"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.68-1.fc38",
+          "fixed": "1:9.0.68-1.fc38",
           "identifier": "fc38"
         },
         {
           "introduced": "0",
-          "fixed": "9.0.73-1.fc39",
+          "fixed": "1:9.0.73-1.fc39",
           "identifier": "fc39"
         }
       ]
