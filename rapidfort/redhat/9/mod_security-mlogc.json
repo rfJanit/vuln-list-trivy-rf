@@ -71,19 +71,6 @@
         }
       ]
     },
-    "CVE-2026-30923": {
-      "cve_id": "CVE-2026-30923",
-      "title": "ModSecurity is an open source, cross platform web application fir ...",
-      "description": "ModSecurity is an open source, cross platform web application firewall (WAF) engine for Apache, IIS and Nginx. Libmodsecurity is one component of the ModSecurity v3 project. A segmentation fault occurs when a rule using the t:hexDecode transformation inspects a query string parameter containing a single character. An attacker can exploit this to crash worker processes, causing a denial of service. Service resumes once the attack stops as worker processes recover from the segfault. All versions before 3.0.15 of libModSecurity3 are affected. This has been patched in version 3.0.15.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        }
-      ]
-    },
     "CVE-2026-42268": {
       "cve_id": "CVE-2026-42268",
       "title": "ModSecurity is an open source, cross platform web application fir ...",

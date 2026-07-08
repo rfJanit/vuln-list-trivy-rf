@@ -91,6 +91,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -137,6 +145,27 @@
         {
           "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.12-2rfubu.1"
+        }
+      ]
+    },
+    "CVE-2025-69534": {
+      "cve_id": "CVE-2025-69534",
+      "title": "Python-Markdown version 3.8 contain a vulnerability where malform ...",
+      "description": "Python-Markdown version 3.8 contain a vulnerability where malformed HTML-like sequences can cause html.parser.HTMLParser to raise an unhandled AssertionError during Markdown parsing. Because Python-Markdown does not catch this exception, any application that processes attacker-controlled Markdown may crash. This enables remote, unauthenticated Denial of Service in web applications, documentation systems, CI/CD pipelines, and any service that renders untrusted Markdown. The issue was acknowledged by the vendor and fixed in version 3.8.1. This issue causes a remote Denial of Service in any application parsing untrusted Markdown, and can lead to Information Disclosure through uncaught exceptions.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -232,6 +261,27 @@
         }
       ]
     },
+    "CVE-2026-1299": {
+      "cve_id": "CVE-2026-1299",
+      "title": "The \nemail module, specifically the \"BytesGenerator\" class, didn’ ...",
+      "description": "The \nemail module, specifically the \"BytesGenerator\" class, didn’t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized. This is only applicable if using \"LiteralHeader\" writing headers that don't respect email folding rules, the new behavior will reject the incorrectly folded headers in \"BytesGenerator\".",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        }
+      ]
+    },
     "CVE-2026-1502": {
       "cve_id": "CVE-2026-1502",
       "title": "CR/LF bytes were not rejected by HTTP client proxy tunnel headers ...",
@@ -252,6 +302,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -275,6 +333,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -319,6 +385,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -413,6 +487,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -436,6 +518,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -482,6 +572,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -505,6 +603,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -551,6 +657,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -574,6 +688,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -624,6 +746,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -647,6 +777,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -670,6 +808,14 @@
         },
         {
           "introduced": "0:3.12.13-2rfubu.1"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "fixed": "0:3.12.3-1ubuntu0.15"
         }
       ]
     }
