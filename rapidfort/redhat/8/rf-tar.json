@@ -53,7 +53,8 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2:1.35-4.fc41"
+          "fixed": "2:1.35-4.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -66,7 +67,8 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2:1.35-4.fc41"
+          "fixed": "2:1.35-4.fc41",
+          "identifier": "fc41"
         }
       ]
     },
