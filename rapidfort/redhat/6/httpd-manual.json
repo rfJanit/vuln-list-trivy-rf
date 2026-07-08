@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "2.4.64-3.fc43",
-          "fixed": "2.4.67-1.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -25,7 +25,7 @@
       "events": [
         {
           "introduced": "2.4.64-3.fc43",
-          "fixed": "2.4.67-1.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -63,7 +63,7 @@
       "events": [
         {
           "introduced": "2.4.64-3.fc43",
-          "fixed": "2.4.67-1.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -132,7 +132,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
-          "fixed": "2.4.67-1.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -165,10 +165,11 @@
       "title": "Use After Free vulnerability in Apache HTTP Server with mod_ldap  ...",
       "description": "Use After Free vulnerability in Apache HTTP Server with mod_ldap in per-directory configuration\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -182,7 +183,7 @@
       "events": [
         {
           "introduced": "2.4.64-3.fc43",
-          "fixed": "2.4.67-1.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -218,6 +219,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -343,6 +345,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -360,6 +363,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -377,6 +381,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -394,6 +399,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -411,6 +417,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -428,6 +435,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -445,6 +453,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -454,10 +463,11 @@
       "title": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerabil ...",
       "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in the mod_proxy_ftp module in Apache HTTP Server with an attacker controlled backend FTP server.\n\nThis issue affects undefined: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -475,6 +485,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -492,6 +503,7 @@
         },
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -501,10 +513,11 @@
       "title": "Memory Allocation with Excessive Size Value vulnerability in Apac ...",
       "description": "Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests.\n\nThis issue affects Apache HTTP Server: from 2.4.17 through 2.4.67.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2.4.64-3.fc43",
+          "fixed": "2.4.68-1.fc43",
           "identifier": "fc43"
         }
       ]

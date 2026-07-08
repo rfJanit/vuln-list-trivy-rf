@@ -62,7 +62,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -81,7 +81,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -100,7 +100,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -119,7 +119,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -142,7 +142,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -165,7 +165,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -188,7 +188,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -211,7 +211,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -234,7 +234,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -253,7 +253,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -276,7 +276,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -299,7 +299,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -335,7 +335,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -354,7 +354,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -377,7 +377,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -400,7 +400,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -423,7 +423,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -446,7 +446,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -469,7 +469,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -488,7 +488,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -511,7 +511,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -534,7 +534,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -557,7 +557,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -580,7 +580,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -603,7 +603,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -622,7 +622,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -645,7 +645,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -971,7 +971,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -990,7 +990,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1026,7 +1026,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1045,7 +1045,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1068,7 +1068,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1091,7 +1091,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1114,7 +1114,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1137,7 +1137,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1156,7 +1156,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1179,7 +1179,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1202,7 +1202,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1225,7 +1225,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1248,7 +1248,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1271,7 +1271,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1294,7 +1294,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1313,7 +1313,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1332,7 +1332,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1355,7 +1355,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1378,7 +1378,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1397,7 +1397,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1446,7 +1446,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1469,7 +1469,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1492,7 +1492,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1515,7 +1515,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1551,7 +1551,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1574,7 +1574,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1597,7 +1597,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1620,7 +1620,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1643,7 +1643,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1666,7 +1666,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1715,7 +1715,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1751,7 +1751,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1774,7 +1774,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1797,7 +1797,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1820,7 +1820,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1843,7 +1843,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1866,7 +1866,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1889,7 +1889,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1912,7 +1912,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1935,7 +1935,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1958,7 +1958,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1981,7 +1981,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2004,7 +2004,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2131,7 +2131,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2154,7 +2154,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2190,7 +2190,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2213,7 +2213,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2236,7 +2236,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2259,7 +2259,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2308,25 +2308,6 @@
         }
       ]
     },
-    "CVE-2026-2447": {
-      "cve_id": "CVE-2026-2447",
-      "title": "Heap buffer overflow in libvpx. This vulnerability was fixed in F ...",
-      "description": "Heap buffer overflow in libvpx. This vulnerability was fixed in Firefox 147.0.4, Firefox ESR 140.7.1, Firefox ESR 115.32.1, Thunderbird 140.7.2, and Thunderbird 147.0.2.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "148.0-2.fc45",
-          "identifier": "fc45"
-        }
-      ]
-    },
     "CVE-2026-25727": {
       "cve_id": "CVE-2026-25727",
       "title": "time provides date and time handling in Rust. From 0.3.6 to befor ...",
@@ -2353,7 +2334,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2376,7 +2357,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2399,7 +2380,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2422,7 +2403,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2458,7 +2439,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2481,7 +2462,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2504,7 +2485,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2527,7 +2508,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2550,7 +2531,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2573,7 +2554,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2596,7 +2577,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2619,7 +2600,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2642,7 +2623,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2665,7 +2646,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2688,7 +2669,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2711,7 +2692,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2734,7 +2715,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2757,7 +2738,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2780,7 +2761,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2803,7 +2784,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2826,7 +2807,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2849,7 +2830,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2872,7 +2853,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2895,7 +2876,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2918,7 +2899,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2941,7 +2922,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2964,7 +2945,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -2987,7 +2968,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3010,7 +2991,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3033,7 +3014,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3056,7 +3037,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3079,7 +3060,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3102,7 +3083,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3125,7 +3106,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3148,7 +3129,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3171,7 +3152,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3194,7 +3175,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3213,7 +3194,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3227,7 +3208,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3241,7 +3222,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3255,7 +3236,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3269,7 +3250,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3283,7 +3264,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3297,7 +3278,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3311,7 +3292,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3325,7 +3306,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3339,7 +3320,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3353,7 +3334,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3367,7 +3348,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3381,7 +3362,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3451,7 +3432,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3539,7 +3520,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3614,7 +3595,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3637,7 +3618,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3660,7 +3641,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3683,7 +3664,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3706,7 +3687,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3729,7 +3710,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3752,7 +3733,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3771,7 +3752,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3785,7 +3766,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3799,7 +3780,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3813,7 +3794,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3827,7 +3808,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3871,23 +3852,6 @@
         }
       ]
     },
-    "CVE-2026-5731": {
-      "cve_id": "CVE-2026-5731",
-      "title": "Memory safety bugs present in Firefox ESR 115.34.0, Firefox ESR 1 ...",
-      "description": "Memory safety bugs present in Firefox ESR 115.34.0, Firefox ESR 140.9.0, Thunderbird ESR 140.9.0, Firefox 149.0.1 and Thunderbird 149.0.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 149.0.2, Firefox ESR 115.34.1, Firefox ESR 140.9.1, Thunderbird 149.0.2, and Thunderbird 140.9.1.",
-      "severity": "CRITICAL",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
-          "introduced": "149.0.1-3.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-5732": {
       "cve_id": "CVE-2026-5732",
       "title": "Incorrect boundary conditions, integer overflow in the Graphics:  ...",
@@ -3901,7 +3865,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3924,7 +3888,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3939,10 +3903,11 @@
       "title": "Memory safety bugs present in Firefox 149.0.1 and Thunderbird 149 ...",
       "description": "Memory safety bugs present in Firefox 149.0.1 and Thunderbird 149.0.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 149.0.2 and Thunderbird 149.0.2.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -3956,7 +3921,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3975,7 +3940,7 @@
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -3998,7 +3963,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4021,7 +3986,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4044,7 +4009,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4067,7 +4032,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4090,7 +4055,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4113,7 +4078,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4136,7 +4101,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4159,7 +4124,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4182,7 +4147,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4197,10 +4162,11 @@
       "title": "Mitigation bypass in the DOM: postMessage component. This vulnera ...",
       "description": "Mitigation bypass in the DOM: postMessage component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4218,7 +4184,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4233,10 +4199,11 @@
       "title": "Use-after-free in the JavaScript: WebAssembly component. This vul ...",
       "description": "Use-after-free in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4254,7 +4221,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4269,10 +4236,11 @@
       "title": "Mitigation bypass in the Networking: Cookies component. This vuln ...",
       "description": "Mitigation bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4290,7 +4258,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4313,7 +4281,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4336,7 +4304,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4359,7 +4327,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4382,7 +4350,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4405,7 +4373,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4428,7 +4396,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4443,10 +4411,11 @@
       "title": "Mitigation bypass in the Networking: Cookies component. This vuln ...",
       "description": "Mitigation bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4464,7 +4433,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4487,7 +4456,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4510,7 +4479,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4533,7 +4502,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4548,10 +4517,11 @@
       "title": "Denial-of-service due to integer overflow in the Graphics: WebGPU ...",
       "description": "Denial-of-service due to integer overflow in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4561,10 +4531,11 @@
       "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
       "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4574,10 +4545,11 @@
       "title": "Incorrect boundary conditions in the WebRTC component. This vulne ...",
       "description": "Incorrect boundary conditions in the WebRTC component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4595,7 +4567,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4610,10 +4582,11 @@
       "title": "Other issue in the Networking: DNS component. This vulnerability  ...",
       "description": "Other issue in the Networking: DNS component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4623,10 +4596,11 @@
       "title": "Invalid pointer in the Audio/Video: Playback component. This vuln ...",
       "description": "Invalid pointer in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4636,10 +4610,11 @@
       "title": "Other issue in the JavaScript Engine component. This vulnerabilit ...",
       "description": "Other issue in the JavaScript Engine component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4649,10 +4624,11 @@
       "title": "Denial-of-service in the Audio/Video: Playback component. This vu ...",
       "description": "Denial-of-service in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4662,10 +4638,11 @@
       "title": "Denial-of-service in the Audio/Video: Playback component. This vu ...",
       "description": "Denial-of-service in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4675,10 +4652,11 @@
       "title": "Information disclosure in the IP Protection component. This vulne ...",
       "description": "Information disclosure in the IP Protection component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4688,10 +4666,11 @@
       "title": "Incorrect boundary conditions, integer overflow in the Audio/Vide ...",
       "description": "Incorrect boundary conditions, integer overflow in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4701,10 +4680,11 @@
       "title": "Memory safety bugs present in Firefox 149 and Thunderbird 149. So ...",
       "description": "Memory safety bugs present in Firefox 149 and Thunderbird 149. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150 and Thunderbird 150.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4722,7 +4702,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4745,7 +4725,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4768,7 +4748,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4791,7 +4771,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4814,7 +4794,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4837,7 +4817,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4852,10 +4832,11 @@
       "title": "Memory safety bugs present in Thunderbird 150.0.0. Some of these  ...",
       "description": "Memory safety bugs present in Thunderbird 150.0.0. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150.0.1 and Thunderbird 150.0.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4873,7 +4854,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4896,7 +4877,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4919,7 +4900,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4929,10 +4910,11 @@
       "title": "Memory safety bugs present in Firefox 150.0.1. Some of these bugs ...",
       "description": "Memory safety bugs present in Firefox 150.0.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150.0.2 and Thunderbird 150.0.2.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -4950,7 +4932,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4973,7 +4955,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -4996,7 +4978,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5011,10 +4993,11 @@
       "title": "Same-origin policy bypass in the DOM: Networking component. This  ...",
       "description": "Same-origin policy bypass in the DOM: Networking component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5032,7 +5015,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5055,7 +5038,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5070,10 +5053,11 @@
       "title": "Privilege escalation in the Application Update component. This vu ...",
       "description": "Privilege escalation in the Application Update component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5091,7 +5075,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5114,7 +5098,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5137,7 +5121,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5160,7 +5144,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5183,7 +5167,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5206,7 +5190,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5229,7 +5213,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5244,10 +5228,11 @@
       "title": "Spoofing issue in WebExtensions. This vulnerability was fixed in  ...",
       "description": "Spoofing issue in WebExtensions. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5265,7 +5250,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5288,7 +5273,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5303,10 +5288,11 @@
       "title": "Spoofing issue in the Web Speech component. This vulnerability wa ...",
       "description": "Spoofing issue in the Web Speech component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5316,10 +5302,11 @@
       "title": "Spoofing issue in the Popup Blocker component. This vulnerability ...",
       "description": "Spoofing issue in the Popup Blocker component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5329,10 +5316,11 @@
       "title": "Information disclosure in the DOM: Security component. This vulne ...",
       "description": "Information disclosure in the DOM: Security component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5342,10 +5330,11 @@
       "title": "Information disclosure in the IP Protection component. This vulne ...",
       "description": "Information disclosure in the IP Protection component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5355,10 +5344,11 @@
       "title": "Information disclosure in the Graphics: WebGPU component. This vu ...",
       "description": "Information disclosure in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5376,7 +5366,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5391,10 +5381,11 @@
       "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
       "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5412,7 +5403,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5427,10 +5418,11 @@
       "title": "Same-origin policy bypass in the Networking: JAR component. This  ...",
       "description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5440,10 +5432,11 @@
       "title": "Privilege escalation in the WebRTC: Audio/Video component. This v ...",
       "description": "Privilege escalation in the WebRTC: Audio/Video component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5453,10 +5446,11 @@
       "title": "Memory safety bugs present in Firefox 150. Some of these bugs sho ...",
       "description": "Memory safety bugs present in Firefox 150. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5474,7 +5468,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -5497,7 +5491,7 @@
         },
         {
           "introduced": "140.3.0-1.fc43",
-          "fixed": "149.0.1-3.fc43",
+          "fixed": "152.0-2.fc43",
           "identifier": "fc43"
         },
         {

@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -39,7 +39,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -62,7 +62,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -80,7 +80,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -98,7 +98,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -116,7 +116,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -134,7 +134,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -152,7 +152,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -170,7 +170,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -184,7 +184,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -198,7 +198,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -216,7 +216,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -234,7 +234,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -252,7 +252,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -270,7 +270,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -288,7 +288,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -306,7 +306,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -324,7 +324,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -342,7 +342,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -360,7 +360,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -374,7 +374,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -384,10 +384,11 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0561, the Python omni-completion script in python3complete.vim for Vim with the +python3 interpreter enabled (and the legacy pythoncomplete.vim for builds with the +python interpreter) executes the import and from statements found in the current buffer through Python's import machinery. Because the buffer's working directory is on sys.path, opening a hostile .py file with a sibling Python package and invoking omni-completion runs that package's top-level code as the editing user. This issue has been patched in version 9.2.0561.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -405,6 +406,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -422,6 +424,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -431,10 +434,11 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.065 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0653, the tree_count_words() function in src/spellfile.c fills in the word-count fields of a spell-file word trie by walking it iteratively with a depth counter. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (arridx[], curi[], wordcount[]). A crafted .spl/.sug file pair, loaded when the user invokes spell suggestion, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0653.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -452,6 +456,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -461,10 +466,11 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.066 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -474,10 +480,11 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.067 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -495,6 +502,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -504,23 +512,11 @@
       "title": "Vim is an open source, command line text editor. From 9.1.1784 un ...",
       "description": "Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-57454": {
-      "cve_id": "CVE-2026-57454",
-      "title": "Vim is an open source, command line text editor. From 9.2.0320 un ...",
-      "description": "Vim is an open source, command line text editor. From 9.2.0320 until 9.2.0679, a crafted undo or swap file can store a virtual-text property whose offset and length point outside the line's property data. When Vim restores or displays such a line it converts the offset into a pointer and reads the virtual text without bounds checking, causing an out-of-bounds read that can crash Vim or disclose adjacent heap memory. This vulnerability is fixed in 9.2.0679.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "2:9.2.530-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -538,6 +534,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -555,6 +552,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
           "identifier": "fc43"
         }
       ]

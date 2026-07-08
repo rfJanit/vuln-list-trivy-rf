@@ -138,20 +138,12 @@
       "title": "In OpenSSH before 10.3, command execution can occur via shell met ...",
       "description": "In OpenSSH before 10.3, command execution can occur via shell metacharacters in a username within a command line. This requires a scenario where the username on the command line is untrusted, and also requires a non-default configurations of % in ssh_config.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "8.7p1-48.el9_7",
           "fixed": "0:9.9p1-7.el9_8",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:9.9p1-13.fc42",
-          "identifier": "fc42"
         },
         {
           "introduced": "10.0p1-5.fc43",

@@ -291,6 +291,19 @@
         }
       ]
     },
+    "CVE-2026-59195": {
+      "cve_id": "CVE-2026-59195",
+      "title": "pnpm is a package manager. Prior to 10.34.4 and 11.8.0, pnpm acce ...",
+      "description": "pnpm is a package manager. Prior to 10.34.4 and 11.8.0, pnpm accepts package names from the env lockfile configDependencies section and uses those names directly when creating config dependency symlinks under node_modules/.pnpm-config. A malicious repository can commit a crafted pnpm-lock.yaml whose env-lockfile document contains a traversal-shaped config dependency name. During pnpm install, pnpm installs the config dependency and creates a symlink at a path derived from that name. This vulnerability is fixed in 10.34.4 and 11.8.0.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "10.12.2-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-59196": {
       "cve_id": "CVE-2026-59196",
       "title": "pnpm is a package manager. Prior to 10.34.4 and 11.7.0, a crafted ...",

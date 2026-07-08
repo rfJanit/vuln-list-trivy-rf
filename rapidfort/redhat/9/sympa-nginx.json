@@ -10,7 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "6.2.78-1.fc43",
+          "introduced": "6.2.78-3.fc43",
           "identifier": "fc43"
         }
       ]

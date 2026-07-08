@@ -7,10 +7,11 @@
       "title": "Issue summary: PBMAC1 parameters in PKCS#12 files are missing val ...",
       "description": "Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation\nwhich can trigger a stack-based buffer overflow, invalid pointer or NULL\npointer dereference during MAC verification.\n\nImpact summary: The stack buffer overflow or NULL pointer dereference may\ncause a crash leading to Denial of Service for an application that parses\nuntrusted PKCS#12 files. The buffer overflow may also potentially enable\ncode execution depending on platform mitigations.\n\nWhen verifying a PKCS#12 file that uses PBMAC1 for the MAC, the PBKDF2\nsalt and keylength parameters from the file are used without validation.\nIf the value of keylength exceeds the size of the fixed stack buffer used\nfor the derived key (64 bytes), the key derivation will overflow the buffer.\nThe overflow length is attacker-controlled. Also, if the salt parameter is\nnot an OCTET STRING type this can lead to invalid or NULL pointer\ndereference.\n\nExploiting this issue requires a user or application to process\na maliciously crafted PKCS#12 file. It is uncommon to accept untrusted\nPKCS#12 files in applications as they are usually used to store private\nkeys which are trusted by definition. For this reason the issue was assessed\nas Moderate severity.\n\nThe FIPS modules in 3.6, 3.5 and 3.4 are not affected by this issue, as\nPKCS#12 processing is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5 and 3.4 are vulnerable to this issue.\n\nOpenSSL 3.3, 3.0, 1.1.1 and 1.0.2 are not affected by this issue as they do\nnot support PBMAC1 in PKCS#12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -25,10 +26,11 @@
       "title": "Issue summary: Parsing CMS AuthEnvelopedData or EnvelopedData mes ...",
       "description": "Issue summary: Parsing CMS AuthEnvelopedData or EnvelopedData message with\nmaliciously crafted AEAD parameters can trigger a stack buffer overflow.\n\nImpact summary: A stack buffer overflow may lead to a crash, causing Denial\nof Service, or potentially remote code execution.\n\nWhen parsing CMS (Auth)EnvelopedData structures that use AEAD ciphers such as\nAES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is\ncopied into a fixed-size stack buffer without verifying that its length fits\nthe destination. An attacker can supply a crafted CMS message with an\noversized IV, causing a stack-based out-of-bounds write before any\nauthentication or tag verification occurs.\n\nApplications and services that parse untrusted CMS or PKCS#7 content using\nAEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM) are vulnerable.\nBecause the overflow occurs prior to authentication, no valid key material\nis required to trigger it. While exploitability to remote code execution\ndepends on platform and toolchain mitigations, the stack-based write\nprimitive represents a severe risk.\n\nThe FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this\nissue, as the CMS implementation is outside the OpenSSL FIPS module\nboundary.\n\nOpenSSL 3.6, 3.5, 3.4, 3.3 and 3.0 are vulnerable to this issue.\n\nOpenSSL 1.1.1 and 1.0.2 are not affected by this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -51,6 +53,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -68,6 +71,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -77,10 +81,11 @@
       "title": "Issue summary: A TLS 1.3 connection using certificate compression ...",
       "description": "Issue summary: A TLS 1.3 connection using certificate compression can be\nforced to allocate a large buffer before decompression without checking\nagainst the configured certificate size limit.\n\nImpact summary: An attacker can cause per-connection memory allocations of\nup to approximately 22 MiB and extra CPU work, potentially leading to\nservice degradation or resource exhaustion (Denial of Service).\n\nIn affected configurations, the peer-supplied uncompressed certificate\nlength from a CompressedCertificate message is used to grow a heap buffer\nprior to decompression. This length is not bounded by the max_cert_list\nsetting, which otherwise constrains certificate message sizes. An attacker\ncan exploit this to cause large per-connection allocations followed by\nhandshake failure. No memory corruption or information disclosure occurs.\n\nThis issue only affects builds where TLS 1.3 certificate compression is\ncompiled in (i.e., not OPENSSL_NO_COMP_ALG) and at least one compression\nalgorithm (brotli, zlib, or zstd) is available, and where the compression\nextension is negotiated. Both clients receiving a server CompressedCertificate\nand servers in mutual TLS scenarios receiving a client CompressedCertificate\nare affected. Servers that do not request client certificates are not\nvulnerable to client-initiated attacks.\n\nUsers can mitigate this issue by setting SSL_OP_NO_RX_CERTIFICATE_COMPRESSION\nto disable receiving compressed certificates.\n\nThe FIPS modules in 3.6, 3.5, 3.4 and 3.3 are not affected by this issue,\nas the TLS implementation is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.\n\nOpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -98,6 +103,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -160,6 +166,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -207,6 +214,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -259,6 +267,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -306,6 +315,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -352,112 +362,6 @@
           "introduced": "0",
           "fixed": "1.1.1i-3.fc35",
           "identifier": "fc35"
-        }
-      ]
-    },
-    "CVE-2025-9230": {
-      "cve_id": "CVE-2025-9230",
-      "title": "Issue summary: An application trying to decrypt CMS messages encr ...",
-      "description": "Issue summary: An application trying to decrypt CMS messages encrypted using\npassword based encryption can trigger an out-of-bounds read and write.\n\nImpact summary: This out-of-bounds read may trigger a crash which leads to\nDenial of Service for an application. The out-of-bounds write can cause\na memory corruption which can have various consequences including\na Denial of Service or Execution of attacker-supplied code.\n\nAlthough the consequences of a successful exploit of this vulnerability\ncould be severe, the probability that the attacker would be able to\nperform it is low. Besides, password based (PWRI) encryption support in CMS\nmessages is very rarely used. For that reason the issue was assessed as\nModerate severity according to our Security Policy.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the CMS implementation is outside the OpenSSL FIPS module\nboundary.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
-        {
-          "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.4-3.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.0.2d-2.fc23",
-          "identifier": "fc23"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.0.2h-1.fc24",
-          "identifier": "fc24"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.0.2h-3.fc25",
-          "identifier": "fc25"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.1.1c-6.fc31",
-          "identifier": "fc31"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.1.1c-6.fc32",
-          "identifier": "fc32"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.1.1d-7.fc33",
-          "identifier": "fc33"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.1.1h-1.fc34",
-          "identifier": "fc34"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.1.1i-3.fc35",
-          "identifier": "fc35"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.5.5-2.fc45",
-          "identifier": "fc45"
-        }
-      ]
-    },
-    "CVE-2025-9231": {
-      "cve_id": "CVE-2025-9231",
-      "title": "Issue summary: A timing side-channel which could potentially allo ...",
-      "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\n\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\n\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\n\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.4-3.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.5.5-2.fc45",
-          "identifier": "fc45"
-        }
-      ]
-    },
-    "CVE-2025-9232": {
-      "cve_id": "CVE-2025-9232",
-      "title": "Issue summary: An application using the OpenSSL HTTP client API f ...",
-      "description": "Issue summary: An application using the OpenSSL HTTP client API functions may\ntrigger an out-of-bounds read if the 'no_proxy' environment variable is set and\nthe host portion of the authority component of the HTTP URL is an IPv6 address.\n\nImpact summary: An out-of-bounds read can trigger a crash which leads to\nDenial of Service for an application.\n\nThe OpenSSL HTTP client API functions can be used directly by applications\nbut they are also used by the OCSP client functions and CMP (Certificate\nManagement Protocol) client implementation in OpenSSL. However the URLs used\nby these implementations are unlikely to be controlled by an attacker.\n\nIn this vulnerable code the out of bounds read can only trigger a crash.\nFurthermore the vulnerability requires an attacker-controlled URL to be\npassed from an application to the OpenSSL function and the user has to have\na 'no_proxy' environment variable set. For the aforementioned reasons the\nissue was assessed as Low severity.\n\nThe vulnerable code was introduced in the following patch releases:\n3.0.16, 3.1.8, 3.2.4, 3.3.3, 3.4.0 and 3.5.0.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the HTTP client implementation is outside the OpenSSL FIPS module\nboundary.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.4-3.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.5.5-2.fc45",
-          "identifier": "fc45"
         }
       ]
     },
@@ -474,6 +378,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -521,6 +426,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -579,7 +485,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.4-3.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -597,6 +503,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -644,6 +551,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -706,6 +614,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -768,6 +677,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -830,7 +740,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.4-3.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -840,10 +750,11 @@
       "title": "Issue summary: Applications using RSASVE key encapsulation to est ...",
       "description": "Issue summary: Applications using RSASVE key encapsulation to establish\na secret encryption key can send contents of an uninitialized memory buffer to\na malicious peer.\n\nImpact summary: The uninitialized buffer might contain sensitive data from the\nprevious execution of the application process which leads to sensitive data\nleakage to an attacker.\n\nRSA_public_encrypt() returns the number of bytes written on success and -1\non error. The affected code tests only whether the return value is non-zero.\nAs a result, if RSA encryption fails, encapsulation can still return success to\nthe caller, set the output lengths, and leave the caller to use the contents of\nthe ciphertext buffer as if a valid KEM ciphertext had been produced.\n\nIf applications use EVP_PKEY_encapsulate() with RSA/RSASVE on an\nattacker-supplied invalid RSA public key without first validating that key,\nthen this may cause stale or uninitialized contents of the caller-provided\nciphertext buffer to be disclosed to the attacker in place of the KEM\nciphertext.\n\nAs a workaround calling EVP_PKEY_public_check() or\nEVP_PKEY_public_check_quick() before EVP_PKEY_encapsulate() will mitigate\nthe issue.\n\nThe FIPS modules in 3.6, 3.5, 3.4, 3.3, 3.1 and 3.0 are affected by this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -866,6 +777,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -920,10 +832,11 @@
       "title": "Issue Summary: The PKCS#12 file processing fails to perform suffi ...",
       "description": "Issue Summary: The PKCS#12 file processing fails to perform sufficient input\nvalidation for files that use Password-Based Message Authentication Code 1\n(PBMAC1) integrity mechanism allowing a certificate and private key forgery.\n\nImpact Summary: An attacker impersonating a user can cause a service reading\nPKCS#12 files to accept forged certificates and private keys with a 1 in 256\nprobability.\n\nIf a service accepting PKCS#12 files is using passwords for authenticating\nthe received files, the attacker can create unencrypted PKCS#12 files that\nuse PBMAC1 authentication that specifies an HMAC key of only one byte, allowing\nthem to craft a file that will be accepted with a 1 in 256 probability.\nThat would then cause the service to accept a certificate and private key\ncontrolled by the attacker.\n\nThe FIPS modules are not affected by this issue, as the affected code is\noutside the OpenSSL FIPS module boundary.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -933,10 +846,11 @@
       "title": "Issue Summary: Cryptographic Message Services (CMS) processing fa ...",
       "description": "Issue Summary: Cryptographic Message Services (CMS) processing fails to perform\nsufficient input validation on the cipher and tag length fields of\nAuthEnvelopedData containers, leading to various potential compromises.\n\nImpact Summary: Attackers making use of these vulnerabilities may achieve\nkey-equivalent functionality for a given CMS recipient and/or bypass integrity\nvalidation for a given message.\n\nIn one use case, an attacker may send a CMS message containing\nAuthEnvelopedData with the cipher specified as a non-AEAD cipher.  OpenSSL\nerroneously allows this selection, and attempts to decrypt and validate the\nmessage.\n\nAn on-path attacker who captures one legitimate AES-GCM AuthEnvelopedData\naddressed to the victim can re-emit it with the recipientInfos set left\nbyte-for-byte intact, so the victim's private key still unwraps the genuine CEK\n(the content-encryption key), but with the inner OID rewritten to AES-256-OFB\n(Output Feedback Mode, an unauthenticated keystream mode) and with an\nattacker-chosen IV and ciphertext. The victim initializes AES-256-OFB under the\nreal CEK, never consults the MAC field, and CMS_decrypt() returns success.\n\nIf the application under attack responds to the attacker with any indicator\nshowing success or failure of the decryption effort, it is possible for the\nattacker to use this as an oracle to obtain key equivalent functionality for the\nCEK used for the chosen recipient of the message.\n\nIn another use case, an attacker can reduce the tag length of the chosen AEAD\ncipher for a given AuthEnvelopedData container to be a single byte long,\nallowing an attacker to brute force CMS decryption, producing an integrity\nbypass for applications that trust CMS_decrypt() to reject modified content.\n\nThe FIPS modules are not affected by this issue.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -946,10 +860,11 @@
       "title": "Issue summary: Remote peer may exhaust heap memory of the QUIC\nse ...",
       "description": "Issue summary: Remote peer may exhaust heap memory of the QUIC\nserver or client by flooding it with packets containing PATH_CHALLENGE\nframes.\n\nImpact summary: A malicious remote peer can cause an unbounded\nmemory allocation which can lead to an abnormal termination of the\napplication acting as a QUIC client or server and a Denial of Service.\n\nA remote peer may exhaust heap memory by flooding the local\nQUIC stack with PATH_CHALLENGE frames. The local QUIC stack\nallocates a PATH_RESPONSE frame for every PATH_CHALLENGE it receives.\nThe allocated PATH_RESPONSE frame gets freed only when the remote\npeer acknowledges reception of the PATH_RESPONSE frame which will\nnot be done by a malicious peer.\n\nThe FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by\nthis issue. The QUIC stack is outside of OpenSSL FIPS module\nboundary.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -959,10 +874,11 @@
       "title": "Issue summary: Receiving a QUIC initial packet with an invalid to ...",
       "description": "Issue summary: Receiving a QUIC initial packet with an invalid token may\ntrigger a NULL pointer dereference in the OpenSSL QUIC server with\naddress validation disabled.\n\nImpact summary: NULL pointer dereference typically causes abnormal termination\nof the affected QUIC server process and a Denial of Service.\n\nIf the address validation is disabled in the OpenSSL QUIC server\nimplementation, an attacker can crash the server by sending an initial\npacket with an invalid or expired token.\n\nBy default, the client address validation is enabled in the OpenSSL QUIC server\nimplementation, which makes the default configuration not vulnerable\nto this issue. However if the SSL_LISTENER_FLAG_NO_VALIDATE is used with\nthe SSL_new_listener() call, the address validation is disabled making the\nvulnerable code reachable.\n\nThe FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this\nissue, as the affected code is outside the OpenSSL FIPS module boundary.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -980,6 +896,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1042,6 +959,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1059,6 +977,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1076,6 +995,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1093,6 +1013,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1102,10 +1023,11 @@
       "title": "Issue summary: When an application drives an AES-OCB context thro ...",
       "description": "Issue summary: When an application drives an AES-OCB context through the\npublic EVP_Cipher() one-shot interface, the application-supplied\ninitialisation vector (IV) is silently discarded.\n\nImpact summary: Every message encrypted under the same key uses the\nsame effective nonce regardless of the IV supplied by the caller,\nresulting in (key, nonce) reuse and loss of confidentiality.  If the\nsame code path is used to compute the authentication tag, the tag\ndepends only on the (key, IV) pair and not on the plaintext or\nciphertext, allowing universal forgery of arbitrary ciphertext from a\nsingle captured message.\n\nOpenSSL provides two ways to drive a cipher: the documented streaming\ninterface (EVP_CipherUpdate / EVP_CipherFinal_ex) and a lower-level\none-shot, EVP_Cipher(), whose documentation explicitly recommends\nagainst use by applications in favour of EVP_CipherUpdate() and\nEVP_CipherFinal_ex().  The OCB provider's streaming handler flushes\nthe application-supplied IV into the OCB context before processing\ndata; the one-shot handler did not.  Every call to EVP_Cipher() on an\nAES-OCB context therefore ran with the all-zero key-derived offset\nstate left by cipher initialisation, regardless of the caller's IV.\n\nIf EVP_EncryptFinal_ex() is subsequently used to obtain the\nauthentication tag, the deferred IV setup runs at that point and\nclears the running checksum that should have been accumulated over the\nplaintext.  The resulting tag is a function of (key, IV) only and\nverifies against any ciphertext produced under the same (key, IV)\npair.\n\nThe OpenSSL SSL/TLS implementation is not affected: AES-OCB is not a\nTLS cipher suite, and libssl does not call EVP_Cipher() in any case.\nApplications that drive AES-OCB through the documented streaming AEAD\nAPI (EVP_CipherUpdate / EVP_CipherFinal_ex) are not affected.  Only\napplications that combine the AES-OCB cipher with the EVP_Cipher()\none-shot API are vulnerable.\n\nThe FIPS modules in 4.0, 3.6, 3.5, 3.4 and 3.0 are not affected by\nthis issue, as AES-OCB is outside the OpenSSL FIPS module boundary.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1123,6 +1045,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1140,6 +1063,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1202,6 +1126,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1264,6 +1189,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
+          "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
         },
         {

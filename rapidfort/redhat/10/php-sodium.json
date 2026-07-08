@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "8.4.13-1.fc43",
-          "fixed": "8.4.21-1.fc43",
+          "fixed": "8.4.22-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -30,7 +30,7 @@
       "events": [
         {
           "introduced": "8.4.13-1.fc43",
-          "fixed": "8.4.21-1.fc43",
+          "fixed": "8.4.22-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -73,7 +73,7 @@
       "events": [
         {
           "introduced": "8.4.13-1.fc43",
-          "fixed": "8.4.21-1.fc43",
+          "fixed": "8.4.22-1.fc43",
           "identifier": "fc43"
         },
         {

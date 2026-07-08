@@ -43,7 +43,7 @@
       "events": [
         {
           "introduced": "3.14.0-1.fc43",
-          "fixed": "3.14.5-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -83,7 +83,7 @@
         },
         {
           "introduced": "3.14.0-1.fc43",
-          "fixed": "3.14.5-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -97,7 +97,7 @@
       "events": [
         {
           "introduced": "3.14.0-1.fc43",
-          "fixed": "3.14.5-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -116,7 +116,7 @@
       "events": [
         {
           "introduced": "3.14.0-1.fc43",
-          "fixed": "3.14.5-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -285,7 +285,7 @@
       "cve_id": "CVE-2026-11940",
       "title": "tarfile.extractall() with the 'data' or 'tar'\n filter could be by ...",
       "description": "tarfile.extractall() with the 'data' or 'tar'\n filter could be bypassed by a crafted archive where a hardlink \nreferences a symlink stored at a deeper name than the hardlink itself.  \nThe extraction fallback validated the symlink at it's archived location \nbut recreated it at the hardlink's shallower\npath, letting a relative\n target the filter judged contained escape the destination directory.  \nThis allowed a malicious tar archive to create a symlink pointing \noutside the destination, enabling out-of-destination file reads or \nwrites. This was an incomplete fix of CVE-2025-4330.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -404,7 +404,7 @@
       "events": [
         {
           "introduced": "3.14.0-1.fc43",
-          "fixed": "3.14.5-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -445,7 +445,7 @@
         },
         {
           "introduced": "3.14.0-1.fc43",
-          "fixed": "3.14.5-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -637,7 +637,7 @@
       "events": [
         {
           "introduced": "3.14.0-1.fc43",
-          "fixed": "3.14.5-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -699,10 +699,11 @@
       "title": "tarfile.data_filter could be bypassed using crafted link entries, ...",
       "description": "tarfile.data_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() to write files outside the destination directory, subject to the permissions of the extracting process.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "3.14.0-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -736,10 +737,11 @@
       "title": "bz2.BZ2Decompressor objects could be reused after a decompression ...",
       "description": "bz2.BZ2Decompressor objects could be reused after a decompression error. If an application caught the resulting OSError and retried with the same decompressor, crafted input could cause the decompressor to resume from an invalid internal state and perform out-of-bounds writes to a stack buffer. This could crash the process when processing untrusted data.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "3.14.0-1.fc43",
+          "fixed": "3.14.6-1.fc43",
           "identifier": "fc43"
         }
       ]

@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1156,7 +1156,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1179,7 +1179,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1202,7 +1202,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1225,7 +1225,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1805,7 +1805,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1851,7 +1851,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1869,7 +1869,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1887,7 +1887,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1905,7 +1905,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.26.0-4.fc43",
+          "fixed": "2:3.27.1-1.fc43",
           "identifier": "fc43"
         }
       ]

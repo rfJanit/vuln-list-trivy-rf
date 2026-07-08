@@ -148,14 +148,6 @@
           "identifier": "el6"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:9.9p1-13.fc42",
-          "identifier": "fc42"
-        },
-        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
