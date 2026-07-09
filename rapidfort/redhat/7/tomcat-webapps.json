@@ -456,6 +456,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
           "introduced": "1:10.1.46-1.fc43",
           "identifier": "fc43"
         }

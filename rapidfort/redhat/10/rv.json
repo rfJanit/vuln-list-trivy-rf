@@ -17025,7 +17025,7 @@
       "cve_id": "CVE-2025-71315",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/vkms: Convert to DRM's vblank timer\n\nReplace vkms' vblank timer with the DRM implementation. The DRM\ncode is identical in concept, but differs in implementation.\n\nVblank timers are covered in vblank helpers and initializer macros,\nso remove the corresponding hrtimer in struct vkms_output. The\nvblank timer calls vkms' custom timeout code via handle_vblank_timeout\nin struct drm_crtc_helper_funcs.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -30095,7 +30095,7 @@
       "cve_id": "CVE-2026-46294",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm: fix a buffer overflow in ioctl processing\n\nTony Asleson (using Claude) found a buffer overflow in dm-ioctl in the\nfunction retrieve_status:\n\n1. The code in retrieve_status checks that the output string fits into\n   the output buffer and writes the output string there\n2. Then, the code aligns the \"outptr\" variable to the next 8-byte\n   boundary:\n\toutptr = align_ptr(outptr);\n3. The alignment doesn't check overflow, so outptr could point past the\n   buffer end\n4. The \"for\" loop is iterated again, it executes:\n\tremaining = len - (outptr - outbuf);\n5. If \"outptr\" points past \"outbuf + len\", the arithmetics wraps around\n   and the variable \"remaining\" contains unusually high number\n6. With \"remaining\" being high, the code writes more data past the end of\n   the buffer\n\nLuckily, this bug has no security implications because:\n1. Only root can issue device mapper ioctls\n2. The commonly used libraries that communicate with device mapper\n   (libdevmapper and devicemapper-rs) use buffer size that is aligned to\n   8 bytes - thus, \"outptr = align_ptr(outptr)\" can't overshoot the input\n   buffer and the bug can't happen accidentally",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -30112,7 +30112,7 @@
       "cve_id": "CVE-2026-46298",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\npseries/papr-hvpipe: Fix race with interrupt handler\n\nWhile executing -\u003eioctl handler or -\u003erelease handler, if an interrupt\nfires on the same cpu, then we can enter into a deadlock.\n\nThis patch fixes both these handlers to take spin_lock_irq{save|restore}\nversions of the lock to prevent this deadlock.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -30153,7 +30153,7 @@
       "cve_id": "CVE-2026-46302",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nselinux: allow multiple opens of /sys/fs/selinux/policy\n\nCurrently there can only be a single open of /sys/fs/selinux/policy at\nany time. This allows any process to block any other process from\nreading the kernel policy. The original motivation seems to have been\na mix of preventing an inconsistent view of the policy size and\npreventing userspace from allocating kernel memory without bound, but\nthis is arguably equally bad. Eliminate the policy_opened flag and\nshrink the critical section that the policy mutex is held. While we\nare making changes here, drop a couple of extraneous BUG_ONs.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -30517,7 +30517,7 @@
       "cve_id": "CVE-2026-52921",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: ipset: stop hash:* range iteration at end\n\nThe following hash set variants:\n\nhash:ip,mark\nhash:ip,port\nhash:ip,port,ip\nhash:ip,port,net\n\niterate IPv4 ranges with a 32-bit iterator.\n\nThe iterator must stop once the last address in the requested range has\nbeen processed. Advancing it once more can move the traversal state past\nthe end of the request, so a later retry may continue from an unintended\nposition.\n\nHandle the iterator increment explicitly at the end of the loop and stop\nonce the upper bound has been processed. This keeps the existing retry\nbehaviour intact for valid ranges while preventing traversal from\ncontinuing past the original boundary.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -30670,7 +30670,7 @@
       "cve_id": "CVE-2026-52936",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: jitterentropy - replace long-held spinlock with mutex\n\njent_kcapi_random() serializes the shared jitterentropy state, but it\ncurrently holds a spinlock across the jent_read_entropy() call. That\npath performs expensive jitter collection and SHA3 conditioning, so\nparallel readers can trigger stalls as contending waiters spin for\nthe same lock.\n\nTo prevent non-preemptible lock hold, replace rng-\u003ejent_lock with a\nmutex so contended readers sleep instead of spinning on a shared lock\nheld across expensive entropy generation.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -30704,7 +30704,7 @@
       "cve_id": "CVE-2026-52941",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/smc: avoid NULL deref of conn-\u003elnk in smc_msg_event tracepoint\n\nThe smc_msg_event tracepoint class, shared by smc_tx_sendmsg and\nsmc_rx_recvmsg, unconditionally dereferences smc-\u003econn.lnk:\n\n\t__string(name, smc-\u003econn.lnk-\u003eibname)\n\nconn-\u003elnk is only set for SMC-R; for SMC-D it is NULL. Other code on\nthese paths already handles this (e.g. !conn-\u003elnk in\nSMC_STAT_RMB_TX_SIZE_SMALL()). With the tracepoint enabled, the first\nsendmsg()/recvmsg() on an SMC-D socket crashes:\n\n  Oops: general protection fault, probably for non-canonical address\n  KASAN: null-ptr-deref in range [...]\n  RIP: 0010:strlen+0x1e/0xa0\n  Call Trace:\n   trace_event_raw_event_smc_msg_event (net/smc/smc_tracepoint.h:44)\n   smc_rx_recvmsg (net/smc/smc_rx.c:515)\n   smc_recvmsg (net/smc/af_smc.c:2859)\n   __sys_recvfrom (net/socket.c:2315)\n   __x64_sys_recvfrom (net/socket.c:2326)\n   do_syscall_64\n\nThe faulting address 0x3e0 is offsetof(struct smc_link, ibname),\nconfirming the NULL -\u003elnk deref. Enabling the tracepoint requires\nroot, but the trigger itself is unprivileged: socket(AF_SMC, ...) has\nno capability check, and SMC-D negotiation needs no admin step on\ns390 or on x86 with the loopback ISM device loaded.\n\nLog an empty device name for SMC-D instead of dereferencing NULL.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -33764,7 +33764,7 @@
       "cve_id": "CVE-2026-53251",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: ISO: Fix not releasing hdev reference on iso_conn_big_sync\n\nhci_get_route() returns a reference-counted hci_dev pointer via\nhci_dev_hold(). The function exits normally or with an error without ever\nreleasing it.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -33781,7 +33781,7 @@
       "cve_id": "CVE-2026-53252",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: fix memory leak in error path of hci_alloc_dev()\n\nEarly failures in Bluetooth HCI UART configuration leak SRCU percpu\nmemory.\n\nWhen device initialization fails before hci_register_dev() completes,\nthe HCI_UNREGISTER flag is never set. As a result, when the device\nreference count reaches zero, bt_host_release() evaluates this flag as\nfalse and falls back to a direct kfree(hdev).\n\nBecause hci_release_dev() is bypassed, the SRCU struct initialized\nearly in hci_alloc_dev() is never cleaned up, resulting in a leak of\npercpu memory.\n\nFix the leak by explicitly calling cleanup_srcu_struct() in the\nfallback (unregistered) branch of bt_host_release() before freeing\nthe device.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -33832,7 +33832,7 @@
       "cve_id": "CVE-2026-53255",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: MGMT: validate advertising TLV before type checks\n\ntlv_data_is_valid() reads each advertising data field length from\ndata[i], then inspects data[i + 1] for managed EIR types before\nchecking that the current field still fits inside the supplied buffer.\n\nA malformed field whose length byte is the last byte of the buffer can\ntherefore make the parser read one byte past the advertising data.\n\nKASAN reported the following when a malformed MGMT_OP_ADD_ADVERTISING\nrequest reached that path:\n\n  BUG: KASAN: vmalloc-out-of-bounds in tlv_data_is_valid()\n  Read of size 1\n  Call trace:\n    tlv_data_is_valid()\n    add_advertising()\n    hci_mgmt_cmd()\n    hci_sock_sendmsg()\n\nMove the existing element-length check before any type-octet inspection\nso each non-empty element is proven to contain its type byte before the\nparser looks at data[i + 1].",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -33883,7 +33883,7 @@
       "cve_id": "CVE-2026-53258",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: fix leak if split 6 GHz scanning fails\n\nrdev-\u003eint_scan_req is leaked if cfg80211_scan() fails.  Note that it's\nsupposed to be released at ___cfg80211_scan_done() but this doesn't happen\nas rdev-\u003escan_req is NULL at that point, too, leading to the early return\nfrom the freeing function.\n\nunreferenced object 0xffff8881161d0800 (size 512):\n  comm \"wpa_supplicant\", pid 379, jiffies 4294749765\n  hex dump (first 32 bytes):\n    00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................\n    00 00 00 00 00 00 00 00 f0 81 13 16 81 88 ff ff  ................\n  backtrace (crc c867fdb6):\n    kmemleak_alloc+0x89/0x90\n    __kmalloc_noprof+0x2fd/0x410\n    cfg80211_scan+0x133/0x730\n    nl80211_trigger_scan+0xc69/0x1cc0\n    genl_family_rcv_msg_doit+0x204/0x2f0\n    genl_rcv_msg+0x431/0x6b0\n    netlink_rcv_skb+0x143/0x3f0\n    genl_rcv+0x27/0x40\n    netlink_unicast+0x4f6/0x820\n    netlink_sendmsg+0x797/0xce0\n    __sock_sendmsg+0xc4/0x160\n    ____sys_sendmsg+0x5e4/0x890\n    ___sys_sendmsg+0xf8/0x180\n    __sys_sendmsg+0x136/0x1e0\n    __x64_sys_sendmsg+0x76/0xc0\n    x64_sys_call+0x13f0/0x17d0\n\nFound by Linux Verification Center (linuxtesting.org).",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -33900,7 +33900,7 @@
       "cve_id": "CVE-2026-53261",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndevlink: Release nested relation on devlink free\n\ndevlink relation state is normally released from devl_unregister(), which\ncalls devlink_rel_put(). This misses devlink instances that get a nested\nrelation before registration and then fail probe before devl_register() is\nreached.\n\nThat flow can happen for SFs. The child devlink gets linked to its\nparent before registration, then a later probe error calls devlink_free()\ndirectly. Since the instance was never registered, devl_unregister() is not\ncalled and devlink-\u003erel is leaked.\n\nRelease any pending relation from devlink_free() as well. The registered\npath is unchanged because devl_unregister() already clears devlink-\u003erel\nbefore devlink_free() runs.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -33934,23 +33934,6 @@
       "cve_id": "CVE-2026-53265",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndm cache policy smq: check allocation under invalidate lock\n\ncommit 2d1f7b65f5de (\"dm cache policy smq: fix missing locks in\ninvalidating cache blocks\") added mq-\u003elock around the destructive part of\nsmq_invalidate_mapping(), but left the e-\u003eallocated check outside the\ncritical section.\n\nThat leaves a check-then-act race. Two concurrent invalidators can both\nobserve e-\u003eallocated as true before either of them takes mq-\u003elock. The\nfirst invalidator that acquires the lock removes the entry from the\nqueues and hash table and then calls free_entry(), which clears\ne-\u003eallocated and puts the entry back on the free list. The second\ninvalidator can then acquire mq-\u003elock and continue with the stale result\nof the unlocked check.\n\nThis can corrupt the SMQ queues or hash table by deleting an entry that\nis no longer on those structures. It can also hit the allocation check in\nfree_entry() when the same entry is freed again.\n\nMove the allocation check under mq-\u003elock so the predicate and the\ndestructive operations are serialized by the same lock.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-53266": {
-      "cve_id": "CVE-2026-53266",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: bridge: make ebt_snat ARP rewrite writable\n\nThe ebtables SNAT target keeps the Ethernet source address rewrite\nbehind skb_ensure_writable(skb, 0).  This is intentional: at the bridge\nebtables hooks the Ethernet header is addressed through\nskb_mac_header()/eth_hdr(), while skb-\u003edata points at the Ethernet\npayload.  Asking skb_ensure_writable() for ETH_HLEN bytes would check\nthe payload, not the Ethernet header, and would reintroduce the small\npacket regression fixed by commit 63137bc5882a.\n\nHowever, the optional ARP sender hardware address rewrite is different.\nIt writes through skb_store_bits() at an offset relative to skb-\u003edata:\n\n        skb_store_bits(skb, sizeof(struct arphdr), info-\u003emac, ETH_ALEN)\n\nskb_header_pointer() only safely reads the ARP header; it does not make\nthe later sender hardware address range writable.  If that range is\nstill held in a nonlinear skb fragment backed by a splice-imported file\npage, skb_store_bits() maps the frag page and copies the new MAC address\ndirectly into it.\n\nEnsure the ARP SHA range is writable before reading the ARP header and\nbefore calling skb_store_bits().",
       "severity": "HIGH",
       "status": "open",
       "events": [

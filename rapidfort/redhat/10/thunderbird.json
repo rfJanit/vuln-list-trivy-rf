@@ -974,6 +974,23 @@
         }
       ]
     },
+    "CVE-2025-70103": {
+      "cve_id": "CVE-2025-70103",
+      "title": "Heap buffer overflow vulnerability in libjxl 0.12.0 via crafted P ...",
+      "description": "Heap buffer overflow vulnerability in libjxl 0.12.0 via crafted PBM images to the jxl::extras::DecodeImagePNM function in file lib/extras/dec/pnm.cc.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2025-8043": {
       "cve_id": "CVE-2025-8043",
       "title": "Focus incorrectly truncated URLs towards the beginning instead of ...",

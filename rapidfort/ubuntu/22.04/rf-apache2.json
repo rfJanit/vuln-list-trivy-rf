@@ -618,11 +618,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -669,11 +669,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -788,11 +788,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -805,11 +805,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -822,11 +822,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -839,11 +839,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -856,11 +856,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -873,11 +873,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -890,11 +890,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -907,11 +907,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -924,11 +924,11 @@
       "events": [
         {
           "introduced": "0:2.4.52-1ubuntu4",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.52-1ubuntu4.23"
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },
@@ -940,8 +940,12 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:2.4.52-1ubuntu4",
+          "fixed": "0:2.4.52-1ubuntu4.23"
+        },
+        {
           "introduced": "0:2.4.58-1ubuntu8",
-          "fixed": "0:2.4.68-1ubuntu1"
+          "fixed": "0:2.4.58-1ubuntu8.15"
         }
       ]
     },

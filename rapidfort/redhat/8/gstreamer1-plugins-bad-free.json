@@ -77,10 +77,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "1.26.6-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -94,10 +90,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "1.26.6-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -111,10 +103,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "1.26.6-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -145,10 +133,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "1.26.6-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },

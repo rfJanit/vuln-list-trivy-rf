@@ -61,10 +61,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
           "introduced": "5.42.0-520.fc43",
           "identifier": "fc43"
         }

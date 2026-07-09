@@ -176,6 +176,23 @@
           "identifier": "fc45"
         }
       ]
+    },
+    "CVE-2026-37460": {
+      "cve_id": "CVE-2026-37460",
+      "title": "Missing input validation in the rfapiRibBi2Ri() function (rfapi_r ...",
+      "description": "Missing input validation in the rfapiRibBi2Ri() function (rfapi_rib.c) of FRRouting (FRR) stable/10.0 to stable/10.6 allows attackers to cause a Denial of Service (DoS) via supplying a crafted BGP UPDATE message.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "10.4.1-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
     }
   }
 }
