@@ -10,8 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42.2-1.fc45",
-          "identifier": "fc45"
+          "introduced": "2.42.2-1.fc45.rf",
+          "identifier": "rf"
         }
       ]
     },

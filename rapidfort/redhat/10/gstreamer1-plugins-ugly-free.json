@@ -2,23 +2,6 @@
   "package_name": "gstreamer1-plugins-ugly-free",
   "distro_version": "10",
   "advisories": {
-    "CVE-2026-53703": {
-      "cve_id": "CVE-2026-53703",
-      "title": "A vulnerability was found in the GStreamer RealMedia demuxer (gst ...",
-      "description": "A vulnerability was found in the GStreamer RealMedia demuxer (gst-plugins-ugly). When processing a RealMedia (.rm) file, the demuxer parses MDPR (media properties) chunks to configure audio streams. For audio stream header versions 4 and 5, the parser reads fields such as codec type, packet size, sample rate, channel count, and extra codec data length from fixed offsets within the chunk without first checking that the chunk contains enough data. If a malicious file provides an MDPR chunk that is too small to contain a complete audio stream header, the parser reads beyond the end of the buffer. This can cause the application to crash. In some cases, bytes read past the buffer boundary may be incorporated into stream metadata, which could result in limited information disclosure.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "1.26.6-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-53704": {
       "cve_id": "CVE-2026-53704",
       "title": "A flaw was found in GStreamer's RealMedia demuxer in the gst-plug ...",

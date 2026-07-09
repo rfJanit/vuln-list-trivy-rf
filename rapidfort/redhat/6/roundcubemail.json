@@ -364,6 +364,44 @@
           "identifier": "fc44"
         }
       ]
+    },
+    "CVE-2026-54432": {
+      "cve_id": "CVE-2026-54432",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.6.11-2.fc43",
+          "fixed": "1.6.17-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.7.2-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-54433": {
+      "cve_id": "CVE-2026-54433",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.6.11-2.fc43",
+          "fixed": "1.6.17-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.7.2-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
     }
   }
 }

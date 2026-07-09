@@ -49,6 +49,30 @@
           "identifier": "fc45"
         }
       ]
+    },
+    "CVE-2026-14454": {
+      "cve_id": "CVE-2026-14454",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.028-3.fc43",
+          "fixed": "1.033-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.033-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.033-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
     }
   }
 }

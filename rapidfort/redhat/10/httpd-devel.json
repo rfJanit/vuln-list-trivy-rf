@@ -116,12 +116,8 @@
       "title": "An escalation of privilege bug in various modules in Apache HTTP  ...",
       "description": "An escalation of privilege bug in various modules in Apache HTTP 2.4.66 and earlier allows local .htaccess authors to read files with the privileges of the httpd user.\n\nUsers are recommended to upgrade to version 2.4.67, which fixes this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -217,12 +213,8 @@
       "title": "A timing attack against mod_auth_digest in Apache HTTP Server 2.4 ...",
       "description": "A timing attack against mod_auth_digest in Apache HTTP Server 2.4.66 allows a bypass of Digest authentication by a remote attacker.\n\nUsers are recommended to upgrade to version 2.4.67, which fixes this issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.67-1.fc43",
@@ -337,12 +329,8 @@
       "title": "A path handling issue in mod_dav_fs in Apache 2.4.67 and earlier  ...",
       "description": "A path handling issue in mod_dav_fs in Apache 2.4.67 and earlier allows a WebDAV content author to directly manipulate trusted DAV property databases, potentially causing child process crashes.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes this issue.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -369,12 +357,8 @@
       "title": "Out-of-bounds Read vulnerability in Apache HTTP Server with mod_h ...",
       "description": "Out-of-bounds Read vulnerability in Apache HTTP Server with mod_headers and mod_mime and multiple response languages.\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -387,12 +371,8 @@
       "title": "Improper Privilege Management vulnerability in Apache HTTP Server ...",
       "description": "Improper Privilege Management vulnerability in Apache HTTP Server 2.4.67 and earlier allows local .htaccess authors to read files with the privileges of the httpd user.\n\nThis issue affects Apache HTTP Server: from through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",

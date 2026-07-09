@@ -439,8 +439,12 @@
       "title": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerabil ...",
       "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in the mod_proxy_ftp module in Apache HTTP Server with an attacker controlled backend FTP server.\n\nThis issue affects undefined: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "1:2.4.64-3.fc43",
           "fixed": "1:2.4.68-1.fc43",
