@@ -44,27 +44,6 @@
         }
       ]
     },
-    "CVE-2023-28164": {
-      "cve_id": "CVE-2023-28164",
-      "title": "Dragging a URL from a cross-origin iframe that was removed during ...",
-      "description": "Dragging a URL from a cross-origin iframe that was removed during the drag could have led to user confusion and website spoofing attacks. This vulnerability affects Firefox \u003c 111, Firefox ESR \u003c 102.9, and Thunderbird \u003c 102.9.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "132.0.2-r0"
-        },
-        {
-          "introduced": "132.0.2-r0"
-        },
-        {
-          "introduced": "136.0.4-r0"
-        },
-        {
-          "introduced": "142.0-r0"
-        }
-      ]
-    },
     "CVE-2024-11691": {
       "cve_id": "CVE-2024-11691",
       "title": "Certain WebGL operations on Apple silicon M series devices could  ...",

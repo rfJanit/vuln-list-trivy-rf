@@ -494,11 +494,6 @@
           "introduced": "0",
           "fixed": "8.21.0-10.rf",
           "identifier": "rf"
-        },
-        {
-          "introduced": "8.21.0~rc3-3.fc45",
-          "fixed": "8.21.0-1.fc45",
-          "identifier": "fc45"
         }
       ]
     },

@@ -13442,19 +13442,6 @@
         }
       ]
     },
-    "CVE-2025-71066": {
-      "cve_id": "CVE-2025-71066",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: ets: Always remove class from active list before deleting in ets_qdisc_change\n\nzdi-disclosures@trendmicro.com says:\n\nThe vulnerability is a race condition between `ets_qdisc_dequeue` and\n`ets_qdisc_change`.  It leads to UAF on `struct Qdisc` object.\nAttacker requires the capability to create new user and network namespace\nin order to trigger the bug.\nSee my additional commentary at the end of the analysis.\n\nAnalysis:\n\nstatic int ets_qdisc_change(struct Qdisc *sch, struct nlattr *opt,\n                          struct netlink_ext_ack *extack)\n{\n...\n\n      // (1) this lock is preventing .change handler (`ets_qdisc_change`)\n      //to race with .dequeue handler (`ets_qdisc_dequeue`)\n      sch_tree_lock(sch);\n\n      for (i = nbands; i \u003c oldbands; i++) {\n              if (i \u003e= q-\u003enstrict \u0026\u0026 q-\u003eclasses[i].qdisc-\u003eq.qlen)\n                      list_del_init(\u0026q-\u003eclasses[i].alist);\n              qdisc_purge_queue(q-\u003eclasses[i].qdisc);\n      }\n\n      WRITE_ONCE(q-\u003enbands, nbands);\n      for (i = nstrict; i \u003c q-\u003enstrict; i++) {\n              if (q-\u003eclasses[i].qdisc-\u003eq.qlen) {\n\t\t      // (2) the class is added to the q-\u003eactive\n                      list_add_tail(\u0026q-\u003eclasses[i].alist, \u0026q-\u003eactive);\n                      q-\u003eclasses[i].deficit = quanta[i];\n              }\n      }\n      WRITE_ONCE(q-\u003enstrict, nstrict);\n      memcpy(q-\u003eprio2band, priomap, sizeof(priomap));\n\n      for (i = 0; i \u003c q-\u003enbands; i++)\n              WRITE_ONCE(q-\u003eclasses[i].quantum, quanta[i]);\n\n      for (i = oldbands; i \u003c q-\u003enbands; i++) {\n              q-\u003eclasses[i].qdisc = queues[i];\n              if (q-\u003eclasses[i].qdisc != \u0026noop_qdisc)\n                      qdisc_hash_add(q-\u003eclasses[i].qdisc, true);\n      }\n\n      // (3) the qdisc is unlocked, now dequeue can be called in parallel\n      // to the rest of .change handler\n      sch_tree_unlock(sch);\n\n      ets_offload_change(sch);\n      for (i = q-\u003enbands; i \u003c oldbands; i++) {\n\t      // (4) we're reducing the refcount for our class's qdisc and\n\t      //  freeing it\n              qdisc_put(q-\u003eclasses[i].qdisc);\n\t      // (5) If we call .dequeue between (4) and (5), we will have\n\t      // a strong UAF and we can control RIP\n              q-\u003eclasses[i].qdisc = NULL;\n              WRITE_ONCE(q-\u003eclasses[i].quantum, 0);\n              q-\u003eclasses[i].deficit = 0;\n              gnet_stats_basic_sync_init(\u0026q-\u003eclasses[i].bstats);\n              memset(\u0026q-\u003eclasses[i].qstats, 0, sizeof(q-\u003eclasses[i].qstats));\n      }\n      return 0;\n}\n\nComment:\nThis happens because some of the classes have their qdiscs assigned to\nNULL, but remain in the active list. This commit fixes this issue by always\nremoving the class from the active list before deleting and freeing its\nassociated qdisc\n\nReproducer Steps\n(trimmed version of what was sent by zdi-disclosures@trendmicro.com)\n\n```\nDEV=\"${DEV:-lo}\"\nROOT_HANDLE=\"${ROOT_HANDLE:-1:}\"\nBAND2_HANDLE=\"${BAND2_HANDLE:-20:}\"   # child under 1:2\nPING_BYTES=\"${PING_BYTES:-48}\"\nPING_COUNT=\"${PING_COUNT:-200000}\"\nPING_DST=\"${PING_DST:-127.0.0.1}\"\n\nSLOW_TBF_RATE=\"${SLOW_TBF_RATE:-8bit}\"\nSLOW_TBF_BURST=\"${SLOW_TBF_BURST:-100b}\"\nSLOW_TBF_LAT=\"${SLOW_TBF_LAT:-1s}\"\n\ncleanup() {\n  tc qdisc del dev \"$DEV\" root 2\u003e/dev/null\n}\ntrap cleanup EXIT\n\nip link set \"$DEV\" up\n\ntc qdisc del dev \"$DEV\" root 2\u003e/dev/null || true\n\ntc qdisc add dev \"$DEV\" root handle \"$ROOT_HANDLE\" ets bands 2 strict 2\n\ntc qdisc add dev \"$DEV\" parent 1:2 handle \"$BAND2_HANDLE\" \\\n  tbf rate \"$SLOW_TBF_RATE\" burst \"$SLOW_TBF_BURST\" latency \"$SLOW_TBF_LAT\"\n\ntc filter add dev \"$DEV\" parent 1: protocol all prio 1 u32 match u32 0 0 flowid 1:2\ntc -s qdisc ls dev $DEV\n\nping -I \"$DEV\" -f -c \"$PING_COUNT\" -s \"$PING_BYTES\" -W 0.001 \"$PING_DST\" \\\n  \u003e/dev/null 2\u003e\u00261 \u0026\ntc qdisc change dev \"$DEV\" root handle \"$ROOT_HANDLE\" ets bands 2 strict 0\ntc qdisc change dev \"$DEV\" root handle \"$ROOT_HANDLE\" ets bands 2 strict 2\ntc -s qdisc ls dev $DEV\ntc qdisc del dev \"$DEV\" parent \n---truncated---",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2025-71068": {
       "cve_id": "CVE-2025-71068",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -24579,19 +24566,6 @@
         }
       ]
     },
-    "CVE-2026-46113": {
-      "cve_id": "CVE-2026-46113",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: x86: Fix shadow paging use-after-free due to unexpected GFN\n\nThe shadow MMU computes GFNs for direct shadow pages using sp-\u003egfn plus\nthe SPTE index. This assumption breaks for shadow paging if the guest\npage tables are modified between VM entries (similar to commit\naad885e77496, \"KVM: x86/mmu: Drop/zap existing present SPTE even\nwhen creating an MMIO SPTE\", 2026-03-27).  The flow is as follows:\n\n- a PDE is installed for a 2MB mapping, and a page in that area is\n  accessed.  KVM creates a kvm_mmu_page consisting of 512 4KB pages;\n  the kvm_mmu_page is marked by FNAME(fetch) as direct-mapped because\n  the guest's mapping is a huge page (and thus contiguous).\n\n- the PDE mapping is changed from outside the guest.\n\n- the guest accesses another page in the same 2MB area.  KVM installs\n  a new leaf SPTE and rmap entry; the SPTE uses the \"correct\" GFN\n  (i.e. based on the new mapping, as changed in the previous step) but\n  that GFN is outside of the [sp-\u003egfn, sp-\u003egfn + 511] range; therefore\n  the rmap entry cannot be found and removed when the kvm_mmu_page\n  is zapped.\n\n- the memslot that covers the first 2MB mapping is deleted, and the\n  kvm_mmu_page for the now-invalid GPA is zapped.  However, rmap_remove()\n  only looks at the [sp-\u003egfn, sp-\u003egfn + 511] range established in step 1,\n  and fails to find the rmap entry that was recorded by step 3.\n\n- any operation that causes an rmap walk for the same page accessed\n  by step 3 then walks a stale rmap and dereferences a freed kvm_mmu_page.\n  This includes dirty logging or MMU notifier invalidations (e.g., from\n  MADV_DONTNEED).\n\nThe underlying issue is that KVM's walking of shadow PTEs assumes that\nif a SPTE is present when KVM wants to install a non-leaf SPTE, then the\nexisting kvm_mmu_page must be for the correct gfn.  Because the only way\nfor the gfn to be wrong is if KVM messed up and failed to zap a SPTE...\nwhich shouldn't happen, but *actually* only happens in response to a\nguest write.\n\nThat bug dates back literally forever, as even the first version of KVM\nassumes that the GFN matches and walks into the \"wrong\" shadow page.\nHowever, that was only an imprecision until 2032a93d66fa (\"KVM: MMU:\nDon't allocate gfns page for direct mmu pages\") came along.\n\nFix it by checking for a target gfn mismatch and zapping the existing\nSPTE.  That way the old SP and rmap entries are gone, KVM installs\nthe rmap in the right location, and everyone is happy.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-46115": {
       "cve_id": "CVE-2026-46115",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -25328,7 +25302,7 @@
       "cve_id": "CVE-2026-46292",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\npmdomain: core: Fix detach procedure for virtual devices in genpd\n\nIf a device is attached to a PM domain through genpd_dev_pm_attach_by_id(),\ngenpd calls pm_runtime_enable() for the corresponding virtual device that\nit registers. While this avoids boilerplate code in drivers, there is no\ncorresponding call to pm_runtime_disable() in genpd_dev_pm_detach().\n\nThis means these virtual devices are typically detached from its genpd,\nwhile runtime PM remains enabled for them, which is not how things are\ndesigned to work. In worst cases it may lead to critical errors, like a\nNULL pointer dereference bug in genpd_runtime_suspend(), which was recently\nreported. For another case, we may end up keeping an unnecessary vote for a\nperformance state for the device.\n\nTo fix these problems, let's add this missing call to pm_runtime_disable()\nin genpd_dev_pm_detach().",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {

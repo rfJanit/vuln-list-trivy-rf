@@ -580,7 +580,7 @@
       "events": [
         {
           "introduced": "9.8-2.fc43",
-          "fixed": "9.14-1.fc43",
+          "fixed": "9.14-3.fc43",
           "identifier": "fc43"
         },
         {
