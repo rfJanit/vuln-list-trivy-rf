@@ -256,6 +256,19 @@
         }
       ]
     },
+    "CVE-2026-11404": {
+      "cve_id": "CVE-2026-11404",
+      "title": "Cesanta Mongoose before 7.22 contains an out-of-bounds read in th ...",
+      "description": "Cesanta Mongoose before 7.22 contains an out-of-bounds read in the built-in TLS server function mg_tls_server_recv_hello(), which uses an attacker-controlled session_id_len byte from a TLS ClientHello as a buffer index without validating it against the length of received data. A remote, unauthenticated attacker can send a single crafted ClientHello with an oversized session id length to read past the receive buffer, crashing any HTTPS, MQTTS, or WSS service built on MG_TLS_BUILTIN.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.1-29.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-2966": {
       "cve_id": "CVE-2026-2966",
       "title": "A weakness has been identified in Cesanta Mongoose up to 7.20. Th ...",

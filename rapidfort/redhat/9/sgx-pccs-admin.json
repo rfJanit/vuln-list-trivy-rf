@@ -30,6 +30,23 @@
         }
       ]
     },
+    "CVE-2026-12590": {
+      "cve_id": "CVE-2026-12590",
+      "title": "Impact: In body-parser versions prior to 1.20.6 (1.x line) and 2. ...",
+      "description": "Impact: In body-parser versions prior to 1.20.6 (1.x line) and 2.3.0 (2.x line), when the parser is configured with an invalid limit option value such as an unparseable string or NaN, bytes.parse returns null and the request body size check is silently skipped. Applications that rely on limit as their primary safeguard against oversized request bodies will accept arbitrarily large payloads, leading to excessive memory and CPU usage and denial of service. Patches: This issue is fixed in body-parser 1.20.6 and 2.3.0. After the fix, invalid limit values throw a clear error at parser construction time instead of silently disabling enforcement, while null and undefined continue to fall back to the default limit of 100kb. Workarounds: Validate the limit value before passing it to body-parser. For example, parse the value at startup and reject any configuration where the result is null or a non-finite number.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "2.26-4.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-13676": {
       "cve_id": "CVE-2026-13676",
       "title": "fast-uri versions 2.3.1 through 3.1.2 and 4.0.0 fail to canonical ...",
@@ -228,11 +245,11 @@
         }
       ]
     },
-    "CVE-2026-6322": {
-      "cve_id": "CVE-2026-6322",
-      "title": "fast-uri normalize() decoded percent-encoded authority delimiters ...",
-      "description": "fast-uri normalize() decoded percent-encoded authority delimiters inside the host component and then re-emitted them as raw delimiters during serialization. A host that combined an allowed domain, an encoded at-sign, and a different domain was re-emitted with the at-sign as a raw userinfo separator, changing the URI's authority to the second domain. Applications that normalize untrusted URLs before host allowlist checks, redirect validation, or outbound request routing can be steered to a different authority than the input appeared to specify. Versions \u003c= 3.1.1 are affected. Update to 3.1.2 or later.",
-      "severity": "HIGH",
+    "CVE-2026-53655": {
+      "cve_id": "CVE-2026-53655",
+      "title": "node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar ...",
+      "description": "node-tar is a full-featured Tar for Node.js. Prior to 7.5.16, tar (node-tar) applies a PAX extended header's size= record (and other PAX overrides) to the next header entry of any type, including intermediary metadata headers such as a GNU long-name (L) or long-link (K) entry. Per POSIX pax, a PAX extended header (x) describes the next file entry, not the intermediary extension headers that may sit between the x header and the file it annotates. Because node-tar lets the PAX size override the byte length of an intervening L/K/x header, an attacker can desynchronize node-tar's stream cursor relative to every other mainstream tar implementation (GNU tar, libarchive/bsdtar, Python tarfile, and the now-fixed tar-rs / astral-tokio-tar). The result is a tar parser interpretation differential (CWE-436): a single crafted archive yields a different set of members under node-tar than under the reference tar tools. An attacker can use this to hide a member from one parser while it is visible to another, which defeats security tooling whose scanner and extractor disagree on archive contents (e.g. a malware/secret scanner that lists entries with one library while a downstream step extracts with another) This vulnerability is fixed in 7.5.16.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {

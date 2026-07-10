@@ -1721,12 +1721,8 @@
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
       "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.26.0, FreeRDP's planar bitmap decoder has an out-of-bounds heap write when decoding RLE planar data. In libfreerdp/codec/planar.c, freerdp_bitmap_decompress_planar() validates the X destination coordinate nXDst against the caller-provided destination stride (nDstStep) even when it is writing into the internal temp buffer pTempData. An attacker can bypass the check with a large nDstStep and a large nXDst, causing planar_decompress_plane_rle() to write past the end of pTempData. This vulnerability is fixed in 3.26.0.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.27.1-1.fc43",
@@ -1736,9 +1732,9 @@
     },
     "CVE-2026-55191": {
       "cve_id": "CVE-2026-55191",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1762,7 +1758,7 @@
       "cve_id": "CVE-2026-55192",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1786,7 +1782,7 @@
       "cve_id": "CVE-2026-55193",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1810,7 +1806,7 @@
       "cve_id": "CVE-2026-55194",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1832,9 +1828,9 @@
     },
     "CVE-2026-55648": {
       "cve_id": "CVE-2026-55648",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1858,7 +1854,7 @@
       "cve_id": "CVE-2026-55827",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1883,8 +1879,12 @@
       "title": "FreeRDP before 3.22.0 contains a use-after-free vulnerability in  ...",
       "description": "FreeRDP before 3.22.0 contains a use-after-free vulnerability in dvcman_channel_close and dvcman_call_on_receive due to improper synchronization of channel_callback access. A malicious RDP server can trigger a race condition by sending DYNVC_DATA and DYNVC_CLOSE messages concurrently, causing heap-use-after-free in the drdynvc client thread and potentially enabling remote code execution or denial of service.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.27.1-1.fc43",

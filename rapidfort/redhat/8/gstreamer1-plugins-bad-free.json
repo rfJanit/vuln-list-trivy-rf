@@ -93,19 +93,6 @@
         }
       ]
     },
-    "CVE-2026-52720": {
-      "cve_id": "CVE-2026-52720",
-      "title": "A heap buffer overflow vulnerability was found in GStreamer's lib ...",
-      "description": "A heap buffer overflow vulnerability was found in GStreamer's librfb (RFB/VNC client). The rectangle bounds check incorrectly validates area rather than individual dimensions, allowing a malicious VNC server to send a rectangle that extends beyond the framebuffer. A remote attacker could set up a malicious VNC server and trick a user into connecting, resulting in an out-of-bounds heap write that could lead to code execution or a crash.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        }
-      ]
-    },
     "CVE-2026-52721": {
       "cve_id": "CVE-2026-52721",
       "title": "Multiple out-of-bounds read vulnerabilities were found in GStream ...",
@@ -120,19 +107,6 @@
         {
           "introduced": "1.26.6-2.fc43",
           "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-52722": {
-      "cve_id": "CVE-2026-52722",
-      "title": "A signed integer overflow vulnerability was found in GStreamer's  ...",
-      "description": "A signed integer overflow vulnerability was found in GStreamer's VMnc decoder. A crafted VMnc stream with large cursor dimensions can overflow signed integer payload-size arithmetic, bypassing a length check and leading to out-of-bounds reads. A remote attacker could trick a user into opening a specially crafted VMnc file, potentially causing a crash or information disclosure.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
         }
       ]
     },
@@ -158,6 +132,40 @@
       "title": "A stack buffer overflow flaw was found in the GStreamer H.265 cod ...",
       "description": "A stack buffer overflow flaw was found in the GStreamer H.265 codec parser library (gst-plugins-bad). When parsing a buffering period SEI message, the parser uses an incorrect loop bound derived from cpb_cnt_minus1[i] (the loop index) instead of the sub-layer 0 CPB count cpb_cnt_minus1[0] from the referenced Sequence Parameter Set. A crafted H.265 video file or stream can cause the parser to write beyond the bounds of stack-allocated CPB delay arrays, resulting in a crash or potential stack memory corruption.",
       "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "1.26.6-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-59691": {
+      "cve_id": "CVE-2026-59691",
+      "title": "A heap buffer overflow vulnerability was found in GStreamer's rfb ...",
+      "description": "A heap buffer overflow vulnerability was found in GStreamer's rfbsrc plugin. When a client connects to a malicious RFB/VNC server that advertises a 16bpp framebuffer and sends Hextile-encoded updates, the Hextile background fill path writes 32-bit pixel values into a buffer allocated for 16-bit pixels. This type mismatch causes an out-of-bounds heap write that can lead to denial of service (process crash) and potential memory corruption.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "1.26.6-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-59692": {
+      "cve_id": "CVE-2026-59692",
+      "title": "A stack buffer overflow vulnerability was found in GStreamer's DT ...",
+      "description": "A stack buffer overflow vulnerability was found in GStreamer's DTLS plugin. During a DTLS handshake, the peer certificate Subject Distinguished Name is printed into a fixed-size 2048-byte stack buffer without bounds checking. A remote unauthenticated attacker can send a certificate with an oversized Subject DN that exceeds the buffer, causing a stack buffer overflow and process crash, resulting in denial of service.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

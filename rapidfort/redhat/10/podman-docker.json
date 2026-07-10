@@ -614,6 +614,34 @@
         }
       ]
     },
+    "CVE-2026-25681": {
+      "cve_id": "CVE-2026-25681",
+      "title": "Parsing arbitrary HTML which is then rendered using Render can re ...",
+      "description": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
+          "identifier": "el10"
+        }
+      ]
+    },
+    "CVE-2026-27136": {
+      "cve_id": "CVE-2026-27136",
+      "title": "Parsing arbitrary HTML which is then rendered using Render can re ...",
+      "description": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
+          "identifier": "el10"
+        }
+      ]
+    },
     "CVE-2026-27141": {
       "cve_id": "CVE-2026-27141",
       "title": "Due to missing nil check, sending 0x0a-0x0f HTTP/2 frames will ca ...",
@@ -826,10 +854,11 @@
       "title": "The RSA and DSA public key parsers did not enforce size limits on ...",
       "description": "The RSA and DSA public key parsers did not enforce size limits on key parameters. A crafted public key with an excessively large modulus or DSA parameter could cause several minutes of CPU consumption during signature verification. This could be triggered by unauthenticated clients during public key authentication. RSA moduli are now limited to 8192 bits, and DSA parameters are validated per FIPS 186-2.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
           "identifier": "el10"
         }
       ]
@@ -839,10 +868,11 @@
       "title": "A malicious SSH peer could send unsolicited global request respon ...",
       "description": "A malicious SSH peer could send unsolicited global request responses to fill an internal buffer, blocking the connection's read loop. The blocked goroutine could not be released by calling Close(), resulting in a resource leak per connection. Unsolicited global responses are now discarded.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
           "identifier": "el10"
         }
       ]
@@ -869,10 +899,11 @@
       "title": "When adding a key to a remote agent constraint extensions such as ...",
       "description": "When adding a key to a remote agent constraint extensions such as restrict-destination-v00@openssh.com were not serialized in the request. Destination restrictions were silently stripped when forwarding keys, allowing unrestricted use of the key on the remote host. The client now serializes all constraint extensions. Additionally, the in-memory keyring returned by NewKeyring() now rejects keys with unsupported constraint extensions instead of silently ignoring them.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
           "identifier": "el10"
         }
       ]
@@ -899,15 +930,12 @@
       "title": "SSH servers which use CertChecker as a public key callback withou ...",
       "description": "SSH servers which use CertChecker as a public key callback without setting IsUserAuthority or IsHostAuthority could be caused to panic by a client presenting a certificate. CertChecker now returns an error instead of panicking when these callbacks are nil.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
           "identifier": "el10"
-        },
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -975,6 +1003,23 @@
         }
       ]
     },
+    "CVE-2026-42505": {
+      "cve_id": "CVE-2026-42505",
+      "title": "Handshakes which used Encrypted Client Hello could be de-anonymiz ...",
+      "description": "Handshakes which used Encrypted Client Hello could be de-anonymized by a passive network observer due to a disclosure of pre-shared key identities in the unencrypted client hello.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "5:5.6.2-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-42506": {
       "cve_id": "CVE-2026-42506",
       "title": "Parsing arbitrary HTML which is then rendered using Render can re ...",
@@ -1014,18 +1059,19 @@
       "title": "Previously, a revoked 'SignatureKey' belonging to a CA was not co ...",
       "description": "Previously, a revoked 'SignatureKey' belonging to a CA was not correctly checked for revocation. Now, both the 'key' and 'key.SignatureKey' are checked for @revoked.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
           "identifier": "el10"
         }
       ]
     },
     "CVE-2026-44517": {
       "cve_id": "CVE-2026-44517",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1118,7 +1164,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7:5.6.0-12.el10_1",
+          "fixed": "7:5.8.2-4.el10_2",
           "identifier": "el10"
         },
         {

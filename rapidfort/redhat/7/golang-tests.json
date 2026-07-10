@@ -323,19 +323,6 @@
         }
       ]
     },
-    "CVE-2026-32289": {
-      "cve_id": "CVE-2026-32289",
-      "title": "Context was not properly tracked across template branches for JS  ...",
-      "description": "Context was not properly tracked across template branches for JS template literals, leading to possibly incorrect escaping of content when branches were used. Additionally template actions within JS template literals did not properly track the brace depth, leading to incorrect escaping being applied. These issues could cause actions within JS template literals to be incorrectly or improperly escaped, leading to XSS vulnerabilities.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-33809": {
       "cve_id": "CVE-2026-33809",
       "title": "A maliciously crafted TIFF file can cause image decoding to attem ...",
@@ -484,6 +471,19 @@
       "title": "Decoding a maliciously-crafted MIME header containing many invali ...",
       "description": "Decoding a maliciously-crafted MIME header containing many invalid encoded-words can consume excessive CPU.",
       "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-42505": {
+      "cve_id": "CVE-2026-42505",
+      "title": "Handshakes which used Encrypted Client Hello could be de-anonymiz ...",
+      "description": "Handshakes which used Encrypted Client Hello could be de-anonymized by a passive network observer due to a disclosure of pre-shared key identities in the unencrypted client hello.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {

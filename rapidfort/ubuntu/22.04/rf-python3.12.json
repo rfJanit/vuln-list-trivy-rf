@@ -151,6 +151,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -274,6 +277,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -301,6 +307,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -547,6 +556,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -599,6 +611,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -626,6 +641,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -852,6 +870,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -962,6 +983,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },
@@ -1130,6 +1154,9 @@
         },
         {
           "introduced": "0:3.12.3-1ubuntu0.13"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15"
         }
       ]
     },

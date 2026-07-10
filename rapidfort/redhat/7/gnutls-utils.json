@@ -241,11 +241,11 @@
         }
       ]
     },
-    "CVE-2026-5260": {
-      "cve_id": "CVE-2026-5260",
-      "title": "A flaw was found in libgnutls. A remote attacker, by sending an e ...",
-      "description": "A flaw was found in libgnutls. A remote attacker, by sending an extremely short premaster secret during an RSA key exchange to a server using an RSA key backed by a PKCS#11 token, could trigger a short heap overread. This memory corruption vulnerability could lead to information disclosure.",
-      "severity": "HIGH",
+    "CVE-2026-42015": {
+      "cve_id": "CVE-2026-42015",
+      "title": "A flaw was found in gnutls. An off-by-one error exists in the PKC ...",
+      "description": "A flaw was found in gnutls. An off-by-one error exists in the PKCS#12 bag element bounds check. This vulnerability allows an remote attacker to write past the internal array of a PKCS#12 bag when appending to a bag that already contains 32 elements. This memory corruption could lead to a denial of service (DoS) or potentially other unspecified impacts.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
