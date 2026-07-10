@@ -255,8 +255,8 @@
     },
     "CVE-2026-41252": {
       "cve_id": "CVE-2026-41252",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -279,8 +279,8 @@
     },
     "CVE-2026-41521": {
       "cve_id": "CVE-2026-41521",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -351,30 +351,6 @@
     },
     "CVE-2026-44978": {
       "cve_id": "CVE-2026-44978",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1:0.10.4-3.fc43",
-          "fixed": "1:0.10.6.1-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:0.10.6.1-1.fc44",
-          "identifier": "fc44"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:0.10.6.1-1.fc45",
-          "identifier": "fc45"
-        }
-      ]
-    },
-    "CVE-2026-54538": {
-      "cve_id": "CVE-2026-54538",
       "title": "[Unknown description]",
       "description": "[Unknown description]",
       "severity": "MEDIUM",
@@ -397,10 +373,34 @@
         }
       ]
     },
-    "CVE-2026-55238": {
-      "cve_id": "CVE-2026-55238",
+    "CVE-2026-54538": {
+      "cve_id": "CVE-2026-54538",
       "title": "Title Not Available",
       "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:0.10.4-3.fc43",
+          "fixed": "1:0.10.6.1-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:0.10.6.1-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:0.10.6.1-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-55238": {
+      "cve_id": "CVE-2026-55238",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -471,8 +471,8 @@
     },
     "CVE-2026-55645": {
       "cve_id": "CVE-2026-55645",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

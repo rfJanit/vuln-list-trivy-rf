@@ -64,6 +64,25 @@
         }
       ]
     },
+    "CVE-2025-13946": {
+      "cve_id": "CVE-2025-13946",
+      "title": "MEGACO dissector infinite loop in Wireshark 4.6.0 to 4.6.1 and 4. ...",
+      "description": "MEGACO dissector infinite loop in Wireshark 4.6.0 to 4.6.1 and 4.4.0 to 4.4.11 allows denial of service",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.6.4-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
     "CVE-2026-0959": {
       "cve_id": "CVE-2026-0959",
       "title": "IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.2  ...",
@@ -145,10 +164,11 @@
       "title": "Multiple protocol dissector infinite loops in Wireshark 4.6.0 to  ...",
       "description": "Multiple protocol dissector infinite loops in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allow denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -158,10 +178,11 @@
       "title": "Crash in ciscodump 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows deni ...",
       "description": "Crash in ciscodump 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -174,7 +195,21 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-15166": {
+      "cve_id": "CVE-2026-15166",
+      "title": "IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.6  ...",
+      "description": "IEEE 802.11 protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -184,10 +219,11 @@
       "title": "DBS Etherwatch file parser crash in Wireshark 4.6.0 to 4.6.6 and  ...",
       "description": "DBS Etherwatch file parser crash in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -197,10 +233,11 @@
       "title": "BLF file parser in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 a ...",
       "description": "BLF file parser in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows possible information disclosure",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -210,10 +247,25 @@
       "title": "UMTS FP protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and  ...",
       "description": "UMTS FP protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-15170": {
+      "cve_id": "CVE-2026-15170",
+      "title": "Z39.50 protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4 ...",
+      "description": "Z39.50 protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -223,10 +275,11 @@
       "title": "SSH protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4.4. ...",
       "description": "SSH protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -236,10 +289,11 @@
       "title": "FMP/NOTIFY protocol dissector crash in Wireshark 4.6.0 to 4.6.6 a ...",
       "description": "FMP/NOTIFY protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -252,7 +306,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:4.4.9-1.fc43",
+          "introduced": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -262,10 +316,11 @@
       "title": "Catapult DCT2000 protocol dissector crash in Wireshark 4.6.0 to 4 ...",
       "description": "Catapult DCT2000 protocol dissector crash in Wireshark 4.6.0 to 4.6.6 and 4.4.0 to 4.4.16 allows denial of service",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1007,6 +1062,20 @@
         }
       ]
     },
+    "CVE-2026-6867": {
+      "cve_id": "CVE-2026-6867",
+      "title": "SMB2 protocol dissector crash in Wireshark 4.6.0 to 4.6.4 and 4.4 ...",
+      "description": "SMB2 protocol dissector crash in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-6868": {
       "cve_id": "CVE-2026-6868",
       "title": "HTTP protocol dissector crash in Wireshark 4.6.0 to 4.6.4 and 4.4 ...",
@@ -1061,6 +1130,76 @@
           "introduced": "0",
           "fixed": "1:4.6.6-1.fc44",
           "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-7375": {
+      "cve_id": "CVE-2026-7375",
+      "title": "UDS protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4  ...",
+      "description": "UDS protocol dissector infinite loop in Wireshark 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-7376": {
+      "cve_id": "CVE-2026-7376",
+      "title": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial  ...",
+      "description": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-7378": {
+      "cve_id": "CVE-2026-7378",
+      "title": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial  ...",
+      "description": "Crash in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-7379": {
+      "cve_id": "CVE-2026-7379",
+      "title": "Memory leak in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows d ...",
+      "description": "Memory leak in sharkd 4.6.0 to 4.6.4 and 4.4.0 to 4.4.14 allows denial of service",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-9759": {
+      "cve_id": "CVE-2026-9759",
+      "title": "ROHC protocol dissector crash in Wireshark 4.6.0 to 4.6.5 and 4.4 ...",
+      "description": "ROHC protocol dissector crash in Wireshark 4.6.0 to 4.6.5 and 4.4.0 to 4.4.15 allows denial of service",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:4.4.9-1.fc43",
+          "fixed": "1:4.6.6-1.fc43",
+          "identifier": "fc43"
         }
       ]
     }
