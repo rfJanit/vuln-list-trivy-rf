@@ -2,19 +2,6 @@
   "package_name": "amd64-microcode",
   "distro_version": "24.04",
   "advisories": {
-    "CVE-2021-26318": {
-      "cve_id": "CVE-2021-26318",
-      "title": "A timing and power-based side channel attack leveraging the x86 P ...",
-      "description": "A timing and power-based side channel attack leveraging the x86 PREFETCH instructions on some AMD CPUs could potentially result in leaked kernel address space information.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0:3.20250311.1ubuntu0.24.04.1",
-          "fixed": "0:3.20251202.1ubuntu0.24.04.1"
-        }
-      ]
-    },
     "CVE-2023-20569": {
       "cve_id": "CVE-2023-20569",
       "title": "\n\n\nA side channel vulnerability on some of the AMD CPUs may allow ...",
@@ -154,32 +141,6 @@
         }
       ]
     },
-    "CVE-2024-36348": {
-      "cve_id": "CVE-2024-36348",
-      "title": "A transient execution vulnerability in some AMD processors may al ...",
-      "description": "A transient execution vulnerability in some AMD processors may allow a user process to infer the control registers speculatively even if UMIP feature is enabled, potentially resulting in information leakage.",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0:3.20250311.1ubuntu0.24.04.1",
-          "fixed": "0:3.20251202.1ubuntu0.24.04.1"
-        }
-      ]
-    },
-    "CVE-2024-36349": {
-      "cve_id": "CVE-2024-36349",
-      "title": "A transient execution vulnerability in some AMD processors may al ...",
-      "description": "A transient execution vulnerability in some AMD processors may allow a user process to infer TSC_AUX even when such a read is disabled, potentially resulting in information leakage.",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0:3.20250311.1ubuntu0.24.04.1",
-          "fixed": "0:3.20251202.1ubuntu0.24.04.1"
-        }
-      ]
-    },
     "CVE-2024-36350": {
       "cve_id": "CVE-2024-36350",
       "title": "A transient execution vulnerability in some AMD processors may al ...",
@@ -193,10 +154,6 @@
         },
         {
           "introduced": "0:3.20231019.1ubuntu2",
-          "fixed": "0:3.20251202.1ubuntu0.24.04.1"
-        },
-        {
-          "introduced": "0:3.20250311.1ubuntu0.24.04.1",
           "fixed": "0:3.20251202.1ubuntu0.24.04.1"
         }
       ]
@@ -214,10 +171,6 @@
         },
         {
           "introduced": "0:3.20231019.1ubuntu2",
-          "fixed": "0:3.20251202.1ubuntu0.24.04.1"
-        },
-        {
-          "introduced": "0:3.20250311.1ubuntu0.24.04.1",
           "fixed": "0:3.20251202.1ubuntu0.24.04.1"
         }
       ]
@@ -304,10 +257,6 @@
         },
         {
           "introduced": "0:3.20231019.1ubuntu2",
-          "fixed": "0:3.20251202.1ubuntu0.24.04.1"
-        },
-        {
-          "introduced": "0:3.20250311.1ubuntu0.24.04.1",
           "fixed": "0:3.20251202.1ubuntu0.24.04.1"
         }
       ]

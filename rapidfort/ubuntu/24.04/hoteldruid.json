@@ -79,9 +79,6 @@
         },
         {
           "introduced": "0:3.0.6-1"
-        },
-        {
-          "introduced": "0:3.0.6-1"
         }
       ]
     },
@@ -94,9 +91,6 @@
       "events": [
         {
           "introduced": "0:3.0.3-1"
-        },
-        {
-          "introduced": "0:3.0.6-1"
         },
         {
           "introduced": "0:3.0.6-1"

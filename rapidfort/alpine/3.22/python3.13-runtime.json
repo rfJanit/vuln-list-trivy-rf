@@ -87,6 +87,18 @@
         }
       ]
     },
+    "CVE-2026-15308": {
+      "cve_id": "CVE-2026-15308",
+      "title": "The incremental HTML parser (html.parser.HTMLParser) allows for C ...",
+      "description": "The incremental HTML parser (html.parser.HTMLParser) allows for CPU\ndenial-of-service through repeated unterminated markup declarations when\nprocessing uncontrolled data.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.13.14-r0"
+        }
+      ]
+    },
     "CVE-2026-3276": {
       "cve_id": "CVE-2026-3276",
       "title": "unicodedata.normalize() can take excessive CPU time when processi ...",

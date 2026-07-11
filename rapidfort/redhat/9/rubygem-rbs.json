@@ -809,6 +809,11 @@
         },
         {
           "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
           "fixed": "4.0.5-33.fc44",
           "identifier": "fc44"
         },
@@ -850,6 +855,11 @@
           "introduced": "1.4.0-165.el9_5",
           "fixed": "0:3.10.0-33.module+el9.8.0+24428+77f1d00a.aarch64::ruby:4",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -884,6 +894,11 @@
           "introduced": "1.4.0-165.el9_5",
           "fixed": "0:3.10.0-33.module+el9.8.0+24428+77f1d00a.aarch64::ruby:4",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -918,6 +933,11 @@
           "introduced": "1.4.0-165.el9_5",
           "fixed": "0:3.10.0-33.module+el9.8.0+24428+77f1d00a.aarch64::ruby:4",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
+          "identifier": "fc43"
         }
       ]
     }

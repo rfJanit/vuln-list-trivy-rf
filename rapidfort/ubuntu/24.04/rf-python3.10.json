@@ -593,6 +593,27 @@
         }
       ]
     },
+    "CVE-2026-15308": {
+      "cve_id": "CVE-2026-15308",
+      "title": "The incremental HTML parser (html.parser.HTMLParser) allows for C ...",
+      "description": "The incremental HTML parser (html.parser.HTMLParser) allows for CPU\ndenial-of-service through repeated unterminated markup declarations when\nprocessing uncontrolled data.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:3.10.17-1rfubu.1"
+        },
+        {
+          "introduced": "0:3.10.18-1rfubu.1"
+        },
+        {
+          "introduced": "0:3.10.19-1rfubu.1"
+        },
+        {
+          "introduced": "0:3.10.19-2rfubu.1"
+        }
+      ]
+    },
     "CVE-2026-2297": {
       "cve_id": "CVE-2026-2297",
       "title": "The import hook in CPython that handles legacy *.pyc files (Sourc ...",

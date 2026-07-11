@@ -2,6 +2,146 @@
   "package_name": "rf-git-lfs",
   "distro_version": "8",
   "advisories": {
+    "CVE-2022-41723": {
+      "cve_id": "CVE-2022-41723",
+      "title": "golang.org/x/net/http2: avoid quadratic complexity in HPACK decoding",
+      "description": "A flaw was found in golang. A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of requests.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2022-41724": {
+      "cve_id": "CVE-2022-41724",
+      "title": "golang: crypto/tls: large handshake records may cause panics",
+      "description": "A flaw was found in Golang Go, where it is vulnerable to a denial of service caused when processing large TLS handshake records. By sending specially-crafted TLS handshake records, a remote, authenticated attacker can cause a denial of service condition.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2022-41725": {
+      "cve_id": "CVE-2022-41725",
+      "title": "golang: net/http, mime/multipart: denial of service from excessive resource consumption",
+      "description": "A flaw was found in Go, where it is vulnerable to a denial of service caused by an excessive resource consumption flaw in the net/http and mime/multipart packages. By sending a specially-crafted request, a remote attacker can cause a denial of service.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2023-24534": {
+      "cve_id": "CVE-2023-24534",
+      "title": "golang: net/http, net/textproto: denial of service from excessive memory allocation",
+      "description": "A flaw was found in Golang Go, where it is vulnerable to a denial of service caused by memory exhaustion in the common function in HTTP and MIME header parsing. By sending a specially crafted request, a remote attacker can cause a denial of service.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2023-24536": {
+      "cve_id": "CVE-2023-24536",
+      "title": "golang: net/http, net/textproto, mime/multipart: denial of service from excessive resource consumption",
+      "description": "A flaw was found in Golang Go, where it is vulnerable to a denial of service caused by an issue during multipart form parsing. By sending a specially crafted input, a remote attacker can consume large amounts of CPU and memory, resulting in a denial of service.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2023-39321": {
+      "cve_id": "CVE-2023-39321",
+      "title": "golang: crypto/tls: panic when processing post-handshake message on QUIC connections",
+      "description": "A flaw was found in Golang. Processing an incomplete post-handshake message for a QUIC connection caused a panic.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2023-39322": {
+      "cve_id": "CVE-2023-39322",
+      "title": "golang: crypto/tls: lack of a limit on buffered post-handshake",
+      "description": "A flaw was found in Golang. QUIC connections do not set an upper bound on the amount of data buffered when reading post-handshake messages, allowing a malicious QUIC connection to cause unbounded memory growth. With the fix, connections now consistently reject messages larger than 65KiB in size.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2024-24788": {
+      "cve_id": "CVE-2024-24788",
+      "title": "golang: net: malformed DNS message can cause infinite loop",
+      "description": "A flaw was found in the net package of the Go stdlib. When a malformed DNS message is received as a response to a query, the Lookup functions within the net package can get stuck in an infinite loop. This issue can lead to resource exhaustion and denial of service (DoS) conditions.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2024-24790": {
+      "cve_id": "CVE-2024-24790",
+      "title": "golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses",
+      "description": "A flaw was found in the Go language standard library net/netip. The method Is*() (IsPrivate(), IsPublic(), etc) doesn't behave properly when working with IPv6 mapped to IPv4 addresses. The unexpected behavior can lead to integrity and confidentiality issues, specifically when these methods are used to control access to resources or data.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2024-24791": {
+      "cve_id": "CVE-2024-24791",
+      "title": "net/http: Denial of service due to improper 100-continue handling in net/http",
+      "description": "A flaw was found in Go. The net/http module mishandles specific server responses from HTTP/1.1 client requests. This issue may render a connection invalid and cause a denial of service.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
     "CVE-2024-45336": {
       "cve_id": "CVE-2024-45336",
       "title": "The HTTP client drops sensitive headers after following a cross-d ...",
@@ -58,6 +198,20 @@
         }
       ]
     },
+    "CVE-2024-9355": {
+      "cve_id": "CVE-2024-9355",
+      "title": "golang-fips: Golang FIPS zeroed buffer",
+      "description": "A vulnerability was found in Golang FIPS OpenSSL. This flaw allows a malicious user to randomly cause an uninitialized buffer length variable with a zeroed buffer to be returned in FIPS mode. It may also be possible to force a false positive match between non-equal hashes when comparing a trusted computed hmac sum to an untrusted input sum if an attacker can send a zeroed buffer in place of a pre-computed sum.  It is also possible to force a derived key to be all zeros instead of an unpredictable value.  This may have follow-on implications for the Go TLS stack.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.5.1-12.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
     "CVE-2025-22866": {
       "cve_id": "CVE-2025-22866",
       "title": "Due to the usage of a variable time instruction in the assembly i ...",
@@ -74,8 +228,8 @@
     },
     "CVE-2025-22870": {
       "cve_id": "CVE-2025-22870",
-      "title": "Matching of hosts against proxy patterns can improperly treat an  ...",
-      "description": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.",
+      "title": "golang.org/x/net/proxy: golang.org/x/net/http/httpproxy: HTTP Proxy bypass using IPv6 Zone IDs in golang.org/x/net",
+      "description": "A flaw was found in proxy host matching. This vulnerability allows improper bypassing of proxy settings via manipulating an IPv6 zone ID, causing unintended matches against the NO_PROXY environment variable.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -83,6 +237,11 @@
           "introduced": "0",
           "fixed": "0:3.7.1-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "3.6.1-1.fc41",
+          "fixed": "3.7.1-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -121,8 +280,8 @@
     },
     "CVE-2025-47906": {
       "cve_id": "CVE-2025-47906",
-      "title": "If the PATH environment variable contains paths which are executa ...",
-      "description": "If the PATH environment variable contains paths which are executables (rather than just directories), passing certain strings to LookPath (\"\", \".\", and \"..\"), can result in the binaries listed in the PATH being unexpectedly returned.",
+      "title": "os/exec: Unexpected paths returned from LookPath in os/exec",
+      "description": "A path handling flaw has been discovered in the os/exec go package. If the PATH environment variable contains paths which are executables (rather than just directories), passing certain strings to LookPath (\"\", \".\", and \"..\"), can result in the binaries listed in the PATH being unexpectedly returned.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -130,13 +289,18 @@
           "introduced": "0",
           "fixed": "0:3.7.1-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "3.6.1-1.fc41",
+          "fixed": "3.7.1-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
     "CVE-2025-47910": {
       "cve_id": "CVE-2025-47910",
-      "title": "When using http.CrossOriginProtection, the AddInsecureBypassPatte ...",
-      "description": "When using http.CrossOriginProtection, the AddInsecureBypassPattern method can unexpectedly bypass more requests than intended. CrossOriginProtection then skips validation, but forwards the original request path, which may be served by a different handler without the intended security protections.",
+      "title": "net/http: CrossOriginProtection bypass in net/http",
+      "description": "A CrossOriginProtection bypass has been discovered in the golang net/http package. When using http.CrossOriginProtection, the AddInsecureBypassPattern method can unexpectedly bypass more requests than intended. CrossOriginProtection then skips validation, but forwards the original request path, which may be served by a different handler without the intended security protections.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -144,6 +308,11 @@
           "introduced": "0",
           "fixed": "0:3.7.1-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "3.5.1-2.fc41",
+          "fixed": "3.7.1-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -287,10 +456,11 @@
       "title": "When verifying a certificate chain containing excluded DNS constr ...",
       "description": "When verifying a certificate chain containing excluded DNS constraints, these constraints are not correctly applied to wildcard DNS SANs which use a different case than the constraint. This only affects validation of otherwise trusted certificate chains, issued by a root CA in the VerifyOptions.Roots CertPool, or in the system certificate pool.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "3.7.1-11.rf",
+          "fixed": "3.7.1-12.rf",
           "identifier": "rf"
         }
       ]
@@ -326,6 +496,19 @@
       "title": "Decoding a maliciously-crafted MIME header containing many invali ...",
       "description": "Decoding a maliciously-crafted MIME header containing many invalid encoded-words can consume excessive CPU.",
       "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.7.1-11.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2026-42505": {
+      "cve_id": "CVE-2026-42505",
+      "title": "Handshakes which used Encrypted Client Hello could be de-anonymiz ...",
+      "description": "Handshakes which used Encrypted Client Hello could be de-anonymized by a passive network observer due to a disclosure of pre-shared key identities in the unencrypted client hello.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {

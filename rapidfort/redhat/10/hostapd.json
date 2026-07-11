@@ -27,6 +27,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
           "introduced": "2.11-3.fc43",
           "identifier": "fc43"
         }

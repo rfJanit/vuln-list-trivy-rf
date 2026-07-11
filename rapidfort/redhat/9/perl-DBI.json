@@ -7,8 +7,12 @@
       "title": "DBI versions before 1.648 for Perl have a heap overflow when prep ...",
       "description": "DBI versions before 1.648 for Perl have a heap overflow when preparsing SQL statements with more than 9 binders.\n\nThe preparse method expands SQL placeholder characters to numbered binders of the form :pN, but only allocates three characters per binder in the buffer.  Placeholders 10-99 require four characters, 100-999 require five characters, et cetera.",
       "severity": "CRITICAL",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "1.647-4.fc43",
           "fixed": "1.648-1.fc43",
