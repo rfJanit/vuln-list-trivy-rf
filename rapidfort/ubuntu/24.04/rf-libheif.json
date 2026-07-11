@@ -43,9 +43,9 @@
     },
     "CVE-2026-47247": {
       "cve_id": "CVE-2026-47247",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
-      "severity": "HIGH",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -56,8 +56,8 @@
     },
     "CVE-2026-47709": {
       "cve_id": "CVE-2026-47709",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -69,8 +69,8 @@
     },
     "CVE-2026-47714": {
       "cve_id": "CVE-2026-47714",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

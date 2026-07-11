@@ -345,6 +345,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
           "introduced": "0:9.9p1-4.fc41",
           "identifier": "fc41"
         },

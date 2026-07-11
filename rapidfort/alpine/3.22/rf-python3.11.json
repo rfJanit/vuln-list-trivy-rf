@@ -527,11 +527,10 @@
       "title": "The incremental HTML parser (html.parser.HTMLParser) allows for C ...",
       "description": "The incremental HTML parser (html.parser.HTMLParser) allows for CPU\ndenial-of-service through repeated unterminated markup declarations when\nprocessing uncontrolled data.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "3.11.14-r1",
-          "fixed": "3.11.15-r1"
+          "introduced": "3.11.15-r1"
         }
       ]
     },
