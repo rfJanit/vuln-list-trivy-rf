@@ -10,6 +10,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.34.0-r0",
+          "fixed": "1.40.1-r0"
+        },
+        {
           "introduced": "1.36.0-r0",
           "fixed": "1.40.1-r0"
         },
@@ -26,6 +30,10 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1.34.0-r0",
+          "fixed": "1.40.1-r0"
+        },
         {
           "introduced": "1.36.0-r0",
           "fixed": "1.40.1-r0"

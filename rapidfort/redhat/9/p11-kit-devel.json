@@ -12,10 +12,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0.25.8-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },

@@ -16,10 +16,6 @@
         {
           "introduced": "0:0.25.5-3.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "0.25.8-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
