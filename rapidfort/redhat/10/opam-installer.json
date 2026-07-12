@@ -1,0 +1,25 @@
+{
+  "package_name": "opam-installer",
+  "distro_version": "10",
+  "advisories": {
+    "CVE-2026-57825": {
+      "cve_id": "CVE-2026-57825",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2.4.1-1.fc43",
+          "fixed": "2.5.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.5.2-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    }
+  }
+}
