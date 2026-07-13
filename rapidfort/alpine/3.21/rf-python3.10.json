@@ -49,8 +49,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -101,8 +101,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -114,8 +114,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -153,8 +153,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -179,8 +179,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -192,8 +192,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -205,8 +205,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -231,8 +231,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -244,8 +244,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -257,8 +257,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -283,8 +283,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -309,8 +309,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -322,8 +322,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -335,8 +335,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -348,8 +348,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -374,8 +374,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -387,8 +387,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -413,8 +413,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -426,8 +426,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     },
@@ -439,8 +439,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "0",
+          "fixed": "3.10.19-r0"
         }
       ]
     }

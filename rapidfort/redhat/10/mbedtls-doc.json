@@ -35,6 +35,25 @@
         }
       ]
     },
+    "CVE-2026-25832": {
+      "cve_id": "CVE-2026-25832",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
     "CVE-2026-25833": {
       "cve_id": "CVE-2026-25833",
       "title": "Mbed TLS 3.5.0 to 3.6.5 fixed in 3.6.6 and 4.1.0 has a buffer ove ...",
@@ -151,6 +170,291 @@
         {
           "introduced": "0",
           "fixed": "3.6.6-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-35336": {
+      "cve_id": "CVE-2026-35336",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-49300": {
+      "cve_id": "CVE-2026-49300",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50579": {
+      "cve_id": "CVE-2026-50579",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50580": {
+      "cve_id": "CVE-2026-50580",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50581": {
+      "cve_id": "CVE-2026-50581",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50583": {
+      "cve_id": "CVE-2026-50583",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50584": {
+      "cve_id": "CVE-2026-50584",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50585": {
+      "cve_id": "CVE-2026-50585",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50586": {
+      "cve_id": "CVE-2026-50586",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50587": {
+      "cve_id": "CVE-2026-50587",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50588": {
+      "cve_id": "CVE-2026-50588",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50640": {
+      "cve_id": "CVE-2026-50640",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50713": {
+      "cve_id": "CVE-2026-50713",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-54435": {
+      "cve_id": "CVE-2026-54435",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-54441": {
+      "cve_id": "CVE-2026-54441",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.6.4-3.fc43",
+          "fixed": "3.6.7-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.6.7-1.fc44",
           "identifier": "fc44"
         }
       ]
