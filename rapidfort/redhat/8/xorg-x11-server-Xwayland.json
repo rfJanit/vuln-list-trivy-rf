@@ -239,12 +239,8 @@
       "title": "Local attackers with a X connection able to provide PCX fonts to  ...",
       "description": "Local attackers with a X connection able to provide PCX fonts to the X \nserver xorg-server before 21.2.24 and xwayland before 24.1.13 could \ncause a heap buffer overflow via SetFont due to missing glyph boundary checks.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "24.1.8-2.fc43",
           "fixed": "24.1.13-1.fc43",

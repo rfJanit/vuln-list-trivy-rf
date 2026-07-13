@@ -1,0 +1,23 @@
+{
+  "package_name": "sympa",
+  "distro_version": "24.04",
+  "advisories": {
+    "CVE-2024-55919": {
+      "cve_id": "CVE-2024-55919",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:6.2.66~dfsg-2",
+          "fixed": "0:6.2.76~dfsg-1"
+        },
+        {
+          "introduced": "0:6.2.70~dfsg-2",
+          "fixed": "0:6.2.76~dfsg-1"
+        }
+      ]
+    }
+  }
+}

@@ -348,7 +348,7 @@
       "events": [
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.42.0-4.fc43",
+          "fixed": "2:1.43.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -399,7 +399,7 @@
       "events": [
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.42.0-4.fc43",
+          "fixed": "2:1.43.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -502,19 +502,6 @@
       "cve_id": "CVE-2026-39820",
       "title": "Well-crafted inputs reaching ParseAddress, ParseAddressList, and  ...",
       "description": "Well-crafted inputs reaching ParseAddress, ParseAddressList, and ParseDate were able to trigger excessive CPU exhaustion and memory allocations.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "2:1.41.5-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-39822": {
-      "cve_id": "CVE-2026-39822",
-      "title": "On Unix systems, opening a file in an os.Root improperly follows  ...",
-      "description": "On Unix systems, opening a file in an os.Root improperly follows symlinks to locations outside of the Root when the final path component of the a path is a symbolic link and the path ends in /. For example, 'root.Open(\"symlink/\")' will open \"symlink\" even when \"symlink\" is a symbolic link pointing outside of the root.",
       "severity": "HIGH",
       "status": "open",
       "events": [
@@ -656,8 +643,8 @@
     },
     "CVE-2026-44517": {
       "cve_id": "CVE-2026-44517",
-      "title": "Build breakout using malicious Containerfile and Git Smart HTTP server or GitHub release tar archive",
-      "description": "### Impact\n\nWhen processing a build contexts or `add`/`copy` instructions, a malicious server serving a Git repository or a tar archive file can cause files outside of the build context directory to be included in the build context or copied into the build.\n\n### Patches\n\nFixed in Buildah 1.44 and 1.43.2.",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
