@@ -2248,6 +2248,23 @@
         }
       ]
     },
+    "CVE-2026-61858": {
+      "cve_id": "CVE-2026-61858",
+      "title": "ImageMagick before 7.1.2-26 contains a policy bypass vulnerabilit ...",
+      "description": "ImageMagick before 7.1.2-26 contains a policy bypass vulnerability in the APNG encoder and external delegates due to missing validation checks. Attackers can write files to disallowed paths by bypassing configured policy restrictions through the APNG encoding process.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
+        }
+      ]
+    },
     "CVE-2026-61861": {
       "cve_id": "CVE-2026-61861",
       "title": "ImageMagick before 7.1.2-26 contains a use-after-free vulnerabili ...",

@@ -604,6 +604,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el6"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
           "identifier": "fc43"
         }

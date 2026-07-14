@@ -102,12 +102,8 @@
       "title": "DBI versions before 1.648 for Perl saved errors in a limited-size ...",
       "description": "DBI versions before 1.648 for Perl saved errors in a limited-sized buffer.\n\nError messages that were returned when RaiseError, PrintError or HandleError were set were written to a 200-byte buffer without a length limit.\n\nAttackers that can influence the error text in an application can trigger a buffer overflow.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "1.647-4.fc43",
           "fixed": "1.648-1.fc43",

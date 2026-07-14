@@ -217,40 +217,6 @@
         }
       ]
     },
-    "CVE-2026-27145": {
-      "cve_id": "CVE-2026-27145",
-      "title": "(*x509.Certificate).VerifyHostname previously called matchHostnam ...",
-      "description": "(*x509.Certificate).VerifyHostname previously called matchHostnames in a loop over all DNS Subject Alternative Name (SAN) entries. This caused strings.Split(host, \".\") to execute repeatedly on the same input hostname. With a large DNS SAN list, verification costs scaled quadratically based on the number of SAN entries multiplied by the hostname's label count. Because x509.Verify validates hostnames before building the certificate chain, this overhead occurred even for untrusted certificates.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
-          "introduced": "0.3.8-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-39821": {
-      "cve_id": "CVE-2026-39821",
-      "title": "The ToASCII and ToUnicode functions incorrectly accept Punycode-e ...",
-      "description": "The ToASCII and ToUnicode functions incorrectly accept Punycode-encoded labels that decode to an ASCII-only label. For example, ToUnicode(\"xn--example-.com\") incorrectly returns the name \"example.com\" rather than an error. This behavior can lead to privilege escalation in programs using the idna package. For example, a program which performs privilege checks on the ASCII hostname may reject \"example.com\" but permit \"xn--example-.com\". If that program subsequently converts the ASCII hostname to Unicode, it will inadvertently permits access to the Unicode name \"example.com\".",
-      "severity": "CRITICAL",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
-          "introduced": "0.3.8-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-42504": {
       "cve_id": "CVE-2026-42504",
       "title": "Decoding a maliciously-crafted MIME header containing many invali ...",

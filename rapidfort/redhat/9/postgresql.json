@@ -314,6 +314,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
           "introduced": "18.3-2.fc43",
           "identifier": "fc43"
         }
