@@ -531,6 +531,31 @@
         },
         {
           "introduced": "0",
+          "fixed": "3.12.0-1.fc37",
+          "identifier": "fc37"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.0-1.fc38",
+          "identifier": "fc38"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.0-1.fc39",
+          "identifier": "fc39"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.0-1.fc40",
+          "identifier": "fc40"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.2-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0",
           "fixed": "3.12.13-3.fc42",
           "identifier": "fc42"
         },
@@ -631,23 +656,6 @@
           "introduced": "0",
           "fixed": "3.12.13-3.fc45",
           "identifier": "fc45"
-        }
-      ]
-    },
-    "CVE-2026-5713": {
-      "cve_id": "CVE-2026-5713",
-      "title": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio intro ...",
-      "description": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio introspection capabilities\" (3.14+, \"python -m asyncio ps\" and \"python -m asyncio pstree\") features could be used to read and write addresses in a privileged process if that process connected to a malicious or \"infected\" Python process via the remote debugging feature. This vulnerability requires persistently and repeatedly connecting to the process to be exploited, even after the connecting process crashes with high likelihood due to ASLR.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
-          "introduced": "3.12.11-3.fc43",
-          "identifier": "fc43"
         }
       ]
     },

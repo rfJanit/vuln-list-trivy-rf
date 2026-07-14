@@ -15,19 +15,6 @@
         }
       ]
     },
-    "CVE-2023-41105": {
-      "cve_id": "CVE-2023-41105",
-      "title": "An issue was discovered in Python 3.11 through 3.11.4. If a path  ...",
-      "description": "An issue was discovered in Python 3.11 through 3.11.4. If a path containing '\\0' bytes is passed to os.path.normpath(), the path will be truncated unexpectedly at the first '\\0' byte. There are plausible cases in which an application would have rejected a filename for security reasons in Python 3.10.x or earlier, but that filename is no longer rejected in Python 3.11.x.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.10.18-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2024-3220": {
       "cve_id": "CVE-2024-3220",
       "title": "There is a defect in the CPython standard library module “mimetyp ...",
