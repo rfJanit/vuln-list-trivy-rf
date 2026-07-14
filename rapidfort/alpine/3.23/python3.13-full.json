@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -37,7 +37,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -102,7 +102,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -128,7 +128,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.13.14-r0"
+          "fixed": "3.13.14-r1"
         }
       ]
     },
@@ -137,19 +137,6 @@
       "title": "Mitgation of CVE-2026-4519 was incomplete. If the URL contained \" ...",
       "description": "Mitgation of CVE-2026-4519 was incomplete. If the URL contained \"%action\" the mitigation could be bypassed for certain browser types the \"webbrowser.open()\" API could have commands injected into the underlying shell. See CVE-2026-4519 for details.",
       "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "3.13.13-r0",
-          "fixed": "3.13.14-r0"
-        }
-      ]
-    },
-    "CVE-2026-5713": {
-      "cve_id": "CVE-2026-5713",
-      "title": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio intro ...",
-      "description": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio introspection capabilities\" (3.14+, \"python -m asyncio ps\" and \"python -m asyncio pstree\") features could be used to read and write addresses in a privileged process if that process connected to a malicious or \"infected\" Python process via the remote debugging feature. This vulnerability requires persistently and repeatedly connecting to the process to be exploited, even after the connecting process crashes with high likelihood due to ASLR.",
-      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {

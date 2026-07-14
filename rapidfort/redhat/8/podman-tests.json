@@ -525,8 +525,8 @@
     },
     "CVE-2026-44517": {
       "cve_id": "CVE-2026-44517",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -606,10 +606,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "5:5.6.2-1.fc43",
           "identifier": "fc43"

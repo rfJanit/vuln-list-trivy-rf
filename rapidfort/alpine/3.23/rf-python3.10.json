@@ -7,11 +7,10 @@
       "title": "An issue was discovered in Python 3.11 through 3.11.4. If a path  ...",
       "description": "An issue was discovered in Python 3.11 through 3.11.4. If a path containing '\\0' bytes is passed to os.path.normpath(), the path will be truncated unexpectedly at the first '\\0' byte. There are plausible cases in which an application would have rejected a filename for security reasons in Python 3.10.x or earlier, but that filename is no longer rejected in Python 3.11.x.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "3.10.20-r1"
         }
       ]
     },
@@ -38,6 +37,18 @@
         {
           "introduced": "3.10.19-r1",
           "fixed": "3.10.20-r1"
+        }
+      ]
+    },
+    "CVE-2025-12781": {
+      "cve_id": "CVE-2025-12781",
+      "title": "When passing data to the b64decode(), standard_b64decode(), and u ...",
+      "description": "When passing data to the b64decode(), standard_b64decode(), and urlsafe_b64decode() functions in the \"base64\" module the characters \"+/\" will always be accepted, regardless of the value of \"altchars\" parameter, typically used to establish an \"alternative base64 alphabet\" such as the URL safe alphabet. This behavior matches what is recommended in earlier base64 RFCs, but newer RFCs now recommend either dropping characters outside the specified base64 alphabet or raising an error. The old behavior has the possibility of causing data integrity issues.\n\n\n\n\nThis behavior can only be insecure if your application uses an alternate base64 alphabet (without \"+/\"). If your application does not use the \"altchars\" parameter or the urlsafe_b64decode() function, then your application does not use an alternative base64 alphabet.\n\n\n\n\nThe attached patches DOES NOT make the base64-decode behavior raise an error, as this would be a change in behavior and break existing programs. Instead, the patch deprecates the behavior which will be replaced with the newly recommended behavior in a future version of Python. Users are recommended to mitigate by verifying user-controlled inputs match the base64 \nalphabet they are expecting or verify that their application would not be \naffected if the b64decode() functions accepted \"+\" or \"/\" outside of altchars.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.10.20-r1"
         }
       ]
     },
@@ -267,11 +278,10 @@
       "title": "unicodedata.normalize() can take excessive CPU time when processi ...",
       "description": "unicodedata.normalize() can take excessive CPU time when processing\nspecially crafted Unicode input containing long runs of combining characters\nwith alternating Canonical Combining Class values.\nThis affects all normalization forms.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "3.10.20-r1"
         }
       ]
     },
@@ -293,11 +303,10 @@
       "title": "DISPUTED: The project has clarified that the documentation was in ...",
       "description": "DISPUTED: The project has clarified that the documentation was incorrect, and that pkgutil.get_data() has the same security model as open(). The documentation has been updated to clarify this point. There is no vulnerability in the function if following the intended security model.\n\npkgutil.get_data() did not validate the resource argument as documented, allowing path traversals.",
       "severity": "",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "3.10.20-r1"
         }
       ]
     },
@@ -353,19 +362,6 @@
         }
       ]
     },
-    "CVE-2026-5713": {
-      "cve_id": "CVE-2026-5713",
-      "title": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio intro ...",
-      "description": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio introspection capabilities\" (3.14+, \"python -m asyncio ps\" and \"python -m asyncio pstree\") features could be used to read and write addresses in a privileged process if that process connected to a malicious or \"infected\" Python process via the remote debugging feature. This vulnerability requires persistently and repeatedly connecting to the process to be exploited, even after the connecting process crashes with high likelihood due to ASLR.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
-        }
-      ]
-    },
     "CVE-2026-6019": {
       "cve_id": "CVE-2026-6019",
       "title": "http.cookies.Morsel.js_output() returns an inline \u003cscript\u003e snippe ...",
@@ -397,11 +393,10 @@
       "title": "`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient  ...",
       "description": "`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient entropy for Expat hash-flooding protection, which allows a crafted XML document to trigger hash flooding.\\r\\n\\r\\nFully mitigating this vulnerability requires both updating libexpat to 2.8.0 or later and applying this patch.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "introduced": "3.10.20-r1"
         }
       ]
     },

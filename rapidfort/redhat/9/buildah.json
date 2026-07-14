@@ -594,7 +594,7 @@
         },
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.43.0-1.fc43",
+          "fixed": "2:1.42.0-4.fc43",
           "identifier": "fc43"
         },
         {
@@ -657,7 +657,7 @@
         },
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.43.0-1.fc43",
+          "fixed": "2:1.42.0-4.fc43",
           "identifier": "fc43"
         },
         {
@@ -885,10 +885,11 @@
       "title": "On Unix systems, opening a file in an os.Root improperly follows  ...",
       "description": "On Unix systems, opening a file in an os.Root improperly follows symlinks to locations outside of the Root when the final path component of the a path is a symbolic link and the path ends in /. For example, 'root.Open(\"symlink/\")' will open \"symlink\" even when \"symlink\" is a symbolic link pointing outside of the root.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2:1.41.8-2.el9_7",
+          "fixed": "2:1.43.1-4.el9_8",
           "identifier": "el9"
         }
       ]
@@ -1134,8 +1135,8 @@
     },
     "CVE-2026-44517": {
       "cve_id": "CVE-2026-44517",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

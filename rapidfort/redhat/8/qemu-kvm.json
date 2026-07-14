@@ -54,6 +54,19 @@
         }
       ]
     },
+    "CVE-2026-12080": {
+      "cve_id": "CVE-2026-12080",
+      "title": "qemu-kvm: qemu-guest-agent: Local privilege escalation via symlink attack in guest-ssh-add-authorized-keys",
+      "description": "No description is available for this CVE.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "2:10.1.0-7.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-2243": {
       "cve_id": "CVE-2026-2243",
       "title": "A flaw was found in QEMU. A specially crafted VMDK image could tr ...",
@@ -74,10 +87,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2:10.1.0-7.fc43",
           "identifier": "fc43"

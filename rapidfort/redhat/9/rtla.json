@@ -27160,23 +27160,6 @@
         }
       ]
     },
-    "CVE-2026-43499": {
-      "cve_id": "CVE-2026-43499",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nrtmutex: Use waiter::task instead of current in remove_waiter()\n\nremove_waiter() is used by the slowlock paths, but it is also used for\nproxy-lock rollback in rt_mutex_start_proxy_lock() when invoked from\nfutex_requeue().\n\nIn the latter case waiter::task is not current, but remove_waiter()\noperates on current for the dequeue operation. That results in several\nproblems:\n\n  1) the rbtree dequeue happens without waiter::task::pi_lock being held\n\n  2) the waiter task's pi_blocked_on state is not cleared, which leaves a\n     dangling pointer primed for UAF around.\n\n  3) rt_mutex_adjust_prio_chain() operates on the wrong top priority waiter\n     task\n\nUse waiter::task instead of current in all related operations in\nremove_waiter() to cure those problems.\n\n[ tglx: Fixup rt_mutex_adjust_prio_chain(), add a comment and amend the\n  \tchangelog ]",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-43500": {
       "cve_id": "CVE-2026-43500",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -32863,23 +32846,6 @@
       "cve_id": "CVE-2026-53164",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\niommu/dma: Do not try to iommu_map a 0 length region in swiotlb\n\niommu_dma_iova_link_swiotlb() processes a mapping that is unaligned in three\nparts, the head, middle and trailer. If the middle is empty because there\nare no aligned pages it will call down to iommu_map() with a 0 size\nwhich the iommupt implementation will fail as illegal.\n\nIt then tries to do an error unwind and starts from the wrong spot\ncorrupting the mapping so the eventual destruction triggers a WARN_ON.\n\nCheck for 0 length and avoid mapping and use offset not 0 as the starting\npoint to unlink.\n\nThis is frequently triggered by using some kinds of thunderbolt NVMe\ndrives that trigger forced SWIOTLB for unaligned memory. NVMe seems to\npass in oddly aligned buffers for the passthrough commands from smartctl\nthat hit this condition.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-53166": {
-      "cve_id": "CVE-2026-53166",
-      "title": "Rejected reason: This CVE ID has been rejected or withdrawn by it ...",
-      "description": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [

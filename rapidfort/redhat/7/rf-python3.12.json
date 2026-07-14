@@ -431,19 +431,6 @@
         }
       ]
     },
-    "CVE-2026-5713": {
-      "cve_id": "CVE-2026-5713",
-      "title": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio intro ...",
-      "description": "The \"profiling.sampling\" module (Python 3.15+) and \"asyncio introspection capabilities\" (3.14+, \"python -m asyncio ps\" and \"python -m asyncio pstree\") features could be used to read and write addresses in a privileged process if that process connected to a malicious or \"infected\" Python process via the remote debugging feature. This vulnerability requires persistently and repeatedly connecting to the process to be exploited, even after the connecting process crashes with high likelihood due to ASLR.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-1.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
     "CVE-2026-6019": {
       "cve_id": "CVE-2026-6019",
       "title": "http.cookies.Morsel.js_output() returns an inline \u003cscript\u003e snippe ...",

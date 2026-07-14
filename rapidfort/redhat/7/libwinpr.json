@@ -1112,7 +1112,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1141,7 +1141,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1174,7 +1174,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1203,7 +1203,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1232,7 +1232,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1261,7 +1261,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1290,7 +1290,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1323,7 +1323,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1754,7 +1754,7 @@
       "cve_id": "CVE-2026-55191",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
@@ -1776,8 +1776,8 @@
     },
     "CVE-2026-55192": {
       "cve_id": "CVE-2026-55192",
-      "title": "CVE-2026-55192",
-      "description": "Out-of-bounds read in H.264 YUV-to-RGB conversion due to decoder/surface dimension mismatch After h264-\u003esubsystem-\u003eDecompress() returns, all major H.264 backends overwrite h264-\u003epYUVData and h264-\u003eiStride with decoder-internal YUV buffers sized by the H.264 bitstream SPS. These dimensions are never compared against the RDPGFX surface dimensions stored in h264-\u003ewidth / h264-\u003eheight. areRectsValid() validates region rectangles against the surface width/height passed into avc420_decompress() / avc444_decompress(). Subsequent YUV→RGB conversion (yuv420_context_decode → avc420_yuv_to_rgb or avc444_yuv_to_rgb) consumes those surface-sized rectangles against the smaller decoder-sized YUV planes, causing out-of-bounds reads on both axes. clamp() only limits rect.top/rect.bottom using MIN(context-\u003eheight, srcHeight) where srcHeight is h264-\u003eheight (surface height on FFmpeg/OpenH264/MediaCodec paths). It does not clamp rect.left/rect.right. check_rect() is only invoked on the YUV444 combine path, not on the AVC420/AVC444 RGB conversion paths.",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1802,7 +1802,7 @@
       "cve_id": "CVE-2026-55193",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1826,7 +1826,7 @@
       "cve_id": "CVE-2026-55194",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1848,8 +1848,8 @@
     },
     "CVE-2026-55648": {
       "cve_id": "CVE-2026-55648",
-      "title": "Integer Overflow in `freerdp_image_copy_from_icon_data` Bypasses ",
-      "description": "Integer Overflow in `freerdp_image_copy_from_icon_data` Bypasses Bounds Check",
+      "title": "CVE-2026-55648",
+      "description": "Integer Overflow in freerdp_image_copy_from_icon_data Bypasses Bounds Check",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1926,23 +1926,6 @@
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
       "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0 on 32-bit builds, FreeRDP clients contain an integer overflow in update_read_delta_points in libfreerdp/core/orders.c when multiplying an attacker-controlled point count by sizeof(DELTA_POINT), allowing a malicious RDP peer to allocate an undersized heap buffer and then write beyond it during initialization. This issue is fixed in version 3.28.0.",
       "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
-          "introduced": "2:3.16.0-4.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-57157": {
-      "cve_id": "CVE-2026-57157",
-      "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
-      "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0, FreeRDP server implementations with the MS-RDPECAM camera device enumerator channel enabled scan attacker-supplied DeviceName and VirtualChannelName fields for a NUL terminator in channels/rdpecam/server/camera_device_enumerator_main.c and then dereference once past the scan bound, allowing a malicious RDP client to trigger a 1- to 2-byte out-of-bounds heap read. This issue is fixed in version 3.28.0.",
-      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {

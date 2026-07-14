@@ -23215,23 +23215,6 @@
         }
       ]
     },
-    "CVE-2026-43499": {
-      "cve_id": "CVE-2026-43499",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nrtmutex: Use waiter::task instead of current in remove_waiter()\n\nremove_waiter() is used by the slowlock paths, but it is also used for\nproxy-lock rollback in rt_mutex_start_proxy_lock() when invoked from\nfutex_requeue().\n\nIn the latter case waiter::task is not current, but remove_waiter()\noperates on current for the dequeue operation. That results in several\nproblems:\n\n  1) the rbtree dequeue happens without waiter::task::pi_lock being held\n\n  2) the waiter task's pi_blocked_on state is not cleared, which leaves a\n     dangling pointer primed for UAF around.\n\n  3) rt_mutex_adjust_prio_chain() operates on the wrong top priority waiter\n     task\n\nUse waiter::task instead of current in all related operations in\nremove_waiter() to cure those problems.\n\n[ tglx: Fixup rt_mutex_adjust_prio_chain(), add a comment and amend the\n  \tchangelog ]",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-43500": {
       "cve_id": "CVE-2026-43500",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -27973,23 +27956,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-53166": {
-      "cve_id": "CVE-2026-53166",
-      "title": "Rejected reason: This CVE ID has been rejected or withdrawn by it ...",
-      "description": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
         {
           "introduced": "6.17.1-300.fc43",
           "identifier": "fc43"

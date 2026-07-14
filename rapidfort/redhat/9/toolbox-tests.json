@@ -342,23 +342,6 @@
         }
       ]
     },
-    "CVE-2026-33811": {
-      "cve_id": "CVE-2026-33811",
-      "title": "When using LookupCNAME with the cgo DNS resolver, a very long CNA ...",
-      "description": "When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
-          "introduced": "0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-39823": {
       "cve_id": "CVE-2026-39823",
       "title": "CVE-2026-27142 fixed a vulnerability in which URLs were not corre ...",
