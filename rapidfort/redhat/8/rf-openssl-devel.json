@@ -11,7 +11,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
         }
       ]
@@ -125,6 +130,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -135,6 +145,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
@@ -153,6 +168,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -163,6 +183,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
@@ -181,6 +206,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -191,6 +221,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
@@ -209,6 +244,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -219,6 +259,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
@@ -237,6 +282,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -247,6 +297,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
@@ -265,6 +320,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -275,6 +335,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
@@ -293,6 +358,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -307,6 +377,11 @@
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -317,6 +392,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.5-11.rf",
           "fixed": "1:3.5.7-11.rf",
