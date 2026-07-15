@@ -23,9 +23,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:1.6.1-8.fc41",
           "fixed": "1.7.1-14.fc43.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:1.6.1-8.fc41",
+          "fixed": "1.7.1-5.fc43",
+          "identifier": "fc41"
         }
       ]
     }

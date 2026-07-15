@@ -66,8 +66,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:2.86.3-1.fc43",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:2.86.3-1.fc43",
+          "fixed": "2.86.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -80,8 +85,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:2.86.3-1.fc43",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:2.86.3-1.fc43",
+          "fixed": "2.86.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -94,8 +104,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:2.86.3-1.fc43",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:2.86.3-1.fc43",
+          "fixed": "2.86.4-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -108,8 +123,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:2.86.4-2.fc43",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "0:2.86.5-1.fc43",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:2.86.3-1.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:2.86.4-2.fc43",
+          "fixed": "2.86.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -122,8 +147,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:2.86.4-2.fc43",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "0:2.86.5-1.fc43",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:2.86.3-1.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:2.86.4-2.fc43",
+          "fixed": "2.86.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -136,8 +171,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:2.86.4-2.fc43",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "0:2.86.5-1.fc43",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:2.86.3-1.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:2.86.4-2.fc43",
+          "fixed": "2.86.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -150,9 +195,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     },
@@ -164,9 +214,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     },
@@ -178,9 +233,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     },
@@ -192,9 +252,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:2.84.4-1.fc42",
           "fixed": "2.86.5-11.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.5-1.fc43",
+          "fixed": "2.88.1-1.fc44",
+          "identifier": "fc43"
         }
       ]
     }

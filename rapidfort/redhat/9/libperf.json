@@ -30704,7 +30704,7 @@
       "cve_id": "CVE-2026-52948",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ni2c: dev: prevent integer overflow in I2C_TIMEOUT ioctl\n\nWhile fuzzing with Syzkaller, a persistent `schedule_timeout: wrong\ntimeout value` warning was observed, accompanied by SMBus controller\nstate machine corruption.\n\nThe I2C_TIMEOUT ioctl accepts a user-provided timeout in multiples of\n10 ms. The user argument is checked against INT_MAX, but it is\nsubsequently multiplied by 10 before being passed to msecs_to_jiffies().\n\nA malicious user can pass a large value (e.g., 429496729) that passes\nthe `arg \u003e INT_MAX` check but overflows when multiplied by 10. This\nresults in a truncated 32-bit unsigned value that bypasses the\ninternal `(int)m \u003c 0` check in `msecs_to_jiffies()`.\n\nThe truncated value is then assigned to `client-\u003eadapter-\u003etimeout`\n(a signed 32-bit int), which is reinterpreted as a negative number.\nWhen passed to wait_for_completion_timeout(), this negative value\nundergoes sign extension to a 64-bit unsigned long, triggering the\n`schedule_timeout` warning and causing premature returns. This leaves\nthe SMBus state machine in an unrecoverable state, constituting a\nlocal Denial of Service (DoS).\n\nFix this by bounding the user argument to `INT_MAX / 10`.\n\n[wsa: move the comment as well]",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -30721,7 +30721,7 @@
       "cve_id": "CVE-2026-52949",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/ttm: Fix ttm_bo_shrink() infinite LRU walk on backup failure\n\nApply the same fix as b2ed01e7ad (\"drm/ttm: Fix ttm_bo_swapout()\ninfinite LRU walk on swapout failure\") to the ttm_bo_shrink() path.\n\nMove del_bulk_move from before the backup to after success only,\nusing ttm_resource_del_bulk_move_unevictable() since the resource\nis now unevictable once fully backed up.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -30908,7 +30908,7 @@
       "cve_id": "CVE-2026-52962",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nceph: fix a buffer leak in __ceph_setxattr()\n\nThe old_blob in __ceph_setxattr() can store\nci-\u003ei_xattrs.prealloc_blob value during the retry.\nHowever, it is never called the ceph_buffer_put()\nfor the old_blob object. This patch fixes the issue of\nthe buffer leak.",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -31061,7 +31061,7 @@
       "cve_id": "CVE-2026-52972",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: af_alg - Cap AEAD AD length to 0x80000000\n\nIn order to prevent arithmetic overflows when checking the TX\nbuffer size, cap the associated data length to 0x80000000.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -31197,7 +31197,7 @@
       "cve_id": "CVE-2026-52984",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet/sched: netem: fix queue limit check to include reordered packets\n\nThe queue limit check in netem_enqueue() uses q-\u003et_len which only\ncounts packets in the internal tfifo. Packets placed in sch-\u003eq by\nthe reorder path (__qdisc_enqueue_head) are not counted, allowing\nthe total queue occupancy to exceed sch-\u003elimit under reordering.\n\nInclude sch-\u003eq.qlen in the limit check.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -31214,7 +31214,7 @@
       "cve_id": "CVE-2026-52985",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetdevsim: zero initialize struct iphdr in dummy sk_buff\n\nSyzbot reports a KMSAN uninit-value originating from\nnsim_dev_trap_skb_build, with the allocation also\nbeing performed in the same function.\n\nFix this by calling skb_put_zero instead of skb_put to\nguarantee zero initialization of the whole IP header.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -31571,7 +31571,7 @@
       "cve_id": "CVE-2026-53013",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nmacvlan: fix macvlan_get_size() not reserving space for IFLA_MACVLAN_BC_CUTOFF\n\nmacvlan_get_size() does not account for IFLA_MACVLAN_BC_CUTOFF, but\nmacvlan_fill_info() conditionally includes it when port-\u003ebc_cutoff != 1.\nThis causes nla_put_s32() to fail with -EMSGSIZE when the netlink skb\nruns out of space, triggering a WARN_ON in rtnetlink and preventing the\ninterface from being dumped.\n\nThe bug can be reproduced with:\n\n  ip link add macvlan0 link eth0 type macvlan mode bridge\n  ip link set macvlan0 type macvlan bc_cutoff 0\n  ip -d link show macvlan0   # fails with -EMSGSIZE\n\nThe bc_cutoff feature was added in commit 954d1fa1ac93 (\"macvlan: Add\nnetlink attribute for broadcast cutoff\"), which added the nla_put_s32()\ncall in macvlan_fill_info() but missed adding the corresponding\nnla_total_size(4) in macvlan_get_size(). A follow-up commit\n55cef78c244d (\"macvlan: add forgotten nla_policy for\nIFLA_MACVLAN_BC_CUTOFF\") fixed the missing nla_policy entry but still\ndid not fix the size calculation.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -34481,6 +34481,40 @@
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nKVM: SEV: Require in-GHCB scratch area if GHCB v2+ is in use\n\nAs per the GHCB spec, when using GHCB v2+ require the software scratch area\nto reside in the GHCB's shared buffer.  Note, things like Page State Change\n(PSC) requests _rely_ on this behavior, as the guest can't provide a length\nwhen making the request, i.e. the size of the guest payload is bounded by\nthe size of the shared buffer.\n\nFailure to force usage of the GHCB, and a slew of other flaws, lets a\nmalicious SNP guest corrupt host kernel heap memory, and leak host heap\nlayout information.\n\nsetup_vmgexit_scratch() allocates a buffer via kvzalloc(exit_info_2),\nwhere exit_info_2 is guest-controlled. With exit_info_2=24, this yields\na 24-byte allocation in kmalloc-cg-32 (32-byte slab objects). The buffer\nholds an 8-byte psc_hdr followed by 8-byte psc_entry structs, so only\nentries[0] and entries[1] are in-bounds.\n\nsnp_begin_psc() validates end_entry against VMGEXIT_PSC_MAX_COUNT (253)\nbut NOT against the actual buffer size:\n\n      idx_end = hdr-\u003eend_entry;\n\n      if (idx_end \u003e= VMGEXIT_PSC_MAX_COUNT) {   // checks 253, not buffer\n          snp_complete_psc(svm, ...);\n          return 1;\n      }\n\n      for (idx = idx_start; idx \u003c= idx_end; idx++) {\n          entry_start = entries[idx];           // OOB when idx \u003e= 2\n\nThe guest sets end_entry=10+, causing the host to iterate entries[2+]\nwhich are OOB into adjacent slab objects. For each OOB entry:\n\n  - The host reads 8 bytes (OOB READ / info leak oracle)\n  - If the data passes PSC validation, __snp_complete_one_psc() writes\n    cur_page = 1 or 512 into the entry (OOB WRITE, sev.c:3806)\n  - If validation fails, the error response reveals whether adjacent\n    memory is zero vs non-zero (information disclosure to guest)\n\nThe guest controls allocation size (exit_info_2), entry range\n(cur_entry/end_entry), and can fire unlimited VMGEXITs to repeatedly\nhit different slab positions.\n\nBy exploiting the variety of bugs, a malicious SEV-SNP guest can:\n    - OOB read adjacent kmalloc-cg-32 objects (heap layout disclosure)\n    - OOB write cur_page bits into adjacent objects (heap corruption)\n    - Trigger use-after-free conditions across VMGEXITs\n\nE.g. with KASAN enabled, a single insmod of the PoC guest module\nproduces 73 KASAN reports:\n\n    BUG: KASAN: slab-out-of-bounds in snp_begin_psc+0x126/0x890\n    Read of size 8 at addr ffff888219ffb5e0 by task qemu-system-x86/2199\n\n    BUG: KASAN: slab-out-of-bounds in snp_begin_psc+0x468/0x890\n    Write of size 8 at addr ffff888351566648 by task qemu-system-x86/2199\n\n    The buggy address belongs to the object at ffff888XXXXXXXXX\n     which belongs to the cache kmalloc-cg-32 of size 32\n    The buggy address is located N bytes to the right of\n     allocated 32-byte region [ffff888XXXXXXXXX, ffff888XXXXXXXXX)\n\n  Breakdown:\n    62 slab-out-of-bounds (reads + writes past allocation)\n     7 slab-use-after-free\n     4 use-after-free\n\nAll credit to Stan for the wonderful description and reproducer!\n\n[sean: write changelog]",
       "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-53364": {
+      "cve_id": "CVE-2026-53364",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: hci_conn: Fix memory leak in hci_le_big_terminate()\n\nhci_le_big_terminate() allocates iso_list_data via kzalloc_obj but\nreturns 0 without freeing it when neither pa_sync_term nor big_sync_term\nflags are set after evaluating the PA and BIG sync connection state.\n\nThis early-return path was introduced when hci_le_big_terminate() was\nrefactored to take struct hci_conn instead of raw u8 parameters, adding\nPA/BIG flag evaluation logic. The existing kfree() on hci_cmd_sync_queue\nfailure does not cover this path.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-53365": {
+      "cve_id": "CVE-2026-53365",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvsock/virtio: fix zerocopy completion for multi-skb sends\n\nWhen a large message is fragmented into multiple skbs, the zerocopy\nuarg is only allocated and attached to the last skb in the loop.\nNon-final skbs carry pinned user pages with no completion tracking,\nso the kernel has no way to notify userspace when those pages are safe\nto reuse. If the loop breaks early the uarg is never allocated at all,\nleaking pinned pages with no completion notification.\n\nFix this by following the approach used by TCP: allocate the zerocopy\nuarg (if not provided by the caller) before the send loop and attach\nit to every skb via skb_zcopy_set(), which takes a reference per skb.\nEach skb's completion properly decrements the refcount, and the\nnotification only fires after the last skb is freed.\nOn failure, if no data was sent, the uarg is cleanly aborted via\nnet_zcopy_put_abort().\n\nThis issue was initially discovered by sashiko while reviewing commit\n1cb36e252211 (\"vsock/virtio: fix MSG_ZEROCOPY pinned-pages accounting\")\nbut was pre-existing.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {

@@ -63,32 +63,6 @@
         }
       ]
     },
-    "CVE-2026-52718": {
-      "cve_id": "CVE-2026-52718",
-      "title": "A denial of service vulnerability was found in GStreamer's AV1 co ...",
-      "description": "A denial of service vulnerability was found in GStreamer's AV1 codec parser in gst-plugins-bad. The gst_av1_parser_parse_tile_list_obu() function passes a byte count to a bit-reader API that expects a bit count, causing parser desynchronization. A remote attacker could trick a user into opening a specially crafted AV1 media file, triggering an assertion abort and causing the application to crash.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        }
-      ]
-    },
-    "CVE-2026-52719": {
-      "cve_id": "CVE-2026-52719",
-      "title": "An out-of-bounds read vulnerability was found in the VA JPEG deco ...",
-      "description": "An out-of-bounds read vulnerability was found in the VA JPEG decoder in GStreamer's gst-plugins-bad. The JPEG parser reads a segment length value from the bitstream without validating it against available data. A remote attacker could trick a user into opening a specially crafted JPEG file, causing downstream parsing to read beyond the provided input buffer, leading to a crash or potential information disclosure.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        }
-      ]
-    },
     "CVE-2026-52720": {
       "cve_id": "CVE-2026-52720",
       "title": "A heap buffer overflow vulnerability was found in GStreamer's lib ...",

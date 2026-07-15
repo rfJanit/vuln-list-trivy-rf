@@ -423,23 +423,6 @@
         }
       ]
     },
-    "CVE-2026-33811": {
-      "cve_id": "CVE-2026-33811",
-      "title": "When using LookupCNAME with the cgo DNS resolver, a very long CNA ...",
-      "description": "When using LookupCNAME with the cgo DNS resolver, a very long CNAME response can trigger a double-free of C memory and a crash.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "3.7.0-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-39825": {
       "cve_id": "CVE-2026-39825",
       "title": "ReverseProxy can forward queries containing parameters not visibl ...",
