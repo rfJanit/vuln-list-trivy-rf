@@ -10,18 +10,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -34,18 +24,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -55,15 +35,11 @@
       "title": "When folding a long comment in an email header containing exclusi ...",
       "description": "When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -73,15 +49,11 @@
       "title": "When building nested elements using xml.dom.minidom methods such  ...",
       "description": "When building nested elements using xml.dom.minidom methods such as appendChild() that have a dependency on _clear_id_cache() the algorithm is quadratic. Availability can be impacted when building excessively nested documents.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -94,15 +66,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -115,15 +79,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -136,7 +92,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "0",
           "fixed": "0:3.12.13-1.rf",
           "identifier": "rf"
         }
@@ -147,15 +103,11 @@
       "title": "When loading a plist file, the plistlib module reads data in size ...",
       "description": "When loading a plist file, the plistlib module reads data in size specified by the file itself, meaning a malicious file can cause OOM and DoS issues",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -165,15 +117,11 @@
       "title": "User-controlled data URLs parsed by urllib.request.DataHandler al ...",
       "description": "User-controlled data URLs parsed by urllib.request.DataHandler allow injecting headers through newlines in the data URL mediatype.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -186,15 +134,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -207,15 +147,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -225,15 +157,11 @@
       "title": "If the value passed to os.path.expandvars() is user-controlled a  ...",
       "description": "If the value passed to os.path.expandvars() is user-controlled a \nperformance degradation is possible when expanding environment \nvariables.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -243,15 +171,11 @@
       "title": "When using http.cookies.Morsel, user-controlled cookie values and ...",
       "description": "When using http.cookies.Morsel, user-controlled cookie values and parameters can allow injecting HTTP headers into messages. Patch rejects all control characters within cookie names, values, and parameters.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -264,15 +188,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -282,15 +198,11 @@
       "title": "User-controlled header names and values containing newlines can a ...",
       "description": "User-controlled header names and values containing newlines can allow injecting HTTP headers.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -303,15 +215,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -324,15 +228,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -345,15 +241,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -363,15 +251,11 @@
       "title": "The \nemail module, specifically the \"BytesGenerator\" class, didn’ ...",
       "description": "The \nemail module, specifically the \"BytesGenerator\" class, didn’t properly quote newlines for email headers when \nserializing an email message allowing for header injection when an email\n is serialized. This is only applicable if using \"LiteralHeader\" writing headers that don't respect email folding rules, the new behavior will reject the incorrectly folded headers in \"BytesGenerator\".",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.12-2.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
           "identifier": "rf"
         }
       ]
@@ -384,15 +268,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -405,15 +281,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -426,15 +294,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -447,18 +307,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -471,15 +321,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -492,18 +334,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -516,15 +348,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -537,15 +361,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -558,15 +374,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -579,15 +387,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -600,15 +400,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -621,15 +413,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -642,15 +426,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -663,15 +439,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -684,15 +452,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -705,15 +465,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -726,15 +478,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -747,15 +491,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]
@@ -768,15 +504,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-1.rf",
           "identifier": "rf"
         }
       ]

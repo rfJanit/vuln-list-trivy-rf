@@ -311,6 +311,19 @@
           "identifier": "fc44"
         }
       ]
+    },
+    "CVE-2026-50651": {
+      "cve_id": "CVE-2026-50651",
+      "title": "Allocation of resources without limits or throttling in .NET allo ...",
+      "description": "Allocation of resources without limits or throttling in .NET allows an unauthorized attacker to deny service over a network.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
     }
   }
 }

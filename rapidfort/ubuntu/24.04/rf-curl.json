@@ -37,15 +37,19 @@
       "events": [
         {
           "introduced": "0:8.11.1-10rfubuntu",
-          "fixed": "0:8.16.0-10rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.12.0-10rfubu",
-          "fixed": "0:8.16.0-10rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
+        },
+        {
+          "introduced": "0:8.13.0-5ubuntu1",
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.14.0-10rfubu",
-          "fixed": "0:8.16.0-10rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.14.1-10rfubu",
@@ -100,8 +104,12 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:8.13.0-5ubuntu1",
+          "fixed": "0:8.14.1-2ubuntu1.1"
+        },
+        {
           "introduced": "0:8.14.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.14.1-10rfubu",
@@ -109,11 +117,15 @@
         },
         {
           "introduced": "0:8.16.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu"
+          "fixed": "0:8.18.0~rc2-1"
         },
         {
           "introduced": "0:8.17.0-11rfubu",
           "fixed": "0:8.18.0-11rfubu"
+        },
+        {
+          "introduced": "0:8.17.0-1ubuntu1",
+          "fixed": "0:8.18.0-1ubuntu1"
         }
       ]
     },
@@ -126,15 +138,19 @@
       "events": [
         {
           "introduced": "0:8.11.1-10rfubuntu",
-          "fixed": "0:8.18.0-11rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.12.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
+        },
+        {
+          "introduced": "0:8.13.0-5ubuntu1",
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.14.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.14.1-10rfubu",
@@ -142,11 +158,15 @@
         },
         {
           "introduced": "0:8.16.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu"
+          "fixed": "0:8.18.0~rc2-1"
         },
         {
           "introduced": "0:8.17.0-11rfubu",
           "fixed": "0:8.18.0-11rfubu"
+        },
+        {
+          "introduced": "0:8.17.0-1ubuntu1",
+          "fixed": "0:8.18.0"
         }
       ]
     },
@@ -198,15 +218,19 @@
       "events": [
         {
           "introduced": "0:8.11.1-10rfubuntu",
-          "fixed": "0:8.16.0-10rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.12.0-10rfubu",
-          "fixed": "0:8.16.0-10rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
+        },
+        {
+          "introduced": "0:8.13.0-5ubuntu1",
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.14.0-10rfubu",
-          "fixed": "0:8.16.0-10rfubu"
+          "fixed": "0:8.14.1-2ubuntu1.1"
         },
         {
           "introduced": "0:8.14.1-10rfubu",

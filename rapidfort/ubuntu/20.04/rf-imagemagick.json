@@ -25,6 +25,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.47+dfsg1-1"
         }
       ]
     },
@@ -38,6 +42,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -51,6 +59,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -64,6 +76,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -77,6 +93,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -90,6 +110,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -103,6 +127,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -116,6 +144,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -129,6 +161,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -142,6 +178,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -155,6 +195,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -168,6 +212,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.8+dfsg1-1"
         }
       ]
     },
@@ -181,6 +229,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -194,6 +246,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -207,6 +263,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.12+dfsg1-1"
         }
       ]
     },
@@ -220,6 +280,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -233,6 +297,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.12+dfsg1-1"
         }
       ]
     },
@@ -246,6 +314,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -259,6 +331,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -272,6 +348,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -285,6 +365,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -298,6 +382,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -311,6 +399,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -324,6 +416,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -337,6 +433,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -350,6 +450,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -363,6 +467,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -376,6 +484,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -389,6 +501,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -402,6 +518,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -415,6 +535,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1"
         }
       ]
     },
@@ -428,6 +552,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1"
         }
       ]
     },
@@ -441,6 +569,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -454,6 +586,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -467,6 +603,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.13+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -480,6 +620,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -493,6 +637,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -506,6 +654,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -519,6 +671,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.13+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -532,6 +688,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -545,6 +705,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.13+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -558,6 +722,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.13+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -571,6 +739,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -584,6 +756,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -597,6 +773,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -610,6 +790,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.13+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -623,6 +807,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -636,6 +824,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -649,6 +841,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.1.43+dfsg1-1"
         }
       ]
     },
@@ -662,6 +858,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -675,6 +875,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -688,6 +892,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -701,6 +909,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -714,6 +926,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -727,6 +943,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -740,6 +960,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -753,6 +977,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -766,6 +994,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -779,6 +1011,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -792,6 +1028,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -805,6 +1045,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -818,6 +1062,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -831,6 +1079,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -844,6 +1096,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -870,6 +1126,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -883,6 +1143,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -896,6 +1160,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -909,6 +1177,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -922,6 +1194,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -935,6 +1211,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -948,6 +1228,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -961,6 +1245,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -974,6 +1262,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -987,6 +1279,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1000,6 +1296,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1013,6 +1313,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1026,6 +1330,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1039,6 +1347,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1052,6 +1364,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1065,6 +1381,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1078,6 +1398,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1091,6 +1415,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1104,6 +1432,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1117,6 +1449,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1130,6 +1466,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1143,6 +1483,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1156,6 +1500,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1169,6 +1517,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1182,6 +1534,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1195,6 +1551,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1208,6 +1568,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1221,6 +1585,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1234,6 +1602,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1247,6 +1619,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1260,6 +1636,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1273,6 +1653,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1286,6 +1670,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1299,6 +1687,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1312,6 +1704,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1325,6 +1721,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1416,6 +1816,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1429,6 +1833,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1442,6 +1850,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1455,6 +1867,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1468,6 +1884,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1481,6 +1901,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1494,6 +1918,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1507,6 +1935,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1520,6 +1952,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1533,6 +1969,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1546,6 +1986,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.13+dfsg1-1"
         }
       ]
     },
@@ -1559,6 +2003,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1572,6 +2020,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.18+dfsg1-1"
         }
       ]
     },
@@ -1585,6 +2037,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.15+dfsg1-1"
         }
       ]
     },
@@ -1598,6 +2054,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.15+dfsg1-1"
         }
       ]
     },
@@ -1611,6 +2071,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1624,6 +2088,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1637,6 +2105,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.15+dfsg1-1"
         }
       ]
     },
@@ -1650,6 +2122,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1663,6 +2139,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.15+dfsg1-1"
         }
       ]
     },
@@ -1676,6 +2156,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1689,6 +2173,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.15+dfsg1-1"
         }
       ]
     },
@@ -1702,6 +2190,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1715,6 +2207,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.15+dfsg1-1"
         }
       ]
     },
@@ -1728,6 +2224,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.15+dfsg1-1"
         }
       ]
     },
@@ -1741,6 +2241,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1754,6 +2258,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1767,6 +2275,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1780,6 +2292,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     },
@@ -1793,6 +2309,10 @@
         {
           "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.3+dfsg1-1"
         }
       ]
     }

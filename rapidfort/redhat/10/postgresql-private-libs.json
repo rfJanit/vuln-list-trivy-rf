@@ -201,10 +201,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "18beta1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },

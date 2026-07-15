@@ -7,11 +7,12 @@
       "title": "In libxml2 before 2.13.8 and 2.14.x before 2.14.2, out-of-bounds  ...",
       "description": "In libxml2 before 2.13.8 and 2.14.x before 2.14.2, out-of-bounds memory access can occur in the Python API (Python bindings) because of an incorrect return value. This occurs in xmlPythonFileRead and xmlPythonFileReadRaw because of a difference between bytes and characters.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0",
-          "identifier": "el9"
+          "fixed": "2.12.10-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -20,11 +21,12 @@
       "title": "In libxml2 before 2.13.8 and 2.14.x before 2.14.2, xmlSchemaIDCFi ...",
       "description": "In libxml2 before 2.13.8 and 2.14.x before 2.14.2, xmlSchemaIDCFillNodeTables in xmlschemas.c has a heap-based buffer under-read. To exploit this, a crafted XML document must be validated against an XML schema with certain identity constraints, or a crafted XML schema must be used.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0",
-          "identifier": "el9"
+          "fixed": "2.12.10-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -36,7 +38,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-12.rf",
           "identifier": "rf"
         }
@@ -50,7 +52,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-12.rf",
           "identifier": "rf"
         }
@@ -64,7 +66,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-12.rf",
           "identifier": "rf"
         }
@@ -78,7 +80,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-12.rf",
           "identifier": "rf"
         }
@@ -92,7 +94,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-12.rf",
           "identifier": "rf"
         }
@@ -106,7 +108,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-15.rf",
           "identifier": "rf"
         }
@@ -120,7 +122,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         }
@@ -134,7 +136,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         }
@@ -148,7 +150,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         }
@@ -162,7 +164,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-15.rf",
           "identifier": "rf"
         }
@@ -176,7 +178,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-11.rf",
+          "introduced": "0",
           "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         }

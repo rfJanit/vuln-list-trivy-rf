@@ -2503,11 +2503,11 @@
       "events": [
         {
           "introduced": "2:8.2.3995-1ubuntu2",
-          "fixed": "2:9.2.0782-1ubuntu1"
+          "fixed": "2:8.2.3995-1ubuntu2.34"
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
-          "fixed": "2:9.2.0782-1ubuntu1"
+          "fixed": "2:9.1.0016-1ubuntu7.18"
         }
       ]
     },
@@ -2520,11 +2520,11 @@
       "events": [
         {
           "introduced": "2:8.2.3995-1ubuntu2",
-          "fixed": "2:9.2.0782-1ubuntu1"
+          "fixed": "2:8.2.3995-1ubuntu2.34"
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
-          "fixed": "2:9.2.0782-1ubuntu1"
+          "fixed": "2:9.1.0016-1ubuntu7.18"
         }
       ]
     },
@@ -2537,11 +2537,11 @@
       "events": [
         {
           "introduced": "2:8.2.3995-1ubuntu2",
-          "fixed": "2:9.2.0782-1ubuntu1"
+          "fixed": "2:8.2.3995-1ubuntu2.34"
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
-          "fixed": "2:9.2.0782-1ubuntu1"
+          "fixed": "2:9.1.0016-1ubuntu7.18"
         }
       ]
     }

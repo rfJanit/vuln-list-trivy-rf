@@ -145,7 +145,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.12.5-9.el10_0",
+          "fixed": "0:2.12.5-10.el10_2.2",
           "identifier": "el10"
         },
         {
