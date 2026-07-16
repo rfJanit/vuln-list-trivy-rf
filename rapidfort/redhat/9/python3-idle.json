@@ -502,10 +502,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "3.14.0-1.fc43",
           "identifier": "fc43"
         }
