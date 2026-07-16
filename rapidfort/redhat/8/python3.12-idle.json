@@ -390,10 +390,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
           "introduced": "3.12.11-3.fc43",
           "identifier": "fc43"
         }

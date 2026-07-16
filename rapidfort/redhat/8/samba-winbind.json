@@ -77,6 +77,23 @@
         }
       ]
     },
+    "CVE-2026-15779": {
+      "cve_id": "CVE-2026-15779",
+      "title": "A flaw was found in samba's pam_winbind. When mkhomedir is enable ...",
+      "description": "A flaw was found in samba's pam_winbind. When mkhomedir is enabled, pam_winbind chowns the target account's home directory without validating the path is not a critical system directory such as /. On affected systems, accounts with / as their home directory (a common default for system accounts) can have this triggered not only by root, but by a non-root user holding a narrow sudo delegation to run commands as that account, causing ownership of / to change and resulting in severe denial of service (SSH, sudo, and package-manager failures). The change does not grant write access to / (which ships with restrictive 0555 permissions on RHEL), so the impact is availability loss rather than further privilege escalation.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "2:4.23.1-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-1933": {
       "cve_id": "CVE-2026-1933",
       "title": "A flaw was found in Samba’s handling of NTFS-style reparse points ...",
