@@ -346,7 +346,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         },
         {
           "introduced": "7.1.2.13-r0"
@@ -400,7 +400,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -2892,7 +2892,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -2909,7 +2909,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -2926,7 +2926,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -3164,7 +3164,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -3198,7 +3198,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -3232,7 +3232,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -3283,7 +3283,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -3300,7 +3300,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -3419,7 +3419,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.0-r0"
+          "fixed": "7.1.1.44-r1"
         }
       ]
     },
@@ -3491,10 +3491,44 @@
         }
       ]
     },
+    "CVE-2026-61859": {
+      "cve_id": "CVE-2026-61859",
+      "title": "ImageMagick before 7.1.2-26 and 6.9.13-x before 6.9.13-51 contain ...",
+      "description": "ImageMagick before 7.1.2-26 and 6.9.13-x before 6.9.13-51 contains a policy bypass vulnerability in the -script operation due to missing security policy checks. This allows reading files from paths that are otherwise disallowed by the configured security policy.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.1.32-r2"
+        },
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
+        }
+      ]
+    },
     "CVE-2026-61861": {
       "cve_id": "CVE-2026-61861",
       "title": "ImageMagick before 7.1.2-26 contains a use-after-free vulnerabili ...",
       "description": "ImageMagick before 7.1.2-26 contains a use-after-free vulnerability in the FormatMagickCaption method when memory allocation fails. Attackers can trigger memory allocation failures to cause a dangling pointer to reference freed memory, potentially enabling denial of service or code execution.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.1.32-r2"
+        },
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-61863": {
+      "cve_id": "CVE-2026-61863",
+      "title": "ImageMagick before 7.1.2-26 (and 6.x before 6.9.13-51) contains a ...",
+      "description": "ImageMagick before 7.1.2-26 (and 6.x before 6.9.13-51) contains a memory leak in the TIFF encoder that occurs when a temporary file cannot be created, resulting in a small memory leak.",
       "severity": "HIGH",
       "status": "fixed",
       "events": [

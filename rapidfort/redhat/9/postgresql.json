@@ -166,7 +166,7 @@
       "events": [
         {
           "introduced": "13.23-2.el9_7",
-          "fixed": "0:15.18-1.module+el9.8.0+24358+32c5830e",
+          "fixed": "0:18.4-2.module+el9.8.0+24359+da7fad50",
           "identifier": "el9"
         },
         {
@@ -202,7 +202,7 @@
       "events": [
         {
           "introduced": "13.23-2.el9_7",
-          "fixed": "0:15.18-1.module+el9.8.0+24358+32c5830e",
+          "fixed": "0:18.4-2.module+el9.8.0+24359+da7fad50",
           "identifier": "el9"
         },
         {
@@ -236,6 +236,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "13.23-2.el9_7",
+          "fixed": "0:18.4-2.module+el9.8.0+24359+da7fad50",
+          "identifier": "el9"
+        },
         {
           "introduced": "18.3-2.fc43",
           "identifier": "fc43"
@@ -287,7 +292,7 @@
       "events": [
         {
           "introduced": "13.23-2.el9_7",
-          "fixed": "0:15.18-1.module+el9.8.0+24358+32c5830e",
+          "fixed": "0:18.4-2.module+el9.8.0+24359+da7fad50",
           "identifier": "el9"
         },
         {
@@ -303,6 +308,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "13.23-2.el9_7",
+          "fixed": "0:18.4-2.module+el9.8.0+24359+da7fad50",
+          "identifier": "el9"
+        },
         {
           "introduced": "18.3-2.fc43",
           "identifier": "fc43"
@@ -334,6 +344,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "13.23-2.el9_7",
+          "fixed": "0:18.4-2.module+el9.8.0+24359+da7fad50",
+          "identifier": "el9"
+        },
         {
           "introduced": "18.3-2.fc43",
           "identifier": "fc43"

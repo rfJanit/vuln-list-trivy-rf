@@ -17,22 +17,14 @@
     },
     "CVE-2026-44605": {
       "cve_id": "CVE-2026-44605",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "rpm: heap buffer overflow in NDB slot table parsing",
+      "description": "No description is available for this CVE.",
       "severity": "LOW",
       "status": "open",
       "events": [
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "4.19.1.1-20.el10",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "6.0.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     }

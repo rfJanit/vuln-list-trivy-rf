@@ -170,7 +170,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "16.13-1.el10_1",
+          "fixed": "0:16.14-1.el10_2",
           "identifier": "el10"
         },
         {
@@ -205,7 +206,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "16.13-1.el10_1",
+          "fixed": "0:16.14-1.el10_2",
           "identifier": "el10"
         },
         {
@@ -289,7 +291,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "16.13-1.el10_1",
+          "fixed": "0:16.14-1.el10_2",
           "identifier": "el10"
         },
         {
@@ -319,7 +322,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "16.13-1.el10_1",
+          "fixed": "0:16.14-1.el10_2",
           "identifier": "el10"
         },
         {
@@ -336,7 +340,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "16.13-1.el10_1",
+          "fixed": "0:16.14-1.el10_2",
           "identifier": "el10"
         },
         {
