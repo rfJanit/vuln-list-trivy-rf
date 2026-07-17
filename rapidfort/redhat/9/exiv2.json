@@ -198,10 +198,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0.28.6-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -215,10 +211,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0.28.6-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -232,10 +224,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0.28.6-2.fc43",
-          "identifier": "fc43"
         }
       ]
     }

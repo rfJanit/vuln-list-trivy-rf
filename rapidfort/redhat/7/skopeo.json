@@ -46,10 +46,6 @@
         {
           "introduced": "0",
           "identifier": "el7"
-        },
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -76,10 +72,6 @@
         {
           "introduced": "0",
           "identifier": "el7"
-        },
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -106,10 +98,6 @@
         {
           "introduced": "0",
           "identifier": "el7"
-        },
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -136,19 +124,6 @@
         }
       ]
     },
-    "CVE-2025-47910": {
-      "cve_id": "CVE-2025-47910",
-      "title": "When using http.CrossOriginProtection, the AddInsecureBypassPatte ...",
-      "description": "When using http.CrossOriginProtection, the AddInsecureBypassPattern method can unexpectedly bypass more requests than intended. CrossOriginProtection then skips validation, but forwards the original request path, which may be served by a different handler without the intended security protections.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2025-58058": {
       "cve_id": "CVE-2025-58058",
       "title": "xz is a pure golang package for reading and writing xz-compressed ...",
@@ -159,10 +134,6 @@
         {
           "introduced": "0",
           "identifier": "el7"
-        },
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -347,19 +318,6 @@
         }
       ]
     },
-    "CVE-2026-32288": {
-      "cve_id": "CVE-2026-32288",
-      "title": "tar.Reader can allocate an unbounded amount of memory when readin ...",
-      "description": "tar.Reader can allocate an unbounded amount of memory when reading a maliciously-crafted archive containing a large number of sparse regions encoded in the \"old GNU sparse map\" format.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-32289": {
       "cve_id": "CVE-2026-32289",
       "title": "Context was not properly tracked across template branches for JS  ...",
@@ -382,7 +340,7 @@
       "events": [
         {
           "introduced": "1:1.20.0-2.fc43",
-          "fixed": "1:1.22.2-1.fc43",
+          "fixed": "1:1.22.1-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -449,19 +407,6 @@
         }
       ]
     },
-    "CVE-2026-41567": {
-      "cve_id": "CVE-2026-41567",
-      "title": "Moby is an open source container framework. In versions prior to  ...",
-      "description": "Moby is an open source container framework. In versions prior to 29.5.1 and in moby/moby v2 prior to v2.0.0-beta.14, when a compressed archive is uploaded to a container via `PUT /containers/{id}/archive` or piped through `docker cp -`, the daemon resolves decompression binaries (such as `xz` or `unpigz`) from the container's filesystem rather than the host's due to incorrect ordering of operations. A malicious container image containing a trojanized decompression binary can achieve arbitrary code execution with full daemon privileges, including host root UID and unrestricted capabilities, when a user uploads a compressed (xz or gzip) archive into that container. This issue is fixed in Docker Engine 29.5.1 and moby/moby v2.0.0-beta.14. Workarounds include only running containers from trusted images, using authorization plugins to restrict access to the `PUT /containers/{id}/archive` endpoint, and avoiding piping compressed archives into containers created from untrusted images",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-42499": {
       "cve_id": "CVE-2026-42499",
       "title": "Pathological inputs could cause DoS through consumePhrase when pa ...",
@@ -505,19 +450,6 @@
       "cve_id": "CVE-2026-42507",
       "title": "When returning errors, functions in the net/textproto package wou ...",
       "description": "When returning errors, functions in the net/textproto package would include its input as part of the error. This might allow an attacker to inject misleading content to errors that are printed or logged.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "1:1.20.0-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-45287": {
-      "cve_id": "CVE-2026-45287",
-      "title": "OpenTelemetry-Go is the Go implementation of OpenTelemetry. Prior ...",
-      "description": "OpenTelemetry-Go is the Go implementation of OpenTelemetry. Prior to version 0.0.17, `go.opentelemetry.io/otel/schema/v1.0` and `go.opentelemetry.io/otel/schema/v1.1` leaks one file descriptor on each successful `ParseFile` call. `ParseFile` opens the schema file and passes it to `Parse` without closing it; repeated parsing in a long-running process can exhaust the process file descriptor limit and cause denial of service. Exploitation depends on a consuming application exposing repeated schema parsing to an attacker-controlled path. Version 0.0.17 contains a patch for the issue.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [

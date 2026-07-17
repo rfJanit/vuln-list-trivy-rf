@@ -142,23 +142,6 @@
         }
       ]
     },
-    "CVE-2025-9810": {
-      "cve_id": "CVE-2025-9810",
-      "title": "TOCTOU  in linenoiseHistorySave in linenoise allows local attacke ...",
-      "description": "TOCTOU  in linenoiseHistorySave in linenoise allows local attackers to overwrite arbitrary files and change permissions via a symlink race between fopen(\"w\") on the history path and subsequent chmod() on the same path.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "8.1.3-4.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-21863": {
       "cve_id": "CVE-2026-21863",
       "title": "Valkey is a distributed key-value database. Prior to versions 9.0 ...",

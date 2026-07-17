@@ -29,10 +29,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "2:2.1.13-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -63,10 +59,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "2:2.1.13-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },

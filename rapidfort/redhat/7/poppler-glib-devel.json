@@ -19,23 +19,6 @@
         }
       ]
     },
-    "CVE-2025-50422": {
-      "cve_id": "CVE-2025-50422",
-      "title": "Cairo through 1.18.4, as used in Poppler through 25.08.0, has an  ...",
-      "description": "Cairo through 1.18.4, as used in Poppler through 25.08.0, has an \"unscaled-\u003eface == NULL\" assertion failure for _cairo_ft_unscaled_font_fini in cairo-ft-font.c.",
-      "severity": "LOW",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
-          "introduced": "25.07.0-2.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2025-52885": {
       "cve_id": "CVE-2025-52885",
       "title": "Poppler ia a library for rendering PDF files, and examining or mo ...",

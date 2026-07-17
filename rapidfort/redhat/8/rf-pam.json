@@ -10,10 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.6.1-8.fc41",
-          "identifier": "fc41"
-        },
-        {
           "introduced": "1.7.1-14.fc43.rf",
           "identifier": "rf"
         }

@@ -45,14 +45,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "0:24.2-3.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "25.1.1-18.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -66,14 +58,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "0:24.2-3.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "25.1.1-18.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -87,14 +71,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "0:24.2-3.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "25.1.1-18.fc43",
-          "identifier": "fc43"
         }
       ]
     }

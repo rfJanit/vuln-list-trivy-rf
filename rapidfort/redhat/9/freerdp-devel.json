@@ -1685,12 +1685,8 @@
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
       "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.26.0, a malicious RDP server can trigger a heap-buffer-overflow write in the FreeRDP client by sending crafted RDPGFX PDUs. The bug is in gdi_CacheToSurface: it validates a destination rectangle that is clamped to UINT16_MAX, but then performs the copy using the original cacheEntry-\u003ewidth/height. This can cause a large out-of-bounds heap write and may lead to client crashes or code execution. This bug is reachable from a malicious RDP server, but only when the client has RDPGFX enabled. This vulnerability is fixed in 3.26.0.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.27.1-1.fc43",
@@ -1703,12 +1699,8 @@
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
       "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.26.0, FreeRDP's RDPEAR NDR parser accepts one non-null NDR pointer ref-id for multiple logical pointer fields without tracking the pointed object's expected NDR type or ownership. When the same ref-id is reused across two pointer fields, the parser assigns the same heap object to both output fields. The generic destructor later walks each field independently and destroys/frees both pointers. This causes a malicious-server-triggerable heap use-after-free / double-free in the FreeRDP client's RDPEAR authentication-redirection path. This vulnerability is fixed in 3.26.0.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.27.1-1.fc43",
@@ -1756,8 +1748,8 @@
     },
     "CVE-2026-55192": {
       "cve_id": "CVE-2026-55192",
-      "title": "Out-of-bounds read in H.264 YUV-to-RGB conversion due to decoder/",
-      "description": "Out-of-bounds read in H.264 YUV-to-RGB conversion due to decoder/surface dimension mismatch",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1782,7 +1774,7 @@
       "cve_id": "CVE-2026-55193",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1806,7 +1798,7 @@
       "cve_id": "CVE-2026-55194",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1828,8 +1820,8 @@
     },
     "CVE-2026-55648": {
       "cve_id": "CVE-2026-55648",
-      "title": "CVE-2026-55648",
-      "description": "Integer Overflow in freerdp_image_copy_from_icon_data Bypasses Bounds Check",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

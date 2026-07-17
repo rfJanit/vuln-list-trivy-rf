@@ -12,10 +12,6 @@
         {
           "introduced": "0",
           "identifier": "el6"
-        },
-        {
-          "introduced": "1.9-27.fc43",
-          "identifier": "fc43"
         }
       ]
     }

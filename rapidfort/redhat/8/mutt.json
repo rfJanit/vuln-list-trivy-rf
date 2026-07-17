@@ -2,23 +2,6 @@
   "package_name": "mutt",
   "distro_version": "8",
   "advisories": {
-    "CVE-2024-49393": {
-      "cve_id": "CVE-2024-49393",
-      "title": "In neomutt and mutt, the To and Cc email headers are not validate ...",
-      "description": "In neomutt and mutt, the To and Cc email headers are not validated by cryptographic signing which allows an attacker that intercepts a message to change their value and include himself as a one of the recipients to compromise message confidentiality.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "5:2.2.14-4.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2024-49395": {
       "cve_id": "CVE-2024-49395",
       "title": "In mutt and neomutt, PGP encryption does not use the --hidden-rec ...",

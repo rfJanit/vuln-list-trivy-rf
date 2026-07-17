@@ -363,6 +363,16 @@
           "introduced": "0",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -382,6 +392,16 @@
           "introduced": "0",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -427,6 +447,16 @@
           "introduced": "0",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -440,6 +470,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc45",
+          "identifier": "fc45"
         }
       ]
     }

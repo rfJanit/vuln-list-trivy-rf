@@ -81,10 +81,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "18beta1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -112,10 +108,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "18beta1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -171,23 +163,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        }
-      ]
-    },
-    "CVE-2026-6575": {
-      "cve_id": "CVE-2026-6575",
-      "title": "Buffer over-read in PostgreSQL function pg_restore_attribute_stat ...",
-      "description": "Buffer over-read in PostgreSQL function pg_restore_attribute_stats() accepts array values of unmatched length, which causes query planning to read past end of one array.  This allows a table maintainer to infer memory values past that array end.  Within major version 18, minor versions before PostgreSQL 18.4 are affected.  Versions before PostgreSQL 18 are unaffected.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "18beta1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },

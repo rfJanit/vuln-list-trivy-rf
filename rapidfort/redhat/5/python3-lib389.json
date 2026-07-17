@@ -25,7 +25,7 @@
       "events": [
         {
           "introduced": "3.1.3-10.fc43",
-          "fixed": "3.1.4-8.fc43",
+          "fixed": "3.1.4-9.fc43",
           "identifier": "fc43"
         },
         {
@@ -83,19 +83,6 @@
         {
           "introduced": "3.1.3-10.fc43",
           "fixed": "3.1.4-7.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2025-4574": {
-      "cve_id": "CVE-2025-4574",
-      "title": "In crossbeam-channel rust crate, the internal `Channel` type's `D ...",
-      "description": "In crossbeam-channel rust crate, the internal `Channel` type's `Drop` method has a race condition which could, in some circumstances, lead to a double-free that could result in memory corruption.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.1.3-10.fc43",
           "identifier": "fc43"
         }
       ]

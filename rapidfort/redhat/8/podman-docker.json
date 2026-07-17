@@ -86,10 +86,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -131,76 +127,11 @@
         }
       ]
     },
-    "CVE-2025-22870": {
-      "cve_id": "CVE-2025-22870",
-      "title": "Matching of hosts against proxy patterns can improperly treat an  ...",
-      "description": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2025-22872": {
-      "cve_id": "CVE-2025-22872",
-      "title": "The tokenizer incorrectly interprets tags with unquoted attribute ...",
-      "description": "The tokenizer incorrectly interprets tags with unquoted attribute values that end with a solidus character (/) as self-closing. When directly using Tokenizer, this can result in such tags incorrectly being marked as self-closing, and when using the Parse functions, this can result in content following such tags as being placed in the wrong scope during DOM construction, but only when tags are in foreign content (e.g. \u003cmath\u003e, \u003csvg\u003e, etc contexts).",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2025-22873": {
       "cve_id": "CVE-2025-22873",
       "title": "It was possible to improperly access the parent directory of an o ...",
       "description": "It was possible to improperly access the parent directory of an os.Root by opening a filename ending in \"../\". For example, Root.Open(\"../\") would open the parent directory of the Root. This escape only permits opening the parent directory itself, not ancestors of the parent or files contained within the parent.",
       "severity": "LOW",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2025-4673": {
-      "cve_id": "CVE-2025-4673",
-      "title": "Proxy-Authorization and Proxy-Authenticate headers persisted on c ...",
-      "description": "Proxy-Authorization and Proxy-Authenticate headers persisted on cross-origin redirects potentially leaking sensitive information.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2025-47906": {
-      "cve_id": "CVE-2025-47906",
-      "title": "If the PATH environment variable contains paths which are executa ...",
-      "description": "If the PATH environment variable contains paths which are executables (rather than just directories), passing certain strings to LookPath (\"\", \".\", and \"..\"), can result in the binaries listed in the PATH being unexpectedly returned.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2025-47910": {
-      "cve_id": "CVE-2025-47910",
-      "title": "When using http.CrossOriginProtection, the AddInsecureBypassPatte ...",
-      "description": "When using http.CrossOriginProtection, the AddInsecureBypassPattern method can unexpectedly bypass more requests than intended. CrossOriginProtection then skips validation, but forwards the original request path, which may be served by a different handler without the intended security protections.",
-      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -226,19 +157,6 @@
       "cve_id": "CVE-2025-47914",
       "title": "SSH Agent servers do not validate the size of messages when proce ...",
       "description": "SSH Agent servers do not validate the size of messages when processing new identity requests, which may cause the program to panic if the message is malformed due to an out of bounds read.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2025-58058": {
-      "cve_id": "CVE-2025-58058",
-      "title": "xz is a pure golang package for reading and writing xz-compressed ...",
-      "description": "xz is a pure golang package for reading and writing xz-compressed files. Prior to version 0.5.14, it is possible to put data in front of an LZMA-encoded byte stream without detecting the situation while reading the header. This can lead to increased memory consumption because the current implementation allocates the full decoding buffer directly after reading the header. The LZMA header doesn't include a magic number or has a checksum to detect such an issue according to the specification. Note that the code recognizes the issue later while reading the stream, but at this time the memory allocation has already been done. This issue has been patched in version 0.5.14.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
@@ -435,19 +353,6 @@
       "title": "Due to missing nil check, sending 0x0a-0x0f HTTP/2 frames will ca ...",
       "description": "Due to missing nil check, sending 0x0a-0x0f HTTP/2 frames will cause a running server to panic",
       "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-32288": {
-      "cve_id": "CVE-2026-32288",
-      "title": "tar.Reader can allocate an unbounded amount of memory when readin ...",
-      "description": "tar.Reader can allocate an unbounded amount of memory when reading a maliciously-crafted archive containing a large number of sparse regions encoded in the \"old GNU sparse map\" format.",
-      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -677,8 +582,8 @@
     },
     "CVE-2026-44517": {
       "cve_id": "CVE-2026-44517",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -704,10 +609,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "5:5.6.2-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
