@@ -346,7 +346,8 @@
           "identifier": "el7"
         },
         {
-          "introduced": "0.8.1-27.fc43",
+          "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         }
       ]
@@ -423,6 +424,44 @@
         }
       ]
     },
+    "CVE-2026-42256": {
+      "cve_id": "CVE-2026-42256",
+      "title": "Net::IMAP implements Internet Message Access Protocol (IMAP) clie ...",
+      "description": "Net::IMAP implements Internet Message Access Protocol (IMAP) client functionality in Ruby. From versions 0.4.0 to before 0.4.24, 0.5.0 to before 0.5.14, and 0.6.0 to before 0.6.4, when authenticating a connection with SCRAM-SHA1 or SCRAM-SHA256, a hostile server can perform a computational denial-of-service attack on the client process by sending a big iteration count value. This issue has been patched in versions 0.4.24, 0.5.14, and 0.6.4.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-42257": {
+      "cve_id": "CVE-2026-42257",
+      "title": "Net::IMAP implements Internet Message Access Protocol (IMAP) clie ...",
+      "description": "Net::IMAP implements Internet Message Access Protocol (IMAP) client functionality in Ruby. Prior to versions 0.4.24, 0.5.14, and 0.6.4, several Net::IMAP commands accept a raw string argument that is sent to the server without validation or escaping. If this string is derived from user-controlled input, it may contain contain CRLF sequences, which an attacker can use to inject arbitrary IMAP commands. This issue has been patched in versions 0.4.24, 0.5.14, and 0.6.4.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4.0.6-36.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
     "CVE-2026-42258": {
       "cve_id": "CVE-2026-42258",
       "title": "Net::IMAP implements Internet Message Access Protocol (IMAP) clie ...",
@@ -454,6 +493,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.4.10-31.fc43",
+          "identifier": "fc43"
+        },
         {
           "introduced": "0",
           "fixed": "4.0.6-36.fc44",

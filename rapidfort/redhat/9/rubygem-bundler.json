@@ -249,10 +249,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "2.6.9-3.fc43",
-          "identifier": "fc43"
         }
       ]
     },

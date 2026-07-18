@@ -38,10 +38,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "3.6.7-29.fc43",
-          "identifier": "fc43"
         }
       ]
     },
