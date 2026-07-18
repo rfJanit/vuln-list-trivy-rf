@@ -257,8 +257,8 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
+          "fixed": "0:10.0p1-8.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "0:9.9p1-4.fc41",
@@ -267,10 +267,6 @@
         {
           "introduced": "0:9.9p1-13.fc42",
           "identifier": "fc42"
-        },
-        {
-          "introduced": "0:10.0p1-8.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -413,8 +409,8 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
+          "fixed": "0:10.0p1-8.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "0:9.9p1-4.fc41",
@@ -423,10 +419,6 @@
         {
           "introduced": "0:9.9p1-13.fc42",
           "identifier": "fc42"
-        },
-        {
-          "introduced": "0:10.0p1-8.fc43",
-          "identifier": "fc43"
         }
       ]
     }

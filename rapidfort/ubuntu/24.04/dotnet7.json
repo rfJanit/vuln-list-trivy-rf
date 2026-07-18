@@ -551,6 +551,18 @@
         }
       ]
     },
+    "CVE-2026-56170": {
+      "cve_id": "CVE-2026-56170",
+      "title": "Allocation of resources without limits or throttling in ASP.NET C ...",
+      "description": "Allocation of resources without limits or throttling in ASP.NET Core allows an unauthorized attacker to deny service over a network.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:7.0.119-0ubuntu1~22.04.1"
+        }
+      ]
+    },
     "CVE-2026-57108": {
       "cve_id": "CVE-2026-57108",
       "title": "Access of resource using incompatible type ('type confusion') in  ...",

@@ -303,10 +303,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "10.0p1-5.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -405,10 +401,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "10.0p1-5.fc43",
-          "identifier": "fc43"
         }
       ]
     }

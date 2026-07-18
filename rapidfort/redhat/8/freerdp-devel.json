@@ -1116,7 +1116,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1145,7 +1145,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1178,7 +1178,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1207,7 +1207,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1236,7 +1236,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1265,7 +1265,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1294,7 +1294,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1327,7 +1327,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1667,12 +1667,8 @@
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
       "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.26.0, a malicious RDP client can trigger a heap-buffer-overflow write in FreeRDP's server-side clipboard (cliprdr) channel by sending a CB_CLIP_CAPS PDU with a too-small capabilitySetLength. This can crash the server process (remote DoS) and may be exploitable for code execution because it corrupts heap memory. This vulnerability is fixed in 3.26.0.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.27.1-1.fc43",
@@ -1724,8 +1720,8 @@
     },
     "CVE-2026-55191": {
       "cve_id": "CVE-2026-55191",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "Heap-buffer-overflow write in AVC444 YUV buffer allocation",
+      "description": "Heap-buffer-overflow write in AVC444 YUV buffer allocation",
       "severity": "HIGH",
       "status": "fixed",
       "events": [
@@ -1774,7 +1770,7 @@
       "cve_id": "CVE-2026-55193",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1798,7 +1794,7 @@
       "cve_id": "CVE-2026-55194",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1820,8 +1816,8 @@
     },
     "CVE-2026-55648": {
       "cve_id": "CVE-2026-55648",
-      "title": "CVE-2026-55648",
-      "description": "Integer Overflow in freerdp_image_copy_from_icon_data Bypasses Bounds Check",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
