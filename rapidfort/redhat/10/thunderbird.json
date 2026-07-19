@@ -1167,23 +1167,6 @@
         }
       ]
     },
-    "CVE-2026-11998": {
-      "cve_id": "CVE-2026-11998",
-      "title": "A flaw in AngularJS' Strict Contextual Escaping (SCE) logic allow ...",
-      "description": "A flaw in AngularJS' Strict Contextual Escaping (SCE) logic allows bypassing certain SCE policies for resource URLs and can lead to arbitrary JavaScript execution within the context of the victim's browser session.\n\n\nSCE's purpose is to ensure that only trusted or safe values are used in certain security-sensitive contexts, such as resource URLs, including URLs that define executable JavaScript scripts, '\u003ciframe\u003e' documents, route templates, etc. A flaw in the logic that tries to match entire URLs against regular expression matchers can result in partial matches for certain types of regular expressions, effectively bypassing the policies and allowing the use of unsafe values as resource URLs.\n\n\nThis issue affects AngularJS versions greater than or equal to 1.2.0-rc.3.\n\n\nNote:\nThe AngularJS project was already End-of-Life when this CVE was published and will not receive any updates to address this issue. For more information see the  End-of-Life announcement https://docs.angularjs.org/misc/version-support-status .",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "140.3.0-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-12143": {
       "cve_id": "CVE-2026-12143",
       "title": "form-data is a library for creating readable multipart/form-data  ...",
@@ -1907,25 +1890,6 @@
       "title": "Incorrect boundary conditions in the Internationalization compone ...",
       "description": "Incorrect boundary conditions in the Internationalization component. This vulnerability was fixed in Firefox ESR 140.12, Firefox ESR 115.37, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "140.3.0-1.fc43",
-          "fixed": "152.0-2.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "148.0-2.fc45",
-          "identifier": "fc45"
-        }
-      ]
-    },
-    "CVE-2026-2447": {
-      "cve_id": "CVE-2026-2447",
-      "title": "Heap buffer overflow in libvpx. This vulnerability was fixed in F ...",
-      "description": "Heap buffer overflow in libvpx. This vulnerability was fixed in Firefox 147.0.4, Firefox ESR 140.7.1, Firefox ESR 115.32.1, Thunderbird 140.7.2, and Thunderbird 147.0.2.",
-      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {

@@ -343,6 +343,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
           "introduced": "2:1.28.0-3.fc43",
           "identifier": "fc43"
         }
