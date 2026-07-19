@@ -2,19 +2,6 @@
   "package_name": "rf-systemd",
   "distro_version": "8",
   "advisories": {
-    "CVE-2018-20839": {
-      "cve_id": "CVE-2018-20839",
-      "title": "systemd: mishandling of the current keyboard mode check leading to passwords being disclosed in cleartext to attacker",
-      "description": "The issue arises from the way systemd handles user passwords during the boot process. Specifically, passwords entered on the console during the system boot (e.g., for unlocking encrypted disks or logging in) could be logged in plaintext if certain conditions are met.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "261.1-12.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
     "CVE-2021-3997": {
       "cve_id": "CVE-2021-3997",
       "title": "systemd: Uncontrolled recursion in systemd-tmpfiles when removing files",
