@@ -1116,7 +1116,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1145,7 +1145,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1178,7 +1178,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1207,7 +1207,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1236,7 +1236,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1265,7 +1265,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1294,7 +1294,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1327,7 +1327,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1768,8 +1768,8 @@
     },
     "CVE-2026-55193": {
       "cve_id": "CVE-2026-55193",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "CVE-2026-55193",
+      "description": "Heap-buffer-overflow write in TS Gateway RPC fragment receive due to uncapped bind_ack max_xmit_frag On TS Gateway connections, rpc-\u003emax_recv_frag is initialized to 0x0FF8 (4088) and ReceiveFragment is allocated to that size. In rpc_bind.c, the client assigns rpc-\u003emax_recv_frag = header.bind_ack.max_xmit_frag from the server without an upper bound. A malicious gateway can set max_xmit_frag = 0xFFFF while ReceiveFragment is never resized. Later, rpc_client.c rejects fragments with if (header.frag_length \u003e rpc-\u003emax_recv_frag). When both values are 65535, the check passes (65535 \u003e 65535 is false). The receive loop then calls rpc_channel_read() → BIO_read() into the fixed 4088-byte ReceiveFragment, writing up to 65535 bytes and overflowing by up to 61447 attacker-controlled bytes.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

@@ -389,8 +389,9 @@
           "identifier": "rf"
         },
         {
-          "introduced": "2:1.28.0-3.fc43",
-          "identifier": "fc43"
+          "introduced": "0",
+          "fixed": "2:1.30.4-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -590,8 +591,9 @@
           "identifier": "rf"
         },
         {
-          "introduced": "2:1.28.0-3.fc43",
-          "identifier": "fc43"
+          "introduced": "0",
+          "fixed": "2:1.30.4-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -611,8 +613,9 @@
           "identifier": "rf"
         },
         {
-          "introduced": "2:1.28.0-3.fc43",
-          "identifier": "fc43"
+          "introduced": "0",
+          "fixed": "2:1.30.4-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
