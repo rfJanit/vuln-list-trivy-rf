@@ -1,0 +1,19 @@
+{
+  "package_name": "opam",
+  "distro_version": "3.20",
+  "advisories": {
+    "CVE-2026-57825": {
+      "cve_id": "CVE-2026-57825",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2.5.0-r0",
+          "fixed": "2.5.2-r0"
+        }
+      ]
+    }
+  }
+}

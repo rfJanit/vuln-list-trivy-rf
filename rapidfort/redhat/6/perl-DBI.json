@@ -38,7 +38,7 @@
         },
         {
           "introduced": "1.647-4.fc43",
-          "fixed": "1.650-1.fc43",
+          "fixed": "1.651-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -118,7 +118,13 @@
         },
         {
           "introduced": "1.647-4.fc43",
+          "fixed": "1.651-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.651-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -135,7 +141,13 @@
         },
         {
           "introduced": "1.647-4.fc43",
+          "fixed": "1.651-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.651-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -152,7 +164,13 @@
         },
         {
           "introduced": "1.647-4.fc43",
+          "fixed": "1.651-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.651-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -169,7 +187,13 @@
         },
         {
           "introduced": "1.647-4.fc43",
+          "fixed": "1.651-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.651-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },

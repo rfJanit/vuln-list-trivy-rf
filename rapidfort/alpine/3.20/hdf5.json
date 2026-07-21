@@ -253,6 +253,27 @@
           "introduced": "1.14.4.2-r1"
         }
       ]
+    },
+    "CVE-2026-26199": {
+      "cve_id": "CVE-2026-26199",
+      "title": "HDF5 is a high-performance library and a file format specificatio ...",
+      "description": "HDF5 is a high-performance library and a file format specification that implements the HDF5 data model. If `H5Iget_name` is invoked on a group id with `0` for the size parameter, it will underflow when trying to place a null terminator in the buffer. This can occur if `H5Iget_name` is invoked in a way where `size` can be forced to zero, and there is important data before the `name` buffer.",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        }
+      ]
     }
   }
 }
