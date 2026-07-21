@@ -653,10 +653,11 @@
       "title": "HTTP response splitting in the core of Apache HTTP Server allows  ...",
       "description": "HTTP response splitting in the core of Apache HTTP Server allows an attacker who can manipulate the Content-Type response headers of applications hosted or proxied by the server can split the HTTP response.\n\nThis vulnerability was described as CVE-2023-38709 but the patch included in Apache HTTP Server 2.4.59 did not address the issue.\n\nUsers are recommended to upgrade to version 2.4.64, which fixes this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -870,10 +871,11 @@
       "title": "An escalation of privilege bug in various modules in Apache HTTP  ...",
       "description": "An escalation of privilege bug in various modules in Apache HTTP 2.4.66 and earlier allows local .htaccess authors to read files with the privileges of the httpd user.\n\nUsers are recommended to upgrade to version 2.4.67, which fixes this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -980,10 +982,11 @@
       "title": "A timing attack against mod_auth_digest in Apache HTTP Server 2.4 ...",
       "description": "A timing attack against mod_auth_digest in Apache HTTP Server 2.4.66 allows a bypass of Digest authentication by a remote attacker.\n\nUsers are recommended to upgrade to version 2.4.67, which fixes this issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1092,10 +1095,11 @@
       "title": "A buffer overflow in mod_proxy_html in Apache HTTP Server 2.4.67  ...",
       "description": "A buffer overflow in mod_proxy_html in Apache HTTP Server 2.4.67 and earlier allows an attack by an untrusted backend.\nUsers are recommended to upgrade to version 2.4.68, which fixes this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1110,10 +1114,11 @@
       "title": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server wi ...",
       "description": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with malicious backend servers and ProxyPassReverseCookie*\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1128,10 +1133,11 @@
       "title": "A path handling issue in mod_dav_fs in Apache 2.4.67 and earlier  ...",
       "description": "A path handling issue in mod_dav_fs in Apache 2.4.67 and earlier allows a WebDAV content author to directly manipulate trusted DAV property databases, potentially causing child process crashes.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes this issue.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1146,10 +1152,11 @@
       "title": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server wi ...",
       "description": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1164,10 +1171,11 @@
       "title": "Out-of-bounds Read vulnerability in Apache HTTP Server with mod_h ...",
       "description": "Out-of-bounds Read vulnerability in Apache HTTP Server with mod_headers and mod_mime and multiple response languages.\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1182,10 +1190,11 @@
       "title": "Improper Privilege Management vulnerability in Apache HTTP Server ...",
       "description": "Improper Privilege Management vulnerability in Apache HTTP Server 2.4.67 and earlier allows local .htaccess authors to read files with the privileges of the httpd user.\n\nThis issue affects Apache HTTP Server: from through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1200,10 +1209,11 @@
       "title": "Buffer Over-read vulnerability in Apache HTTP Server via outbound ...",
       "description": "Buffer Over-read vulnerability in Apache HTTP Server via outbound OCSP requests to an attacker controlled OCSP server\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1218,10 +1228,11 @@
       "title": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerabil ...",
       "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in the mod_proxy_ftp module in Apache HTTP Server with an attacker controlled backend FTP server.\n\nThis issue affects undefined: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {
@@ -1236,10 +1247,11 @@
       "title": "Buffer Underwrite vulnerability in Apache HTTP Server on crafted  ...",
       "description": "Buffer Underwrite vulnerability in Apache HTTP Server on crafted regular expressions in the configuration.\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.4.51-7.el9_0",
+          "fixed": "0:2.4.62-13.el9_8.5",
           "identifier": "el9"
         },
         {

@@ -131,6 +131,19 @@
         }
       ]
     },
+    "CVE-2026-15588": {
+      "cve_id": "CVE-2026-15588",
+      "title": "A denial-of-service and resource exhaustion vulnerability exists  ...",
+      "description": "A denial-of-service and resource exhaustion vulnerability exists within the `GDBus` component of GLib. The `gdbusauth` authentication mechanism fails to enforce proper length limitations on data lines read from a client. An unauthenticated local or remote attacker can exploit this lack of input validation by sending excessively long streams of data, causing the application to consume massive amounts of system memory and CPU, potentially leading to a crash or system hang.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "2.86.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-58010": {
       "cve_id": "CVE-2026-58010",
       "title": "A flaw was found in GLib. An off-by-one error can occur in the gv ...",
@@ -140,7 +153,7 @@
       "events": [
         {
           "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-2.fc43",
+          "fixed": "2.86.5-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -159,7 +172,7 @@
       "events": [
         {
           "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-2.fc43",
+          "fixed": "2.86.5-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -178,7 +191,7 @@
       "events": [
         {
           "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-2.fc43",
+          "fixed": "2.86.5-1.fc43",
           "identifier": "fc43"
         },
         {

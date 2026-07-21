@@ -1926,19 +1926,6 @@
     },
     "CVE-2026-55193": {
       "cve_id": "CVE-2026-55193",
-      "title": "CVE-2026-55193",
-      "description": "Heap-buffer-overflow write in TS Gateway RPC fragment receive due to uncapped bind_ack max_xmit_frag On TS Gateway connections, rpc-\u003emax_recv_frag is initialized to 0x0FF8 (4088) and ReceiveFragment is allocated to that size. In rpc_bind.c, the client assigns rpc-\u003emax_recv_frag = header.bind_ack.max_xmit_frag from the server without an upper bound. A malicious gateway can set max_xmit_frag = 0xFFFF while ReceiveFragment is never resized. Later, rpc_client.c rejects fragments with if (header.frag_length \u003e rpc-\u003emax_recv_frag). When both values are 65535, the check passes (65535 \u003e 65535 is false). The receive loop then calls rpc_channel_read() → BIO_read() into the fixed 4088-byte ReceiveFragment, writing up to 65535 bytes and overflowing by up to 61447 attacker-controlled bytes.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "3.22.0-r0",
-          "fixed": "3.27.1-r0"
-        }
-      ]
-    },
-    "CVE-2026-55194": {
-      "cve_id": "CVE-2026-55194",
       "title": "Title Not Available",
       "description": "Description Not Available",
       "severity": "HIGH",
@@ -1950,10 +1937,23 @@
         }
       ]
     },
+    "CVE-2026-55194": {
+      "cve_id": "CVE-2026-55194",
+      "title": "CVE-2026-55194",
+      "description": "Heap-buffer-overflow write in TS Gateway RPC RESPONSE reassembly due to alloc_hint capacity mismatch In rpc_client_recv_fragment(), when reassembling a PTYPE_RESPONSE PDU, the client calls Stream_EnsureCapacity(pdu-\u003es, response-\u003ealloc_hint) using only the server-declared alloc_hint. Stream_EnsureCapacity() returns success if the existing capacity is already \u003e= alloc_hint, without considering the current write offset or the actual stub length about to be copied. A malicious gateway can set a small alloc_hint (e.g. 100) while sending a large fragment (frag_length = 6000, yielding StubLength ≈ 5968). The 4096-byte reassembly buffer is not grown, and Stream_Write(pdu-\u003es, …, StubLength) copies attacker-controlled stub data past the end of the heap allocation. On default builds this may abort via WINPR_ASSERT; on Release builds (NDEBUG) the assert is elided and the overflow becomes an exploitable heap write. This is distinct from the separate ReceiveFragment / bind_ack max_xmit_frag issue (different buffer and code path in the same gateway module).",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.22.0-r0",
+          "fixed": "3.27.1-r0"
+        }
+      ]
+    },
     "CVE-2026-55648": {
       "cve_id": "CVE-2026-55648",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "CVE-2026-55648",
+      "description": "Integer Overflow in freerdp_image_copy_from_icon_data Bypasses Bounds Check",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

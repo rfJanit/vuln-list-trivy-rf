@@ -43,8 +43,8 @@
     },
     "CVE-2026-47247": {
       "cve_id": "CVE-2026-47247",
-      "title": "CVE-2026-47247",
-      "description": "Heap Information Disclosure via Grid Image Gap + Uninitialized Pixel Plane Allocation",
+      "title": "Amazon Linux 2023 - ALAS2023-2026-1971: Important priority package update for libheif",
+      "description": "heap OOB read in ImageItem_Grid::decode_grid_tile via irot-induced tile-coordinate underflow",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -56,8 +56,8 @@
     },
     "CVE-2026-47709": {
       "cve_id": "CVE-2026-47709",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Amazon Linux 2023 - ALAS2023-2026-1971: Important priority package update for libheif",
+      "description": "heap OOB read in ImageItem_Grid::decode_grid_tile via irot-induced tile-coordinate underflow",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -69,8 +69,8 @@
     },
     "CVE-2026-47714": {
       "cve_id": "CVE-2026-47714",
-      "title": "CVE-2026-47714",
-      "description": "Integer overflow in inline mask size calculation causes undersized buffer allocation",
+      "title": "Amazon Linux 2023 - ALAS2023-2026-1971: Important priority package update for libheif",
+      "description": "heap OOB read in ImageItem_Grid::decode_grid_tile via irot-induced tile-coordinate underflow",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
