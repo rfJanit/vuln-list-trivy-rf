@@ -1,6 +1,6 @@
 {
   "package_name": "rf-gawk",
-  "distro_version": "6",
+  "distro_version": "10",
   "advisories": {
     "CVE-2023-4156": {
       "cve_id": "CVE-2023-4156",
