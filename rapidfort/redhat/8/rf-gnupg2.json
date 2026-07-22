@@ -97,14 +97,6 @@
         {
           "introduced": "0:2.4.8-2.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:2.4.9-5.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "2.4.9-15.rf",
-          "identifier": "rf"
         }
       ]
     }

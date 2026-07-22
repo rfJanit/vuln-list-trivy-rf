@@ -72,11 +72,10 @@
       "title": "libarchive: Heap buffer over read in copy_from_lzss_window() at archive_read_support_format_rar.c",
       "description": "A vulnerability has been identified in the libarchive library. This flaw can lead to a heap buffer over-read due to the size of a filter block potentially exceeding the Lempel-Ziv-Storer-Schieber (LZSS) window. This means the library may attempt to read beyond the allocated memory buffer, which can result in unpredictable program behavior, crashes (denial of service), or the disclosure of sensitive information from adjacent memory regions.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "3.8.4-13.rf",
-          "fixed": "3.8.6-1.fc45",
           "identifier": "rf"
         }
       ]
@@ -86,11 +85,10 @@
       "title": "libarchive: Integer overflow while reading warc files at archive_read_support_format_warc.c",
       "description": "A vulnerability has been identified in the libarchive library. This flaw involves an integer overflow that can be triggered when processing a Web Archive (WARC) file that claims to have more than INT64_MAX - 4 content bytes. An attacker could craft a malicious WARC archive to induce this overflow, potentially leading to unpredictable program behavior, memory corruption, or a denial-of-service condition within applications that process such archives using libarchive. This bug affects libarchive versions prior to 3.8.0.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "3.8.4-13.rf",
-          "fixed": "3.8.6-1.fc45",
           "identifier": "rf"
         }
       ]
@@ -100,11 +98,10 @@
       "title": "libarchive: Off by one error in build_ustar_entry_name() at archive_write_set_format_pax.c",
       "description": "A vulnerability has been identified in the libarchive library. This flaw involves an 'off-by-one' miscalculation when handling prefixes and suffixes for file names. This can lead to a 1-byte write overflow. While seemingly small, such an overflow can corrupt adjacent memory, leading to unpredictable program behavior, crashes, or in specific circumstances, could be leveraged as a building block for more sophisticated exploitation. This bug affects libarchive versions prior to 3.8.0.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "3.8.4-13.rf",
-          "fixed": "3.8.6-1.fc45",
           "identifier": "rf"
         }
       ]
@@ -114,11 +111,10 @@
       "title": "libarchive: Reading past EOF may be triggered for piped file streams",
       "description": "A vulnerability has been identified in the libarchive library. This flaw can be triggered when file streams are piped into bsdtar, potentially allowing for reading past the end of the file. This out-of-bounds read can lead to unintended consequences, including unpredictable program behavior, memory corruption, or a denial-of-service condition.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "3.8.4-13.rf",
-          "fixed": "3.8.6-1.fc45",
           "identifier": "rf"
         }
       ]
@@ -128,11 +124,10 @@
       "title": "libarchive: bsdtar hangs and OOMs with zero-length pattern matches",
       "description": "A vulnerability in apply_substitution() function in libarchive's bsdtar allows crafted -s substitution rules to repeatedly match a zero-length substring and append replacements without advancing the input pointer. When the rule uses the global /g flag (or an explicitly empty pattern), this leads to unbounded output allocation and eventual process OOM (Denial of Service). Upgrade to libarchive 3.8.1 or apply a patch that prevents zero-length match loops or rejects empty patterns.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "3.8.4-13.rf",
-          "fixed": "3.8.6-1.fc45",
           "identifier": "rf"
         }
       ]
@@ -194,11 +189,10 @@
       "title": "libarchive: libarchive: Denial of Service via malformed ISO file processing",
       "description": "A flaw was found in libarchive. An Undefined Behavior vulnerability exists in the zisofs decompression logic, caused by improper validation of a field (`pz_log2_bs`) read from ISO9660 Rock Ridge extensions. A remote attacker can exploit this by supplying a specially crafted ISO file. This can lead to incorrect memory allocation and potential application crashes, resulting in a denial-of-service (DoS) condition.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "3.8.4-13.rf",
-          "fixed": "3.8.7-1.fc44",
           "identifier": "rf"
         }
       ]

@@ -533,12 +533,8 @@
       "title": "HTTP response splitting in the core of Apache HTTP Server allows  ...",
       "description": "HTTP response splitting in the core of Apache HTTP Server allows an attacker who can manipulate the Content-Type response headers of applications hosted or proxied by the server can split the HTTP response.\n\nThis vulnerability was described as CVE-2023-38709 but the patch included in Apache HTTP Server 2.4.59 did not address the issue.\n\nUsers are recommended to upgrade to version 2.4.64, which fixes this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "0",
           "fixed": "2.4.64-1.fc41",
@@ -897,12 +893,8 @@
       "title": "A buffer overflow in mod_proxy_html in Apache HTTP Server 2.4.67  ...",
       "description": "A buffer overflow in mod_proxy_html in Apache HTTP Server 2.4.67 and earlier allows an attack by an untrusted backend.\nUsers are recommended to upgrade to version 2.4.68, which fixes this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -915,12 +907,8 @@
       "title": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server wi ...",
       "description": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with malicious backend servers and ProxyPassReverseCookie*\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -951,12 +939,8 @@
       "title": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server wi ...",
       "description": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with mod_xml2enc, xml2StartParse, and untrusted content\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -969,12 +953,8 @@
       "title": "Out-of-bounds Read vulnerability in Apache HTTP Server with mod_h ...",
       "description": "Out-of-bounds Read vulnerability in Apache HTTP Server with mod_headers and mod_mime and multiple response languages.\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -1005,12 +985,8 @@
       "title": "Buffer Over-read vulnerability in Apache HTTP Server via outbound ...",
       "description": "Buffer Over-read vulnerability in Apache HTTP Server via outbound OCSP requests to an attacker controlled OCSP server\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -1023,12 +999,8 @@
       "title": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerabil ...",
       "description": "Loop with Unreachable Exit Condition ('Infinite Loop') vulnerability in the mod_proxy_ftp module in Apache HTTP Server with an attacker controlled backend FTP server.\n\nThis issue affects undefined: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",

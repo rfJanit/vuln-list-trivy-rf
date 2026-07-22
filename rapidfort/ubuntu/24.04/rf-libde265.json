@@ -71,7 +71,7 @@
       "cve_id": "CVE-2026-45382",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -82,8 +82,8 @@
     },
     "CVE-2026-45383": {
       "cve_id": "CVE-2026-45383",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "Amazon Linux 2023 - ALAS2023-2026-1974: Important priority package update for libde265",
+      "description": "SAO sequential filter heap buffer overflow via signed integer overflow",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -147,9 +147,9 @@
     },
     "CVE-2026-54241": {
       "cve_id": "CVE-2026-54241",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "HIGH",
+      "title": "Amazon Linux 2023 - ALAS2023-2026-1974: Important priority package update for libde265",
+      "description": "SAO sequential filter heap buffer overflow via signed integer overflow",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {

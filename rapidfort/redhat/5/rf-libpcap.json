@@ -45,6 +45,11 @@
           "introduced": "0",
           "fixed": "14:1.10.6-1.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "14:1.10.6-3.fc45",
+          "identifier": "fc45"
         }
       ]
     }

@@ -188,10 +188,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
           "introduced": "0:2.40-27.fc41",
           "identifier": "fc41"
         },
@@ -247,10 +243,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
         {
           "introduced": "0:2.40-27.fc41",
           "identifier": "fc41"

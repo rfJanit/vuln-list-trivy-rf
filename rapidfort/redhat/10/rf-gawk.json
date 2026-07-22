@@ -23,6 +23,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "5.4.1-10.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:5.3.0-4.fc41",
           "identifier": "fc41"
         },
@@ -57,6 +62,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "5.4.1-10.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:5.3.0-4.fc41",
           "identifier": "fc41"
         },
@@ -73,6 +83,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "5.4.1-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:5.3.0-4.fc41",
           "identifier": "fc41"
