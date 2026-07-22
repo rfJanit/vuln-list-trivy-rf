@@ -98,7 +98,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "142.0.7444.59-1.fc43",
+          "fixed": "141.0.7390.122-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -2015,7 +2015,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "149.0.7827.102-1.fc43",
+          "fixed": "149.0.7827.53-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -10147,7 +10147,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "149.0.7827.102-1.fc43",
+          "fixed": "149.0.7827.53-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -22140,6 +22140,174 @@
         {
           "introduced": "0",
           "fixed": "150.0.7871.124-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-15899": {
+      "cve_id": "CVE-2026-15899",
+      "title": "Use after free in CameraCapture in Google Chrome on Mac prior to  ...",
+      "description": "Use after free in CameraCapture in Google Chrome on Mac prior to 150.0.7871.128 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "150.0.7871.128-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-15900": {
+      "cve_id": "CVE-2026-15900",
+      "title": "Use after free in GPU in Google Chrome on Android prior to 150.0. ...",
+      "description": "Use after free in GPU in Google Chrome on Android prior to 150.0.7871.128 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "150.0.7871.128-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-15901": {
+      "cve_id": "CVE-2026-15901",
+      "title": "Use after free in Network in Google Chrome prior to 150.0.7871.12 ...",
+      "description": "Use after free in Network in Google Chrome prior to 150.0.7871.128 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "150.0.7871.128-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-15902": {
+      "cve_id": "CVE-2026-15902",
+      "title": "Use after free in Cast in Google Chrome prior to 150.0.7871.128 a ...",
+      "description": "Use after free in Cast in Google Chrome prior to 150.0.7871.128 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "150.0.7871.128-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-15903": {
+      "cve_id": "CVE-2026-15903",
+      "title": "Out of bounds read and write in V8 in Google Chrome prior to 150. ...",
+      "description": "Out of bounds read and write in V8 in Google Chrome prior to 150.0.7871.128 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "150.0.7871.128-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-15904": {
+      "cve_id": "CVE-2026-15904",
+      "title": "Use after free in Ozone in Google Chrome on Linux prior to 150.0. ...",
+      "description": "Use after free in Ozone in Google Chrome on Linux prior to 150.0.7871.128 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "150.0.7871.128-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-15905": {
+      "cve_id": "CVE-2026-15905",
+      "title": "Use after free in Aura in Google Chrome prior to 150.0.7871.128 a ...",
+      "description": "Use after free in Aura in Google Chrome prior to 150.0.7871.128 allowed a local attacker to potentially exploit heap corruption via a malicious file. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "150.0.7871.128-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "150.0.7871.128-1.fc45",
           "identifier": "fc45"
         }
       ]

@@ -548,6 +548,19 @@
           "identifier": "fc43"
         }
       ]
+    },
+    "CVE-2026-59851": {
+      "cve_id": "CVE-2026-59851",
+      "title": "A flaw was found in libssh. On servers with GSSAPIKeyExchange ena ...",
+      "description": "A flaw was found in libssh. On servers with GSSAPIKeyExchange enabled, the gssapi-keyex path does not verify whether the authenticated Kerberos principal is authorized for the requested local user, allowing authenticated clients to log in as arbitrary users.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
     }
   }
 }

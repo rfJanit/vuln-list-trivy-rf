@@ -12,6 +12,11 @@
         {
           "introduced": "0",
           "identifier": "el8"
+        },
+        {
+          "introduced": "0",
+          "fixed": "22.1.8-4.fc44",
+          "identifier": "fc44"
         }
       ]
     },

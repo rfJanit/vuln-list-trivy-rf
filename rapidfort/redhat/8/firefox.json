@@ -305,7 +305,7 @@
       "cve_id": "CVE-2026-16349",
       "title": "Same-origin policy bypass in the DOM: Navigation component. This  ...",
       "description": "Same-origin policy bypass in the DOM: Navigation component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, and Firefox ESR 140.13.",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -472,6 +472,23 @@
       "title": "Next.js is a React framework for building full-stack web applicat ...",
       "description": "Next.js is a React framework for building full-stack web applications. From 13.4.6 to before 15.5.16 and 16.2.5, React Server Component responses can be vulnerable to cache poisoning in deployments that rely on shared caches with insufficient response partitioning. In affected conditions, collisions in the _rsc cache-busting value can allow an attacker to poison cache entries so users receive the wrong response variant for a given URL. This vulnerability is fixed in 15.5.16 and 16.2.5.",
       "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-56208": {
+      "cve_id": "CVE-2026-56208",
+      "title": "A heap buffer overflow vulnerability was found in libaom, the ref ...",
+      "description": "A heap buffer overflow vulnerability was found in libaom, the reference AV1 codec implementation. A flaw in the AV1 encoder's Look-Ahead Processing (LAP) mode causes the first-pass stats ring buffer wrap-around guard to be bypassed when g_lag_in_frames is set to 1 or higher. This results in a 232-byte out-of-bounds write on every encoded frame after the second, corrupting adjacent heap objects. An attacker who can influence encoder configuration in a transcoding service or WebRTC session could exploit this to cause a denial of service (process crash) or potentially achieve code execution.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

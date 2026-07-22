@@ -163,6 +163,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -177,6 +182,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -349,6 +359,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -363,6 +378,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -377,6 +397,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -391,6 +416,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -405,6 +435,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -419,6 +454,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -433,6 +473,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -447,6 +492,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -461,6 +511,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -474,6 +529,11 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -501,6 +561,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -515,6 +580,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -529,6 +599,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -542,6 +617,11 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -556,6 +636,11 @@
           "introduced": "1:24.14.1-2.el10_1",
           "fixed": "1:24.18.0-1.el10_2",
           "identifier": "el10"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:24.18.0-1.fc44",
+          "identifier": "fc44"
         }
       ]
     }

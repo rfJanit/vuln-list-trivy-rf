@@ -322,6 +322,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -335,6 +345,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -348,6 +368,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -361,6 +391,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -374,6 +414,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -387,6 +437,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -400,6 +460,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -413,6 +483,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -426,6 +506,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -439,6 +529,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -452,6 +552,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -465,6 +575,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -478,6 +598,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -491,6 +621,54 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-50659": {
+      "cve_id": "CVE-2026-50659",
+      "title": "Improper encoding or escaping of output in .NET allows an authori ...",
+      "description": "Improper encoding or escaping of output in .NET allows an authorized attacker to perform spoofing over a network.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-56158": {
+      "cve_id": "CVE-2026-56158",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -517,6 +695,16 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "8.0.119-1.fc43",
+          "fixed": "8.0.129-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "8.0.129-2.fc44",
+          "identifier": "fc44"
         }
       ]
     }

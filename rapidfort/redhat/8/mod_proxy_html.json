@@ -417,12 +417,8 @@
       "title": "Buffer Underwrite vulnerability in Apache HTTP Server on crafted  ...",
       "description": "Buffer Underwrite vulnerability in Apache HTTP Server on crafted regular expressions in the configuration.\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "1:2.4.64-3.fc43",
           "fixed": "1:2.4.68-1.fc43",
