@@ -535,8 +535,12 @@
       "title": "Improper encoding or escaping of output in .NET allows an authori ...",
       "description": "Improper encoding or escaping of output in .NET allows an authorized attacker to perform spoofing over a network.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "10.0.109-1.fc43",
           "fixed": "10.0.110-1.fc43",
