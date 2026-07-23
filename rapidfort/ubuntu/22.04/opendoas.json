@@ -11,9 +11,6 @@
       "events": [
         {
           "introduced": "0:6.8.2-1"
-        },
-        {
-          "introduced": "0:6.8.2-1"
         }
       ]
     }

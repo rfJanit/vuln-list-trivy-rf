@@ -12,10 +12,6 @@
         {
           "introduced": "0:2.4.1+dfsg-1",
           "fixed": "0:2.6.0+dfsg-1"
-        },
-        {
-          "introduced": "0:2.4.1+dfsg-1",
-          "fixed": "0:2.6.0+dfsg-1"
         }
       ]
     }

@@ -12,10 +12,6 @@
         {
           "introduced": "0:2.15.05-1",
           "fixed": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1",
-          "fixed": "0:2.16.01-1build1"
         }
       ]
     },
@@ -31,9 +27,19 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
+        }
+      ]
+    },
+    "CVE-2018-10316": {
+      "cve_id": "CVE-2018-10316",
+      "title": "Netwide Assembler (NASM) 2.14rc0 has an endless while loop in the ...",
+      "description": "Netwide Assembler (NASM) 2.14rc0 has an endless while loop in the assemble_file function of asm/nasm.c because of a globallineno integer overflow.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
         {
-          "introduced": "0:2.15.05-1"
+          "introduced": "0:2.15.05-1",
+          "fixed": "0:2.16.01-1"
         }
       ]
     },
@@ -49,9 +55,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -67,9 +70,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -85,9 +85,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -103,9 +100,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -121,9 +115,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -139,9 +130,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -157,9 +145,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -175,9 +160,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -193,9 +175,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -211,9 +190,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -229,9 +205,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -247,9 +220,6 @@
         },
         {
           "introduced": "0:2.16.01-1build1"
-        },
-        {
-          "introduced": "0:2.15.05-1"
         }
       ]
     },
@@ -361,7 +331,7 @@
       "events": [
         {
           "introduced": "0:2.15.05-1",
-          "fixed": "0:2.16.01-1"
+          "fixed": "0:2.16.01-1build1"
         }
       ]
     },
@@ -374,11 +344,11 @@
       "events": [
         {
           "introduced": "0:2.15.05-1",
-          "fixed": "0:2.16.03-1"
+          "fixed": "0:3.01-1"
         },
         {
           "introduced": "0:2.16.01-1build1",
-          "fixed": "0:2.16.03-1"
+          "fixed": "0:3.01-1"
         }
       ]
     }

@@ -2,6 +2,19 @@
   "package_name": "gcc-snapshot",
   "distro_version": "24.04",
   "advisories": {
+    "CVE-2020-23026": {
+      "cve_id": "CVE-2020-23026",
+      "title": "A NULL pointer dereference in the main() function dhry_1.c of dhr ...",
+      "description": "A NULL pointer dereference in the main() function dhry_1.c of dhrystone 2.1 causes a denial of service (DoS).",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:20220117-1ubuntu1",
+          "fixed": "1:20240117-1ubuntu1"
+        }
+      ]
+    },
     "CVE-2023-4039": {
       "cve_id": "CVE-2023-4039",
       "title": "**DISPUTED**A failure in the -fstack-protector feature in GCC-bas ...",

@@ -1836,6 +1836,25 @@
         }
       ]
     },
+    "CVE-2026-14899": {
+      "cve_id": "CVE-2026-14899",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "148.0-2.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
     "CVE-2026-2447": {
       "cve_id": "CVE-2026-2447",
       "title": "Heap buffer overflow in libvpx. This vulnerability was fixed in F ...",
@@ -3107,6 +3126,19 @@
         {
           "introduced": "140.3.0-1.fc43",
           "fixed": "152.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-52584": {
+      "cve_id": "CVE-2026-52584",
+      "title": "Buffer Overflow vulnerability in libjxl v.0.11.2 and before allow ...",
+      "description": "Buffer Overflow vulnerability in libjxl v.0.11.2 and before allows a local attacker to obtain sensitive information via the DecodeImageAPNG function",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
           "identifier": "fc43"
         }
       ]

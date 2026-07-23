@@ -11411,23 +11411,6 @@
         }
       ]
     },
-    "CVE-2025-40014": {
-      "cve_id": "CVE-2025-40014",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nobjtool, spi: amd: Fix out-of-bounds stack access in amd_set_spi_freq()\n\nIf speed_hz \u003c AMD_SPI_MIN_HZ, amd_set_spi_freq() iterates over the\nentire amd_spi_freq array without breaking out early, causing 'i' to go\nbeyond the array bounds.\n\nFix that by stopping the loop when it gets to the last entry, so the low\nspeed_hz value gets clamped up to AMD_SPI_MIN_HZ.\n\nFixes the following warning with an UBSAN kernel:\n\n  drivers/spi/spi-amd.o: error: objtool: amd_set_spi_freq() falls through to next function amd_spi_set_opcode()",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2025-40016": {
       "cve_id": "CVE-2025-40016",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -17858,23 +17841,6 @@
       "cve_id": "CVE-2026-23108",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ncan: usb_8dev: usb_8dev_read_bulk_callback(): fix URB memory leak\n\nFix similar memory leak as in commit 7352e1d5932a (\"can: gs_usb:\ngs_usb_receive_bulk_callback(): fix URB memory leak\").\n\nIn usb_8dev_open() -\u003e usb_8dev_start(), the URBs for USB-in transfers are\nallocated, added to the priv-\u003erx_submitted anchor and submitted. In the\ncomplete callback usb_8dev_read_bulk_callback(), the URBs are processed and\nresubmitted. In usb_8dev_close() -\u003e unlink_all_urbs() the URBs are freed by\ncalling usb_kill_anchored_urbs(\u0026priv-\u003erx_submitted).\n\nHowever, this does not take into account that the USB framework unanchors\nthe URB before the complete function is called. This means that once an\nin-URB has been completed, it is no longer anchored and is ultimately not\nreleased in usb_kill_anchored_urbs().\n\nFix the memory leak by anchoring the URB in the\nusb_8dev_read_bulk_callback() to the priv-\u003erx_submitted anchor.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-23110": {
-      "cve_id": "CVE-2026-23110",
-      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
-      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nscsi: core: Wake up the error handler when final completions race against each other\n\nThe fragile ordering between marking commands completed or failed so\nthat the error handler only wakes when the last running command\ncompletes or times out has race conditions. These race conditions can\ncause the SCSI layer to fail to wake the error handler, leaving I/O\nthrough the SCSI host stuck as the error state cannot advance.\n\nFirst, there is an memory ordering issue within scsi_dec_host_busy().\nThe write which clears SCMD_STATE_INFLIGHT may be reordered with reads\ncounting in scsi_host_busy(). While the local CPU will see its own\nwrite, reordering can allow other CPUs in scsi_dec_host_busy() or\nscsi_eh_inc_host_failed() to see a raised busy count, causing no CPU to\nsee a host busy equal to the host_failed count.\n\nThis race condition can be prevented with a memory barrier on the error\npath to force the write to be visible before counting host busy\ncommands.\n\nSecond, there is a general ordering issue with scsi_eh_inc_host_failed(). By\ncounting busy commands before incrementing host_failed, it can race with a\nfinal command in scsi_dec_host_busy(), such that scsi_dec_host_busy() does\nnot see host_failed incremented but scsi_eh_inc_host_failed() counts busy\ncommands before SCMD_STATE_INFLIGHT is cleared by scsi_dec_host_busy(),\nresulting in neither waking the error handler task.\n\nThis needs the call to scsi_host_busy() to be moved after host_failed is\nincremented to close the race condition.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [

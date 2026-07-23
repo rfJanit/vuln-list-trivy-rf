@@ -305,19 +305,6 @@
         }
       ]
     },
-    "CVE-2026-16349": {
-      "cve_id": "CVE-2026-16349",
-      "title": "Same-origin policy bypass in the DOM: Navigation component. This  ...",
-      "description": "Same-origin policy bypass in the DOM: Navigation component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, and Firefox ESR 140.13.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-27601": {
       "cve_id": "CVE-2026-27601",
       "title": "Underscore.js is a utility-belt library for JavaScript. Prior to  ...",

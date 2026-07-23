@@ -688,30 +688,6 @@
         }
       ]
     },
-    "CVE-2026-4224": {
-      "cve_id": "CVE-2026-4224",
-      "title": "When an Expat parser with a registered ElementDeclHandler parses  ...",
-      "description": "When an Expat parser with a registered ElementDeclHandler parses an inline\ndocument type definition containing a deeply nested content model a C stack\noverflow occurs.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0:3.11.12-1rfubu.1"
-        },
-        {
-          "introduced": "0:3.11.13-1rfubu.1"
-        },
-        {
-          "introduced": "0:3.11.14-1rfubu.1"
-        },
-        {
-          "introduced": "0:3.11.14-2rfubu.1"
-        },
-        {
-          "introduced": "0:3.11.15-3rfubu.1"
-        }
-      ]
-    },
     "CVE-2026-4360": {
       "cve_id": "CVE-2026-4360",
       "title": "In the Tarfile.extract() function, the filter parameter is not pa ...",

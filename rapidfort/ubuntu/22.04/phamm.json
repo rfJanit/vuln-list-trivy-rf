@@ -11,9 +11,6 @@
       "events": [
         {
           "introduced": "0:0.6.8-1ubuntu2"
-        },
-        {
-          "introduced": "0:0.6.8-1ubuntu2"
         }
       ]
     }

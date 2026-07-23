@@ -10,7 +10,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -192,7 +192,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -244,7 +244,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -452,7 +452,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -491,7 +491,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -530,7 +530,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -582,7 +582,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -591,6 +591,19 @@
       "cve_id": "CVE-2026-26066",
       "title": "ImageMagick is free and open-source software used for editing and ...",
       "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-15 and 6.9.13-40, a crafted profile contain invalid IPTC data may cause an infinite loop when writing it with `IPTCTEXT`. Versions 7.1.2-15 and 6.9.13-40 contain a patch.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:7.1.2.24+dfsg1-11rfubu"
+        }
+      ]
+    },
+    "CVE-2026-26283": {
+      "cve_id": "CVE-2026-26283",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-15 and 6.9.13-40, a `continue` statement in the JPEG extent binary search loop in the jpeg encoder causes an infinite loop when writing persistently fails. An attacker can trigger a 100% CPU consumption and process hang (Denial of Service) with a crafted image. Versions 7.1.2-15 and 6.9.13-40 contain a patch.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -621,7 +634,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -660,7 +673,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -673,7 +686,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -686,7 +699,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -712,7 +725,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -790,7 +803,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -803,7 +816,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -816,7 +829,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -829,7 +842,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -842,7 +855,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -855,7 +868,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -868,7 +881,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -881,7 +894,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -894,7 +907,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -920,7 +933,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -933,7 +946,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -959,7 +972,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -972,7 +985,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -985,7 +998,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -998,7 +1011,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1011,7 +1024,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1024,7 +1037,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1037,7 +1050,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1050,7 +1063,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1063,7 +1076,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1076,7 +1089,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1089,7 +1102,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1102,7 +1115,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1115,7 +1128,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1128,7 +1141,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1141,7 +1154,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1154,7 +1167,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1167,7 +1180,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1180,7 +1193,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1193,7 +1206,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1206,7 +1219,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1219,7 +1232,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1232,7 +1245,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1245,7 +1258,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1258,7 +1271,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1271,7 +1284,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1284,7 +1297,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1297,7 +1310,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1310,7 +1323,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1323,7 +1336,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1518,7 +1531,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1622,7 +1635,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1752,7 +1765,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1796,6 +1809,18 @@
         }
       ]
     },
+    "CVE-2026-61859": {
+      "cve_id": "CVE-2026-61859",
+      "title": "ImageMagick before 7.1.2-26 and 6.9.13-x before 6.9.13-51 contain ...",
+      "description": "ImageMagick before 7.1.2-26 and 6.9.13-x before 6.9.13-51 contains a policy bypass vulnerability in the -script operation due to missing security policy checks. This allows reading files from paths that are otherwise disallowed by the configured security policy.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "8:7.1.2.24+dfsg1-11rfubu"
+        }
+      ]
+    },
     "CVE-2026-61860": {
       "cve_id": "CVE-2026-61860",
       "title": "ImageMagick before 7.1.2-26 and 6.9.13-51 contains a use-after-fr ...",
@@ -1804,7 +1829,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1830,7 +1855,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1856,7 +1881,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1869,7 +1894,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1882,7 +1907,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1895,7 +1920,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1908,7 +1933,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1921,7 +1946,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1947,7 +1972,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
@@ -1960,7 +1985,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu"
         }
       ]
