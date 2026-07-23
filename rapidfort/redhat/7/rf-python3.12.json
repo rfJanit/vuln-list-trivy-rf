@@ -11,17 +11,30 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2024-0397": {
+      "cve_id": "CVE-2024-0397",
+      "title": "cpython: python: Memory race condition in ssl.SSLContext certificate store methods",
+      "description": "A vulnerability was found in Python. A defect was discovered in the Python “ssl” module where there is a memory race condition with the ssl.SSLContext methods “cert_store_stats()” and “get_ca_certs()”. The race condition can be triggered if the methods are called at the same time that certificates are loaded into the SSLContext, such as during the TLS handshake with a  configured certificate directory.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -35,17 +48,43 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2024-7592": {
+      "cve_id": "CVE-2024-7592",
+      "title": "cpython: python: Uncontrolled CPU resource consumption when in http.cookies module",
+      "description": "A flaw was found in the `http.cookies` module in the Python package. When parsing cookies that contain backslashes, under certain circumstances, the module uses an algorithm with quadratic complexity, leading to excessive CPU consumption.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.12.13-2.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2025-0938": {
+      "cve_id": "CVE-2025-0938",
+      "title": "python: cpython: URL parser allowed square brackets in domain names",
+      "description": "A flaw was found in Python. The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accept domain names that included square brackets, which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -55,7 +94,7 @@
       "title": "When folding a long comment in an email header containing exclusi ...",
       "description": "When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:3.12.12-2.rf",
@@ -65,6 +104,10 @@
         {
           "introduced": "3.12.12-1.rf",
           "fixed": "0:3.12.13-1.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -106,6 +149,10 @@
         {
           "introduced": "3.12.12-1.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "3.12.13-2.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -114,18 +161,11 @@
       "title": "The \"tarfile\" module would still apply normalization of AREGTYPE  ...",
       "description": "The \"tarfile\" module would still apply normalization of AREGTYPE (\\x00) blocks to DIRTYPE, even while processing a multi-block member such as GNUTYPE_LONGNAME or GNUTYPE_LONGLINK. This could result in a crafted tar archive being misinterpreted by the tarfile module compared to other implementations.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -187,18 +227,11 @@
       "title": "The imaplib module, when passed a user-controlled command, can ha ...",
       "description": "The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -208,18 +241,50 @@
       "title": "The poplib module, when passed a user-controlled command, can hav ...",
       "description": "The poplib module, when passed a user-controlled command, can have\nadditional commands injected using newlines. Mitigation rejects commands\ncontaining control characters.",
       "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2025-1795": {
+      "cve_id": "CVE-2025-1795",
+      "title": "python: Mishandling of comma during folding and unicode-encoding of email headers",
+      "description": "A flaw was found in Python. When a separating comma ends up on a folded line during an address list folding of email headers, the comma is unintentionally unicode encoded. The expected behavior is that the separating comma remains unencoded. This can result in the address header being misinterpreted by some mail servers.",
+      "severity": "LOW",
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
-        },
+        }
+      ]
+    },
+    "CVE-2025-4516": {
+      "cve_id": "CVE-2025-4516",
+      "title": "cpython: python: CPython DecodeError Handling Vulnerability",
+      "description": "A vulnerability has been identified in CPython's bytes.decode() function when used with the \"unicode_escape\" encoding and the \"ignore\" or \"replace\" error handling modes. This flaw can result in the incorrect decoding of byte strings. While this may not directly lead to traditional security breaches like data exfiltration, the resulting unexpected program behavior could introduce instability, logic errors, or unintended side effects within applications that rely on this specific decoding functionality.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
         {
-          "introduced": "0:3.12.13-1.rf",
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
-        },
+        }
+      ]
+    },
+    "CVE-2025-6069": {
+      "cve_id": "CVE-2025-6069",
+      "title": "cpython: Python HTMLParser quadratic complexity",
+      "description": "A denial-of-service (DoS) vulnerability has been discovered in Python's html.parser.HTMLParser class. When processing specially malformed HTML input, the parsing runtime can become quadratic with respect to the input size. This significantly increased processing time can lead to excessive resource consumption, ultimately causing a denial-of-service condition in applications that rely on this parser.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
         {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -267,18 +332,11 @@
       "title": "When using the \"configparser\" module to write configuration files ...",
       "description": "When using the \"configparser\" module to write configuration files\ncontaining multi-line text values with carriage return characters (\\r) the\nresulting file could be injected with unexpected keys and values if the\nattacker controls the written value.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -307,18 +365,11 @@
       "title": "tarfile.extractall() with the 'data' or 'tar'\n filter could be by ...",
       "description": "tarfile.extractall() with the 'data' or 'tar'\n filter could be bypassed by a crafted archive where a hardlink \nreferences a symlink stored at a deeper name than the hardlink itself.  \nThe extraction fallback validated the symlink at it's archived location \nbut recreated it at the hardlink's shallower\npath, letting a relative\n target the filter judged contained escape the destination directory.  \nThis allowed a malicious tar archive to create a symlink pointing \noutside the destination, enabling out-of-destination file reads or \nwrites. This was an incomplete fix of CVE-2025-4330.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -328,18 +379,11 @@
       "title": "When using the \"tarfile\" module with a file opened in \"streaming  ...",
       "description": "When using the \"tarfile\" module with a file opened in \"streaming mode\" (mode=\"r|\") the tarfile module did not properly handle EOF, making archive parsing take exponentially longer.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -349,18 +393,11 @@
       "title": "To allow builds of Python to be run from an in-tree layout (rathe ...",
       "description": "To allow builds of Python to be run from an in-tree layout (rather than\nan installed file layout), the VPATH variable is defined at build time\nand used to locate certain landmarks - specifically,\nModules/setup.local. When this landmark is found relative to VPATH\nrelative to the executable, Python assumes it is running in a source\ntree and generates a different default sys.path. This code remains in\nrelease builds, so that release-ready builds can be built in-tree.\n\nOn Windows, since builds are written to 'PCbuild/', the value of\nVPATH is set to '..\\..', which results in a landmark of\n'..\\..\\Modules\\setup.local'. This path is outside the install directory\nof Python, and may have different permissions, potentially allowing a\nlow-privilege user to create the landmark and an alternative `Lib`\nfolder that will be discovered by an otherwise restricted install.\n\nSuch a setup occurs with the legacy default install location for all\nusers (in the now superseded EXE installer), due to how Windows allows\nall users to create folders in the root directory of their OS drive.\n\nOur recommended mitigation on Windows is to migrate away from the\nlegacy installer and use the new [Python install\nmanager](https://www.python.org/downloads/latest/pymanager/) to install\nfor the current user. Installs where the directory two levels above the\nPython installation directory have equivalent permissions are unaffected\n(in general, a per-user install cannot be modified at all by other\nusers, removing any escalation of privilege risk, and could be directly\nmodified by a privileged user, making the potential tampering\nirrelevant). Alternative mitigations might include preemptively creating\nand restricting access to a `Modules` directory. Be aware that only 3.13\nand 3.14 will receive updated legacy installers - earlier fixes are only\nprovided as sources.\n\nPlatforms other than Windows allow VPATH to be overridden, but as they\ndon't usually use a separated directory in the build for binaries, are\nunlikely to have a landmark reference outside of the install directory.\n\nThe landmark detection involving VPATH is a fallback for when a more\nspecific landmark - .\\pybuilddir.txt - is absent, and was included for\ncompatibility. Future releases of Python will no longer include the\nfallback, and so builds will need to generate or preserve the\npybuilddir.txt file in order to work in-tree. This landmark file has\nbeen generated on Windows since 3.11, and on other platforms for longer.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -389,18 +426,11 @@
       "title": "CR/LF bytes were not rejected by HTTP client proxy tunnel headers ...",
       "description": "CR/LF bytes were not rejected by HTTP client proxy tunnel headers or host.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -410,18 +440,11 @@
       "title": "The incremental HTML parser (html.parser.HTMLParser) allows for C ...",
       "description": "The incremental HTML parser (html.parser.HTMLParser) allows for CPU\ndenial-of-service through repeated unterminated markup declarations when\nprocessing uncontrolled data.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -431,18 +454,11 @@
       "title": "The import hook in CPython that handles legacy *.pyc files (Sourc ...",
       "description": "The import hook in CPython that handles legacy *.pyc files (SourcelessFileLoader) is incorrectly handled in FileLoader (a base class) and so does not use io.open_code() to read the .pyc files. sys.audit handlers for this audit event therefore do not fire.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -456,17 +472,17 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -489,6 +505,10 @@
         {
           "introduced": "3.12.12-1.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "3.12.13-2.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -501,17 +521,17 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "0:3.12.12-2.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "0:3.12.13-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -521,18 +541,11 @@
       "title": "When calling base64.b64decode() or related functions the decoding ...",
       "description": "When calling base64.b64decode() or related functions the decoding process would stop after encountering the first padded quad regardless of whether there was more information to be processed. This can lead to data being accepted which may be processed differently by other implementations. Use \"validate=True\" to enable stricter processing of base64 data.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -555,6 +568,10 @@
         {
           "introduced": "3.12.12-1.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "3.12.13-2.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -563,18 +580,24 @@
       "title": "The fix for CVE-2026-0672, which rejected control characters in h ...",
       "description": "The fix for CVE-2026-0672, which rejected control characters in http.cookies.Morsel, was incomplete. The Morsel.update(), |= operator, and unpickling paths were not patched, allowing control characters to bypass input validation. Additionally, BaseCookie.js_output() lacked the output validation applied to BaseCookie.output().",
       "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2026-42308": {
+      "cve_id": "CVE-2026-42308",
+      "title": "Pillow: python: Pillow: Denial of Service via integer overflow in font processing",
+      "description": "A flaw was found in Pillow, a Python imaging library. If a font advances for each glyph by an exceeding large amount, an integer overflow can occur when Pillow tracks the current position. This could lead to a denial of service (DoS) condition, making the application unavailable.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -584,18 +607,11 @@
       "title": "In the Tarfile.extract() function, the filter parameter is not pa ...",
       "description": "In the Tarfile.extract() function, the filter parameter is not passed properly when extracting hardlinks. An affected system that extracts content from untrusted tar files could end up writing files with an unexpected uid/gid despite the user passing filter='data' to the extract() function.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -605,18 +621,11 @@
       "title": "The webbrowser.open() API would accept leading dashes in the URL  ...",
       "description": "The webbrowser.open() API would accept leading dashes in the URL which \ncould be handled as command line options for certain web browsers. New \nbehavior rejects leading dashes. Users are recommended to sanitize URLs \nprior to passing to webbrowser.open().",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -626,18 +635,24 @@
       "title": "Mitgation of CVE-2026-4519 was incomplete. If the URL contained \" ...",
       "description": "Mitgation of CVE-2026-4519 was incomplete. If the URL contained \"%action\" the mitigation could be bypassed for certain browser types the \"webbrowser.open()\" API could have commands injected into the underlying shell. See CVE-2026-4519 for details.",
       "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2026-5713": {
+      "cve_id": "CVE-2026-5713",
+      "title": "python: Python: Information disclosure and arbitrary code execution via remote debugging with a malicious process.",
+      "description": "A flaw was found in Python. A malicious Python process could exploit the \"profiling.sampling\" module and \"asyncio introspection capabilities\" to read and write memory addresses within a privileged process. This vulnerability occurs when the privileged process connects to the malicious process via its remote debugging feature, potentially leading to information disclosure and arbitrary code execution. Successful exploitation requires repeated connections, which may cause instability in the connecting process.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.12-1.rf",
+          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -647,18 +662,11 @@
       "title": "http.cookies.Morsel.js_output() returns an inline \u003cscript\u003e snippe ...",
       "description": "http.cookies.Morsel.js_output() returns an inline \u003cscript\u003e snippet and only escapes \" for JavaScript string context. It does not neutralize the HTML parser-sensitive sequence \u003c/script\u003e inside the generated script element. Mitigation base64-encodes the cookie value to disallow escaping using cookie value.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -668,18 +676,11 @@
       "title": "Use-after-free (UAF) was possible in the `lzma.LZMADecompressor`, ...",
       "description": "Use-after-free (UAF) was possible in the `lzma.LZMADecompressor`, `bz2.BZ2Decompressor`, and `gzip.GzipFile` when a memory allocation fails with a `MemoryError` and the decompression instance is re-used. This scenario can be triggered if the process is under memory pressure. The fix cleans up the dangling pointer in this specific error condition.\n\nThe vulnerability is only present if the program re-uses decompressor instances across multiple decompression calls even after a `MemoryError` is raised during decompression. Using the helper functions to one-shot decompress data such as `lzma.decompress()`, `bz2.decompress()`, `gzip.decompress()`, and `zlib.decompress()` are not affected as a new decompressor instance is used per call. If the decompressor instance is not re-used after an error condition, this usage is similarly not vulnerable.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -702,6 +703,10 @@
         {
           "introduced": "3.12.12-1.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "3.12.13-2.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -710,18 +715,11 @@
       "title": "tarfile.data_filter could be bypassed using crafted link entries, ...",
       "description": "tarfile.data_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() to write files outside the destination directory, subject to the permissions of the extracting process.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -731,18 +729,11 @@
       "title": "The ftpcp() function in Lib/ftplib.py was not updated when \nCVE-2 ...",
       "description": "The ftpcp() function in Lib/ftplib.py was not updated when \nCVE-2021-4189 was fixed. While makepasv() was patched to replace \nserver-supplied PASV host addresses with the actual peer address \n(getpeername()[0]), ftpcp() still calls parse227() directly and passes \nthe raw attacker-controllable IP address and port to target.sendport(). This patch is related to CVE-2021-4189.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -752,18 +743,11 @@
       "title": "bz2.BZ2Decompressor objects could be reused after a decompression ...",
       "description": "bz2.BZ2Decompressor objects could be reused after a decompression error. If an application caught the resulting OSError and retried with the same decompressor, crafted input could cause the decompressor to resume from an invalid internal state and perform out-of-bounds writes to a stack buffer. This could crash the process when processing untrusted data.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0:3.12.12-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.12.12-1.rf",
+          "fixed": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]

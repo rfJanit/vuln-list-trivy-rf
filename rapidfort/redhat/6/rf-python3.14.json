@@ -45,15 +45,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "3.14.0-1.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.14.3-2.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -66,15 +63,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "3.14.0-1.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.14.3-2.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -87,15 +81,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "3.14.0-1.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.14.3-2.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -108,15 +99,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "3.14.0-1.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.14.3-2.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -148,15 +136,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "3.14.0-1.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.14.3-2.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -284,15 +269,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "3.14.0-1.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.14.3-2.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:3.14.4-2.fc43",
           "identifier": "fc43"
         }
       ]
