@@ -35,6 +35,9 @@
         },
         {
           "introduced": "0:2.73+ubuntu22.04.1"
+        },
+        {
+          "introduced": "0:2.76+ubuntu24.04.1"
         }
       ]
     },
@@ -71,6 +74,9 @@
         },
         {
           "introduced": "0:2.73+ubuntu22.04.1"
+        },
+        {
+          "introduced": "0:2.76+ubuntu24.04.1"
         }
       ]
     },
