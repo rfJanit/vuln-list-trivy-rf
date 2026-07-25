@@ -11,30 +11,22 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "3.12.13-2.rf",
+          "fixed": "0:3.12.12-2.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:3.12.13-1.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.12-1.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
           "fixed": "3.12.13-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
-    "CVE-2024-0397": {
-      "cve_id": "CVE-2024-0397",
-      "title": "cpython: python: Memory race condition in ssl.SSLContext certificate store methods",
-      "description": "A vulnerability was found in Python. A defect was discovered in the Python “ssl” module where there is a memory race condition with the ssl.SSLContext methods “cert_store_stats()” and “get_ca_certs()”. The race condition can be triggered if the methods are called at the same time that certificates are loaded into the SSLContext, such as during the TLS handshake with a  configured certificate directory.",
-      "severity": "LOW",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -48,43 +40,22 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "3.12.13-2.rf",
+          "fixed": "0:3.12.12-2.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:3.12.13-1.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.12-1.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
           "fixed": "3.12.13-2.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
-    "CVE-2024-7592": {
-      "cve_id": "CVE-2024-7592",
-      "title": "cpython: python: Uncontrolled CPU resource consumption when in http.cookies module",
-      "description": "A flaw was found in the `http.cookies` module in the Python package. When parsing cookies that contain backslashes, under certain circumstances, the module uses an algorithm with quadratic complexity, leading to excessive CPU consumption.",
-      "severity": "LOW",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
-    "CVE-2025-0938": {
-      "cve_id": "CVE-2025-0938",
-      "title": "python: cpython: URL parser allowed square brackets in domain names",
-      "description": "A flaw was found in Python. The Python standard library functions `urllib.parse.urlsplit` and `urlparse` accept domain names that included square brackets, which isn't valid according to RFC 3986. Square brackets are only meant to be used as delimiters for specifying IPv6 and IPvFuture hosts in URLs. This could result in differential parsing across the Python URL parser and other specification-compliant URL parsers.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -94,7 +65,7 @@
       "title": "When folding a long comment in an email header containing exclusi ...",
       "description": "When folding a long comment in an email header containing exclusively unfoldable characters, the parenthesis would not be preserved. This could be used for injecting headers into email messages where addresses are user-controlled and not sanitized.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:3.12.12-2.rf",
@@ -104,10 +75,6 @@
         {
           "introduced": "3.12.12-1.rf",
           "fixed": "0:3.12.13-1.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -246,45 +213,6 @@
         {
           "introduced": "3.12.12-1.rf",
           "fixed": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
-    "CVE-2025-1795": {
-      "cve_id": "CVE-2025-1795",
-      "title": "python: Mishandling of comma during folding and unicode-encoding of email headers",
-      "description": "A flaw was found in Python. When a separating comma ends up on a folded line during an address list folding of email headers, the comma is unintentionally unicode encoded. The expected behavior is that the separating comma remains unencoded. This can result in the address header being misinterpreted by some mail servers.",
-      "severity": "LOW",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
-    "CVE-2025-4516": {
-      "cve_id": "CVE-2025-4516",
-      "title": "cpython: python: CPython DecodeError Handling Vulnerability",
-      "description": "A vulnerability has been identified in CPython's bytes.decode() function when used with the \"unicode_escape\" encoding and the \"ignore\" or \"replace\" error handling modes. This flaw can result in the incorrect decoding of byte strings. While this may not directly lead to traditional security breaches like data exfiltration, the resulting unexpected program behavior could introduce instability, logic errors, or unintended side effects within applications that rely on this specific decoding functionality.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
-    "CVE-2025-6069": {
-      "cve_id": "CVE-2025-6069",
-      "title": "cpython: Python HTMLParser quadratic complexity",
-      "description": "A denial-of-service (DoS) vulnerability has been discovered in Python's html.parser.HTMLParser class. When processing specially malformed HTML input, the parsing runtime can become quadratic with respect to the input size. This significantly increased processing time can lead to excessive resource consumption, ultimately causing a denial-of-service condition in applications that rely on this parser.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
@@ -472,12 +400,17 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "3.12.13-2.rf",
+          "fixed": "0:3.12.12-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "3.12.13-2.rf",
+          "fixed": "0:3.12.13-1.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.12-1.rf",
           "identifier": "rf"
         },
         {
@@ -521,12 +454,17 @@
       "events": [
         {
           "introduced": "3.12.12-1.rf",
-          "fixed": "3.12.13-2.rf",
+          "fixed": "0:3.12.12-2.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "3.12.13-2.rf",
+          "fixed": "0:3.12.13-1.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.12.12-1.rf",
           "identifier": "rf"
         },
         {
@@ -589,19 +527,6 @@
         }
       ]
     },
-    "CVE-2026-42308": {
-      "cve_id": "CVE-2026-42308",
-      "title": "Pillow: python: Pillow: Denial of Service via integer overflow in font processing",
-      "description": "A flaw was found in Pillow, a Python imaging library. If a font advances for each glyph by an exceeding large amount, an integer overflow can occur when Pillow tracks the current position. This could lead to a denial of service (DoS) condition, making the application unavailable.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
     "CVE-2026-4360": {
       "cve_id": "CVE-2026-4360",
       "title": "In the Tarfile.extract() function, the filter parameter is not pa ...",
@@ -640,19 +565,6 @@
         {
           "introduced": "3.12.12-1.rf",
           "fixed": "3.12.13-2.rf",
-          "identifier": "rf"
-        }
-      ]
-    },
-    "CVE-2026-5713": {
-      "cve_id": "CVE-2026-5713",
-      "title": "python: Python: Information disclosure and arbitrary code execution via remote debugging with a malicious process.",
-      "description": "A flaw was found in Python. A malicious Python process could exploit the \"profiling.sampling\" module and \"asyncio introspection capabilities\" to read and write memory addresses within a privileged process. This vulnerability occurs when the privileged process connects to the malicious process via its remote debugging feature, potentially leading to information disclosure and arbitrary code execution. Successful exploitation requires repeated connections, which may cause instability in the connecting process.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.12.13-2.rf",
           "identifier": "rf"
         }
       ]
