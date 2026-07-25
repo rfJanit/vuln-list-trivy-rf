@@ -301,6 +301,40 @@
         }
       ]
     },
+    "CVE-2026-16405": {
+      "cve_id": "CVE-2026-16405",
+      "title": "Information disclosure in the Networking: WebSockets component. T ...",
+      "description": "Information disclosure in the Networking: WebSockets component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-16412": {
+      "cve_id": "CVE-2026-16412",
+      "title": "Memory safety bugs present in Firefox ESR 140.12 and Firefox 152. ...",
+      "description": "Memory safety bugs present in Firefox ESR 140.12 and Firefox 152. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-27601": {
       "cve_id": "CVE-2026-27601",
       "title": "Underscore.js is a utility-belt library for JavaScript. Prior to  ...",
@@ -459,6 +493,40 @@
       "title": "Next.js is a React framework for building full-stack web applicat ...",
       "description": "Next.js is a React framework for building full-stack web applications. From 13.4.6 to before 15.5.16 and 16.2.5, React Server Component responses can be vulnerable to cache poisoning in deployments that rely on shared caches with insufficient response partitioning. In affected conditions, collisions in the _rsc cache-busting value can allow an attacker to poison cache entries so users receive the wrong response variant for a given URL. This vulnerability is fixed in 15.5.16 and 16.2.5.",
       "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-5038": {
+      "cve_id": "CVE-2026-5038",
+      "title": "Impact: multer versions 2.0.0-alpha.1 through 2.1.1 and 3.0.0-alp ...",
+      "description": "Impact: multer versions 2.0.0-alpha.1 through 2.1.1 and 3.0.0-alpha.1 are vulnerable to a Denial of Service when using diskStorage. Aborted or malformed multipart uploads leave orphaned partial files on disk because the Readable.pipe() call does not propagate the stream destroy signal to \nthe underlying fs.WriteStream. An attacker can exhaust disk space by triggering many aborted uploads, with no application bug required.\n\nPatches: Users should upgrade to multer 2.2.0 (2.x line) or 3.0.0-alpha.2 (3.x prerelease). Both versions track in-flight write streams and clean them up on the abort path.\n\nWorkarounds: None.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-5079": {
+      "cve_id": "CVE-2026-5079",
+      "title": "Impact: multer versions 1.0.0 through 2.1.1 and 3.0.0-alpha.1 are ...",
+      "description": "Impact: multer versions 1.0.0 through 2.1.1 and 3.0.0-alpha.1 are vulnerable to a Denial of Service via deeply nested field names in multipart form data. The append-field dependency parses bracket notation in field names with no limit on nesting depth, allowing an attacker to force allocation of deeply nested object structures that consume CPU and memory. A single HTTP request with a crafted multipart body is sufficient to exploit this.\n\nPatches: Users should upgrade to multer 2.2.0 (2.x line) or 3.0.0-alpha.2 (3.x prerelease) and configure the new limits.fieldNestingDepth option to the minimum depth their application requires.\n\nWorkarounds: Set limits.fields to a reasonable value to reduce the number of fields an attacker can send per request. This does not fully mitigate the issue but limits the impact.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

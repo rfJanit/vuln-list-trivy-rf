@@ -1047,6 +1047,25 @@
         }
       ]
     },
+    "CVE-2026-59882": {
+      "cve_id": "CVE-2026-59882",
+      "title": "guzzlehttp/psr7 is a PSR-7 HTTP message library implementation in ...",
+      "description": "guzzlehttp/psr7 is a PSR-7 HTTP message library implementation in PHP. Prior to 2.12.3, Uri::assertValidHost() does not reject URI host components containing authority delimiters, embedded ports, or malformed IPv6 brackets, allowing Uri::getHost() to disagree with the URI authority used for security or routing decisions. This issue is fixed in version 2.12.3.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "31.0.9-1.fc43",
+          "fixed": "34.0.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "34.0.2-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
     "CVE-2026-8723": {
       "cve_id": "CVE-2026-8723",
       "title": "### Summary\n\n\n\n`qs.stringify` throws `TypeError` when called with ...",

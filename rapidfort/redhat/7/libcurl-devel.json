@@ -215,10 +215,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }
@@ -313,12 +309,8 @@
       "title": "When doing a second SMB request to the same host again, curl woul ...",
       "description": "When doing a second SMB request to the same host again, curl would wrongly use\na data pointer pointing into already freed memory.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
         {
           "introduced": "8.15.0-2.fc43",
           "fixed": "8.15.0-6.fc43",

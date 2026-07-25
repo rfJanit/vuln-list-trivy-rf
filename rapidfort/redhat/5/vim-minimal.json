@@ -143,6 +143,20 @@
         }
       ]
     },
+    "CVE-2026-32249": {
+      "cve_id": "CVE-2026-32249",
+      "title": "Vim is an open source, command line text editor. From 9.1.0011 to ...",
+      "description": "Vim is an open source, command line text editor. From 9.1.0011 to before 9.2.0137, Vim's NFA regex compiler, when encountering a collection containing a combining character as the endpoint of a character range (e.g. [0-0\\u05bb]), incorrectly emits the composing bytes of that character as separate NFA states. This corrupts the NFA postfix stack, resulting in NFA_START_COLL having a NULL out1 pointer. When nfa_max_width() subsequently traverses the compiled NFA to estimate match width for the look-behind assertion, it dereferences state-\u003eout1-\u003eout without a NULL check, causing a segmentation fault. This vulnerability is fixed in 9.2.0137.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.725-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-33412": {
       "cve_id": "CVE-2026-33412",
       "title": "Vim is an open source, command line text editor. Prior to version ...",

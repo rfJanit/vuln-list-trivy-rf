@@ -529,6 +529,23 @@
         }
       ]
     },
+    "CVE-2026-21723": {
+      "cve_id": "CVE-2026-21723",
+      "title": "The alertmanager templates test endpoint (/api/alertmanager/grafa ...",
+      "description": "The alertmanager templates test endpoint (/api/alertmanager/grafana/config/api/v1/templates/test) can execute templates with no memory limits. Mass-executing templates in a short period causes OOM and crashes the Grafana service. The endpoint requires very low privileges and is exploitable with anonymous access enabled.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "10.2.6-19.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-21725": {
       "cve_id": "CVE-2026-21725",
       "title": "A time-of-create-to-time-of-use (TOCTOU) vulnerability lets recen ...",
@@ -1230,6 +1247,23 @@
       "cve_id": "CVE-2026-6402",
       "title": "webpack-dev-server versions up to and including 5.2.3 are vulnera ...",
       "description": "webpack-dev-server versions up to and including 5.2.3 are vulnerable to cross-origin source code exposure when serving over a non-potentially trustworthy origin such as plain HTTP. The previous fix relied on the Sec-Fetch-Mode and Sec-Fetch-Site request headers, which browsers omit for non-trustworthy origins, allowing a malicious site to load the bundled source as a script and read it across origins. Impact: an attacker controlling a website visited by a developer running webpack-dev-server can recover the application source code when the dev server runs over HTTP at a guessable host and port. Chromium based browsers from Chrome 142 onward are not affected due to local network access restrictions. Upgrade to webpack-dev-server 5.2.4 or later, which sets Cross-Origin-Resource-Policy: same-origin on responses.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "10.2.6-19.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-66010": {
+      "cve_id": "CVE-2026-66010",
+      "title": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements ho ...",
+      "description": "DOMPurify before 3.4.12 fails to execute afterSanitizeElements hook for custom elements allowed via CUSTOM_ELEMENT_HANDLING.tagNameCheck, allowing attributes to bypass application security policies. Attackers can preserve sensitive attributes on custom elements that later re-inject them into innerHTML sinks, creating second-order XSS gadgets.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
