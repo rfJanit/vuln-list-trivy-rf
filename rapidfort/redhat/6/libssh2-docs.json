@@ -43,7 +43,7 @@
         },
         {
           "introduced": "1.11.1-4.fc43",
-          "fixed": "1.11.1-8.fc43",
+          "fixed": "1.11.1-9.fc43",
           "identifier": "fc43"
         },
         {
@@ -71,7 +71,7 @@
         },
         {
           "introduced": "1.11.1-4.fc43",
-          "fixed": "1.11.1-8.fc43",
+          "fixed": "1.11.1-9.fc43",
           "identifier": "fc43"
         },
         {
@@ -140,6 +140,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el6"
+        },
         {
           "introduced": "1.11.1-4.fc43",
           "identifier": "fc43"
