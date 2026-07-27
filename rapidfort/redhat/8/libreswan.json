@@ -29,12 +29,8 @@
       "title": "libreswan: badly formatted X.509 certificate can cause an assertion failure that crashes the daemon process",
       "description": "No description is available for this CVE.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "5.3-3.fc43",
           "fixed": "5.3.2-2.fc43",
@@ -60,10 +56,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
           "introduced": "5.3-3.fc43",
           "identifier": "fc43"
         },
@@ -81,10 +73,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "5.3-3.fc43",
           "identifier": "fc43"
