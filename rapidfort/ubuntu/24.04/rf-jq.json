@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -76,7 +81,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -89,7 +95,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -102,7 +109,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -115,7 +123,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -128,7 +137,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -141,7 +151,8 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:1.8.1-10rfubu"
+          "fixed": "0:1.8.1-10rfubu",
+          "identifier": "rf"
         }
       ]
     }

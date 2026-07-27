@@ -10,328 +10,323 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0.02-533.rf",
-          "fixed": "4:5.42.2-533.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "4:5.42.2-533.rf",
+          "fixed": "0.02-533.rf",
           "identifier": "rf"
         }
       ]
