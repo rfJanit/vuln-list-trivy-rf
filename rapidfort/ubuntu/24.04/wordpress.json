@@ -14,6 +14,9 @@
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -26,6 +29,9 @@
       "events": [
         {
           "introduced": "0:5.8.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
@@ -44,6 +50,9 @@
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -56,6 +65,9 @@
       "events": [
         {
           "introduced": "0:5.8.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
@@ -74,6 +86,9 @@
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -86,6 +101,9 @@
       "events": [
         {
           "introduced": "0:5.8.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
@@ -104,6 +122,9 @@
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -116,6 +137,9 @@
       "events": [
         {
           "introduced": "0:5.8.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
@@ -134,6 +158,9 @@
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -146,6 +173,9 @@
       "events": [
         {
           "introduced": "0:5.8.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
@@ -164,6 +194,9 @@
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -179,6 +212,9 @@
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         }
       ]
     },
@@ -191,6 +227,9 @@
       "events": [
         {
           "introduced": "0:5.8.3+dfsg1-1ubuntu1"
+        },
+        {
+          "introduced": "0:6.4.3+dfsg1-1ubuntu1"
         },
         {
           "introduced": "0:6.4.3+dfsg1-1ubuntu1"
