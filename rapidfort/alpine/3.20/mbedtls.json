@@ -207,8 +207,8 @@
     },
     "CVE-2026-25832": {
       "cve_id": "CVE-2026-25832",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -324,8 +324,8 @@
     },
     "CVE-2026-49300": {
       "cve_id": "CVE-2026-49300",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -366,8 +366,8 @@
     },
     "CVE-2026-50580": {
       "cve_id": "CVE-2026-50580",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -387,8 +387,8 @@
     },
     "CVE-2026-50581": {
       "cve_id": "CVE-2026-50581",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -429,8 +429,8 @@
     },
     "CVE-2026-50584": {
       "cve_id": "CVE-2026-50584",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -513,8 +513,8 @@
     },
     "CVE-2026-50588": {
       "cve_id": "CVE-2026-50588",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -576,8 +576,8 @@
     },
     "CVE-2026-54435": {
       "cve_id": "CVE-2026-54435",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
