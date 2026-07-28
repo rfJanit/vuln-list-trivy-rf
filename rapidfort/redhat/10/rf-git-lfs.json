@@ -78,7 +78,7 @@
       "events": [
         {
           "introduced": "3.5.1-12.rf",
-          "fixed": "3.6.1-13.rf",
+          "fixed": "0:3.7.1-11.rf",
           "identifier": "rf"
         },
         {
@@ -170,7 +170,7 @@
       "events": [
         {
           "introduced": "3.5.1-12.rf",
-          "fixed": "3.6.1-16.rf",
+          "fixed": "0:3.7.1-11.rf",
           "identifier": "rf"
         },
         {
@@ -185,11 +185,12 @@
       "title": "When using http.CrossOriginProtection, the AddInsecureBypassPatte ...",
       "description": "When using http.CrossOriginProtection, the AddInsecureBypassPattern method can unexpectedly bypass more requests than intended. CrossOriginProtection then skips validation, but forwards the original request path, which may be served by a different handler without the intended security protections.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
+          "introduced": "3.5.1-12.rf",
+          "fixed": "0:3.7.1-11.rf",
+          "identifier": "rf"
         }
       ]
     },

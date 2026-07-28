@@ -39,27 +39,6 @@
         }
       ]
     },
-    "CVE-2026-16552": {
-      "cve_id": "CVE-2026-16552",
-      "title": "Rejected reason: The reported issue is invalid, as it requires ro ...",
-      "description": "Rejected reason: The reported issue is invalid, as it requires root privileges to reproduce, and it is out of scope of the threat model of the affected component.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
-          "introduced": "258-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:260.1-2.fc45",
-          "identifier": "fc45"
-        }
-      ]
-    },
     "CVE-2026-40223": {
       "cve_id": "CVE-2026-40223",
       "title": "In systemd 258 before 260, a local unprivileged user can trigger  ...",

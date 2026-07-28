@@ -37,24 +37,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:256.15-1.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:258.7-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0:260.1-2.fc45",
-          "identifier": "fc45"
-        },
-        {
-          "introduced": "261-2.fc45",
-          "identifier": "fc45"
-        },
-        {
-          "introduced": "261.1-12.rf",
-          "identifier": "rf"
+          "introduced": "0",
+          "identifier": "el9"
         }
       ]
     },

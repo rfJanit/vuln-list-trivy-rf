@@ -1840,7 +1840,7 @@
       "cve_id": "CVE-2026-14899",
       "title": "The code to parse MIME headers for display when forwarding a mess ...",
       "description": "The code to parse MIME headers for display when forwarding a message (if the setting to view all headers was enabled) had an off-by-one error, allowing a single byte to be read from the memory after the buffer for the headers, and potentially crashing Thunderbird. This vulnerability was fixed in Thunderbird 153 and Thunderbird 140.13.",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -2303,6 +2303,19 @@
         }
       ]
     },
+    "CVE-2026-16385": {
+      "cve_id": "CVE-2026-16385",
+      "title": "Information disclosure due to uninitialized memory in the Graphic ...",
+      "description": "Information disclosure due to uninitialized memory in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-16387": {
       "cve_id": "CVE-2026-16387",
       "title": "Site isolation issue in the Networking component. This vulnerabil ...",
@@ -2368,10 +2381,36 @@
         }
       ]
     },
+    "CVE-2026-16392": {
+      "cve_id": "CVE-2026-16392",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-16393": {
       "cve_id": "CVE-2026-16393",
       "title": "Incorrect boundary conditions in the Graphics: WebGPU component.  ...",
       "description": "Incorrect boundary conditions in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-16394": {
+      "cve_id": "CVE-2026-16394",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
       "status": "open",
       "events": [
@@ -2485,10 +2524,36 @@
         }
       ]
     },
+    "CVE-2026-16406": {
+      "cve_id": "CVE-2026-16406",
+      "title": "Mitigation bypass in the Networking component. This vulnerability ...",
+      "description": "Mitigation bypass in the Networking component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-16407": {
       "cve_id": "CVE-2026-16407",
       "title": "Mitigation bypass in the DOM: Service Workers component. This vul ...",
       "description": "Mitigation bypass in the DOM: Service Workers component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-16408": {
+      "cve_id": "CVE-2026-16408",
+      "title": "Integer overflow in the Audio/Video: Playback component. This vul ...",
+      "description": "Integer overflow in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
       "status": "open",
       "events": [

@@ -1249,10 +1249,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1299,10 +1295,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1323,10 +1315,6 @@
         },
         {
           "introduced": "128.11.0-r0",
-          "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
       ]
@@ -1349,10 +1337,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1374,10 +1358,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1398,10 +1378,6 @@
         },
         {
           "introduced": "128.11.0-r0",
-          "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
       ]
@@ -1980,6 +1956,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.8.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
         }
       ]
     },
@@ -4768,7 +4748,7 @@
       "cve_id": "CVE-2026-14899",
       "title": "The code to parse MIME headers for display when forwarding a mess ...",
       "description": "The code to parse MIME headers for display when forwarding a message (if the setting to view all headers was enabled) had an off-by-one error, allowing a single byte to be read from the memory after the buffer for the headers, and potentially crashing Thunderbird. This vulnerability was fixed in Thunderbird 153 and Thunderbird 140.13.",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -4809,8 +4789,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -4834,8 +4814,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -4859,8 +4839,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -4884,8 +4864,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -4909,8 +4889,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -4934,8 +4914,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -4959,8 +4939,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -4984,8 +4964,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5009,8 +4989,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5034,8 +5014,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5059,8 +5039,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5084,8 +5064,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5134,8 +5114,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5159,8 +5139,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5268,8 +5248,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5293,8 +5273,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5339,8 +5319,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5385,8 +5365,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5410,8 +5390,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5456,8 +5436,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5502,8 +5482,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5548,8 +5528,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5594,8 +5574,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5619,8 +5599,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5686,8 +5666,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5711,8 +5691,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5757,8 +5737,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },
@@ -5971,8 +5951,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
+          "introduced": "145.0-r0",
+          "fixed": "145.0-r1"
         }
       ]
     },

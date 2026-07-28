@@ -1908,9 +1908,13 @@
       "cve_id": "CVE-2026-14899",
       "title": "The code to parse MIME headers for display when forwarding a mess ...",
       "description": "The code to parse MIME headers for display when forwarding a message (if the setting to view all headers was enabled) had an off-by-one error, allowing a single byte to be read from the memory after the buffer for the headers, and potentially crashing Thunderbird. This vulnerability was fixed in Thunderbird 153 and Thunderbird 140.13.",
-      "severity": "",
-      "status": "fixed",
+      "severity": "MEDIUM",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
         {
           "introduced": "140.3.0-1.fc43",
           "fixed": "152.0-2.fc43",
@@ -2278,6 +2282,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
           "introduced": "140.3.0-1.fc43",
           "identifier": "fc43"
         }
@@ -2467,6 +2475,23 @@
         }
       ]
     },
+    "CVE-2026-16385": {
+      "cve_id": "CVE-2026-16385",
+      "title": "Information disclosure due to uninitialized memory in the Graphic ...",
+      "description": "Information disclosure due to uninitialized memory in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-16387": {
       "cve_id": "CVE-2026-16387",
       "title": "Site isolation issue in the Networking component. This vulnerabil ...",
@@ -2544,6 +2569,23 @@
         }
       ]
     },
+    "CVE-2026-16392": {
+      "cve_id": "CVE-2026-16392",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-16393": {
       "cve_id": "CVE-2026-16393",
       "title": "Incorrect boundary conditions in the Graphics: WebGPU component.  ...",
@@ -2551,6 +2593,23 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-16394": {
+      "cve_id": "CVE-2026-16394",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
         {
           "introduced": "140.3.0-1.fc43",
           "identifier": "fc43"
@@ -2669,6 +2728,23 @@
         }
       ]
     },
+    "CVE-2026-16406": {
+      "cve_id": "CVE-2026-16406",
+      "title": "Mitigation bypass in the Networking component. This vulnerability ...",
+      "description": "Mitigation bypass in the Networking component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-16407": {
       "cve_id": "CVE-2026-16407",
       "title": "Mitigation bypass in the DOM: Service Workers component. This vul ...",
@@ -2676,6 +2752,23 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-16408": {
+      "cve_id": "CVE-2026-16408",
+      "title": "Integer overflow in the Audio/Video: Playback component. This vul ...",
+      "description": "Integer overflow in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
         {
           "introduced": "140.3.0-1.fc43",
           "identifier": "fc43"
@@ -5057,12 +5150,8 @@
       "title": "Memory safety bugs present in Firefox ESR 115.35.1, Firefox ESR 1 ...",
       "description": "Memory safety bugs present in Firefox ESR 115.35.1, Firefox ESR 140.10.1 and Firefox 150.0.1. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150.0.2, Firefox ESR 140.10.2, Firefox ESR 115.35.2, Thunderbird 150.0.2, and Thunderbird 140.10.2.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "140.3.0-1.fc43",
           "fixed": "152.0-2.fc43",
@@ -5089,12 +5178,8 @@
       "title": "Other issue in the WebRTC component. This vulnerability was fixed ...",
       "description": "Other issue in the WebRTC component. This vulnerability was fixed in Firefox ESR 140.10.2 and Thunderbird 140.10.2.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "140.3.0-1.fc43",
           "fixed": "152.0-2.fc43",
@@ -5164,12 +5249,8 @@
       "title": "Integer overflow in the Widget: Win32 component. This vulnerabili ...",
       "description": "Integer overflow in the Widget: Win32 component. This vulnerability was fixed in Firefox 151, Firefox ESR 140.11, Thunderbird 151, and Thunderbird 140.11.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "140.3.0-1.fc43",
           "fixed": "152.0-2.fc43",
