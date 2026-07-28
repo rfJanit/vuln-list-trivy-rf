@@ -195,12 +195,8 @@
       "title": "A cross-site scripting vulnerability exists in mod_proxy_ftp's HT ...",
       "description": "A cross-site scripting vulnerability exists in mod_proxy_ftp's HTML directory list generation in Apache HTTP Server 2.4.67 and earlier when listing FTP directory contents either via forward or reverse proxy configuration.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes this issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -367,12 +363,8 @@
       "title": "Improper Privilege Management vulnerability in Apache HTTP Server ...",
       "description": "Improper Privilege Management vulnerability in Apache HTTP Server 2.4.67 and earlier allows local .htaccess authors to read files with the privileges of the httpd user.\n\nThis issue affects Apache HTTP Server: from through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -427,12 +419,8 @@
       "title": "Use After Free vulnerability in Apache HTTP Server module mod_htt ...",
       "description": "Use After Free vulnerability in Apache HTTP Server module mod_http2 when file handles are already exhausted.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.67.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
