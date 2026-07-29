@@ -301,40 +301,6 @@
         }
       ]
     },
-    "CVE-2026-16405": {
-      "cve_id": "CVE-2026-16405",
-      "title": "Information disclosure in the Networking: WebSockets component. T ...",
-      "description": "Information disclosure in the Networking: WebSockets component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-16412": {
-      "cve_id": "CVE-2026-16412",
-      "title": "Memory safety bugs present in Firefox ESR 140.12 and Firefox 152. ...",
-      "description": "Memory safety bugs present in Firefox ESR 140.12 and Firefox 152. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
-      "severity": "CRITICAL",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-27601": {
       "cve_id": "CVE-2026-27601",
       "title": "Underscore.js is a utility-belt library for JavaScript. Prior to  ...",
@@ -542,23 +508,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-56208": {
-      "cve_id": "CVE-2026-56208",
-      "title": "A heap buffer overflow vulnerability was found in libaom, the ref ...",
-      "description": "A heap buffer overflow vulnerability was found in libaom, the reference AV1 codec implementation. A flaw in the AV1 encoder's Look-Ahead Processing (LAP) mode causes the first-pass stats ring buffer wrap-around guard to be bypassed when g_lag_in_frames is set to 1 or higher. This results in a 232-byte out-of-bounds write on every encoded frame after the second, corrupting adjacent heap objects. An attacker who can influence encoder configuration in a transcoding service or WebRTC session could exploit this to cause a denial of service (process crash) or potentially achieve code execution.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
