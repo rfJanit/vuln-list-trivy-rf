@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "1.23.1-3.fc43",
-          "fixed": "1.24.1-1.fc43",
+          "fixed": "1.24.2-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -124,7 +124,7 @@
       "events": [
         {
           "introduced": "1.23.1-3.fc43",
-          "fixed": "1.25.1-1.fc43",
+          "fixed": "1.25.2-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -162,7 +162,7 @@
       "events": [
         {
           "introduced": "1.23.1-3.fc43",
-          "fixed": "1.25.1-1.fc43",
+          "fixed": "1.25.2-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -177,8 +177,12 @@
       "title": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, client t ...",
       "description": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, client terminated DNS-over-QUIC (DoQ) queries are not accounted properly by Unbound resulting in low-cost inflation of the waiting number of replies for already in-flight resolution queries. This results in degradation of resolution service for new clients for already in-flight queries. A malicious actor can exploit the vulnerability by issuing DoQ queries for query names that need resolution and proceeding on immediately terminating the query by one of STOP_SENDING/RESET_STREAM/CONNECTION_CLOSE QUIC frames. Those terminated DoQ queries are not properly counted for and keep inflating the number of waiting replies for in-flight queries. When the maximum is reached, it results in silent query drops for new clients needing resolution for already in-flight queries. This vulnerability needs Unbound to be compiled with DoQ support ('--with-libngtcp2') and the 'quic-port' to be configured for the listening interfaces. Additionally, a malicious actor needs access to multiple source IPs to bypass the by-default configured 'wait-limit' option.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
         {
           "introduced": "1.23.1-3.fc43",
           "fixed": "1.25.2-1.fc43",
@@ -200,7 +204,7 @@
       "events": [
         {
           "introduced": "1.23.1-3.fc43",
-          "fixed": "1.25.1-1.fc43",
+          "fixed": "1.25.2-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -257,8 +261,12 @@
       "title": "In NLnet Labs Unbound 1.16.2 up to and including 1.25.1, a simila ...",
       "description": "In NLnet Labs Unbound 1.16.2 up to and including 1.25.1, a similar vulnerability as with CVE-2026-40622 in the 'ghost domain names' family of attacks was found in Unbound that could extend the ghost domain window by up to one cached TTL configured value for A/AAAA glue records. Similar to other 'ghost domain names' attacks, an adversary needs to control a (ghost) zone and be able to query a vulnerable Unbound. A single client A/AAAA query can cause Unbound to overwrite the cached expired parent-side glue rrset and essentially extend the ghost domain window by up to one cached TTL configured value ('cache-max-ttl'). In configurations where 'harden-referral-path: yes' is used (non-default configuration), no client query is required since Unbound implicitly performs that query. This is a variant of CVE-2026-40622 which only addressed the NS query.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
         {
           "introduced": "1.23.1-3.fc43",
           "fixed": "1.25.2-1.fc43",
@@ -322,7 +330,7 @@
       "events": [
         {
           "introduced": "1.23.1-3.fc43",
-          "fixed": "1.25.1-1.fc43",
+          "fixed": "1.25.2-1.fc43",
           "identifier": "fc43"
         },
         {
