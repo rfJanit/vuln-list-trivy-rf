@@ -325,11 +325,45 @@
         }
       ]
     },
+    "CVE-2026-53666": {
+      "cve_id": "CVE-2026-53666",
+      "title": "React Router is a router for React. In versions 6.4.0 through 7.1 ...",
+      "description": "React Router is a router for React. In versions 6.4.0 through 7.17.0, if application code was written in a way that allows attacker-supplied input to overwrite certain aspects of errors caught by the SSR process, then it was possible for an attacker to trigger unexpected constructor execution on the client, which would in turn trigger an outbound network request. This is only possible with very specific (and unlikely) application-layer code. Note that this does not impact an application if it is using Declarative Mode. It only impacts Framework Mode and Data Mode applications that perform manual SSR/hydration. This issue has been fixed in version 7.18.0.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "4.12.5-3.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-53669": {
       "cve_id": "CVE-2026-53669",
       "title": "React Router is a router for React. Versions 6.0.0 through 7.17.0 ...",
       "description": "React Router is a router for React. Versions 6.0.0 through 7.17.0 are vulnerable to Open Redirtect through use of backslashes in \u003cLink\u003e and useNavigate. This issue is a follow up to CVE-2025-68470 and has been fixed in version 7.18.0.",
       "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "4.12.5-3.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-55685": {
+      "cve_id": "CVE-2026-55685",
+      "title": "React Router is a router for React. In versions 7.0.0 through 7.1 ...",
+      "description": "React Router is a router for React. In versions 7.0.0 through 7.17.0, the manifest endpoint could be accessed via unauthenticated targeted requests that would put heavy load on the server and slow down response times. This issue is a follow up to CVE-2026-42342, and does not does not impact React Router applications using Declarative Mode (\u003cBrowserRouter\u003e) or Data Mode (createBrowserRouter/\u003cRouterProvider\u003e). This issue has been fixed in version 7.18.0.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

@@ -2599,7 +2599,7 @@
       "cve_id": "CVE-2026-16392",
       "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
       "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
-      "severity": "MEDIUM",
+      "severity": "CRITICAL",
       "status": "open",
       "events": [
         {
@@ -3956,6 +3956,23 @@
         }
       ]
     },
+    "CVE-2026-45623": {
+      "cve_id": "CVE-2026-45623",
+      "title": "PostCSS takes a CSS file and provides an API to analyze and modif ...",
+      "description": "PostCSS takes a CSS file and provides an API to analyze and modify its rules by transforming the rules into an Abstract Syntax Tree. In versions 8.5.11 and prior, the PreviousMap parses the /*# sourceMappingURL=PATH */ comment from any CSS string passed to process() and dereferences PATH against the local filesystem with no scheme, allowlist, or traversal check. An attacker who controls the CSS input can cause the host process to read any file readable by Node and leak the first ~10 bytes of its content through the resulting JSON.parse SyntaxError message. The bug also yields a precise file-existence oracle and a controllable-read primitive that may be combined with large-file targets for DoS. The behaviour is triggered with PostCSS's default options — no from, no map, no plugins required — and is therefore reachable from any pipeline that runs untrusted CSS through PostCSS (CMS themes, user-uploaded styles, browser-extension/userstyle processors, build pipelines for third-party packages, blog comment renderers, etc.). This issue has been fixed in version 8.5.12.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-4689": {
       "cve_id": "CVE-2026-4689",
       "title": "Sandbox escape due to incorrect boundary conditions, integer over ...",
@@ -4365,6 +4382,159 @@
           "introduced": "0",
           "fixed": "148.0-2.fc45",
           "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-64641": {
+      "cve_id": "CVE-2026-64641",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 13.0.0 through 15.5.20 and 16.0.0 through 16.2.10, crafted requests targeting Next.js applications using App Router with at least one Server Action can lead to excessive CPU usage blocking processing of further requests in the same process. This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64642": {
+      "cve_id": "CVE-2026-64642",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 16.0.0 through 16.2.10, crafted requests targeting Next.js applications using App Router built with Turbopack and a single entry in config.i18n.locales can bypass middleware/proxy based authentication. This issue has been fixed in version 16.2.11.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64643": {
+      "cve_id": "CVE-2026-64643",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 12.0.0 through 15.5.20 and 16.0.0 through 16.2.10, Next.js applications using App Router, Server Actions (use server) or use cache endpoints can be disclosed bypassing any authentication on the pages where these endpoints are usually used. Server Action IDs can be disclosed to unauthenticated users via publicly served client artifacts (for example, static chunks containing action references). Affected users are applications using App Router and Server Actions. By itself, this disclosure is typically a recon/enumeration primitive; however, it can increase risk when combined with other weaknesses. This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64644": {
+      "cve_id": "CVE-2026-64644",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 15.5.0 through 15.5.20 and 16.0.0 through 16.2.10, when self-hosting Next.js with the default image loader, the Image Optimization API can optimize remotely hosted images if configured (not enabled by default). If those images contain malicious content, they can cause CPU exhaustion in /_next/image endpoints.Only config.images.remotePatterns is affected, and just the patterns in that array, whereas config.images.unoptimized: true, config.images.loader: 'custom', and Vercel are not impacted. This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64645": {
+      "cve_id": "CVE-2026-64645",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 12.0.0 through 15.5.20 and 16.0.0 through 16.2.10, a\n rewrites() or redirects() rule that builds its external destination hostname from request-controlled input can be pointed at an arbitrary hostname, regardless of the rule's hostname suffix. For a rewrite, Next.js proxies the request to that arbitrary host and serves the response from the application's origin, leading to Server-Side Request forgery. A redirects() rule configured this way is vulnerable to an Open Redirect. This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64646": {
+      "cve_id": "CVE-2026-64646",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 13.0.0 through 15.5.20 and 16.0.0 through 16.2.10, requests targeting Next.js applications using App Router with at least one Server Action can lead to excessive memory consumption if that Server Actions uses the Edge runtime. This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64647": {
+      "cve_id": "CVE-2026-64647",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 12.0.0 through 15.5.20 and 16.0.0 through 16.2.10, a server-side fetch with a request body may return a cached response body from a different request to the same URL but different body. Confidential data in the POST's response body would then leak to unauthorized requests. Though the request itself will not be deduped. This is only an issue when receiving request bodies with a content type charset other than UTF-8. For example, the UTF-16 byte sequences for 삃삃 and 섄섄 in the request body would share the same cache. This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64648": {
+      "cve_id": "CVE-2026-64648",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 12.0.0 through 15.5.20 and 16.0.0 through 16.2.10, a  server-side fetch with a request body may return a cached response body from a different request to the same URL but different body. Confidential data in the POST's response body would then leak to unauthorized requests. Though the request itself will not be deduped. This only applies to fetch calls with a request that has a different init than the one passed to fetch. A safe request would be: fetch(new Request(init), init). An unsafe request would be: fetch(new Request(init), aDifferentInit). This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64649": {
+      "cve_id": "CVE-2026-64649",
+      "title": "Next.js is a React framework for building full-stack web applicat ...",
+      "description": "Next.js is a React framework for building full-stack web applications. In versions 14.1.1 through 15.5.20 and 16.0.0 through 16.2.10, when a Server Action forwards or redirects a request, an attacker can cause the server to send that outbound request to a malicious host (Server-Side Request Forgery). This requires the attacker's request to control Host-associated headers. In some configurations, it's also possible to obtain internal values that weaken middleware/proxy authorization. Applications that use Server Actions are affected when the incoming host header is not fixed to a trusted value. This typically occurs on custom servers, or on deployments not behind a proxy that pins the host. Managed hosting pins the host upstream and is not affected; next start and standalone output do the same from version 14.2 onward. This issue has been fixed in versions 15.5.21 and 16.2.11.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },

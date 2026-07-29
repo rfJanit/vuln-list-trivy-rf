@@ -1192,10 +1192,44 @@
         }
       ]
     },
+    "CVE-2026-45623": {
+      "cve_id": "CVE-2026-45623",
+      "title": "PostCSS takes a CSS file and provides an API to analyze and modif ...",
+      "description": "PostCSS takes a CSS file and provides an API to analyze and modify its rules by transforming the rules into an Abstract Syntax Tree. In versions 8.5.11 and prior, the PreviousMap parses the /*# sourceMappingURL=PATH */ comment from any CSS string passed to process() and dereferences PATH against the local filesystem with no scheme, allowlist, or traversal check. An attacker who controls the CSS input can cause the host process to read any file readable by Node and leak the first ~10 bytes of its content through the resulting JSON.parse SyntaxError message. The bug also yields a precise file-existence oracle and a controllable-read primitive that may be combined with large-file targets for DoS. The behaviour is triggered with PostCSS's default options — no from, no map, no plugins required — and is therefore reachable from any pipeline that runs untrusted CSS through PostCSS (CMS themes, user-uploaded styles, browser-extension/userstyle processors, build pipelines for third-party packages, blog comment renderers, etc.). This issue has been fixed in version 8.5.12.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "10.2.6-19.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-53550": {
       "cve_id": "CVE-2026-53550",
       "title": "js-yaml is a JavaScript YAML parser and dumper. Prior to 4.2.0 an ...",
       "description": "js-yaml is a JavaScript YAML parser and dumper. Prior to 4.2.0 and 3.15.0, a crafted YAML document can trigger algorithmic CPU exhaustion in js-yaml merge-key processing (\u003c\u003c) by repeating the same alias many times in a merge sequence. This causes quadratic parse-time behavior relative to input size and can block a Node.js worker/event loop for seconds with a relatively small payload (tens of KB), resulting in denial of service. The issue is in merge handling inside lib/loader.js. This vulnerability is fixed in 4.2.0 and 3.15.0.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "10.2.6-19.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-53666": {
+      "cve_id": "CVE-2026-53666",
+      "title": "React Router is a router for React. In versions 6.4.0 through 7.1 ...",
+      "description": "React Router is a router for React. In versions 6.4.0 through 7.17.0, if application code was written in a way that allows attacker-supplied input to overwrite certain aspects of errors caught by the SSR process, then it was possible for an attacker to trigger unexpected constructor execution on the client, which would in turn trigger an outbound network request. This is only possible with very specific (and unlikely) application-layer code. Note that this does not impact an application if it is using Declarative Mode. It only impacts Framework Mode and Data Mode applications that perform manual SSR/hydration. This issue has been fixed in version 7.18.0.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [

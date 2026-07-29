@@ -63,19 +63,6 @@
         }
       ]
     },
-    "CVE-2026-52720": {
-      "cve_id": "CVE-2026-52720",
-      "title": "A heap buffer overflow vulnerability was found in GStreamer's lib ...",
-      "description": "A heap buffer overflow vulnerability was found in GStreamer's librfb (RFB/VNC client). The rectangle bounds check incorrectly validates area rather than individual dimensions, allowing a malicious VNC server to send a rectangle that extends beyond the framebuffer. A remote attacker could set up a malicious VNC server and trick a user into connecting, resulting in an out-of-bounds heap write that could lead to code execution or a crash.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        }
-      ]
-    },
     "CVE-2026-52721": {
       "cve_id": "CVE-2026-52721",
       "title": "Multiple out-of-bounds read vulnerabilities were found in GStream ...",
@@ -90,19 +77,6 @@
         {
           "introduced": "1.26.6-2.fc43",
           "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-52722": {
-      "cve_id": "CVE-2026-52722",
-      "title": "A signed integer overflow vulnerability was found in GStreamer's  ...",
-      "description": "A signed integer overflow vulnerability was found in GStreamer's VMnc decoder. A crafted VMnc stream with large cursor dimensions can overflow signed integer payload-size arithmetic, bypassing a length check and leading to out-of-bounds reads. A remote attacker could trick a user into opening a specially crafted VMnc file, potentially causing a crash or information disclosure.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
         }
       ]
     },
