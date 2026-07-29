@@ -288,6 +288,19 @@
           "identifier": "fc45"
         }
       ]
+    },
+    "CVE-2026-53669": {
+      "cve_id": "CVE-2026-53669",
+      "title": "React Router is a router for React. Versions 6.0.0 through 7.17.0 ...",
+      "description": "React Router is a router for React. Versions 6.0.0 through 7.17.0 are vulnerable to Open Redirtect through use of backslashes in \u003cLink\u003e and useNavigate. This issue is a follow up to CVE-2025-68470 and has been fixed in version 7.18.0.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "4.12.5-3.fc43",
+          "identifier": "fc43"
+        }
+      ]
     }
   }
 }

@@ -37230,6 +37230,40 @@
         }
       ]
     },
+    "CVE-2026-64290": {
+      "cve_id": "CVE-2026-64290",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\niommufd: Break the loop on failure in iommufd_fault_fops_read()\n\nOn a copy_to_user() failure inside the inner list_for_each_entry, only the\ninner loop breaks; the outer while re-fetches the just-restored fault group\nand retries the failing copy_to_user() forever, spinning the reader at 100%\nCPU with fault-\u003emutex held.\n\nCheck rc after the inner loop and break the outer while as well.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64293": {
+      "cve_id": "CVE-2026-64293",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\niommufd: Use sizeof(*hdr) instead of sizeof(hdr) in veventq read\n\nThe bound-check in iommufd_veventq_fops_read() for the normal vEVENT\npath uses sizeof(hdr) where the surrounding code uses sizeof(*hdr):\n\n\tif (!vevent_for_lost_events_header(cur) \u0026\u0026\n\t    sizeof(hdr) + cur-\u003edata_len \u003e count - done) {\n\nhdr is declared as struct iommufd_vevent_header *, so sizeof(hdr)\nevaluates to the size of the pointer.  Surrounding code uses\nsizeof(*hdr) consistently:\n\n\tif (done \u003e= count || sizeof(*hdr) \u003e count - done) {\n\t...\n\tif (copy_to_user(buf + done, hdr, sizeof(*hdr))) {\n\t...\n\tdone += sizeof(*hdr);\n\nstruct iommufd_vevent_header is currently 8 bytes (two __u32 fields,\nflags and sequence), so on 64-bit (sizeof(void *) == 8) the two\nexpressions happen to be equal and the check works as intended.\n\nOn 32-bit (sizeof(void *) == 4) the check under-counts the header by\n4 bytes: a vEVENT whose data_len causes 8 + cur-\u003edata_len to exceed\ncount - done while 4 + cur-\u003edata_len does not will pass the check,\nthen the loop will copy_to_user 8 bytes of header followed by data_len\nbytes of payload, writing past the user-supplied buffer.\n\nIt is also a latent bug for any future expansion of struct\niommufd_vevent_header beyond sizeof(void *) on 64-bit; the check\nshould not depend on the type happening to match the host pointer\nwidth.\n\nUse sizeof(*hdr) to match the rest of the function and the actual\namount that will be copied.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-64296": {
       "cve_id": "CVE-2026-64296",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -37434,6 +37468,23 @@
         }
       ]
     },
+    "CVE-2026-64384": {
+      "cve_id": "CVE-2026-64384",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix change notify replay double-free\n\nA response-bearing attempt can return a replayable error and free its\nresponse buffer. If SMB2_notify_init() fails before the next send, cleanup\nretains the previous buffer type and frees that response again.\n\nReset response bookkeeping before each attempt to prevent the stale free.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-64424": {
       "cve_id": "CVE-2026-64424",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -37540,6 +37591,40 @@
       "cve_id": "CVE-2026-64490",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nALSA: virtio: Validate control metadata from the device\n\nvirtio-snd control handling trusts the device-provided control type and\nvalue count returned by the device.\n\nThat metadata is then used directly to index g_v2a_type_map[] in\nvirtsnd_kctl_info(), and to size loops and memcpy() operations in\nvirtsnd_kctl_get() and virtsnd_kctl_put() against fixed-size\nvirtio_snd_ctl_value and snd_ctl_elem_value arrays.\n\nA buggy or malicious device can therefore trigger out-of-bounds access by\nadvertising an invalid control type or an oversized value count.\n\nValidate control type and count once in virtsnd_kctl_parse_cfg(), before\nquerying enumerated items or exposing the control to ALSA.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64512": {
+      "cve_id": "CVE-2026-64512",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nACPI: CPPC: Suppress UBSAN warning caused by field misuse\n\nThe definition of reg-\u003eaccess_width changes depending on the\nreg-\u003espace_id type.  Type ACPI_ADR_SPACE_PLATFORM_COMM uses\naccess_width to indicate the PCC region, which can result in a UBSAN\nif the value is greater than 4.\n\nFor example:\n\n UBSAN: shift-out-of-bounds in drivers/acpi/cppc_acpi.c:1090:9\n shift exponent 32 is too large for 32-bit type 'int'\n CPU: 61 UID: 0 PID: 1220 Comm: (udev-worker) Not tainted 7.0.10-201.fc44.aarch64 #1 PREEMPT(lazy)\n Hardware name: To be filled by O.E.M.\n Call trace:\n  ...(trimming)\n  ubsan_epilogue+0x10/0x48\n  __ubsan_handle_shift_out_of_bounds+0xdc/0x1e0\n  cpc_write+0x4d0/0x670\n  cppc_set_perf+0x18c/0x490\n  cppc_cpufreq_cpu_init+0x1c8/0x380 [cppc_cpufreq]\n  ... (trimming)\n\nLets fix this by validating the region type, as well as whether\naccess_width has a value. Then since we are returning bit_width\ndirectly for ACPI_ADR_SPACE_PLATFORM_COMM, drop the code correcting\nthe size.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64515": {
+      "cve_id": "CVE-2026-64515",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: mac80211: fix MLE defragmentation\n\nIf either reconf or EPCS multi-link element (MLE) is contained in\na non-transmitted profile, the defragmentation routine is called\nwith a pointer to the defragmented copy, but the original elements.\n\nThis is incorrect for two reasons:\n - if the original defragmentation was needed, it will not find the\n   correct data\n - if the original frame is at a higher address, the parsing will\n   potentially overrun the heap data (though given the layout of\n   the buffers, only into the new defragmentation buffer, and then\n   it has to stop and fail once that's filled with copied data.\n\nFix it by tracking the container along with the pointer and in\ndoing so also unify the two almost identical defragmentation\nroutines.",
       "severity": "HIGH",
       "status": "open",
       "events": [

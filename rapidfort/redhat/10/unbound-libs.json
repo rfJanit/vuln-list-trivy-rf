@@ -175,12 +175,14 @@
           "identifier": "el10"
         },
         {
-          "introduced": "0:1.24.1-1.fc41",
-          "identifier": "fc41"
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
         },
         {
-          "introduced": "1.23.1-3.fc43",
-          "identifier": "fc43"
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -194,6 +196,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -285,6 +297,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -325,6 +347,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -420,6 +452,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -542,6 +584,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -555,6 +607,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -572,6 +634,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -585,6 +657,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -598,6 +680,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -611,6 +703,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -624,6 +726,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -637,6 +749,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -650,6 +772,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -663,6 +795,35 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-52863": {
+      "cve_id": "CVE-2026-52863",
+      "title": "In NLnet Labs Unbound 1.25.0 up to and including 1.25.1, a fix th ...",
+      "description": "In NLnet Labs Unbound 1.25.0 up to and including 1.25.1, a fix that makes the 'respip' and 'dns64' modules work together, creates a shallow copy of the view name in effect that could lead to memory corruption if the owner of the original view name is jostled out when Unbound is under pressure. Unbound needs to be configured with one of 'respip'/'rpz' modules, together with a module that can attach subqueries (respip CNAME redirection, dns64, subnetcache) and a configured 'access-control-view' while Unbound is under pressure so that joslte logic kicks in and starts dropping slow queries. The subquery is getting a shallow copy of the view name and if the super query which owns the view name is jostled out, memory corruption can occur. Likelihood of a crash is low, since it relies heavily on the underlying memory allocator and the memory layout. Debug memory builds (e.g., ASAN) that catch the free terminate the server.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -680,6 +841,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -693,6 +864,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -706,6 +887,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -723,6 +914,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -736,6 +937,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -753,6 +964,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -770,6 +991,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -783,6 +1014,16 @@
         {
           "introduced": "0:1.24.1-1.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.23.1-3.fc43",
+          "fixed": "0:1.25.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.25.2-1.fc44",
+          "identifier": "fc44"
         }
       ]
     }

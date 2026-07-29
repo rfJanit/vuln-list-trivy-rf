@@ -14,8 +14,9 @@
           "identifier": "el6"
         },
         {
-          "introduced": "3.5.17-6.fc43",
-          "identifier": "fc43"
+          "introduced": "0",
+          "fixed": "3.5.19-4.fc45",
+          "identifier": "fc45"
         }
       ]
     }

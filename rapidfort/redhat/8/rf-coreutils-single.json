@@ -2,19 +2,6 @@
   "package_name": "rf-coreutils-single",
   "distro_version": "8",
   "advisories": {
-    "CVE-2025-5278": {
-      "cve_id": "CVE-2025-5278",
-      "title": "coreutils: Heap Buffer Under-Read in GNU Coreutils sort via Key Specification",
-      "description": "A flaw was found in GNU Coreutils. The sort utility's begfield() function is vulnerable to a heap buffer under-read. The program may access memory outside the allocated buffer if a user runs a crafted command using the traditional key format. A malicious input could lead to a crash or leak sensitive data.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        }
-      ]
-    },
     "CVE-2026-56391": {
       "cve_id": "CVE-2026-56391",
       "title": "GNU coreutils uniq is vulnerable to an out‑of‑bounds read due to  ...",
@@ -25,10 +12,6 @@
         {
           "introduced": "0:9.7-8.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "9.7-10.rf",
-          "identifier": "rf"
         },
         {
           "introduced": "9.7-9.fc43",
