@@ -93,7 +93,7 @@
       "events": [
         {
           "introduced": "32:9.18.39-4.fc43",
-          "fixed": "32:9.18.41-2.fc43",
+          "fixed": "32:9.18.41-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -151,23 +151,6 @@
       "cve_id": "CVE-2026-11331",
       "title": "An attacker who knows (or guesses) that a resolver uses RPZ with  ...",
       "description": "An attacker who knows (or guesses) that a resolver uses RPZ with wildcard CNAME policies can craft query names long enough to trigger a NAMETOOLONG error condition during RPZ processing. This is not handled correctly and may lead to defeating the RPZ rule. It also may lead to an unexpected exit of the BIND 9 software.\nThis issue affects BIND 9 versions 9.16.0 through 9.18.50, 9.20.0 through 9.20.24, 9.21.0 through 9.21.23, 9.16.8-S1 through 9.18.50-S1, and 9.20.9-S1 through 9.20.24-S1.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "32:9.18.39-4.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-11605": {
-      "cve_id": "CVE-2026-11605",
-      "title": "The issue is a resource exhaustion vulnerability associated with  ...",
-      "description": "The issue is a resource exhaustion vulnerability associated with DNSSEC validation. BIND always validates all RRSIG records in an answer, even if they are not strictly needed. A query to an authoritative server/zone which returns many valid but superfluous RRSIG records causes the validator to waste disproportionate CPU time.\nThis issue affects BIND 9 versions 9.20.0 through 9.20.24, 9.21.0 through 9.21.23, and 9.20.9-S1 through 9.20.24-S1.",
       "severity": "HIGH",
       "status": "open",
       "events": [

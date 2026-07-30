@@ -2206,6 +2206,136 @@
           "identifier": "fc43"
         }
       ]
+    },
+    "CVE-2026-56846": {
+      "cve_id": "CVE-2026-56846",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-56847": {
+      "cve_id": "CVE-2026-56847",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-56848": {
+      "cve_id": "CVE-2026-56848",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-56850": {
+      "cve_id": "CVE-2026-56850",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-58039": {
+      "cve_id": "CVE-2026-58039",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-58040": {
+      "cve_id": "CVE-2026-58040",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-58042": {
+      "cve_id": "CVE-2026-58042",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-58043": {
+      "cve_id": "CVE-2026-58043",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-58044": {
+      "cve_id": "CVE-2026-58044",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-58045": {
+      "cve_id": "CVE-2026-58045",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
     }
   }
 }
