@@ -424,6 +424,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
           "introduced": "1:10.1.46-1.fc43",
           "identifier": "fc43"
         }
@@ -436,6 +440,10 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
         {
           "introduced": "1:10.1.46-1.fc43",
           "identifier": "fc43"

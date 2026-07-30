@@ -28814,7 +28814,7 @@
       "cve_id": "CVE-2026-53385",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nvc_screen: fix null-ptr-deref in vcs_notifier() during concurrent vcs_write\n\nA KASAN null-ptr-deref was observed in vcs_notifier():\n\nBUG: KASAN: null-ptr-deref in vcs_notifier+0x98/0x130\nRead of size 2 at addr qmp_cmd_name: qmp_capabilities, arguments: {}\n\nThe issue is a race condition in vcs_write(). When the console_lock is\ntemporarily dropped (to copy data from userspace), the vc_data pointer\nobtained from vcs_vc() may become stale. After re-acquiring the lock,\nvcs_vc() is called again to re-validate the pointer. If the vc has been\ndeallocated in the meantime, vcs_vc() returns NULL, and the while loop\nbreaks (with written \u003e 0). However, after the loop, vcs_scr_updated(vc)\nis still called with the now-NULL vc pointer, leading to a null pointer\ndereference in the notifier chain (vcs_notifier dereferences param-\u003evc).\n\nFix this by adding a NULL check for vc before calling vcs_scr_updated().",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -31987,6 +31987,19 @@
         }
       ]
     },
+    "CVE-2026-64320": {
+      "cve_id": "CVE-2026-64320",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvmet: fix pre-auth out-of-bounds heap read in Discovery Get Log Page\n\nnvmet_execute_disc_get_log_page() validates only the dword alignment\nof the host-supplied Log Page Offset (lpo).  The 64-bit offset is then\nadded to a small kzalloc'd buffer that holds the discovery log page\nand the result is passed straight to nvmet_copy_to_sgl(), which\nmemcpy()s data_len bytes out to the host with no source-side bound\ncheck:\n\n    u64 offset      = nvmet_get_log_page_offset(req-\u003ecmd);  /* 64-bit host */\n    size_t data_len = nvmet_get_log_page_len(req-\u003ecmd);     /* 32-bit host */\n    ...\n    if (offset \u0026 0x3) { ... }                               /* only check */\n    ...\n    alloc_len = sizeof(*hdr) + entry_size * discovery_log_entries(req);\n    buffer = kzalloc(alloc_len, GFP_KERNEL);\n    ...\n    status = nvmet_copy_to_sgl(req, 0, buffer + offset, data_len);\n\nThe Discovery controller is unauthenticated -- nvmet_host_allowed()\nreturns true unconditionally for the discovery subsystem -- so the call\nis reachable pre-authentication by any TCP/RDMA/FC peer that can reach\nthe nvmet target.  With a discovery log page of ~1 KiB, an attacker\nrequesting up to 4 KiB starting at offset == alloc_len reads the next\nslab page out and gets its content returned over the fabric (an\nempirical run on a default nvmet-tcp loopback target leaked 81\ncanonical kernel pointers in one Get Log Page response).  Pointing the\noffset at unmapped kernel memory faults the in-kernel memcpy and\ncrashes (or panics, on panic_on_oops=1) the target host instead.\n\nThe attacker-controlled source-side offset pattern\n\"nvmet_copy_to_sgl(req, 0, buffer + ATTACKER_OFFSET, ...)\" is unique\nto nvmet_execute_disc_get_log_page in the entire nvmet codebase: every\nother Get Log Page handler in admin-cmd.c either ignores lpo (and\nsilently starts every response at offset 0) or tracks a local\ndestination offset with a fixed source pointer.\n\nValidate the host-supplied offset against the log page size, cap the\ncopy length to what is actually available, and zero-fill any remainder\nof the host transfer buffer.  The zero-fill matches the existing\nshort-response pattern in nvmet_execute_get_log_changed_ns()\n(admin-cmd.c) and prevents leaking transport SGL contents when the\nhost asks for more bytes than the log page contains.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-64321": {
       "cve_id": "CVE-2026-64321",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -32339,6 +32352,19 @@
         }
       ]
     },
+    "CVE-2026-64370": {
+      "cve_id": "CVE-2026-64370",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nposix-cpu-timers: Fix pid refcount leak in do_cpu_nanosleep() error path\n\nIn do_cpu_nanosleep(), posix_cpu_timer_create() takes a pid reference\nvia get_pid() and stores it in timer.it.cpu.pid. If the subsequent\nposix_cpu_timer_set() call fails, the function returns immediately\nwithout calling posix_cpu_timer_del() to release the pid reference,\ncausing a leak.\n\nFix it by calling posix_cpu_timer_del() before the unlock-and-return\non the error path, consistent with the other exit paths in the same\nfunction.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-64373": {
       "cve_id": "CVE-2026-64373",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -32460,6 +32486,19 @@
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb: client: fix query directory replay double-free\n\nA response-bearing attempt can return a replayable error and free its\nresponse buffer. If SMB2_query_directory_init() fails before the next send,\ncleanup retains the previous buffer type and frees that response again.\n\nReset response bookkeeping before each attempt to prevent the stale free.",
       "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-64388": {
+      "cve_id": "CVE-2026-64388",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nsmb/client: fix chown/chgrp with SMB3 POSIX Extensions\n\nOwnership (chown) and group (chgrp) modifications were being ignored when\nmounting with SMB3 POSIX Extensions unless CIFS_MOUNT_CIFS_ACL or\nCIFS_MOUNT_MODE_FROM_SID were also explicitly set.\n\nFix this by checking for posix_extensions in cifs_setattr_nounix() when\nupdating UID and GID, ensuring that id_mode_to_cifs_acl() is called to map\nand set the ownership/group information on the server.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
