@@ -515,10 +515,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el6"
-        },
-        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }
@@ -608,10 +604,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
         {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
