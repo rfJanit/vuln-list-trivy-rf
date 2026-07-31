@@ -7,12 +7,16 @@
       "title": "In WriteOnePNGImage() of the PNG coder at coders/png.c, an improp ...",
       "description": "In WriteOnePNGImage() of the PNG coder at coders/png.c, an improper call to AcquireVirtualMemory() and memset() allows for an out-of-bounds write later when PopShortPixel() from MagickCore/quantum-private.h is called. The patch fixes the calls by adding 256 to rowbytes. An attacker who is able to supply a specially crafted image could affect availability with a low impact to data integrity. This flaw affects ImageMagick versions prior to 6.9.10-68 and 7.0.8-68.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu",
           "identifier": "rf"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -49,7 +53,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -68,7 +72,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -87,7 +91,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -106,7 +110,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -125,7 +129,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -144,7 +148,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -182,7 +186,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -201,7 +205,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -258,7 +262,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -277,7 +281,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.39+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -315,7 +319,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.12+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -372,7 +376,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -391,7 +395,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -410,7 +414,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -429,7 +433,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -448,7 +452,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -467,7 +471,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -486,7 +490,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -505,7 +509,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -524,7 +528,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -543,7 +547,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -562,7 +566,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -581,7 +585,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -638,7 +642,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -657,7 +661,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -695,7 +699,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -714,7 +718,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -733,7 +737,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.15+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -771,7 +775,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -828,7 +832,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -847,7 +851,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -866,7 +870,26 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-26283": {
+      "cve_id": "CVE-2026-26283",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-15 and 6.9.13-40, a `continue` statement in the JPEG extent binary search loop in the jpeg encoder causes an infinite loop when writing persistently fails. An attacker can trigger a 100% CPU consumption and process hang (Denial of Service) with a crafted image. Versions 7.1.2-15 and 6.9.13-40 contain a patch.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "8:6.9.12.98+dfsg1-5.2build2",
           "identifier": "ubuntu"
         }
       ]
@@ -904,7 +927,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -923,7 +946,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -942,7 +965,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.1.43+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -961,7 +984,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -980,7 +1003,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -999,7 +1022,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1018,7 +1041,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.16+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1037,7 +1060,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1056,7 +1079,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1075,7 +1098,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1094,7 +1117,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1113,7 +1136,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1132,7 +1155,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1170,7 +1193,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1189,7 +1212,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1208,7 +1231,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1227,7 +1250,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1237,12 +1260,16 @@
       "title": "ImageMagick is free and open-source software used for editing and ...",
       "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to 7.1.2-17 and 6.9.13-42, the NewXMLTree method contains a bug that could result in a crash due to an out of write bounds of a single zero byte. Versions 7.1.2-17 and 6.9.13-42 fix the issue.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "introduced": "0:0",
           "fixed": "8:7.1.2.24+dfsg1-11rfubu",
           "identifier": "rf"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -1260,7 +1287,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1279,7 +1306,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1298,7 +1325,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1317,7 +1344,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.19+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1336,7 +1363,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1355,7 +1382,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1374,7 +1401,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.19+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1393,7 +1420,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1412,7 +1439,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1450,7 +1477,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1469,7 +1496,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1507,7 +1534,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -1526,7 +1553,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1545,7 +1572,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1564,7 +1591,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1583,7 +1610,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1602,7 +1629,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1621,7 +1648,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1640,7 +1667,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1659,7 +1686,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1678,7 +1705,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1697,7 +1724,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1735,7 +1762,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1754,7 +1781,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1773,7 +1800,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1792,7 +1819,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1811,7 +1838,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1849,7 +1876,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1868,7 +1895,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1887,7 +1914,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1906,7 +1933,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -1925,7 +1952,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2028,7 +2055,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2047,7 +2074,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2066,7 +2093,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2085,7 +2112,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2104,7 +2131,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2123,7 +2150,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2180,7 +2207,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2199,7 +2226,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2218,7 +2245,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2237,7 +2264,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.13+dfsg1-1",
+          "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2256,7 +2283,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2294,7 +2321,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.15+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2313,7 +2340,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.15+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2332,7 +2359,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2351,7 +2378,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2370,7 +2397,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.15+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2389,7 +2416,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2460,7 +2487,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.15+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2479,7 +2506,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2498,7 +2525,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.15+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2517,7 +2544,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.15+dfsg1-1",
+          "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -2536,7 +2563,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2555,7 +2582,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2574,7 +2601,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2593,7 +2620,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2603,16 +2630,17 @@
       "title": "ImageMagick before 7.1.2-26 and 6.9.13-x before 6.9.13-51 contain ...",
       "description": "ImageMagick before 7.1.2-26 and 6.9.13-x before 6.9.13-51 contains a policy bypass vulnerability in the -script operation due to missing security policy checks. This allows reading files from paths that are otherwise disallowed by the configured security policy.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "8:6.9.12.98+dfsg1-5.2build2",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
         }
       ]
     },
@@ -2630,7 +2658,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2649,7 +2677,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2668,7 +2696,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2687,7 +2715,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2706,7 +2734,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2725,7 +2753,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2782,7 +2810,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2801,7 +2829,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2820,7 +2848,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2839,7 +2867,7 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
         }
       ]
@@ -2858,8 +2886,62 @@
         },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
-          "fixed": "8:7.1.2.3+dfsg1-1",
+          "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-62343": {
+      "cve_id": "CVE-2026-62343",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 6.9.13-51 and 7.0.1-0 and above prior to 7.1.2-26, an invalid kernel can cause a heap buffer over-write when performing a morphology operation with a user supplied kernel. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:6.9.12.98+dfsg1-5.2build2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8:7.1.2.24+dfsg1-11rfubu",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2026-62363": {
+      "cve_id": "CVE-2026-62363",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-27, a heap buffer over-write can occur in the fx operation by passing a crafted argument. This issue has been fixed in version 7.1.2-27.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:6.9.12.98+dfsg1-5.2build2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8:7.1.2.24+dfsg1-11rfubu",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2026-64685": {
+      "cve_id": "CVE-2026-64685",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-27, the BGR decoder does not check for an end-of-file in every location so a crafted image could result in an heap buffer over-read. This issue has been fixed in version 7.1.2-27.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:6.9.12.98+dfsg1-5.2build2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8:7.1.2.24+dfsg1-11rfubu",
+          "identifier": "rf"
         }
       ]
     },

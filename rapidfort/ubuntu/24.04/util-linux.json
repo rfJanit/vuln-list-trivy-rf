@@ -23,6 +23,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:2.34-0.1ubuntu9.6",
+          "fixed": "0:2.42.2-1ubuntu1"
+        },
+        {
           "introduced": "0:2.37.2-4ubuntu3",
           "fixed": "0:2.42.2-1ubuntu1"
         },
@@ -67,6 +71,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:2.34-0.1ubuntu9.6",
+          "fixed": "0:2.42.2-1ubuntu1"
+        },
         {
           "introduced": "0:2.37.2-4ubuntu3",
           "fixed": "0:2.42.2-1ubuntu1"

@@ -14,9 +14,6 @@
         },
         {
           "introduced": "0:0.27.6-1build1"
-        },
-        {
-          "introduced": "0:0.27.6-1build1"
         }
       ]
     },
@@ -29,9 +26,6 @@
       "events": [
         {
           "introduced": "0:0.27.5-3ubuntu1"
-        },
-        {
-          "introduced": "0:0.27.6-1build1"
         },
         {
           "introduced": "0:0.27.6-1build1"

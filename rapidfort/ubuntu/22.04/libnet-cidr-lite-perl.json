@@ -19,10 +19,6 @@
         },
         {
           "introduced": "0:0.22-2",
-          "fixed": "0:0.22-2ubuntu0.25.10.1"
-        },
-        {
-          "introduced": "0:0.22-2",
           "fixed": "0:0.22-2ubuntu0.26.04.1"
         }
       ]
@@ -41,10 +37,6 @@
         {
           "introduced": "0:0.22-2",
           "fixed": "0:0.22-2ubuntu0.24.04.1"
-        },
-        {
-          "introduced": "0:0.22-2",
-          "fixed": "0:0.22-2ubuntu0.25.10.1"
         },
         {
           "introduced": "0:0.22-2",
@@ -69,10 +61,6 @@
         },
         {
           "introduced": "0:0.22-2",
-          "fixed": "0:0.22-2ubuntu0.25.10.2"
-        },
-        {
-          "introduced": "0:0.22-2",
           "fixed": "0:0.22-2ubuntu0.26.04.2"
         }
       ]
@@ -91,10 +79,6 @@
         {
           "introduced": "0:0.22-2",
           "fixed": "0:0.22-2ubuntu0.24.04.2"
-        },
-        {
-          "introduced": "0:0.22-2",
-          "fixed": "0:0.22-2ubuntu0.25.10.2"
         },
         {
           "introduced": "0:0.22-2",

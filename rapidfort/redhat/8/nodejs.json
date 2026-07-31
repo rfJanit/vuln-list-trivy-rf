@@ -2235,9 +2235,9 @@
     },
     "CVE-2026-56847": {
       "cve_id": "CVE-2026-56847",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
+      "title": "A flaw in Node.js Permission Model enforcement allows `trace_even ...",
+      "description": "A flaw in Node.js Permission Model enforcement allows `trace_events.createTracing().enable()` Writes Trace Logs Outside `--allow-fs-write`.\r\n\r\nThis can lead to confidentiality impact or bypass of the intended security boundary under affected configurations.\r\n\r\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+      "severity": "LOW",
       "status": "open",
       "events": [
         {
@@ -2261,9 +2261,9 @@
     },
     "CVE-2026-56850": {
       "cve_id": "CVE-2026-56850",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
+      "title": "A flaw in Node.js HTTPS Agent connection reuse can cause PFX obje ...",
+      "description": "A flaw in Node.js HTTPS Agent connection reuse can cause PFX object-array key collisions, allowing mutual TLS (mTLS) client identities to be reused across requests configured with different client certificates.\r\n\r\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -2287,9 +2287,9 @@
     },
     "CVE-2026-58040": {
       "cve_id": "CVE-2026-58040",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
+      "title": "An incomplete fix has been identified in Node.js: HTTPS Agent TLS ...",
+      "description": "An incomplete fix has been identified in Node.js: HTTPS Agent TLS session reuse skips hostname verification across identity policies (incomplete fix of CVE-2026-48934).\r\n\r\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -2313,9 +2313,9 @@
     },
     "CVE-2026-58043": {
       "cve_id": "CVE-2026-58043",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
+      "title": "A flaw in Node.js Permission Model enforcement can over-grant fil ...",
+      "description": "A flaw in Node.js Permission Model enforcement can over-grant filesystem access across radix-tree prefix boundaries.\r\n\r\nUnder `--permission`, an attacker who is granted access to one path can abuse boundary handling to read from or write to paths outside the intended filesystem allowlist.\r\n\r\nThis vulnerability affects Node.js **main**, **22.x**, **24.x**, and **26.x**.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

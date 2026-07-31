@@ -27,9 +27,6 @@
         },
         {
           "introduced": "2:6.1.7.3+dfsg-3"
-        },
-        {
-          "introduced": "2:6.1.7.3+dfsg-3"
         }
       ]
     },
@@ -42,7 +39,7 @@
       "events": [
         {
           "introduced": "2:6.1.4.1+dfsg-8ubuntu2",
-          "fixed": "2:6.1.7.3+dfsg-2build1"
+          "fixed": "2:6.1.7.3+dfsg-2"
         }
       ]
     },
@@ -55,7 +52,7 @@
       "events": [
         {
           "introduced": "2:6.1.4.1+dfsg-8ubuntu2",
-          "fixed": "2:6.1.7.3+dfsg-2build1"
+          "fixed": "2:6.1.7.3+dfsg-2"
         }
       ]
     },
@@ -81,7 +78,7 @@
       "events": [
         {
           "introduced": "2:6.1.4.1+dfsg-8ubuntu2",
-          "fixed": "2:6.1.7.3+dfsg-2build1"
+          "fixed": "2:6.1.7.3+dfsg-3"
         }
       ]
     },
@@ -107,7 +104,7 @@
       "events": [
         {
           "introduced": "2:6.1.4.1+dfsg-8ubuntu2",
-          "fixed": "2:6.1.7.3+dfsg-2build1"
+          "fixed": "2:6.1.7.3+dfsg-3"
         }
       ]
     }
