@@ -58,6 +58,11 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "3.04-521.fc43",
+          "fixed": "3.12-1.fc43",
+          "identifier": "fc43"
         }
       ]
     }
