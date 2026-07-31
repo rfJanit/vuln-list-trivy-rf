@@ -22,7 +22,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -46,7 +49,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -70,7 +76,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -94,7 +103,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -118,7 +130,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -142,7 +157,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -166,7 +184,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -190,7 +211,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -214,7 +238,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -238,7 +265,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -262,7 +292,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -286,7 +319,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -310,7 +346,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -334,7 +373,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -371,7 +413,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -395,46 +440,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
-        }
-      ]
-    },
-    "CVE-2025-59474": {
-      "cve_id": "CVE-2025-59474",
-      "title": "Jenkins 2.527 and earlier, LTS 2.516.2 and earlier does not perfo ...",
-      "description": "Jenkins 2.527 and earlier, LTS 2.516.2 and earlier does not perform a permission check in the sidepanel of a page intentionally accessible to users lacking Overall/Read permission, allowing attackers without Overall/Read permission to list agent names through its sidepanel executors widget.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
+          "introduced": "2.541.2-r0"
+        },
         {
-          "introduced": "2.516.1-r0",
-          "fixed": "2.528.3-r0"
-        }
-      ]
-    },
-    "CVE-2025-59475": {
-      "cve_id": "CVE-2025-59475",
-      "title": "Jenkins 2.527 and earlier, LTS 2.516.2 and earlier does not perfo ...",
-      "description": "Jenkins 2.527 and earlier, LTS 2.516.2 and earlier does not perform a permission check for the authenticated user profile dropdown menu, allowing attackers without Overall/Read permission to obtain limited information about the Jenkins configuration by listing available options in this menu (e.g., whether Credentials Plugin is installed).",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2.516.1-r0",
-          "fixed": "2.528.3-r0"
-        }
-      ]
-    },
-    "CVE-2025-59476": {
-      "cve_id": "CVE-2025-59476",
-      "title": "Jenkins 2.527 and earlier, LTS 2.516.2 and earlier does not restr ...",
-      "description": "Jenkins 2.527 and earlier, LTS 2.516.2 and earlier does not restrict or transform the characters that can be inserted from user-specified content in log messages, allowing attackers able to control log message contents to insert line break characters, followed by forged log messages that may mislead administrators reviewing log output.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2.516.1-r0",
-          "fixed": "2.528.3-r0"
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -459,10 +468,6 @@
         },
         {
           "introduced": "2.479.1-r1",
-          "fixed": "2.541.1-r0"
-        },
-        {
-          "introduced": "2.516.1-r0",
           "fixed": "2.541.1-r0"
         }
       ]
@@ -489,10 +494,6 @@
         {
           "introduced": "2.479.1-r1",
           "fixed": "2.541.1-r0"
-        },
-        {
-          "introduced": "2.516.1-r0",
-          "fixed": "2.541.1-r0"
         }
       ]
     },
@@ -517,10 +518,6 @@
         },
         {
           "introduced": "2.479.1-r1",
-          "fixed": "2.541.1-r0"
-        },
-        {
-          "introduced": "2.516.1-r0",
           "fixed": "2.541.1-r0"
         }
       ]
@@ -547,10 +544,6 @@
         {
           "introduced": "2.479.1-r1",
           "fixed": "2.541.1-r0"
-        },
-        {
-          "introduced": "2.516.1-r0",
-          "fixed": "2.541.1-r0"
         }
       ]
     },
@@ -576,23 +569,23 @@
         {
           "introduced": "2.479.1-r1",
           "fixed": "2.541.1-r0"
-        },
-        {
-          "introduced": "2.516.1-r0",
-          "fixed": "2.541.1-r0"
         }
       ]
     },
-    "CVE-2026-27099": {
-      "cve_id": "CVE-2026-27099",
-      "title": "Jenkins 2.483 through 2.550 (both inclusive), LTS 2.492.1 through ...",
-      "description": "Jenkins 2.483 through 2.550 (both inclusive), LTS 2.492.1 through 2.541.1 (both inclusive) does not escape the user-provided description of the \"Mark temporarily offline\" offline cause, resulting in a stored cross-site scripting (XSS) vulnerability exploitable by attackers with Agent/Configure or Agent/Disconnect permission.",
+    "CVE-2026-33001": {
+      "cve_id": "CVE-2026-33001",
+      "title": "Jenkins 2.554 and earlier, LTS 2.541.2 and earlier does not safel ...",
+      "description": "Jenkins 2.554 and earlier, LTS 2.541.2 and earlier does not safely handle symbolic links during the extraction of .tar and .tar.gz archives, allowing crafted archives to write files to arbitrary locations on the filesystem, restricted only by file system access permissions of the user running Jenkins.\nThis can be exploited to deploy malicious scripts or plugins on the controller by attackers with Item/Configure permission, or able to control agent processes.",
       "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.516.1-r0",
-          "fixed": "2.541.2-r0"
+          "introduced": "2.541.2-r0",
+          "fixed": "2.541.3-r0"
+        },
+        {
+          "introduced": "2.541.2-r0",
+          "fixed": "2.541.3-r0"
         }
       ]
     },
@@ -612,7 +605,11 @@
           "fixed": "2.541.3-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
+          "fixed": "2.541.3-r0"
+        },
+        {
+          "introduced": "2.541.2-r0",
           "fixed": "2.541.3-r0"
         }
       ]
@@ -637,7 +634,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -665,7 +665,7 @@
           "fixed": "2.568.1-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -694,7 +694,7 @@
           "fixed": "2.568.1-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -723,7 +723,7 @@
           "fixed": "2.568.1-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -752,7 +752,7 @@
           "fixed": "2.568.1-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -781,7 +781,7 @@
           "fixed": "2.568.1-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -810,7 +810,7 @@
           "fixed": "2.568.1-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -823,7 +823,11 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
+          "fixed": "2.568.1-r0"
+        },
+        {
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -852,7 +856,7 @@
           "fixed": "2.568.1-r0"
         },
         {
-          "introduced": "2.516.1-r0",
+          "introduced": "2.541.2-r0",
           "fixed": "2.568.1-r0"
         }
       ]
@@ -877,7 +881,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     },
@@ -901,7 +908,10 @@
           "introduced": "2.479.1-r1"
         },
         {
-          "introduced": "2.516.1-r0"
+          "introduced": "2.541.2-r0"
+        },
+        {
+          "introduced": "2.541.2-r0"
         }
       ]
     }

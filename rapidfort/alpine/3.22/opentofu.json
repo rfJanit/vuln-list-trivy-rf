@@ -10,7 +10,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.10.6-r5",
+          "introduced": "1.10.6-r8",
           "fixed": "1.11.4-r0"
         }
       ]

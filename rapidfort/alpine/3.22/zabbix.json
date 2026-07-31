@@ -228,7 +228,7 @@
           "introduced": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r3"
+          "introduced": "7.4.5-r7"
         }
       ]
     },
@@ -246,7 +246,7 @@
           "introduced": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r3"
+          "introduced": "7.4.5-r7"
         }
       ]
     },
@@ -258,7 +258,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "7.4.5-r3"
+          "introduced": "7.4.5-r7"
         }
       ]
     },
@@ -274,7 +274,7 @@
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r3"
+          "introduced": "7.4.5-r7"
         }
       ]
     },
@@ -303,7 +303,7 @@
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r3"
+          "introduced": "7.4.5-r7"
         }
       ]
     },
@@ -319,7 +319,7 @@
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r3"
+          "introduced": "7.4.5-r7"
         }
       ]
     },
@@ -335,7 +335,7 @@
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r3"
+          "introduced": "7.4.5-r7"
         }
       ]
     }

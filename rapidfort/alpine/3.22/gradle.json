@@ -19,7 +19,13 @@
           "introduced": "8.14.1-r0"
         },
         {
-          "introduced": "8.14.3-r0"
+          "introduced": "8.14.4-r0"
+        },
+        {
+          "introduced": "8.14.4-r0"
+        },
+        {
+          "introduced": "8.14.4-r0"
         }
       ]
     },
@@ -41,10 +47,6 @@
         {
           "introduced": "8.14.1-r0",
           "fixed": "8.14.4-r0"
-        },
-        {
-          "introduced": "8.14.3-r0",
-          "fixed": "8.14.4-r0"
         }
       ]
     },
@@ -65,10 +67,6 @@
         },
         {
           "introduced": "8.14.1-r0",
-          "fixed": "8.14.4-r0"
-        },
-        {
-          "introduced": "8.14.3-r0",
           "fixed": "8.14.4-r0"
         }
       ]

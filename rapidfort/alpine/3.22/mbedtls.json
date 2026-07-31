@@ -223,6 +223,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -340,6 +344,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -361,6 +369,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -382,6 +394,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -403,6 +419,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -466,6 +486,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -487,6 +511,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -529,6 +557,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -550,13 +582,17 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     },
     "CVE-2026-50713": {
       "cve_id": "CVE-2026-50713",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -613,6 +649,10 @@
         {
           "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
+        },
+        {
+          "introduced": "3.6.7-r0",
+          "fixed": "4.1.1-r0"
         }
       ]
     }

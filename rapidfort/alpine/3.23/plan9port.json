@@ -17,6 +17,9 @@
         },
         {
           "introduced": "0_git20241022-r1"
+        },
+        {
+          "introduced": "0_git20241022-r2"
         }
       ]
     },
@@ -35,6 +38,9 @@
         },
         {
           "introduced": "0_git20241022-r1"
+        },
+        {
+          "introduced": "0_git20241022-r2"
         }
       ]
     }

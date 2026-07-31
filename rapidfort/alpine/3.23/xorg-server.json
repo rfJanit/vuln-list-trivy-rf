@@ -297,6 +297,23 @@
         {
           "introduced": "21.1.19-r0",
           "fixed": "21.1.24-r0"
+        },
+        {
+          "introduced": "21.1.23-r0",
+          "fixed": "21.1.24-r0"
+        }
+      ]
+    },
+    "CVE-2026-56000": {
+      "cve_id": "CVE-2026-56000",
+      "title": "Local attackers with a X connection able to provide GLX commit to ...",
+      "description": "Local attackers with a X connection able to provide GLX commit to the X server xorg-server before 21.2.24 and xwayland before 24.1.13 could cause a Heap Use After Free, due to CommonMakeCurrent() pointing into potentially reallocated memory.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "21.1.23-r0",
+          "fixed": "21.1.24-r0"
         }
       ]
     }

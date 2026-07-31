@@ -352,14 +352,6 @@
         {
           "introduced": "22.15.1-r0",
           "fixed": "22.22.0-r0"
-        },
-        {
-          "introduced": "24.13.0-r1",
-          "fixed": "24.14.1-r0"
-        },
-        {
-          "introduced": "24.13.0-r1",
-          "fixed": "24.14.1-r0"
         }
       ]
     },
@@ -611,10 +603,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -632,10 +624,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -653,10 +645,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -674,10 +666,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -695,10 +687,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -716,10 +708,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -731,10 +723,10 @@
       "status": "open",
       "events": [
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -752,10 +744,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -773,10 +765,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -794,10 +786,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     },
@@ -815,10 +807,10 @@
           "introduced": "22.15.1-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         },
         {
-          "introduced": "24.13.0-r1"
+          "introduced": "24.17.0-r0"
         }
       ]
     }
