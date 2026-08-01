@@ -2287,8 +2287,8 @@
     },
     "CVE-2026-58042": {
       "cve_id": "CVE-2026-58042",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "open",
       "events": [

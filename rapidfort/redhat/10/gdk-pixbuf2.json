@@ -35,6 +35,10 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "2.44.3-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },
