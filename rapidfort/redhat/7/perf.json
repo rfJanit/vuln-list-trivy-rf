@@ -19429,6 +19429,19 @@
         }
       ]
     },
+    "CVE-2026-31656": {
+      "cve_id": "CVE-2026-31656",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915/gt: fix refcount underflow in intel_engine_park_heartbeat\n\nA use-after-free / refcount underflow is possible when the heartbeat\nworker and intel_engine_park_heartbeat() race to release the same\nengine-\u003eheartbeat.systole request.\n\nThe heartbeat worker reads engine-\u003eheartbeat.systole and calls\ni915_request_put() on it when the request is complete, but clears\nthe pointer in a separate, non-atomic step. Concurrently, a request\nretirement on another CPU can drop the engine wakeref to zero, triggering\n__engine_park() -\u003e intel_engine_park_heartbeat(). If the heartbeat\ntimer is pending at that point, cancel_delayed_work() returns true and\nintel_engine_park_heartbeat() reads the stale non-NULL systole pointer\nand calls i915_request_put() on it again, causing a refcount underflow:\n\n```\n\u003c4\u003e [487.221889] Workqueue: i915-unordered engine_retire [i915]\n\u003c4\u003e [487.222640] RIP: 0010:refcount_warn_saturate+0x68/0xb0\n...\n\u003c4\u003e [487.222707] Call Trace:\n\u003c4\u003e [487.222711]  \u003cTASK\u003e\n\u003c4\u003e [487.222716]  intel_engine_park_heartbeat.part.0+0x6f/0x80 [i915]\n\u003c4\u003e [487.223115]  intel_engine_park_heartbeat+0x25/0x40 [i915]\n\u003c4\u003e [487.223566]  __engine_park+0xb9/0x650 [i915]\n\u003c4\u003e [487.223973]  ____intel_wakeref_put_last+0x2e/0xb0 [i915]\n\u003c4\u003e [487.224408]  __intel_wakeref_put_last+0x72/0x90 [i915]\n\u003c4\u003e [487.224797]  intel_context_exit_engine+0x7c/0x80 [i915]\n\u003c4\u003e [487.225238]  intel_context_exit+0xf1/0x1b0 [i915]\n\u003c4\u003e [487.225695]  i915_request_retire.part.0+0x1b9/0x530 [i915]\n\u003c4\u003e [487.226178]  i915_request_retire+0x1c/0x40 [i915]\n\u003c4\u003e [487.226625]  engine_retire+0x122/0x180 [i915]\n\u003c4\u003e [487.227037]  process_one_work+0x239/0x760\n\u003c4\u003e [487.227060]  worker_thread+0x200/0x3f0\n\u003c4\u003e [487.227068]  ? __pfx_worker_thread+0x10/0x10\n\u003c4\u003e [487.227075]  kthread+0x10d/0x150\n\u003c4\u003e [487.227083]  ? __pfx_kthread+0x10/0x10\n\u003c4\u003e [487.227092]  ret_from_fork+0x3d4/0x480\n\u003c4\u003e [487.227099]  ? __pfx_kthread+0x10/0x10\n\u003c4\u003e [487.227107]  ret_from_fork_asm+0x1a/0x30\n\u003c4\u003e [487.227141]  \u003c/TASK\u003e\n```\n\nFix this by replacing the non-atomic pointer read + separate clear with\nxchg() in both racing paths. xchg() is a single indivisible hardware\ninstruction that atomically reads the old pointer and writes NULL. This\nguarantees only one of the two concurrent callers obtains the non-NULL\npointer and performs the put, the other gets NULL and skips it.\n\n(cherry picked from commit 13238dc0ee4f9ab8dafa2cca7295736191ae2f42)",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-31661": {
       "cve_id": "CVE-2026-31661",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
@@ -22296,6 +22309,19 @@
       "cve_id": "CVE-2026-43366",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
       "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nio_uring/kbuf: check if target buffer list is still legacy on recycle\n\nThere's a gap between when the buffer was grabbed and when it\npotentially gets recycled, where if the list is empty, someone could've\nupgraded it to a ring provided type. This can happen if the request\nis forced via io-wq. The legacy recycling is missing checking if the\nbuffer_list still exists, and if it's of the correct type. Add those\nchecks.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-43368": {
+      "cve_id": "CVE-2026-43368",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/i915: Fix potential overflow of shmem scatterlist length\n\nWhen a scatterlists table of a GEM shmem object of size 4 GB or more is\npopulated with pages allocated from a folio, unsigned int .length\nattribute of a scatterlist may get overflowed if total byte length of\npages allocated to that single scatterlist happens to reach or cross the\n4GB limit.  As a consequence, users of the object may suffer from hitting\nunexpected, premature end of the object's backing pages.\n\n[278.780187] ------------[ cut here ]------------\n[278.780377] WARNING: CPU: 1 PID: 2326 at drivers/gpu/drm/i915/i915_mm.c:55 remap_sg+0x199/0x1d0 [i915]\n...\n[278.780654] CPU: 1 UID: 0 PID: 2326 Comm: gem_mmap_offset Tainted: G S   U              6.17.0-rc1-CI_DRM_16981-ged823aaa0607+ #1 PREEMPT(voluntary)\n[278.780656] Tainted: [S]=CPU_OUT_OF_SPEC, [U]=USER\n[278.780658] Hardware name: Intel Corporation Meteor Lake Client Platform/MTL-P LP5x T3 RVP, BIOS MTLPFWI1.R00.3471.D91.2401310918 01/31/2024\n[278.780659] RIP: 0010:remap_sg+0x199/0x1d0 [i915]\n...\n[278.780786] Call Trace:\n[278.780787]  \u003cTASK\u003e\n[278.780788]  ? __apply_to_page_range+0x3e6/0x910\n[278.780795]  ? __pfx_remap_sg+0x10/0x10 [i915]\n[278.780906]  apply_to_page_range+0x14/0x30\n[278.780908]  remap_io_sg+0x14d/0x260 [i915]\n[278.781013]  vm_fault_cpu+0xd2/0x330 [i915]\n[278.781137]  __do_fault+0x3a/0x1b0\n[278.781140]  do_fault+0x322/0x640\n[278.781143]  __handle_mm_fault+0x938/0xfd0\n[278.781150]  handle_mm_fault+0x12c/0x300\n[278.781152]  ? lock_mm_and_find_vma+0x4b/0x760\n[278.781155]  do_user_addr_fault+0x2d6/0x8e0\n[278.781160]  exc_page_fault+0x96/0x2c0\n[278.781165]  asm_exc_page_fault+0x27/0x30\n...\n\nThat issue was apprehended by the author of a change that introduced it,\nand potential risk even annotated with a comment, but then never addressed.\n\nWhen adding folio pages to a scatterlist table, take care of byte length\nof any single scatterlist not exceeding max_segment.\n\n(cherry picked from commit 06249b4e691a75694c014a61708c007fb5755f60)",
       "severity": "HIGH",
       "status": "open",
       "events": [

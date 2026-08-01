@@ -2899,8 +2899,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "8:6.9.12.98+dfsg1-5.2build2",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         },
         {
@@ -2917,13 +2917,32 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "8:6.9.12.98+dfsg1-5.2build2",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         },
         {
           "introduced": "8:7.1.2.24+dfsg1-11rfubu",
           "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2026-62946": {
+      "cve_id": "CVE-2026-62946",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to both 6.9.13-52 and 7.1.2-27, processing an extremely large JNX file on 32-bit platforms can cause an integer overflow, leading to a heap buffer over-write. This issue has been fixed in versions 6.9.13-52 and 7.1.2-27.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.7+dfsg1-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2935,8 +2954,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "8:6.9.12.98+dfsg1-5.2build2",
+          "introduced": "8:6.9.12.98+dfsg1-5.2build2",
+          "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
         },
         {

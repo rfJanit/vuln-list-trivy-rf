@@ -2552,7 +2552,7 @@
       "cve_id": "CVE-2026-56846",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -2578,7 +2578,7 @@
       "cve_id": "CVE-2026-56848",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -2634,7 +2634,7 @@
       "cve_id": "CVE-2026-58042",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -2660,7 +2660,7 @@
       "cve_id": "CVE-2026-58044",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -2673,7 +2673,7 @@
       "cve_id": "CVE-2026-58045",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
