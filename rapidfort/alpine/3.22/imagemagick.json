@@ -261,7 +261,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -278,7 +278,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -346,7 +346,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         },
         {
           "introduced": "7.1.2.24-r0"
@@ -400,7 +400,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -568,7 +568,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -585,7 +585,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         },
         {
           "introduced": "7.1.2.24-r0"
@@ -2901,7 +2901,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -2918,7 +2918,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -2935,7 +2935,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -2969,7 +2969,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -2986,7 +2986,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3003,7 +3003,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3020,7 +3020,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3037,7 +3037,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3054,7 +3054,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3088,7 +3088,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3139,7 +3139,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3156,7 +3156,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3173,7 +3173,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.44-r1"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3190,7 +3190,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3207,7 +3207,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3224,7 +3224,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3241,7 +3241,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3258,7 +3258,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3275,7 +3275,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3326,7 +3326,58 @@
         },
         {
           "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-62343": {
+      "cve_id": "CVE-2026-62343",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 6.9.13-51 and 7.0.1-0 and above prior to 7.1.2-26, an invalid kernel can cause a heap buffer over-write when performing a morphology operation with a user supplied kernel. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.1.32-r2"
+        },
+        {
+          "introduced": "7.1.1.32-r2",
           "fixed": "7.1.1.43-r0"
+        }
+      ]
+    },
+    "CVE-2026-62363": {
+      "cve_id": "CVE-2026-62363",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-27, a heap buffer over-write can occur in the fx operation by passing a crafted argument. This issue has been fixed in version 7.1.2-27.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
+        },
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-64685": {
+      "cve_id": "CVE-2026-64685",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-27, the BGR decoder does not check for an end-of-file in every location so a crafted image could result in an heap buffer over-read. This issue has been fixed in version 7.1.2-27.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
+        },
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
