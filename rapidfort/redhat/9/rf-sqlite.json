@@ -65,6 +65,33 @@
         }
       ]
     },
+    "CVE-2026-11822CVE-2026-11824": {
+      "cve_id": "CVE-2026-11822CVE-2026-11824",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:3.50.2-1.fc43",
+          "fixed": "3.53.2-1.fc45",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:3.51.2-1.fc44",
+          "fixed": "3.53.2-1.fc45",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:3.50.2-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:3.51.2-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
     "CVE-2026-11824": {
       "cve_id": "CVE-2026-11824",
       "title": "SQLite before 3.53.2 contains a heap-based buffer overflow vulner ...",

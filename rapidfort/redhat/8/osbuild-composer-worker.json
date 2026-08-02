@@ -270,23 +270,6 @@
         }
       ]
     },
-    "CVE-2026-39823": {
-      "cve_id": "CVE-2026-39823",
-      "title": "CVE-2026-27142 fixed a vulnerability in which URLs were not corre ...",
-      "description": "CVE-2026-27142 fixed a vulnerability in which URLs were not correctly escaped inside of a \u003cmeta\u003e tag's \u003ccontent\u003e attribute. If the URL content were to insert ASCII whitespaces around the '=' rune inside of the \u003ccontent\u003e attribute, the escaper would fail to similarly escape it, leading to XSS.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "151-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-39825": {
       "cve_id": "CVE-2026-39825",
       "title": "ReverseProxy can forward queries containing parameters not visibl ...",
