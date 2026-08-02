@@ -832,6 +832,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -875,6 +880,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1053,6 +1063,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1147,6 +1162,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1236,6 +1256,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1330,6 +1355,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1424,6 +1454,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1527,6 +1562,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1546,6 +1586,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1565,6 +1610,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1584,6 +1634,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1663,6 +1718,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1757,6 +1817,11 @@
           "introduced": "0",
           "fixed": "1:22.22.0-2.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1771,6 +1836,11 @@
           "introduced": "1:22.19.0-2.fc43",
           "fixed": "1:22.22.2-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1944,6 +2014,25 @@
           "introduced": "0",
           "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-21714": {
+      "cve_id": "CVE-2026-21714",
+      "title": "A memory leak occurs in Node.js HTTP/2 servers when a client send ...",
+      "description": "A memory leak occurs in Node.js HTTP/2 servers when a client sends WINDOW_UPDATE frames on stream 0 (connection-level) that cause the flow control window to exceed the maximum value of 2³¹-1. The server correctly sends a GOAWAY frame, but the Http2Session object is never cleaned up.\r\n\r\nThis vulnerability affects HTTP2 users on Node.js 20, 22, 24 and 25.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1958,6 +2047,11 @@
           "introduced": "1:22.19.0-2.fc43",
           "fixed": "1:22.22.2-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -1972,6 +2066,11 @@
           "introduced": "1:22.19.0-2.fc43",
           "fixed": "1:22.22.2-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2061,6 +2160,11 @@
           "introduced": "0",
           "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2074,6 +2178,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2087,6 +2196,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2100,6 +2214,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2113,6 +2232,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2126,6 +2250,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2139,6 +2268,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2152,6 +2286,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2165,6 +2304,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2178,6 +2322,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2191,6 +2340,11 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -2204,13 +2358,18 @@
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:22.23.1-4.fc45",
+          "identifier": "fc45"
         }
       ]
     },
     "CVE-2026-56846": {
       "cve_id": "CVE-2026-56846",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "HIGH",
       "status": "open",
       "events": [
