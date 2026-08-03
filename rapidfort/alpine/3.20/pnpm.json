@@ -180,13 +180,15 @@
       "title": "pnpm is a package manager. Prior to 10.34.0 and 11.4.0, pnpm's ta ...",
       "description": "pnpm is a package manager. Prior to 10.34.0 and 11.4.0, pnpm's tarball extraction worker skips integrity verification when the integrity field is absent from the lockfile resolution. If an attacker can both modify pnpm-lock.yaml to remove the integrity: field and cause the referenced registry URL to serve altered package content, pnpm install --frozen-lockfile can install the altered package without an integrity error. npm's npm ci enforces integrity by default; pnpm's behavior of silently skipping verification is a pnpm-specific fail-open gap. This vulnerability is fixed in 10.34.0 and 11.4.0.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "10.9.0-r0"
+          "introduced": "10.9.0-r0",
+          "fixed": "11.5.3-r0"
         },
         {
-          "introduced": "10.33.4-r0"
+          "introduced": "10.33.4-r0",
+          "fixed": "11.5.3-r0"
         }
       ]
     },
@@ -208,13 +210,15 @@
       "title": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm and  ...",
       "description": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm and pacquet expanded ${ENV_VAR} placeholders from repository-controlled .npmrc and pnpm-workspace.yaml into registry request destinations and registry credentials. A malicious repository could cause dependency resolution to send victim environment secrets to an attacker-selected registry before lifecycle scripts run. This vulnerability is fixed in 10.34.2 and 11.5.3.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "10.9.0-r0"
+          "introduced": "10.9.0-r0",
+          "fixed": "11.5.3-r0"
         },
         {
-          "introduced": "10.33.4-r0"
+          "introduced": "10.33.4-r0",
+          "fixed": "11.5.3-r0"
         }
       ]
     },
@@ -223,13 +227,15 @@
       "title": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, the gener ...",
       "description": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, the generic peer-suffix normalizer also stripped parenthesized text from git, URL, tarball, file, and other opaque locators. Approval for one source string could therefore authorize a different attacker-controlled source whose locator normalized to the same value. This vulnerability is fixed in 10.34.2 and 11.5.3.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "10.9.0-r0"
+          "introduced": "10.9.0-r0",
+          "fixed": "11.5.3-r0"
         },
         {
-          "introduced": "10.33.4-r0"
+          "introduced": "10.33.4-r0",
+          "fixed": "11.5.3-r0"
         }
       ]
     },
@@ -238,13 +244,15 @@
       "title": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm can  ...",
       "description": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm can install configDependencies declared in pnpm-workspace.yaml before command dispatch. Before the patch, a repository could declare pacquet or @pnpm/pacquet as a config dependency and pnpm treated that repository-controlled dependency as an install-engine opt-in. During install, pnpm resolved a platform-specific @pacquet/\u003cplatform\u003e-\u003carch\u003e/pacquet binary from node_modules/.pnpm-config/\u003cpackageName\u003e and spawned it as the developer or CI user. This vulnerability is fixed in 10.34.2 and 11.5.3.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "10.9.0-r0"
+          "introduced": "10.9.0-r0",
+          "fixed": "11.5.3-r0"
         },
         {
-          "introduced": "10.33.4-r0"
+          "introduced": "10.33.4-r0",
+          "fixed": "11.5.3-r0"
         }
       ]
     },
@@ -253,13 +261,15 @@
       "title": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm can  ...",
       "description": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, pnpm can persist package-manager bootstrap metadata in the first YAML document of pnpm-lock.yaml. Before the patch, direct pnpm execution trusted an already resolved packageManagerDependencies entry when the committed env lockfile contained matching pnpm and @pnpm/exe versions. A malicious repository could therefore commit package-manager lockfile package records and snapshots that bypassed fresh package-manager resolution, then cause pnpm to install and execute bytes selected by that committed lockfile state during automatic version switching. This vulnerability is fixed in 10.34.2 and 11.5.3.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "10.9.0-r0"
+          "introduced": "10.9.0-r0",
+          "fixed": "11.5.3-r0"
         },
         {
-          "introduced": "10.33.4-r0"
+          "introduced": "10.33.4-r0",
+          "fixed": "11.5.3-r0"
         }
       ]
     },
@@ -268,13 +278,15 @@
       "title": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, Manifest  ...",
       "description": "pnpm is a package manager. Prior to 10.34.2 and 11.5.3, Manifest bin object keys such as \"\", \".\", and \"..\" passed pnpm's bin-name guard. When a malicious package was installed globally, later global remove, update, or add-replacement flows could re-derive those names from the installed manifest and pass path.join(globalBinDir, binName) to removeBin. For \".\" this targets the global bin directory; for \"..\" this targets its parent. This vulnerability is fixed in 10.34.2 and 11.5.3.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "10.9.0-r0"
+          "introduced": "10.9.0-r0",
+          "fixed": "11.5.3-r0"
         },
         {
-          "introduced": "10.33.4-r0"
+          "introduced": "10.33.4-r0",
+          "fixed": "11.5.3-r0"
         }
       ]
     },
@@ -290,6 +302,12 @@
         },
         {
           "introduced": "10.33.4-r0"
+        },
+        {
+          "introduced": "11.5.3-r0"
+        },
+        {
+          "introduced": "11.5.3-r0"
         }
       ]
     },
@@ -305,6 +323,12 @@
         },
         {
           "introduced": "10.33.4-r0"
+        },
+        {
+          "introduced": "11.5.3-r0"
+        },
+        {
+          "introduced": "11.5.3-r0"
         }
       ]
     },
@@ -320,6 +344,12 @@
         },
         {
           "introduced": "10.33.4-r0"
+        },
+        {
+          "introduced": "11.5.3-r0"
+        },
+        {
+          "introduced": "11.5.3-r0"
         }
       ]
     }

@@ -20,6 +20,12 @@
         },
         {
           "introduced": "6.17-r0"
+        },
+        {
+          "introduced": "6.19-r1"
+        },
+        {
+          "introduced": "6.19-r1"
         }
       ]
     }

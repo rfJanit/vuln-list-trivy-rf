@@ -204,6 +204,19 @@
         }
       ]
     },
+    "CVE-2026-14757": {
+      "cve_id": "CVE-2026-14757",
+      "title": "A vulnerability was determined in radareorg radare2 up to 6.1.6.  ...",
+      "description": "A vulnerability was determined in radareorg radare2 up to 6.1.6. This affects the function core_anal_bytes of the file libr/core/cmd_anal.inc. This manipulation causes integer overflow. The attack needs to be launched locally. The exploit has been publicly disclosed and may be utilized. It is suggested to install a patch to address this issue.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.1.6-r0",
+          "fixed": "6.1.8-r0"
+        }
+      ]
+    },
     "CVE-2026-14758": {
       "cve_id": "CVE-2026-14758",
       "title": "A vulnerability was identified in radareorg radare2 up to 6.1.6.  ...",
@@ -225,6 +238,10 @@
         },
         {
           "introduced": "6.0.7-r0",
+          "fixed": "6.1.8-r0"
+        },
+        {
+          "introduced": "6.1.6-r0",
           "fixed": "6.1.8-r0"
         }
       ]
@@ -251,6 +268,10 @@
         {
           "introduced": "6.0.7-r0",
           "fixed": "6.1.8-r0"
+        },
+        {
+          "introduced": "6.1.6-r0",
+          "fixed": "6.1.8-r0"
         }
       ]
     },
@@ -275,6 +296,10 @@
         },
         {
           "introduced": "6.0.7-r0",
+          "fixed": "6.1.8-r0"
+        },
+        {
+          "introduced": "6.1.6-r0",
           "fixed": "6.1.8-r0"
         }
       ]
@@ -301,6 +326,10 @@
         {
           "introduced": "6.0.7-r0",
           "fixed": "6.1.8-r0"
+        },
+        {
+          "introduced": "6.1.6-r0",
+          "fixed": "6.1.8-r0"
         }
       ]
     },
@@ -326,6 +355,49 @@
         {
           "introduced": "6.0.7-r0",
           "fixed": "6.1.8-r0"
+        },
+        {
+          "introduced": "6.1.6-r0",
+          "fixed": "6.1.8-r0"
+        }
+      ]
+    },
+    "CVE-2026-14787": {
+      "cve_id": "CVE-2026-14787",
+      "title": "A weakness has been identified in radareorg radare2 up to 6.1.6.  ...",
+      "description": "A weakness has been identified in radareorg radare2 up to 6.1.6. Affected is the function cmd_print in the library libr/core/cmd_print.inc of the component pb Print Command Handler. This manipulation causes integer overflow. The attack needs to be launched locally. The exploit has been made available to the public and could be used for attacks. Patch name: 2b6265476c75567006b0fcbb749f4ae7b189c5df. It is recommended to apply a patch to fix this issue.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.1.6-r0",
+          "fixed": "6.1.8-r0"
+        }
+      ]
+    },
+    "CVE-2026-14788": {
+      "cve_id": "CVE-2026-14788",
+      "title": "A security vulnerability has been detected in radareorg radare2 u ...",
+      "description": "A security vulnerability has been detected in radareorg radare2 up to 6.1.6. Affected by this vulnerability is the function r_core_bin_load of the file libr/core/cfile.c. Such manipulation leads to use after free. The attack needs to be performed locally. The exploit has been disclosed publicly and may be used. The name of the patch is 635ab1eeb30340c26076722a90cb91fb2272130b. Applying a patch is advised to resolve this issue.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.1.6-r0",
+          "fixed": "6.1.8-r0"
+        }
+      ]
+    },
+    "CVE-2026-14789": {
+      "cve_id": "CVE-2026-14789",
+      "title": "A vulnerability was detected in radareorg radare2 up to 6.1.6. Af ...",
+      "description": "A vulnerability was detected in radareorg radare2 up to 6.1.6. Affected by this issue is some unknown functionality of the file libr/bin/format/mdmp/mdmp.c of the component Memory64ListStream Parser. Performing a manipulation results in stack-based buffer overflow. The attack requires a local approach. The exploit is now public and may be used. The patch is named 175d4addb68981331c85b10681c2161c38fb5762. It is suggested to install a patch to address this issue.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.1.6-r0",
+          "fixed": "6.1.8-r0"
         }
       ]
     },
@@ -334,19 +406,23 @@
       "title": "radare2 prior to version 6.1.4 contains a command injection vulne ...",
       "description": "radare2 prior to version 6.1.4 contains a command injection vulnerability in the PDB parser's print_gvars() function that allows attackers to execute arbitrary commands by embedding a newline byte in the PE section header name field. Attackers can craft a malicious PDB file with specially crafted section names to inject r2 commands that are executed when the idp command processes the file.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "5.9.0-r1"
+          "introduced": "5.9.0-r1",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "5.9.8-r0"
+          "introduced": "5.9.8-r0",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "5.9.8-r0"
+          "introduced": "5.9.8-r0",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "6.0.7-r0"
+          "introduced": "6.0.7-r0",
+          "fixed": "6.1.6-r0"
         }
       ]
     },
@@ -455,19 +531,23 @@
       "title": "radare2 6.1.5 contains a use-after-free vulnerability in the gdbr ...",
       "description": "radare2 6.1.5 contains a use-after-free vulnerability in the gdbr_threads_list() function that allows remote attackers to trigger memory corruption by sending a valid qfThreadInfo response followed by a malformed qsThreadInfo response. Attackers can exploit this vulnerability through GDB remote debugging to cause a denial of service or potentially achieve code execution by manipulating thread list processing.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "5.9.0-r1"
+          "introduced": "5.9.0-r1",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "5.9.8-r0"
+          "introduced": "5.9.8-r0",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "5.9.8-r0"
+          "introduced": "5.9.8-r0",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "6.0.7-r0"
+          "introduced": "6.0.7-r0",
+          "fixed": "6.1.6-r0"
         }
       ]
     },
@@ -476,19 +556,23 @@
       "title": "radare2 6.1.5 contains a use-after-free vulnerability in the gdbr ...",
       "description": "radare2 6.1.5 contains a use-after-free vulnerability in the gdbr_pids_list() function within the GDB client core that allows remote attackers to cause a denial of service or potentially execute arbitrary code by sending malformed thread information responses. Attackers can trigger the vulnerability by causing qsThreadInfo to fail after qfThreadInfo successfully allocates RDebugPid structures, resulting in double-free memory corruption when the error path attempts to clean up the list.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "5.9.0-r1"
+          "introduced": "5.9.0-r1",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "5.9.8-r0"
+          "introduced": "5.9.8-r0",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "5.9.8-r0"
+          "introduced": "5.9.8-r0",
+          "fixed": "6.1.6-r0"
         },
         {
-          "introduced": "6.0.7-r0"
+          "introduced": "6.0.7-r0",
+          "fixed": "6.1.6-r0"
         }
       ]
     }

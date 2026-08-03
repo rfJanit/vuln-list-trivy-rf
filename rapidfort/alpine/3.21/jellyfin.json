@@ -261,22 +261,27 @@
       "title": "Jellyfin is an open source self hosted media server. From 10.9.0  ...",
       "description": "Jellyfin is an open source self hosted media server. From 10.9.0 until 10.11.10, the POST /ClientLog/Document endpoint accepts the Authorization header's Client and Version fields and uses them unsanitized as components of the on-disk filename when persisting client-uploaded log documents. As a result, any authenticated non-admin user can include ../ sequences in the Client field to cause Jellyfin to write attacker-controlled content to arbitrary paths reachable by the Jellyfin service user, with a forced .log suffix. This vulnerability is fixed in 10.11.10.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "10.9.9-r0"
+          "introduced": "10.9.9-r0",
+          "fixed": "10.11.11-r0"
         },
         {
-          "introduced": "10.9.9-r0"
+          "introduced": "10.9.9-r0",
+          "fixed": "10.11.11-r0"
         },
         {
-          "introduced": "10.10.7-r0"
+          "introduced": "10.10.7-r0",
+          "fixed": "10.11.11-r0"
         },
         {
-          "introduced": "10.11.6-r0"
+          "introduced": "10.11.6-r0",
+          "fixed": "10.11.11-r0"
         },
         {
-          "introduced": "10.11.6-r0"
+          "introduced": "10.11.6-r0",
+          "fixed": "10.11.11-r0"
         }
       ]
     }

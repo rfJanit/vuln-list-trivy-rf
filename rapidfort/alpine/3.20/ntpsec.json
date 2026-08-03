@@ -7,19 +7,27 @@
       "title": "Buffer overflow in NTPsec's Zyfer refclock allows local attacker  ...",
       "description": "Buffer overflow in NTPsec's Zyfer refclock allows local attacker to crash ntpd",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.2.3-r2"
+          "introduced": "1.2.3-r2",
+          "fixed": "1.2.5-r0"
         },
         {
-          "introduced": "1.2.4-r0"
+          "introduced": "1.2.4-r0",
+          "fixed": "1.2.5-r0"
         },
         {
-          "introduced": "1.2.4-r0"
+          "introduced": "1.2.4-r0",
+          "fixed": "1.2.5-r0"
         },
         {
-          "introduced": "1.2.4-r0"
+          "introduced": "1.2.4-r0",
+          "fixed": "1.2.5-r0"
+        },
+        {
+          "introduced": "1.2.4-r1",
+          "fixed": "1.2.5-r0"
         }
       ]
     }

@@ -23,6 +23,12 @@
         },
         {
           "introduced": "1.21.3-r0"
+        },
+        {
+          "introduced": "1.22.2-r1"
+        },
+        {
+          "introduced": "1.22.2-r1"
         }
       ]
     },
@@ -47,6 +53,12 @@
         },
         {
           "introduced": "1.21.3-r0"
+        },
+        {
+          "introduced": "1.22.2-r1"
+        },
+        {
+          "introduced": "1.22.2-r1"
         }
       ]
     },
@@ -71,6 +83,12 @@
         },
         {
           "introduced": "1.21.3-r0"
+        },
+        {
+          "introduced": "1.22.2-r1"
+        },
+        {
+          "introduced": "1.22.2-r1"
         }
       ]
     },
@@ -95,6 +113,12 @@
         },
         {
           "introduced": "1.21.3-r0"
+        },
+        {
+          "introduced": "1.22.2-r1"
+        },
+        {
+          "introduced": "1.22.2-r1"
         }
       ]
     }

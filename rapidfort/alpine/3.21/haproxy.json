@@ -14,6 +14,10 @@
           "fixed": "2.8.16-r0"
         },
         {
+          "introduced": "2.8.11-r0",
+          "fixed": "2.8.16-r0"
+        },
+        {
           "introduced": "3.0.11-r0",
           "fixed": "3.0.12-r0"
         }
@@ -50,6 +54,10 @@
         {
           "introduced": "3.2.9-r0",
           "fixed": "3.2.12-r0"
+        },
+        {
+          "introduced": "3.2.9-r0",
+          "fixed": "3.2.12-r0"
         }
       ]
     },
@@ -58,22 +66,27 @@
       "title": "An issue was discovered in HAProxy before 3.3.6. The HTTP/3 parse ...",
       "description": "An issue was discovered in HAProxy before 3.3.6. The HTTP/3 parser does not check that the received body length matches a previously announced content-length when the stream is closed via a frame with an empty payload. This can cause desynchronization issues with the backend server and could be used for request smuggling. The earliest affected version is 2.6.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "2.8.11-r0"
+          "introduced": "2.8.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "2.8.11-r0"
+          "introduced": "2.8.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.0.11-r0"
+          "introduced": "3.0.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.0.11-r0"
+          "introduced": "3.0.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.2.9-r0"
+          "introduced": "3.2.9-r0",
+          "fixed": "3.4.2-r0"
         }
       ]
     },
@@ -82,25 +95,31 @@
       "title": "HAProxy through 3.4.0, fixed in commit 5985276, contains an integ ...",
       "description": "HAProxy through 3.4.0, fixed in commit 5985276, contains an integer overflow vulnerability in the fcgi_conn structure's drl field that allows buffer misparse as new FCGI record headers. When contentLength is 65535 and paddingLength is 1 or more, the drl field wraps to 0, causing incorrect record consumption and allowing malicious FastCGI backends to desynchronize the FCGI framing parser, potentially causing request routing errors, response smuggling, or memory safety issues.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "2.8.11-r0"
+          "introduced": "2.8.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "2.8.11-r0"
+          "introduced": "2.8.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.0.11-r0"
+          "introduced": "3.0.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.0.11-r0"
+          "introduced": "3.0.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.2.9-r0"
+          "introduced": "3.2.9-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.2.21-r0"
+          "introduced": "3.2.21-r0",
+          "fixed": "3.4.2-r0"
         }
       ]
     },
@@ -109,25 +128,31 @@
       "title": "HAProxy through  3.4.0, fixed in commit 9a6d1fe, contains a null  ...",
       "description": "HAProxy through  3.4.0, fixed in commit 9a6d1fe, contains a null pointer dereference vulnerability in hpack_dht_insert() within src/hpack-tbl.c that fails to validate the return value of hpack_dht_defrag() when the memory pool is exhausted. An attacker can trigger HPACK dynamic table insertions under memory pressure to dereference a NULL pointer and crash HAProxy worker processes, causing denial of service.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "2.8.11-r0"
+          "introduced": "2.8.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "2.8.11-r0"
+          "introduced": "2.8.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.0.11-r0"
+          "introduced": "3.0.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.0.11-r0"
+          "introduced": "3.0.11-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.2.9-r0"
+          "introduced": "3.2.9-r0",
+          "fixed": "3.4.2-r0"
         },
         {
-          "introduced": "3.2.21-r0"
+          "introduced": "3.2.21-r0",
+          "fixed": "3.4.2-r0"
         }
       ]
     }

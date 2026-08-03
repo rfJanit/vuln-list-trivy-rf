@@ -23,6 +23,12 @@
         },
         {
           "introduced": "2.5.9-r0"
+        },
+        {
+          "introduced": "2.5.10-r1"
+        },
+        {
+          "introduced": "2.5.10-r1"
         }
       ]
     }

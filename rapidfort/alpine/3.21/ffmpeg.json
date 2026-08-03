@@ -405,13 +405,15 @@
       "title": "Buffer Overflow vulenrability in Ffmpeg v.N113007-g8d24a28d06 all ...",
       "description": "Buffer Overflow vulenrability in Ffmpeg v.N113007-g8d24a28d06 allows a local attacker to execute arbitrary code via the libavcodec/jpegxl_parser.c in gen_alias_map.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -420,13 +422,15 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 all ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 allows a local attacker to execute arbitrary code via the libavutil/imgutils.c:353:9 in image_copy_plane.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -435,13 +439,15 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 all ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 allows a local attacker to execute arbitrary code via the libavfilter/af_stereowiden.c:120:69.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -450,13 +456,15 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 all ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 allows a local attacker to execute arbitrary code via the libavfilter/avf_showspectrum.c:1789:52 component in showspectrumpic_request_frame",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -465,13 +473,15 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 all ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 allows a local attacker to execute arbitrary code via the libavfilter/f_reverse.c:269:26 in areverse_request_frame.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -480,13 +490,15 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 all ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 allows a local attacker to execute arbitrary code via the libavfilter/avf_showwaves.c:722:24 in showwaves_filter_frame",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -495,13 +507,15 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 all ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.N113007-g8d24a28d06 allows a local attacker to execute arbitrary code via a floating point exception (FPE) error at libavfilter/vf_minterpolate.c:1078:60 in interpolate.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -822,13 +836,15 @@
       "title": "FFmpeg git-master,N-113007-g8d24a28d06 was discovered to contain  ...",
       "description": "FFmpeg git-master,N-113007-g8d24a28d06 was discovered to contain a segmentation violation via the component /libavcodec/jpeg2000dec.c.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -858,6 +874,10 @@
         {
           "introduced": "8.0.1-r1",
           "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -886,6 +906,10 @@
         },
         {
           "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -973,13 +997,15 @@
       "title": "Out-of-bounds read in FFmpeg 8.0 and 8.0.1 RV60 video decoder (li ...",
       "description": "Out-of-bounds read in FFmpeg 8.0 and 8.0.1 RV60 video decoder (libavcodec/rv60dec.c). The quantization parameter (qp) validation at line 2267 only checks the lower bound (qp \u003c 0) but is missing upper bound validation. The qp value can reach 65 (base value 63 from 6-bit frame header + offset +2 from read_qp_offset) while the rv60_qp_to_idx array has size 64 (valid indices 0-63). This results in out-of-bounds array access at lines 1554 (decode_cbp8), 1655 (decode_cbp16), and 1419/1421 (get_c4x4_set), potentially leading to memory disclosure or crash. A previous fix in commit 61cbcaf93f added validation only for intra frames. This vulnerability affects the released versions 8.0 (released 2025-08-22) and 8.0.1 (released 2025-11-20) and is fixed in git master commit 8abeb879df which will be included in FFmpeg 8.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -1001,13 +1027,15 @@
       "title": "An out-of-bounds read in the read_global_param() function (libavc ...",
       "description": "An out-of-bounds read in the read_global_param() function (libavcodec/av1dec.c) of FFmpeg v8.0.1 allows attackers to cause a Denial of Service (DoS) via a crafted input.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -1016,13 +1044,15 @@
       "title": "An improper resource deallocation and closure vulnerability in th ...",
       "description": "An improper resource deallocation and closure vulnerability in the tools/zmqsend.c component of FFmpeg v8.0.1 allows attackers to cause a Denial of Service (DoS) via supplying a crafted input file.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -1031,13 +1061,15 @@
       "title": "A heap buffer overflow in the av_bprint_finalize() function of FF ...",
       "description": "A heap buffer overflow in the av_bprint_finalize() function of FFmpeg v8.0.1 allows attackers to cause a Denial of Service (DoS) via a crafted input.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         },
         {
-          "introduced": "8.0.1-r1"
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.2-r0"
         }
       ]
     },
@@ -1095,6 +1127,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1110,6 +1145,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1134,6 +1172,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1158,6 +1199,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1182,6 +1226,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1206,6 +1253,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1230,6 +1280,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1254,6 +1307,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1278,6 +1334,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1302,6 +1361,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1326,6 +1388,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1350,6 +1415,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1374,6 +1442,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1398,6 +1469,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1422,6 +1496,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1437,6 +1514,9 @@
         },
         {
           "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },

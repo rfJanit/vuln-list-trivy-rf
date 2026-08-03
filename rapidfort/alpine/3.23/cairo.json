@@ -23,6 +23,12 @@
         },
         {
           "introduced": "1.18.4-r0"
+        },
+        {
+          "introduced": "1.18.4-r1"
+        },
+        {
+          "introduced": "1.18.4-r1"
         }
       ]
     }

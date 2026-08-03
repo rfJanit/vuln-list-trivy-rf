@@ -20,6 +20,9 @@
         },
         {
           "introduced": "0.8-r21"
+        },
+        {
+          "introduced": "0.9_rc4-r0"
         }
       ]
     },

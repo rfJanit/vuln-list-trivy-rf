@@ -66,16 +66,19 @@
       "title": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, when dow ...",
       "description": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, when downstream DNS-over-QUIC (DoQ) is enabled, the first two bidirectional streams on a new QUIC connection (stream_id 0 and 4) bypass the per-stream 'quic-size' gate entirely, and large input buffers are allocated later, after only the 2-byte length prefix has been received from the initial streams. As a result, a remote client can make Unbound exceed the configured 'quic-size' limit with low-cost input. Using only one connection and two streams, each sending a declared 65535-byte length prefix and then holding the streams open, a client can already trivially make Unbound roughly allocate double that amount. This is a remote availability issue / memory-accounting bypass in the downstream DoQ implementation that leads to denial of service for new DoQ clients. This vulnerability needs Unbound to be compiled with DoQ support ('--with-libngtcp2') and the 'quic-port' to be configured for the listening interfaces.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.0-r0"
+          "introduced": "1.22.0-r0",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -84,28 +87,35 @@
       "title": "NLnet Labs Unbound 1.6.2 up to and including version 1.25.0 has a ...",
       "description": "NLnet Labs Unbound 1.6.2 up to and including version 1.25.0 has a denial of service vulnerability when compiled with DNSCrypt support ('--enable-dnscrypt'). A bad DNSCrypt query could underflow Unbound's DNSCrypt packet reading procedure that may lead to heap overflow. A malicious actor can exploit the vulnerability with a single bad DNSCrypt query that its decrypted plaintext consists entirely of '0x00' bytes and does not contain the expected '0x80' marker. Unbound would then start reading more bytes than necessary until it finds a non-'0x00' byte. Based on the underlying memory allocator and the memory layout, it could lead to heap overflow while reading followed by a crash. Likelihood of a crash is low, since it relies heavily on the underlying memory allocator and the memory layout. If the heap overflow does not happen, Unbound's later packet checks will deny the packet. Unbound 1.25.1 contains a patch with a fix to bound reading in the given buffer space.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -188,28 +198,35 @@
       "title": "In Unbound 1.9.0 up to and including 1.25.1, when a DNSCrypt quer ...",
       "description": "In Unbound 1.9.0 up to and including 1.25.1, when a DNSCrypt query is received over TCP, the routine that encrypts the reply in place fails to bound the reply length against the destination buffer size. The size clamp that protects the UDP path is not applied on the TCP path, so a reply larger than 65504 bytes is shifted forward by 48 bytes inside a buffer of capacity equal to 'msg-buffer-size', writing past the end of the heap allocation. A single malicious encrypted query crashes the resolver and lead to denial of service. This vulnerability needs Unbound to be compiled with DNSCrypt support ('--enable-dnscrypt') and the 'dnscrypt:' clause to be configured and enabled for the listening interfaces.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -255,16 +272,19 @@
       "title": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, client t ...",
       "description": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, client terminated DNS-over-QUIC (DoQ) queries are not accounted properly by Unbound resulting in low-cost inflation of the waiting number of replies for already in-flight resolution queries. This results in degradation of resolution service for new clients for already in-flight queries. A malicious actor can exploit the vulnerability by issuing DoQ queries for query names that need resolution and proceeding on immediately terminating the query by one of STOP_SENDING/RESET_STREAM/CONNECTION_CLOSE QUIC frames. Those terminated DoQ queries are not properly counted for and keep inflating the number of waiting replies for in-flight queries. When the maximum is reached, it results in silent query drops for new clients needing resolution for already in-flight queries. This vulnerability needs Unbound to be compiled with DoQ support ('--with-libngtcp2') and the 'quic-port' to be configured for the listening interfaces. Additionally, a malicious actor needs access to multiple source IPs to bypass the by-default configured 'wait-limit' option.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.0-r0"
+          "introduced": "1.22.0-r0",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -1051,28 +1071,35 @@
       "title": "In NLnet Labs Unbound 1.7.0 up to and including 1.25.1, when the  ...",
       "description": "In NLnet Labs Unbound 1.7.0 up to and including 1.25.1, when the 'dnscrypt:' clause lists more 'dnscrypt-provider-cert:' files than there are matching 'dnscrypt-secret-key:' files, Unbound fills only the matched prefix and leaves the tail slots at the '0xdb' fill that libsodium's allocator writes into every allocation. Unbound would then iterate over the number of cert files, not the actual slots, so it walks into a slot with garbage data filled with '0xdb' bytes. Any unauthenticated client that sends one UDP datagram of ≥ 68 bytes whose first 8 bytes are '0xdb' to 'dnscrypt-port' will use that garbage entry which leads to a garbage dereference killing the server. This is a silent faulty configuration that goes unnoticed until triggered with the right client query. Unbound needs to be compiled with DNSCrypt support ('--enable-dnscrypt').",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.20.0-r1"
+          "introduced": "1.20.0-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -1081,16 +1108,19 @@
       "title": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, a remote ...",
       "description": "In NLnet Labs Unbound 1.22.0 up to and including 1.25.1, a remote unauthenticated client can trigger a libngtcp2 assertion (if compiled with assertions on) and terminate the entire Unbound process using a single DNS-over-QUIC (DoQ) connection and one normal DNS query. This is caused by an erroneous error value passed to libngtcp2. When 'ngtcp2_conn_writev_stream()' returns 'NGTCP2_ERR_STREAM_DATA_BLOCKED', Unbound continues to call 'ngtcp2_ccerr_set_application_error()' with a '-1' error value. The 'int' literal '-1' is implicitly converted to the function's 'uint64_t error_code' parameter as '0xFFFFFFFFFFFFFFFF'. The follow-on 'ngtcp2_conn_write_connection_close()' serialises that value as a QUIC variable-length integer; because '2^64-1' exceeds the 62-bit varint ceiling, 'ngtcp2_put_uvarintlen()' fails 'assert(n \u003c 4611686018427387904ULL)' and the whole resolver process aborts. A remote, unauthenticated DoQ client can trigger this deterministically with a single QUIC connection by advertising 'initial_max_stream_data_bidi_local = 1' in its transport parameters and sending one DoQ query without ever reading the stream.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.0-r0"
+          "introduced": "1.22.0-r0",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         },
         {
-          "introduced": "1.23.1-r1"
+          "introduced": "1.23.1-r1",
+          "fixed": "1.25.2-r0"
         }
       ]
     },

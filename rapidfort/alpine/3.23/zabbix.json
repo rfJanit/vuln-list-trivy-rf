@@ -253,10 +253,11 @@
       "title": "An unauthenticated attacker can exploit the Frontend 'validate' a ...",
       "description": "An unauthenticated attacker can exploit the Frontend 'validate' action to blindly instantiate arbitrary PHP classes. The impact depends on environment setup but appears limited at this time.",
       "severity": "",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "7.4.5-r7"
+          "introduced": "7.4.5-r7",
+          "fixed": "7.4.12-r0"
         }
       ]
     },
@@ -265,14 +266,15 @@
       "title": "Zabbix Agent 2 Docker plugin does not properly sanitize the 'dock ...",
       "description": "Zabbix Agent 2 Docker plugin does not properly sanitize the 'docker.container_info' parameters when forwarding them to the Docker daemon. An attacker capable of invoking Agent 2 can read arbitrary files from running Docker containers by injecting them via the Docker archive API.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "7.0.16-r0",
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r7"
+          "introduced": "7.4.5-r7",
+          "fixed": "7.4.12-r0"
         }
       ]
     },
@@ -294,14 +296,15 @@
       "title": "An authenticated (non-super) administrator can create a maintenan ...",
       "description": "An authenticated (non-super) administrator can create a maintenance period with a JavaScript payload that is executed by any user that opens tooltip for that maintenance period in the Host navigator widget. This can allow the attacker to perform unauthorized actions depending on which user opens the tooltip.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "7.0.16-r0",
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r7"
+          "introduced": "7.4.5-r7",
+          "fixed": "7.4.12-r0"
         }
       ]
     },
@@ -310,14 +313,15 @@
       "title": "A user able to connect to Agent 2 can inject an Oracle TNS connec ...",
       "description": "A user able to connect to Agent 2 can inject an Oracle TNS connection string via the 'service' parameter. This can lead to Agent 2 connecting to an attacker-controlled server and leaking Oracle database credentials if they are saved in a named session.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "7.0.16-r0",
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r7"
+          "introduced": "7.4.5-r7",
+          "fixed": "7.4.12-r0"
         }
       ]
     },
@@ -326,14 +330,15 @@
       "title": "The Item history widget (in Zabbix 7.0+) or the Plain text widget ...",
       "description": "The Item history widget (in Zabbix 7.0+) or the Plain text widget (in Zabbix 6.0) can execute injected JavaScript when HTML display is enabled. This can allow an attacker to perform unauthorized actions depending on which user opens a dashboard containing these widgets. The malicious JavaScript would have to come from a monitored host controlled by the attacker. Note: the Item history widget is a replacement for the Plain text widget since Zabbix 7.0.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "7.0.16-r0",
           "fixed": "7.2.13-r2"
         },
         {
-          "introduced": "7.4.5-r7"
+          "introduced": "7.4.5-r7",
+          "fixed": "7.4.12-r0"
         }
       ]
     }

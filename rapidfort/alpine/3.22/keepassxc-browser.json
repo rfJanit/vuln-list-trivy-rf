@@ -7,10 +7,11 @@
       "title": "KeePassXC-Browser thru 1.9.9.2 autofills or prompts to fill store ...",
       "description": "KeePassXC-Browser thru 1.9.9.2 autofills or prompts to fill stored credentials into documents rendered under a browser-enforced CSP directive and iframe attribute sandbox, allowing attacker-controlled script in the sandboxed document to access populated form fields and exfiltrate credentials.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.9.7-r1"
+          "introduced": "1.9.7-r1",
+          "fixed": "1.10.0.1-r0"
         }
       ]
     }

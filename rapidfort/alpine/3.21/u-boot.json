@@ -7,22 +7,27 @@
       "title": "Buffer Overflow vulnerability in the net/bootp.c in DENEX U-Boot  ...",
       "description": "Buffer Overflow vulnerability in the net/bootp.c in DENEX U-Boot from its initial commit in 2002 (3861aa5) up to today on any platform allows an attacker on the local network to leak memory from four up to 32 bytes of memory stored behind the packet to the network depending on the later use of DHCP-provided parameters via crafted DHCP responses.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "2024.04-r1"
+          "introduced": "2024.04-r1",
+          "fixed": "2026.04-r1"
         },
         {
-          "introduced": "2024.10-r6"
+          "introduced": "2024.10-r6",
+          "fixed": "2026.04-r1"
         },
         {
-          "introduced": "2024.10-r6"
+          "introduced": "2024.10-r6",
+          "fixed": "2026.04-r1"
         },
         {
-          "introduced": "2025.04-r6"
+          "introduced": "2025.04-r6",
+          "fixed": "2026.04-r1"
         },
         {
-          "introduced": "2025.10-r5"
+          "introduced": "2025.10-r5",
+          "fixed": "2026.04-r1"
         }
       ]
     },
@@ -253,23 +258,23 @@
       "events": [
         {
           "introduced": "2024.04-r1",
-          "fixed": "2026.07-r0"
+          "fixed": "2026.04-r1"
         },
         {
           "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
+          "fixed": "2026.04-r1"
         },
         {
           "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
+          "fixed": "2026.04-r1"
         },
         {
           "introduced": "2025.04-r6",
-          "fixed": "2026.07-r0"
+          "fixed": "2026.04-r1"
         },
         {
           "introduced": "2025.10-r5",
-          "fixed": "2026.07-r0"
+          "fixed": "2026.04-r1"
         }
       ]
     }
