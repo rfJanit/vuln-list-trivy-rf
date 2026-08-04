@@ -2827,23 +2827,6 @@
         }
       ]
     },
-    "CVE-2026-16412": {
-      "cve_id": "CVE-2026-16412",
-      "title": "Memory safety bugs present in Firefox ESR 140.12 and Firefox 152. ...",
-      "description": "Memory safety bugs present in Firefox ESR 140.12 and Firefox 152. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
-      "severity": "CRITICAL",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "140.3.0-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-2757": {
       "cve_id": "CVE-2026-2757",
       "title": "Incorrect boundary conditions in the WebRTC: Audio/Video componen ...",

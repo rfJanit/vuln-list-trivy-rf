@@ -73,6 +73,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
           "introduced": "5.3.2-2.fc43",
           "identifier": "fc43"
         }
@@ -85,6 +89,10 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "5.3.2-2.fc43",
           "identifier": "fc43"

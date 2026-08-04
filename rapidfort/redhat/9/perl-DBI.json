@@ -39,7 +39,7 @@
         },
         {
           "introduced": "1.647-4.fc43",
-          "fixed": "1.650-1.fc43",
+          "fixed": "1.651-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -59,8 +59,12 @@
       "title": "DBI versions before 1.650 for Perl have a heap overflow when prep ...",
       "description": "DBI versions before 1.650 for Perl have a heap overflow when preparsing SQL statements with an extreme number of placeholders.\n\nThe fix for CVE-2026-10879 did not allocate enough memory to handle approximately 1.2-million placeholders.\n\nDBI version 1.650 sets a hard limit of 99,999 placeholders.",
       "severity": "CRITICAL",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "1.647-4.fc43",
           "fixed": "1.650-1.fc43",

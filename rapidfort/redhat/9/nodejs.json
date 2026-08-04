@@ -2239,6 +2239,20 @@
         }
       ]
     },
+    "CVE-2026-13149": {
+      "cve_id": "CVE-2026-13149",
+      "title": "brace-expansion through 5.0.6 is vulnerable to denial of service. ...",
+      "description": "brace-expansion through 5.0.6 is vulnerable to denial of service. The expand() function exhibits exponential-time complexity in the number of consecutive non-expanding '{}' brace groups. An attacker who passes a crafted string to expand(), directly or transitively, can cause significant CPU consumption and event-loop blocking. The max option does not mitigate this, as it bounds the output size rather than the recursion work.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:16.20.2-8.el9_4",
+          "fixed": "1:24.18.0-3.module+el9.8.0+24537+83ec84e1",
+          "identifier": "el9"
+        }
+      ]
+    },
     "CVE-2026-1525": {
       "cve_id": "CVE-2026-1525",
       "title": "Undici allows duplicate HTTP Content-Length headers when they are ...",
@@ -3129,8 +3143,8 @@
     },
     "CVE-2026-56846": {
       "cve_id": "CVE-2026-56846",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "HIGH",
       "status": "open",
       "events": [
@@ -3207,8 +3221,8 @@
     },
     "CVE-2026-58042": {
       "cve_id": "CVE-2026-58042",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
@@ -3233,8 +3247,8 @@
     },
     "CVE-2026-58044": {
       "cve_id": "CVE-2026-58044",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "CVE-2026-58044",
+      "description": "NOTE: https://nodejs.org/en/blog/vulnerability/july-2026-security-releases#http-parser-header-truncation-can-enable-request-smuggling-cve-2026-58044---low",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
@@ -3246,8 +3260,8 @@
     },
     "CVE-2026-58045": {
       "cve_id": "CVE-2026-58045",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
