@@ -23,8 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "4:5.42.0-520.fc43",
-          "identifier": "fc43"
+          "introduced": "0",
+          "identifier": "el6"
         }
       ]
     },

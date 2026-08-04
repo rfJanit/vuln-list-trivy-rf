@@ -200,7 +200,7 @@
       "events": [
         {
           "introduced": "1:1.20.0-2.fc43",
-          "fixed": "1:1.22.0-2.fc43",
+          "fixed": "1:1.20.0-5.fc43",
           "identifier": "fc43"
         },
         {
@@ -251,7 +251,7 @@
       "events": [
         {
           "introduced": "1:1.20.0-2.fc43",
-          "fixed": "1:1.22.0-2.fc43",
+          "fixed": "1:1.20.0-5.fc43",
           "identifier": "fc43"
         },
         {
@@ -342,6 +342,19 @@
       "title": "Context was not properly tracked across template branches for JS  ...",
       "description": "Context was not properly tracked across template branches for JS template literals, leading to possibly incorrect escaping of content when branches were used. Additionally template actions within JS template literals did not properly track the brace depth, leading to incorrect escaping being applied. These issues could cause actions within JS template literals to be incorrectly or improperly escaped, leading to XSS vulnerabilities.",
       "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:1.20.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-33814": {
+      "cve_id": "CVE-2026-33814",
+      "title": "When processing HTTP/2 SETTINGS frames, transport will enter an i ...",
+      "description": "When processing HTTP/2 SETTINGS frames, transport will enter an infinite loop of writing CONTINUATION frames if it receives a SETTINGS_MAX_FRAME_SIZE with a value of 0.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
