@@ -16,13 +16,13 @@
           "introduced": "7.1.1.32-r2"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -43,13 +43,13 @@
           "introduced": "7.1.1.32-r2"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -70,13 +70,13 @@
           "introduced": "7.1.1.32-r2"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -97,13 +97,13 @@
           "introduced": "7.1.1.32-r2"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -124,13 +124,13 @@
           "introduced": "7.1.1.32-r2"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -151,13 +151,13 @@
           "introduced": "7.1.1.32-r2"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.8-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -367,7 +367,7 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -439,31 +439,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
-        }
-      ]
-    },
-    "CVE-2025-68469": {
-      "cve_id": "CVE-2025-68469",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to version 7.1.1-14, ImageMagick crashes when processing a crafted TIFF file. Version 7.1.1-14 fixes the issue.",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
         }
       ]
     },
@@ -480,14 +455,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.12-r0"
         }
       ]
@@ -506,14 +473,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
         }
       ]
     },
@@ -530,14 +489,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.12-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.12-r0"
         }
       ]
@@ -609,7 +560,7 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.24-r0"
+          "introduced": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.2.27-r0"
@@ -630,14 +581,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -654,14 +597,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -680,14 +615,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -704,14 +631,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -730,14 +649,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -754,14 +665,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -780,14 +683,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -804,14 +699,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -830,14 +717,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -854,14 +733,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -880,14 +751,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -904,14 +767,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -930,14 +785,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -954,14 +801,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -980,14 +819,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1004,14 +835,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1030,14 +853,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1054,14 +869,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1080,14 +887,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1104,14 +903,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1130,14 +921,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1154,14 +937,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1180,14 +955,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1204,14 +971,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1230,14 +989,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1254,14 +1005,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1280,14 +1023,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1304,14 +1039,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1330,14 +1057,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1354,14 +1073,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1380,14 +1091,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1404,14 +1107,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1430,14 +1125,6 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -1454,14 +1141,6 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
-          "fixed": "7.1.2.15-r0"
-        },
-        {
-          "introduced": "7.1.2.8-r0",
           "fixed": "7.1.2.15-r0"
         }
       ]
@@ -1482,7 +1161,11 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1503,7 +1186,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1524,7 +1211,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1545,7 +1236,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1566,7 +1261,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1587,7 +1286,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1608,7 +1311,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1629,7 +1336,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1650,7 +1361,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1671,7 +1386,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1692,7 +1411,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1713,7 +1436,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1734,7 +1461,11 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1755,7 +1486,11 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1776,7 +1511,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1797,7 +1536,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1818,7 +1561,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1839,7 +1586,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1860,7 +1611,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.17-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.17-r0"
         }
       ]
@@ -1881,8 +1636,12 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.18-r0"
         }
       ]
     },
@@ -1902,8 +1661,12 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.18-r0"
         }
       ]
     },
@@ -1923,7 +1686,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -1944,7 +1711,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -1965,7 +1736,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -1986,7 +1761,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2007,7 +1786,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2028,7 +1811,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2049,7 +1836,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2070,7 +1861,11 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2091,7 +1886,11 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2112,7 +1911,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2133,7 +1936,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2154,7 +1961,11 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.19-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.19-r0"
         }
       ]
@@ -2175,7 +1986,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.21-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.21-r0"
         }
       ]
@@ -2196,7 +2011,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.22-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.22-r0"
         }
       ]
@@ -2217,7 +2036,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.22-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.22-r0"
         }
       ]
@@ -2238,7 +2061,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.22-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.22-r0"
         }
       ]
@@ -2259,7 +2086,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.22-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.22-r0"
         }
       ]
@@ -2280,7 +2111,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.22-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.22-r0"
         }
       ]
@@ -2301,7 +2136,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.22-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.22-r0"
         }
       ]
@@ -2322,7 +2161,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2343,7 +2186,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2364,7 +2211,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2385,7 +2236,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2406,7 +2261,11 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2427,7 +2286,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2448,7 +2311,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2469,7 +2336,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2490,7 +2361,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2511,7 +2386,11 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.8-r0",
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.23-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.23-r0"
         }
       ]
@@ -2530,6 +2409,10 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.0-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.24-r0"
         }
       ]
     },
@@ -2547,6 +2430,10 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.1.43-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.24-r0"
         }
       ]
     },
@@ -2564,6 +2451,10 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.1.43-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.24-r0"
         }
       ]
     },
@@ -2581,6 +2472,10 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.1.43-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.24-r0"
         }
       ]
     },
@@ -2598,6 +2493,10 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.1.43-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.24-r0"
         }
       ]
     },
@@ -2615,6 +2514,10 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.1.43-r0"
+        },
+        {
+          "introduced": "7.1.2.15-r0",
+          "fixed": "7.1.2.24-r0"
         }
       ]
     },
@@ -2634,7 +2537,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.25-r0"
         }
       ]
@@ -2655,7 +2558,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.25-r0"
         }
       ]
@@ -2676,7 +2579,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.25-r0"
         }
       ]
@@ -2697,7 +2600,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.25-r0"
         }
       ]
@@ -2718,7 +2621,7 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.25-r0"
         }
       ]
@@ -2739,7 +2642,7 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.25-r0"
         }
       ]
@@ -2760,7 +2663,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -2781,7 +2684,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -2802,7 +2705,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -2823,7 +2726,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -2844,7 +2747,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -2865,7 +2768,7 @@
           "fixed": "7.1.1.43-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -2886,7 +2789,7 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -2907,7 +2810,7 @@
           "fixed": "7.1.2.0-r0"
         },
         {
-          "introduced": "7.1.2.24-r0",
+          "introduced": "7.1.2.15-r0",
           "fixed": "7.1.2.27-r0"
         }
       ]
@@ -3142,11 +3045,11 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.8-r0"
+          "fixed": "7.1.2.15-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.2.8-r0"
+          "fixed": "7.1.2.15-r0"
         }
       ]
     },
@@ -3367,7 +3270,7 @@
         },
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.43-r0"
+          "fixed": "7.1.2.0-r0"
         }
       ]
     },
@@ -3381,6 +3284,23 @@
         {
           "introduced": "7.1.1.32-r2",
           "fixed": "7.1.2.0-r0"
+        },
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.2.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-62946": {
+      "cve_id": "CVE-2026-62946",
+      "title": "ImageMagick is free and open-source software used for editing and ...",
+      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to both 6.9.13-52 and 7.1.2-27, processing an extremely large JNX file on 32-bit platforms can cause an integer overflow, leading to a heap buffer over-write. This issue has been fixed in versions 6.9.13-52 and 7.1.2-27.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.1.1.32-r2",
+          "fixed": "7.1.1.32-r2"
         },
         {
           "introduced": "7.1.1.32-r2",

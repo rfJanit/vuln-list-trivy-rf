@@ -1112,7 +1112,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1141,7 +1141,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1174,7 +1174,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1203,7 +1203,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1232,7 +1232,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1261,7 +1261,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1290,7 +1290,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1323,7 +1323,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1734,7 +1734,7 @@
       "cve_id": "CVE-2026-55191",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1780,8 +1780,8 @@
     },
     "CVE-2026-55193": {
       "cve_id": "CVE-2026-55193",
-      "title": "Heap-buffer-overflow write in TS Gateway RPC fragment receive due",
-      "description": "Heap-buffer-overflow write in TS Gateway RPC fragment receive due to uncapped bind_ack max_xmit_frag",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "HIGH",
       "status": "fixed",
       "events": [
@@ -1804,9 +1804,9 @@
     },
     "CVE-2026-55194": {
       "cve_id": "CVE-2026-55194",
-      "title": "Heap-buffer-overflow write in TS Gateway RPC RESPONSE reassembly ",
-      "description": "Heap-buffer-overflow write in TS Gateway RPC RESPONSE reassembly due to alloc_hint capacity mismatch",
-      "severity": "HIGH",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -2044,6 +2044,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
           "introduced": "2:3.16.0-4.fc43",
           "identifier": "fc43"
         }
@@ -2060,6 +2064,19 @@
           "introduced": "0",
           "identifier": "el7"
         },
+        {
+          "introduced": "2:3.16.0-4.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-67288": {
+      "cve_id": "CVE-2026-67288",
+      "title": "FreeRDP before 3.29.0 contains a null pointer dereference vulnera ...",
+      "description": "FreeRDP before 3.29.0 contains a null pointer dereference vulnerability in smartcard cache request decoders that accept NULL NDR pointers for LookupName in SCARD_IOCTL_READCACHEA and SCARD_IOCTL_WRITECACHEA operations. When smartcard emulation is enabled, attackers can send crafted smartcard cache requests with NULL lookup-name pointers to trigger strlen() on a null pointer, causing client process termination.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
           "identifier": "fc43"
@@ -2147,6 +2164,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
           "introduced": "2:3.16.0-4.fc43",
           "identifier": "fc43"
         }
@@ -2186,6 +2207,19 @@
       "cve_id": "CVE-2026-67297",
       "title": "FreeRDP before 3.29.0 fails to enforce the RESPONSE_SIZE_LIMIT wh ...",
       "description": "FreeRDP before 3.29.0 fails to enforce the RESPONSE_SIZE_LIMIT when processing Transfer-Encoding: chunked HTTP responses in http_response_recv_body(). Attackers controlling a malicious RD Gateway endpoint can send oversized chunked response bodies to exhaust client memory resources without triggering the configured size limit.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "2:3.16.0-4.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-67298": {
+      "cve_id": "CVE-2026-67298",
+      "title": "FreeRDP versions 3.28.0 and earlier contain a heap buffer overflo ...",
+      "description": "FreeRDP versions 3.28.0 and earlier contain a heap buffer overflow in the server-side RAIL channel handler (rail_server_handle_messages() in channels/rail/server/rail_main.c). When processing a RAIL PDU header, the code subtracts RAIL_PDU_HEADER_LENGTH from the peer-controlled orderLength field without first verifying orderLength is at least the header length. For orderLength values 0..3 this causes an unsigned integer underflow to a very large size, which bypasses the Stream_EnsureRemainingCapacity() capacity check (due to pointer arithmetic wraparound) and is then passed to WTSVirtualChannelRead(), resulting in an out-of-bounds heap write. A malicious or compromised RDP client can exploit this to corrupt the heap and crash the server. Fixed in FreeRDP 3.29.0.",
       "severity": "HIGH",
       "status": "open",
       "events": [
@@ -2253,6 +2287,19 @@
           "introduced": "0",
           "identifier": "el7"
         },
+        {
+          "introduced": "2:3.16.0-4.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-67303": {
+      "cve_id": "CVE-2026-67303",
+      "title": "FreeRDP before 3.29.0 contains a reachable assertion (WINPR_ASSER ...",
+      "description": "FreeRDP before 3.29.0 contains a reachable assertion (WINPR_ASSERT(OutputBufferLength == BytesReturned)) in serial_process_irp_device_control() in channels/serial/client/serial_main.c. When serial device redirection is enabled and a server-controlled IRP_MJ_DEVICE_CONTROL request specifies an unsupported IOCTL with a non-zero OutputBufferLength, CommDeviceIoControl() can fail with BytesReturned = 0, causing the mismatch to trigger the assertion and abort the client process (denial of service).",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
           "identifier": "fc43"

@@ -120,6 +120,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
           "introduced": "5.3.2-2.fc43",
           "identifier": "fc43"
         }

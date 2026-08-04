@@ -25,6 +25,16 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "4:5.42.0-520.fc43",
+          "fixed": "4:5.42.3-524.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4:5.42.3-525.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -41,7 +51,13 @@
         },
         {
           "introduced": "4:5.42.0-520.fc43",
+          "fixed": "4:5.42.3-524.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "4:5.42.3-525.fc44",
+          "identifier": "fc44"
         }
       ]
     }

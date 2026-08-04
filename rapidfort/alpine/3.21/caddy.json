@@ -22,7 +22,7 @@
           "fixed": "2.11.1-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -47,7 +47,7 @@
           "fixed": "2.11.1-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -60,7 +60,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -73,7 +73,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -98,7 +98,7 @@
           "fixed": "2.11.1-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -123,7 +123,7 @@
           "fixed": "2.11.1-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -136,11 +136,11 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -165,7 +165,7 @@
           "fixed": "2.11.2-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
       ]
@@ -190,7 +190,7 @@
           "fixed": "2.11.4-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
       ]
@@ -215,7 +215,7 @@
           "fixed": "2.11.4-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
       ]
@@ -240,7 +240,7 @@
           "fixed": "2.11.4-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
       ]
@@ -265,7 +265,7 @@
           "fixed": "2.11.4-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
       ]
@@ -290,7 +290,7 @@
           "fixed": "2.11.4-r0"
         },
         {
-          "introduced": "2.10.0-r4",
+          "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
       ]

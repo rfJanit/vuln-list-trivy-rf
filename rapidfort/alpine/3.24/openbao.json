@@ -166,7 +166,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.4.4-r0"
         }
       ]
@@ -179,7 +179,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -192,7 +192,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -205,7 +205,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -218,7 +218,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -231,7 +231,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -244,7 +244,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -257,7 +257,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -270,20 +270,20 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
     },
     "CVE-2026-45808": {
       "cve_id": "CVE-2026-45808",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "OpenBao's cross-namespace lease revocation via legacy sys/revoke path bypasses ACL",
+      "description": "# Impact\n\nOpenBao's namespaces provide multi-tenant separation. A tenant who intentionally leaks lease identifiers can have their lease and underlying credential revoked or renewed by a user in another tenant via the legacy, undocumented `sys/revoke` and `sys/renew` endpoints.\n\n# Patch\n\nThis will be addressed in v2.5.4.",
       "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -296,20 +296,20 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
     },
     "CVE-2026-46405": {
       "cve_id": "CVE-2026-46405",
-      "title": "OpenBao's Kerberos Auth Method Accumulates Unaccessible Tokens in github.com/openbao/openbao",
-      "description": "OpenBao's Kerberos Auth Method Accumulates Unaccessible Tokens in github.com/openbao/openbao.\n\nNOTE: The source advisory for this report contains additional versions that could not be automatically mapped to standard Go module versions.\n\n(If this is causing false-positive reports from vulnerability scanners, please suggest an edit to the report.)\n\nThe additional affected modules and versions are: github.com/openbao/openbao before v2.5.4.",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]
@@ -322,7 +322,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.3-r1",
+          "introduced": "2.4.3-r2",
           "fixed": "2.5.4-r0"
         }
       ]

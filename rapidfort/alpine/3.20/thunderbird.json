@@ -1252,10 +1252,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1302,10 +1298,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1326,10 +1318,6 @@
         },
         {
           "introduced": "128.11.0-r0",
-          "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
       ]
@@ -1352,10 +1340,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1377,10 +1361,6 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
-          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1401,10 +1381,6 @@
         },
         {
           "introduced": "128.11.0-r0",
-          "fixed": "144.0-r0"
-        },
-        {
-          "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
       ]
@@ -2004,6 +1980,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.8.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
         }
       ]
     },
@@ -2876,6 +2856,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -2893,6 +2877,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "140.0.1-r0",
@@ -2918,6 +2906,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -2935,6 +2927,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "140.0.1-r0",
@@ -2960,6 +2956,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -2977,6 +2977,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "140.0.1-r0",
@@ -3002,6 +3006,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -3023,6 +3031,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -3040,6 +3052,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "140.0.1-r0",
@@ -3240,6 +3256,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -3261,6 +3281,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -3278,6 +3302,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "140.0.1-r0",
@@ -3349,6 +3377,10 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "140.0.1-r0",
@@ -3811,7 +3843,7 @@
       "title": "Privilege escalation in the Graphics: WebRender component. This v ...",
       "description": "Privilege escalation in the Graphics: WebRender component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -3830,7 +3862,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -3839,7 +3872,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -3858,7 +3891,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -3867,7 +3901,7 @@
       "title": "Use-after-free in the Networking: HTTP component. This vulnerabil ...",
       "description": "Use-after-free in the Networking: HTTP component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -3886,7 +3920,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -3895,7 +3930,7 @@
       "title": "Incorrect boundary conditions in the Web Audio component. This vu ...",
       "description": "Incorrect boundary conditions in the Web Audio component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -3914,7 +3949,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -3923,22 +3959,27 @@
       "title": "Use-after-free in the Graphics: WebGPU component. This vulnerabil ...",
       "description": "Use-after-free in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -3947,7 +3988,7 @@
       "title": "Sandbox escape in the DOM: Workers component. This vulnerability  ...",
       "description": "Sandbox escape in the DOM: Workers component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -3966,7 +4007,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -3975,7 +4017,7 @@
       "title": "Sandbox escape in the DOM: Navigation component. This vulnerabili ...",
       "description": "Sandbox escape in the DOM: Navigation component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -3994,7 +4036,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4003,7 +4046,7 @@
       "title": "Sandbox escape in the Security: Process Sandboxing component. Thi ...",
       "description": "Sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4022,7 +4065,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4031,7 +4075,7 @@
       "title": "Sandbox escape due to incorrect boundary conditions in the Networ ...",
       "description": "Sandbox escape due to incorrect boundary conditions in the Networking component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4050,7 +4094,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4059,7 +4104,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4078,7 +4123,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4087,7 +4133,7 @@
       "title": "JIT miscompilation in the DOM: Core \u0026 HTML component. This vulner ...",
       "description": "JIT miscompilation in the DOM: Core \u0026 HTML component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4106,7 +4152,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4115,22 +4162,27 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4139,22 +4191,27 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4163,7 +4220,7 @@
       "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
       "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4182,7 +4239,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4191,22 +4249,27 @@
       "title": "Information disclosure due to incorrect boundary conditions in th ...",
       "description": "Information disclosure due to incorrect boundary conditions in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4215,7 +4278,7 @@
       "title": "Same-origin policy bypass in the Networking: Cookies component. T ...",
       "description": "Same-origin policy bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4234,7 +4297,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4243,7 +4307,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4262,7 +4326,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4271,7 +4336,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4290,7 +4355,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4299,7 +4365,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4318,7 +4384,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4327,7 +4394,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4346,7 +4413,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4355,7 +4423,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4374,7 +4442,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4383,7 +4452,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4402,7 +4471,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4411,7 +4481,7 @@
       "title": "Information disclosure, sandbox escape in the Security: Process S ...",
       "description": "Information disclosure, sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4430,7 +4500,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4439,7 +4510,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4458,7 +4529,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4467,7 +4539,7 @@
       "title": "Information disclosure, sandbox escape in the Security: Process S ...",
       "description": "Information disclosure, sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4486,7 +4558,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4495,7 +4568,7 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4514,7 +4587,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4523,7 +4597,7 @@
       "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
       "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4542,7 +4616,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4551,22 +4626,27 @@
       "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
       "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4575,22 +4655,27 @@
       "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
       "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4599,22 +4684,27 @@
       "title": "Incorrect boundary conditions in the Libraries component in NSS.  ...",
       "description": "Incorrect boundary conditions in the Libraries component in NSS. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4623,22 +4713,27 @@
       "title": "Denial-of-service in the Audio/Video: Playback component. This vu ...",
       "description": "Denial-of-service in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4647,22 +4742,27 @@
       "title": "Information disclosure in the Password Manager component. This vu ...",
       "description": "Information disclosure in the Password Manager component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4671,22 +4771,27 @@
       "title": "JIT miscompilation in the JavaScript: WebAssembly component. This ...",
       "description": "JIT miscompilation in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4695,22 +4800,27 @@
       "title": "Clickjacking issue in the Widget: Gtk component. This vulnerabili ...",
       "description": "Clickjacking issue in the Widget: Gtk component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4719,22 +4829,27 @@
       "title": "Spoofing issue in the DOM: Core \u0026 HTML component. This vulnerabil ...",
       "description": "Spoofing issue in the DOM: Core \u0026 HTML component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4743,7 +4858,7 @@
       "title": "Incorrect boundary conditions in the Graphics: CanvasWebGL compon ...",
       "description": "Incorrect boundary conditions in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4762,7 +4877,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4771,7 +4887,7 @@
       "title": "Denial-of-service in the Graphics: ImageLib component. This vulne ...",
       "description": "Denial-of-service in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4790,7 +4906,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4799,22 +4916,27 @@
       "title": "Memory safety bugs present in Firefox 151 and Thunderbird 151. So ...",
       "description": "Memory safety bugs present in Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4823,7 +4945,7 @@
       "title": "Memory safety bugs present in Firefox ESR 140.11, Thunderbird ESR ...",
       "description": "Memory safety bugs present in Firefox ESR 140.11, Thunderbird ESR 140.11, Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4842,7 +4964,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4851,7 +4974,7 @@
       "title": "Memory safety bugs present in Firefox ESR 115.36, Firefox ESR 140 ...",
       "description": "Memory safety bugs present in Firefox ESR 115.36, Firefox ESR 140.11, Thunderbird ESR 140.11, Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -4870,7 +4993,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4958,7 +5082,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -4987,7 +5111,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5016,7 +5140,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5045,7 +5169,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5074,7 +5198,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5103,7 +5227,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5132,7 +5256,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5161,7 +5285,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5190,7 +5314,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5219,7 +5343,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5248,7 +5372,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5277,7 +5401,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5331,7 +5455,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5360,7 +5484,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5369,22 +5493,27 @@
       "title": "Incorrect boundary conditions in the Audio/Video: Playback compon ...",
       "description": "Incorrect boundary conditions in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5393,22 +5522,27 @@
       "title": "Privilege escalation in the DOM: Workers component. This vulnerab ...",
       "description": "Privilege escalation in the DOM: Workers component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5417,22 +5551,27 @@
       "title": "Privilege escalation in the DOM: Navigation component. This vulne ...",
       "description": "Privilege escalation in the DOM: Navigation component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5441,22 +5580,27 @@
       "title": "Sandbox escape due to invalid pointer in the Disability Access AP ...",
       "description": "Sandbox escape due to invalid pointer in the Disability Access APIs component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5485,7 +5629,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5514,7 +5658,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5523,22 +5667,27 @@
       "title": "Mitigation bypass in the DOM: Networking component. This vulnerab ...",
       "description": "Mitigation bypass in the DOM: Networking component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5567,7 +5716,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5576,22 +5725,27 @@
       "title": "Privilege escalation in the DOM: Content Processes component. Thi ...",
       "description": "Privilege escalation in the DOM: Content Processes component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5620,7 +5774,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5649,7 +5803,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5658,22 +5812,27 @@
       "title": "Denial-of-service in the Graphics: WebGPU component. This vulnera ...",
       "description": "Denial-of-service in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5702,7 +5861,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5711,22 +5870,27 @@
       "title": "Other issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component. T ...",
       "description": "Other issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5755,7 +5919,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5764,22 +5928,27 @@
       "title": "Mitigation bypass in the Networking component. This vulnerability ...",
       "description": "Mitigation bypass in the Networking component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5808,7 +5977,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5817,22 +5986,27 @@
       "title": "Mitigation bypass in the DOM: Service Workers component. This vul ...",
       "description": "Mitigation bypass in the DOM: Service Workers component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5861,7 +6035,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5870,22 +6044,27 @@
       "title": "Information disclosure due to uninitialized memory in the Graphic ...",
       "description": "Information disclosure due to uninitialized memory in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5894,22 +6073,27 @@
       "title": "Information disclosure due to uninitialized memory in the Graphic ...",
       "description": "Information disclosure due to uninitialized memory in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5918,22 +6102,27 @@
       "title": "Information disclosure due to uninitialized memory in the Graphic ...",
       "description": "Information disclosure due to uninitialized memory in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5962,7 +6151,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5971,22 +6160,27 @@
       "title": "Sandbox escape in the DOM: Networking component. This vulnerabili ...",
       "description": "Sandbox escape in the DOM: Networking component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -5995,22 +6189,27 @@
       "title": "Incorrect boundary conditions, integer overflow in the Libraries  ...",
       "description": "Incorrect boundary conditions, integer overflow in the Libraries component in NSS. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6039,7 +6238,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6068,7 +6267,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6077,22 +6276,27 @@
       "title": "Incorrect boundary conditions in the Graphics: WebGPU component.  ...",
       "description": "Incorrect boundary conditions in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6121,7 +6325,7 @@
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "151.0.1-r1"
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6130,22 +6334,27 @@
       "title": "Site isolation issue in the Graphics component. This vulnerabilit ...",
       "description": "Site isolation issue in the Graphics component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6154,22 +6363,27 @@
       "title": "Site isolation issue in the DOM: Navigation component. This vulne ...",
       "description": "Site isolation issue in the DOM: Navigation component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6178,22 +6392,27 @@
       "title": "Information disclosure in the DOM: Security component. This vulne ...",
       "description": "Information disclosure in the DOM: Security component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6202,22 +6421,27 @@
       "title": "Privilege escalation in the Data Loss Prevention component. This  ...",
       "description": "Privilege escalation in the Data Loss Prevention component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6226,22 +6450,27 @@
       "title": "Integer overflow in the Graphics: ImageLib component. This vulner ...",
       "description": "Integer overflow in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6250,22 +6479,27 @@
       "title": "Spoofing issue in the Address Bar component. This vulnerability w ...",
       "description": "Spoofing issue in the Address Bar component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6274,22 +6508,27 @@
       "title": "Mitigation bypass in the DOM: Service Workers component. This vul ...",
       "description": "Mitigation bypass in the DOM: Service Workers component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6298,22 +6537,27 @@
       "title": "Invalid pointer in the Security: PSM component. This vulnerabilit ...",
       "description": "Invalid pointer in the Security: PSM component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -6322,22 +6566,27 @@
       "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
       "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.4.3-r0"
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "128.11.0-r0"
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "140.0.1-r0"
+          "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -8046,7 +8295,7 @@
       "title": "A malicious LDAP server, which a Thunderbird user is configured t ...",
       "description": "A malicious LDAP server, which a Thunderbird user is configured to query for address-book autocomplete, can stash arbitrarily large amounts of attacker-supplied data into the Thunderbird LDAP client until it crashes due to memory exhaustion. This vulnerability was fixed in Thunderbird 152.0.1 and Thunderbird 140.12.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -8065,7 +8314,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },
@@ -8074,7 +8324,7 @@
       "title": "An attacker who can send HTML chat messages (via Matrix or XMPP)  ...",
       "description": "An attacker who can send HTML chat messages (via Matrix or XMPP) can inject arbitrary styled content, phishing links, and CSS that manipulates the chat UI. This vulnerability was fixed in Thunderbird 152.0.1 and Thunderbird 140.12.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "128.4.3-r0",
@@ -8093,7 +8343,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "151.0.1-r0"
+          "introduced": "151.0.1-r0",
+          "fixed": "153.0.1-r0"
         }
       ]
     },

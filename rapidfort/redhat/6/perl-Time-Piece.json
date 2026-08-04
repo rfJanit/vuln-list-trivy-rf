@@ -12,6 +12,16 @@
         {
           "introduced": "0",
           "identifier": "el6"
+        },
+        {
+          "introduced": "0",
+          "fixed": "5.42.3-524.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "5.42.3-525.fc44",
+          "identifier": "fc44"
         }
       ]
     }
