@@ -856,6 +856,30 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0:2.42-4ubuntu2.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.42-4ubuntu2.5",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.42-4ubuntu2.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.42-4ubuntu2.8",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.45-7ubuntu1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.45-7ubuntu1.2",
+          "identifier": "ubuntu"
+        },
+        {
           "introduced": "0:2.46-3ubuntu2",
           "identifier": "ubuntu"
         }

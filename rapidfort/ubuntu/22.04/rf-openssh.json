@@ -10,12 +10,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:10.0p1-5ubuntu5.4",
+          "introduced": "1:10.0p1-12rfubu+rf.0",
           "fixed": "1:10.0p1-15rfubu5.4+rf.0",
           "identifier": "rf"
         }
@@ -29,12 +24,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:10.0p1-5ubuntu5.4",
+          "introduced": "1:10.0p1-12rfubu+rf.0",
           "fixed": "1:10.0p1-15rfubu5.4+rf.0",
           "identifier": "rf"
         }
@@ -67,6 +57,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "1:10.0p1-12rfubu+rf.0",
+          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:10.0p1-5ubuntu5.4",
           "identifier": "ubuntu"
         }
@@ -77,7 +72,7 @@
       "title": "In OpenSSH before 10.3, command execution can occur via shell met ...",
       "description": "In OpenSSH before 10.3, command execution can occur via shell metacharacters in a username within a command line. This requires a scenario where the username on the command line is untrusted, and also requires a non-default configurations of % in ssh_config.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
@@ -86,8 +81,7 @@
         },
         {
           "introduced": "1:10.0p1-5ubuntu5.4",
-          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
-          "identifier": "rf"
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -100,6 +94,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:10.0p1-12rfubu+rf.0",
           "fixed": "1:10.0p1-15rfubu5.4+rf.0",
           "identifier": "rf"
         },
@@ -122,6 +121,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "1:10.0p1-12rfubu+rf.0",
+          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:10.0p1-5ubuntu5.4",
           "identifier": "ubuntu"
         }
@@ -140,6 +144,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "1:10.0p1-12rfubu+rf.0",
+          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:10.0p1-5ubuntu5.4",
           "identifier": "ubuntu"
         }
@@ -154,6 +163,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "1:10.0p1-15rfubu5.4+rf.0",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:10.0p1-12rfubu+rf.0",
           "fixed": "1:10.0p1-15rfubu5.4+rf.0",
           "identifier": "rf"
         },

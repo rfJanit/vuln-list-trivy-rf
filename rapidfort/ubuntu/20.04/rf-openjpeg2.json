@@ -56,7 +56,7 @@
       "title": "openjpeg v 2.5.0 was discovered to contain a NULL pointer derefer ...",
       "description": "openjpeg v 2.5.0 was discovered to contain a NULL pointer dereference via the component /openjp2/dwt.c.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
@@ -65,8 +65,7 @@
         },
         {
           "introduced": "0:2.5.0-2ubuntu0.3",
-          "fixed": "0:2.5.3-12rfubu",
-          "identifier": "rf"
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -75,7 +74,7 @@
       "title": "OpenJPEG is an open-source JPEG 2000 codec. In OpenJPEG from 2.5. ...",
       "description": "OpenJPEG is an open-source JPEG 2000 codec. In OpenJPEG from 2.5.1 through 2.5.3, a call to opj_jp2_read_header may lead to OOB heap memory write when the data stream p_stream is too short and p_image is not initialized.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
@@ -84,8 +83,7 @@
         },
         {
           "introduced": "0:2.5.3-2ubuntu0.1",
-          "fixed": "0:2.5.4-0rfubu",
-          "identifier": "rf"
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -102,8 +100,17 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0:2.5.3-0rfubu",
+          "fixed": "0:2.5.3-12rfubu",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.5.3-2ubuntu0.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.5.4-0rfubu",
+          "identifier": "rf"
         }
       ]
     }

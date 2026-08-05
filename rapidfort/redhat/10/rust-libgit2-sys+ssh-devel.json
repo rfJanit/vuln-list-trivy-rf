@@ -28,9 +28,9 @@
     },
     "CVE-2026-53584": {
       "cve_id": "CVE-2026-53584",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "LOW",
+      "title": "CVE-2026-53584",
+      "description": "libgit2 Submodule path traversal",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -54,7 +54,7 @@
       "cve_id": "CVE-2026-53585",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -102,7 +102,7 @@
       "cve_id": "CVE-2026-53587",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {

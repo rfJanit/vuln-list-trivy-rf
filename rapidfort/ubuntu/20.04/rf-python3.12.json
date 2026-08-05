@@ -221,7 +221,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -243,6 +268,21 @@
           "introduced": "0:0",
           "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -319,12 +359,44 @@
       "title": "The imaplib module, when passed a user-controlled command, can ha ...",
       "description": "The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -333,12 +405,44 @@
       "title": "The poplib module, when passed a user-controlled command, can hav ...",
       "description": "The poplib module, when passed a user-controlled command, can have\nadditional commands injected using newlines. Mitigation rejects commands\ncontaining control characters.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -606,12 +710,44 @@
       "title": "When using the \"configparser\" module to write configuration files ...",
       "description": "When using the \"configparser\" module to write configuration files\ncontaining multi-line text values with carriage return characters (\\r) the\nresulting file could be injected with unexpected keys and values if the\nattacker controls the written value.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -654,12 +790,44 @@
       "title": "tarfile.extractall() with the 'data' or 'tar'\n filter could be by ...",
       "description": "tarfile.extractall() with the 'data' or 'tar'\n filter could be bypassed by a crafted archive where a hardlink \nreferences a symlink stored at a deeper name than the hardlink itself.  \nThe extraction fallback validated the symlink at it's archived location \nbut recreated it at the hardlink's shallower\npath, letting a relative\n target the filter judged contained escape the destination directory.  \nThis allowed a malicious tar archive to create a symlink pointing \noutside the destination, enabling out-of-destination file reads or \nwrites. This was an incomplete fix of CVE-2025-4330.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -668,12 +836,44 @@
       "title": "When using the \"tarfile\" module with a file opened in \"streaming  ...",
       "description": "When using the \"tarfile\" module with a file opened in \"streaming mode\" (mode=\"r|\") the tarfile module did not properly handle EOF, making archive parsing take exponentially longer.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -693,6 +893,26 @@
           "introduced": "0:0",
           "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -748,7 +968,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -759,12 +1004,44 @@
       "title": "The incremental HTML parser (html.parser.HTMLParser) allows for C ...",
       "description": "The incremental HTML parser (html.parser.HTMLParser) allows for CPU\ndenial-of-service through repeated unterminated markup declarations when\nprocessing uncontrolled data.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -781,7 +1058,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -909,12 +1211,44 @@
       "title": "When calling base64.b64decode() or related functions the decoding ...",
       "description": "When calling base64.b64decode() or related functions the decoding process would stop after encountering the first padded quad regardless of whether there was more information to be processed. This can lead to data being accepted which may be processed differently by other implementations. Use \"validate=True\" to enable stricter processing of base64 data.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -965,7 +1299,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -1000,12 +1359,44 @@
       "title": "In the Tarfile.extract() function, the filter parameter is not pa ...",
       "description": "In the Tarfile.extract() function, the filter parameter is not passed properly when extracting hardlinks. An affected system that extracts content from untrusted tar files could end up writing files with an unexpected uid/gid despite the user passing filter='data' to the extract() function.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.12.13-2rfubu.1",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -1022,7 +1413,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -1041,7 +1457,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -1060,7 +1501,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -1079,7 +1545,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -1180,7 +1671,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -1199,7 +1715,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
@@ -1218,7 +1759,32 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:0",
+          "introduced": "0:3.12.10-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.11-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-1rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.12-2rfubu.1",
+          "fixed": "0:3.12.13-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.12",
+          "fixed": "0:3.12.3-1ubuntu0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.12.3-1ubuntu0.13",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
         }
