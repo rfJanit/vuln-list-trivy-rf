@@ -114,12 +114,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.37.0_p2-r12",
+          "introduced": "0",
           "fixed": "1.37.0_p3-r12"
-        },
-        {
-          "introduced": "1.37.0-r12",
-          "fixed": "1.38.0-r0"
         }
       ]
     },
@@ -131,12 +127,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.37.0_p2-r12",
+          "introduced": "0",
           "fixed": "1.37.0_p3-r12"
-        },
-        {
-          "introduced": "1.37.0-r12",
-          "fixed": "1.38.0-r0"
         }
       ]
     },
@@ -148,12 +140,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.37.0_p2-r12",
+          "introduced": "0",
           "fixed": "1.37.0_p3-r12"
-        },
-        {
-          "introduced": "1.37.0-r12",
-          "fixed": "1.38.0-r0"
         }
       ]
     },

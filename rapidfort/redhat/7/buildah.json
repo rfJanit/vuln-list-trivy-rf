@@ -2,6 +2,60 @@
   "package_name": "buildah",
   "distro_version": "7",
   "advisories": {
+    "CVE-2021-29923": {
+      "cve_id": "CVE-2021-29923",
+      "title": "Go before 1.17 does not properly consider extraneous zero charact ...",
+      "description": "Go before 1.17 does not properly consider extraneous zero characters at the beginning of an IP address octet, which (in some situations) allows attackers to bypass access control that is based on IP addresses, because of unexpected octal interpretation. This affects net.ParseIP and net.ParseCIDR.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
+    "CVE-2021-34558": {
+      "cve_id": "CVE-2021-34558",
+      "title": "The crypto/tls package of Go through 1.16.5 does not properly ass ...",
+      "description": "The crypto/tls package of Go through 1.16.5 does not properly assert that the type of public key in an X.509 certificate matches the expected type when doing a RSA based key exchange, allowing a malicious TLS server to cause a TLS client to panic.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:1.21.4-5.fc33",
+          "identifier": "fc33"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:1.21.4-5.fc34",
+          "identifier": "fc34"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:1.22.0-2.fc35",
+          "identifier": "fc35"
+        }
+      ]
+    },
+    "CVE-2021-36221": {
+      "cve_id": "CVE-2021-36221",
+      "title": "Go before 1.15.15 and 1.16.x before 1.16.7 has a race condition t ...",
+      "description": "Go before 1.15.15 and 1.16.x before 1.16.7 has a race condition that can lead to a net/http/httputil ReverseProxy panic upon an ErrAbortHandler abort.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
     "CVE-2024-45336": {
       "cve_id": "CVE-2024-45336",
       "title": "The HTTP client drops sensitive headers after following a cross-d ...",
@@ -25,6 +79,44 @@
         {
           "introduced": "2:1.41.5-1.fc43",
           "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2024-9407": {
+      "cve_id": "CVE-2024-9407",
+      "title": "A vulnerability exists in the bind-propagation option of the Dock ...",
+      "description": "A vulnerability exists in the bind-propagation option of the Dockerfile RUN --mount instruction. The system does not properly validate the input passed to this option, allowing users to pass arbitrary parameters to the mount instruction. This issue can be exploited to mount sensitive directories from the host into a container during the build process and, in some cases, modify the contents of those mounted files. Even if SELinux is used, this vulnerability can bypass its protection by allowing the source directory to be relabeled to give the container access to host files.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "2:1.37.4-1.fc40",
+          "identifier": "fc40"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:1.37.4-1.fc41",
+          "identifier": "fc41"
+        }
+      ]
+    },
+    "CVE-2024-9676": {
+      "cve_id": "CVE-2024-9676",
+      "title": "A vulnerability was found in Podman, Buildah, and CRI-O. A symlin ...",
+      "description": "A vulnerability was found in Podman, Buildah, and CRI-O. A symlink traversal vulnerability in the containers/storage library can cause Podman, Buildah, and CRI-O to hang and result in a denial of service via OOM kill when running a malicious image using an automatically assigned user namespace (`--userns=auto` in Podman and Buildah). The containers/storage library will read /etc/passwd inside the container, but does not properly validate if that file is a symlink, which can be used to cause the library to read an arbitrary file on the host.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "2:1.37.5-1.fc40",
+          "identifier": "fc40"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:1.37.5-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -165,7 +257,7 @@
       "events": [
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.42.0-4.fc43",
+          "fixed": "2:1.43.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -216,7 +308,7 @@
       "events": [
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.42.0-4.fc43",
+          "fixed": "2:1.43.0-1.fc43",
           "identifier": "fc43"
         },
         {
