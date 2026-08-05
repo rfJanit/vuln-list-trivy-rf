@@ -1841,6 +1841,19 @@
         }
       ]
     },
+    "CVE-2026-14257": {
+      "cve_id": "CVE-2026-14257",
+      "title": "brace-expansion through 5.0.7 is vulnerable to denial of service  ...",
+      "description": "brace-expansion through 5.0.7 is vulnerable to denial of service via memory exhaustion. The expand() function limits the number of results with a max option (default 100,000) but does not bound the length of each result string. By chaining multiple brace groups, an attacker keeps the result count under the limit while making each result progressively longer, so total memory scales with both count and string length until the process hits a fatal, uncatchable out-of-memory error. About 7.5 KB of input ('{a,b}'.repeat(1500)) crashes a default Node.js process. Any application that passes attacker-influenced strings to brace-expansion.expand() - directly or transitively via minimatch / glob brace patterns - can be crashed by a small request. Fixed in 5.0.8 by adding a maxLength option (default 4,000,000) that bounds accumulated output and intermediate arrays.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
+    },
     "CVE-2026-1527": {
       "cve_id": "CVE-2026-1527",
       "title": "ImpactWhen an application passes user-controlled input to the upg ...",
@@ -2726,9 +2739,9 @@
     },
     "CVE-2026-56848": {
       "cve_id": "CVE-2026-56848",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "MEDIUM",
+      "title": "A flaw in Node.js HTTP/2 handling allows `nghttp2_session_mem_sen ...",
+      "description": "A flaw in Node.js HTTP/2 handling allows `nghttp2_session_mem_send()` to be called re-entrantly while `nghttp2_session_mem_recv()` is executing, resulting in a heap-use-after-free.\r\n\r\nThis vulnerability affects Node.js **26.x**, **24.x**, and **22.x**.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
