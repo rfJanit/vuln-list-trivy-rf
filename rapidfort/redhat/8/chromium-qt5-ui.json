@@ -776,7 +776,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "142.0.7444.175-2.fc43",
+          "fixed": "142.0.7444.162-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -22719,7 +22719,7 @@
       "cve_id": "CVE-2026-17735",
       "title": "Insufficient validation of untrusted input in BFCache in Google C ...",
       "description": "Insufficient validation of untrusted input in BFCache in Google Chrome prior to 151.0.7922.72 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Medium)",
-      "severity": "",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
