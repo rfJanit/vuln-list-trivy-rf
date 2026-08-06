@@ -2,6 +2,30 @@
   "package_name": "libXfont2",
   "distro_version": "10",
   "advisories": {
+    "CVE-2026-44950": {
+      "cve_id": "CVE-2026-44950",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2.0.7-3.fc43",
+          "fixed": "2.0.9-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.0.9-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.0.9-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
     "CVE-2026-56001": {
       "cve_id": "CVE-2026-56001",
       "title": "A heap buffer overflow in BitmapScaleBitmaps in libXfont2 before  ...",
@@ -74,6 +98,30 @@
         {
           "introduced": "0",
           "fixed": "2.0.8-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-59679": {
+      "cve_id": "CVE-2026-59679",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2.0.7-3.fc43",
+          "fixed": "2.0.9-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.0.9-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.0.9-1.fc45",
           "identifier": "fc45"
         }
       ]
