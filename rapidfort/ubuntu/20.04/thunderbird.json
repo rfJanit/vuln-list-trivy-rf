@@ -4891,6 +4891,18 @@
         }
       ]
     },
+    "CVE-2026-18809": {
+      "cve_id": "CVE-2026-18809",
+      "title": "Information disclosure in Firefox for Android and Firefox Focus f ...",
+      "description": "Information disclosure in Firefox for Android and Firefox Focus for Android. This vulnerability was fixed in Firefox 153.0.3.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1:91.8.0+build2-0ubuntu1"
+        }
+      ]
+    },
     "CVE-2026-2032": {
       "cve_id": "CVE-2026-2032",
       "title": "Malicious scripts that interrupt new tab page loading could cause ...",

@@ -402,6 +402,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
           "introduced": "3.7.0-1.fc43",
           "identifier": "fc43"
         }

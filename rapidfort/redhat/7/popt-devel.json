@@ -18,6 +18,23 @@
           "identifier": "fc43"
         }
       ]
+    },
+    "CVE-2026-18839": {
+      "cve_id": "CVE-2026-18839",
+      "title": "An integer underflow was found in the popt library when formattin ...",
+      "description": "An integer underflow was found in the popt library when formatting help text for option tables that exceed the terminal width. A local user who can cause an application to print help under those conditions may cause that application to crash or fail to display help, resulting in a denial of service of the affected application.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
+          "introduced": "1.19-9.fc43",
+          "identifier": "fc43"
+        }
+      ]
     }
   }
 }
