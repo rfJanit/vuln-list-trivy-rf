@@ -2723,6 +2723,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
         }

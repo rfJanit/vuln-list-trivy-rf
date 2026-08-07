@@ -556,19 +556,6 @@
         }
       ]
     },
-    "CVE-2026-27136": {
-      "cve_id": "CVE-2026-27136",
-      "title": "Parsing arbitrary HTML which is then rendered using Render can re ...",
-      "description": "Parsing arbitrary HTML which is then rendered using Render can result in an unexpected HTML tree. This can be leveraged to execute XSS attacks in applications that attempt to sanitize input HTML before rendering.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "10.2.6-19.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-27141": {
       "cve_id": "CVE-2026-27141",
       "title": "Due to missing nil check, sending 0x0a-0x0f HTTP/2 frames will ca ...",
@@ -1114,7 +1101,7 @@
       "cve_id": "CVE-2026-45623",
       "title": "PostCSS takes a CSS file and provides an API to analyze and modif ...",
       "description": "PostCSS takes a CSS file and provides an API to analyze and modify its rules by transforming the rules into an Abstract Syntax Tree. In versions 8.5.11 and prior, the PreviousMap parses the /*# sourceMappingURL=PATH */ comment from any CSS string passed to process() and dereferences PATH against the local filesystem with no scheme, allowlist, or traversal check. An attacker who controls the CSS input can cause the host process to read any file readable by Node and leak the first ~10 bytes of its content through the resulting JSON.parse SyntaxError message. The bug also yields a precise file-existence oracle and a controllable-read primitive that may be combined with large-file targets for DoS. The behaviour is triggered with PostCSS's default options — no from, no map, no plugins required — and is therefore reachable from any pipeline that runs untrusted CSS through PostCSS (CMS themes, user-uploaded styles, browser-extension/userstyle processors, build pipelines for third-party packages, blog comment renderers, etc.). This issue has been fixed in version 8.5.12.",
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "status": "open",
       "events": [
         {

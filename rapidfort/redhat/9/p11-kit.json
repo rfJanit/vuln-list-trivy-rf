@@ -30,6 +30,25 @@
         }
       ]
     },
+    "CVE-2026-18938": {
+      "cve_id": "CVE-2026-18938",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0.25.8-1.fc43",
+          "fixed": "0:0.26.5-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:0.26.5-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
     "CVE-2026-2100": {
       "cve_id": "CVE-2026-2100",
       "title": "A flaw was found in p11-kit. A remote attacker could exploit this ...",

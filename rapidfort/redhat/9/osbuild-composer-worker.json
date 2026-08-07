@@ -427,23 +427,6 @@
         }
       ]
     },
-    "CVE-2026-4427": {
-      "cve_id": "CVE-2026-4427",
-      "title": "Rejected reason: Duplicate of CVE-2026-32286",
-      "description": "Rejected reason: Duplicate of CVE-2026-32286",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
-          "introduced": "151-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-55677": {
       "cve_id": "CVE-2026-55677",
       "title": "Echo is a Go web framework. Prior to 4.15.3 and 5.2.0, Echo's rou ...",

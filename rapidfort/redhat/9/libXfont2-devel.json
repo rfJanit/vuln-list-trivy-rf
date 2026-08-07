@@ -6,9 +6,13 @@
       "cve_id": "CVE-2026-44950",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "MEDIUM",
-      "status": "fixed",
+      "severity": "HIGH",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "2.0.7-3.fc43",
           "fixed": "2.0.9-1.fc43",
@@ -106,9 +110,13 @@
       "cve_id": "CVE-2026-59679",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "MEDIUM",
-      "status": "fixed",
+      "severity": "HIGH",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "2.0.7-3.fc43",
           "fixed": "2.0.9-1.fc43",
