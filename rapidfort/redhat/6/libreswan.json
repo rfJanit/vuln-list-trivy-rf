@@ -7,10 +7,11 @@
       "title": "An invalidly formatted IKEv2 fragment causes the Libreswan pluto  ...",
       "description": "An invalidly formatted IKEv2 fragment causes the Libreswan pluto daemon to crash and restart. Continued exploitation would cause a denial of service. The function reassemble_v2_incoming_fragments() would ignore unknown outer payloads but still store these in a fixed size array msg_digest.digest[PAYLIMIT]. An off-by-one error in the assertion PASSERT(logger, md-\u003edigest_roof \u003c elemsof(md-\u003edigest)) causes the daemon to abort. No remote code execution is possible. Any configuration that allows IKEv2 connections that do not set fragmentation=no are vulnerable. IKEv1 is not affected.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "5.3-3.fc43",
+          "fixed": "5.3.2-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -61,6 +62,7 @@
         },
         {
           "introduced": "5.3-3.fc43",
+          "fixed": "5.3.2-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -83,6 +85,7 @@
         },
         {
           "introduced": "5.3-3.fc43",
+          "fixed": "5.3.2-2.fc43",
           "identifier": "fc43"
         },
         {

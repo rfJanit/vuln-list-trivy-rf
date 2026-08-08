@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35,7 +35,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -54,7 +54,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -68,7 +68,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -82,7 +82,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -96,7 +96,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -110,7 +110,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -124,7 +124,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -138,7 +138,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -152,7 +152,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -166,7 +166,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -180,7 +180,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -194,7 +194,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -208,7 +208,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -222,7 +222,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -236,7 +236,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -250,7 +250,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -264,7 +264,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -278,7 +278,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -292,7 +292,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -306,7 +306,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -320,7 +320,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -334,7 +334,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -348,7 +348,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -362,7 +362,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -376,7 +376,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -390,7 +390,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -404,7 +404,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -418,7 +418,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -432,7 +432,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -446,7 +446,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -460,7 +460,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -474,7 +474,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -484,10 +484,11 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.073 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0736, the PHP omni-completion script in runtime/autoload/phpcomplete.vim interpolates a class or trait name, taken from the contents of the edited buffer, into a search() pattern that is run via win_execute() without escaping. A name containing a single quote can terminate the search() string argument early, and because the bar is honored as an Ex command separator, the remainder of the name is run as Ex commands; via the :! command this allows arbitrary operating-system command execution when a victim opens a crafted PHP file and invokes omni-completion. This issue is fixed in version 9.2.0736.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -501,7 +502,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.725-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -511,10 +512,11 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.073 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0735, the C omni-completion script in runtime/autoload/ccomplete.vim interpolates the typeref: or typename: extension field of a tags entry, without escaping, into a :vimgrep pattern that is run through :execute. Because :vimgrep honors the bar as a command separator, a crafted tag field can close the search pattern and append an arbitrary Ex command; opening a hostile .c file whose project tags file contains such an entry and invoking C omni-completion runs that command as the editing user. This issue is fixed in version 9.2.0735.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
         }
       ]

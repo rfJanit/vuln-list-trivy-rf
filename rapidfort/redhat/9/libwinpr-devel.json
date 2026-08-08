@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1032,7 +1032,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1055,7 +1055,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1074,7 +1074,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1093,7 +1093,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1629,7 +1629,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1671,7 +1671,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1685,7 +1685,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1699,7 +1699,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1713,16 +1713,16 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
     },
     "CVE-2026-55191": {
       "cve_id": "CVE-2026-55191",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "MEDIUM",
+      "title": "Heap-buffer-overflow write in AVC444 YUV buffer allocation",
+      "description": "Heap-buffer-overflow write in AVC444 YUV buffer allocation",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
@@ -1744,8 +1744,8 @@
     },
     "CVE-2026-55192": {
       "cve_id": "CVE-2026-55192",
-      "title": "Amazon Linux 2023 - ALAS2023-2026-2012: Important priority package update for freerdp",
-      "description": "planar_decompress_plane_rle_only: heap OOB read -- incomplete fix for CVE-2026-23530 The fix for CVE-2026-23530 (GHSA-r4hv-852m-fq7p) correctly adds dimension guards at the entry point of freerdp_bitmap_decompress_planar but is incomplete in scope. planar_decompress_plane_rle_only dereferences *srcp before validating that srcp is within SrcSize. A malicious server can reach this path via a truncated RLE planar payload in RDPGFX_CMDID_WIRETOSURFACE_1.",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1768,9 +1768,9 @@
     },
     "CVE-2026-55193": {
       "cve_id": "CVE-2026-55193",
-      "title": "Amazon Linux 2 2017.12 - ALAS2-2026-3840: important priority package update for freerdp",
-      "description": "planar_decompress_plane_rle_only: heap OOB read -- incomplete fix for CVE-2026-23530 The fix for CVE-2026-23530 (GHSA-r4hv-852m-fq7p) correctly adds dimension guards at the entry point of freerdp_bitmap_decompress_planar but is incomplete in scope. planar_decompress_plane_rle_only dereferences *srcp before validating that srcp is within SrcSize. A malicious server can reach this path via a truncated RLE planar payload in RDPGFX_CMDID_WIRETOSURFACE_1.",
-      "severity": "MEDIUM",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
@@ -1792,8 +1792,8 @@
     },
     "CVE-2026-55194": {
       "cve_id": "CVE-2026-55194",
-      "title": "Heap-buffer-overflow write in TS Gateway RPC RESPONSE reassembly ",
-      "description": "Heap-buffer-overflow write in TS Gateway RPC RESPONSE reassembly due to alloc_hint capacity mismatch",
+      "title": "Amazon Linux 2023 - ALAS2023-2026-2012: Important priority package update for freerdp",
+      "description": "planar_decompress_plane_rle_only: heap OOB read -- incomplete fix for CVE-2026-23530 The fix for CVE-2026-23530 (GHSA-r4hv-852m-fq7p) correctly adds dimension guards at the entry point of freerdp_bitmap_decompress_planar but is incomplete in scope. planar_decompress_plane_rle_only dereferences *srcp before validating that srcp is within SrcSize. A malicious server can reach this path via a truncated RLE planar payload in RDPGFX_CMDID_WIRETOSURFACE_1.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1816,8 +1816,8 @@
     },
     "CVE-2026-55648": {
       "cve_id": "CVE-2026-55648",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "Amazon Linux 2 2017.12 - ALAS2-2026-3840: important priority package update for freerdp",
+      "description": "planar_decompress_plane_rle_only: heap OOB read -- incomplete fix for CVE-2026-23530 The fix for CVE-2026-23530 (GHSA-r4hv-852m-fq7p) correctly adds dimension guards at the entry point of freerdp_bitmap_decompress_planar but is incomplete in scope. planar_decompress_plane_rle_only dereferences *srcp before validating that srcp is within SrcSize. A malicious server can reach this path via a truncated RLE planar payload in RDPGFX_CMDID_WIRETOSURFACE_1.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1879,7 +1879,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.27.1-1.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1986,6 +1986,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2003,6 +2004,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2020,6 +2022,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2037,6 +2040,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2054,6 +2058,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2063,10 +2068,11 @@
       "title": "FreeRDP before 3.29.0 contains a null pointer dereference vulnera ...",
       "description": "FreeRDP before 3.29.0 contains a null pointer dereference vulnerability in smartcard cache request decoders that accept NULL NDR pointers for LookupName in SCARD_IOCTL_READCACHEA and SCARD_IOCTL_WRITECACHEA operations. When smartcard emulation is enabled, attackers can send crafted smartcard cache requests with NULL lookup-name pointers to trigger strlen() on a null pointer, causing client process termination.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2076,10 +2082,11 @@
       "title": "FreeRDP before 3.29.0 (affected versions \u003c= 3.28.0) does not vali ...",
       "description": "FreeRDP before 3.29.0 (affected versions \u003c= 3.28.0) does not validate CRLF and control characters in the server-controlled RDP redirection TargetNetAddress field. This value is copied into the client's ServerHostname and, when the client connects through an HTTP proxy, is written directly into the proxy CONNECT request line and Host header by http_proxy_connect() without filtering. A malicious or compromised RDP server can send a crafted redirection PDU containing embedded control characters to inject arbitrary headers/requests into the HTTP proxy CONNECT request.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2089,10 +2096,11 @@
       "title": "FreeRDP before 3.29.0 contains a heap out-of-bounds read vulnerab ...",
       "description": "FreeRDP before 3.29.0 contains a heap out-of-bounds read vulnerability in the TSMF FFmpeg decoder when parsing AVC1 MPEG2VIDEOINFO media types with insufficient ExtraData. Attackers can send malformed media format data from a server to trigger a crash by reading fixed offsets without validating source buffer length.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2110,6 +2118,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2127,6 +2136,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2144,6 +2154,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2161,6 +2172,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2178,6 +2190,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2195,6 +2208,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2204,10 +2218,11 @@
       "title": "FreeRDP before 3.29.0 fails to enforce the RESPONSE_SIZE_LIMIT wh ...",
       "description": "FreeRDP before 3.29.0 fails to enforce the RESPONSE_SIZE_LIMIT when processing Transfer-Encoding: chunked HTTP responses in http_response_recv_body(). Attackers controlling a malicious RD Gateway endpoint can send oversized chunked response bodies to exhaust client memory resources without triggering the configured size limit.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2217,14 +2232,11 @@
       "title": "FreeRDP versions 3.28.0 and earlier contain a heap buffer overflo ...",
       "description": "FreeRDP versions 3.28.0 and earlier contain a heap buffer overflow in the server-side RAIL channel handler (rail_server_handle_messages() in channels/rail/server/rail_main.c). When processing a RAIL PDU header, the code subtracts RAIL_PDU_HEADER_LENGTH from the peer-controlled orderLength field without first verifying orderLength is at least the header length. For orderLength values 0..3 this causes an unsigned integer underflow to a very large size, which bypasses the Stream_EnsureRemainingCapacity() capacity check (due to pointer arithmetic wraparound) and is then passed to WTSVirtualChannelRead(), resulting in an out-of-bounds heap write. A malicious or compromised RDP client can exploit this to corrupt the heap and crash the server. Fixed in FreeRDP 3.29.0.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2242,6 +2254,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2259,6 +2272,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2276,6 +2290,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2293,6 +2308,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2310,6 +2326,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2319,10 +2336,11 @@
       "title": "FreeRDP before 3.29.0 contains a null pointer dereference vulnera ...",
       "description": "FreeRDP before 3.29.0 contains a null pointer dereference vulnerability in smartcard device control request cleanup when reader-state decoding fails. Attackers can send malformed smartcard IRP requests with non-zero cReaders and truncated reader-state data to crash the process via null pointer access in free_reader_states functions.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2332,10 +2350,11 @@
       "title": "FreeRDP Windows client before 3.29.0 contains a heap buffer overf ...",
       "description": "FreeRDP Windows client before 3.29.0 contains a heap buffer overflow vulnerability in the clipboard virtual channel when processing CLIPRDR_FILE_CONTENTS_RESPONSE PDUs without validating the server-provided size against the destination buffer. A malicious RDP server can send a response with a data payload significantly larger than requested, causing arbitrary heap memory corruption that may enable remote code execution when a user performs a paste operation.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2353,6 +2372,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2362,10 +2382,11 @@
       "title": "FreeRDP before 3.30.0 (\u003c= 3.29.0) contains a heap-based buffer ov ...",
       "description": "FreeRDP before 3.30.0 (\u003c= 3.29.0) contains a heap-based buffer overflow in the Windows clipboard client's CliprdrStream_Read function (client/Windows/wf_cliprdr.c). When an OLE paste consumer (e.g. explorer.exe) calls IStream::Read with a fixed-size buffer of cb bytes, CliprdrStream_Read requests file contents from the RDP server and then copies the response into the caller's buffer using the server-supplied length (req_fsize) instead of cb. A malicious or compromised RDP server can return an oversized CB_FILECONTENTS_RESPONSE, causing an out-of-bounds write of attacker-controlled data into the paste consumer's heap buffer when a user pastes server-offered clipboard file contents.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -2383,6 +2404,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
         }
       ]

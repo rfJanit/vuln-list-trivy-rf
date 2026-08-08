@@ -60,7 +60,7 @@
       "events": [
         {
           "introduced": "3.11.13-2.fc43",
-          "fixed": "3.11.14-3.fc43",
+          "fixed": "3.11.14-4.fc43",
           "identifier": "fc43"
         },
         {
@@ -142,7 +142,7 @@
         },
         {
           "introduced": "3.11.13-2.fc43",
-          "fixed": "3.11.15-4.fc43",
+          "fixed": "3.11.15-5.fc43",
           "identifier": "fc43"
         }
       ]

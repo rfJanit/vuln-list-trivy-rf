@@ -50,7 +50,7 @@
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
-          "fixed": "152.0-1.fc43",
+          "fixed": "153.0-3.fc43",
           "identifier": "fc43"
         }
       ]

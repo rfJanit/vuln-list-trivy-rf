@@ -120,7 +120,7 @@
       "events": [
         {
           "introduced": "3.10.18-2.fc43",
-          "fixed": "3.10.20-1.fc43",
+          "fixed": "3.10.20-2.fc43",
           "identifier": "fc43"
         }
       ]

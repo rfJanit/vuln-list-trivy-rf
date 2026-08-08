@@ -201,7 +201,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -225,7 +225,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -249,7 +249,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -273,7 +273,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -297,7 +297,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -320,7 +320,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -344,7 +344,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -368,7 +368,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -392,7 +392,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -416,7 +416,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -440,7 +440,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -464,7 +464,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -488,7 +488,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -512,7 +512,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -536,26 +536,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
-          "fixed": "10.0.110-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
-          "identifier": "fc44"
-        }
-      ]
-    },
-    "CVE-2026-56158": {
-      "cve_id": "CVE-2026-56158",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "10.0.109-1.fc43",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },
@@ -593,7 +574,7 @@
           "identifier": "el10"
         },
         {
-          "introduced": "10.0.109-1.fc43",
+          "introduced": "0",
           "fixed": "10.0.110-1.fc43",
           "identifier": "fc43"
         },

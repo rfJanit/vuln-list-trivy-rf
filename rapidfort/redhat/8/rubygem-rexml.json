@@ -29,7 +29,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.7-28.fc43",
           "identifier": "fc43"
         },
@@ -58,7 +58,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.7-28.fc43",
           "identifier": "fc43"
         },
@@ -86,7 +86,7 @@
           "identifier": "el8"
         },
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         }
@@ -100,7 +100,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -124,7 +124,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -148,7 +148,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -172,7 +172,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -191,7 +191,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -210,7 +210,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -234,7 +234,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -258,7 +258,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },
@@ -277,7 +277,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.4.4-29.fc43",
+          "introduced": "3.4.4-31.fc43",
           "fixed": "3.4.10-31.fc43",
           "identifier": "fc43"
         },

@@ -145,7 +145,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -164,7 +164,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -183,7 +183,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -197,7 +197,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -211,7 +211,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -225,7 +225,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -284,7 +284,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -328,7 +328,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -377,7 +377,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -421,7 +421,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -468,89 +468,6 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
-        }
-      ]
-    },
-    "CVE-2025-9230": {
-      "cve_id": "CVE-2025-9230",
-      "title": "Issue summary: An application trying to decrypt CMS messages encr ...",
-      "description": "Issue summary: An application trying to decrypt CMS messages encrypted using\npassword based encryption can trigger an out-of-bounds read and write.\n\nImpact summary: This out-of-bounds read may trigger a crash which leads to\nDenial of Service for an application. The out-of-bounds write can cause\na memory corruption which can have various consequences including\na Denial of Service or Execution of attacker-supplied code.\n\nAlthough the consequences of a successful exploit of this vulnerability\ncould be severe, the probability that the attacker would be able to\nperform it is low. Besides, password based (PWRI) encryption support in CMS\nmessages is very rarely used. For that reason the issue was assessed as\nModerate severity according to our Security Policy.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as the CMS implementation is outside the OpenSSL FIPS module\nboundary.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:3.5.5-2.fc45",
-          "identifier": "fc45"
-        }
-      ]
-    },
-    "CVE-2025-9231": {
-      "cve_id": "CVE-2025-9231",
-      "title": "Issue summary: A timing side-channel which could potentially allo ...",
-      "description": "Issue summary: A timing side-channel which could potentially allow remote\nrecovery of the private key exists in the SM2 algorithm implementation on 64 bit\nARM platforms.\n\nImpact summary: A timing side-channel in SM2 signature computations on 64 bit\nARM platforms could allow recovering the private key by an attacker..\n\nWhile remote key recovery over a network was not attempted by the reporter,\ntiming measurements revealed a timing signal which may allow such an attack.\n\nOpenSSL does not directly support certificates with SM2 keys in TLS, and so\nthis CVE is not relevant in most TLS contexts.  However, given that it is\npossible to add support for such certificates via a custom provider, coupled\nwith the fact that in such a custom provider context the private key may be\nrecoverable via remote timing measurements, we consider this to be a Moderate\nseverity issue.\n\nThe FIPS modules in 3.5, 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this\nissue, as SM2 is not an approved algorithm.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:3.5.5-2.fc45",
-          "identifier": "fc45"
         }
       ]
     },
@@ -564,11 +481,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
-          "identifier": "fc43"
         },
         {
           "introduced": "0",
@@ -586,7 +498,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -630,7 +542,7 @@
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -693,7 +605,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -711,7 +623,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -759,7 +671,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -822,7 +734,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -886,7 +798,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -949,7 +861,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -968,7 +880,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -992,7 +904,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1056,7 +968,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1075,7 +987,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1094,7 +1006,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1113,7 +1025,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1149,7 +1061,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1213,7 +1125,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1232,7 +1144,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1251,7 +1163,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1270,7 +1182,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1302,7 +1214,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1321,7 +1233,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -1340,7 +1252,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1404,7 +1316,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1468,7 +1380,7 @@
         },
         {
           "introduced": "1:3.5.1-2.fc43",
-          "fixed": "1:3.5.7-1.fc43",
+          "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
         },
         {

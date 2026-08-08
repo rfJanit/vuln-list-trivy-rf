@@ -68,7 +68,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -325,7 +325,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -358,7 +358,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -391,7 +391,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -486,7 +486,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -524,7 +524,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -538,7 +538,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -552,7 +552,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -566,7 +566,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -580,7 +580,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -944,7 +944,7 @@
       "events": [
         {
           "introduced": "2.50.0-2.fc43",
-          "fixed": "2.52.4-1.fc43",
+          "fixed": "2.52.5-1.fc43",
           "identifier": "fc43"
         }
       ]
