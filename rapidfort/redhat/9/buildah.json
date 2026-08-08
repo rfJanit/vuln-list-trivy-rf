@@ -566,7 +566,7 @@
         },
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.43.0-1.fc43",
+          "fixed": "2:1.42.0-4.fc43",
           "identifier": "fc43"
         },
         {
@@ -629,7 +629,7 @@
         },
         {
           "introduced": "2:1.41.5-1.fc43",
-          "fixed": "2:1.43.0-1.fc43",
+          "fixed": "2:1.42.0-4.fc43",
           "identifier": "fc43"
         },
         {
@@ -833,6 +833,19 @@
         {
           "introduced": "2:1.41.5-1.fc43",
           "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-33817": {
+      "cve_id": "CVE-2026-33817",
+      "title": "Rejected reason: CVE confirmed to be a false positive",
+      "description": "Rejected reason: CVE confirmed to be a false positive",
+      "severity": "",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
         }
       ]
     },

@@ -30,6 +30,25 @@
           "identifier": "fc45"
         }
       ]
+    },
+    "CVE-2026-48829": {
+      "cve_id": "CVE-2026-48829",
+      "title": "In GNU SASL before 2.2.3, DIGEST-MD5 has a NULL pointer dereferen ...",
+      "description": "In GNU SASL before 2.2.3, DIGEST-MD5 has a NULL pointer dereference affecting both clients and servers, via a known token with no accompanying = character. This occurs in lib/digest-md5/getsubopt.c.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.10.0-13.fc43",
+          "fixed": "1.10.0-17.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.10.0-17.fc44",
+          "identifier": "fc44"
+        }
+      ]
     }
   }
 }

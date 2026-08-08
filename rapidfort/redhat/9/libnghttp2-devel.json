@@ -35,6 +35,16 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.66.0-2.fc43",
+          "fixed": "1.66.0-3.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.68.0-5.fc44",
+          "identifier": "fc44"
         }
       ]
     }

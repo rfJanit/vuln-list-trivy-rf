@@ -4,8 +4,8 @@
   "advisories": {
     "CVE-2026-44950": {
       "cve_id": "CVE-2026-44950",
-      "title": "[Font Server Client Cumulative Glyph Data Heap Buffer Overflow]",
-      "description": "[Font Server Client Cumulative Glyph Data Heap Buffer Overflow]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "HIGH",
       "status": "open",
       "events": [
