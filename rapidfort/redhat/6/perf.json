@@ -17291,6 +17291,23 @@
         }
       ]
     },
+    "CVE-2026-23468": {
+      "cve_id": "CVE-2026-23468",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amdgpu: Limit BO list entry count to prevent resource exhaustion\n\nUserspace can pass an arbitrary number of BO list entries via the\nbo_number field. Although the previous multiplication overflow check\nprevents out-of-bounds allocation, a large number of entries could still\ncause excessive memory allocation (up to potentially gigabytes) and\nunnecessarily long list processing times.\n\nIntroduce a hard limit of 128k entries per BO list, which is more than\nsufficient for any realistic use case (e.g., a single list containing all\nbuffers in a large scene). This prevents memory exhaustion attacks and\nensures predictable performance.\n\nReturn -EINVAL if the requested entry count exceeds the limit\n\n(cherry picked from commit 688b87d39e0aa8135105b40dc167d74b5ada5332)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el6"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-23471": {
       "cve_id": "CVE-2026-23471",
       "title": "Rejected reason: This CVE ID has been rejected or withdrawn by it ...",
@@ -25594,23 +25611,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "6.17.1-300.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-46237": {
-      "cve_id": "CVE-2026-46237",
-      "title": "Rejected reason: This CVE ID has been rejected or withdrawn by it ...",
-      "description": "Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
         {
           "introduced": "6.17.1-300.fc43",
           "identifier": "fc43"
