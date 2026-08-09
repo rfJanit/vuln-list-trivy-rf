@@ -49,7 +49,7 @@
       "events": [
         {
           "introduced": "5.2.0-3.fc43",
-          "fixed": "5.2.8-1.fc43",
+          "fixed": "5.2.11-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -98,6 +98,25 @@
         {
           "introduced": "0",
           "fixed": "5.4.3-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-52684": {
+      "cve_id": "CVE-2026-52684",
+      "title": "If the auth responds very slowly and the records expire in betwee ...",
+      "description": "If the auth responds very slowly and the records expire in between, the capping of TTLs is not enforced for lack of data. This does not happen on regular resolve as then then the \nchild records are used immediately if not expired and thus valid, or the\n records are expired, and in that case not used.  So this case \ncan only happen if almost expired records are used to refresh the \nauthoritative NS records.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "5.2.0-3.fc43",
+          "fixed": "5.2.13-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "5.4.5-2.fc44",
           "identifier": "fc44"
         }
       ]

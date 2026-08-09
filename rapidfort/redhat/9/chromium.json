@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "141.0.7390.107-1.fc43",
+          "fixed": "141.0.7390.65-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40,7 +40,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "141.0.7390.107-1.fc43",
+          "fixed": "141.0.7390.65-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -776,7 +776,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "142.0.7444.162-1.fc43",
+          "fixed": "142.0.7444.175-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -29784,6 +29784,990 @@
         }
       ]
     },
+    "CVE-2026-19137": {
+      "cve_id": "CVE-2026-19137",
+      "title": "Use after free in WebGL in Google Chrome on Android prior to 151. ...",
+      "description": "Use after free in WebGL in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19138": {
+      "cve_id": "CVE-2026-19138",
+      "title": "Heap buffer overflow in CrashReporting in Google Chrome prior to  ...",
+      "description": "Heap buffer overflow in CrashReporting in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19139": {
+      "cve_id": "CVE-2026-19139",
+      "title": "Race in CredentialProvider in Google Chrome on Windows prior to 1 ...",
+      "description": "Race in CredentialProvider in Google Chrome on Windows prior to 151.0.7922.109 allowed a local attacker to perform OS-level privilege escalation via a malicious file. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19140": {
+      "cve_id": "CVE-2026-19140",
+      "title": "Use after free in GPU in Google Chrome prior to 151.0.7922.109 al ...",
+      "description": "Use after free in GPU in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19141": {
+      "cve_id": "CVE-2026-19141",
+      "title": "Use after free in Resources in Google Chrome on Android prior to  ...",
+      "description": "Use after free in Resources in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19142": {
+      "cve_id": "CVE-2026-19142",
+      "title": "Use after free in Views in Google Chrome prior to 151.0.7922.109  ...",
+      "description": "Use after free in Views in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19143": {
+      "cve_id": "CVE-2026-19143",
+      "title": "Insufficient validation of untrusted input in WebAPKs in Google C ...",
+      "description": "Insufficient validation of untrusted input in WebAPKs in Google Chrome on Android prior to 151.0.7922.109 allowed a local attacker to potentially perform a sandbox escape via a malicious file. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19144": {
+      "cve_id": "CVE-2026-19144",
+      "title": "Use after free in HTML in Google Chrome prior to 151.0.7922.109 a ...",
+      "description": "Use after free in HTML in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19145": {
+      "cve_id": "CVE-2026-19145",
+      "title": "Use after free in Translate in Google Chrome prior to 151.0.7922. ...",
+      "description": "Use after free in Translate in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19146": {
+      "cve_id": "CVE-2026-19146",
+      "title": "Uninitialized Use in GPU in Google Chrome on Android prior to 151 ...",
+      "description": "Uninitialized Use in GPU in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19147": {
+      "cve_id": "CVE-2026-19147",
+      "title": "Use after free in Aura in Google Chrome on Linux prior to 151.0.7 ...",
+      "description": "Use after free in Aura in Google Chrome on Linux prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19148": {
+      "cve_id": "CVE-2026-19148",
+      "title": "Out of bounds write in GPU in Google Chrome on Linux prior to 151 ...",
+      "description": "Out of bounds write in GPU in Google Chrome on Linux prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19149": {
+      "cve_id": "CVE-2026-19149",
+      "title": "Use after free in Aura in Google Chrome on Linux prior to 151.0.7 ...",
+      "description": "Use after free in Aura in Google Chrome on Linux prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19150": {
+      "cve_id": "CVE-2026-19150",
+      "title": "Inappropriate implementation in V8 in Google Chrome prior to 151. ...",
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19151": {
+      "cve_id": "CVE-2026-19151",
+      "title": "Use after free in V8 in Google Chrome prior to 151.0.7922.109 all ...",
+      "description": "Use after free in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19152": {
+      "cve_id": "CVE-2026-19152",
+      "title": "Insufficient policy enforcement in Navigation in Google Chrome pr ...",
+      "description": "Insufficient policy enforcement in Navigation in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19153": {
+      "cve_id": "CVE-2026-19153",
+      "title": "Insufficient validation of untrusted input in Workers in Google C ...",
+      "description": "Insufficient validation of untrusted input in Workers in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to bypass site isolation via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19154": {
+      "cve_id": "CVE-2026-19154",
+      "title": "Use after free in Skia in Google Chrome on Android prior to 151.0 ...",
+      "description": "Use after free in Skia in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19155": {
+      "cve_id": "CVE-2026-19155",
+      "title": "Use after free in Payments in Google Chrome prior to 151.0.7922.1 ...",
+      "description": "Use after free in Payments in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19156": {
+      "cve_id": "CVE-2026-19156",
+      "title": "Heap buffer overflow in Base in Google Chrome prior to 151.0.7922 ...",
+      "description": "Heap buffer overflow in Base in Google Chrome prior to 151.0.7922.109 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19157": {
+      "cve_id": "CVE-2026-19157",
+      "title": "Out of bounds write in ANGLE in Google Chrome on Android prior to ...",
+      "description": "Out of bounds write in ANGLE in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19158": {
+      "cve_id": "CVE-2026-19158",
+      "title": "Use after free in Views in Google Chrome on Windows prior to 151. ...",
+      "description": "Use after free in Views in Google Chrome on Windows prior to 151.0.7922.109 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19159": {
+      "cve_id": "CVE-2026-19159",
+      "title": "Use after free in Views in Google Chrome prior to 151.0.7922.109  ...",
+      "description": "Use after free in Views in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who convinced a user to engage in specific UI gestures to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19160": {
+      "cve_id": "CVE-2026-19160",
+      "title": "Uninitialized Use in Skia in Google Chrome prior to 151.0.7922.10 ...",
+      "description": "Uninitialized Use in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19161": {
+      "cve_id": "CVE-2026-19161",
+      "title": "Uninitialized Use in Skia in Google Chrome prior to 151.0.7922.10 ...",
+      "description": "Uninitialized Use in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19162": {
+      "cve_id": "CVE-2026-19162",
+      "title": "Out of bounds write in V8 in Google Chrome prior to 151.0.7922.10 ...",
+      "description": "Out of bounds write in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19163": {
+      "cve_id": "CVE-2026-19163",
+      "title": "Use after free in Media in Google Chrome on Windows prior to 151. ...",
+      "description": "Use after free in Media in Google Chrome on Windows prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19164": {
+      "cve_id": "CVE-2026-19164",
+      "title": "Insufficient validation of untrusted input in Codecs in Google Ch ...",
+      "description": "Insufficient validation of untrusted input in Codecs in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19165": {
+      "cve_id": "CVE-2026-19165",
+      "title": "Use after free in Extensions in Google Chrome prior to 151.0.7922 ...",
+      "description": "Use after free in Extensions in Google Chrome prior to 151.0.7922.109 allowed an attacker who convinced a user to install a malicious extension to execute arbitrary code inside a sandbox via a crafted Chrome Extension. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19166": {
+      "cve_id": "CVE-2026-19166",
+      "title": "Use after free in Web Authentication in Google Chrome prior to 15 ...",
+      "description": "Use after free in Web Authentication in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19167": {
+      "cve_id": "CVE-2026-19167",
+      "title": "Integer overflow in GPU in Google Chrome prior to 151.0.7922.109  ...",
+      "description": "Integer overflow in GPU in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19168": {
+      "cve_id": "CVE-2026-19168",
+      "title": "Inappropriate implementation in V8 in Google Chrome prior to 151. ...",
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19169": {
+      "cve_id": "CVE-2026-19169",
+      "title": "Insufficient validation of untrusted input in Contextual Tasks in ...",
+      "description": "Insufficient validation of untrusted input in Contextual Tasks in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to perform privilege escalation via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19170": {
+      "cve_id": "CVE-2026-19170",
+      "title": "Use after free in WebGL in Google Chrome on Android prior to 151. ...",
+      "description": "Use after free in WebGL in Google Chrome on Android prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19171": {
+      "cve_id": "CVE-2026-19171",
+      "title": "Use after free in Media in Google Chrome on Windows prior to 151. ...",
+      "description": "Use after free in Media in Google Chrome on Windows prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19172": {
+      "cve_id": "CVE-2026-19172",
+      "title": "Use after free in Views in Google Chrome prior to 151.0.7922.109  ...",
+      "description": "Use after free in Views in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19173": {
+      "cve_id": "CVE-2026-19173",
+      "title": "Out of bounds write in Skia in Google Chrome prior to 151.0.7922. ...",
+      "description": "Out of bounds write in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19174": {
+      "cve_id": "CVE-2026-19174",
+      "title": "Integer overflow in V8 in Google Chrome prior to 151.0.7922.109 a ...",
+      "description": "Integer overflow in V8 in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19175": {
+      "cve_id": "CVE-2026-19175",
+      "title": "Use after free in Payments in Google Chrome prior to 151.0.7922.1 ...",
+      "description": "Use after free in Payments in Google Chrome prior to 151.0.7922.109 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19176": {
+      "cve_id": "CVE-2026-19176",
+      "title": "Use after free in Skia in Google Chrome prior to 151.0.7922.109 a ...",
+      "description": "Use after free in Skia in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-19177": {
+      "cve_id": "CVE-2026-19177",
+      "title": "Insufficient validation of untrusted input in UI in Google Chrome ...",
+      "description": "Insufficient validation of untrusted input in UI in Google Chrome prior to 151.0.7922.109 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.108-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.108-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
     "CVE-2026-2313": {
       "cve_id": "CVE-2026-2313",
       "title": "Use after free in CSS in Google Chrome prior to 145.0.7632.45 all ...",
@@ -36695,7 +37679,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36724,7 +37708,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36753,7 +37737,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36782,7 +37766,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36811,7 +37795,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36840,7 +37824,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36869,7 +37853,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36898,7 +37882,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36927,7 +37911,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36956,7 +37940,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -36985,7 +37969,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -37014,7 +37998,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -37043,7 +38027,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -37072,7 +38056,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -37101,7 +38085,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40378,7 +41362,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40407,7 +41391,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40436,7 +41420,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40465,7 +41449,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40494,7 +41478,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40523,7 +41507,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40552,7 +41536,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40581,7 +41565,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40610,7 +41594,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40639,7 +41623,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40668,7 +41652,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40697,7 +41681,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40726,7 +41710,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40755,7 +41739,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40784,7 +41768,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40813,7 +41797,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40842,7 +41826,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40871,7 +41855,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40900,7 +41884,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40929,7 +41913,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40958,7 +41942,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40987,7 +41971,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41016,7 +42000,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41045,7 +42029,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41074,7 +42058,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41103,7 +42087,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41132,7 +42116,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41161,7 +42145,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41190,7 +42174,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41219,7 +42203,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41248,7 +42232,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41277,7 +42261,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41306,7 +42290,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41335,7 +42319,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41364,7 +42348,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41393,7 +42377,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41422,7 +42406,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41451,7 +42435,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41480,7 +42464,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41509,7 +42493,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41538,7 +42522,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41567,7 +42551,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41596,7 +42580,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41625,7 +42609,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41654,7 +42638,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41683,7 +42667,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41712,7 +42696,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41741,7 +42725,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41770,7 +42754,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41799,7 +42783,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41828,7 +42812,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41857,7 +42841,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41886,7 +42870,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41915,7 +42899,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41944,7 +42928,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -41973,7 +42957,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42002,7 +42986,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42031,7 +43015,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42060,7 +43044,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42089,7 +43073,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42118,7 +43102,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42147,7 +43131,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42176,7 +43160,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42205,7 +43189,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42234,7 +43218,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42263,7 +43247,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42292,7 +43276,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42321,7 +43305,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42350,7 +43334,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42379,7 +43363,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42408,7 +43392,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42437,7 +43421,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42466,7 +43450,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42495,7 +43479,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42524,7 +43508,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42553,7 +43537,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42582,7 +43566,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42611,7 +43595,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -42640,7 +43624,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.167-1.fc43",
+          "fixed": "148.0.7778.178-1.fc43",
           "identifier": "fc43"
         },
         {
