@@ -183,7 +183,7 @@
       "events": [
         {
           "introduced": "9.8-2.fc43",
-          "fixed": "9.16-1.fc43",
+          "fixed": "9.17-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -307,11 +307,49 @@
         }
       ]
     },
+    "CVE-2026-17347": {
+      "cve_id": "CVE-2026-17347",
+      "title": "The MASTER_PASSWORD_HOOK setting, introduced in pgAdmin 4 7.2, le ...",
+      "description": "The MASTER_PASSWORD_HOOK setting, introduced in pgAdmin 4 7.2, lets an administrator configure an external command that returns a per-user encryption key, with %u in the configured string replaced by the current user's name. The previous implementation substituted the username directly into the command string and executed the result with subprocess.Popen(..., shell=True). Because the username can originate from an external authentication source (OAuth/OIDC claims, Kerberos, webserver auth) rather than a value pgAdmin fully controls, a username containing shell metacharacters (';', '$()', backticks, pipes, '\u0026\u0026', newlines) allowed an authenticated user to execute arbitrary commands as the pgAdmin service account in any deployment where the configured hook string uses %u.\n\nFix tokenises the trusted, administrator-configured hook string into an argument vector first (using shlex in POSIX-quoting mode, with backslash-escaping disabled so Windows-style paths are not mis-parsed), substitutes the untrusted username into the individual argv elements, and executes with shell=False. The username is therefore always confined to a single argv element; any shell metacharacters it contains are inert. Administrators whose MASTER_PASSWORD_HOOK previously relied on shell features (pipes, redirection, environment-variable expansion, globbing) within the hook string itself must move that logic into the invoked script, since it is no longer interpreted by a shell.\n\nThis issue affects pgAdmin 4: from 7.2 before 9.17.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.8-2.fc43",
+          "fixed": "9.17-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.17-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
     "CVE-2026-17348": {
       "cve_id": "CVE-2026-17348",
       "title": "In SERVER mode, pgAdmin 4 enforces authentication per route via t ...",
       "description": "In SERVER mode, pgAdmin 4 enforces authentication per route via the @pga_login_required decorator; the application's before_request hook only handles desktop-mode auto-login and the Kerberos/Webserver-auth redirect, so any route shipped without the decorator is reachable without authentication (CWE-306). This is the same defect class previously fixed as CVE-2026-12046 (the sqleditor close/update_connection routes).\n\nA follow-up sweep, prompted by a report describing an incomplete fix for CVE-2026-12046, found further routes missing @pga_login_required: the Constraints blueprint's nodes and proplist (object listing) routes and its delete route (a state-mutating DELETE that removes table constraints); preferences.get_all_cli (GET, discloses all CLI-settable preference values); debugger.close (DELETE); and schema_diff.close (DELETE). An unauthenticated network client could therefore enumerate constraint metadata, delete table constraints, read preference values, and force-close debugger or schema-diff sessions belonging to other users, without ever authenticating.\n\nFix adds the missing @pga_login_required decorator (and the corresponding import to the Constraints module) to each of these routes. The change is decorator-only; no behavioral changes to the underlying handlers.\n\nThis issue affects pgAdmin 4 in SERVER mode: the Constraints and Debugger routes from 1.0, the Schema Diff close route from 4.18, and preferences.get_all_cli from 8.2, all before 9.17.",
       "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.8-2.fc43",
+          "fixed": "9.17-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.17-1.fc44",
+          "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-17351": {
+      "cve_id": "CVE-2026-17351",
+      "title": "The fix for CVE-2026-12045 in pgAdmin 4 9.16 required the LLM-sup ...",
+      "description": "The fix for CVE-2026-12045 in pgAdmin 4 9.16 required the LLM-supplied query passed to the AI Assistant's execute_sql_query tool to parse, via sqlparse, as exactly one non-transaction-control statement before running it inside a BEGIN TRANSACTION READ ONLY wrapper. sqlparse's string-literal lexing can disagree with PostgreSQL's own parser: under standard_conforming_strings = on (PostgreSQL's default since 9.1), a backslash immediately before a quote is an ordinary character to PostgreSQL, but sqlparse treats it as escaping the quote. A payload such as SELECT '\\';COMMIT;CREATE TABLE pwn(x int);SELECT 1 --' therefore parses as a single SELECT to sqlparse's validator, while PostgreSQL executes it as four statements: the smuggled COMMIT ends the wrapping read-only transaction, and the trailing ROLLBACK becomes a no-op. This reintroduces the same write/RCE bypass CVE-2026-12045 was meant to close, reachable via the same indirect prompt-injection delivery (an attacker plants the payload in any object the AI Assistant may read; the LLM emits it as a tool call).\n\nAn initial candidate fix ran the query with psycopg's execute(..., prepare=True), intending to force PostgreSQL's own Parse step (extended query protocol) to reject multi-statement text regardless of sqlparse's classification. This candidate fix does not work as submitted: psycopg3's PrepareManager silently ignores the prepare argument whenever the connection's prepare_threshold is None, which is pgAdmin's default for every server connection (the per-server \"Prepare threshold\" field is blank unless an administrator explicitly sets it) -- psycopg3 falls back to the simple query protocol, the same multi-statement-capable path the bypass exploits, so the candidate fix closes nothing on any real-world default configuration.\n\nThe corrected fix sets conn.prepare_threshold = 0 directly on the dedicated, single-use read-only connection the AI Assistant tool opens, structurally forcing the extended query protocol independent of any server-level configuration. Verified against a live PostgreSQL 18 instance: the payload executes successfully under the prepare_threshold=None (default) behavior, and is rejected with \"cannot insert multiple commands into a prepared statement\" once prepare_threshold=0 is set on that connection.\n\nThis issue affects pgAdmin 4: from 9.13 before 9.17.",
+      "severity": "CRITICAL",
       "status": "fixed",
       "events": [
         {
@@ -565,7 +603,7 @@
       "events": [
         {
           "introduced": "9.8-2.fc43",
-          "fixed": "9.14-2.fc43",
+          "fixed": "9.14-3.fc43",
           "identifier": "fc43"
         },
         {
@@ -618,7 +656,7 @@
       "events": [
         {
           "introduced": "9.8-2.fc43",
-          "fixed": "9.14-2.fc43",
+          "fixed": "9.14-1.fc43",
           "identifier": "fc43"
         },
         {
