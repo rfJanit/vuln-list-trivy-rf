@@ -21288,6 +21288,23 @@
         }
       ]
     },
+    "CVE-2026-31461": {
+      "cve_id": "CVE-2026-31461",
+      "title": "In the Linux kernel, the following vulnerability has been resolve ...",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\ndrm/amd/display: Fix drm_edid leak in amdgpu_dm\n\n[WHAT]\nWhen a sink is connected, aconnector-\u003edrm_edid was overwritten without\nfreeing the previous allocation, causing a memory leak on resume.\n\n[HOW]\nFree the previous drm_edid before updating it.\n\n(cherry picked from commit 52024a94e7111366141cfc5d888b2ef011f879e5)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "6.17.1-300.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-31462": {
       "cve_id": "CVE-2026-31462",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",
