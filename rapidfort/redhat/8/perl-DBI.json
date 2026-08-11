@@ -26,12 +26,8 @@
       "title": "DBI versions before 1.650 for Perl are vulnerable to code injecti ...",
       "description": "DBI versions before 1.650 for Perl are vulnerable to code injection via caller-influenced Profile.\n\nWhen a string is assigned to a DBI handle's Profile attribute, DBI splits it into path, package and arguments, and interpolates the package part in a string eval with no validation of the package name.\n\nAny caller-influenced value that reaches the Profile attribute is therefore arbitrary Perl code execution, including calls to run system commands.\n\nThe Profile attribute can be set from three different sources that can carry untrusted data: the DBI_PROFILE environment variable, a direct attribute assignment, and a DSN driver-attribute clause dbi:Driver(Profile=\u003eSPEC):db.\n\nAn attacker controlling any of those inputs runs arbitrary Perl in the host process. The strongest remote position is a network-exposed DBI::Gofer / DBI::ProxyServer whose per-request DSN reaches the Profile attribute, letting a client execute code on the broker host.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "1.647-4.fc43",
           "fixed": "1.650-1.fc43",
@@ -54,12 +50,8 @@
       "title": "DBI versions before 1.650 for Perl have a heap overflow when prep ...",
       "description": "DBI versions before 1.650 for Perl have a heap overflow when preparsing SQL statements with an extreme number of placeholders.\n\nThe fix for CVE-2026-10879 did not allocate enough memory to handle approximately 1.2-million placeholders.\n\nDBI version 1.650 sets a hard limit of 99,999 placeholders.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "1.647-4.fc43",
           "fixed": "1.650-1.fc43",
