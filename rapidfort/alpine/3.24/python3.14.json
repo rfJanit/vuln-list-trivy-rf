@@ -93,6 +93,18 @@
         }
       ]
     },
+    "CVE-2026-18503": {
+      "cve_id": "CVE-2026-18503",
+      "title": "Attacker-controlled CSV samples can trigger super-linear \nregular ...",
+      "description": "Attacker-controlled CSV samples can trigger super-linear \nregular-expression work during dialect sniffing and consume significant \nCPU when applications pass unbounded input to csv.Sniffer.sniff().",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.14.6-r1"
+        }
+      ]
+    },
     "CVE-2026-4360": {
       "cve_id": "CVE-2026-4360",
       "title": "In the Tarfile.extract() function, the filter parameter is not pa ...",

@@ -550,6 +550,35 @@
         }
       ]
     },
+    "CVE-2026-18503": {
+      "cve_id": "CVE-2026-18503",
+      "title": "Attacker-controlled CSV samples can trigger super-linear \nregular ...",
+      "description": "Attacker-controlled CSV samples can trigger super-linear \nregular-expression work during dialect sniffing and consume significant \nCPU when applications pass unbounded input to csv.Sniffer.sniff().",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:3.14.0-1rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.14.2-1rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.14.3-1rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.14.6-1rfubu.1",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:3.14.6-2rfubu.1",
+          "identifier": "rf"
+        }
+      ]
+    },
     "CVE-2026-2297": {
       "cve_id": "CVE-2026-2297",
       "title": "The import hook in CPython that handles legacy *.pyc files (Sourc ...",
