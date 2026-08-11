@@ -7,11 +7,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.1.1947, an uncontrolled search path vulnerability on Windows allows Vim to execute malicious executables placed in the current working directory for the current edited file. On Windows, when using cmd.exe as a shell, Vim resolves external commands by searching the current working directory before system paths. When Vim invokes tools such as findstr for :grep, external commands or filters via :!, or compiler/:make commands, it may inadvertently run a malicious executable present in the same directory as the file being edited. The issue affects Vim for Windows prior to version 9.1.1947.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -31,11 +35,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -57,8 +65,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -68,11 +80,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -89,8 +105,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -107,8 +127,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -125,8 +149,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -136,11 +164,15 @@
       "title": "Vim is an open source, command line text editor. Versions prior t ...",
       "description": "Vim is an open source, command line text editor. Versions prior to 9.2.0077 have a heap-buffer-overflow and a segmentation fault (SEGV) exist in Vim's swap file recovery logic. Both are caused by unvalidated fields read from crafted pointer blocks within a swap file. Version 9.2.0077 fixes the issue.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -157,8 +189,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -168,11 +204,15 @@
       "title": "Vim is an open source, command line text editor. From 9.1.0011 to ...",
       "description": "Vim is an open source, command line text editor. From 9.1.0011 to before 9.2.0137, Vim's NFA regex compiler, when encountering a collection containing a combining character as the endpoint of a character range (e.g. [0-0\\u05bb]), incorrectly emits the composing bytes of that character as separate NFA states. This corrupts the NFA postfix stack, resulting in NFA_START_COLL having a NULL out1 pointer. When nfa_max_width() subsequently traverses the compiled NFA to estimate match width for the look-behind assertion, it dereferences state-\u003eout1-\u003eout without a NULL check, causing a segmentation fault. This vulnerability is fixed in 9.2.0137.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -182,11 +222,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0202, a command injection vulnerability exists in Vim's glob() function on Unix-like systems. By including a newline character (\\n) in a pattern passed to glob(), an attacker may be able to execute arbitrary shell commands. This vulnerability depends on the user's 'shell' setting. This issue has been patched in version 9.2.0202.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -196,11 +240,15 @@
       "title": "Vim before 9.2.0272 allows code execution that happens immediatel ...",
       "description": "Vim before 9.2.0272 allows code execution that happens immediately upon opening a crafted file in the default configuration, because %{expr} injection occurs with tabpanel lacking P_MLE.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1914-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -210,11 +258,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0276, a modeline sandbox bypass in Vim allows arbitrary OS command execution when a user opens a crafted file. The `complete`, `guitabtooltip` and `printheader` options are missing the `P_MLE` flag, allowing a modeline to be executed. Additionally, the `mapset()` function lacks a `check_secure()` call, allowing it to be abused from sandboxed expressions. Commit 9.2.0276 fixes the issue.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -224,11 +276,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.028 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0280, a path traversal bypass in Vim's zip.vim plugin allows overwriting of arbitrary files when opening specially crafted zip archives, circumventing the previous fix for CVE-2025-53906. This vulnerability is fixed in 9.2.0280.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -245,8 +301,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -256,11 +316,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.035 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0357, A command injection vulnerability exists in Vim's tag file processing. When resolving a tag, the filename field from the tags file is passed through wildcard expansion to resolve environment variables and wildcards. If the filename field contains backtick syntax (e.g., `command`), Vim executes the embedded command via the system shell with the full privileges of the running user.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -277,8 +341,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -295,8 +363,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -313,8 +385,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -324,11 +400,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.047 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0479, a command injection vulnerability exists in tar#Vimuntar() in\nruntime/autoload/tar.vim when decompressing .tgz archives on Unix-like systems. The function builds :!gunzip and :!gzip -d commands using shellescape(tartail) without the {special} flag, allowing a crafted archive filename to trigger Vim cmdline-special expansion and execute shell commands in the user's context. This vulnerability is fixed in 9.2.0479.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -338,11 +418,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0495, a Vimscript code injection vulnerability exists in s:NetrwBookHistSave() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when serializing browsed directory paths to the history file ~/.vim/.netrwhist. A directory name derived from the filesystem is interpolated into a single-quoted Vimscript string literal without escaping embedded single quotes, allowing a crafted directory name to break out of the string context and execute arbitrary Vimscript, including shell commands via system() and :!, the next time the history file is sourced. This issue has been patched in version 9.2.0495.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -352,11 +436,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0496, a code injection vulnerability exists in s:stepmatch() in the cucumber filetype plugin (runtime/ftplugin/cucumber.vim) on Vim builds with +ruby support. Step-definition patterns read from .rb files under the repository's features/*/ or stories/*/ directories are embedded into a Ruby Kernel.eval argument without sufficient escaping, allowing a crafted pattern in an attacker-controlled repository to execute arbitrary Ruby (and through it arbitrary shell commands) when the user invokes a step-jump mapping ([d, ]d). This issue has been patched in version 9.2.0496.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -366,11 +454,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0561, the Python omni-completion script in python3complete.vim for Vim with the +python3 interpreter enabled (and the legacy pythoncomplete.vim for builds with the +python interpreter) executes the import and from statements found in the current buffer through Python's import machinery. Because the buffer's working directory is on sys.path, opening a hostile .py file with a sibling Python package and invoking omni-completion runs that package's top-level code as the editing user. This issue has been patched in version 9.2.0561.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -387,8 +479,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -398,11 +494,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0597, Vim's Python omni-completion executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. Python evaluates function default values, parameter annotations, and class base expressions at definition time, so a hostile buffer can execute attacker-controlled Python expressions during omni-completion. The existing g:pythoncomplete_allow_import mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path, because the attacker-controlled code is not a harvested import/from statement. This issue has been patched in version 9.2.0597.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -412,11 +512,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.065 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0653, the tree_count_words() function in src/spellfile.c fills in the word-count fields of a spell-file word trie by walking it iteratively with a depth counter. The counter is bounded only by the trie structure itself; it is never checked against the size of the fixed MAXWLEN-element stack arrays it indexes (arridx[], curi[], wordcount[]). A crafted .spl/.sug file pair, loaded when the user invokes spell suggestion, can drive the descent arbitrarily deep, so the function writes past the end of those arrays. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0653.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -433,8 +537,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -451,8 +559,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -469,8 +581,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -487,8 +603,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -498,11 +618,15 @@
       "title": "Vim is an open source, command line text editor. From 9.1.1784 un ...",
       "description": "Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1914-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -512,11 +636,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.069 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0698, the single-byte branch of spell_soundfold_sofo() in src/spell.c translates a word through a spell file's SOFO (sound-folding) byte map into a caller-owned result buffer. Its copy loop advances the output index ri with no upper bound and terminates only on the input NUL, writing one byte per input byte into the MAXWLEN-element stack buffer the caller provides. A word longer than MAXWLEN, passed to soundfold() (or reached via sound-based spell suggestion) while a SOFO-based spell language is active, therefore writes past the end of that buffer. This is a stack out-of-bounds write that corrupts the call frame and crashes the editor. This vulnerability is fixed in 9.2.0698.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -526,11 +654,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.069 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0699, Vim's Python omni-completion (runtime/autoload/python3complete.vim and the legacy pythoncomplete.vim) executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. When reconstructing that source, each scope's docstring is inserted verbatim between triple quotes with no escaping, so a hostile buffer can break out of the triple-quoted literal and execute attacker-controlled Python during omni-completion. This vulnerability is fixed in 9.2.0699.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -540,11 +672,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.073 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0736, the PHP omni-completion script in runtime/autoload/phpcomplete.vim interpolates a class or trait name, taken from the contents of the edited buffer, into a search() pattern that is run via win_execute() without escaping. A name containing a single quote can terminate the search() string argument early, and because the bar is honored as an Ex command separator, the remainder of the name is run as Ex commands; via the :! command this allows arbitrary operating-system command execution when a victim opens a crafted PHP file and invokes omni-completion. This issue is fixed in version 9.2.0736.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -561,8 +697,12 @@
           "identifier": "el9"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -572,11 +712,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.073 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0735, the C omni-completion script in runtime/autoload/ccomplete.vim interpolates the typeref: or typename: extension field of a tags entry, without escaping, into a :vimgrep pattern that is run through :execute. Because :vimgrep honors the bar as a command separator, a crafted tag field can close the search pattern and append an arbitrary Ex command; opening a hostile .c file whose project tags file contains such an entry and invoking C omni-completion runs that command as the editing user. This issue is fixed in version 9.2.0735.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -591,6 +735,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "2:9.1.1818-1.fc43",

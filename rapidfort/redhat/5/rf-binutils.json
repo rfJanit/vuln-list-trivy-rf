@@ -10,8 +10,35 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2025-0840": {
+      "cve_id": "CVE-2025-0840",
+      "title": "A vulnerability, which was classified as problematic, was found i ...",
+      "description": "A vulnerability, which was classified as problematic, was found in GNU Binutils up to 2.43. This affects the function disassemble_bytes of the file binutils/objdump.c. The manipulation of the argument buf leads to stack-based buffer overflow. It is possible to initiate the attack remotely. The complexity of an attack is rather high. The exploitability is told to be difficult. The exploit has been disclosed to the public and may be used. Upgrading to version 2.44 is able to address this issue. The identifier of the patch is baac6c221e9d69335bf41366a1c7d87d8ab2f893. It is recommended to upgrade the affected component.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:2.45-2.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:2.46-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -51,6 +78,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -63,6 +94,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -77,6 +112,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -89,6 +128,10 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -103,6 +146,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -115,6 +162,10 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -129,6 +180,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -142,6 +197,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -152,8 +211,12 @@
       "title": "A vulnerability was found in GNU Binutils up to 2.44. It has been ...",
       "description": "A vulnerability was found in GNU Binutils up to 2.44. It has been rated as critical. Affected by this issue is the function elf_gc_sweep of the file bfd/elflink.c of the component ld. The manipulation leads to memory corruption. An attack has to be approached locally. The exploit has been disclosed to the public and may be used. Upgrading to version 2.45 is able to address this issue. It is recommended to upgrade the affected component.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "fixed": "0:2.45.1-1.fc43",
@@ -171,8 +234,12 @@
       "title": "A vulnerability classified as critical has been found in GNU Binu ...",
       "description": "A vulnerability classified as critical has been found in GNU Binutils up to 2.44. This affects the function debug_type_samep of the file /binutils/debug.c of the component objdump. The manipulation leads to memory corruption. Local access is required to approach this attack. The exploit has been disclosed to the public and may be used. It is recommended to apply a patch to fix this issue.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "fixed": "0:2.45.1-1.fc43",
@@ -193,6 +260,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -205,6 +276,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -219,6 +294,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -231,6 +310,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -245,6 +328,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -257,6 +344,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -271,6 +362,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -283,6 +378,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -297,6 +396,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -309,6 +412,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -323,6 +430,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -335,6 +446,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -349,6 +464,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -361,6 +480,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
@@ -375,6 +498,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"
         }
@@ -387,6 +514,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.43.1-14.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.45-1.fc43",
           "identifier": "fc43"

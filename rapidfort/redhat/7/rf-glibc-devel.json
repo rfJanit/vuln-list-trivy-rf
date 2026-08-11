@@ -14,6 +14,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-9.fc43",
           "identifier": "fc43"
@@ -35,8 +39,12 @@
       "title": "Passing too large an alignment to the memalign suite of functions ...",
       "description": "Passing too large an alignment to the memalign suite of functions (memalign, posix_memalign, aligned_alloc) in the GNU C Library version 2.30 to 2.42 may result in an integer overflow, which could consequently result in a heap corruption.\n\nNote that the attacker must have control over both, the size as well as the alignment arguments of the memalign function to be able to exploit this.  The size parameter must be close enough to PTRDIFF_MAX so as to overflow size_t along with the large alignment argument.  This limits the malicious inputs for the alignment for memalign to the range [1\u003c\u003c62+ 1, 1\u003c\u003c63] and exactly 1\u003c\u003c63 for posix_memalign and aligned_alloc.\n\nTypically the alignment argument passed to such functions is a known constrained quantity (e.g. page size, block size, struct sizes) and is not attacker controlled, because of which this may not be easily exploitable in practice.  An application bug could potentially result in the input alignment being too large, e.g. due to a different buffer overflow or integer overflow in the application or its dependent libraries, but that is again an uncommon usage pattern given typical sources of alignments.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-9.fc43",
@@ -64,6 +72,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "2.42-4.fc43",
@@ -94,6 +106,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",
           "identifier": "fc43"
@@ -120,6 +136,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "2.42-4.fc43",
@@ -155,6 +175,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-11.fc43",
           "identifier": "fc43"
@@ -188,6 +212,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",
           "identifier": "fc43"
@@ -209,8 +237,12 @@
       "title": "Calling the scanf family of functions with a %mc (malloc'd charac ...",
       "description": "Calling the scanf family of functions with a %mc (malloc'd character match) in the GNU C Library version 2.7 to version 2.43 with a format width specifier with an explicit width greater than 1024 could result in a one byte heap buffer overflow.",
       "severity": "CRITICAL",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",
@@ -240,6 +272,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",
           "identifier": "fc43"
@@ -261,8 +297,12 @@
       "title": "The deprecated functions ns_printrrf, ns_printrr and fp_nquery in ...",
       "description": "The deprecated functions ns_printrrf, ns_printrr and fp_nquery in the GNU C Library version 2.0.1 to version 2.43 fail to validate the RDATA content against the RDATA length in a DNS response when processing A6, CERT, LOC, TKEY or TSIG records, which may allow an attacker to craft a DNS response, causing a target application to crash or read uninitialized memory.\n\nThese functions are for application debugging only and hence not in the path of code executed by the DNS resolver.  Further, they have been deprecated since version 2.34 and should not be used by any new applications.  Applications should consider porting away from these interfaces since they may be removed in future versions.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0:2.40-28.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",

@@ -14,7 +14,7 @@
           "identifier": "el9"
         },
         {
-          "introduced": "0",
+          "introduced": "0:9.9p1-3.fc41",
           "fixed": "0:9.9p1-4.fc41",
           "identifier": "fc41"
         },
@@ -97,12 +97,16 @@
       "title": "In OpenSSH before 10.3, a file downloaded by scp may be installed ...",
       "description": "In OpenSSH before 10.3, a file downloaded by scp may be installed setuid or setgid, an outcome contrary to some users' expectations, if the download is performed as root with -O (legacy scp protocol) and without -p (preserve mode).",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "8.7p1-48.el9_7",
           "fixed": "0:9.9p1-7.el9_8",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -150,12 +154,16 @@
       "title": "OpenSSH before 10.3 can use unintended ECDSA algorithms. Listing  ...",
       "description": "OpenSSH before 10.3 can use unintended ECDSA algorithms. Listing of any ECDSA algorithm in PubkeyAcceptedAlgorithms or HostbasedAcceptedAlgorithms is misinterpreted to mean all ECDSA algorithms.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "8.7p1-48.el9_7",
           "fixed": "0:9.9p1-7.el9_8",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -174,12 +182,16 @@
       "title": "OpenSSH before 10.3 omits connection multiplexing confirmation fo ...",
       "description": "OpenSSH before 10.3 omits connection multiplexing confirmation for proxy-mode multiplexing sessions.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "8.7p1-48.el9_7",
           "fixed": "0:9.9p1-7.el9_8",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -198,12 +210,16 @@
       "title": "OpenSSH before 10.3 mishandles the authorized_keys principals opt ...",
       "description": "OpenSSH before 10.3 mishandles the authorized_keys principals option in uncommon scenarios involving a principals list in conjunction with a Certificate Authority that makes certain use of comma characters.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "8.7p1-48.el9_7",
           "fixed": "0:9.9p1-7.el9_8",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -316,6 +332,10 @@
           "identifier": "el9"
         },
         {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -326,12 +346,16 @@
       "title": "scp in OpenSSH before 10.4 may place a file in the parent directo ...",
       "description": "scp in OpenSSH before 10.4 may place a file in the parent directory of an intended directory when the copy occurs between two remote destinations.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "8.7p1-48.el9_7",
           "fixed": "0:9.9p1-9.el9_8",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -357,6 +381,10 @@
           "identifier": "el9"
         },
         {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -372,6 +400,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -391,6 +423,10 @@
           "identifier": "el9"
         },
         {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -406,6 +442,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -425,6 +465,10 @@
           "identifier": "el9"
         },
         {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -435,12 +479,16 @@
       "title": "ssh in OpenSSH before 10.4 can have a use-after-free when a serve ...",
       "description": "ssh in OpenSSH before 10.4 can have a use-after-free when a server changes its host key during a key re-exchange. (This outcome occurs only on the client side.)",
       "severity": "CRITICAL",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "8.7p1-48.el9_7",
           "fixed": "0:9.9p1-9.el9_8",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",

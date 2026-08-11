@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "1:5.41-3",
-          "fixed": "1:5.41-3ubuntu0.1"
+          "fixed": "1:5.41-3ubuntu0.1",
+          "identifier": "ubuntu"
         }
       ]
     }

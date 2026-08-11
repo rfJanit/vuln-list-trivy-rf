@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.64.0-3"
+          "fixed": "0:1.64.0-3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.64.0-3"
+          "fixed": "0:1.64.0-3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.64.0-3"
+          "fixed": "0:1.64.0-3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.64.0-3"
+          "fixed": "0:1.64.0-3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.64.0-3"
+          "fixed": "0:1.64.0-3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -76,7 +81,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -89,7 +95,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -102,7 +109,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -115,7 +123,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -128,7 +137,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -141,7 +151,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -154,7 +165,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -167,7 +179,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.95.1-1"
+          "fixed": "0:1.95.1-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -180,7 +193,8 @@
       "events": [
         {
           "introduced": "0:1.53.0-1",
-          "fixed": "0:1.94.0-1"
+          "fixed": "0:1.94.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -192,7 +206,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.53.0-1"
+          "introduced": "0:1.53.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -204,7 +219,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.53.0-1"
+          "introduced": "0:1.53.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -216,7 +232,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.53.0-1"
+          "introduced": "0:1.53.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -228,7 +245,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.53.0-1"
+          "introduced": "0:1.53.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -240,7 +258,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.53.0-1"
+          "introduced": "0:1.53.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -252,7 +271,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.53.0-1"
+          "introduced": "0:1.53.0-1",
+          "identifier": "ubuntu"
         }
       ]
     }

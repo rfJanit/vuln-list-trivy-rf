@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "1:20220117-1ubuntu1",
-          "fixed": "1:20240117-1ubuntu1"
+          "fixed": "1:20240117-1ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -23,10 +24,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20220117-1ubuntu1"
+          "introduced": "1:20220117-1ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20240117-1ubuntu1"
+          "introduced": "1:20240117-1ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     }

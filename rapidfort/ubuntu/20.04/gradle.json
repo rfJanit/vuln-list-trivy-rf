@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:4.4.1-13"
+          "introduced": "0:4.4.1-13",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.4.1-20"
+          "introduced": "0:4.4.1-20",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:4.4.1-13"
+          "introduced": "0:4.4.1-13",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.4.1-20"
+          "introduced": "0:4.4.1-20",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -40,10 +44,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:4.4.1-13"
+          "introduced": "0:4.4.1-13",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.4.1-20"
+          "introduced": "0:4.4.1-20",
+          "identifier": "ubuntu"
         }
       ]
     }

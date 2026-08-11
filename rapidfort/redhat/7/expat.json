@@ -2,6 +2,25 @@
   "package_name": "expat",
   "distro_version": "7",
   "advisories": {
+    "CVE-2025-59375": {
+      "cve_id": "CVE-2025-59375",
+      "title": "libexpat in Expat before 2.7.2 allows attackers to trigger large  ...",
+      "description": "libexpat in Expat before 2.7.2 allows attackers to trigger large dynamic memory allocations via a small document that is submitted for parsing.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "fixed": "0:2.7.2-1.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:2.7.2-1.fc42",
+          "identifier": "fc42"
+        }
+      ]
+    },
     "CVE-2025-66382": {
       "cve_id": "CVE-2025-66382",
       "title": "In libexpat through 2.7.3, a crafted file with an approximate siz ...",
@@ -12,6 +31,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "0:2.7.3-1.fc42",
@@ -36,6 +59,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -58,6 +85,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
@@ -86,6 +117,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -106,6 +141,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "0:2.7.3-1.fc42",
@@ -130,6 +169,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -152,6 +195,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -162,6 +209,7 @@
         },
         {
           "introduced": "0:2.7.5-1.fc45",
+          "fixed": "0:2.8.1-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -178,6 +226,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -188,6 +240,7 @@
         },
         {
           "introduced": "0:2.7.5-1.fc45",
+          "fixed": "0:2.8.1-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -202,6 +255,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "0:2.7.3-1.fc42",
@@ -229,6 +286,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -252,6 +313,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "0:2.7.3-1.fc42",
@@ -279,6 +344,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -302,6 +371,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "0:2.7.3-1.fc42",
@@ -329,6 +402,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -349,6 +426,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
@@ -375,6 +456,10 @@
           "identifier": "el7"
         },
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -395,6 +480,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
@@ -417,6 +506,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -438,6 +531,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
         },
@@ -458,6 +555,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:2.7.3-1.fc42",
           "identifier": "fc42"
@@ -482,6 +583,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0:2.7.1-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "0:2.7.3-1.fc42",

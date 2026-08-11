@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:17.0.6-9ubuntu1"
+          "introduced": "1:17.0.6-9ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     }

@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:9.4.6.0+ds-1ubuntu3"
+          "introduced": "0:9.4.6.0+ds-1ubuntu3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -22,7 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:9.4.6.0+ds-1ubuntu3"
+          "introduced": "0:9.4.6.0+ds-1ubuntu3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -34,7 +36,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:9.4.6.0+ds-1ubuntu3"
+          "introduced": "0:9.4.6.0+ds-1ubuntu3",
+          "identifier": "ubuntu"
         }
       ]
     }

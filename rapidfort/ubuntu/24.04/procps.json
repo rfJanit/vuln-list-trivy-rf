@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "2:3.3.17-6ubuntu2",
-          "fixed": "2:3.3.17-6ubuntu2.1"
+          "fixed": "2:3.3.17-6ubuntu2.1",
+          "identifier": "ubuntu"
         }
       ]
     }

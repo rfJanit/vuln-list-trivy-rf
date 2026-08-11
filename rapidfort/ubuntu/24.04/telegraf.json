@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.21.4+ds1-0ubuntu2"
+          "introduced": "0:1.21.4+ds1-0ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -22,7 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.21.4+ds1-0ubuntu2"
+          "introduced": "0:1.21.4+ds1-0ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -34,7 +36,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.21.4+ds1-0ubuntu2"
+          "introduced": "0:1.21.4+ds1-0ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     }

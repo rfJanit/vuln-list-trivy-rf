@@ -10,7 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.18.0-3build1",
+          "introduced": "0",
           "identifier": "ubuntu"
         }
       ]
@@ -23,7 +23,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.18.0-3build1",
+          "introduced": "0",
           "identifier": "ubuntu"
         }
       ]
@@ -36,7 +36,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.18.0-3build1",
+          "introduced": "0",
           "identifier": "ubuntu"
         }
       ]

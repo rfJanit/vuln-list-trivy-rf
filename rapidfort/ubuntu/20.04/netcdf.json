@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "1:4.9.2-5ubuntu4",
-          "fixed": "1:4.9.2-6ubuntu1"
+          "fixed": "1:4.9.2-6ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "1:4.9.2-5ubuntu4",
-          "fixed": "1:4.9.2-6ubuntu1"
+          "fixed": "1:4.9.2-6ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "1:4.9.2-5ubuntu4",
-          "fixed": "1:4.9.2-6ubuntu1"
+          "fixed": "1:4.9.2-6ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "1:4.9.2-5ubuntu4",
-          "fixed": "1:4.9.2-6ubuntu1"
+          "fixed": "1:4.9.2-6ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "1:4.9.2-5ubuntu4",
-          "fixed": "1:4.9.2-6ubuntu1"
+          "fixed": "1:4.9.2-6ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     }

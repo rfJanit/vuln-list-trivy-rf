@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:4.6.3~mspgcc-20120406-7.1ubuntu3"
+          "introduced": "0:4.6.3~mspgcc-20120406-7.1ubuntu3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -22,7 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:4.6.3~mspgcc-20120406-7.1ubuntu3"
+          "introduced": "0:4.6.3~mspgcc-20120406-7.1ubuntu3",
+          "identifier": "ubuntu"
         }
       ]
     }

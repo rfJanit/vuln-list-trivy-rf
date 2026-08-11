@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.37.3~ds0-1"
+          "introduced": "0:2.37.3~ds0-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:2.70.3+ds-1.1build2"
+          "introduced": "0:2.70.3+ds-1.1build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.37.3~ds0-1"
+          "introduced": "0:2.37.3~ds0-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:2.70.3+ds-1.1build2"
+          "introduced": "0:2.70.3+ds-1.1build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -40,10 +44,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.37.3~ds0-1"
+          "introduced": "0:2.37.3~ds0-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:2.70.3+ds-1.1build2"
+          "introduced": "0:2.70.3+ds-1.1build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -55,10 +61,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.37.3~ds0-1"
+          "introduced": "0:2.37.3~ds0-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:2.70.3+ds-1.1build2"
+          "introduced": "0:2.70.3+ds-1.1build2",
+          "identifier": "ubuntu"
         }
       ]
     }

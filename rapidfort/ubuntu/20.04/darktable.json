@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.8.1-2"
+          "introduced": "0:3.8.1-2",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.6.1-2ubuntu1"
+          "introduced": "0:4.6.1-2ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.8.1-2"
+          "introduced": "0:3.8.1-2",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.6.1-2ubuntu1"
+          "introduced": "0:4.6.1-2ubuntu1",
+          "identifier": "ubuntu"
         }
       ]
     }

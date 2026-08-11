@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.8.19-7build2"
+          "introduced": "0:1.8.19-7build2",
+          "identifier": "ubuntu"
         }
       ]
     }

@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -76,7 +81,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -89,7 +95,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -102,7 +109,8 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -115,10 +123,12 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:27.1+1-3ubuntu5.2"
+          "fixed": "1:27.1+1-3ubuntu5.2",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:29.3+1-1ubuntu2"
+          "introduced": "1:29.3+1-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -131,11 +141,13 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:30.1+1-5ubuntu2"
+          "fixed": "1:30.1+1-5ubuntu2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:29.3+1-1ubuntu2",
-          "fixed": "1:30.1+1-5ubuntu2"
+          "fixed": "1:30.1+1-5ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -148,11 +160,13 @@
       "events": [
         {
           "introduced": "1:27.1+1-3ubuntu5",
-          "fixed": "1:30.1+1-5ubuntu2"
+          "fixed": "1:30.1+1-5ubuntu2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:29.3+1-1ubuntu2",
-          "fixed": "1:30.1+1-5ubuntu2"
+          "fixed": "1:30.1+1-5ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -164,7 +178,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:29.3+1-1ubuntu2"
+          "introduced": "1:29.3+1-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     }

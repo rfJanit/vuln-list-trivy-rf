@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.6.1+ds-2build1"
+          "introduced": "0:3.6.1+ds-2build1",
+          "identifier": "ubuntu"
         }
       ]
     }

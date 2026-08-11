@@ -25,6 +25,10 @@
         {
           "introduced": "9.7_p1-r4",
           "fixed": "9.7_p1-r5"
+        },
+        {
+          "introduced": "9.9_p1-r1",
+          "fixed": "9.9_p2-r0"
         }
       ]
     },
@@ -38,6 +42,10 @@
         {
           "introduced": "9.7_p1-r4",
           "fixed": "9.7_p1-r5"
+        },
+        {
+          "introduced": "9.9_p1-r1",
+          "fixed": "9.9_p2-r0"
         }
       ]
     },
@@ -78,13 +86,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -102,7 +110,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
@@ -126,13 +134,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -150,13 +158,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -174,13 +182,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -198,13 +206,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -222,13 +230,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -246,13 +254,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -270,13 +278,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -294,13 +302,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -318,13 +326,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -342,13 +350,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"
@@ -366,13 +374,13 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p2-r0"
+          "introduced": "9.9_p1-r1"
         },
         {
           "introduced": "9.9_p2-r0"
         },
         {
-          "introduced": "10.0_p1-r10"
+          "introduced": "10.0_p1-r9"
         },
         {
           "introduced": "10.3_p1-r0"

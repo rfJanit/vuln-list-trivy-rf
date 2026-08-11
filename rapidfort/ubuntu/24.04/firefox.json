@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:1snap1-0ubuntu2"
+          "introduced": "1:1snap1-0ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     }

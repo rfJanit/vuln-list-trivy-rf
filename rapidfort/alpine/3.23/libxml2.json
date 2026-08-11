@@ -10,7 +10,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.7-r2",
+          "introduced": "2.12.7-r0",
           "fixed": "2.12.10-r0"
         }
       ]
@@ -25,6 +25,10 @@
         {
           "introduced": "2.12.7-r0",
           "fixed": "2.12.7-r1"
+        },
+        {
+          "introduced": "2.12.10-r0",
+          "fixed": "2.13.4-r4"
         }
       ]
     },
@@ -38,6 +42,10 @@
         {
           "introduced": "2.12.7-r0",
           "fixed": "2.12.7-r1"
+        },
+        {
+          "introduced": "2.12.10-r0",
+          "fixed": "2.13.4-r4"
         }
       ]
     },

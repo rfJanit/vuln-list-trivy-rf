@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:2.3.9-4"
+          "introduced": "1:2.3.9-4",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:2.3.9-4"
+          "introduced": "1:2.3.9-4",
+          "identifier": "ubuntu"
         }
       ]
     }

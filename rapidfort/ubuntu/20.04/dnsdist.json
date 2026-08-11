@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "0:1.6.1-1build1",
-          "fixed": "0:1.8.2-2"
+          "fixed": "0:1.8.2-2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,11 +25,13 @@
       "events": [
         {
           "introduced": "0:1.6.1-1build1",
-          "fixed": "0:1.9.10-1"
+          "fixed": "0:1.9.10-1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.8.3-2build2",
-          "fixed": "0:1.9.10-1"
+          "fixed": "0:1.9.10-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -41,7 +44,8 @@
       "events": [
         {
           "introduced": "0:1.8.3-2build2",
-          "fixed": "0:1.9.10-1ubuntu0.1"
+          "fixed": "0:1.9.10-1ubuntu0.1",
+          "identifier": "ubuntu"
         }
       ]
     }

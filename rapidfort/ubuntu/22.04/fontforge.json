@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -40,10 +44,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -56,7 +62,8 @@
       "events": [
         {
           "introduced": "1:20201107~dfsg-4build1",
-          "fixed": "1:20201107~dfsg-4+deb11u1build0.22.04.1"
+          "fixed": "1:20201107~dfsg-4+deb11u1build0.22.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -69,7 +76,8 @@
       "events": [
         {
           "introduced": "1:20201107~dfsg-4build1",
-          "fixed": "1:20201107~dfsg-4+deb11u1build0.22.04.1"
+          "fixed": "1:20201107~dfsg-4+deb11u1build0.22.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -81,10 +89,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -96,10 +106,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -111,10 +123,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -126,10 +140,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -141,10 +157,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -156,10 +174,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -171,10 +191,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -186,10 +208,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -201,10 +225,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -216,10 +242,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -231,10 +259,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -246,10 +276,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -261,10 +293,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:20201107~dfsg-4build1"
+          "introduced": "1:20201107~dfsg-4build1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:20230101~dfsg-1.1build1"
+          "introduced": "1:20230101~dfsg-1.1build1",
+          "identifier": "ubuntu"
         }
       ]
     }

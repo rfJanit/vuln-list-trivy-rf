@@ -10,6 +10,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.4",
           "identifier": "ubuntu"
@@ -23,6 +28,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.7",
@@ -38,6 +48,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -51,6 +66,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.2",
@@ -66,6 +86,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.2",
           "identifier": "ubuntu"
@@ -79,6 +104,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.2",
@@ -94,6 +124,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.2",
           "identifier": "ubuntu"
@@ -107,6 +142,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.3",
@@ -122,6 +162,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.5",
           "identifier": "ubuntu"
@@ -135,6 +180,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.11",
@@ -150,6 +200,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.11",
           "identifier": "ubuntu"
@@ -161,10 +216,16 @@
       "title": "When passing data to the b64decode(), standard_b64decode(), and u ...",
       "description": "When passing data to the b64decode(), standard_b64decode(), and urlsafe_b64decode() functions in the \"base64\" module the characters \"+/\" will always be accepted, regardless of the value of \"altchars\" parameter, typically used to establish an \"alternative base64 alphabet\" such as the URL safe alphabet. This behavior matches what is recommended in earlier base64 RFCs, but newer RFCs now recommend either dropping characters outside the specified base64 alphabet or raising an error. The old behavior has the possibility of causing data integrity issues.\n\n\n\n\nThis behavior can only be insecure if your application uses an alternate base64 alphabet (without \"+/\"). If your application does not use the \"altchars\" parameter or the urlsafe_b64decode() function, then your application does not use an alternative base64 alphabet.\n\n\n\n\nThe attached patches DOES NOT make the base64-decode behavior raise an error, as this would be a change in behavior and break existing programs. Instead, the patch deprecates the behavior which will be replaced with the newly recommended behavior in a future version of Python. Users are recommended to mitigate by verifying user-controlled inputs match the base64 \nalphabet they are expecting or verify that their application would not be \naffected if the b64decode() functions accepted \"+\" or \"/\" outside of altchars.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -176,6 +237,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -191,6 +257,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.10",
           "identifier": "ubuntu"
@@ -204,6 +275,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.11",
@@ -219,6 +295,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.11",
           "identifier": "ubuntu"
@@ -230,10 +311,16 @@
       "title": "The imaplib module, when passed a user-controlled command, can ha ...",
       "description": "The imaplib module, when passed a user-controlled command, can have additional commands injected using newlines. Mitigation rejects commands containing control characters.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -243,10 +330,16 @@
       "title": "The poplib module, when passed a user-controlled command, can hav ...",
       "description": "The poplib module, when passed a user-controlled command, can have\nadditional commands injected using newlines. Mitigation rejects commands\ncontaining control characters.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -258,6 +351,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.6",
@@ -273,6 +371,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.7",
           "identifier": "ubuntu"
@@ -286,6 +389,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.7",
@@ -301,6 +409,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.7",
           "identifier": "ubuntu"
@@ -314,6 +427,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.6",
@@ -329,6 +447,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.7",
           "identifier": "ubuntu"
@@ -342,6 +465,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.8",
@@ -357,6 +485,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.9",
           "identifier": "ubuntu"
@@ -370,6 +503,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -385,6 +523,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.8",
           "identifier": "ubuntu"
@@ -398,6 +541,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.9",
@@ -413,6 +561,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.11",
           "identifier": "ubuntu"
@@ -424,10 +577,16 @@
       "title": "When using the \"configparser\" module to write configuration files ...",
       "description": "When using the \"configparser\" module to write configuration files\ncontaining multi-line text values with carriage return characters (\\r) the\nresulting file could be injected with unexpected keys and values if the\nattacker controls the written value.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -440,6 +599,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.11",
           "identifier": "ubuntu"
@@ -451,10 +615,16 @@
       "title": "tarfile.extractall() with the 'data' or 'tar'\n filter could be by ...",
       "description": "tarfile.extractall() with the 'data' or 'tar'\n filter could be bypassed by a crafted archive where a hardlink \nreferences a symlink stored at a deeper name than the hardlink itself.  \nThe extraction fallback validated the symlink at it's archived location \nbut recreated it at the hardlink's shallower\npath, letting a relative\n target the filter judged contained escape the destination directory.  \nThis allowed a malicious tar archive to create a symlink pointing \noutside the destination, enabling out-of-destination file reads or \nwrites. This was an incomplete fix of CVE-2025-4330.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -464,10 +634,16 @@
       "title": "When using the \"tarfile\" module with a file opened in \"streaming  ...",
       "description": "When using the \"tarfile\" module with a file opened in \"streaming mode\" (mode=\"r|\") the tarfile module did not properly handle EOF, making archive parsing take exponentially longer.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -479,6 +655,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -494,6 +675,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
@@ -505,10 +691,16 @@
       "title": "The incremental HTML parser (html.parser.HTMLParser) allows for C ...",
       "description": "The incremental HTML parser (html.parser.HTMLParser) allows for CPU\ndenial-of-service through repeated unterminated markup declarations when\nprocessing uncontrolled data.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -520,6 +712,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -535,6 +732,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
@@ -546,10 +748,16 @@
       "title": "When calling base64.b64decode() or related functions the decoding ...",
       "description": "When calling base64.b64decode() or related functions the decoding process would stop after encountering the first padded quad regardless of whether there was more information to be processed. This can lead to data being accepted which may be processed differently by other implementations. Use \"validate=True\" to enable stricter processing of base64 data.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -561,6 +769,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -576,6 +789,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
@@ -587,10 +805,16 @@
       "title": "In the Tarfile.extract() function, the filter parameter is not pa ...",
       "description": "In the Tarfile.extract() function, the filter parameter is not passed properly when extracting hardlinks. An affected system that extracts content from untrusted tar files could end up writing files with an unexpected uid/gid despite the user passing filter='data' to the extract() function.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -602,6 +826,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -617,6 +846,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
@@ -630,6 +864,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -645,6 +884,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
@@ -656,10 +900,16 @@
       "title": "`Element.findall()` and fully-consumed `Element.iterfind()` exhib ...",
       "description": "`Element.findall()` and fully-consumed `Element.iterfind()` exhibit `O(n^2)` time complexity when using XPath index predicates (e.g. `[1]`, `[last()]`, `[last()-N]`) on XML documents with many same-tag siblings. `Element.find()` is only affected when the first match is near the end  of the sibling list, such as with `[last()]` or `[last()-N]`;  `.//item[1]` short-circuits after the first match.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -669,10 +919,16 @@
       "title": "`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient  ...",
       "description": "`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient entropy for Expat hash-flooding protection, which allows a crafted XML document to trigger hash flooding.\\r\\n\\r\\nFully mitigating this vulnerability requires both updating libexpat to 2.8.0 or later and applying this patch.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
+          "fixed": "0:3.12.3-1ubuntu0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -684,6 +940,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
@@ -699,6 +960,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",
           "identifier": "ubuntu"
@@ -712,6 +978,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.12.12-2rfubu.1",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:3.12.3-1",
           "fixed": "0:3.12.3-1ubuntu0.15",

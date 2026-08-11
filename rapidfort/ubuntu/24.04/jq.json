@@ -11,11 +11,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.1"
+          "fixed": "0:1.6-2.1ubuntu3.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.1"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -28,7 +30,8 @@
       "events": [
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.1"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -41,11 +44,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.1"
+          "fixed": "0:1.6-2.1ubuntu3.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.1"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -58,11 +63,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.2"
+          "fixed": "0:1.6-2.1ubuntu3.2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.2"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -75,11 +82,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.2"
+          "fixed": "0:1.6-2.1ubuntu3.2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.2"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -92,11 +101,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.2"
+          "fixed": "0:1.6-2.1ubuntu3.2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.2"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -109,11 +120,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.2"
+          "fixed": "0:1.6-2.1ubuntu3.2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.2"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -126,11 +139,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.2"
+          "fixed": "0:1.6-2.1ubuntu3.2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.2"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -143,11 +158,13 @@
       "events": [
         {
           "introduced": "0:1.6-2.1ubuntu3",
-          "fixed": "0:1.6-2.1ubuntu3.2"
+          "fixed": "0:1.6-2.1ubuntu3.2",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:1.7.1-3build1",
-          "fixed": "0:1.7.1-3ubuntu0.24.04.2"
+          "fixed": "0:1.7.1-3ubuntu0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -159,10 +176,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.6-2.1ubuntu3"
+          "introduced": "0:1.6-2.1ubuntu3",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.7.1-3build1"
+          "introduced": "0:1.7.1-3build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -174,10 +193,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.6-2.1ubuntu3"
+          "introduced": "0:1.6-2.1ubuntu3",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.7.1-3build1"
+          "introduced": "0:1.7.1-3build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -189,10 +210,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.6-2.1ubuntu3"
+          "introduced": "0:1.6-2.1ubuntu3",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.7.1-3build1"
+          "introduced": "0:1.7.1-3build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -204,10 +227,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.6-2.1ubuntu3"
+          "introduced": "0:1.6-2.1ubuntu3",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.7.1-3build1"
+          "introduced": "0:1.7.1-3build1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -219,10 +244,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.6-2.1ubuntu3"
+          "introduced": "0:1.6-2.1ubuntu3",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.7.1-3build1"
+          "introduced": "0:1.7.1-3build1",
+          "identifier": "ubuntu"
         }
       ]
     }

@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "1:2.0.6-1build1",
-          "fixed": "1:2.0.6-1+deb13u1build0.24.04.2"
+          "fixed": "1:2.0.6-1+deb13u1build0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "1:2.0.6-1build1",
-          "fixed": "1:2.0.6-1+deb13u1build0.24.04.2"
+          "fixed": "1:2.0.6-1+deb13u1build0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "1:2.0.6-1build1",
-          "fixed": "1:2.0.6-1+deb13u1build0.24.04.2"
+          "fixed": "1:2.0.6-1+deb13u1build0.24.04.2",
+          "identifier": "ubuntu"
         }
       ]
     }

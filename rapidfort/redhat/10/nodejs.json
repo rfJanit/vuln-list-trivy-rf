@@ -2817,6 +2817,19 @@
         }
       ]
     },
+    "CVE-2026-58041": {
+      "cve_id": "CVE-2026-58041",
+      "title": "A flaw in Node.js node:sqlite allows a stale StatementSyncIterato ...",
+      "description": "A flaw in Node.js node:sqlite allows a stale StatementSyncIterator created through DatabaseSync#createTagStore() to continue executing a cached prepared statement after it has been reset and rebound with new parameters. SQLTagStore resets cached statements using sqlite3_reset() directly, bypassing the iterator invalidation mechanism introduced for StatementSync in recent releases\r\n\r\nThis vulnerability affects Node.js **22.x**, **24.x**, and **26.x**.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
+    },
     "CVE-2026-58042": {
       "cve_id": "CVE-2026-58042",
       "title": "A flaw in Node.js can cause dns.resolveAny() Aborts the Node.js P ...",
@@ -2859,6 +2872,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
         }
@@ -2871,6 +2888,10 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"

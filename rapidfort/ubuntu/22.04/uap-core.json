@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:0.15.0-1"
+          "introduced": "1:0.15.0-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:0.18.0-1"
+          "introduced": "1:0.18.0-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:0.15.0-1"
+          "introduced": "1:0.15.0-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "1:0.18.0-1"
+          "introduced": "1:0.18.0-1",
+          "identifier": "ubuntu"
         }
       ]
     }

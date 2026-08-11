@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "4:5.1.1+dfsg1-5ubuntu1",
-          "fixed": "4:5.1.4+dfsg1-1"
+          "fixed": "4:5.1.4+dfsg1-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -23,10 +24,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "4:5.1.1+dfsg1-5ubuntu1"
+          "introduced": "4:5.1.1+dfsg1-5ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "4:5.2.1+dfsg-3"
+          "introduced": "4:5.2.1+dfsg-3",
+          "identifier": "ubuntu"
         }
       ]
     }

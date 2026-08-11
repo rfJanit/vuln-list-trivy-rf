@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "0:1.50+dfsg-10",
-          "fixed": "0:1.50+dfsg-10ubuntu0.1"
+          "fixed": "0:1.50+dfsg-10ubuntu0.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "0:1.50+dfsg-10",
-          "fixed": "0:1.50+dfsg-10ubuntu0.1"
+          "fixed": "0:1.50+dfsg-10ubuntu0.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "0:1.50+dfsg-10",
-          "fixed": "0:1.50+dfsg-10ubuntu0.1"
+          "fixed": "0:1.50+dfsg-10ubuntu0.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "0:1.50+dfsg-10",
-          "fixed": "0:1.50+dfsg-10ubuntu0.1"
+          "fixed": "0:1.50+dfsg-10ubuntu0.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "0:1.50+dfsg-10",
-          "fixed": "0:1.50+dfsg-10ubuntu0.1"
+          "fixed": "0:1.50+dfsg-10ubuntu0.1",
+          "identifier": "ubuntu"
         }
       ]
     }

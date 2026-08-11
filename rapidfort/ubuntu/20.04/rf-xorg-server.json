@@ -10,7 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:21.1.12-1ubuntu1.5",
+          "introduced": "0",
           "identifier": "ubuntu"
         }
       ]
@@ -23,7 +23,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:21.1.12-1ubuntu1.5",
+          "introduced": "0",
           "identifier": "ubuntu"
         }
       ]

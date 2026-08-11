@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "1:3.06.0.1-2",
-          "fixed": "1:3.06.0.1-2ubuntu0.22.04.1"
+          "fixed": "1:3.06.0.1-2ubuntu0.22.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "1:3.06.0.1-2",
-          "fixed": "1:3.06.0.1-2ubuntu0.22.04.1"
+          "fixed": "1:3.06.0.1-2ubuntu0.22.04.1",
+          "identifier": "ubuntu"
         }
       ]
     }

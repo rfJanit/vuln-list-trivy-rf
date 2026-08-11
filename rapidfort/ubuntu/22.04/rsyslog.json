@@ -11,24 +11,27 @@
       "events": [
         {
           "introduced": "0:8.2112.0-2ubuntu2",
-          "fixed": "0:8.2112.0-2ubuntu2.2"
+          "fixed": "0:8.2112.0-2ubuntu2.2",
+          "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2026-61548": {
       "cve_id": "CVE-2026-61548",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "mmpstrucdata stack buffer overflow with oversized RFC5424 structu",
+      "description": "mmpstrucdata stack buffer overflow with oversized RFC5424 structured data",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
           "introduced": "0:8.2112.0-2ubuntu2",
-          "fixed": "0:8.2112.0-2ubuntu2.4"
+          "fixed": "0:8.2112.0-2ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "0:8.2312.0-3ubuntu9",
-          "fixed": "0:8.2312.0-3ubuntu9.3"
+          "fixed": "0:8.2312.0-3ubuntu9.3",
+          "identifier": "ubuntu"
         }
       ]
     }

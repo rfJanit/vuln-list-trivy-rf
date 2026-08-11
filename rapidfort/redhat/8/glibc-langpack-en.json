@@ -10,7 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -30,6 +30,25 @@
         }
       ]
     },
+    "CVE-2025-8058": {
+      "cve_id": "CVE-2025-8058",
+      "title": "The regcomp function in the GNU C library version from 2.4 to 2.4 ...",
+      "description": "The regcomp function in the GNU C library version from 2.4 to 2.41 is \nsubject to a double free if some previous allocation fails. It can be \naccomplished either by a malloc failure or by using an interposed malloc\n that injects random malloc failures. The double free can allow buffer \nmanipulation depending of how the regex is constructed. This issue \naffects all architectures and ABIs supported by the GNU C library.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:2.40-21.fc41",
+          "fixed": "0:2.40-27.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:2.41-9.fc42",
+          "identifier": "fc42"
+        }
+      ]
+    },
     "CVE-2026-0861": {
       "cve_id": "CVE-2026-0861",
       "title": "Passing too large an alignment to the memalign suite of functions ...",
@@ -38,7 +57,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -66,7 +85,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -94,7 +113,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -126,7 +145,7 @@
           "identifier": "el8"
         },
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -163,7 +182,7 @@
           "identifier": "el8"
         },
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -196,7 +215,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -224,7 +243,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -252,7 +271,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {
@@ -280,7 +299,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.40-27.fc41",
+          "introduced": "0:2.40-21.fc41",
           "identifier": "fc41"
         },
         {

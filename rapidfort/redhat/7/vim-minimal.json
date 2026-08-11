@@ -7,11 +7,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.1.1947, an uncontrolled search path vulnerability on Windows allows Vim to execute malicious executables placed in the current working directory for the current edited file. On Windows, when using cmd.exe as a shell, Vim resolves external commands by searching the current working directory before system paths. When Vim invokes tools such as findstr for :grep, external commands or filters via :!, or compiler/:make commands, it may inadvertently run a malicious executable present in the same directory as the file being edited. The issue affects Vim for Windows prior to version 9.1.1947.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -31,11 +35,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.1.2132, a heap buffer overflow vulnerability exists in Vim's tag file resolution logic when processing the 'helpfile' option. The vulnerability is located in the get_tagfname() function in src/tag.c. When processing help file tags, Vim copies the user-controlled 'helpfile' option value into a fixed-size heap buffer of MAXPATHL + 1 bytes (typically 4097 bytes) using an unsafe STRCPY() operation without any bounds checking. This issue has been patched in version 9.1.2132.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -57,8 +65,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -68,11 +80,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0073, an OS command injection vulnerability exists in the `netrw` standard plugin bundled with Vim. By inducing a user to open a crafted URL (e.g., using the `scp://` protocol handler), an attacker can execute arbitrary shell commands with the privileges of the Vim process. Version 9.2.0073 fixes the issue.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -89,8 +105,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -107,8 +127,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -125,8 +149,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -136,11 +164,15 @@
       "title": "Vim is an open source, command line text editor. Versions prior t ...",
       "description": "Vim is an open source, command line text editor. Versions prior to 9.2.0077 have a heap-buffer-overflow and a segmentation fault (SEGV) exist in Vim's swap file recovery logic. Both are caused by unvalidated fields read from crafted pointer blocks within a swap file. Version 9.2.0077 fixes the issue.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -157,8 +189,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -168,11 +204,15 @@
       "title": "Vim is an open source, command line text editor. From 9.1.0011 to ...",
       "description": "Vim is an open source, command line text editor. From 9.1.0011 to before 9.2.0137, Vim's NFA regex compiler, when encountering a collection containing a combining character as the endpoint of a character range (e.g. [0-0\\u05bb]), incorrectly emits the composing bytes of that character as separate NFA states. This corrupts the NFA postfix stack, resulting in NFA_START_COLL having a NULL out1 pointer. When nfa_max_width() subsequently traverses the compiled NFA to estimate match width for the look-behind assertion, it dereferences state-\u003eout1-\u003eout without a NULL check, causing a segmentation fault. This vulnerability is fixed in 9.2.0137.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -182,11 +222,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0202, a command injection vulnerability exists in Vim's glob() function on Unix-like systems. By including a newline character (\\n) in a pattern passed to glob(), an attacker may be able to execute arbitrary shell commands. This vulnerability depends on the user's 'shell' setting. This issue has been patched in version 9.2.0202.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -196,11 +240,15 @@
       "title": "Vim before 9.2.0272 allows code execution that happens immediatel ...",
       "description": "Vim before 9.2.0272 allows code execution that happens immediately upon opening a crafted file in the default configuration, because %{expr} injection occurs with tabpanel lacking P_MLE.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1914-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -217,8 +265,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -235,8 +287,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -253,8 +309,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -271,8 +331,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -289,8 +353,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -307,8 +375,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -325,8 +397,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -343,8 +419,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -361,8 +441,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -379,8 +463,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -397,8 +485,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -415,8 +507,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -426,11 +522,15 @@
       "title": "Vim is an open source, command line text editor. Prior to version ...",
       "description": "Vim is an open source, command line text editor. Prior to version 9.2.0597, Vim's Python omni-completion executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. Python evaluates function default values, parameter annotations, and class base expressions at definition time, so a hostile buffer can execute attacker-controlled Python expressions during omni-completion. The existing g:pythoncomplete_allow_import mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path, because the attacker-controlled code is not a harvested import/from statement. This issue has been patched in version 9.2.0597.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -447,8 +547,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -465,8 +569,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -476,11 +584,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.066 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0663, a Vimscript code injection vulnerability exists in s:NetrwLocalRmFile() in the netrw plugin (runtime/pack/dist/opt/netrw/autoload/netrw.vim) when deleting a local file from the browser. A filename derived from the buffer's directory listing is interpolated into an Ex command line passed to :execute with only the backslash character escaped, allowing a crafted filename containing a bar (|) to terminate the intended command and execute arbitrary Vimscript, including shell commands via :call system() and :!.  This vulnerability is fixed in 9.2.0663.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -490,11 +602,15 @@
       "title": "Vim is an open source, command line text editor. Prior to 9.2.067 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0670, get_text_props() in src/textprop.c reads a uint16 property count stored inline after a line's text and returns it as the number of 32-byte textprop_T entries that follow. The only check is a floor that guarantees room for a single entry; the count is never checked against the amount of data actually present. A line that declares a large count while carrying little data causes consumers to read far past the end of the line buffer. Such a line can be delivered through a crafted undo file, leading to a crash. This vulnerability is fixed in 9.2.0670.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -511,8 +627,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -522,11 +642,15 @@
       "title": "Vim is an open source, command line text editor. From 9.1.1784 un ...",
       "description": "Vim is an open source, command line text editor. From 9.1.1784 until 9.2.0678, when the bundled zip plugin autoload/zip.vim falls back to PowerShell to browse, read, extract, update or delete entries in a zip archive, it builds the PowerShell command by inserting archive entry names that are quoted only for the shell, not for PowerShell. A crafted entry name can break out of the intended string context and cause PowerShell to execute arbitrary commands with the privileges of the user running Vim, triggered by opening, viewing or extracting the archive. This vulnerability is fixed in 9.2.0678.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
+          "introduced": "2:9.1.1914-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -543,8 +667,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -561,8 +689,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -579,8 +711,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -597,8 +733,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -615,8 +755,12 @@
           "identifier": "el7"
         },
         {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.780-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -631,6 +775,10 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "2:9.1.1418-1.fc41",
+          "identifier": "fc41"
         },
         {
           "introduced": "2:9.1.1818-1.fc43",

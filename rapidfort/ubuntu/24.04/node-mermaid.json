@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:8.13.8+~cs10.4.16-1"
+          "introduced": "0:8.13.8+~cs10.4.16-1",
+          "identifier": "ubuntu"
         }
       ]
     }

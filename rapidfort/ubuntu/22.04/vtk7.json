@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:7.1.1+dfsg2-10.1build1"
+          "introduced": "0:7.1.1+dfsg2-10.1build1",
+          "identifier": "ubuntu"
         }
       ]
     }

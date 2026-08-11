@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2023.11.17-1"
+          "introduced": "0:2023.11.17-1",
+          "identifier": "ubuntu"
         }
       ]
     }

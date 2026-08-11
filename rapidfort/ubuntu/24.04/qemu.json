@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -22,7 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -35,7 +37,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -47,7 +50,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -59,7 +63,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -71,7 +76,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -83,7 +89,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -95,7 +102,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -107,7 +115,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -120,7 +129,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.2"
+          "fixed": "1:6.2+dfsg-2ubuntu6.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -133,7 +143,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -146,7 +157,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.15"
+          "fixed": "1:6.2+dfsg-2ubuntu6.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -158,7 +170,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -171,7 +184,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.6"
+          "fixed": "1:6.2+dfsg-2ubuntu6.6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -184,7 +198,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.2"
+          "fixed": "1:6.2+dfsg-2ubuntu6.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -197,7 +212,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.2"
+          "fixed": "1:6.2+dfsg-2ubuntu6.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -210,7 +226,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.2"
+          "fixed": "1:6.2+dfsg-2ubuntu6.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -223,7 +240,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.6"
+          "fixed": "1:6.2+dfsg-2ubuntu6.6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -236,7 +254,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.2"
+          "fixed": "1:6.2+dfsg-2ubuntu6.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -249,7 +268,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.11"
+          "fixed": "1:6.2+dfsg-2ubuntu6.11",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -262,7 +282,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.2"
+          "fixed": "1:6.2+dfsg-2ubuntu6.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -275,7 +296,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.2"
+          "fixed": "1:6.2+dfsg-2ubuntu6.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -288,7 +310,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.6"
+          "fixed": "1:6.2+dfsg-2ubuntu6.6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -300,7 +323,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -313,7 +337,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.11"
+          "fixed": "1:6.2+dfsg-2ubuntu6.11",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -326,7 +351,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.6"
+          "fixed": "1:6.2+dfsg-2ubuntu6.6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -339,7 +365,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.11"
+          "fixed": "1:6.2+dfsg-2ubuntu6.11",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -351,7 +378,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -364,7 +392,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -377,7 +406,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -390,7 +420,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.24"
+          "fixed": "1:6.2+dfsg-2ubuntu6.24",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -403,7 +434,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -416,7 +448,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -429,7 +462,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -442,7 +476,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -455,7 +490,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.16"
+          "fixed": "1:6.2+dfsg-2ubuntu6.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -468,7 +504,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.22"
+          "fixed": "1:6.2+dfsg-2ubuntu6.22",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -481,7 +518,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.22"
+          "fixed": "1:6.2+dfsg-2ubuntu6.22",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -494,7 +532,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.22"
+          "fixed": "1:6.2+dfsg-2ubuntu6.22",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -507,7 +546,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.27"
+          "fixed": "1:6.2+dfsg-2ubuntu6.27",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -520,7 +560,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.27"
+          "fixed": "1:6.2+dfsg-2ubuntu6.27",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -533,7 +574,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.27"
+          "fixed": "1:6.2+dfsg-2ubuntu6.27",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -546,7 +588,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.27"
+          "fixed": "1:6.2+dfsg-2ubuntu6.27",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -559,7 +602,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.30"
+          "fixed": "1:6.2+dfsg-2ubuntu6.30",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -572,7 +616,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.27"
+          "fixed": "1:6.2+dfsg-2ubuntu6.27",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -585,7 +630,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.24"
+          "fixed": "1:6.2+dfsg-2ubuntu6.24",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -598,7 +644,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.28"
+          "fixed": "1:6.2+dfsg-2ubuntu6.28",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -610,7 +657,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -623,7 +671,8 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.28"
+          "fixed": "1:6.2+dfsg-2ubuntu6.28",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -636,31 +685,34 @@
       "events": [
         {
           "introduced": "1:6.2+dfsg-2ubuntu6",
-          "fixed": "1:6.2+dfsg-2ubuntu6.30"
+          "fixed": "1:6.2+dfsg-2ubuntu6.30",
+          "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2026-3890": {
       "cve_id": "CVE-2026-3890",
-      "title": "Amazon Linux 2 2017.12 - ALAS2-2026-3293: medium priority package update for qemu",
-      "description": "virtio-scsi request size mismatch NOTE: Fixed by: https://gitlab.com/qemu-project/qemu/-/commit/79971302935472232a68073faddb085177e3ca54 (v11.0.0-rc3)",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2026-5763": {
       "cve_id": "CVE-2026-5763",
-      "title": "Amazon Linux 2 2017.12 - ALAS2-2026-3293: medium priority package update for qemu",
-      "description": "virtio-scsi request size mismatch NOTE: Fixed by: https://gitlab.com/qemu-project/qemu/-/commit/79971302935472232a68073faddb085177e3ca54 (v11.0.0-rc3)",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
-          "introduced": "1:6.2+dfsg-2ubuntu6"
+          "introduced": "1:6.2+dfsg-2ubuntu6",
+          "identifier": "ubuntu"
         }
       ]
     }

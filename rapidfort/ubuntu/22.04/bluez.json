@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -40,10 +44,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -55,10 +61,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -70,10 +78,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -85,10 +95,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -100,10 +112,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -115,10 +129,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -130,10 +146,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -145,10 +163,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -160,10 +180,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -175,10 +197,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -190,10 +214,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -205,10 +231,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -220,10 +248,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -235,10 +265,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -250,10 +282,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -265,10 +299,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -280,10 +316,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -295,10 +333,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -310,10 +350,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -325,10 +367,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -341,7 +385,8 @@
       "events": [
         {
           "introduced": "0:5.64-0ubuntu1",
-          "fixed": "0:5.64-0ubuntu1.3"
+          "fixed": "0:5.64-0ubuntu1.3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -354,7 +399,8 @@
       "events": [
         {
           "introduced": "0:5.64-0ubuntu1",
-          "fixed": "0:5.64-0ubuntu1.3"
+          "fixed": "0:5.64-0ubuntu1.3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -366,10 +412,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -382,7 +430,8 @@
       "events": [
         {
           "introduced": "0:5.64-0ubuntu1",
-          "fixed": "0:5.64-0ubuntu1.1"
+          "fixed": "0:5.64-0ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -395,7 +444,8 @@
       "events": [
         {
           "introduced": "0:5.64-0ubuntu1",
-          "fixed": "0:5.64-0ubuntu1.4"
+          "fixed": "0:5.64-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -408,7 +458,8 @@
       "events": [
         {
           "introduced": "0:5.64-0ubuntu1",
-          "fixed": "0:5.64-0ubuntu1.4"
+          "fixed": "0:5.64-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -420,10 +471,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -435,10 +488,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -450,10 +505,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -465,10 +522,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -480,10 +539,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:5.64-0ubuntu1"
+          "introduced": "0:5.64-0ubuntu1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:5.72-0ubuntu5"
+          "introduced": "0:5.72-0ubuntu5",
+          "identifier": "ubuntu"
         }
       ]
     }

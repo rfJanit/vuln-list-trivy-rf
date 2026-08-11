@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:105-1"
+          "introduced": "0:105-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:108-1"
+          "introduced": "0:108-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:105-1"
+          "introduced": "0:105-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:108-1"
+          "introduced": "0:108-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -40,10 +44,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:105-1"
+          "introduced": "0:105-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:108-1"
+          "introduced": "0:108-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -55,10 +61,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:105-1"
+          "introduced": "0:105-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:108-1"
+          "introduced": "0:108-1",
+          "identifier": "ubuntu"
         }
       ]
     }

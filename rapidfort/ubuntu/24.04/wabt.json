@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "0:1.0.27-1",
-          "fixed": "0:1.0.34-1"
+          "fixed": "0:1.0.34-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "0:1.0.27-1",
-          "fixed": "0:1.0.34-1"
+          "fixed": "0:1.0.34-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "0:1.0.27-1",
-          "fixed": "0:1.0.34-1"
+          "fixed": "0:1.0.34-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "0:1.0.27-1",
-          "fixed": "0:1.0.34-1"
+          "fixed": "0:1.0.34-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "0:1.0.27-1",
-          "fixed": "0:1.0.34-1"
+          "fixed": "0:1.0.34-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -76,7 +81,8 @@
       "events": [
         {
           "introduced": "0:1.0.27-1",
-          "fixed": "0:1.0.34-1"
+          "fixed": "0:1.0.34-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -89,7 +95,8 @@
       "events": [
         {
           "introduced": "0:1.0.27-1",
-          "fixed": "0:1.0.34-1"
+          "fixed": "0:1.0.34-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -101,10 +108,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.0.27-1"
+          "introduced": "0:1.0.27-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2"
+          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -116,10 +125,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.0.27-1"
+          "introduced": "0:1.0.27-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2"
+          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -131,10 +142,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.0.27-1"
+          "introduced": "0:1.0.27-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2"
+          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -146,10 +159,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.0.27-1"
+          "introduced": "0:1.0.27-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2"
+          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -161,10 +176,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.0.27-1"
+          "introduced": "0:1.0.27-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2"
+          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -176,10 +193,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.0.27-1"
+          "introduced": "0:1.0.27-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2"
+          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -191,10 +210,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:1.0.27-1"
+          "introduced": "0:1.0.27-1",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2"
+          "introduced": "0:1.0.34+dsfg2+~cs1.0.32-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     }

@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.1"
+          "fixed": "2:21.0.1-0ubuntu2.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2"
+          "fixed": "2:21.0.1-0ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.1"
+          "fixed": "2:21.0.1-0ubuntu2.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,11 +53,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.1"
+          "fixed": "2:21.0.1-0ubuntu2.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.1"
+          "fixed": "2:25.0.0-0ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -67,11 +72,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.4"
+          "fixed": "2:21.0.1-0ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.4"
+          "fixed": "2:25.0.0-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -84,11 +91,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.4"
+          "fixed": "2:21.0.1-0ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.4"
+          "fixed": "2:25.0.0-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -101,11 +110,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.4"
+          "fixed": "2:21.0.1-0ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.4"
+          "fixed": "2:25.0.0-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -118,11 +129,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.4"
+          "fixed": "2:21.0.1-0ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.4"
+          "fixed": "2:25.0.0-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -135,11 +148,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.4"
+          "fixed": "2:21.0.1-0ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.4"
+          "fixed": "2:25.0.0-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -152,11 +167,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.4"
+          "fixed": "2:21.0.1-0ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.4"
+          "fixed": "2:25.0.0-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -169,11 +186,13 @@
       "events": [
         {
           "introduced": "2:21.0.0-0ubuntu1",
-          "fixed": "2:21.0.1-0ubuntu2.4"
+          "fixed": "2:21.0.1-0ubuntu2.4",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "2:25.0.0-0ubuntu1",
-          "fixed": "2:25.0.0-0ubuntu1.4"
+          "fixed": "2:25.0.0-0ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     }

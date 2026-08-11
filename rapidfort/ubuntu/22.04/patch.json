@@ -10,10 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.7.6-7build2"
+          "introduced": "0:2.7.6-7build2",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:2.7.6-7build3"
+          "introduced": "0:2.7.6-7build3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -25,10 +27,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.7.6-7build2"
+          "introduced": "0:2.7.6-7build2",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:2.7.6-7build3"
+          "introduced": "0:2.7.6-7build3",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -40,10 +44,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:2.7.6-7build2"
+          "introduced": "0:2.7.6-7build2",
+          "identifier": "ubuntu"
         },
         {
-          "introduced": "0:2.7.6-7build3"
+          "introduced": "0:2.7.6-7build3",
+          "identifier": "ubuntu"
         }
       ]
     }

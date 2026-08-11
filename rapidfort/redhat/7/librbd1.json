@@ -10,12 +10,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -27,12 +31,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -44,12 +52,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -61,12 +73,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -78,12 +94,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -95,12 +115,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -112,12 +136,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -129,12 +157,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -146,12 +178,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -163,12 +199,16 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:19.2.3-7.fc41",
+          "introduced": "2:19.2.0-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "2:19.2.3-8.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "2:20.2.1-1.fc44",
+          "identifier": "fc44"
         }
       ]
     }

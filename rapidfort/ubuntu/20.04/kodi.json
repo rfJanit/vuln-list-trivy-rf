@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "2:19.4+dfsg1-2",
-          "fixed": "2:20.5+dfsg-1build2"
+          "fixed": "2:20.5+dfsg-1build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "2:19.4+dfsg1-2",
-          "fixed": "2:20.5+dfsg-1build2"
+          "fixed": "2:20.5+dfsg-1build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "2:19.4+dfsg1-2",
-          "fixed": "2:20.5+dfsg-1build2"
+          "fixed": "2:20.5+dfsg-1build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "2:19.4+dfsg1-2",
-          "fixed": "2:20.5+dfsg-1build2"
+          "fixed": "2:20.5+dfsg-1build2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "2:19.4+dfsg1-2",
-          "fixed": "2:20.5+dfsg-1build2"
+          "fixed": "2:20.5+dfsg-1build2",
+          "identifier": "ubuntu"
         }
       ]
     }

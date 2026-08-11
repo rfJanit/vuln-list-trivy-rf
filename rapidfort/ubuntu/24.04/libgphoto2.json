@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "0:2.5.31-2.1ubuntu1",
-          "fixed": "0:2.5.31-2.1ubuntu1.1"
+          "fixed": "0:2.5.31-2.1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -24,7 +25,8 @@
       "events": [
         {
           "introduced": "0:2.5.31-2.1ubuntu1",
-          "fixed": "0:2.5.31-2.1ubuntu1.1"
+          "fixed": "0:2.5.31-2.1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -37,7 +39,8 @@
       "events": [
         {
           "introduced": "0:2.5.31-2.1ubuntu1",
-          "fixed": "0:2.5.31-2.1ubuntu1.1"
+          "fixed": "0:2.5.31-2.1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +53,8 @@
       "events": [
         {
           "introduced": "0:2.5.31-2.1ubuntu1",
-          "fixed": "0:2.5.31-2.1ubuntu1.1"
+          "fixed": "0:2.5.31-2.1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -63,7 +67,8 @@
       "events": [
         {
           "introduced": "0:2.5.31-2.1ubuntu1",
-          "fixed": "0:2.5.31-2.1ubuntu1.1"
+          "fixed": "0:2.5.31-2.1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -76,7 +81,8 @@
       "events": [
         {
           "introduced": "0:2.5.31-2.1ubuntu1",
-          "fixed": "0:2.5.31-2.1ubuntu1.1"
+          "fixed": "0:2.5.31-2.1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -89,7 +95,8 @@
       "events": [
         {
           "introduced": "0:2.5.31-2.1ubuntu1",
-          "fixed": "0:2.5.31-2.1ubuntu1.1"
+          "fixed": "0:2.5.31-2.1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     }

@@ -38,6 +38,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:2.5.2-1build1+rf.1",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.5.3-0rfubu",
           "identifier": "rf"
         },
@@ -66,6 +70,11 @@
         {
           "introduced": "0:2.5.0-2ubuntu0.3",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.5.2-1build1+rf.1",
+          "fixed": "0:2.5.3-0rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -79,6 +88,11 @@
         {
           "introduced": "0:0",
           "fixed": "0:2.5.3-12rfubu",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:2.5.2-1build1+rf.1",
+          "fixed": "0:2.5.3-0rfubu",
           "identifier": "rf"
         },
         {

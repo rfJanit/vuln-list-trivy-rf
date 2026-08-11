@@ -10,7 +10,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:0.20170904-1.1"
+          "introduced": "0:0.20170904-1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -22,7 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:0.20170904-1.1"
+          "introduced": "0:0.20170904-1.1",
+          "identifier": "ubuntu"
         }
       ]
     }

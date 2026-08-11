@@ -2,6 +2,25 @@
   "package_name": "mariadb",
   "distro_version": "24.04",
   "advisories": {
+    "CVE-2023-52969": {
+      "cve_id": "CVE-2023-52969",
+      "title": "MariaDB Server 10.4 through 10.5.*, 10.6 through 10.6.*, 10.7 thr ...",
+      "description": "MariaDB Server 10.4 through 10.5.*, 10.6 through 10.6.*, 10.7 through 10.11.*, and 11.0 through 11.0.* can sometimes crash with an empty backtrace log. This may be related to make_aggr_tables_info and optimize_stage2.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:10.11.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:11.4.5+maria~ubu2404",
+          "fixed": "1:11.4.7-0ubuntu0.25.04.1",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
     "CVE-2023-52970": {
       "cve_id": "CVE-2023-52970",
       "title": "MariaDB Server 10.4 through 10.5.*, 10.6 through 10.6.*, 10.7 thr ...",
@@ -10,8 +29,43 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.15+maria~ubu2404",
-          "fixed": "1:11.4.2-1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:10.11.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:11.4.5+maria~ubu2404",
+          "fixed": "1:11.4.7-0ubuntu0.25.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.4.2-1",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2023-52971": {
+      "cve_id": "CVE-2023-52971",
+      "title": "MariaDB Server 10.10 through 10.11.* and 11.0 through 11.4.* cras ...",
+      "description": "MariaDB Server 10.10 through 10.11.* and 11.0 through 11.4.* crashes in JOIN::fix_all_splittings_in_plan.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:10.11.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:11.4.5+maria~ubu2404",
+          "fixed": "1:11.4.7-0ubuntu0.25.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.4.2-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -23,8 +77,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.1-4"
+          "introduced": "1:11.4.5+maria~ubu2404",
+          "fixed": "1:11.8.1-4",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.1-4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -36,8 +96,52 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.4.5-0ubuntu0.24.10.1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:10.11.11-0ubuntu0.24.04.2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.4.5-0ubuntu0.24.10.1",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2025-30693": {
+      "cve_id": "CVE-2025-30693",
+      "title": "Vulnerability in the MySQL Server product of Oracle MySQL (compon ...",
+      "description": "Vulnerability in the MySQL Server product of Oracle MySQL (component: InnoDB).  Supported versions that are affected are 8.0.0-8.0.41, 8.4.0-8.4.4 and  9.0.0-9.2.0. Easily exploitable vulnerability allows high privileged attacker with network access via multiple protocols to compromise MySQL Server.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server as well as  unauthorized update, insert or delete access to some of MySQL Server accessible data. CVSS 3.1 Base Score 5.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H).",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:10.11.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:11.4.5+maria~ubu2404",
+          "fixed": "1:11.4.7-0ubuntu0.25.04.1",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2025-30722": {
+      "cve_id": "CVE-2025-30722",
+      "title": "Vulnerability in the MySQL Client product of Oracle MySQL (compon ...",
+      "description": "Vulnerability in the MySQL Client product of Oracle MySQL (component: Client: mysqldump).  Supported versions that are affected are 8.0.0-8.0.41, 8.4.0-8.4.4 and  9.0.0-9.2.0. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise MySQL Client.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all MySQL Client accessible data as well as  unauthorized update, insert or delete access to some of MySQL Client accessible data. CVSS 3.1 Base Score 5.9 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:N).",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:10.11.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:11.4.5+maria~ubu2404",
+          "fixed": "1:11.4.7-0ubuntu0.25.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -50,7 +154,8 @@
       "events": [
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-1"
+          "fixed": "1:11.8.6-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -62,12 +167,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-1"
+          "fixed": "1:11.8.6-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -79,12 +186,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-1"
+          "fixed": "1:11.8.6-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -97,7 +206,8 @@
       "events": [
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-1"
+          "fixed": "1:11.8.6-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -109,16 +219,19 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -131,11 +244,13 @@
       "events": [
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -147,16 +262,19 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -169,11 +287,13 @@
       "events": [
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -185,16 +305,19 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -206,16 +329,19 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -227,16 +353,19 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -248,16 +377,19 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:10.11.13-0ubuntu0.24.04.1",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "introduced": "1:10.11.10+maria~ubu2404",
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.5+maria~ubu2404",
-          "fixed": "1:11.8.6-5ubuntu0.1"
+          "fixed": "1:11.8.6-5ubuntu0.1",
+          "identifier": "ubuntu"
         },
         {
           "introduced": "1:11.8.6+maria~ubu2404",
-          "fixed": "1:11.8.8-1"
+          "fixed": "1:11.8.8-1",
+          "identifier": "ubuntu"
         }
       ]
     }

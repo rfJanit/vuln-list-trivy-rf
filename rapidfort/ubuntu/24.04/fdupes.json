@@ -11,7 +11,8 @@
       "events": [
         {
           "introduced": "1:2.1.2-1build1",
-          "fixed": "1:2.2.1-1"
+          "fixed": "1:2.2.1-1",
+          "identifier": "ubuntu"
         }
       ]
     }
