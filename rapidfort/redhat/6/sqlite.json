@@ -272,10 +272,6 @@
         {
           "introduced": "0:3.46.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.50.2-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -306,10 +302,6 @@
         {
           "introduced": "0:3.46.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.50.2-2.fc43",
-          "identifier": "fc43"
         }
       ]
     }

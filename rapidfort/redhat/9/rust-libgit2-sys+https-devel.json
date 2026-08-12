@@ -52,8 +52,8 @@
     },
     "CVE-2026-53585": {
       "cve_id": "CVE-2026-53585",
-      "title": "CVE-2026-53585",
-      "description": "Unbounded Memory Allocation via Delta Object Result-Size Header",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

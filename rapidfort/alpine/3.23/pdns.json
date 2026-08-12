@@ -4,8 +4,8 @@
   "advisories": {
     "CVE-2026-52682": {
       "cve_id": "CVE-2026-52682",
-      "title": "[A crafted DNS packet can cause increased memory and CPU consumpt",
-      "description": "[A crafted DNS packet can cause increased memory and CPU consumption]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

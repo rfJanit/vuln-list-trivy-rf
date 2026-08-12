@@ -614,6 +614,19 @@
         }
       ]
     },
+    "CVE-2026-72522": {
+      "cve_id": "CVE-2026-72522",
+      "title": "libexpat before 2.8.3 has an out-of-bounds read and resultant inf ...",
+      "description": "libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-9358": {
       "cve_id": "CVE-2026-9358",
       "title": "A vulnerability was determined in postcss-selector-parser up to 6 ...",
