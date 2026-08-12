@@ -288,17 +288,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc42",
+          "fixed": "9.0.116-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc43",
+          "fixed": "9.0.116-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc44",
+          "fixed": "9.0.116-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -369,17 +369,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc42",
+          "fixed": "9.0.116-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc43",
+          "fixed": "9.0.116-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc44",
+          "fixed": "9.0.116-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -398,17 +398,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc42",
+          "fixed": "9.0.116-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc43",
+          "fixed": "9.0.116-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc44",
+          "fixed": "9.0.116-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -427,17 +427,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc42",
+          "fixed": "9.0.116-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc43",
+          "fixed": "9.0.116-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.106-1.fc44",
+          "fixed": "9.0.116-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -456,17 +456,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.108-1.fc42",
+          "fixed": "9.0.117-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.108-1.fc43",
+          "fixed": "9.0.117-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.108-1.fc44",
+          "fixed": "9.0.117-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -485,12 +485,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.109-1.fc43",
+          "fixed": "9.0.118-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.109-1.fc44",
+          "fixed": "9.0.118-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -509,12 +509,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.109-1.fc43",
+          "fixed": "9.0.118-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.109-1.fc44",
+          "fixed": "9.0.118-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -533,12 +533,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -557,12 +557,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -581,12 +581,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -605,12 +605,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -629,12 +629,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -653,12 +653,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -677,12 +677,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -701,12 +701,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -725,12 +725,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -749,12 +749,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -773,12 +773,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -797,12 +797,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -821,12 +821,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -845,12 +845,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -869,12 +869,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
         }
       ]
@@ -907,13 +907,81 @@
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc43",
+          "fixed": "9.0.119-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
-          "fixed": "10.0.110-1.fc44",
+          "fixed": "9.0.119-1.fc44",
           "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-62899": {
+      "cve_id": "CVE-2026-62899",
+      "title": "Inconsistent interpretation of http requests ('http request/respo ...",
+      "description": "Inconsistent interpretation of http requests ('http request/response smuggling') in .NET allows an unauthorized attacker to bypass a security feature over a network.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "9.0.8-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-62900": {
+      "cve_id": "CVE-2026-62900",
+      "title": "Improper removal of sensitive information before storage or trans ...",
+      "description": "Improper removal of sensitive information before storage or transfer in .NET allows an unauthorized attacker to disclose information over a network.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "9.0.8-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-62901": {
+      "cve_id": "CVE-2026-62901",
+      "title": "Unchecked input for loop condition in .NET allows an unauthorized ...",
+      "description": "Unchecked input for loop condition in .NET allows an unauthorized attacker to deny service over a network.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "9.0.8-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-62909": {
+      "cve_id": "CVE-2026-62909",
+      "title": "Uncaught exception in .NET allows an authorized attacker to eleva ...",
+      "description": "Uncaught exception in .NET allows an authorized attacker to elevate privileges locally.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "9.0.8-1.fc43",
+          "identifier": "fc43"
         }
       ]
     }

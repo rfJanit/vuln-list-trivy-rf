@@ -6,7 +6,7 @@
       "cve_id": "CVE-2024-39908",
       "title": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.1 has...",
       "description": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.1 has some  ...)",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -24,7 +24,7 @@
       "cve_id": "CVE-2024-41123",
       "title": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.2 has...",
       "description": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.2 has some  ...)",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -42,7 +42,7 @@
       "cve_id": "CVE-2024-41946",
       "title": "(REXML is an XML toolkit for Ruby. The REXML gem 3.3.2 has a DoS ...",
       "description": "(REXML is an XML toolkit for Ruby. The REXML gem 3.3.2 has a DoS vulner ...)",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -60,7 +60,7 @@
       "cve_id": "CVE-2024-43398",
       "title": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.6 has...",
       "description": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.6 has a DoS ...)",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -78,7 +78,7 @@
       "cve_id": "CVE-2024-49761",
       "title": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.9 has...",
       "description": "(REXML is an XML toolkit for Ruby. The REXML gem before 3.3.9 has a ReD ...)",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -96,7 +96,7 @@
       "cve_id": "CVE-2025-24294",
       "title": "(The attack vector is a potential Denial of Service (DoS). The vu...",
       "description": "(The attack vector is a potential Denial of Service (DoS). The vulnerab ...)",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -114,7 +114,7 @@
       "cve_id": "CVE-2025-25186",
       "title": "(Net::IMAP implements Internet Message Access Protocol (IMAP) cli...",
       "description": "(Net::IMAP implements Internet Message Access Protocol (IMAP) client fu ...)",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -132,7 +132,7 @@
       "cve_id": "CVE-2025-27219",
       "title": "(In the CGI gem before 0.4.2 for Ruby, the CGI::Cookie.parse meth...",
       "description": "(In the CGI gem before 0.4.2 for Ruby, the CGI::Cookie.parse method in  ...)",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -150,7 +150,7 @@
       "cve_id": "CVE-2025-27220",
       "title": "(In the CGI gem before 0.4.2 for Ruby, a Regular Expression Denia...",
       "description": "(In the CGI gem before 0.4.2 for Ruby, a Regular Expression Denial of S ...)",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -168,7 +168,7 @@
       "cve_id": "CVE-2025-27221",
       "title": "(In the URI gem before 1.0.3 for Ruby, the URI handling methods (...",
       "description": "(In the URI gem before 1.0.3 for Ruby, the URI handling methods (URI.jo ...)",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -186,7 +186,7 @@
       "cve_id": "CVE-2025-43857",
       "title": "(Net::IMAP implements Internet Message Access Protocol (IMAP) cli...",
       "description": "(Net::IMAP implements Internet Message Access Protocol (IMAP) client fu ...)",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
