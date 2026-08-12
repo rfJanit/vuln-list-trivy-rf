@@ -430,12 +430,8 @@
       "title": "ssh in OpenSSH before 10.4 can have a use-after-free when a serve ...",
       "description": "ssh in OpenSSH before 10.4 can have a use-after-free when a server changes its host key during a key re-exchange. (This outcome occurs only on the client side.)",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
         {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-11.fc43",

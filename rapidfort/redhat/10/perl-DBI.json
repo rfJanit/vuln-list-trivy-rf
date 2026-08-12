@@ -168,6 +168,23 @@
         }
       ]
     },
+    "CVE-2026-19546": {
+      "cve_id": "CVE-2026-19546",
+      "title": "A flaw was found in DBI. This is a fix for a partial fix for CVE- ...",
+      "description": "A flaw was found in DBI. This is a fix for a partial fix for CVE-2026-14380 for RHEL 9.8.z and 10.2.z.\n\nFor a detailed Statement, Description and Mitigation please reffer to the original https://access.redhat.com/security/cve/cve-2026-19546.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "1.647-4.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-60081": {
       "cve_id": "CVE-2026-60081",
       "title": "DBI::ProfileData versions before 1.651 for Perl do not limit the  ...",
