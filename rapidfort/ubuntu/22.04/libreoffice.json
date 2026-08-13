@@ -99,7 +99,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "1:7.3.7-0ubuntu0.22.04.11",
+          "introduced": "1:7.3.7-0ubuntu0.22.04.12",
           "fixed": "1:7.4.2~rc1-0ubuntu1",
           "identifier": "ubuntu"
         }
@@ -123,7 +123,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "1:7.3.7-0ubuntu0.22.04.11",
+          "introduced": "1:7.3.7-0ubuntu0.22.04.12",
           "fixed": "1:7.4.6-0ubuntu0.22.10.1",
           "identifier": "ubuntu"
         }
@@ -147,7 +147,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "1:7.3.7-0ubuntu0.22.04.11",
+          "introduced": "1:7.3.7-0ubuntu0.22.04.12",
           "fixed": "1:7.4.7-0ubuntu0.22.10.1",
           "identifier": "ubuntu"
         }
