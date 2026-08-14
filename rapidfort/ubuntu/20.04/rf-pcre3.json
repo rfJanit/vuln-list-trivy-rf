@@ -10,7 +10,15 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2:8.39-12ubuntu0.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:8.39-13ubuntu0.22.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:8.39-15build1",
           "identifier": "ubuntu"
         }
       ]
@@ -23,7 +31,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:0",
+          "fixed": "2:8.39-12ubuntu0.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:8.39-15build1",
           "identifier": "ubuntu"
         }
       ]

@@ -141,6 +141,21 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.11-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.11-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.11-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.11-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -153,6 +168,21 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.11-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.11-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.11-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.11-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -174,6 +204,11 @@
           "introduced": "0:16.3-1.pgdg24.04+1",
           "fixed": "0:16.9-0ubuntu0.24.10.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.9-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -186,6 +221,16 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.10-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.10-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.10-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -202,6 +247,16 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.10-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.10-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.10-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -214,6 +269,16 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.10-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.10-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.10-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -230,6 +295,26 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.13-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -242,6 +327,26 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.13-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -258,6 +363,26 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.13-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -270,6 +395,26 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.13-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.13-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -286,6 +431,31 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -298,6 +468,31 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -314,6 +509,31 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -326,6 +546,31 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -342,6 +587,31 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -354,6 +624,31 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -370,6 +665,31 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -382,6 +702,31 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }
@@ -398,6 +743,31 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -412,6 +782,31 @@
           "introduced": "0:16.2-1ubuntu4",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -424,6 +819,31 @@
       "events": [
         {
           "introduced": "0:16.2-1ubuntu4",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.10-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.11-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.13-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.8-0ubuntu0.24.04.1",
+          "fixed": "0:16.14-0ubuntu0.24.04.1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:16.9-0ubuntu0.24.04.1",
           "fixed": "0:16.14-0ubuntu0.24.04.1",
           "identifier": "ubuntu"
         }

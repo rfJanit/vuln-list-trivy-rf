@@ -2163,6 +2163,11 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2180,6 +2185,11 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
         }
@@ -2201,6 +2211,11 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2218,6 +2233,11 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
         }
@@ -2239,6 +2259,11 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2256,6 +2281,11 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
         }
@@ -2277,6 +2307,11 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2296,6 +2331,11 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.10",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2308,6 +2348,16 @@
       "events": [
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.11",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.11",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.11",
           "identifier": "ubuntu"
         }
@@ -2329,6 +2379,16 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.11",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.11",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.11",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2346,6 +2406,16 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.11",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.11",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.11",
           "identifier": "ubuntu"
         }
@@ -2367,6 +2437,16 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.12",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2384,6 +2464,16 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.12",
           "identifier": "ubuntu"
         }
@@ -2405,6 +2495,16 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.13",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.13",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2422,6 +2522,21 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.14",
           "identifier": "ubuntu"
         }
@@ -2443,6 +2558,26 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.15",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2460,6 +2595,21 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.14",
           "identifier": "ubuntu"
         }
@@ -2481,6 +2631,21 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.14",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2498,6 +2663,26 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.15",
           "identifier": "ubuntu"
         }
@@ -2519,6 +2704,31 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.16",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2538,6 +2748,31 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.16",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2546,16 +2781,46 @@
       "title": "An issue in Vim Project v9.2.0389 and earlier allows a local atta ...",
       "description": "An issue in Vim Project v9.2.0389 and earlier allows a local attacker to execute arbitrary code via the vms_fixfilename() function within file vim/src/os_vms.c",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2:8.2.3995-1ubuntu2",
-          "fixed": "2:9.1.0016-1ubuntu7.9",
           "identifier": "ubuntu"
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
-          "fixed": "2:9.1.0016-1ubuntu7.9",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "identifier": "ubuntu"
         }
       ]
@@ -2565,16 +2830,46 @@
       "title": "An issue in Vim Project v9.2.0389 and earlier allows a local atta ...",
       "description": "An issue in Vim Project v9.2.0389 and earlier allows a local attacker to execute arbitrary code via the vms_fixfilename() function within file vim/src/os_vms.c",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "2:8.2.3995-1ubuntu2",
-          "fixed": "2:9.1.0016-1ubuntu7.9",
           "identifier": "ubuntu"
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
-          "fixed": "2:9.1.0016-1ubuntu7.9",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "identifier": "ubuntu"
         }
       ]
@@ -2593,6 +2888,31 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.16",
           "identifier": "ubuntu"
         }
@@ -2614,6 +2934,31 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.16",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2631,6 +2976,31 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.16",
           "identifier": "ubuntu"
         }
@@ -2652,6 +3022,36 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.17",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2669,6 +3069,36 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.17",
           "identifier": "ubuntu"
         }
@@ -2690,6 +3120,36 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.17",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2707,6 +3167,36 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.17",
           "identifier": "ubuntu"
         }
@@ -2728,6 +3218,36 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.17",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2745,6 +3265,36 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.17",
           "identifier": "ubuntu"
         }
@@ -2766,6 +3316,41 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.18",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.17",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2785,6 +3370,41 @@
           "introduced": "2:9.1.0016-1ubuntu7",
           "fixed": "2:9.1.0016-1ubuntu7.18",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.17",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -2802,6 +3422,41 @@
         },
         {
           "introduced": "2:9.1.0016-1ubuntu7",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.10",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.13",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.14",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.15",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.16",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.17",
+          "fixed": "2:9.1.0016-1ubuntu7.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "2:9.1.0016-1ubuntu7.9",
           "fixed": "2:9.1.0016-1ubuntu7.18",
           "identifier": "ubuntu"
         }

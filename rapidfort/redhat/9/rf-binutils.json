@@ -35,12 +35,12 @@
           "identifier": "fc41"
         },
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "0:2.45-2.fc44",
           "identifier": "fc44"
         },
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "0:2.46-1.fc45",
           "identifier": "fc45"
         }
@@ -58,7 +58,7 @@
           "identifier": "el9"
         },
         {
-          "introduced": "2.45-1.fc43",
+          "introduced": "0:2.45-1.fc43",
           "fixed": "0:2.45.1-1.fc43",
           "identifier": "fc43"
         }
@@ -72,7 +72,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.45-1.fc43",
+          "introduced": "0:2.45-1.fc43",
           "fixed": "0:2.45.1-1.fc43",
           "identifier": "fc43"
         }
@@ -258,12 +258,12 @@
           "identifier": "fc41"
         },
         {
-          "introduced": "2.45-1.fc43",
+          "introduced": "0:2.45-1.fc43",
           "fixed": "0:2.45.1-1.fc43",
           "identifier": "fc43"
         },
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "0:2.46-1.fc45",
           "identifier": "fc45"
         }
@@ -285,12 +285,12 @@
           "identifier": "fc41"
         },
         {
-          "introduced": "2.45-1.fc43",
+          "introduced": "0:2.45-1.fc43",
           "fixed": "0:2.45.1-1.fc43",
           "identifier": "fc43"
         },
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "0:2.46-1.fc45",
           "identifier": "fc45"
         }

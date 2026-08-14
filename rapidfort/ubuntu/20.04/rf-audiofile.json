@@ -10,7 +10,11 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:0.3.6-6build2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:0.3.6-6build2",
           "identifier": "ubuntu"
         }
       ]

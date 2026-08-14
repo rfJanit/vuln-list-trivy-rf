@@ -309,6 +309,16 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.8",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.8",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.8",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -442,6 +452,16 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.7",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -459,6 +479,16 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
           "fixed": "0:2.4.58-1ubuntu8.7",
           "identifier": "ubuntu"
         }
@@ -480,6 +510,16 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.7",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -497,6 +537,16 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
           "fixed": "0:2.4.58-1ubuntu8.7",
           "identifier": "ubuntu"
         }
@@ -518,6 +568,16 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.7",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -535,6 +595,16 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
           "fixed": "0:2.4.58-1ubuntu8.7",
           "identifier": "ubuntu"
         }
@@ -556,6 +626,16 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.7",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.7",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -573,6 +653,21 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.10",
           "identifier": "ubuntu"
         }
@@ -594,6 +689,21 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.10",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -611,6 +721,21 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.10",
           "identifier": "ubuntu"
         }
@@ -632,6 +757,21 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.10",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.10",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -649,6 +789,31 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
         }
@@ -670,6 +835,31 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -687,6 +877,41 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
         }
@@ -708,6 +933,31 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -725,6 +975,31 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
         }
@@ -746,6 +1021,41 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -763,6 +1073,31 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
         }
@@ -784,6 +1119,31 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -801,6 +1161,31 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
         }
@@ -822,6 +1207,31 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -839,6 +1249,31 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
         }
@@ -860,6 +1295,31 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.12",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.12",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -877,6 +1337,41 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
         }
@@ -898,6 +1393,41 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -915,6 +1445,41 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
         }
@@ -936,6 +1501,41 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -953,6 +1553,41 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
         }
@@ -974,6 +1609,41 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -991,6 +1661,41 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
         }
@@ -1012,6 +1717,41 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -1029,6 +1769,41 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
         }
@@ -1050,6 +1825,41 @@
           "introduced": "0:2.4.58-1ubuntu8",
           "fixed": "0:2.4.58-1ubuntu8.15",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.13",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
+          "fixed": "0:2.4.58-1ubuntu8.15",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -1067,6 +1877,36 @@
         },
         {
           "introduced": "0:2.4.58-1ubuntu8",
+          "fixed": "0:2.4.58-1ubuntu8.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.10",
+          "fixed": "0:2.4.58-1ubuntu8.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.11",
+          "fixed": "0:2.4.58-1ubuntu8.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.12",
+          "fixed": "0:2.4.58-1ubuntu8.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.5",
+          "fixed": "0:2.4.58-1ubuntu8.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.6",
+          "fixed": "0:2.4.58-1ubuntu8.13",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.4.58-1ubuntu8.8",
           "fixed": "0:2.4.58-1ubuntu8.13",
           "identifier": "ubuntu"
         }

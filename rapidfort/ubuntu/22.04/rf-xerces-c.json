@@ -10,7 +10,11 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:3.2.4+debian-1.2ubuntu2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:3.2.4+debian-1.2ubuntu2",
           "identifier": "ubuntu"
         }
       ]

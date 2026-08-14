@@ -14,12 +14,12 @@
           "identifier": "el9"
         },
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "0:1.4.1-2.fc36",
           "identifier": "fc36"
         },
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "0:1.4.0-5.fc37",
           "identifier": "fc37"
         }
