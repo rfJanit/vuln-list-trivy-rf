@@ -30,8 +30,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.86.5-11.rf",
-          "identifier": "rf"
+          "fixed": "2.87.2-2.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -49,8 +49,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.86.5-11.rf",
-          "identifier": "rf"
+          "fixed": "2.87.2-2.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -92,8 +92,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.86.5-11.rf",
-          "identifier": "rf"
+          "fixed": "2.87.2-2.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -116,8 +116,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.86.5-11.rf",
-          "identifier": "rf"
+          "fixed": "2.87.2-2.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -140,8 +140,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.86.5-11.rf",
-          "identifier": "rf"
+          "fixed": "2.87.2-2.fc45",
+          "identifier": "fc45"
         }
       ]
     },

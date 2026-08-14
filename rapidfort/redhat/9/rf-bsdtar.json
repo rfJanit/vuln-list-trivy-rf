@@ -16,13 +16,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.2-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.6-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -40,13 +40,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.2-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.6-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -64,13 +64,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.2-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.6-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -88,13 +88,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.2-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.6-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -112,13 +112,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.2-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.6-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -204,8 +204,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "fixed": "3.8.7-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },

@@ -25,11 +25,6 @@
       "events": [
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-1.fc42",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -41,11 +36,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.11-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -83,11 +73,6 @@
         },
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.13-1.el9",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -99,11 +84,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.11-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -119,11 +99,6 @@
       "events": [
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.11-1.el9",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -135,11 +110,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-1.fc42",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -155,11 +125,6 @@
       "events": [
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-1.el9",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -171,11 +136,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -275,11 +235,6 @@
       "events": [
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.11-1.el9",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -307,11 +262,6 @@
       "events": [
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.11-1.el9",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -323,11 +273,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-1.fc42",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -358,11 +303,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -429,11 +369,6 @@
       "events": [
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-1.fc42",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -445,16 +380,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -513,11 +438,6 @@
         },
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.13-1.fc42",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -529,16 +449,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -563,11 +473,6 @@
         },
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.13-1.el9",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -583,11 +488,6 @@
           "introduced": "0:3.13.12-1.fc42",
           "fixed": "3.13.13-1.fc42",
           "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.13-1.fc42",
-          "identifier": "fc41"
         },
         {
           "introduced": "0:3.13.2-1.fc41",
@@ -609,11 +509,6 @@
         },
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.13-1.fc42",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -629,11 +524,6 @@
           "introduced": "0:3.13.12-1.fc42",
           "fixed": "3.13.13-1.fc42",
           "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.13-1.fc42",
-          "identifier": "fc41"
         },
         {
           "introduced": "0:3.13.2-1.fc41",
@@ -672,11 +562,6 @@
         },
         {
           "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.12-2.el9",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         }
       ]
@@ -688,16 +573,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -716,16 +591,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
-        {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         },
@@ -742,16 +607,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -787,16 +642,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
-        {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         },
@@ -813,16 +658,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
@@ -841,16 +676,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
-        {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"
         },
@@ -867,16 +692,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:3.13.12-1.fc42",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc42"
-        },
-        {
-          "introduced": "0:3.13.2-1.fc41",
-          "fixed": "3.13.14-1.el9",
-          "identifier": "fc41"
-        },
         {
           "introduced": "0:3.13.2-1.fc41",
           "identifier": "fc41"

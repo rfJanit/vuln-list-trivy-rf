@@ -16,13 +16,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.4.0-10.rf",
-          "identifier": "rf"
+          "fixed": "2.4.0-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.0-10.rf",
-          "identifier": "rf"
+          "fixed": "2.4.0-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -40,13 +40,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.4.0-10.rf",
-          "identifier": "rf"
+          "fixed": "2.4.0-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0",
-          "fixed": "2.4.0-10.rf",
-          "identifier": "rf"
+          "fixed": "2.4.0-1.fc45",
+          "identifier": "fc45"
         }
       ]
     }
