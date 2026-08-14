@@ -16,48 +16,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -70,8 +70,8 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:3.2.2-8.fc42",
-          "identifier": "fc42"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -84,48 +84,48 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -143,8 +143,8 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:3.2.6-3.fc42",
-          "identifier": "fc42"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -162,8 +162,8 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:3.2.6-3.fc42",
-          "identifier": "fc42"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -238,48 +238,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -302,33 +302,33 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -346,38 +346,38 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:3.2.6-3.fc42",
-          "identifier": "fc42"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -400,33 +400,33 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -449,48 +449,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -513,53 +513,53 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:3.5.5-2.fc45",
-          "identifier": "fc45"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -582,8 +582,8 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:3.5.5-2.fc45",
-          "identifier": "fc45"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -606,8 +606,8 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:3.5.5-2.fc45",
-          "identifier": "fc45"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -630,33 +630,33 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -679,48 +679,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -757,33 +757,33 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -806,48 +806,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -870,48 +870,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -929,48 +929,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1007,8 +1007,8 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:3.2.6-4.fc42",
-          "identifier": "fc42"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1031,48 +1031,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1173,48 +1173,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1340,48 +1340,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1404,48 +1404,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1468,48 +1468,48 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2d-2.fc23",
-          "identifier": "fc23"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-1.fc24",
-          "identifier": "fc24"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.0.2h-3.fc25",
-          "identifier": "fc25"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1a-1.0.riscv64.fc30",
-          "identifier": "fc30"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc31",
-          "identifier": "fc31"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1c-6.fc32",
-          "identifier": "fc32"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1d-7.fc33",
-          "identifier": "fc33"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1h-1.fc34",
-          "identifier": "fc34"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:1.1.1i-3.fc35",
-          "identifier": "fc35"
+          "fixed": "1:3.2.2-19.rf",
+          "identifier": "rf"
         }
       ]
     }

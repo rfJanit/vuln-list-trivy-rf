@@ -15,8 +15,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-4.fc45",
-          "identifier": "fc45"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -51,8 +51,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-4.fc45",
-          "identifier": "fc45"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -75,8 +75,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.11.1-7.fc42",
-          "identifier": "fc42"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -98,8 +98,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-4.fc45",
-          "identifier": "fc45"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -116,8 +116,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-4.fc45",
-          "identifier": "fc45"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -139,8 +139,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-4.fc45",
-          "identifier": "fc45"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -162,8 +162,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-4.fc45",
-          "identifier": "fc45"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -181,13 +181,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.9.1-4.fc41",
-          "identifier": "fc41"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "8.11.1-6.fc42",
-          "identifier": "fc42"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -223,8 +223,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-8.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -260,13 +260,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.11.1-8.fc42",
-          "identifier": "fc42"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-6.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -289,13 +289,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.11.1-8.fc42",
-          "identifier": "fc42"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-6.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -318,13 +318,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.11.1-8.fc42",
-          "identifier": "fc42"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-6.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -342,13 +342,13 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.11.1-8.fc42",
-          "identifier": "fc42"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-6.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -479,8 +479,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-8.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -539,8 +539,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-8.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -571,8 +571,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-8.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -665,8 +665,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "8.18.0-8.fc44",
-          "identifier": "fc44"
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
         }
       ]
     }

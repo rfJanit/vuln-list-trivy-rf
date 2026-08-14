@@ -11,8 +11,8 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2.12.7-1.fc40",
-          "identifier": "fc40"
+          "fixed": "2.12.10-14.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -30,18 +30,18 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.12.10-1.fc43",
-          "identifier": "fc43"
+          "fixed": "2.12.10-14.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "2.12.10-4.fc44",
-          "identifier": "fc44"
+          "fixed": "2.12.10-14.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0",
-          "fixed": "2.13.9-1.fc45",
-          "identifier": "fc45"
+          "fixed": "2.12.10-14.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -58,8 +58,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.13.9-1.fc45",
-          "identifier": "fc45"
+          "fixed": "2.12.10-14.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -76,8 +76,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "2.13.9-1.fc45",
-          "identifier": "fc45"
+          "fixed": "2.12.10-14.rf",
+          "identifier": "rf"
         }
       ]
     },

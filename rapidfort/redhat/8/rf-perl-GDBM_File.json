@@ -11,13 +11,13 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:5.42.3-524.fc43",
-          "identifier": "fc43"
+          "fixed": "1:1.24-533.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:5.42.3-525.fc44",
-          "identifier": "fc44"
+          "fixed": "1:1.24-533.rf",
+          "identifier": "rf"
         }
       ]
     }
