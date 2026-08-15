@@ -254,10 +254,11 @@
       "title": "Attacker-controlled CSV samples can trigger super-linear \nregular ...",
       "description": "Attacker-controlled CSV samples can trigger super-linear \nregular-expression work during dialect sniffing and consume significant \nCPU when applications pass unbounded input to csv.Sniffer.sniff().",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.14.3-r0"
+          "introduced": "3.14.3-r0",
+          "fixed": "3.14.7-r0"
         }
       ]
     },
@@ -279,10 +280,11 @@
       "title": "unicodedata.normalize() can take excessive CPU time when processi ...",
       "description": "unicodedata.normalize() can take excessive CPU time when processing\nspecially crafted Unicode input containing long runs of combining characters\nwith alternating Canonical Combining Class values.\nThis affects all normalization forms.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.14.3-r0"
+          "introduced": "3.14.3-r0",
+          "fixed": "3.14.7-r0"
         }
       ]
     },
@@ -421,10 +423,11 @@
       "title": "`Element.findall()` and fully-consumed `Element.iterfind()` exhib ...",
       "description": "`Element.findall()` and fully-consumed `Element.iterfind()` exhibit `O(n^2)` time complexity when using XPath index predicates (e.g. `[1]`, `[last()]`, `[last()-N]`) on XML documents with many same-tag siblings. `Element.find()` is only affected when the first match is near the end  of the sibling list, such as with `[last()]` or `[last()-N]`;  `.//item[1]` short-circuits after the first match.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.14.3-r0"
+          "introduced": "3.14.3-r0",
+          "fixed": "3.14.7-r0"
         }
       ]
     },
@@ -433,10 +436,11 @@
       "title": "`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient  ...",
       "description": "`xml.parsers.expat` and `xml.etree.ElementTree` use insufficient entropy for Expat hash-flooding protection, which allows a crafted XML document to trigger hash flooding.\\r\\n\\r\\nFully mitigating this vulnerability requires both updating libexpat to 2.8.0 or later and applying this patch.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.14.3-r0"
+          "introduced": "3.14.3-r0",
+          "fixed": "3.14.7-r0"
         }
       ]
     },
@@ -445,10 +449,24 @@
       "title": "tarfile.data_filter could be bypassed using crafted link entries, ...",
       "description": "tarfile.data_filter could be bypassed using crafted link entries, including symlinks with empty or directory-like names, to redirect later archive members outside the intended extraction directory. This allowed a malicious tar archive to cause tarfile.extractall() to write files outside the destination directory, subject to the permissions of the extracting process.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.14.3-r0"
+          "introduced": "3.14.3-r0",
+          "fixed": "3.14.7-r0"
+        }
+      ]
+    },
+    "CVE-2026-8328": {
+      "cve_id": "CVE-2026-8328",
+      "title": "The ftpcp() function in Lib/ftplib.py was not updated when \nCVE-2 ...",
+      "description": "The ftpcp() function in Lib/ftplib.py was not updated when \nCVE-2021-4189 was fixed. While makepasv() was patched to replace \nserver-supplied PASV host addresses with the actual peer address \n(getpeername()[0]), ftpcp() still calls parse227() directly and passes \nthe raw attacker-controllable IP address and port to target.sendport(). This patch is related to CVE-2021-4189.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.14.3-r0",
+          "fixed": "3.14.7-r0"
         }
       ]
     },
@@ -457,10 +475,11 @@
       "title": "bz2.BZ2Decompressor objects could be reused after a decompression ...",
       "description": "bz2.BZ2Decompressor objects could be reused after a decompression error. If an application caught the resulting OSError and retried with the same decompressor, crafted input could cause the decompressor to resume from an invalid internal state and perform out-of-bounds writes to a stack buffer. This could crash the process when processing untrusted data.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.14.3-r0"
+          "introduced": "3.14.3-r0",
+          "fixed": "3.14.7-r0"
         }
       ]
     }

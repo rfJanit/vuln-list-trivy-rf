@@ -642,6 +642,16 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -655,6 +665,16 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -668,6 +688,16 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc44",
+          "identifier": "fc44"
         }
       ]
     },
@@ -681,6 +711,16 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "9.0.120-1.fc44",
+          "identifier": "fc44"
         }
       ]
     }

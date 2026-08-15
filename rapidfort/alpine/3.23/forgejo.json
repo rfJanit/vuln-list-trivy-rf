@@ -1,0 +1,19 @@
+{
+  "package_name": "forgejo",
+  "distro_version": "3.23",
+  "advisories": {
+    "CVE-2026-60004": {
+      "cve_id": "CVE-2026-60004",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "13.0.5-r4",
+          "fixed": "15.0.6-r0"
+        }
+      ]
+    }
+  }
+}

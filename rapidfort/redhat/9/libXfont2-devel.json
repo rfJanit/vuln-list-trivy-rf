@@ -4,8 +4,8 @@
   "advisories": {
     "CVE-2026-44950": {
       "cve_id": "CVE-2026-44950",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Font Server Client Cumulative Glyph Data Heap Buffer Overflow]",
+      "description": "[Font Server Client Cumulative Glyph Data Heap Buffer Overflow]",
       "severity": "HIGH",
       "status": "open",
       "events": [
@@ -108,8 +108,8 @@
     },
     "CVE-2026-59679": {
       "cve_id": "CVE-2026-59679",
-      "title": "[Font Server Client encoding Out-Of-Bounds Read/Write]",
-      "description": "[Font Server Client encoding Out-Of-Bounds Read/Write]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "HIGH",
       "status": "open",
       "events": [
