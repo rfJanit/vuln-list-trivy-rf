@@ -83,6 +83,23 @@
         }
       ]
     },
+    "CVE-2026-13002": {
+      "cve_id": "CVE-2026-13002",
+      "title": "A flow has been identified into dnssec.c library, causing an infi ...",
+      "description": "A flow has been identified into dnssec.c library, causing an infinite loop to dnsmasq service. An attacker who controls any DNSSEC-signed zone can hang the dnsmasq process with a single crafted response, killing all DNS resolution for its clients.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el10"
+        },
+        {
+          "introduced": "2.90-7.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-2291": {
       "cve_id": "CVE-2026-2291",
       "title": "dnsmasqs extract_name() function can be abused to cause a heap bu ...",
