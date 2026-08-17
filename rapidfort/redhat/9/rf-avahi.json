@@ -2,6 +2,46 @@
   "package_name": "rf-avahi",
   "distro_version": "9",
   "advisories": {
+    "CVE-2017-6519": {
+      "cve_id": "CVE-2017-6519",
+      "title": "avahi-daemon in Avahi through 0.6.32 and 0.7 inadvertently respon ...",
+      "description": "avahi-daemon in Avahi through 0.6.32 and 0.7 inadvertently responds to IPv6 unicast queries with source addresses that are not on-link, which allows remote attackers to cause a denial of service (traffic amplification) and may cause information leakage by obtaining potentially sensitive  information from the responding device via port-5353 UDP packets.  NOTE: this may overlap CVE-2015-2809.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:0.9~rc2-11.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2021-26720": {
+      "cve_id": "CVE-2021-26720",
+      "title": "avahi-daemon-check-dns.sh in the Debian avahi package through 0.8 ...",
+      "description": "avahi-daemon-check-dns.sh in the Debian avahi package through 0.8-4 is executed as root via /etc/network/if-up.d/avahi-daemon, and allows a local attacker to cause a denial of service or create arbitrary empty files via a symlink attack on files under /run/avahi-daemon. NOTE: this only affects the packaging for Debian GNU/Linux (used indirectly by SUSE), not the upstream Avahi product.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
+        }
+      ]
+    },
+    "CVE-2021-3468": {
+      "cve_id": "CVE-2021-3468",
+      "title": "A flaw was found in avahi in versions 0.6 up to 0.8. The event us ...",
+      "description": "A flaw was found in avahi in versions 0.6 up to 0.8. The event used to signal the termination of the client connection on the avahi Unix socket is not correctly handled in the client_work function, allowing a local attacker to trigger an infinite loop. The highest threat from this vulnerability is to the availability of the avahi service, which becomes unresponsive after this flaw is triggered.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
+        }
+      ]
+    },
     "CVE-2023-38469": {
       "cve_id": "CVE-2023-38469",
       "title": "A vulnerability was found in Avahi, where a reachable assertion e ...",
@@ -10,8 +50,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -23,8 +67,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -36,8 +84,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -49,8 +101,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -62,8 +118,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -75,8 +135,17 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:0.9~rc2-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -88,8 +157,17 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:0.9~rc2-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -101,8 +179,17 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:0.9~rc2-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -114,8 +201,17 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:0.9~rc2-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -127,8 +223,17 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:0.9~rc2-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -140,8 +245,17 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
+          "introduced": "0.9~rc2-6.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:0.9~rc2-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:0.8-29.fc41",
+          "identifier": "fc41"
         }
       ]
     }

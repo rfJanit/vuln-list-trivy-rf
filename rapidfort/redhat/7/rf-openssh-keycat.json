@@ -15,14 +15,14 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "9.9p1-12.fc42",
+          "identifier": "fc42"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -39,14 +39,14 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "9.9p1-12.fc42",
+          "identifier": "fc42"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -58,24 +58,24 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "9.9p1-13.fc42",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0",
+          "fixed": "10.2p1-6.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "10.2p1-6.fc45",
+          "identifier": "fc45"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-7.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -87,19 +87,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "9.9p1-14.fc42",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0",
+          "fixed": "10.2p1-8.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -116,14 +116,14 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-8.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -140,14 +140,14 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-8.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -164,14 +164,14 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-8.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -188,14 +188,14 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-8.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-9.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -212,19 +212,19 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-11.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "10.3p1-5.fc45",
+          "identifier": "fc45"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-10.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -241,19 +241,19 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-11.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "10.3p1-5.fc45",
+          "identifier": "fc45"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-10.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -270,19 +270,19 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-11.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "10.3p1-5.fc45",
+          "identifier": "fc45"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-10.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -317,14 +317,14 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0",
+          "fixed": "10.2p1-13.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-11.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -426,14 +426,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "10.2p1-13.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-11.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
         }
       ]
     },

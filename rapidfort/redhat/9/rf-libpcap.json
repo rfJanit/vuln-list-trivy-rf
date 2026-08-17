@@ -14,6 +14,11 @@
           "identifier": "el9"
         },
         {
+          "introduced": "14:0",
+          "fixed": "14:1.10.6-1.fc42",
+          "identifier": "fc42"
+        },
+        {
           "introduced": "14:1.10.5-1.fc41",
           "identifier": "fc41"
         },
@@ -21,11 +26,6 @@
           "introduced": "14:1.10.5-3.fc43",
           "fixed": "14:1.10.6-1.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "14:0",
-          "fixed": "14:1.10.6-1.fc42",
-          "identifier": "fc42"
         }
       ]
     },
@@ -37,15 +37,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "14:1.10.5-1.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "14:1.10.5-3.fc43",
-          "fixed": "14:1.10.6-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "14:0",
           "fixed": "14:1.10.6-1.fc44",
           "identifier": "fc44"
@@ -54,6 +45,15 @@
           "introduced": "14:0",
           "fixed": "14:1.10.6-3.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "14:1.10.5-1.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "14:1.10.5-3.fc43",
+          "fixed": "14:1.10.6-1.fc43",
+          "identifier": "fc43"
         }
       ]
     }

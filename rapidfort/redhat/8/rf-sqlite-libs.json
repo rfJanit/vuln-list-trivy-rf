@@ -11,33 +11,28 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
+          "fixed": "0:3.45.2-1.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.46.1-1.fc42",
+          "identifier": "fc42"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.49.0-1.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.50.4-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.52.0-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -50,7 +45,12 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
+          "fixed": "0:3.45.1-4.fc40",
+          "identifier": "fc40"
+        },
+        {
+          "introduced": "0:3.46.1-1.fc41",
+          "fixed": "0:3.46.1-3.fc41",
           "identifier": "fc41"
         }
       ]
@@ -64,13 +64,13 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.50.4-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.52.0-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -83,13 +83,13 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.50.4-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.52.0-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -98,11 +98,12 @@
       "title": "An integer overflow can be triggered in SQLite’s `concat_ws()` fu ...",
       "description": "An integer overflow can be triggered in SQLite’s `concat_ws()` function. The resulting, truncated integer is then used to allocate a buffer. When SQLite then writes the resulting string to the buffer, it uses the original, untruncated size and thus a wild Heap Buffer overflow of size ~4GB can be triggered. This can result in arbitrary code execution.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el8"
+          "introduced": "0:3.46.1-1.fc41",
+          "fixed": "0:3.46.1-4.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -115,13 +116,13 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.50.4-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.52.0-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -134,7 +135,12 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
+          "fixed": "0:3.47.2-5.fc42",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:3.46.1-1.fc41",
+          "fixed": "0:3.46.1-4.fc41",
           "identifier": "fc41"
         }
       ]
@@ -152,13 +158,13 @@
           "identifier": "fc41"
         },
         {
-          "introduced": "3.50.2-2.fc43",
-          "identifier": "fc43"
+          "introduced": "0:0",
+          "fixed": "0:3.52.0-1.fc45",
+          "identifier": "fc45"
         },
         {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "introduced": "3.50.2-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -171,38 +177,38 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
+          "fixed": "0:3.41.2-1.fc39",
+          "identifier": "fc39"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.43.0-1.fc40",
+          "identifier": "fc40"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.45.2-1.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.46.1-1.fc42",
+          "identifier": "fc42"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.49.0-1.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.50.4-1.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
+          "fixed": "0:3.52.0-1.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -214,18 +220,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.50.4-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:3.52.0-1.fc45",
+          "identifier": "fc45"
+        },
+        {
           "introduced": "3.50.2-2.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
         }
       ]
     },
@@ -237,14 +243,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.51.2-2.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "0:3.50.2-2.fc43",
           "fixed": "0:3.50.2-3.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
         }
       ]
     },
@@ -269,14 +275,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:3.51.2-2.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "0:3.50.2-2.fc43",
           "fixed": "0:3.50.2-3.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.46.1-1.fc41",
-          "identifier": "fc41"
         }
       ]
     }

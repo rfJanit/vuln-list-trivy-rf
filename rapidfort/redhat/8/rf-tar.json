@@ -2,6 +2,20 @@
   "package_name": "rf-tar",
   "distro_version": "8",
   "advisories": {
+    "CVE-2023-39804": {
+      "cve_id": "CVE-2023-39804",
+      "title": "In GNU tar before 1.35, mishandled extension attributes in a PAX  ...",
+      "description": "In GNU tar before 1.35, mishandled extension attributes in a PAX archive can lead to an application crash in xheader.c.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2:0",
+          "fixed": "2:1.35-4.fc41",
+          "identifier": "fc41"
+        }
+      ]
+    },
     "CVE-2026-18477": {
       "cve_id": "CVE-2026-18477",
       "title": "A TOCTOU (Time-of-Check Time-of-Use) vulnerability in GNU tar's i ...",
@@ -12,10 +26,6 @@
         {
           "introduced": "2:1.35-10.rf",
           "identifier": "rf"
-        },
-        {
-          "introduced": "2:1.35-11.el10",
-          "identifier": "el10"
         },
         {
           "introduced": "2:1.35-4.fc41",
@@ -41,10 +51,6 @@
         {
           "introduced": "2:1.35-10.rf",
           "identifier": "rf"
-        },
-        {
-          "introduced": "2:1.35-11.el10",
-          "identifier": "el10"
         },
         {
           "introduced": "2:1.35-4.fc41",
@@ -80,6 +86,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "2:0",
+          "fixed": "2:1.35-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "2:1.35-4.fc41",
           "identifier": "fc41"
@@ -130,10 +141,6 @@
         {
           "introduced": "2:1.35-10.rf",
           "identifier": "rf"
-        },
-        {
-          "introduced": "2:1.35-11.el10",
-          "identifier": "el10"
         },
         {
           "introduced": "2:1.35-4.fc41",

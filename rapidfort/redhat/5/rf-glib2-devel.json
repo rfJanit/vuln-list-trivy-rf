@@ -24,14 +24,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
           "fixed": "2.87.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "2.86.0-2.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -43,14 +43,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
           "fixed": "2.87.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "2.86.0-2.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -76,14 +76,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
           "fixed": "2.87.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "2.86.0-2.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -95,14 +95,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
           "fixed": "2.87.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "2.86.0-2.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -114,14 +114,14 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.86.0-2.fc43",
-          "fixed": "2.86.5-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
           "fixed": "2.87.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "2.86.0-2.fc43",
+          "fixed": "2.86.5-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },

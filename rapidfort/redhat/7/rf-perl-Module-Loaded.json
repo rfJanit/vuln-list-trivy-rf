@@ -16,13 +16,13 @@
         },
         {
           "introduced": "1:0",
-          "fixed": "1:0.08-533.rf",
-          "identifier": "rf"
+          "fixed": "1:5.42.3-524.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "1:0",
-          "fixed": "1:0.08-533.rf",
-          "identifier": "rf"
+          "fixed": "1:5.42.3-525.fc44",
+          "identifier": "fc44"
         }
       ]
     }

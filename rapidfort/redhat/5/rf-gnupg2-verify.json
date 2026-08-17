@@ -24,11 +24,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.8-4.fc43",
-          "fixed": "2.4.9-5.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
           "fixed": "2.4.9-1.fc44",
           "identifier": "fc44"
@@ -37,6 +32,11 @@
           "introduced": "0",
           "fixed": "2.4.9-6.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "2.4.8-4.fc43",
+          "fixed": "2.4.9-5.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -48,11 +48,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.4.8-4.fc43",
-          "fixed": "2.4.9-5.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0",
           "fixed": "2.4.9-2.fc42",
           "identifier": "fc42"
@@ -61,6 +56,11 @@
           "introduced": "0",
           "fixed": "2.4.9-5.fc44",
           "identifier": "fc44"
+        },
+        {
+          "introduced": "2.4.8-4.fc43",
+          "fixed": "2.4.9-5.fc43",
+          "identifier": "fc43"
         }
       ]
     }
