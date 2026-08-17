@@ -1,0 +1,60 @@
+{
+  "package_name": "powershell",
+  "distro_version": "3.24",
+  "advisories": {
+    "CVE-2026-70337": {
+      "cve_id": "CVE-2026-70337",
+      "title": "Relative path traversal in Microsoft PowerShell Core allows an un ...",
+      "description": "Relative path traversal in Microsoft PowerShell Core allows an unauthorized attacker to execute code over a network.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-70338": {
+      "cve_id": "CVE-2026-70338",
+      "title": "Improper control of generation of code ('code injection') in Micr ...",
+      "description": "Improper control of generation of code ('code injection') in Microsoft PowerShell allows an unauthorized attacker to bypass a security feature locally.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        }
+      ]
+    }
+  }
+}

@@ -17,6 +17,11 @@
           "introduced": "0",
           "fixed": "25.11.4-7.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "26.05.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -35,6 +40,11 @@
           "introduced": "0",
           "fixed": "25.11.4-7.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "26.05.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     }

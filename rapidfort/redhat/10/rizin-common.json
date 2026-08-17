@@ -17,6 +17,11 @@
           "introduced": "0",
           "fixed": "0.8.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0.9.1-4.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -48,6 +53,11 @@
           "introduced": "0",
           "fixed": "0.8.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0.9.1-4.fc46",
+          "identifier": "fc46"
         }
       ]
     }

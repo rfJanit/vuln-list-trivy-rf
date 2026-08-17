@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "4.7.0-3.fc43",
-          "fixed": "4.8.0-1.fc43",
+          "fixed": "4.7.0-4.fc43",
           "identifier": "fc43"
         },
         {
@@ -140,6 +140,20 @@
         {
           "introduced": "4.7.0-3.fc43",
           "fixed": "4.15.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-73215": {
+      "cve_id": "CVE-2026-73215",
+      "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
+      "description": "Coturn is a free open source implementation of TURN and STUN Server. Prior to 4.17.0, turnports_allocate_even() in src/apps/relay/turn_ports.c marks the unused odd sibling port as TPS_TAKEN_ODD for an EVEN-PORT Allocate request with reservation bit R=0 even though no RTCP socket will release it, allowing an authenticated client to permanently exhaust the relay port pool and cause subsequent allocations to fail with STUN error 508. This issue is fixed in version 4.17.0.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.7.0-3.fc43",
+          "fixed": "4.17.2-1.fc43",
           "identifier": "fc43"
         }
       ]
