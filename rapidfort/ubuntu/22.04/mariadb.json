@@ -37,11 +37,6 @@
           "introduced": "1:11.4.5+maria~ubu2404",
           "fixed": "1:11.4.7-0ubuntu0.25.04.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "1:10.11.10+maria~ubu2404",
-          "fixed": "1:11.4.2-1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -60,11 +55,6 @@
         {
           "introduced": "1:11.4.5+maria~ubu2404",
           "fixed": "1:11.4.7-0ubuntu0.25.04.1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "1:10.11.10+maria~ubu2404",
-          "fixed": "1:11.4.2-1",
           "identifier": "ubuntu"
         }
       ]

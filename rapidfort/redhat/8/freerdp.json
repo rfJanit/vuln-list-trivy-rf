@@ -1116,7 +1116,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1145,7 +1145,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1178,7 +1178,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1207,7 +1207,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1236,7 +1236,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1265,7 +1265,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1294,7 +1294,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1327,7 +1327,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-2.fc43",
+          "fixed": "2:3.24.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -1720,8 +1720,8 @@
     },
     "CVE-2026-55191": {
       "cve_id": "CVE-2026-55191",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "Heap-buffer-overflow write in AVC444 YUV buffer allocation",
+      "description": "Heap-buffer-overflow write in AVC444 YUV buffer allocation",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1768,9 +1768,9 @@
     },
     "CVE-2026-55193": {
       "cve_id": "CVE-2026-55193",
-      "title": "Heap-buffer-overflow write in TS Gateway RPC fragment receive due",
-      "description": "Heap-buffer-overflow write in TS Gateway RPC fragment receive due to uncapped bind_ack max_xmit_frag",
-      "severity": "HIGH",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1792,8 +1792,8 @@
     },
     "CVE-2026-55194": {
       "cve_id": "CVE-2026-55194",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "Heap-buffer-overflow write in TS Gateway RPC RESPONSE reassembly ",
+      "description": "Heap-buffer-overflow write in TS Gateway RPC RESPONSE reassembly due to alloc_hint capacity mismatch",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1818,7 +1818,7 @@
       "cve_id": "CVE-2026-55648",
       "title": "Integer Overflow in `freerdp_image_copy_from_icon_data` Bypasses ",
       "description": "Integer Overflow in `freerdp_image_copy_from_icon_data` Bypasses Bounds Check",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1890,12 +1890,8 @@
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
       "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0 on 32-bit builds, FreeRDP clients contain an integer overflow in update_read_delta_points in libfreerdp/core/orders.c when multiplying an attacker-controlled point count by sizeof(DELTA_POINT), allowing a malicious RDP peer to allocate an undersized heap buffer and then write beyond it during initialization. This issue is fixed in version 3.28.0.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.28.0-1.fc43",

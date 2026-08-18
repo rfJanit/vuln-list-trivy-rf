@@ -374,10 +374,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -668,10 +664,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -773,10 +765,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
-        },
-        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -861,10 +849,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        },
         {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
