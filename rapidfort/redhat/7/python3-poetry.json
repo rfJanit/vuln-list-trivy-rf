@@ -25,6 +25,11 @@
         {
           "introduced": "2.1.4-3.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.4.1-5.fc46",
+          "identifier": "fc46"
         }
       ]
     }

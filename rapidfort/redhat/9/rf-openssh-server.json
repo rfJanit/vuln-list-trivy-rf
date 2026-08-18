@@ -489,6 +489,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-4.fc41",
+          "identifier": "fc41"
+        },
+        {
           "introduced": "0:10.0p1-5.fc43",
           "fixed": "0:10.0p1-8.fc43",
           "identifier": "fc43"
@@ -502,6 +507,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-4.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:10.0p1-5.fc43",
           "fixed": "0:10.0p1-8.fc43",

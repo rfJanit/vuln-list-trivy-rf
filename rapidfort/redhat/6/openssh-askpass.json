@@ -299,12 +299,8 @@
       "title": "scp in OpenSSH before 10.4 may place a file in the parent directo ...",
       "description": "scp in OpenSSH before 10.4 may place a file in the parent directory of an intended directory when the copy occurs between two remote destinations.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
         {
           "introduced": "10.0p1-5.fc43",
           "fixed": "10.0p1-11.fc43",
@@ -442,6 +438,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el6"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -454,6 +454,10 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el6"
+        },
         {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"

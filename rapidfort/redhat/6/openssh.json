@@ -345,10 +345,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el6"
-        },
-        {
           "introduced": "0:9.9p1-3.fc41",
           "identifier": "fc41"
         },
@@ -517,6 +513,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el6"
+        },
+        {
           "introduced": "0:9.9p1-3.fc41",
           "identifier": "fc41"
         },
@@ -533,6 +533,10 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el6"
+        },
         {
           "introduced": "0:9.9p1-3.fc41",
           "identifier": "fc41"

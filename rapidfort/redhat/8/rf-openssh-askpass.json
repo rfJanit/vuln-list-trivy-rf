@@ -273,11 +273,6 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "10.4p1-12.fc45.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
           "fixed": "10.2p1-13.fc44",
           "identifier": "fc44"
         },
@@ -418,6 +413,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "10.4p1-12.fc45.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -430,6 +430,11 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "10.4p1-12.fc45.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"

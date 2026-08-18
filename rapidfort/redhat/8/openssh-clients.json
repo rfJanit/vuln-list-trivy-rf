@@ -313,10 +313,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
           "introduced": "0:9.9p1-4.fc41",
           "identifier": "fc41"
         },
@@ -485,6 +481,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
           "introduced": "0:9.9p1-4.fc41",
           "identifier": "fc41"
         },
@@ -501,6 +501,10 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
         {
           "introduced": "0:9.9p1-4.fc41",
           "identifier": "fc41"

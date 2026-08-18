@@ -7,16 +7,19 @@
       "title": "A vulnerability was found in HDF5 up to 1.14.6. It has been decla ...",
       "description": "A vulnerability was found in HDF5 up to 1.14.6. It has been declared as problematic. Affected by this vulnerability is the function H5O_msg_flush of the file src/H5Omessage.c. The manipulation of the argument oh leads to heap-based buffer overflow. The attack needs to be approached locally. The exploit has been disclosed to the public and may be used.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
+          "introduced": "1.14.4.2-r0",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         }
       ]
     },
@@ -25,16 +28,19 @@
       "title": "A vulnerability was found in HDF5 up to 1.14.6. It has been rated ...",
       "description": "A vulnerability was found in HDF5 up to 1.14.6. It has been rated as critical. Affected by this issue is the function H5FL__blk_gc_list of the file src/H5FL.c. The manipulation of the argument H5FL_blk_head_t leads to use after free. An attack has to be approached locally. The exploit has been disclosed to the public and may be used.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
+          "introduced": "1.14.4.2-r0",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         }
       ]
     },
@@ -79,16 +85,19 @@
       "title": "A vulnerability, which was classified as problematic, has been fo ...",
       "description": "A vulnerability, which was classified as problematic, has been found in HDF5 up to 1.14.6. Affected by this issue is the function H5F_addr_encode_len of the file src/H5Fint.c. The manipulation of the argument pp leads to heap-based buffer overflow. Attacking locally is a requirement. The exploit has been disclosed to the public and may be used.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
+          "introduced": "1.14.4.2-r0",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         }
       ]
     },
@@ -169,16 +178,19 @@
       "title": "A vulnerability, which was classified as critical, has been found ...",
       "description": "A vulnerability, which was classified as critical, has been found in HDF5 up to 1.14.6. Affected by this issue is the function H5FS__sect_find_node of the file H5FSsection.c. The manipulation leads to heap-based buffer overflow. It is possible to launch the attack on the local host. The exploit has been disclosed to the public and may be used.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
+          "introduced": "1.14.4.2-r0",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         },
         {
-          "introduced": "1.14.4.2-r1"
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         }
       ]
     },
@@ -200,11 +212,11 @@
         }
       ]
     },
-    "CVE-2026-26197": {
-      "cve_id": "CVE-2026-26197",
-      "title": "HDF5 is a high-performance library and a file format specificatio ...",
-      "description": "HDF5 is a high-performance library and a file format specification that implements the HDF5 data model. If a file is corrupted such that an array datatype's size, the number of elements, and the element size  are not in agreement it can trigger an out of bounds read. The array datatype stores the full size of the datatype (`dt-\u003eshared-\u003esize`) separately from the number of elements (`dt-\u003eshared-\u003eu.array.nelem`) and the element size (`dt-\u003eshared-\u003eparent-\u003eshared-\u003esize`). If any one of these are corrupted so that they don't align with the others (element size * nelem = full size), it can lead to an out of bounds read. Depending on what is corrupted, it can alter the type of out of bounds read triggered. The vulnerability is present only in files that have been maliciously altered, as its generally not possible to independently alter the full size of the datatype, the element count and the element size. As such, this is only present if a malicious actor is altering files, and won't appear in regular usage.",
-      "severity": "HIGH",
+    "CVE-2026-17573": {
+      "cve_id": "CVE-2026-17573",
+      "title": "A double free vulnerability was discovered in the HDF5 library. P ...",
+      "description": "A double free vulnerability was discovered in the HDF5 library. Processing a crafted HDF5 file containing an oversized chunk size field via h5repack may cause the application to abort due to a double free.",
+      "severity": "LOW",
       "status": "open",
       "events": [
         {
@@ -218,10 +230,10 @@
         }
       ]
     },
-    "CVE-2026-26199": {
-      "cve_id": "CVE-2026-26199",
-      "title": "HDF5 is a high-performance library and a file format specificatio ...",
-      "description": "HDF5 is a high-performance library and a file format specification that implements the HDF5 data model. If `H5Iget_name` is invoked on a group id with `0` for the size parameter, it will underflow when trying to place a null terminator in the buffer. This can occur if `H5Iget_name` is invoked in a way where `size` can be forced to zero, and there is important data before the `name` buffer.",
+    "CVE-2026-17574": {
+      "cve_id": "CVE-2026-17574",
+      "title": "HDF5 contains a NULL pointer dereference vulnerability. Processin ...",
+      "description": "HDF5 contains a NULL pointer dereference vulnerability. Processing a crafted HDF5 file containing an attribute with an invalid variable-length datatype type field may cause the application to crash when the attribute is read.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
@@ -233,6 +245,156 @@
         },
         {
           "introduced": "1.14.4.2-r1"
+        }
+      ]
+    },
+    "CVE-2026-19023": {
+      "cve_id": "CVE-2026-19023",
+      "title": "Untrusted pointer dereference in the render_bin_output function i ...",
+      "description": "Untrusted pointer dereference in the render_bin_output function in the h5dump tool in HDF5 before 2.3.0 allows attackers to cause a denial of service via a variable-length string dataset with more than one element dumped in binary mode, which corrupts the per-element stride calculation and causes subsequent elements to be read from a misaligned offset and dereferenced as a pointer.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        }
+      ]
+    },
+    "CVE-2026-19024": {
+      "cve_id": "CVE-2026-19024",
+      "title": "NULL pointer dereference in H5Pget_fill_value in HDF5 before 2.3. ...",
+      "description": "NULL pointer dereference in H5Pget_fill_value in HDF5 before 2.3.0 allows attackers to cause a denial of service via a dataset whose version 1 or 2 fill value message has the \"defined\" flag set together with a negative size field, which is not normalized to the library's \"undefined\" sentinel and reaches H5T_path_find with a NULL datatype.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        }
+      ]
+    },
+    "CVE-2026-19025": {
+      "cve_id": "CVE-2026-19025",
+      "title": "H5O__layout_decode in H5Olayout.c in HDF5 through 2.3.0 does not  ...",
+      "description": "H5O__layout_decode in H5Olayout.c in HDF5 through 2.3.0 does not validate that a chunked dataset's stored chunk-layout dimensionality matches its dataspace rank when an existing dataset is opened, whereas this check is performed only at dataset-creation time. This allows attackers to cause a denial of service (divide-by-zero and application crash in H5S__hyper_iter_get_seq_list in src/H5Shyper.c) via a crafted HDF5 file with mismatched chunk/dataspace ranks that is opened and read via H5Dopen2 and H5Dread, e.g. by the h5repack tool.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        }
+      ]
+    },
+    "CVE-2026-19026": {
+      "cve_id": "CVE-2026-19026",
+      "title": "H5Z__filter_nbit in H5Znbit.c in HDF5 through 2.3.0 dereferences  ...",
+      "description": "H5Z__filter_nbit in H5Znbit.c in HDF5 through 2.3.0 dereferences cd_values[0] through cd_values[4] without validating that cd_values is non-NULL or that cd_nelmts is at least 5, the fixed size of the filter's header. This allows attackers to cause a denial of service via a crafted HDF5 file that stores the N-Bit filter pipeline message with zero client-data values, opened and read via H5Dread, e.g. by the h5ls or h5repack tools.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        }
+      ]
+    },
+    "CVE-2026-19027": {
+      "cve_id": "CVE-2026-19027",
+      "title": "The H5Z__nbit_decompress_one_byte, H5Z__nbit_decompress_one_noopt ...",
+      "description": "The H5Z__nbit_decompress_one_byte, H5Z__nbit_decompress_one_nooptype, and H5Z__nbit_decompress_one_atomic functions in H5Znbit.c in HDF5 through 2.3.0 advance a read index into the compressed chunk buffer without bounding it against the buffer's actual size. This allows attackers to cause an out-of-bounds heap read, and in constrained cases disclosure of adjacent heap memory into decompressed dataset values, via a crafted HDF5 file whose N-Bit filter parameters describe more decompressed data than the stored compressed chunk actually contains, triggered via H5Dread, e.g. by the h5ls or h5repack tools.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        }
+      ]
+    },
+    "CVE-2026-19028": {
+      "cve_id": "CVE-2026-19028",
+      "title": "H5Z__filter_fletcher32 in H5Zfletcher32.c in HDF5 through 2.3.0 c ...",
+      "description": "H5Z__filter_fletcher32 in H5Zfletcher32.c in HDF5 through 2.3.0 computes the data length to checksum by subtracting the 4-byte trailing checksum size from the input buffer size without checking that the buffer is at least 4 bytes, allowing a size_t underflow. This allows attackers to cause a denial of service (massively out-of-bounds read and application crash in H5_checksum_fletcher32) via a crafted HDF5 file with a Fletcher32-filtered chunk smaller than 4 bytes, triggered via H5Dread, e.g. by the h5ls or h5dump tools.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        },
+        {
+          "introduced": "1.14.4.2-r1"
+        }
+      ]
+    },
+    "CVE-2026-26197": {
+      "cve_id": "CVE-2026-26197",
+      "title": "HDF5 is a high-performance library and a file format specificatio ...",
+      "description": "HDF5 is a high-performance library and a file format specification that implements the HDF5 data model. If a file is corrupted such that an array datatype's size, the number of elements, and the element size  are not in agreement it can trigger an out of bounds read. The array datatype stores the full size of the datatype (`dt-\u003eshared-\u003esize`) separately from the number of elements (`dt-\u003eshared-\u003eu.array.nelem`) and the element size (`dt-\u003eshared-\u003eparent-\u003eshared-\u003esize`). If any one of these are corrupted so that they don't align with the others (element size * nelem = full size), it can lead to an out of bounds read. Depending on what is corrupted, it can alter the type of out of bounds read triggered. The vulnerability is present only in files that have been maliciously altered, as its generally not possible to independently alter the full size of the datatype, the element count and the element size. As such, this is only present if a malicious actor is altering files, and won't appear in regular usage.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0",
+          "fixed": "2.2.0-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-26199": {
+      "cve_id": "CVE-2026-26199",
+      "title": "HDF5 is a high-performance library and a file format specificatio ...",
+      "description": "HDF5 is a high-performance library and a file format specification that implements the HDF5 data model. If `H5Iget_name` is invoked on a group id with `0` for the size parameter, it will underflow when trying to place a null terminator in the buffer. This can occur if `H5Iget_name` is invoked in a way where `size` can be forced to zero, and there is important data before the `name` buffer.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.14.4.2-r0",
+          "fixed": "2.2.0-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
+        },
+        {
+          "introduced": "1.14.4.2-r1",
+          "fixed": "2.2.0-r0"
         }
       ]
     }

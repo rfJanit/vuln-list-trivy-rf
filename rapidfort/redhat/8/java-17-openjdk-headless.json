@@ -54,6 +54,19 @@
         }
       ]
     },
+    "CVE-2026-22020": {
+      "cve_id": "CVE-2026-22020",
+      "title": "openjdk: Update LibPNG (Oracle CPU 2026-04)",
+      "description": "No description is available for this CVE.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        }
+      ]
+    },
     "CVE-2026-22693": {
       "cve_id": "CVE-2026-22693",
       "title": "HarfBuzz is a text shaping engine. Prior to version 12.3.0, a nul ...",

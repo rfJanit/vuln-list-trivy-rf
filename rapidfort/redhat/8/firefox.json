@@ -723,57 +723,6 @@
         }
       ]
     },
-    "CVE-2026-68945": {
-      "cve_id": "CVE-2026-68945",
-      "title": "Angular is a development platform for building mobile and desktop ...",
-      "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. Prior to 20.3.27, 21.2.19, and 22.0.2, HttpTransferCache comma-joins repeated request parameters, allowing semantically distinct HttpClient requests to use the same transfer-cache key and reuse a wrong backend response. This issue is fixed in versions 20.3.27, 21.2.19, and 22.0.2.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-69151": {
-      "cve_id": "CVE-2026-69151",
-      "title": "Angular is a development platform for building mobile and desktop ...",
-      "description": "Angular is a development platform for building mobile and desktop web applications using TypeScript/JavaScript and other languages. Prior to 20.3.27, 21.2.19, and 22.0.1, the Angular compiler i18n pipeline permits i18n-onerror and other i18n-on event-handler attributes, allowing a lower-trust translation file to replace a static handler with executable JavaScript. This issue is fixed in versions 20.3.27, 21.2.19, and 22.0.1.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-69153": {
-      "cve_id": "CVE-2026-69153",
-      "title": "PostCSS takes a CSS file and provides an API to analyze and modif ...",
-      "description": "PostCSS takes a CSS file and provides an API to analyze and modify its rules by transforming the rules into an Abstract Syntax Tree. Prior to 8.5.19, if from is unset, an attacker can cause PreviousMap.loadFile() to read an unintended source-map file by supplying an absolute or directory-traversal sourceMappingURL. The resulting map’s sources and sourcesContent may then be exposed to the application. This issue is fixed in version 8.5.19.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-73086": {
       "cve_id": "CVE-2026-73086",
       "title": "nanoid is a secure, URL-friendly, unique string ID generator for  ...",

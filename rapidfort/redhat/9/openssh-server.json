@@ -479,6 +479,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -491,6 +495,10 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
