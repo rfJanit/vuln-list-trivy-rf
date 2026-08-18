@@ -890,10 +890,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el6"
-        },
-        {
           "introduced": "2:9.1.1418-1.fc41",
           "identifier": "fc41"
         },
@@ -910,10 +906,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        },
         {
           "introduced": "2:9.2.780-1.fc43",
           "identifier": "fc43"

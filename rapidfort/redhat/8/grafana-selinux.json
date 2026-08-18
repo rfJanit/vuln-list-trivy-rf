@@ -1250,6 +1250,23 @@
         }
       ]
     },
+    "CVE-2026-65904": {
+      "cve_id": "CVE-2026-65904",
+      "title": "DOMPurify through 3.3.3 fails to sanitize DOM elements passed via ...",
+      "description": "DOMPurify through 3.3.3 fails to sanitize DOM elements passed via IN_PLACE mode when the element originates from a different window/realm (e.g., an iframe's contentDocument). A cross-realm instanceof check in the private _isNode() function returns false for foreign-realm nodes, causing DOMPurify to stringify the element (yielding '[object HTMLDivElement]'), silently reset IN_PLACE to false, and return the unsanitized element unchanged with any XSS payloads intact.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "10.2.6-19.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-6993": {
       "cve_id": "CVE-2026-6993",
       "title": "A security flaw has been discovered in go-kratos kratos up to 2.9 ...",

@@ -86,9 +86,6 @@
       "events": [
         {
           "introduced": "9.5.2-r2"
-        },
-        {
-          "introduced": "9.5.2-r2"
         }
       ]
     }

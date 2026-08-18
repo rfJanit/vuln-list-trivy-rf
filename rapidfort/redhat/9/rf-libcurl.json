@@ -395,11 +395,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "fixed": "8.19.0-10.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:0",
           "fixed": "0:8.11.1-8.fc42",
           "identifier": "fc42"
@@ -427,11 +422,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "8.19.0-10.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:0",
           "fixed": "0:8.11.1-8.fc42",
@@ -678,11 +668,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "fixed": "8.19.0-10.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -868,11 +853,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "8.19.0-10.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:0",
           "fixed": "0:8.18.0-8.fc44",
