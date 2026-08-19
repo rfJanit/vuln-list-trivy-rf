@@ -627,8 +627,8 @@
     },
     "CVE-2026-43961": {
       "cve_id": "CVE-2026-43961",
-      "title": "Amazon Linux 2023 - ALAS2023-2026-1862: Important priority package update for vim",
-      "description": "Vim is an open source, command line text editor. Prior to version 9.2.0597, Vim's Python omni-completion executes reconstructed function and class definitions from the current buffer with exec() as part of populating the completion dictionary. Python evaluates function default values, parameter annotations, and class base expressions at definition time, so a hostile buffer can execute attacker-controlled Python expressions during omni-completion. The existing g:pythoncomplete_allow_import mitigation (GHSA-52mc-rq6p-rc7c) does not cover this path, because the attacker-controlled code is not a harvested import/from statement. This issue has been patched in version 9.2.0597.",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -1200,6 +1200,35 @@
       "events": [
         {
           "introduced": "9.2.0602-r0",
+          "fixed": "9.2.0854-r0"
+        },
+        {
+          "introduced": "9.2.0602-r0",
+          "fixed": "9.2.0854-r0"
+        }
+      ]
+    },
+    "CVE-2026-73073": {
+      "cve_id": "CVE-2026-73073",
+      "title": "Vim is an open source, command line text editor. Prior to 9.2.084 ...",
+      "description": "Vim is an open source, command line text editor. Prior to 9.2.0845, StructMembers() in runtime/autoload/ccomplete.vim constructs and executes a vimgrep command using an insufficiently escaped typeref: or typename: value from a tags file, allowing an unterminated collection followed by a command separator to execute arbitrary Ex and operating-system commands when a user invokes C omni-completion with CTRL-X CTRL-O on a member access whose type is resolved from that tags file. This issue is fixed in version 9.2.0845.",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.1.0707-r0",
+          "fixed": "9.2.0854-r0"
+        },
+        {
+          "introduced": "9.1.0707-r0",
+          "fixed": "9.2.0854-r0"
+        },
+        {
+          "introduced": "9.1.1105-r0",
+          "fixed": "9.2.0854-r0"
+        },
+        {
+          "introduced": "9.1.1566-r0",
           "fixed": "9.2.0854-r0"
         },
         {

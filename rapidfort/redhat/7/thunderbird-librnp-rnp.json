@@ -4360,6 +4360,38 @@
         }
       ]
     },
+    "CVE-2026-74934": {
+      "cve_id": "CVE-2026-74934",
+      "title": "Site isolation issue in the Graphics: CanvasWebGL component. This ...",
+      "description": "Site isolation issue in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "fixed": "152.0-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "148.0-2.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-75874": {
+      "cve_id": "CVE-2026-75874",
+      "title": "Sandbox escape in the Remote Settings Client component. This vuln ...",
+      "description": "Sandbox escape in the Remote Settings Client component. This vulnerability was fixed in Firefox 154 and Thunderbird 154.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-8090": {
       "cve_id": "CVE-2026-8090",
       "title": "Use-after-free in the DOM: Networking component. This vulnerabili ...",

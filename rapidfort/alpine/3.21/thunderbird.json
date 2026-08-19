@@ -1252,6 +1252,10 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1298,6 +1302,10 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1318,6 +1326,10 @@
         },
         {
           "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
       ]
@@ -1340,6 +1352,10 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1361,6 +1377,10 @@
         {
           "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1381,6 +1401,10 @@
         },
         {
           "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
       ]
@@ -1980,10 +2004,6 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.8.0-r0"
-        },
-        {
-          "introduced": "128.11.0-r0",
-          "fixed": "137.0-r0"
         }
       ]
     },
@@ -5077,12 +5097,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5106,12 +5126,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5135,12 +5155,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5164,12 +5184,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5193,12 +5213,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5222,12 +5242,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5251,12 +5271,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5280,12 +5300,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5309,12 +5329,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5338,12 +5358,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5367,12 +5387,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5396,12 +5416,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5450,12 +5470,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5479,12 +5499,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5624,12 +5644,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5653,12 +5673,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5711,12 +5731,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5769,12 +5789,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5798,12 +5818,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5856,12 +5876,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5914,12 +5934,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -5972,12 +5992,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -6030,12 +6050,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -6146,12 +6166,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -6233,12 +6253,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -6262,12 +6282,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -6349,12 +6369,12 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         },
         {
           "introduced": "151.0.1-r0",
-          "fixed": "153.0.1-r0"
+          "fixed": "151.0.1-r1"
         }
       ]
     },
@@ -6639,8 +6659,8 @@
           "fixed": "144.0-r0"
         },
         {
-          "introduced": "145.0-r0",
-          "fixed": "145.0-r1"
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -9403,6 +9423,55 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-74934": {
+      "cve_id": "CVE-2026-74934",
+      "title": "Site isolation issue in the Graphics: CanvasWebGL component. This ...",
+      "description": "Site isolation issue in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-75874": {
+      "cve_id": "CVE-2026-75874",
+      "title": "Sandbox escape in the Remote Settings Client component. This vuln ...",
+      "description": "Sandbox escape in the Remote Settings Client component. This vulnerability was fixed in Firefox 154 and Thunderbird 154.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0"
         }
       ]
     },
