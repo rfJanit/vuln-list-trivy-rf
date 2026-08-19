@@ -190,7 +190,7 @@
       "events": [
         {
           "introduced": "2.86.3-r0",
-          "fixed": "2.87.5-r0"
+          "fixed": "2.88.1-r0"
         }
       ]
     },
@@ -203,7 +203,7 @@
       "events": [
         {
           "introduced": "2.86.3-r0",
-          "fixed": "2.87.5-r0"
+          "fixed": "2.88.1-r0"
         }
       ]
     },
@@ -216,7 +216,7 @@
       "events": [
         {
           "introduced": "2.86.3-r0",
-          "fixed": "2.87.5-r0"
+          "fixed": "2.88.1-r0"
         }
       ]
     },

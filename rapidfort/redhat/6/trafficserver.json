@@ -59,7 +59,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -306,7 +306,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -325,7 +325,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -363,7 +363,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -382,7 +382,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -439,7 +439,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -515,7 +515,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -572,7 +572,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -591,7 +591,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -629,7 +629,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -648,7 +648,7 @@
       "events": [
         {
           "introduced": "10.1.0-2.fc43",
-          "fixed": "10.1.4-1.fc43",
+          "fixed": "10.2.0-1.fc43",
           "identifier": "fc43"
         },
         {
