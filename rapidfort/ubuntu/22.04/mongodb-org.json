@@ -637,6 +637,104 @@
         }
       ]
     },
+    "CVE-2026-13071": {
+      "cve_id": "CVE-2026-13071",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-13072": {
+      "cve_id": "CVE-2026-13072",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-13073": {
+      "cve_id": "CVE-2026-13073",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-13074": {
+      "cve_id": "CVE-2026-13074",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-13075": {
+      "cve_id": "CVE-2026-13075",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.3.7",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-13076": {
+      "cve_id": "CVE-2026-13076",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.3.7",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-13077": {
+      "cve_id": "CVE-2026-13077",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0",
+          "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
     "CVE-2026-13078": {
       "cve_id": "CVE-2026-13078",
       "title": "",

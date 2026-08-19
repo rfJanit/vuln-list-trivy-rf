@@ -28,32 +28,6 @@
         }
       ]
     },
-    "CVE-2024-8250": {
-      "cve_id": "CVE-2024-8250",
-      "title": "NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and 4.0.0 to  ...",
-      "description": "NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and 4.0.0 to 4.0.16 allows denial of service via packet injection or crafted capture file",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.2.5-r0",
-          "fixed": "4.4.2-r0"
-        }
-      ]
-    },
-    "CVE-2024-8645": {
-      "cve_id": "CVE-2024-8645",
-      "title": "SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0 to 4.0 ...",
-      "description": "SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0 to 4.0.15 allows denial of service via packet injection or crafted capture file",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.2.5-r0",
-          "fixed": "4.2.6-r0"
-        }
-      ]
-    },
     "CVE-2024-9781": {
       "cve_id": "CVE-2024-9781",
       "title": "AppleTalk and RELOAD Framing dissector crash in Wireshark 4.4.0 a ...",
@@ -76,11 +50,7 @@
       "events": [
         {
           "introduced": "4.2.5-r0",
-          "fixed": "4.6.5-r0"
-        },
-        {
-          "introduced": "4.4.2-r0",
-          "fixed": "4.6.5-r0"
+          "fixed": "4.4.2-r0"
         },
         {
           "introduced": "4.4.7-r0",
@@ -101,6 +71,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -139,11 +113,7 @@
       "events": [
         {
           "introduced": "4.2.5-r0",
-          "fixed": "4.4.7-r0"
-        },
-        {
-          "introduced": "4.4.2-r0",
-          "fixed": "4.4.7-r0"
+          "fixed": "4.4.2-r0"
         }
       ]
     },
@@ -156,11 +126,7 @@
       "events": [
         {
           "introduced": "4.2.5-r0",
-          "fixed": "4.4.7-r0"
-        },
-        {
-          "introduced": "4.4.2-r0",
-          "fixed": "4.4.7-r0"
+          "fixed": "4.4.2-r0"
         }
       ]
     },
@@ -626,6 +592,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -638,6 +608,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -660,6 +634,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -672,6 +650,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -694,6 +676,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -706,6 +692,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -728,6 +718,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -740,6 +734,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -762,6 +760,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -774,6 +776,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -796,6 +802,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -808,6 +818,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -830,6 +844,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -842,6 +860,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -864,6 +886,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -876,6 +902,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -898,6 +928,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -910,6 +944,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -932,6 +970,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -944,6 +986,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -966,6 +1012,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -978,6 +1028,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -1000,6 +1054,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1012,6 +1070,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -1034,6 +1096,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1046,6 +1112,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -1068,6 +1138,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1080,6 +1154,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -1102,6 +1180,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1114,6 +1196,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -1136,6 +1222,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1148,6 +1238,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -1170,6 +1264,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1182,6 +1280,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
@@ -1204,6 +1306,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1221,6 +1327,10 @@
         {
           "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -1233,6 +1343,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         },
         {
