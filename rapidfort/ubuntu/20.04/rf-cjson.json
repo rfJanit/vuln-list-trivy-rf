@@ -78,14 +78,6 @@
         {
           "introduced": "0:1.7.17-1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3.1ubuntu0.1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -98,14 +90,6 @@
       "events": [
         {
           "introduced": "0:1.7.17-1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3.1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]
@@ -120,14 +104,6 @@
         {
           "introduced": "0:1.7.17-1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3.1ubuntu0.1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -140,14 +116,6 @@
       "events": [
         {
           "introduced": "0:1.7.17-1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.7.18-3.1ubuntu0.1",
           "identifier": "ubuntu"
         }
       ]

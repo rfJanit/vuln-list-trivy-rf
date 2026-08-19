@@ -13,11 +13,6 @@
           "introduced": "0:4.7.0-1ubuntu3",
           "fixed": "0:4.7.0-1ubuntu3.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.7.0-1ubuntu3",
-          "fixed": "0:4.7.0-1ubuntu3.1",
-          "identifier": "ubuntu"
         }
       ]
     }

@@ -12,34 +12,6 @@
         {
           "introduced": "0:4.3.0-6ubuntu0.11",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.3.0-6ubuntu0.13",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.4",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.5",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -67,11 +39,6 @@
         {
           "introduced": "0:4.3.0-6ubuntu0.11",
           "fixed": "0:4.3.0-6ubuntu0.13",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.5",
           "identifier": "ubuntu"
         },
         {
@@ -109,11 +76,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.5",
-          "identifier": "ubuntu"
-        },
-        {
           "introduced": "0:4.5.1+git230720-4ubuntu2.1",
           "fixed": "0:4.5.1+git230720-4ubuntu2.5",
           "identifier": "ubuntu"
@@ -148,11 +110,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.4",
-          "identifier": "ubuntu"
-        },
-        {
           "introduced": "0:4.5.1+git230720-4ubuntu2.1",
           "fixed": "0:4.5.1+git230720-4ubuntu2.4",
           "identifier": "ubuntu"
@@ -177,11 +134,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.3",
-          "identifier": "ubuntu"
-        },
-        {
           "introduced": "0:4.5.1+git230720-4ubuntu2.1",
           "fixed": "0:4.5.1+git230720-4ubuntu2.3",
           "identifier": "ubuntu"
@@ -201,11 +153,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.3",
-          "identifier": "ubuntu"
-        },
-        {
           "introduced": "0:4.5.1+git230720-4ubuntu2.1",
           "fixed": "0:4.5.1+git230720-4ubuntu2.3",
           "identifier": "ubuntu"
@@ -224,11 +171,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.3",
-          "identifier": "ubuntu"
-        },
         {
           "introduced": "0:4.5.1+git230720-4ubuntu2.1",
           "fixed": "0:4.5.1+git230720-4ubuntu2.3",
@@ -251,11 +193,6 @@
         {
           "introduced": "0:4.3.0-6ubuntu0.11",
           "fixed": "0:4.3.0-6ubuntu0.12",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.4",
           "identifier": "ubuntu"
         },
         {
@@ -288,11 +225,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.4",
-          "identifier": "ubuntu"
-        },
-        {
           "introduced": "0:4.5.1+git230720-4ubuntu2.1",
           "fixed": "0:4.5.1+git230720-4ubuntu2.4",
           "identifier": "ubuntu"
@@ -319,11 +251,6 @@
         {
           "introduced": "0:4.3.0-6ubuntu0.11",
           "fixed": "0:4.3.0-6ubuntu0.12",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:4.5.1+git230720-4ubuntu2.2",
-          "fixed": "0:4.5.1+git230720-4ubuntu2.4",
           "identifier": "ubuntu"
         },
         {

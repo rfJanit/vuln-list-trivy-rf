@@ -13,26 +13,6 @@
           "introduced": "0:0",
           "fixed": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -46,26 +26,6 @@
         {
           "introduced": "0:0",
           "fixed": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -94,26 +54,6 @@
         {
           "introduced": "0:0",
           "fixed": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -147,22 +87,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -175,22 +99,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -205,22 +113,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -233,22 +125,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -297,22 +173,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -325,22 +185,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -355,22 +199,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -383,22 +211,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -554,22 +366,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -582,22 +378,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -612,22 +392,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -640,22 +404,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -670,22 +418,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -698,22 +430,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -728,22 +444,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -756,22 +456,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -786,22 +470,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -814,22 +482,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -844,22 +496,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -873,22 +509,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -901,22 +521,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -932,26 +536,6 @@
           "introduced": "0:0",
           "fixed": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -964,22 +548,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -995,26 +563,6 @@
           "introduced": "0:0",
           "fixed": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1027,22 +575,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -1057,22 +589,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1085,22 +601,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -1115,22 +615,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1143,22 +627,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -1173,22 +641,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1201,22 +653,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -1231,22 +667,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1259,22 +679,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -1289,22 +693,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1317,22 +705,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]
@@ -1347,22 +719,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1376,22 +732,6 @@
         {
           "introduced": "0:3.9.22-1rfubu.1",
           "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
-          "identifier": "rf"
         }
       ]
     },
@@ -1404,22 +744,6 @@
       "events": [
         {
           "introduced": "0:3.9.22-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.23-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.24-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-1rfubu.1",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.9.25-2rfubu.1",
           "identifier": "rf"
         }
       ]

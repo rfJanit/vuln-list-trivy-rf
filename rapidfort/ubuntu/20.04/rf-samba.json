@@ -165,11 +165,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.3",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -284,11 +279,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -307,11 +297,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -332,11 +317,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -355,11 +335,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -380,11 +355,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -403,11 +373,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -428,11 +393,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -451,11 +411,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.1",
           "identifier": "ubuntu"
         }
       ]
@@ -476,11 +431,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.2",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -499,11 +449,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.1",
           "identifier": "ubuntu"
         }
       ]
@@ -524,11 +469,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.3",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -547,11 +487,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -572,11 +507,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.3",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -590,11 +520,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.6",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.5",
           "identifier": "ubuntu"
         }
       ]
@@ -610,11 +535,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.6",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.5",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -628,11 +548,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu0.20.04.6",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.5~dfsg-0ubuntu5",
-          "fixed": "2:4.15.13+dfsg-0ubuntu1.5",
           "identifier": "ubuntu"
         }
       ]
@@ -980,8 +895,8 @@
     },
     "CVE-2026-6949": {
       "cve_id": "CVE-2026-6949",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "CVE-2026-6949",
+      "description": "TSIG packet with name compression can crash DNS",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

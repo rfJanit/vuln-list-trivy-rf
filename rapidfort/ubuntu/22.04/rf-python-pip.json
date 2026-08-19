@@ -68,14 +68,6 @@
         {
           "introduced": "0:20.3.4+dfsg-4",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.3",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -121,14 +113,6 @@
       "events": [
         {
           "introduced": "0:20.3.4+dfsg-4",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.3",
           "identifier": "ubuntu"
         }
       ]
@@ -223,14 +207,6 @@
         {
           "introduced": "0:20.3.4+dfsg-4",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.3",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -243,14 +219,6 @@
       "events": [
         {
           "introduced": "0:20.3.4+dfsg-4",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.3",
           "identifier": "ubuntu"
         }
       ]
@@ -265,14 +233,6 @@
         {
           "introduced": "0:20.3.4+dfsg-4",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.3",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -286,14 +246,6 @@
         {
           "introduced": "0:20.3.4+dfsg-4",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.3",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -306,14 +258,6 @@
       "events": [
         {
           "introduced": "0:20.3.4+dfsg-4",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:24.0+dfsg-1ubuntu1.3",
           "identifier": "ubuntu"
         }
       ]

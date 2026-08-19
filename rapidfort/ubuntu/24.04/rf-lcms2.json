@@ -13,11 +13,6 @@
           "introduced": "0:2.14-2build1",
           "fixed": "0:2.14-2ubuntu0.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:2.14-2build1",
-          "fixed": "0:2.14-2ubuntu0.1",
-          "identifier": "ubuntu"
         }
       ]
     }

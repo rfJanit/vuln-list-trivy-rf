@@ -288,22 +288,6 @@
         {
           "introduced": "0:1.13.1-1ubuntu5",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -432,18 +416,6 @@
       "events": [
         {
           "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]
@@ -574,22 +546,6 @@
         {
           "introduced": "0:1.13.1-1ubuntu5",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -602,18 +558,6 @@
       "events": [
         {
           "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]
@@ -628,22 +572,6 @@
         {
           "introduced": "0:1.13.1-1ubuntu5",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -656,22 +584,6 @@
       "events": [
         {
           "introduced": "0:1.13.1-1ubuntu5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]
@@ -686,18 +598,6 @@
         {
           "introduced": "0:1.19.2-1ubuntu3",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -710,22 +610,6 @@
       "events": [
         {
           "introduced": "0:1.13.1-1ubuntu5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]
@@ -740,22 +624,6 @@
         {
           "introduced": "0:1.13.1-1ubuntu5",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -768,22 +636,6 @@
       "events": [
         {
           "introduced": "0:1.13.1-1ubuntu5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]
@@ -798,22 +650,6 @@
         {
           "introduced": "0:1.13.1-1ubuntu5",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -826,18 +662,6 @@
       "events": [
         {
           "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]
@@ -852,22 +676,6 @@
         {
           "introduced": "0:1.13.1-1ubuntu5",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -880,22 +688,6 @@
       "events": [
         {
           "introduced": "0:1.13.1-1ubuntu5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]
@@ -910,22 +702,6 @@
         {
           "introduced": "0:1.13.1-1ubuntu5",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -938,22 +714,6 @@
       "events": [
         {
           "introduced": "0:1.13.1-1ubuntu5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.5",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.7",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.19.2-1ubuntu3.8",
           "identifier": "ubuntu"
         }
       ]

@@ -12,14 +12,6 @@
         {
           "introduced": "0:2.7.6-7build2",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:2.7.6-7build3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:2.7.6-7build3",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -33,14 +25,6 @@
         {
           "introduced": "0:2.7.6-7build2",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:2.7.6-7build3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:2.7.6-7build3",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -53,14 +37,6 @@
       "events": [
         {
           "introduced": "0:2.7.6-7build2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:2.7.6-7build3",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:2.7.6-7build3",
           "identifier": "ubuntu"
         }
       ]

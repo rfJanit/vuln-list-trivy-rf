@@ -103,11 +103,6 @@
           "identifier": "fc45"
         },
         {
-          "introduced": "0:0",
-          "fixed": "0:8.11.1-12.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }

@@ -4,65 +4,126 @@
   "advisories": {
     "CVE-2024-10921": {
       "cve_id": "CVE-2024-10921",
-      "title": "An authorized user may trigger crashes or receive the contents of ...",
-      "description": "An authorized user may trigger crashes or receive the contents of buffer over-reads of Server memory by issuing specially crafted requests that construct malformed BSON in the MongoDB Server. This issue affects MongoDB Server v5.0 versions prior to 5.0.30 , MongoDB Server v6.0 versions prior to 6.0.19, MongoDB Server v7.0 versions prior to 7.0.15 and MongoDB Server v8.0 versions prior to and including 8.0.2.",
-      "severity": "HIGH",
-      "status": "open",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.19",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.15",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.3",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2024-1351": {
       "cve_id": "CVE-2024-1351",
-      "title": "Under certain configurations of --tlsCAFile and tls.CAFile, Mongo ...",
-      "description": "Under certain configurations of --tlsCAFile and tls.CAFile, MongoDB Server may skip peer certificate validation which may result in untrusted connections to succeed. This may effectively reduce the security guarantees provided by TLS and open connections  that should have been closed due to failing certificate validation. This issue affects MongoDB Server v7.0 versions prior to and including 7.0.5, MongoDB Server v6.0 versions prior to and including 6.0.13, MongoDB Server v5.0 versions prior to and including 5.0.24 and MongoDB Server v4.4 versions prior to and including 4.4.28.\n\nRequired Configuration : A server process will allow incoming connections to skip peer certificate validation if the server process was started with TLS enabled (net.tls.mode set to allowTLS, preferTLS, or requireTLS) and without a net.tls.CAFile configured.",
-      "severity": "CRITICAL",
-      "status": "open",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.6",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2024-3372": {
       "cve_id": "CVE-2024-3372",
-      "title": "Improper validation of certain metadata input may result in the s ...",
-      "description": "Improper validation of certain metadata input may result in the server not correctly serialising BSON. This can be performed pre-authentication and may cause unexpected application behavior including unavailability of serverStatus responses. This issue affects MongoDB Server v7.0 versions prior to 7.0.6, MongoDB Server v6.0 versions prior to 6.0.14 and MongoDB Server v.5.0 versions prior to 5.0.25.\n",
-      "severity": "HIGH",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.0.0",
+          "fixed": "6.0.14",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.6",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2024-3374": {
+      "cve_id": "CVE-2024-3374",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2024-6384": {
       "cve_id": "CVE-2024-6384",
-      "title": "\"Hot\" backup files may be downloaded by underprivileged users, if ...",
-      "description": "\"Hot\" backup files may be downloaded by underprivileged users, if they are capable of acquiring a unique backup identifier. This issue affects MongoDB Enterprise Server v6.0 versions prior to 6.0.16, MongoDB Enterprise Server v7.0 versions prior to 7.0.11 and MongoDB Enterprise Server v7.3 versions prior to 7.3.3",
-      "severity": "MEDIUM",
-      "status": "open",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.11",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2024-8305": {
       "cve_id": "CVE-2024-8305",
-      "title": "prepareUnique index may cause secondaries to crash due to incorre ...",
-      "description": "prepareUnique index may cause secondaries to crash due to incorrect enforcement of index constraints on secondaries, where in extreme cases may cause multiple secondaries crashing leading to no primaries. This issue affects MongoDB Server v6.0 versions prior to 6.0.17, MongoDB Server v7.0 versions prior to 7.0.13 and MongoDB Server v7.3 versions prior to 7.3.4",
-      "severity": "MEDIUM",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.0.0",
+          "fixed": "6.0.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.13",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2024-8654": {
+      "cve_id": "CVE-2024-8654",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "identifier": "ubuntu"
         }
       ]
@@ -72,11 +133,15 @@
       "title": "",
       "description": "",
       "severity": "UNKNOWN",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
           "identifier": "ubuntu"
         }
       ]
@@ -89,34 +154,66 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.6",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2025-10060": {
       "cve_id": "CVE-2025-10060",
-      "title": "MongoDB Server may allow upsert operations retried within a trans ...",
-      "description": "MongoDB Server may allow upsert operations retried within a transaction to violate unique index constraints, potentially causing an invariant failure and server crash during commit. This issue may be triggered by improper WriteUnitOfWork state management.  This issue affects MongoDB Server v6.0 versions prior to 6.0.25, MongoDB Server v7.0 versions prior to 7.0.22 and MongoDB Server v8.0 versions prior to 8.0.12",
-      "severity": "HIGH",
-      "status": "open",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.25",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.22",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.12",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2025-10061": {
       "cve_id": "CVE-2025-10061",
-      "title": "An authorized user can cause a crash in the MongoDB Server throug ...",
-      "description": "An authorized user can cause a crash in the MongoDB Server through a specially crafted $group query. This vulnerability is related to the incorrect handling of certain accumulator functions when additional parameters are specified within the $group operation. This vulnerability could lead to denial of service if triggered repeatedly. This issue affects MongoDB Server v6.0 versions prior to 6.0.25, MongoDB Server v7.0 versions prior to 7.0.22, MongoDB Server v8.0 versions prior to 8.0.12 and MongoDB Server v8.1 versions prior to 8.1.2",
-      "severity": "MEDIUM",
-      "status": "open",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.25",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.22",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.12",
           "identifier": "ubuntu"
         }
       ]
@@ -129,21 +226,31 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.25",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.15",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2025-12657": {
       "cve_id": "CVE-2025-12657",
-      "title": "The KMIP response parser built into mongo binaries is overly tole ...",
-      "description": "The KMIP response parser built into mongo binaries is overly tolerant of certain malformed packets, and may parse them into invalid objects. Later reads of this object can result in read access violations.",
-      "severity": "MEDIUM",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.10",
           "identifier": "ubuntu"
         }
       ]
@@ -156,8 +263,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.26",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.16",
           "identifier": "ubuntu"
         }
       ]
@@ -170,8 +282,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.26",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.16",
           "identifier": "ubuntu"
         }
       ]
@@ -184,8 +301,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.26",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.14",
           "identifier": "ubuntu"
         }
       ]
@@ -198,8 +320,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.26",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.13",
           "identifier": "ubuntu"
         }
       ]
@@ -209,11 +336,20 @@
       "title": "",
       "description": "",
       "severity": "UNKNOWN",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.26",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0-alpha0",
           "identifier": "ubuntu"
         }
       ]
@@ -226,8 +362,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.27",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.17",
           "identifier": "ubuntu"
         }
       ]
@@ -240,7 +386,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.20",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
           "fixed": "7.0.14",
           "identifier": "ubuntu"
         }
@@ -254,7 +405,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.20",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
           "fixed": "7.0.16",
           "identifier": "ubuntu"
         }
@@ -268,8 +424,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.20",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
           "fixed": "7.0.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.4",
           "identifier": "ubuntu"
         }
       ]
@@ -282,8 +448,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.20",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
           "fixed": "7.0.16",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.4",
           "identifier": "ubuntu"
         }
       ]
@@ -296,8 +472,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.21",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.4",
           "identifier": "ubuntu"
         }
       ]
@@ -310,8 +496,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.21",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.5",
           "identifier": "ubuntu"
         }
       ]
@@ -324,8 +520,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.21",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.5",
           "identifier": "ubuntu"
         }
       ]
@@ -338,8 +544,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.21",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.17",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.5",
           "identifier": "ubuntu"
         }
       ]
@@ -352,21 +568,32 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.21",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.18",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.5",
           "identifier": "ubuntu"
         }
       ]
     },
     "CVE-2025-6712": {
       "cve_id": "CVE-2025-6712",
-      "title": "MongoDB Server may be susceptible to disruption caused by high me ...",
-      "description": "MongoDB Server may be susceptible to disruption caused by high memory usage, potentially leading to server crash. This condition is linked to inefficiencies in memory management related to internal operations. In scenarios where certain internal processes persist longer than anticipated, memory consumption can increase, potentially impacting server stability and availability. This issue affects MongoDB Server v8.0 versions prior to 8.0.10",
-      "severity": "MEDIUM",
-      "status": "open",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
+          "fixed": "8.0.10",
           "identifier": "ubuntu"
         }
       ]
@@ -379,8 +606,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.22",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.19",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.7",
           "identifier": "ubuntu"
         }
       ]
@@ -393,8 +630,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
+          "fixed": "6.0.23",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
           "fixed": "7.0.20",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.9",
           "identifier": "ubuntu"
         }
       ]
@@ -407,8 +654,23 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.29",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.37",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.26",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.4",
           "identifier": "ubuntu"
         }
       ]
@@ -421,8 +683,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -435,8 +707,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -449,8 +726,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -463,8 +745,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -477,8 +764,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -491,8 +788,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -505,8 +812,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -519,8 +836,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -533,7 +860,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.3.0",
           "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
@@ -547,8 +874,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -561,8 +893,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -575,8 +917,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -589,8 +941,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -603,8 +960,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -617,8 +984,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -631,8 +1008,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -645,8 +1032,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -659,8 +1056,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -673,7 +1080,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.28",
           "identifier": "ubuntu"
         }
@@ -687,8 +1094,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -701,7 +1118,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.3.0",
           "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
@@ -715,7 +1132,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.3.0",
           "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
@@ -729,8 +1146,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -743,8 +1170,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.39",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.7",
           "identifier": "ubuntu"
         }
       ]
@@ -757,8 +1194,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.29",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.18",
           "identifier": "ubuntu"
         }
       ]
@@ -771,8 +1213,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.29",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.18",
           "identifier": "ubuntu"
         }
       ]
@@ -785,8 +1232,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.29",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.18",
           "identifier": "ubuntu"
         }
       ]
@@ -799,7 +1251,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.18",
           "identifier": "ubuntu"
         }
@@ -813,8 +1265,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.29",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.18",
           "identifier": "ubuntu"
         }
       ]
@@ -827,8 +1284,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.29",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.13",
           "identifier": "ubuntu"
         }
       ]
@@ -841,8 +1303,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.29",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.18",
           "identifier": "ubuntu"
         }
       ]
@@ -852,11 +1319,20 @@
       "title": "",
       "description": "",
       "severity": "UNKNOWN",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.31",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.20",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0-alpha0",
           "identifier": "ubuntu"
         }
       ]
@@ -866,11 +1342,20 @@
       "title": "",
       "description": "",
       "severity": "UNKNOWN",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.31",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.20",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0-alpha0",
           "identifier": "ubuntu"
         }
       ]
@@ -883,8 +1368,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.31",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.20",
           "identifier": "ubuntu"
         }
       ]
@@ -897,8 +1387,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.31",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.18",
           "identifier": "ubuntu"
         }
       ]
@@ -911,8 +1406,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.32",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.21",
           "identifier": "ubuntu"
         }
       ]
@@ -925,8 +1425,13 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.32",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.21",
           "identifier": "ubuntu"
         }
       ]
@@ -939,8 +1444,23 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "6.0.0",
           "fixed": "6.0.28",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "7.0.0",
+          "fixed": "7.0.34",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.23",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.2",
           "identifier": "ubuntu"
         }
       ]
@@ -953,8 +1473,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.34",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.23",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.2",
           "identifier": "ubuntu"
         }
       ]
@@ -967,8 +1497,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.34",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.23",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.2",
           "identifier": "ubuntu"
         }
       ]
@@ -981,8 +1521,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.34",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.23",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.2",
           "identifier": "ubuntu"
         }
       ]
@@ -995,8 +1545,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.34",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.23",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.2",
           "identifier": "ubuntu"
         }
       ]
@@ -1009,8 +1569,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1023,8 +1593,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1037,7 +1617,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "8.0.0",
           "fixed": "8.0.24",
           "identifier": "ubuntu"
         }
@@ -1051,8 +1631,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1065,8 +1655,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1079,8 +1679,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.10",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1093,8 +1703,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1107,8 +1727,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1121,8 +1751,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1135,8 +1775,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]
@@ -1149,8 +1799,18 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "7.0.0",
           "fixed": "7.0.35",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.0.0",
+          "fixed": "8.0.24",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "8.3.0",
+          "fixed": "8.3.3",
           "identifier": "ubuntu"
         }
       ]

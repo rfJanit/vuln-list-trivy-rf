@@ -20,11 +20,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:1.12-1ubuntu3",
-          "fixed": "0:1.12-1ubuntu3.2",
-          "identifier": "ubuntu"
-        },
-        {
           "introduced": "0:1.12-1ubuntu3.1",
           "fixed": "0:1.12-1ubuntu3.2",
           "identifier": "ubuntu"
@@ -41,11 +36,6 @@
         {
           "introduced": "0:1.10-4ubuntu4",
           "fixed": "0:1.10-4ubuntu4.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.12-1ubuntu3",
-          "fixed": "0:1.12-1ubuntu3.2",
           "identifier": "ubuntu"
         },
         {

@@ -12,14 +12,6 @@
         {
           "introduced": "0:1.18.0-3build1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.18.0-3build1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.18.4-1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -32,14 +24,6 @@
       "events": [
         {
           "introduced": "0:1.18.0-3build1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.18.0-3build1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.18.4-1",
           "identifier": "ubuntu"
         }
       ]
@@ -71,14 +55,6 @@
       "events": [
         {
           "introduced": "0:1.18.0-3build1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.18.0-3build1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:1.18.4-1",
           "identifier": "ubuntu"
         }
       ]
