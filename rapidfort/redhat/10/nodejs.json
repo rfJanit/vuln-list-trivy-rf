@@ -2067,6 +2067,16 @@
           "introduced": "0",
           "fixed": "1:18.9.0-1.fc38",
           "identifier": "fc38"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:20.7.0-1.fc39",
+          "identifier": "fc39"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:20.11.1-2.fc40",
+          "identifier": "fc40"
         }
       ]
     },
@@ -2191,6 +2201,11 @@
         {
           "introduced": "0",
           "identifier": "el10"
+        },
+        {
+          "introduced": "1:22.19.0-2.fc43",
+          "fixed": "1:22.22.2-2.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "0",
@@ -2475,7 +2490,7 @@
       "cve_id": "CVE-2026-48617",
       "title": "A flaw in Node.js Permission Model enforcement allows Bypass via  ...",
       "description": "A flaw in Node.js Permission Model enforcement allows Bypass via `process.report.writeReport()` Path Misvalidation. This can lead to confidentiality impact or bypass of the intended security boundary under affected configurations. This vulnerability affects all supported release lines: **Node.js 22**, **Node.js 24**, and **Node.js 26**.",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

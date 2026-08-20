@@ -403,6 +403,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
         },
@@ -590,6 +594,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "identifier": "el7"
+        },
+        {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
         },
@@ -623,6 +631,10 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        },
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
