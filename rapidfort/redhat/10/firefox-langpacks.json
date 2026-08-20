@@ -15,19 +15,6 @@
           "identifier": "fc43"
         }
       ]
-    },
-    "CVE-2026-75874": {
-      "cve_id": "CVE-2026-75874",
-      "title": "Sandbox escape in the Remote Settings Client component. This vuln ...",
-      "description": "Sandbox escape in the Remote Settings Client component. This vulnerability was fixed in Firefox 154 and Thunderbird 154.",
-      "severity": "CRITICAL",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "143.0.3-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
     }
   }
 }
