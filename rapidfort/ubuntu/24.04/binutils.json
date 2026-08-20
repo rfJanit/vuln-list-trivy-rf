@@ -32,6 +32,11 @@
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.2",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.39-3ubuntu1.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -79,6 +84,11 @@
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.39-3ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -92,6 +102,11 @@
         {
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.4",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.40-2ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -191,6 +206,11 @@
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.2",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.39-3ubuntu1.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -289,6 +309,11 @@
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.2",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.39-3ubuntu1.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -302,6 +327,11 @@
         {
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.39-3ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -317,6 +347,11 @@
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.2",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.39-3ubuntu1.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -330,6 +365,11 @@
         {
           "introduced": "0:2.38-3ubuntu1",
           "fixed": "0:2.38-4ubuntu2.2",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:2.38-4ubuntu2.12",
+          "fixed": "0:2.39-3ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]

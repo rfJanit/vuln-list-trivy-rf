@@ -13,6 +13,11 @@
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.6",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -46,6 +51,11 @@
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.4",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.36.1-1ubuntu2",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -59,6 +69,11 @@
         {
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.5",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.1",
           "identifier": "ubuntu"
         }
       ]
@@ -74,6 +89,11 @@
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.5",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.1",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -87,6 +107,11 @@
         {
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.6",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -102,6 +127,11 @@
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.8",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.4",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -115,6 +145,11 @@
         {
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.8",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.4",
           "identifier": "ubuntu"
         }
       ]
@@ -130,6 +165,11 @@
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.9",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -144,6 +184,11 @@
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.9",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.5",
+          "identifier": "ubuntu"
         }
       ]
     },
@@ -157,6 +202,11 @@
         {
           "introduced": "1:2.34.1-1ubuntu1",
           "fixed": "1:2.34.1-1ubuntu1.9",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "1:2.34.1-1ubuntu1.17",
+          "fixed": "1:2.37.2-1ubuntu1.5",
           "identifier": "ubuntu"
         }
       ]
