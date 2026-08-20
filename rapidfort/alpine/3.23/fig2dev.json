@@ -10,18 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.2.9a-r0",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r1",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r2",
-          "fixed": "3.2.9a-r3"
-        },
-        {
           "introduced": "3.2.9a-r2",
           "fixed": "3.2.9a-r3"
         }
@@ -34,18 +22,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.2.9a-r0",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r1",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r2",
-          "fixed": "3.2.9a-r3"
-        },
         {
           "introduced": "3.2.9a-r2",
           "fixed": "3.2.9a-r3"
@@ -60,18 +36,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.2.9a-r0",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r1",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r2",
-          "fixed": "3.2.9a-r3"
-        },
-        {
           "introduced": "3.2.9a-r2",
           "fixed": "3.2.9a-r3"
         }
@@ -84,18 +48,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.2.9a-r0",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r1",
-          "fixed": "3.2.9a-r3"
-        },
-        {
-          "introduced": "3.2.9a-r2",
-          "fixed": "3.2.9a-r3"
-        },
         {
           "introduced": "3.2.9a-r2",
           "fixed": "3.2.9a-r3"

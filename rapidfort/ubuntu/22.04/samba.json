@@ -195,11 +195,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1.2",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -319,11 +314,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -342,11 +332,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -367,11 +352,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -390,11 +370,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -415,11 +390,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -438,11 +408,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1",
           "identifier": "ubuntu"
         }
       ]
@@ -463,11 +428,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.1+dfsg-8ubuntu1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -486,11 +446,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1.1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1.1",
           "identifier": "ubuntu"
         }
       ]
@@ -511,11 +466,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1.1",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1.1",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -534,11 +484,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1.1",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1.1",
           "identifier": "ubuntu"
         }
       ]
@@ -559,11 +504,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1.2",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -583,11 +523,6 @@
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1.2",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -606,11 +541,6 @@
         {
           "introduced": "2:4.15.5~dfsg-0ubuntu5",
           "fixed": "2:4.15.13+dfsg-0ubuntu1.2",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "2:4.15.13+dfsg-0ubuntu1.12",
-          "fixed": "2:4.16.8+dfsg-0ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]

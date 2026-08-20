@@ -4989,7 +4989,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
@@ -5061,7 +5061,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
@@ -5078,6 +5078,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -5100,7 +5106,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
@@ -5124,7 +5130,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
@@ -5166,6 +5172,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -5197,6 +5209,30 @@
         }
       ]
     },
+    "CVE-2026-74952": {
+      "cve_id": "CVE-2026-74952",
+      "title": "Privilege escalation in the Application Update component. This vu ...",
+      "description": "Privilege escalation in the Application Update component. This vulnerability was fixed in Firefox 154 and Thunderbird 154.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0"
+        }
+      ]
+    },
     "CVE-2026-74953": {
       "cve_id": "CVE-2026-74953",
       "title": "Privilege escalation in the Networking: Cookies component. This v ...",
@@ -5204,6 +5240,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -5316,6 +5358,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -5350,6 +5398,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -5413,7 +5467,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
@@ -5431,6 +5485,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -5445,6 +5505,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -5467,7 +5533,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
@@ -5491,7 +5557,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
@@ -5578,7 +5644,7 @@
           "introduced": "132.0.2-r0"
         },
         {
-          "introduced": "136.0.4-r0"
+          "introduced": "142.0-r0"
         },
         {
           "introduced": "142.0-r0"
