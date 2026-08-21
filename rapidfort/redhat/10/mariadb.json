@@ -90,7 +90,7 @@
       "events": [
         {
           "introduced": "3:10.11.15-2.el10_1",
-          "fixed": "3:10.11.18-1.el10_2",
+          "fixed": "3:10.11.18-1.el10_0",
           "identifier": "el10"
         },
         {
@@ -109,7 +109,7 @@
       "events": [
         {
           "introduced": "3:10.11.15-2.el10_1",
-          "fixed": "3:10.11.18-1.el10_2",
+          "fixed": "3:10.11.18-1.el10_0",
           "identifier": "el10"
         },
         {
@@ -128,7 +128,7 @@
       "events": [
         {
           "introduced": "3:10.11.15-2.el10_1",
-          "fixed": "3:10.11.18-1.el10_2",
+          "fixed": "3:10.11.18-1.el10_0",
           "identifier": "el10"
         },
         {
@@ -147,7 +147,7 @@
       "events": [
         {
           "introduced": "3:10.11.15-2.el10_1",
-          "fixed": "3:10.11.18-1.el10_2",
+          "fixed": "3:10.11.18-1.el10_0",
           "identifier": "el10"
         },
         {
@@ -166,7 +166,7 @@
       "events": [
         {
           "introduced": "3:10.11.15-2.el10_1",
-          "fixed": "3:10.11.18-1.el10_2",
+          "fixed": "3:10.11.18-1.el10_0",
           "identifier": "el10"
         },
         {
@@ -185,7 +185,7 @@
       "events": [
         {
           "introduced": "3:10.11.15-2.el10_1",
-          "fixed": "3:10.11.18-1.el10_2",
+          "fixed": "3:10.11.18-1.el10_0",
           "identifier": "el10"
         },
         {
@@ -204,7 +204,7 @@
       "events": [
         {
           "introduced": "3:10.11.15-2.el10_1",
-          "fixed": "3:10.11.18-1.el10_2",
+          "fixed": "3:10.11.18-1.el10_0",
           "identifier": "el10"
         },
         {

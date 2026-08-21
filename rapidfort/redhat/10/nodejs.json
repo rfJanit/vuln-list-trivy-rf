@@ -2,114 +2,6 @@
   "package_name": "nodejs",
   "distro_version": "10",
   "advisories": {
-    "CVE-2022-43548": {
-      "cve_id": "CVE-2022-43548",
-      "title": "A OS Command Injection vulnerability exists in Node.js versions \u003c ...",
-      "description": "A OS Command Injection vulnerability exists in Node.js versions \u003c14.21.1, \u003c16.18.1, \u003c18.12.1, \u003c19.0.1 due to an insufficient IsAllowedHost check that can easily be bypassed because IsIPAddress does not properly check if an IP address is invalid before making DBS requests allowing rebinding attacks.The fix for this issue in https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32212 was incomplete and this new CVE is to complete the fix.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:4.4.1-1.fc24",
-          "identifier": "fc24"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.3.1-100.fc25",
-          "identifier": "fc25"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.10.0-1.fc26",
-          "identifier": "fc26"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.6.0-1.fc27",
-          "identifier": "fc27"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.11.0-1.fc28",
-          "identifier": "fc28"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.11.0-1.fc29",
-          "identifier": "fc29"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.15.3-1.fc30",
-          "identifier": "fc30"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.6.0-2.fc31~bootstrap",
-          "identifier": "fc31"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.8.1-1.fc32",
-          "identifier": "fc32"
-        }
-      ]
-    },
-    "CVE-2023-23918": {
-      "cve_id": "CVE-2023-23918",
-      "title": "A privilege escalation vulnerability exists in Node.js \u003c19.6.1, \u003c ...",
-      "description": "A privilege escalation vulnerability exists in Node.js \u003c19.6.1, \u003c18.14.1, \u003c16.19.1 and \u003c14.21.3 that made it possible to bypass the experimental Permissions (https://nodejs.org/api/permissions.html) feature in Node.js and access non authorized modules by using process.mainModule.require(). This only affects users who had enabled the experimental permissions option with --experimental-policy.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:4.4.1-1.fc24",
-          "identifier": "fc24"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.3.1-100.fc25",
-          "identifier": "fc25"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.10.0-1.fc26",
-          "identifier": "fc26"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.6.0-1.fc27",
-          "identifier": "fc27"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.11.0-1.fc28",
-          "identifier": "fc28"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.11.0-1.fc29",
-          "identifier": "fc29"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.15.3-1.fc30",
-          "identifier": "fc30"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.6.0-2.fc31~bootstrap",
-          "identifier": "fc31"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.8.1-1.fc32",
-          "identifier": "fc32"
-        }
-      ]
-    },
     "CVE-2023-23919": {
       "cve_id": "CVE-2023-23919",
       "title": "A cryptographic vulnerability exists in Node.js \u003c19.2.0, \u003c18.14.1 ...",
@@ -161,303 +53,6 @@
           "introduced": "0",
           "fixed": "1:12.8.1-1.fc32",
           "identifier": "fc32"
-        }
-      ]
-    },
-    "CVE-2023-23920": {
-      "cve_id": "CVE-2023-23920",
-      "title": "An untrusted search path vulnerability exists in Node.js. \u003c19.6.1 ...",
-      "description": "An untrusted search path vulnerability exists in Node.js. \u003c19.6.1, \u003c18.14.1, \u003c16.19.1, and \u003c14.21.3 that could allow an attacker to search and potentially load ICU data when running with elevated privileges.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:4.4.1-1.fc24",
-          "identifier": "fc24"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.3.1-100.fc25",
-          "identifier": "fc25"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.10.0-1.fc26",
-          "identifier": "fc26"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.6.0-1.fc27",
-          "identifier": "fc27"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.11.0-1.fc28",
-          "identifier": "fc28"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.11.0-1.fc29",
-          "identifier": "fc29"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.15.3-1.fc30",
-          "identifier": "fc30"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.6.0-2.fc31~bootstrap",
-          "identifier": "fc31"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.8.1-1.fc32",
-          "identifier": "fc32"
-        }
-      ]
-    },
-    "CVE-2023-30581": {
-      "cve_id": "CVE-2023-30581",
-      "title": "The use of __proto__ in process.mainModule.__proto__.require() ca ...",
-      "description": "The use of __proto__ in process.mainModule.__proto__.require() can bypass the policy mechanism and require modules outside of the policy.json definition. This vulnerability affects all users using the experimental policy mechanism in all active release lines: v16, v18 and, v20.\n\nPlease note that at the time this CVE was issued, the policy is an experimental feature of Node.js",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:4.4.1-1.fc24",
-          "identifier": "fc24"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.3.1-100.fc25",
-          "identifier": "fc25"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.10.0-1.fc26",
-          "identifier": "fc26"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.6.0-1.fc27",
-          "identifier": "fc27"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.11.0-1.fc28",
-          "identifier": "fc28"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.11.0-1.fc29",
-          "identifier": "fc29"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.15.3-1.fc30",
-          "identifier": "fc30"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.6.0-2.fc31~bootstrap",
-          "identifier": "fc31"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.8.1-1.fc32",
-          "identifier": "fc32"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.16.0-1.fc33",
-          "identifier": "fc33"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:14.7.0-2.fc34",
-          "identifier": "fc34"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.7.0-1.fc39",
-          "identifier": "fc39"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.11.1-2.fc40",
-          "identifier": "fc40"
-        }
-      ]
-    },
-    "CVE-2023-30588": {
-      "cve_id": "CVE-2023-30588",
-      "title": "When an invalid public key is used to create an x509 certificate  ...",
-      "description": "When an invalid public key is used to create an x509 certificate using the crypto.X509Certificate() API a non-expect termination occurs making it susceptible to DoS attacks when the attacker could force interruptions of application processing, as the process terminates when accessing public key info of provided certificates from user code. The current context of the users will be gone, and that will cause a DoS scenario. This vulnerability affects all active Node.js versions v16, v18, and, v20.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:20.7.0-1.fc39",
-          "identifier": "fc39"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.11.1-2.fc40",
-          "identifier": "fc40"
-        }
-      ]
-    },
-    "CVE-2023-30589": {
-      "cve_id": "CVE-2023-30589",
-      "title": "The llhttp parser in the http module in Node v20.2.0 does not str ...",
-      "description": "The llhttp parser in the http module in Node v20.2.0 does not strictly use the CRLF sequence to delimit HTTP requests. This can lead to HTTP Request Smuggling (HRS).\r\n\r\nThe CR character (without LF) is sufficient to delimit HTTP header fields in the llhttp parser. According to RFC7230 section 3, only the CRLF sequence should delimit each header-field. This impacts all Node.js active versions: v16, v18, and, v20",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:20.7.0-1.fc39",
-          "identifier": "fc39"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.11.1-2.fc40",
-          "identifier": "fc40"
-        }
-      ]
-    },
-    "CVE-2023-30590": {
-      "cve_id": "CVE-2023-30590",
-      "title": "The generateKeys() API function returned from crypto.createDiffie ...",
-      "description": "The generateKeys() API function returned from crypto.createDiffieHellman() only generates missing (or outdated) keys, that is, it only generates a private key if none has been set yet, but the function is also needed to compute the corresponding public key after calling setPrivateKey(). However, the documentation says this API call: \"Generates private and public Diffie-Hellman key values\".\n\nThe documented behavior is very different from the actual behavior, and this difference could easily lead to security issues in applications that use these APIs as the DiffieHellman may be used as the basis for application-level security, implications are consequently broad.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:20.7.0-1.fc39",
-          "identifier": "fc39"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.11.1-2.fc40",
-          "identifier": "fc40"
-        }
-      ]
-    },
-    "CVE-2023-32002": {
-      "cve_id": "CVE-2023-32002",
-      "title": "The use of `Module._load()` can bypass the policy mechanism and r ...",
-      "description": "The use of `Module._load()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.\n\nThis vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x.\n\nPlease note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
-      "severity": "CRITICAL",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:20.7.0-1.fc39",
-          "identifier": "fc39"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.11.1-2.fc40",
-          "identifier": "fc40"
-        }
-      ]
-    },
-    "CVE-2023-32006": {
-      "cve_id": "CVE-2023-32006",
-      "title": "The use of `module.constructor.createRequire()` can bypass the po ...",
-      "description": "The use of `module.constructor.createRequire()` can bypass the policy mechanism and require modules outside of the policy.json definition for a given module.\n\nThis vulnerability affects all users using the experimental policy mechanism in all active release lines: 16.x, 18.x, and, 20.x.\n\nPlease note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:4.4.1-1.fc24",
-          "identifier": "fc24"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.3.1-100.fc25",
-          "identifier": "fc25"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:6.10.0-1.fc26",
-          "identifier": "fc26"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.6.0-1.fc27",
-          "identifier": "fc27"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:8.11.0-1.fc28",
-          "identifier": "fc28"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.11.0-1.fc29",
-          "identifier": "fc29"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:10.15.3-1.fc30",
-          "identifier": "fc30"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.6.0-2.fc31~bootstrap",
-          "identifier": "fc31"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.8.1-1.fc32",
-          "identifier": "fc32"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:12.16.0-1.fc33",
-          "identifier": "fc33"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:14.7.0-2.fc34",
-          "identifier": "fc34"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.7.0-1.fc39",
-          "identifier": "fc39"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.11.1-2.fc40",
-          "identifier": "fc40"
-        }
-      ]
-    },
-    "CVE-2023-32559": {
-      "cve_id": "CVE-2023-32559",
-      "title": "A privilege escalation vulnerability exists in the experimental p ...",
-      "description": "A privilege escalation vulnerability exists in the experimental policy mechanism in all active release lines: 16.x, 18.x and, 20.x. The use of the deprecated API `process.binding()` can bypass the policy mechanism by requiring internal modules and eventually take advantage of `process.binding('spawn_sync')` run arbitrary code, outside of the limits defined in a `policy.json` file. Please note that at the time this CVE was issued, the policy is an experimental feature of Node.js.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1:20.7.0-1.fc39",
-          "identifier": "fc39"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1:20.11.1-2.fc40",
-          "identifier": "fc40"
         }
       ]
     },
@@ -1822,7 +1417,7 @@
       "events": [
         {
           "introduced": "1:22.22.2-1.el10_1",
-          "fixed": "1:22.23.1-2.el10_2",
+          "fixed": "1:22.23.1-2.el10_0",
           "identifier": "el10"
         }
       ]
@@ -1836,7 +1431,7 @@
       "events": [
         {
           "introduced": "1:22.22.2-1.el10_1",
-          "fixed": "1:22.23.1-4.el10_2",
+          "fixed": "1:22.23.1-3.el10_0",
           "identifier": "el10"
         }
       ]
@@ -1855,6 +1450,34 @@
         }
       ]
     },
+    "CVE-2026-1525": {
+      "cve_id": "CVE-2026-1525",
+      "title": "Undici allows duplicate HTTP Content-Length headers when they are ...",
+      "description": "Undici allows duplicate HTTP Content-Length headers when they are provided in an array with case-variant names (e.g., Content-Length and content-length). This produces malformed HTTP/1.1 requests with multiple conflicting Content-Length values on the wire.\n\nWho is impacted:\n\n  *  Applications using undici.request(), undici.Client, or similar low-level APIs with headers passed as flat arrays\n  *  Applications that accept user-controlled header names without case-normalization\n\n\nPotential consequences:\n\n  *  Denial of Service: Strict HTTP parsers (proxies, servers) will reject requests with duplicate Content-Length headers (400 Bad Request)\n  *  HTTP Request Smuggling: In deployments where an intermediary and backend interpret duplicate headers inconsistently (e.g., one uses the first value, the other uses the last), this can enable request smuggling attacks leading to ACL bypass, cache poisoning, or credential hijacking",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
+          "identifier": "el10"
+        }
+      ]
+    },
+    "CVE-2026-1526": {
+      "cve_id": "CVE-2026-1526",
+      "title": "The undici WebSocket client is vulnerable to a denial-of-service  ...",
+      "description": "The undici WebSocket client is vulnerable to a denial-of-service attack via unbounded memory consumption during permessage-deflate decompression. When a WebSocket connection negotiates the permessage-deflate extension, the client decompresses incoming compressed frames without enforcing any limit on the decompressed data size. A malicious WebSocket server can send a small compressed frame (a \"decompression bomb\") that expands to an extremely large size in memory, causing the Node.js process to exhaust available memory and crash or become unresponsive.\n\nThe vulnerability exists in the PerMessageDeflate.decompress() method, which accumulates all decompressed chunks in memory and concatenates them into a single Buffer without checking whether the total size exceeds a safe threshold.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
+          "identifier": "el10"
+        }
+      ]
+    },
     "CVE-2026-1527": {
       "cve_id": "CVE-2026-1527",
       "title": "ImpactWhen an application passes user-controlled input to the upg ...",
@@ -1864,6 +1487,20 @@
       "events": [
         {
           "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
+    },
+    "CVE-2026-1528": {
+      "cve_id": "CVE-2026-1528",
+      "title": "ImpactA server can reply with a WebSocket frame using the 64-bit  ...",
+      "description": "ImpactA server can reply with a WebSocket frame using the 64-bit length form and an extremely large length. undici's ByteParser overflows internal math, ends up in an invalid state, and throws a fatal TypeError that terminates the process.\n\nPatches\n\nPatched in the undici version v7.24.0 and v6.24.0. Users should upgrade to this version or later.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
           "identifier": "el10"
         }
       ]
@@ -1974,6 +1611,11 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
+          "identifier": "el10"
+        },
         {
           "introduced": "1:22.19.0-2.fc43",
           "fixed": "1:22.22.2-2.fc43",
@@ -2371,6 +2013,34 @@
         }
       ]
     },
+    "CVE-2026-2229": {
+      "cve_id": "CVE-2026-2229",
+      "title": "ImpactThe undici WebSocket client is vulnerable to a denial-of-se ...",
+      "description": "ImpactThe undici WebSocket client is vulnerable to a denial-of-service attack due to improper validation of the server_max_window_bits parameter in the permessage-deflate extension. When a WebSocket client connects to a server, it automatically advertises support for permessage-deflate compression. A malicious server can respond with an out-of-range server_max_window_bits value (outside zlib's valid range of 8-15). When the server subsequently sends a compressed frame, the client attempts to create a zlib InflateRaw instance with the invalid windowBits value, causing a synchronous RangeError exception that is not caught, resulting in immediate process termination.\n\nThe vulnerability exists because:\n\n  *  The isValidClientWindowBits() function only validates that the value contains ASCII digits, not that it falls within the valid range 8-15\n  *  The createInflateRaw() call is not wrapped in a try-catch block\n  *  The resulting exception propagates up through the call stack and crashes the Node.js process",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
+          "identifier": "el10"
+        }
+      ]
+    },
+    "CVE-2026-25547": {
+      "cve_id": "CVE-2026-25547",
+      "title": "@isaacs/brace-expansion is a hybrid CJS/ESM TypeScript fork of br ...",
+      "description": "@isaacs/brace-expansion is a hybrid CJS/ESM TypeScript fork of brace-expansion. Prior to version 5.0.1, @isaacs/brace-expansion is vulnerable to a denial of service (DoS) issue caused by unbounded brace range expansion. When an attacker provides a pattern containing repeated numeric brace ranges, the library attempts to eagerly generate every possible combination synchronously. Because the expansion grows exponentially, even a small input can consume excessive CPU and memory and may crash the Node.js process. This issue has been patched in version 5.0.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
+          "identifier": "el10"
+        }
+      ]
+    },
     "CVE-2026-2581": {
       "cve_id": "CVE-2026-2581",
       "title": "This is an uncontrolled resource consumption vulnerability (CWE-4 ...",
@@ -2384,6 +2054,34 @@
         }
       ]
     },
+    "CVE-2026-26996": {
+      "cve_id": "CVE-2026-26996",
+      "title": "minimatch is a minimal matching utility for converting glob expre ...",
+      "description": "minimatch is a minimal matching utility for converting glob expressions into JavaScript RegExp objects. Versions 10.2.0 and below are vulnerable to Regular Expression Denial of Service (ReDoS) when a glob pattern contains many consecutive * wildcards followed by a literal character that doesn't appear in the test string. Each * compiles to a separate [^/]*? regex group, and when the match fails, V8's regex engine backtracks exponentially across all possible splits. The time complexity is O(4^N) where N is the number of * characters. With N=15, a single minimatch() call takes ~2 seconds. With N=34, it hangs effectively forever. Any application that passes user-controlled strings to minimatch() as the pattern argument is vulnerable to DoS. This issue has been fixed in version 10.2.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
+          "identifier": "el10"
+        }
+      ]
+    },
+    "CVE-2026-27135": {
+      "cve_id": "CVE-2026-27135",
+      "title": "nghttp2 is an implementation of the Hypertext Transfer Protocol v ...",
+      "description": "nghttp2 is an implementation of the Hypertext Transfer Protocol version 2 in C. Prior to version 1.68.1, the nghttp2 library stops reading the incoming data when user facing public API `nghttp2_session_terminate_session` or `nghttp2_session_terminate_session2` is called by the application. They might be called internally by the library when it detects the situation that is subject to connection error. Due to the missing internal state validation, the library keeps reading the rest of the data after one of those APIs is called. Then receiving a malformed frame that causes FRAME_SIZE_ERROR causes assertion failure. nghttp2 v1.68.1 adds missing state validation to avoid assertion failure. No known workarounds are available.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
+          "identifier": "el10"
+        }
+      ]
+    },
     "CVE-2026-27903": {
       "cve_id": "CVE-2026-27903",
       "title": "minimatch is a minimal matching utility for converting glob expre ...",
@@ -2393,6 +2091,20 @@
       "events": [
         {
           "introduced": "0",
+          "identifier": "el10"
+        }
+      ]
+    },
+    "CVE-2026-27904": {
+      "cve_id": "CVE-2026-27904",
+      "title": "minimatch is a minimal matching utility for converting glob expre ...",
+      "description": "minimatch is a minimal matching utility for converting glob expressions into JavaScript RegExp objects. Prior to version 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, and 3.1.4, nested `*()` extglobs produce regexps with nested unbounded quantifiers (e.g. `(?:(?:a|b)*)*`), which exhibit catastrophic backtracking in V8. With a 12-byte pattern `*(*(*(a|b)))` and an 18-byte non-matching input, `minimatch()` stalls for over 7 seconds. Adding a single nesting level or a few input characters pushes this to minutes. This is the most severe finding: it is triggered by the default `minimatch()` API with no special options, and the minimum viable pattern is only 12 bytes. The same issue affects `+()` extglobs equally. Versions 10.2.3, 9.0.7, 8.0.6, 7.4.8, 6.2.2, 5.1.8, 4.2.5, and 3.1.4 fix the issue.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.22.2-2.el10_0",
           "identifier": "el10"
         }
       ]
@@ -2445,7 +2157,7 @@
       "events": [
         {
           "introduced": "1:22.22.2-1.el10_1",
-          "fixed": "1:22.23.1-2.el10_2",
+          "fixed": "1:22.23.1-2.el10_0",
           "identifier": "el10"
         }
       ]
@@ -2472,7 +2184,7 @@
       "events": [
         {
           "introduced": "1:22.22.2-1.el10_1",
-          "fixed": "1:22.23.1-2.el10_2",
+          "fixed": "1:22.23.1-2.el10_0",
           "identifier": "el10"
         },
         {
@@ -2517,7 +2229,7 @@
       "events": [
         {
           "introduced": "1:22.22.2-1.el10_1",
-          "fixed": "1:22.23.1-2.el10_2",
+          "fixed": "1:22.23.1-2.el10_0",
           "identifier": "el10"
         },
         {
@@ -2627,7 +2339,7 @@
       "events": [
         {
           "introduced": "1:22.22.2-1.el10_1",
-          "fixed": "1:22.23.1-2.el10_2",
+          "fixed": "1:22.23.1-2.el10_0",
           "identifier": "el10"
         },
         {

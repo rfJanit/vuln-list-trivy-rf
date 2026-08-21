@@ -130,19 +130,6 @@
         }
       ]
     },
-    "CVE-2025-61729": {
-      "cve_id": "CVE-2025-61729",
-      "title": "Within HostnameError.Error(), when constructing an error string,  ...",
-      "description": "Within HostnameError.Error(), when constructing an error string, there is no limit to the number of hosts that will be printed out. Furthermore, the error string is constructed by repeated string concatenation, leading to quadratic runtime. Therefore, a certificate provided by a malicious actor can result in excessive resource consumption.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el10"
-        }
-      ]
-    },
     "CVE-2025-67499": {
       "cve_id": "CVE-2025-67499",
       "title": "The CNI portmap plugin allows containers to emulate opening a hos ...",

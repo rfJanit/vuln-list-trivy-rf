@@ -18,6 +18,11 @@
           "introduced": "0",
           "fixed": "2:9.1.2146-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -72,7 +77,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.112-2.fc43",
+          "fixed": "2:9.2.112-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -100,7 +105,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.112-2.fc43",
+          "fixed": "2:9.2.112-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -128,7 +133,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.112-2.fc43",
+          "fixed": "2:9.2.112-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -156,7 +161,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.112-2.fc43",
+          "fixed": "2:9.2.112-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -180,7 +185,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.112-2.fc43",
+          "fixed": "2:9.2.112-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -208,7 +213,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.112-2.fc43",
+          "fixed": "2:9.2.112-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -275,7 +280,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.280-1.fc43",
+          "fixed": "2:9.2.272-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -329,6 +334,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -347,6 +357,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -382,6 +397,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -400,6 +420,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -412,7 +437,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.506-2.fc43",
+          "fixed": "2:9.2.530-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -428,6 +453,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -442,6 +472,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -456,6 +491,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -474,6 +514,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -488,6 +533,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -502,6 +552,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -520,6 +575,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -534,6 +594,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -548,6 +613,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -562,6 +632,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -576,6 +651,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -590,6 +670,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -604,6 +689,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -618,6 +708,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -636,6 +731,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -650,6 +750,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -668,6 +773,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -711,6 +821,11 @@
         {
           "introduced": "2:9.1.1818-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -718,13 +833,18 @@
       "cve_id": "CVE-2026-73074",
       "title": "Vim is an open source, command line text editor. Prior to 9.2.084 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0841, prop_add_one() in src/textprop.c uses the proplen value from get_text_props() to increment a uint16_t property count beyond 0xffff, wrapping the count to zero and copying existing text-property records into a heap allocation sized for none of them. This issue is fixed in version 9.2.0841.",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -742,6 +862,11 @@
         {
           "introduced": "2:9.1.1818-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -756,6 +881,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -774,6 +904,11 @@
           "introduced": "2:9.1.1818-1.fc43",
           "fixed": "2:9.2.843-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:9.2.967-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },

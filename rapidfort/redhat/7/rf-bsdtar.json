@@ -23,6 +23,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -47,6 +52,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -71,6 +81,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -95,6 +110,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -119,6 +139,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -129,6 +154,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
+        },
         {
           "introduced": "3.8.1-3.fc43",
           "identifier": "fc43"

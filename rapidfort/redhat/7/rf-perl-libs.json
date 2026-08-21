@@ -63,6 +63,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "4:0",
+          "fixed": "4:5.42.2-523.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "4:5.40.1-514.fc41",
           "identifier": "fc41"
         },

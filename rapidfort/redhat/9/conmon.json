@@ -388,6 +388,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "2:2.1.13-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },

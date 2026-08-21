@@ -263,12 +263,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.4.1-1.fc41",
-          "identifier": "fc41"
+          "introduced": "0",
+          "identifier": "el7"
         },
         {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
+          "introduced": "0:3.4.1-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -282,10 +282,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -303,10 +299,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -320,10 +312,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -337,10 +325,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -354,10 +338,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -371,10 +351,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -388,10 +364,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -409,10 +381,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -426,10 +394,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -443,10 +407,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -460,10 +420,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -477,10 +433,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -494,10 +446,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -511,10 +459,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -528,10 +472,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -545,10 +485,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -562,10 +498,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -579,10 +511,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -600,10 +528,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -617,10 +541,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -638,10 +558,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -655,23 +571,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-70455": {
-      "cve_id": "CVE-2026-70455",
-      "title": "rsync 3.4.2 before 3.5.0 contains a denial of service vulnerabili ...",
-      "description": "rsync 3.4.2 before 3.5.0 contains a denial of service vulnerability that allows a remote sender to exhaust system resources by specifying the --zt short alias for --compress-threads, which bypasses the refuse options directive's string matching on long option names. Attackers can specify --zt=N with a large value to spawn an unbounded number of Zstandard worker threads on the receiver, exhausting available thread and memory resources.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.4.4-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -683,12 +582,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.4.1-1.fc41",
-          "identifier": "fc41"
+          "introduced": "0",
+          "identifier": "el7"
         },
         {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
+          "introduced": "0:3.4.1-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -702,10 +601,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -719,10 +614,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -736,10 +627,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -753,10 +640,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -768,12 +651,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:3.4.1-1.fc41",
-          "identifier": "fc41"
+          "introduced": "0",
+          "identifier": "el7"
         },
         {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
+          "introduced": "0:3.4.1-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -787,10 +670,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -804,10 +683,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -821,10 +696,6 @@
         {
           "introduced": "0:3.4.1-1.fc41",
           "identifier": "fc41"
-        },
-        {
-          "introduced": "3.4.1-4.fc43",
-          "identifier": "fc43"
         }
       ]
     }

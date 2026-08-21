@@ -34,11 +34,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:2.4.26-4.el10_1",
-          "fixed": "1:2.4.26-5.el10_2.1",
-          "identifier": "el10"
-        },
-        {
           "introduced": "1:2.4.26-5.fc43",
           "fixed": "1:2.6.11-2.fc43",
           "identifier": "fc43"

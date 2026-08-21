@@ -22,6 +22,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -45,6 +50,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -68,6 +78,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -91,6 +106,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -114,6 +134,11 @@
           "introduced": "0",
           "fixed": "3.8.6-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -132,6 +157,11 @@
         {
           "introduced": "3.8.1-3.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "3.8.9-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -149,20 +179,6 @@
         {
           "introduced": "3.8.1-3.fc43",
           "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-4424": {
-      "cve_id": "CVE-2026-4424",
-      "title": "A flaw was found in libarchive. This heap out-of-bounds read vuln ...",
-      "description": "A flaw was found in libarchive. This heap out-of-bounds read vulnerability exists in the RAR archive processing logic due to improper validation of the LZSS sliding window size after transitions between compression methods. A remote attacker can exploit this by providing a specially crafted RAR archive, leading to the disclosure of sensitive heap memory information without requiring authentication or user interaction.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "3.5.3-7.el9_7",
-          "fixed": "0:3.5.3-9.el9_7",
-          "identifier": "el9"
         }
       ]
     },

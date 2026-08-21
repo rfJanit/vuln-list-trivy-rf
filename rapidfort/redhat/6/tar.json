@@ -86,10 +86,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el6"
-        },
-        {
           "introduced": "2:1.35-4.fc41",
           "identifier": "fc41"
         },
