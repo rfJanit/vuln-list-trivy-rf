@@ -429,6 +429,11 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "0:9.9p1-4.fc41",
           "identifier": "fc41"
         },
@@ -545,6 +550,11 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "0:9.9p1-4.fc41",
           "identifier": "fc41"
         },
@@ -565,6 +575,11 @@
           "introduced": "0:0",
           "fixed": "0:9.9p1-2.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:10.2p1-14.fc44",
+          "identifier": "fc44"
         },
         {
           "introduced": "0:9.9p1-4.fc41",

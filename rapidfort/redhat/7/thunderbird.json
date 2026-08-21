@@ -6228,19 +6228,6 @@
         }
       ]
     },
-    "CVE-2026-74981": {
-      "cve_id": "CVE-2026-74981",
-      "title": "Site isolation issue in the Audio/Video: Web Codecs component. Th ...",
-      "description": "Site isolation issue in the Audio/Video: Web Codecs component. This vulnerability was fixed in Firefox 154, Firefox ESR 153.1, Thunderbird 154, and Thunderbird 153.1.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "140.3.0-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-74983": {
       "cve_id": "CVE-2026-74983",
       "title": "Mitigation bypass in the Data Loss Prevention component. This vul ...",

@@ -2,44 +2,6 @@
   "package_name": "golang-tests",
   "distro_version": "10",
   "advisories": {
-    "CVE-2021-3115": {
-      "cve_id": "CVE-2021-3115",
-      "title": "Go before 1.14.14 and 1.15.x before 1.15.7 on Windows is vulnerab ...",
-      "description": "Go before 1.14.14 and 1.15.x before 1.15.7 on Windows is vulnerable to Command Injection and remote code execution when using the \"go get\" command to fetch modules that make use of cgo (for example, cgo can execute a gcc program from an untrusted download).",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1.15.7-1.fc33",
-          "identifier": "fc33"
-        }
-      ]
-    },
-    "CVE-2023-39323": {
-      "cve_id": "CVE-2023-39323",
-      "title": "Line directives (\"//line\") can be used to bypass the restrictions ...",
-      "description": "Line directives (\"//line\") can be used to bypass the restrictions on \"//go:cgo_\" directives, allowing blocked linker and compiler flags to be passed during compilation. This can result in unexpected execution of arbitrary code when running \"go build\". The line directive requires the absolute path of the file in which the directive lives, which makes exploiting this issue significantly more complex.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1.20.10-3.fc37",
-          "identifier": "fc37"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.20.10-2.fc38",
-          "identifier": "fc38"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.21.3-1.fc39",
-          "identifier": "fc39"
-        }
-      ]
-    },
     "CVE-2024-34158": {
       "cve_id": "CVE-2024-34158",
       "title": "Calling Parse on a \"// +build\" build tag line with deeply nested  ...",
@@ -53,25 +15,6 @@
         }
       ]
     },
-    "CVE-2025-22870": {
-      "cve_id": "CVE-2025-22870",
-      "title": "Matching of hosts against proxy patterns can improperly treat an  ...",
-      "description": "Matching of hosts against proxy patterns can improperly treat an IPv6 zone ID as a hostname component. For example, when the NO_PROXY environment variable is set to \"*.example.com\", a request to \"[::1%25.example.com]:80` will incorrectly match and not be proxied.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0",
-          "fixed": "1.23.8-1.fc40",
-          "identifier": "fc40"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.23.8-1.fc41",
-          "identifier": "fc41"
-        }
-      ]
-    },
     "CVE-2025-22873": {
       "cve_id": "CVE-2025-22873",
       "title": "It was possible to improperly access the parent directory of an o ...",
@@ -82,10 +25,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -112,10 +51,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -142,10 +77,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -159,10 +90,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -202,10 +129,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -232,10 +155,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -262,10 +181,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -279,10 +194,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -296,10 +207,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -327,10 +234,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -344,10 +247,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -375,10 +274,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -392,10 +287,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -533,10 +424,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -550,10 +437,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -567,10 +450,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -584,10 +463,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -601,10 +476,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -618,10 +489,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -635,10 +502,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -693,10 +556,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -710,10 +569,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -727,10 +582,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -786,10 +637,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -803,10 +650,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -820,10 +663,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -837,10 +676,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -854,10 +689,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -871,10 +702,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.25.1-2.fc43",
-          "identifier": "fc43"
         }
       ]
     }

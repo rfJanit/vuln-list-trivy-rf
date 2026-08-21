@@ -12,16 +12,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.20-1.fc44",
-          "identifier": "fc44"
-        },
-        {
-          "introduced": "0",
-          "fixed": "3.21-1.fc45",
-          "identifier": "fc45"
         }
       ]
     },
@@ -35,10 +25,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "3.19.1-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -52,10 +38,6 @@
         {
           "introduced": "0",
           "identifier": "el8"
-        },
-        {
-          "introduced": "3.19.1-1.fc43",
-          "identifier": "fc43"
         }
       ]
     }

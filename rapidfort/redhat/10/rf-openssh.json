@@ -541,6 +541,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.4p1-12.fc45.rf",
           "identifier": "rf"
         },
@@ -676,6 +681,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "0:9.9p1-13.fc42",
           "identifier": "fc42"
         },
@@ -696,6 +706,11 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
         {
           "introduced": "0:9.9p1-13.fc42",
           "identifier": "fc42"

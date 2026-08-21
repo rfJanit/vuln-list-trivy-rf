@@ -332,6 +332,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -403,6 +408,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
+        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -415,6 +425,11 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "10.2p1-14.fc44",
+          "identifier": "fc44"
+        },
         {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"

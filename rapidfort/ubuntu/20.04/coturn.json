@@ -171,6 +171,25 @@
         }
       ]
     },
+    "CVE-2026-68554": {
+      "cve_id": "CVE-2026-68554",
+      "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
+      "description": "Coturn is a free open source implementation of TURN and STUN Server. Prior to 4.15.0, an on-path attacker can append attributes after MESSAGE-INTEGRITY to an authenticated STUN request on plain UDP or TCP, adjust the STUN header length, and recompute the unkeyed FINGERPRINT while the original HMAC remains valid because it covers only the message prefix. Server-side parsing in src/server/ns_turn_server.c continues past MESSAGE-INTEGRITY through handle_turn_allocate(), handle_turn_create_permission(), handle_turn_refresh(), and handle_turn_command(), allowing trailing LIFETIME, XOR-PEER-ADDRESS, or ORIGIN attributes to override allocation lifetime, inject a permission, or bypass the origin check. TLS and DTLS deployments prevent this in-transit modification. This issue is fixed in version 4.15.0.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:4.5.2-3.1~ubuntu22.04.1",
+          "fixed": "0:4.15.0-1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:4.6.1-1build4",
+          "fixed": "0:4.15.0-1",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
     "CVE-2026-73212": {
       "cve_id": "CVE-2026-73212",
       "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
