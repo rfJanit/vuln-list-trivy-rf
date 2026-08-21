@@ -142,7 +142,6 @@
         },
         {
           "introduced": "0:2.84.2-1.fc42",
-          "fixed": "0:2.84.4-1.fc42",
           "identifier": "fc42"
         }
       ]
@@ -166,7 +165,7 @@
       "title": "A flaw was found in glib. Missing validation of offset and count  ...",
       "description": "A flaw was found in glib. Missing validation of offset and count parameters in the g_buffered_input_stream_peek() function can lead to an integer overflow during length calculation. When specially crafted values are provided, this overflow results in an incorrect size being passed to memcpy(), triggering a buffer overflow. This can cause application crashes, leading to a Denial of Service (DoS).",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:2.86.0-2.fc43",
@@ -176,6 +175,10 @@
         {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:2.86.3-1.fc43",
           "identifier": "fc43"
         }
       ]

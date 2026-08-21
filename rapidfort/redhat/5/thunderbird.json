@@ -4984,7 +4984,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "140.3.0-1.fc43",
+          "introduced": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5036,7 +5036,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "140.3.0-1.fc43",
+          "introduced": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5075,7 +5075,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "140.3.0-1.fc43",
+          "introduced": "152.0-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5085,6 +5085,19 @@
       "title": "Use-after-free in the DOM: Core \u0026 HTML component. This vulnerabil ...",
       "description": "Use-after-free in the DOM: Core \u0026 HTML component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "152.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-74945": {
+      "cve_id": "CVE-2026-74945",
+      "title": "Information disclosure in the Graphics: Text component. This vuln ...",
+      "description": "Information disclosure in the Graphics: Text component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -5275,6 +5288,19 @@
         }
       ]
     },
+    "CVE-2026-74961": {
+      "cve_id": "CVE-2026-74961",
+      "title": "Side-channel in the Web Audio component. This vulnerability was f ...",
+      "description": "Side-channel in the Web Audio component. This vulnerability was fixed in Firefox 154, Firefox ESR 153.1, Thunderbird 154, and Thunderbird 153.1.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-74962": {
       "cve_id": "CVE-2026-74962",
       "title": "Site isolation issue in the Networking: Cookies component. This v ...",
@@ -5310,6 +5336,19 @@
       "events": [
         {
           "introduced": "152.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-74968": {
+      "cve_id": "CVE-2026-74968",
+      "title": "Site isolation issue in the Graphics: WebRender component. This v ...",
+      "description": "Site isolation issue in the Graphics: WebRender component. This vulnerability was fixed in Firefox 154, Firefox ESR 153.1, Thunderbird 154, and Thunderbird 153.1.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
           "identifier": "fc43"
         }
       ]
@@ -5392,6 +5431,32 @@
         }
       ]
     },
+    "CVE-2026-74979": {
+      "cve_id": "CVE-2026-74979",
+      "title": "Mitigation bypass in the Add-ons Manager component. This vulnerab ...",
+      "description": "Mitigation bypass in the Add-ons Manager component. This vulnerability was fixed in Firefox 154, Firefox ESR 153.1, Thunderbird 154, and Thunderbird 153.1.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-74981": {
+      "cve_id": "CVE-2026-74981",
+      "title": "Site isolation issue in the Audio/Video: Web Codecs component. Th ...",
+      "description": "Site isolation issue in the Audio/Video: Web Codecs component. This vulnerability was fixed in Firefox 154, Firefox ESR 153.1, Thunderbird 154, and Thunderbird 153.1.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-74983": {
       "cve_id": "CVE-2026-74983",
       "title": "Mitigation bypass in the Data Loss Prevention component. This vul ...",
@@ -5414,6 +5479,32 @@
       "events": [
         {
           "introduced": "152.0-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-74988": {
+      "cve_id": "CVE-2026-74988",
+      "title": "Internally found bugs present in Thunderbird ESR 153.0 and Thunde ...",
+      "description": "Internally found bugs present in Thunderbird ESR 153.0 and Thunderbird 153. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. This vulnerability was fixed in Firefox 154, Firefox ESR 153.1, Thunderbird 154, and Thunderbird 153.1.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-74989": {
+      "cve_id": "CVE-2026-74989",
+      "title": "Internally found bugs present in Thunderbird 153. Some of these b ...",
+      "description": "Internally found bugs present in Thunderbird 153. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. This vulnerability was fixed in Firefox 154 and Thunderbird 154.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "140.3.0-1.fc43",
           "identifier": "fc43"
         }
       ]
