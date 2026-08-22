@@ -7,22 +7,27 @@
       "title": "BuildKit's cache mount source= selector on Windows Container on W ...",
       "description": "BuildKit's cache mount source= selector on Windows Container on Windows (WCOW) workers does not detect NTFS directory junctions placed inside the cache root. A build authored by an untrusted user on a WCOW-configured BuildKit daemon can read arbitrary host files reachable to the BuildKit daemon process.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.18.2-r5"
+          "introduced": "0.18.2-r5",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         }
       ]
     },
@@ -31,22 +36,27 @@
       "title": "A custom client can produce such an upload request to the BuildKi ...",
       "description": "A custom client can produce such an upload request to the BuildKit daemon that files can escape from the BuildKit-controlled state directory. The client needs to have valid permissions to access the BuildKit control API to issue builds, e.g., bypass authentication, etc.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.18.2-r5"
+          "introduced": "0.18.2-r5",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         }
       ]
     },
@@ -55,22 +65,27 @@
       "title": "A crafted message in the BuildKit low-level build API can be used ...",
       "description": "A crafted message in the BuildKit low-level build API can be used to remove the contents of the /tmp directory. The action that can normally be used to delete files inside the build container rootfs can escape into the real host temp directory.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.18.2-r5"
+          "introduced": "0.18.2-r5",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         }
       ]
     },
@@ -79,22 +94,27 @@
       "title": "A malicious BuildKit client or frontend could craft a request tha ...",
       "description": "A malicious BuildKit client or frontend could craft a request that could lead to BuildKit daemon crashing with a panic.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.13.2-r3"
+          "introduced": "0.13.2-r3",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.18.2-r5"
+          "introduced": "0.18.2-r5",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         },
         {
-          "introduced": "0.25.1-r6"
+          "introduced": "0.25.1-r6",
+          "fixed": "0.32.2-r0"
         }
       ]
     },

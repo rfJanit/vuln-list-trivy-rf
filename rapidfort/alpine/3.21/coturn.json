@@ -310,6 +310,36 @@
         }
       ]
     },
+    "CVE-2026-68552": {
+      "cve_id": "CVE-2026-68552",
+      "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
+      "description": "Coturn is a free open source implementation of TURN and STUN Server. Prior to 4.15.0, an unauthenticated remote client can send a STUN message over TCP or TLS with a body-length field from 65520 through 65532, causing the uint16_t len variable in stun_get_message_len_str() in src/client/ns_turn_msg.c to wrap when STUN_HEADER_LENGTH is added. The framing layer then consumes only 4 through 16 bytes, treats the remaining bytes as another message, desynchronizes the stream parser, and drops the attacking client's connection. Other clients and the server process are not affected. This issue is fixed in version 4.15.0.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        }
+      ]
+    },
     "CVE-2026-68554": {
       "cve_id": "CVE-2026-68554",
       "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
