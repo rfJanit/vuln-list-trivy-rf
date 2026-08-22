@@ -12,6 +12,10 @@
         {
           "introduced": "0",
           "identifier": "el8"
+        },
+        {
+          "introduced": "2.80.1-3.fc43",
+          "identifier": "fc43"
         }
       ]
     }
