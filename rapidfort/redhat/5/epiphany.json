@@ -14,6 +14,20 @@
           "identifier": "fc43"
         }
       ]
+    },
+    "CVE-2026-77682": {
+      "cve_id": "CVE-2026-77682",
+      "title": "",
+      "description": "",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:49.1-1.fc43",
+          "fixed": "1:49.9.1-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
     }
   }
 }

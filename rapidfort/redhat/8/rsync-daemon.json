@@ -83,7 +83,7 @@
       "events": [
         {
           "introduced": "3.4.1-4.fc43",
-          "fixed": "3.4.3-1.fc43",
+          "fixed": "3.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -125,7 +125,7 @@
         },
         {
           "introduced": "3.4.1-4.fc43",
-          "fixed": "3.4.3-1.fc43",
+          "fixed": "3.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -167,7 +167,7 @@
         },
         {
           "introduced": "3.4.1-4.fc43",
-          "fixed": "3.4.3-1.fc43",
+          "fixed": "3.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -190,7 +190,7 @@
         },
         {
           "introduced": "3.4.1-4.fc43",
-          "fixed": "3.4.3-1.fc43",
+          "fixed": "3.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -213,7 +213,7 @@
         },
         {
           "introduced": "3.4.1-4.fc43",
-          "fixed": "3.4.3-1.fc43",
+          "fixed": "3.4.4-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -415,8 +415,12 @@
       "title": "rsync before 3.5.0 contains a path confinement bypass vulnerabili ...",
       "description": "rsync before 3.5.0 contains a path confinement bypass vulnerability that allows remote clients to escape the intended inner-module root confinement by constructing paths that resolve outside the chroot boundary when the module root contains a /./ boundary marker. Attackers can exploit improper handling of the /./ notation or forge delta-basis transfers referencing xname paths that cross the /./ boundary to gain unauthorized read or write access to files outside the module's subtree.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
         {
           "introduced": "3.4.1-4.fc43",
           "fixed": "3.5.0-1.fc43",
@@ -838,8 +842,12 @@
       "title": "rsync 3.1.0 before 3.5.0 contains a signed integer overflow vulne ...",
       "description": "rsync 3.1.0 before 3.5.0 contains a signed integer overflow vulnerability in the I/O timeout implementation that allows attackers to permanently disable connection timeouts by injecting MSG_IO_TIMEOUT messages carrying non-positive (zero or negative) values. Attackers can craft malicious MSG_IO_TIMEOUT messages that cause the timeout variable to wrap to a non-positive value, preventing the timeout check from firing and enabling idle or stalled connections to hold daemon slots indefinitely, leading to resource exhaustion.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
         {
           "introduced": "3.4.1-4.fc43",
           "fixed": "3.5.0-1.fc43",
