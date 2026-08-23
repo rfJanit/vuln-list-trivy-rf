@@ -2,25 +2,6 @@
   "package_name": "rf-binutils",
   "distro_version": "22.04",
   "advisories": {
-    "CVE-2017-13716": {
-      "cve_id": "CVE-2017-13716",
-      "title": "The C++ symbol demangler routine in cplus-dem.c in libiberty, as  ...",
-      "description": "The C++ symbol demangler routine in cplus-dem.c in libiberty, as distributed in GNU Binutils 2.29, allows remote attackers to cause a denial of service (excessive memory allocation and application crash) via a crafted file, as demonstrated by a call from the Binary File Descriptor (BFD) library (aka libbfd).",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:2.46-10rfubu",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:0",
-          "fixed": "0:2.42-4ubuntu2.8",
-          "identifier": "ubuntu"
-        }
-      ]
-    },
     "CVE-2019-1010204": {
       "cve_id": "CVE-2019-1010204",
       "title": "GNU binutils gold gold v1.11-v1.16 (GNU binutils v2.21-v2.31.1) i ...",
