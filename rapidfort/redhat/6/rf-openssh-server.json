@@ -356,6 +356,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "10.5p1-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:9.9p1-4.fc41",
           "identifier": "fc41"
@@ -373,6 +378,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "10.5p1-1.fc46",
+          "identifier": "fc46"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:9.9p1-4.fc41",
@@ -415,6 +425,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "10.5p1-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:9.9p1-4.fc41",
           "identifier": "fc41"
@@ -432,6 +447,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "10.5p1-1.fc46",
+          "identifier": "fc46"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:9.9p1-4.fc41",

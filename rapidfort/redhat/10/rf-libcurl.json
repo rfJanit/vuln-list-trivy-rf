@@ -93,6 +93,11 @@
           "identifier": "fc45"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -131,6 +136,11 @@
           "introduced": "0:0",
           "fixed": "0:8.18.0-4.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -188,6 +198,11 @@
           "identifier": "fc45"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -208,6 +223,11 @@
           "introduced": "0:0",
           "fixed": "0:8.18.0-4.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -237,6 +257,11 @@
           "identifier": "fc45"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -262,6 +287,11 @@
           "introduced": "0:0",
           "fixed": "0:8.18.0-4.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -346,6 +376,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -390,6 +425,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
         {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
@@ -521,6 +561,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -541,6 +586,11 @@
           "introduced": "0",
           "fixed": "8.19.0-10.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -565,6 +615,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -585,6 +640,11 @@
           "introduced": "0",
           "fixed": "8.19.0-10.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -609,6 +669,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -629,6 +694,11 @@
           "introduced": "0",
           "fixed": "8.19.0-10.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -676,6 +746,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -696,6 +771,11 @@
           "introduced": "0",
           "fixed": "8.19.0-10.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -743,6 +823,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }
@@ -780,6 +865,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -800,6 +890,11 @@
           "introduced": "0",
           "fixed": "8.19.0-10.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -824,6 +919,11 @@
           "identifier": "rf"
         },
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
         },
@@ -841,6 +941,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
+        {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
         }
@@ -853,6 +958,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.22.0~rc2-1.fc46",
+          "identifier": "fc46"
+        },
         {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
