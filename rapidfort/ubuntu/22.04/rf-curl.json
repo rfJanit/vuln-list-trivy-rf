@@ -10,11 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.1",
           "identifier": "ubuntu"
@@ -28,11 +23,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.1",
@@ -48,11 +38,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.1",
           "identifier": "ubuntu"
@@ -66,11 +51,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.1",
@@ -86,11 +66,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.2",
           "identifier": "ubuntu"
@@ -104,11 +79,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.2",
@@ -124,11 +94,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.2",
           "identifier": "ubuntu"
@@ -142,11 +107,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.3",
@@ -162,11 +122,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.3",
           "identifier": "ubuntu"
@@ -180,11 +135,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.3",
@@ -200,11 +150,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.3",
           "identifier": "ubuntu"
@@ -218,11 +163,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.6",
@@ -238,11 +178,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.4",
           "identifier": "ubuntu"
@@ -256,11 +191,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.6",
@@ -276,11 +206,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.6",
           "identifier": "ubuntu"
@@ -294,11 +219,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.7",
@@ -314,11 +234,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.7",
           "identifier": "ubuntu"
@@ -332,11 +247,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.8",
@@ -352,11 +262,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.8",
           "identifier": "ubuntu"
@@ -370,11 +275,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.8",
@@ -390,11 +290,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.10",
           "identifier": "ubuntu"
@@ -408,11 +303,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.10",
@@ -428,11 +318,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.10",
           "identifier": "ubuntu"
@@ -446,11 +331,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.10",
@@ -466,11 +346,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.10",
           "identifier": "ubuntu"
@@ -484,11 +359,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.11",
@@ -504,11 +374,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.11",
           "identifier": "ubuntu"
@@ -522,11 +387,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.14",
@@ -542,11 +402,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0:0",
-          "fixed": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.14",
           "identifier": "ubuntu"
@@ -558,7 +413,7 @@
       "title": "This flaw allows a malicious HTTP server to set \"super cookies\" i ...",
       "description": "This flaw allows a malicious HTTP server to set \"super cookies\" in curl that\nare then passed back to more origins than what is otherwise allowed or\npossible. This allows a site to set cookies that then would get sent to\ndifferent and unrelated sites and domains.\n\nIt could do this by exploiting a mixed case flaw in curl's function that\nverifies a given cookie domain against the Public Suffix List (PSL). For\nexample a cookie could be set with `domain=co.UK` when the URL used a lower\ncase hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -567,7 +422,6 @@
         },
         {
           "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
           "identifier": "rf"
         }
       ]
@@ -577,11 +431,10 @@
       "title": "When saving HSTS data to an excessively long file name, curl coul ...",
       "description": "When saving HSTS data to an excessively long file name, curl could end up\nremoving all contents, making subsequent requests using that file unaware of\nthe HSTS status they should otherwise use.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
           "identifier": "rf"
         }
       ]
@@ -591,11 +444,10 @@
       "title": "curl inadvertently kept the SSL session ID for connections in its ...",
       "description": "curl inadvertently kept the SSL session ID for connections in its cache even when the verify status (*OCSP stapling*) test failed. A subsequent transfer to\nthe same hostname could then succeed if the session ID cache was still fresh, which then skipped the verify status check.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
           "identifier": "rf"
         }
       ]
@@ -605,7 +457,7 @@
       "title": "When asked to both use a `.netrc` file for credentials and to fol ...",
       "description": "When asked to both use a `.netrc` file for credentials and to follow HTTP\nredirects, curl could leak the password used for the first host to the\nfollowed-to host under certain circumstances.\n\nThis flaw only manifests itself if the netrc file has an entry that matches\nthe redirect target hostname but the entry either omits just the password or\nomits both login and password.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -613,14 +465,13 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.1-10rfubuntu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.6",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -629,17 +480,16 @@
       "title": "When a protocol selection parameter option disables all protocols ...",
       "description": "When a protocol selection parameter option disables all protocols without adding any then the default set of protocols would remain in the allowed set due to an error in the logic for removing protocols. The below command would perform a request to curl.se with a plaintext protocol which has been explicitly disabled.      curl --proto -all,-http http://curl.se  The flaw is only present if the set of selected protocols disables the entire set of available protocols, in itself a command with no practical use and therefore unlikely to be encountered in real situations. The curl security team has thus assessed this to be low severity bug.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -648,7 +498,7 @@
       "title": "When an application tells libcurl it wants to allow HTTP/2 server ...",
       "description": "When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -656,14 +506,13 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -672,7 +521,7 @@
       "title": "libcurl's ASN1 parser code has the `GTime2str()` function, used f ...",
       "description": "libcurl's ASN1 parser code has the `GTime2str()` function, used for parsing an\nASN.1 Generalized Time field. If given an syntactically incorrect field, the\nparser might end up using -1 for the length of the *time fraction*, leading to\na `strlen()` getting performed on a pointer to a heap buffer area that is not\n(purposely) null terminated.\n\nThis flaw most likely leads to a crash, but can also lead to heap contents\ngetting returned to the application when\n[CURLINFO_CERTINFO](https://curl.se/libcurl/c/CURLINFO_CERTINFO.html) is used.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -680,14 +529,13 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.2",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -696,7 +544,7 @@
       "title": "When curl is told to use the Certificate Status Request TLS exten ...",
       "description": "When curl is told to use the Certificate Status Request TLS extension, often referred to as OCSP stapling, to verify that the server certificate is valid, it might fail to detect some OCSP problems and instead wrongly consider the response as fine.  If the returned status reports another error than 'revoked' (like for example 'unauthorized') it is not treated as a bad certficate.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -704,14 +552,13 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.4",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -720,7 +567,7 @@
       "title": "When curl is asked to use HSTS, the expiry time for a subdomain m ...",
       "description": "When curl is asked to use HSTS, the expiry time for a subdomain might\noverwrite a parent domain's cache entry, making it end sooner or later than\notherwise intended.\n\nThis affects curl using applications that enable HSTS and use URLs with the\ninsecure `HTTP://` scheme and perform transfers with hosts like\n`x.example.com` as well as `example.com` where the first host is a subdomain\nof the second host.\n\n(The HSTS cache either needs to have been populated manually or there needs to\nhave been previous HTTPS accesses done as the cache needs to have entries for\nthe domains involved to trigger this problem.)\n\nWhen `x.example.com` responds with `Strict-Transport-Security:` headers, this\nbug can make the subdomain's expiry timeout *bleed over* and get set for the\nparent domain `example.com` in curl's HSTS cache.\n\nThe result of a triggered bug is that HTTP accesses to `example.com` get\nconverted to HTTPS for a different period of time than what was asked for by\nthe origin server. If `example.com` for example stops supporting HTTPS at its\nexpiry time, curl might then fail to access `http://example.com` until the\n(wrongly set) timeout expires. This bug can also expire the parent's entry\n*earlier*, thus making curl inadvertently switch back to insecure HTTP earlier\nthan otherwise intended.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -728,14 +575,13 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.1-10rfubuntu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.5",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -782,17 +628,16 @@
       "title": "curl's websocket code did not update the 32 bit mask pattern for  ...",
       "description": "curl's websocket code did not update the 32 bit mask pattern for each new\n outgoing frame as the specification says. Instead it used a fixed mask that\npersisted and was used throughout the entire connection.\n\nA predictable mask pattern allows for a malicious server to induce traffic\nbetween the two communicating parties that could be interpreted by an involved\nproxy (configured or transparent) as genuine, real, HTTP traffic with content\nand thereby poison its cache. That cached poisoned content could then be\nserved to all users of that proxy.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.16.0-10rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.7",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -855,7 +700,7 @@
       "title": "When doing multi-threaded LDAPS transfers (LDAP over TLS) with li ...",
       "description": "When doing multi-threaded LDAPS transfers (LDAP over TLS) with libcurl,\nchanging TLS options in one thread would inadvertently change them globally\nand therefore possibly also affect other concurrently setup transfers.\n\nDisabling certificate verification for a specific transfer could\nunintentionally disable the feature for other threads as well.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -863,14 +708,13 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.18.0-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.7",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -879,7 +723,7 @@
       "title": "When an OAuth2 bearer token is used for an HTTP(S) transfer, and  ...",
       "description": "When an OAuth2 bearer token is used for an HTTP(S) transfer, and that transfer\nperforms a cross-protocol redirect to a second URL that uses an IMAP, LDAP,\nPOP3 or SMTP scheme, curl might wrongly pass on the bearer token to the new\ntarget host.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:7.81.0-1",
@@ -887,14 +731,13 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.18.0-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.7",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
+          "identifier": "rf"
         }
       ]
     },
@@ -939,16 +782,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.16.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.7",
           "identifier": "ubuntu"
@@ -956,6 +789,10 @@
         {
           "introduced": "0:8.13.0-5ubuntu1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.16.0-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -977,16 +814,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.16.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.7",
           "identifier": "ubuntu"
@@ -994,6 +821,10 @@
         {
           "introduced": "0:8.13.0-5ubuntu1",
           "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:8.16.0-10rfubu",
+          "identifier": "rf"
         }
       ]
     },
@@ -1054,11 +885,10 @@
       "title": "1. A cookie is set using the `secure` keyword for `https://target ...",
       "description": "1. A cookie is set using the `secure` keyword for `https://target` \n 2. curl is redirected to or otherwise made to speak with `http://target` (same \n   hostname, but using clear text HTTP) using the same cookie set \n 3. The same cookie name is set - but with just a slash as path (`path=\\\"/\\\",`).\n   Since this site is not secure, the cookie *should* just be ignored.\n4. A bug in the path comparison logic makes curl read outside a heap buffer\n   boundary\n\nThe bug either causes a crash or it potentially makes the comparison come to\nthe wrong conclusion and lets the clear-text site override the contents of the\nsecure cookie, contrary to expectations and depending on the memory contents\nimmediately following the single-byte allocation that holds the path.\n\nThe presumed and correct behavior would be to plainly ignore the second set of\nthe cookie since it was already set as secure on a secure host so overriding\nit on an insecure host should not be okay.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "fixed": "0:8.16.0-10rfubu",
           "identifier": "rf"
         }
       ]
@@ -1073,11 +903,6 @@
         {
           "introduced": "0:0",
           "fixed": "0:8.21.0-10rfubu",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
           "identifier": "rf"
         },
         {
@@ -1163,11 +988,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.12",
           "identifier": "ubuntu"
@@ -1214,11 +1034,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.8",
           "identifier": "ubuntu"
@@ -1245,11 +1060,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.23",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",
@@ -1280,13 +1090,8 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.14.0-10rfubu",
-          "fixed": "0:8.18.0-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
+          "fixed": "0:8.18.0-11rfubu",
           "identifier": "rf"
         },
         {
@@ -1341,11 +1146,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.9",
           "identifier": "ubuntu"
@@ -1372,11 +1172,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.24",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",
@@ -1407,11 +1202,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.9",
           "identifier": "ubuntu"
@@ -1438,11 +1228,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.24",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",
@@ -1473,11 +1258,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.9",
           "identifier": "ubuntu"
@@ -1504,11 +1284,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.24",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",
@@ -1539,11 +1314,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.9",
           "identifier": "ubuntu"
@@ -1570,11 +1340,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.25",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",
@@ -1605,11 +1370,6 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2ubuntu10",
           "fixed": "0:8.5.0-2ubuntu10.10",
           "identifier": "ubuntu"
@@ -1636,11 +1396,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.25",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",
@@ -1671,13 +1426,8 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:8.14.0-10rfubu",
-          "fixed": "0:8.14.1-10rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
+          "fixed": "0:8.14.1-10rfubu",
           "identifier": "rf"
         },
         {
@@ -1725,11 +1475,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.25",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",
@@ -1848,11 +1593,6 @@
           "introduced": "0:7.81.0-1",
           "fixed": "0:7.81.0-1ubuntu1.25",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:8.5.0-2rfubuntu10.2+rf.mini.1",
-          "fixed": "0:8.11.0-0rfubuntu2+rf.mini.1",
-          "identifier": "rf"
         },
         {
           "introduced": "0:8.5.0-2ubuntu10",

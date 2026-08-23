@@ -28,11 +28,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3ubuntu0.22.04.5",
           "fixed": "8:6.9.11.60+dfsg-1.3ubuntu1",
           "identifier": "ubuntu"
@@ -46,11 +41,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.12.98+dfsg1-5.2build2",
@@ -66,11 +56,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.12.98+dfsg1-5",
           "identifier": "ubuntu"
@@ -84,11 +69,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.39+dfsg1-1",
@@ -104,11 +84,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.47+dfsg1-1",
           "identifier": "ubuntu"
@@ -122,11 +97,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
@@ -142,11 +112,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
@@ -160,11 +125,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
@@ -180,11 +140,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
@@ -198,11 +153,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
@@ -218,11 +168,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
@@ -236,11 +181,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.12.98+dfsg1-5.2build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -256,11 +196,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
@@ -274,11 +209,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
@@ -294,11 +224,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -312,11 +237,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.8+dfsg1-1",
@@ -332,11 +252,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
@@ -350,11 +265,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.39+dfsg1-1",
@@ -370,11 +280,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -388,11 +293,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -408,11 +308,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -426,11 +321,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -446,11 +336,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
@@ -464,11 +349,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
@@ -484,11 +364,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -502,11 +377,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
@@ -522,11 +392,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -540,11 +405,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
@@ -560,11 +420,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -578,11 +433,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
@@ -598,11 +448,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -616,11 +461,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
@@ -636,11 +476,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -654,11 +489,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
@@ -674,11 +504,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -692,11 +517,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
@@ -712,11 +532,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1ubuntu0.1",
           "identifier": "ubuntu"
@@ -730,11 +545,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -750,11 +560,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.13+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
@@ -768,11 +573,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
@@ -788,11 +588,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -806,11 +601,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -826,11 +616,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.13+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
@@ -844,11 +629,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -864,11 +644,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.13+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
@@ -882,11 +657,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.13+dfsg1-1ubuntu1",
@@ -902,11 +672,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
@@ -921,11 +686,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -939,11 +699,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
@@ -973,11 +728,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.13+dfsg1-1ubuntu1",
           "identifier": "ubuntu"
@@ -991,11 +741,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1011,11 +756,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
@@ -1029,11 +769,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.1.43+dfsg1-1ubuntu1",
@@ -1049,11 +784,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1067,11 +797,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1087,11 +812,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1105,11 +825,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1125,11 +840,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1143,11 +853,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
@@ -1163,11 +868,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
@@ -1181,11 +881,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
@@ -1201,11 +896,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
           "identifier": "ubuntu"
@@ -1219,11 +909,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.7+dfsg1-1",
@@ -1239,11 +924,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1257,11 +937,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1277,11 +952,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1295,11 +965,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1333,11 +998,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1351,11 +1011,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1371,11 +1026,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1389,11 +1039,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1409,11 +1054,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1427,11 +1067,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1447,11 +1082,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1465,11 +1095,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1485,11 +1110,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1503,11 +1123,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1523,11 +1138,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1541,11 +1151,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1561,11 +1166,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1579,11 +1179,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -1599,11 +1194,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1617,11 +1207,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1637,11 +1222,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1655,11 +1235,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1675,11 +1250,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1693,11 +1263,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1713,11 +1278,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1731,11 +1291,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1751,11 +1306,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1769,11 +1319,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1789,11 +1334,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1807,11 +1347,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1827,11 +1362,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1845,11 +1375,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1865,11 +1390,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1883,11 +1403,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1903,11 +1418,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -1921,11 +1431,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1941,11 +1446,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1959,11 +1459,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -1979,11 +1474,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -1997,11 +1487,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -2307,11 +1792,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2325,11 +1805,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -2345,11 +1820,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2363,11 +1833,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -2383,11 +1848,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2401,11 +1861,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.18+dfsg1-1",
@@ -2421,11 +1876,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2439,11 +1889,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -2459,11 +1904,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2477,11 +1917,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -2497,11 +1932,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2515,11 +1945,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.15+dfsg1-1",
@@ -2535,11 +1960,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "identifier": "ubuntu"
         }
@@ -2552,11 +1972,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -2572,11 +1987,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2590,11 +2000,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -2610,11 +2015,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2628,11 +2028,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -2719,11 +2114,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -2755,11 +2145,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -2794,11 +2179,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -2812,11 +2192,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -2832,11 +2207,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
           "identifier": "ubuntu"
@@ -2850,11 +2220,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",
@@ -2870,11 +2235,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -2888,11 +2248,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -2927,11 +2282,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
-        {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
           "identifier": "ubuntu"
@@ -2945,11 +2295,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:6.9.13.12+dfsg1-1",
@@ -3036,11 +2381,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8:0",
-          "fixed": "8:7.1.2.24+dfsg1-11rfubu",
-          "identifier": "rf"
-        },
         {
           "introduced": "8:6.9.11.60+dfsg-1.3build2",
           "fixed": "8:7.1.2.3+dfsg1-1",

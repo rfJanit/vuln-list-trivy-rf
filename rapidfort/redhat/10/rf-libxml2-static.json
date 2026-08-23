@@ -124,11 +124,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "fixed": "2.12.10-14.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "2.12.10-5.fc43",
           "identifier": "fc43"
         }
@@ -141,11 +136,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "2.12.10-14.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "2.12.10-5.fc43",
           "identifier": "fc43"
@@ -160,11 +150,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "fixed": "2.12.10-14.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "2.12.10-5.fc43",
           "identifier": "fc43"
         }
@@ -177,11 +162,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "2.12.10-14.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "2.12.10-5.fc43",
           "identifier": "fc43"

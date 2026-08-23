@@ -608,9 +608,9 @@
     },
     "CVE-2026-3890": {
       "cve_id": "CVE-2026-3890",
-      "title": "[hcd-ohci: infinite loop]",
-      "description": "[hcd-ohci: infinite loop]",
-      "severity": "LOW",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
@@ -621,9 +621,9 @@
     },
     "CVE-2026-5763": {
       "cve_id": "CVE-2026-5763",
-      "title": "[virtio-scsi request size mismatch]",
-      "description": "[virtio-scsi request size mismatch]",
-      "severity": "LOW",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
