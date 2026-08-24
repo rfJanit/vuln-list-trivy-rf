@@ -11,11 +11,6 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
           "fixed": "3.8.2-1.fc44",
           "identifier": "fc44"
         },
@@ -38,11 +33,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "0",
           "fixed": "3.8.2-1.fc44",
@@ -69,11 +59,6 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
           "fixed": "3.8.2-1.fc44",
           "identifier": "fc44"
         },
@@ -98,11 +83,6 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0",
           "fixed": "3.8.2-1.fc44",
           "identifier": "fc44"
         },
@@ -125,11 +105,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "0",
           "fixed": "3.8.2-1.fc44",
@@ -173,11 +148,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "3.8.1-3.fc43",
           "identifier": "fc43"
         }
@@ -188,12 +158,11 @@
       "title": "A signed integer overflow vulnerability was found in libarchive's ...",
       "description": "A signed integer overflow vulnerability was found in libarchive's ZIP writer. In the archive_write_zip_header function in archive_write_set_format_zip.c, when ZIP encryption is enabled and the entry file size is close to INT64_MAX, the addition of the encryption overhead to the entry size overflows int64_t, resulting in undefined behavior. This could lead to incorrect Zip64 extension decisions or potential memory corruption.",
       "severity": "LOW",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
+          "identifier": "el10"
         }
       ]
     },
@@ -204,11 +173,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "0",
           "fixed": "3.8.7-1.fc44",
@@ -223,11 +187,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "fixed": "3.8.4-13.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "3.8.1-3.fc43",
           "identifier": "fc43"

@@ -102,7 +102,7 @@
       "title": "Git LFS is a Git extension for versioning large files. In Git LFS ...",
       "description": "Git LFS is a Git extension for versioning large files. In Git LFS versions 0.5.2 through 3.7.0, when populating a Git repository's working tree with the contents of Git LFS objects, certain Git LFS commands may write to files visible outside the current Git working tree if symbolic or hard links exist which collide with the paths of files tracked by Git LFS. The git lfs checkout and git lfs pull commands do not check for symbolic links before writing to files in the working tree, allowing an attacker to craft a repository containing symbolic or hard links that cause Git LFS to write to arbitrary file system locations accessible to the user running these commands. As well, when the git lfs checkout and git lfs pull commands are run in a bare repository, they could write to files visible outside the repository. The vulnerability is fixed in version 3.7.1. As a workaround, support for symlinks in Git may be disabled by setting the core.symlinks configuration option to false, after which further clones and fetches will not create symbolic links. However, any symbolic or hard links in existing repositories will still provide the opportunity for Git LFS to write to their targets.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0",
@@ -115,43 +115,7 @@
           "identifier": "fc42"
         },
         {
-          "introduced": "0:3.5.1-12.rf",
-          "fixed": "0:3.7.1-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.5.1-13.rf",
-          "fixed": "0:3.7.1-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.6.1-11.rf",
-          "fixed": "0:3.7.1-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.6.1-12.rf",
-          "fixed": "0:3.7.1-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.6.1-13.rf",
-          "fixed": "0:3.7.1-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.6.1-14.rf",
-          "fixed": "0:3.7.1-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.6.1-15.rf",
-          "fixed": "0:3.7.1-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "0:3.6.1-16.rf",
-          "fixed": "0:3.7.1-11.rf",
+          "introduced": "3.5.1-12.rf",
           "identifier": "rf"
         },
         {
@@ -242,12 +206,11 @@
       "title": "Parsing a maliciously crafted DER payload could allocate large am ...",
       "description": "Parsing a maliciously crafted DER payload could allocate large amounts of memory, causing memory exhaustion.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.5.1-12.rf",
-          "identifier": "rf"
+          "identifier": "el10"
         }
       ]
     },
@@ -292,12 +255,11 @@
       "title": "Validating certificate chains which contain DSA public keys can c ...",
       "description": "Validating certificate chains which contain DSA public keys can cause programs to panic, due to a interface cast that assumes they implement the Equal method. This affects programs which validate arbitrary certificate chains.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.5.1-12.rf",
-          "identifier": "rf"
+          "identifier": "el10"
         }
       ]
     },
@@ -306,12 +268,11 @@
       "title": "When Conn.Handshake fails during ALPN negotiation the error conta ...",
       "description": "When Conn.Handshake fails during ALPN negotiation the error contains attacker controlled information (the ALPN protocols sent by the client) which is not escaped.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.5.1-12.rf",
-          "identifier": "rf"
+          "identifier": "el10"
         }
       ]
     },
@@ -320,12 +281,11 @@
       "title": "The processing time for parsing some invalid inputs scales non-li ...",
       "description": "The processing time for parsing some invalid inputs scales non-linearly with respect to the size of the input. This affects programs which parse untrusted PEM inputs.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "0",
-          "fixed": "3.5.1-12.rf",
-          "identifier": "rf"
+          "identifier": "el10"
         }
       ]
     },

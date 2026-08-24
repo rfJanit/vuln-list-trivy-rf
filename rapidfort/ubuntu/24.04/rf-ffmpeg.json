@@ -81,11 +81,10 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.n6.1-3-g466799d4f5 allo ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.n6.1-3-g466799d4f5 allows a local attacker to execute arbitrary code via the config_eq_output function in the libavfilter/asrc_afirsrc.c:495:30 component.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -95,7 +94,7 @@
       "title": "Buffer Overflow vulnerability in Ffmpeg v.n6.1-3-g466799d4f5 allo ...",
       "description": "Buffer Overflow vulnerability in Ffmpeg v.n6.1-3-g466799d4f5 allows a local attacker to execute arbitrary code via the ff_bwdif_filter_intra_c function in the libavfilter/bwdifdsp.c:125:5 component.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:4.4.1-3ubuntu5",
@@ -104,7 +103,6 @@
         },
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -114,11 +112,10 @@
       "title": "Buffer Overflow vulnerability in FFmpeg version n6.1-3-g466799d4f ...",
       "description": "Buffer Overflow vulnerability in FFmpeg version n6.1-3-g466799d4f5, allows a local attacker to execute arbitrary code and cause a denial of service (DoS) via the af_dialoguenhance.c:261:5 in the de_stereo component.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -128,11 +125,10 @@
       "title": "FFmpeg v.n6.1-3-g466799d4f5 allows an attacker to trigger use of  ...",
       "description": "FFmpeg v.n6.1-3-g466799d4f5 allows an attacker to trigger use of a parameter of negative size in the av_samples_set_silence function in thelibavutil/samplefmt.c:260:9 component.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -142,11 +138,10 @@
       "title": "FFmpeg v.n6.1-3-g466799d4f5 allows memory consumption when using  ...",
       "description": "FFmpeg v.n6.1-3-g466799d4f5 allows memory consumption when using the colorcorrect filter, in the av_malloc function in libavutil/mem.c:105:9 component.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -282,7 +277,7 @@
       "title": "FFmpeg version n6.1.1 was discovered to contain a heap use-after- ...",
       "description": "FFmpeg version n6.1.1 was discovered to contain a heap use-after-free via the av_hwframe_ctx_init function.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:4.4.1-3ubuntu5",
@@ -291,7 +286,6 @@
         },
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -301,11 +295,10 @@
       "title": "FFmpeg version n6.1 was discovered to contain a heap buffer overf ...",
       "description": "FFmpeg version n6.1 was discovered to contain a heap buffer overflow vulnerability in the draw_block_rectangle function of libavfilter/vf_codecview.c. This vulnerability allows attackers to cause undefined behavior or a Denial of Service (DoS) via crafted input.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -315,11 +308,10 @@
       "title": "FFmpeg 7.0 is vulnerable to Buffer Overflow. There is a SEGV at l ...",
       "description": "FFmpeg 7.0 is vulnerable to Buffer Overflow. There is a SEGV at libavcodec/hevcdec.c:2947:22 in hevc_frame_end.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:6.1.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -704,11 +696,10 @@
       "title": "FFmpeg before 8.1 has an integer overflow and resultant out-of-bo ...",
       "description": "FFmpeg before 8.1 has an integer overflow and resultant out-of-bounds write via CENC (Common Encryption) subsample data to libavformat/mov.c.",
       "severity": "CRITICAL",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:4.4.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -822,11 +813,10 @@
       "title": "FFmpeg through 8.1.2, fixed in commit 5d7112c, contains a heap ou ...",
       "description": "FFmpeg through 8.1.2, fixed in commit 5d7112c, contains a heap out-of-bounds write vulnerability in the vf_hqdn3d filter that allows attackers to corrupt heap memory by supplying a crafted video whose frame resolution increases between frames when filtergraph reinitialization is disabled via the -reinit_filter 0 option. Attackers can provide a malicious video input where vf_hqdn3d.config_input() allocates undersized per-plane line-history buffers based on the initial frame width, and subsequent larger frames cause denoise_spatial() to write beyond the allocation boundary, resulting in heap memory corruption.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:4.4.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -836,11 +826,10 @@
       "title": "FFmpeg through 8.1.2, fixed in commit 8670835, contains an inform ...",
       "description": "FFmpeg through 8.1.2, fixed in commit 8670835, contains an information disclosure vulnerability in the LCL/ZLIB video decoder that allows attackers to expose uninitialized heap memory by supplying a valid zlib stream that inflates to fewer bytes than the expected frame size. The zlib_decomp() function in lcldec.c treats short decompression as non-fatal and continues to the RGB24 conversion path, which copies a full frame's worth of rows from the allocation buffer using original frame dimensions, causing uninitialized heap contents including pointer-derived allocator bytes to be copied into the attacker-observable AVFrame output and potentially defeating ASLR in long-lived media processing services.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:4.4.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]
@@ -850,11 +839,10 @@
       "title": "FFmpeg through 8.1.2, fixed in commit aafb5c6, contains a signed  ...",
       "description": "FFmpeg through 8.1.2, fixed in commit aafb5c6, contains a signed integer overflow vulnerability in the MACE6 audio decoder that allows attackers to corrupt heap memory by supplying a crafted CAF file with a malicious bytes_per_packet value. Attackers can craft a CAF file with oversized bytes_per_packet and frames_per_packet values in the desc chunk to trigger an integer overflow in mace_decode_frame() during output sample count computation, resulting in an undersized buffer allocation and heap out-of-bounds write that could enable code execution.",
       "severity": "HIGH",
-      "status": "fixed",
+      "status": "open",
       "events": [
         {
           "introduced": "7:4.4.1-3ubuntu5",
-          "fixed": "7:7.1.1-1ubuntu1.2",
           "identifier": "ubuntu"
         }
       ]

@@ -10,11 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "4:0",
-          "fixed": "4:5.42.2-533.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "4:5.42.0-520.fc43",
           "identifier": "fc43"
         }
@@ -42,11 +37,6 @@
       "events": [
         {
           "introduced": "4:0",
-          "fixed": "4:5.42.2-533.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "4:0",
           "fixed": "4:5.42.3-525.fc44",
           "identifier": "fc44"
         },
@@ -64,11 +54,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "4:0",
-          "fixed": "4:5.42.2-533.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "4:0",
           "fixed": "4:5.42.3-525.fc44",

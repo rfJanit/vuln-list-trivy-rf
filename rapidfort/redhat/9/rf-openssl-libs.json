@@ -11,11 +11,6 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
           "identifier": "fc23"
         },
@@ -566,11 +561,6 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:0",
           "fixed": "1:3.5.5-2.fc45",
           "identifier": "fc45"
         },
@@ -593,11 +583,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
@@ -715,11 +700,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -733,11 +713,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.1.1a-1.0.riscv64.fc30",
@@ -782,11 +757,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -846,11 +816,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -974,11 +939,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
@@ -1157,11 +1117,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.2.2-19.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:3.2.4-1.fc41",
           "identifier": "fc41"

@@ -80,7 +80,6 @@
         },
         {
           "introduced": "0:5.74-533.rf",
-          "fixed": "0:5.74-534.fc43.rf",
           "identifier": "rf"
         },
         {
@@ -96,11 +95,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:0.02-523.fc43",
-          "identifier": "fc43"
-        },
         {
           "introduced": "0:0",
           "fixed": "0:5.40.4-520.fc42",

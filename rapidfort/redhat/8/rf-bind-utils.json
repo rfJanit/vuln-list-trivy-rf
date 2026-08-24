@@ -121,10 +121,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
           "introduced": "32:9.18.39-4.fc43",
           "identifier": "fc43"
         },
@@ -208,10 +204,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el8"
-        },
-        {
           "introduced": "32:0",
           "fixed": "32:9.18.49-1.fc42",
           "identifier": "fc42"
@@ -277,10 +269,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "32:0",
           "fixed": "32:9.18.49-1.fc42",

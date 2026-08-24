@@ -48,11 +48,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
@@ -66,11 +61,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
@@ -99,11 +89,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -163,11 +148,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.1.1a-1.0.riscv64.fc30",
@@ -263,11 +243,6 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:0",
           "fixed": "1:1.1.1a-1.0.riscv64.fc30",
           "identifier": "fc30"
         },
@@ -310,11 +285,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -491,11 +461,6 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:0",
           "fixed": "1:1.1.1a-1.0.riscv64.fc30",
           "identifier": "fc30"
         },
@@ -538,11 +503,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -618,11 +578,6 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:0",
           "fixed": "1:1.1.1a-1.0.riscv64.fc30",
           "identifier": "fc30"
         },
@@ -665,11 +620,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -729,11 +679,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -853,11 +798,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
@@ -890,11 +830,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -1011,11 +946,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
         }
@@ -1028,11 +958,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
@@ -1107,11 +1032,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
@@ -1139,11 +1059,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
@@ -1247,11 +1162,6 @@
       "events": [
         {
           "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",
           "identifier": "fc23"
         },
@@ -1309,11 +1219,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1:0",
-          "fixed": "1:3.5.5-11.rf",
-          "identifier": "rf"
-        },
         {
           "introduced": "1:0",
           "fixed": "1:1.0.2d-2.fc23",

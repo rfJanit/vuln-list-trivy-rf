@@ -36,12 +36,8 @@
       "title": "A flaw was found in Samba, in the vfs_streams_xattr module, where ...",
       "description": "A flaw was found in Samba, in the vfs_streams_xattr module, where uninitialized heap memory could be written into alternate data streams. This allows an authenticated user to read residual memory content that may include sensitive data, resulting in an information disclosure vulnerability.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "2:0",
           "fixed": "2:4.21.9-1.fc41",
@@ -466,7 +462,7 @@
       "cve_id": "CVE-2026-6949",
       "title": "Title Not Available",
       "description": "Description Not Available",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
