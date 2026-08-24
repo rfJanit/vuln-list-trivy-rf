@@ -129,10 +129,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.10.38-r1",
-          "fixed": "3.0.4-r0"
-        },
-        {
           "introduced": "2.10.38-r3",
           "fixed": "3.0.4-r0"
         }
@@ -145,10 +141,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "2.10.38-r1",
-          "fixed": "3.0.4-r0"
-        },
         {
           "introduced": "2.10.38-r3",
           "fixed": "3.0.4-r0"
@@ -163,10 +155,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.10.38-r1",
-          "fixed": "3.0.4-r0"
-        },
-        {
           "introduced": "2.10.38-r3",
           "fixed": "3.0.4-r0"
         }
@@ -180,19 +168,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.10.38-r1",
-          "fixed": "3.2.0-r0"
-        },
-        {
           "introduced": "2.10.38-r3",
-          "fixed": "3.2.0-r0"
-        },
-        {
-          "introduced": "3.0.4-r0",
-          "fixed": "3.2.0-r0"
-        },
-        {
-          "introduced": "3.0.4-r1",
           "fixed": "3.2.0-r0"
         }
       ]

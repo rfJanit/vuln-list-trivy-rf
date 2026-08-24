@@ -10,22 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2024.11.18-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0"
-        },
-        {
-          "introduced": "2025.03.31-r0"
-        },
-        {
           "introduced": "2025.11.12-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0"
-        },
-        {
-          "introduced": "2026.07.04-r0"
         }
       ]
     },
@@ -54,18 +39,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.02.21-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.02.21-r0"
-        },
-        {
-          "introduced": "2025.03.31-r0",
-          "fixed": "2026.02.21-r0"
-        },
-        {
           "introduced": "2025.11.12-r0",
           "fixed": "2026.02.21-r0"
         }
@@ -79,23 +52,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2025.03.31-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
           "introduced": "2025.11.12-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.06.09-r0"
         }
       ]
@@ -108,23 +65,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2025.03.31-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
           "introduced": "2025.11.12-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.06.09-r0"
         }
       ]
@@ -137,23 +78,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2025.03.31-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
           "introduced": "2025.11.12-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.06.09-r0"
         }
       ]
@@ -166,23 +91,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
-          "introduced": "2025.03.31-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
           "introduced": "2025.11.12-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.07.04-r0"
         }
       ]

@@ -11,21 +11,6 @@
       "events": [
         {
           "introduced": "24.03-r0"
-        },
-        {
-          "introduced": "24.07-r0"
-        },
-        {
-          "introduced": "25.01.1-r3"
-        },
-        {
-          "introduced": "25.07.1-r1"
-        },
-        {
-          "introduced": "25.07.1-r3"
-        },
-        {
-          "introduced": "25.07.1-r3"
         }
       ]
     }

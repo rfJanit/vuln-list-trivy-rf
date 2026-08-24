@@ -2,19 +2,6 @@
   "package_name": "erlang",
   "distro_version": "3.21",
   "advisories": {
-    "CVE-2025-32433": {
-      "cve_id": "CVE-2025-32433",
-      "title": "Erlang/OTP is a set of libraries for the Erlang programming langu ...",
-      "description": "Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an attacker to perform unauthenticated remote code execution (RCE). By exploiting a flaw in SSH protocol message handling, a malicious actor could gain unauthorized access to affected systems and execute arbitrary commands without valid credentials. This issue is patched in versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20. A temporary workaround involves disabling the SSH server or to prevent access via firewall rules.",
-      "severity": "CRITICAL",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "26.2.5-r0",
-          "fixed": "26.2.5-r0"
-        }
-      ]
-    },
     "CVE-2025-4748": {
       "cve_id": "CVE-2025-4748",
       "title": "Improper Limitation of a Pathname to a Restricted Directory ('Pat ...",
@@ -22,9 +9,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -38,9 +22,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -52,9 +33,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -68,9 +46,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -83,9 +58,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -97,9 +69,6 @@
       "severity": "LOW",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -204,9 +173,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -218,9 +184,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -234,9 +197,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -248,9 +208,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -264,9 +221,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -278,9 +232,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -294,9 +245,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -308,9 +256,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -324,9 +269,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -338,9 +280,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -354,9 +293,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -368,9 +304,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -384,9 +317,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -398,9 +328,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }
@@ -414,9 +341,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -429,9 +353,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "26.2.5-r0"
-        },
-        {
           "introduced": "26.2.5.12-r0"
         }
       ]
@@ -443,9 +364,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "26.2.5-r0"
-        },
         {
           "introduced": "26.2.5.12-r0"
         }

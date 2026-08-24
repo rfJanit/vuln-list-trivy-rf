@@ -10,10 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.21.6-r0"
-        },
-        {
           "introduced": "4.20.6-r1",
           "fixed": "4.21.6-r0"
         }
@@ -26,10 +22,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.21.9-r0"
-        },
         {
           "introduced": "4.20.6-r1",
           "fixed": "4.21.9-r0"
@@ -61,24 +53,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.22.10-r0"
-        },
-        {
           "introduced": "4.20.6-r1",
           "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.21.9-r1",
-          "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.21.9-r1",
-          "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },
@@ -90,20 +66,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.21.3-r0"
-        },
-        {
           "introduced": "4.20.6-r1",
           "fixed": "4.21.3-r0"
-        },
-        {
-          "introduced": "4.21.9-r1",
-          "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },
@@ -132,20 +96,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.21.3-r0"
-        },
-        {
           "introduced": "4.20.6-r1",
           "fixed": "4.21.3-r0"
-        },
-        {
-          "introduced": "4.21.9-r1",
-          "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },

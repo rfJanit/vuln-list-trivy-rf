@@ -11,12 +11,6 @@
       "events": [
         {
           "introduced": "2.3.4-r4"
-        },
-        {
-          "introduced": "2.3.4-r4"
-        },
-        {
-          "introduced": "2.3.4-r4"
         }
       ]
     },
@@ -29,12 +23,6 @@
       "events": [
         {
           "introduced": "2.3.4-r4"
-        },
-        {
-          "introduced": "2.3.4-r4"
-        },
-        {
-          "introduced": "2.3.4-r4"
         }
       ]
     },
@@ -45,12 +33,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "2.3.4-r4"
-        },
-        {
-          "introduced": "2.3.4-r4"
-        },
         {
           "introduced": "2.3.4-r4"
         }

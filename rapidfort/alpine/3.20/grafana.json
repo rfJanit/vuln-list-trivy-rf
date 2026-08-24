@@ -2,19 +2,6 @@
   "package_name": "grafana",
   "distro_version": "3.20",
   "advisories": {
-    "CVE-2024-6837": {
-      "cve_id": "CVE-2024-6837",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "11.0.8-r0",
-          "fixed": "11.1.4-r0"
-        }
-      ]
-    },
     "CVE-2026-10601": {
       "cve_id": "CVE-2026-10601",
       "title": "A user with Viewer permissions can use specially crafted requests ...",

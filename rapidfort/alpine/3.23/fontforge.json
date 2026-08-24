@@ -10,16 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     },
@@ -31,16 +22,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     },
@@ -52,16 +34,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     },
@@ -73,16 +46,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     },
@@ -94,16 +58,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     },
@@ -115,16 +70,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     },
@@ -136,16 +82,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     },
@@ -217,16 +154,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "20230101-r5"
-        },
-        {
           "introduced": "20230101-r6"
-        },
-        {
-          "introduced": "20251009-r1"
-        },
-        {
-          "introduced": "20251009-r1"
         }
       ]
     }

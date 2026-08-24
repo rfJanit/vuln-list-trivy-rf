@@ -2,19 +2,6 @@
   "package_name": "buildah",
   "distro_version": "3.22",
   "advisories": {
-    "CVE-2024-11218": {
-      "cve_id": "CVE-2024-11218",
-      "title": "A vulnerability was found in `podman build` and `buildah.` This i ...",
-      "description": "A vulnerability was found in `podman build` and `buildah.` This issue occurs in a container breakout by using --jobs=2 and a race condition when building a malicious Containerfile. SELinux might mitigate it, but even with SELinux on, it still allows the enumeration of files and directories on the host.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.37.5-r0",
-          "fixed": "1.38.1-r0"
-        }
-      ]
-    },
     "CVE-2025-31133": {
       "cve_id": "CVE-2025-31133",
       "title": "runc is a CLI tool for spawning and running containers according  ...",
@@ -22,6 +9,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1.38.1-r5",
+          "fixed": "1.43.0-r0"
+        },
         {
           "introduced": "1.41.4-r1",
           "fixed": "1.43.0-r0"
@@ -35,6 +26,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1.38.1-r5",
+          "fixed": "1.41.6-r0"
+        },
         {
           "introduced": "1.41.4-r1",
           "fixed": "1.41.6-r0"

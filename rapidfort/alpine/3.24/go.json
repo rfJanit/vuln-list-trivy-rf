@@ -10,18 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.22.9-r0"
-        },
-        {
-          "introduced": "1.22.9-r0"
-        },
-        {
-          "introduced": "1.23.9-r0"
-        },
-        {
-          "introduced": "1.24.13-r0"
-        },
-        {
           "introduced": "1.25.10-r0"
         }
       ]
@@ -552,19 +540,6 @@
         }
       ]
     },
-    "CVE-2025-61732": {
-      "cve_id": "CVE-2025-61732",
-      "title": "A discrepancy between how Go and C/C++ comments were parsed allow ...",
-      "description": "A discrepancy between how Go and C/C++ comments were parsed allowed for code smuggling into the resulting cgo binary.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.7-r0"
-        }
-      ]
-    },
     "CVE-2025-68119": {
       "cve_id": "CVE-2025-68119",
       "title": "Downloading and building modules with malicious version strings c ...",
@@ -599,45 +574,6 @@
         }
       ]
     },
-    "CVE-2026-25679": {
-      "cve_id": "CVE-2026-25679",
-      "title": "url.Parse insufficiently validated the host/authority component a ...",
-      "description": "url.Parse insufficiently validated the host/authority component and accepted some invalid URLs.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.8-r0"
-        }
-      ]
-    },
-    "CVE-2026-27137": {
-      "cve_id": "CVE-2026-27137",
-      "title": "When verifying a certificate chain which contains a certificate c ...",
-      "description": "When verifying a certificate chain which contains a certificate containing multiple email address constraints which share common local portions but different domain portions, these constraints will not be properly applied, and only the last constraint will be considered.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.8-r0"
-        }
-      ]
-    },
-    "CVE-2026-27139": {
-      "cve_id": "CVE-2026-27139",
-      "title": "On Unix platforms, when listing the contents of a directory using ...",
-      "description": "On Unix platforms, when listing the contents of a directory using File.ReadDir or File.Readdir the returned FileInfo could reference a file outside of the Root in which the File was opened. The impact of this escape is limited to reading metadata provided by lstat from arbitrary locations on the filesystem without permitting reading or writing files outside the root.",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.8-r0"
-        }
-      ]
-    },
     "CVE-2026-27140": {
       "cve_id": "CVE-2026-27140",
       "title": "SWIG file names containing 'cgo' and well-crafted payloads could  ...",
@@ -646,25 +582,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
-        }
-      ]
-    },
-    "CVE-2026-27142": {
-      "cve_id": "CVE-2026-27142",
-      "title": "Actions which insert URLs into the content attribute of HTML meta ...",
-      "description": "Actions which insert URLs into the content attribute of HTML meta tags are not escaped. This can allow XSS if the meta tag also has an http-equiv attribute with the value \"refresh\". A new GODEBUG setting has been added, htmlmetacontenturlescape, which can be used to disable escaping URLs in actions in the meta content attribute which follow \"url=\" by setting htmlmetacontenturlescape=0.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.8-r0"
         }
       ]
     },
@@ -675,10 +594,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
@@ -693,10 +608,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
         }
@@ -709,10 +620,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
@@ -727,10 +634,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
         }
@@ -743,10 +646,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
@@ -761,10 +660,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
         }
@@ -777,10 +672,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
@@ -795,10 +686,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
         }
@@ -811,10 +698,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.9-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.2-r0"
@@ -829,10 +712,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
         }
@@ -845,10 +724,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
@@ -863,22 +738,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
         }
@@ -891,22 +750,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
@@ -921,10 +764,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
         }
@@ -937,22 +776,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
         {
           "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
@@ -967,10 +790,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
         }
@@ -983,10 +802,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
@@ -1001,10 +816,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
         }
@@ -1017,10 +828,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
@@ -1035,10 +842,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
         }
@@ -1051,22 +854,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
         {
           "introduced": "1.25.10-r0",
           "fixed": "1.26.3-r0"
@@ -1081,22 +868,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
           "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
         }
@@ -1110,22 +881,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
           "introduced": "1.26.3-r0",
           "fixed": "1.27.0-r0"
         }
@@ -1138,22 +893,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
         {
           "introduced": "1.26.3-r0",
           "fixed": "1.27.0-r0"

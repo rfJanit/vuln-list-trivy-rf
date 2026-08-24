@@ -12,14 +12,6 @@
         {
           "introduced": "1.14.10-r0",
           "fixed": "1.16.4-r0"
-        },
-        {
-          "introduced": "1.14.10-r0",
-          "fixed": "1.16.4-r0"
-        },
-        {
-          "introduced": "1.16.1-r0",
-          "fixed": "1.16.4-r0"
         }
       ]
     },
@@ -32,14 +24,6 @@
       "events": [
         {
           "introduced": "1.14.10-r0",
-          "fixed": "1.16.4-r0"
-        },
-        {
-          "introduced": "1.14.10-r0",
-          "fixed": "1.16.4-r0"
-        },
-        {
-          "introduced": "1.16.1-r0",
           "fixed": "1.16.4-r0"
         }
       ]

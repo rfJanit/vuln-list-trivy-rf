@@ -28,24 +28,6 @@
       "events": [
         {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -57,25 +39,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -87,25 +51,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -117,25 +63,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -147,25 +75,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     }

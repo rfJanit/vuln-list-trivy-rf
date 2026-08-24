@@ -12,14 +12,6 @@
         {
           "introduced": "4.1.2-r5",
           "fixed": "4.2.1-r0"
-        },
-        {
-          "introduced": "4.1.2-r5",
-          "fixed": "4.2.1-r0"
-        },
-        {
-          "introduced": "4.3.1-r6",
-          "fixed": "4.3.5-r0"
         }
       ]
     },
@@ -38,8 +30,8 @@
     },
     "CVE-2026-47215": {
       "cve_id": "CVE-2026-47215",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

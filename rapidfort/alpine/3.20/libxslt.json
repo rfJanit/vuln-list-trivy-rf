@@ -12,10 +12,6 @@
         {
           "introduced": "1.1.39-r1",
           "fixed": "1.1.39-r2"
-        },
-        {
-          "introduced": "1.1.42-r1",
-          "fixed": "1.1.42-r2"
         }
       ]
     },
@@ -30,19 +26,7 @@
           "introduced": "1.1.39-r1"
         },
         {
-          "introduced": "1.1.39-r1"
-        },
-        {
-          "introduced": "1.1.42-r1"
-        },
-        {
-          "introduced": "1.1.43-r3"
-        },
-        {
-          "introduced": "1.1.43-r3"
-        },
-        {
-          "introduced": "1.1.43-r3"
+          "introduced": "1.1.39-r2"
         }
       ]
     },
@@ -56,10 +40,6 @@
         {
           "introduced": "1.1.39-r1",
           "fixed": "1.1.39-r2"
-        },
-        {
-          "introduced": "1.1.42-r1",
-          "fixed": "1.1.42-r2"
         }
       ]
     }

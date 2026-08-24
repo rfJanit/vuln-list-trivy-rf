@@ -19,19 +19,11 @@
       "cve_id": "CVE-2026-4738",
       "title": "Improper Restriction of Operations within the Bounds of a Memory  ...",
       "description": "Improper Restriction of Operations within the Bounds of a Memory Buffer vulnerability in OSGeo gdal (frmts/zlib/contrib/infback9 modules). This vulnerability is associated with program files inftree9.C‎.\n\nThis issue affects gdal: before 3.11.0.",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "status": "fixed",
       "events": [
         {
           "introduced": "3.9.3-r0",
-          "fixed": "3.11.0-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.11.0-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
           "fixed": "3.11.0-r0"
         }
       ]
@@ -46,18 +38,6 @@
         {
           "introduced": "3.9.3-r0",
           "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.11.5-r2",
-          "fixed": "3.13.2-r0"
         }
       ]
     },
@@ -70,18 +50,6 @@
       "events": [
         {
           "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -96,18 +64,6 @@
         {
           "introduced": "3.9.3-r0",
           "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.11.5-r2",
-          "fixed": "3.13.2-r0"
         }
       ]
     },
@@ -120,18 +76,6 @@
       "events": [
         {
           "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -146,18 +90,6 @@
         {
           "introduced": "3.9.3-r0",
           "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.11.5-r2",
-          "fixed": "3.13.2-r0"
         }
       ]
     },
@@ -171,18 +103,6 @@
         {
           "introduced": "3.9.3-r0",
           "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.11.5-r2",
-          "fixed": "3.13.2-r0"
         }
       ]
     },
@@ -195,18 +115,6 @@
       "events": [
         {
           "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.9.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.10.3-r0",
-          "fixed": "3.13.2-r0"
-        },
-        {
-          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]

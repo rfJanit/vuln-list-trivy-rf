@@ -12,14 +12,6 @@
         {
           "introduced": "1.24.1-r0",
           "fixed": "1.28.0-r0"
-        },
-        {
-          "introduced": "1.24.1-r0",
-          "fixed": "1.28.0-r0"
-        },
-        {
-          "introduced": "1.26.1-r0",
-          "fixed": "1.28.0-r0"
         }
       ]
     }

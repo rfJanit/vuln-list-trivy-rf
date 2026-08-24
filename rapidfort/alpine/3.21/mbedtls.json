@@ -12,10 +12,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.3-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.3-r0"
         }
       ]
     },
@@ -26,10 +22,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.3-r0"
-        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.3-r0"
@@ -46,10 +38,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -60,10 +48,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.4-r0"
-        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
@@ -80,10 +64,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -94,10 +74,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.4-r0"
-        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
@@ -114,10 +90,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -128,10 +100,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.4-r0"
-        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
@@ -148,10 +116,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -164,18 +128,6 @@
       "events": [
         {
           "introduced": "3.6.2-r0",
-          "fixed": "3.6.5-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.5-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.5-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
           "fixed": "3.6.5-r0"
         }
       ]
@@ -190,18 +142,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.5-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.5-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.5-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.5-r0"
         }
       ]
     },
@@ -215,18 +155,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -239,18 +167,6 @@
       "events": [
         {
           "introduced": "3.6.2-r0",
-          "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
           "fixed": "3.6.6-r0"
         }
       ]
@@ -265,18 +181,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.6-r0"
         }
       ]
     },
@@ -290,38 +194,18 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.2-r0",
-          "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.6-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.6-r0"
         }
       ]
     },
     "CVE-2026-35336": {
       "cve_id": "CVE-2026-35336",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
           "introduced": "3.6.2-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
         }
       ]
@@ -336,18 +220,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -361,18 +233,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -386,18 +246,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -411,38 +259,18 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
     "CVE-2026-50583": {
       "cve_id": "CVE-2026-50583",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
           "introduced": "3.6.2-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
         }
       ]
@@ -457,14 +285,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
         }
       ]
     },
@@ -478,43 +298,19 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
     "CVE-2026-50586": {
       "cve_id": "CVE-2026-50586",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -527,14 +323,6 @@
       "events": [
         {
           "introduced": "3.6.2-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
         }
       ]
@@ -549,18 +337,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -574,18 +350,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     },
@@ -598,14 +362,6 @@
       "events": [
         {
           "introduced": "3.6.2-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
           "fixed": "3.6.7-r0"
         }
       ]
@@ -620,14 +376,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
         }
       ]
     },
@@ -641,18 +389,6 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.4-r0",
-          "fixed": "3.6.7-r0"
-        },
-        {
-          "introduced": "3.6.7-r0",
-          "fixed": "4.1.1-r0"
         }
       ]
     }

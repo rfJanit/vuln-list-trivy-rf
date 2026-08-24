@@ -31,24 +31,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.10-r6"
-        },
-        {
-          "introduced": "2.10-r6"
-        },
-        {
-          "introduced": "2.10-r6"
-        },
-        {
-          "introduced": "2.11-r1"
-        },
-        {
-          "introduced": "2.11-r4"
-        },
-        {
-          "introduced": "2.11-r4"
-        },
-        {
           "introduced": "2.11-r4"
         }
       ]
@@ -60,24 +42,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "2.10-r6"
-        },
-        {
-          "introduced": "2.10-r6"
-        },
-        {
-          "introduced": "2.10-r6"
-        },
-        {
-          "introduced": "2.11-r1"
-        },
-        {
-          "introduced": "2.11-r4"
-        },
-        {
-          "introduced": "2.11-r4"
-        },
         {
           "introduced": "2.11-r4"
         }

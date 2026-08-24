@@ -64,7 +64,7 @@
       "title": "A vulnerability exists in NGINX OSS and NGINX Plus when configure ...",
       "description": "A vulnerability exists in NGINX OSS and NGINX Plus when configured to proxy to upstream Transport Layer Security (TLS) servers. An attacker with a man-in-the-middle (MITM) position on the upstream server side—along with conditions beyond the attacker's control—may be able to inject plain text data into the response from an upstream proxied server.  Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:1.18.0-6ubuntu14",
@@ -83,6 +83,7 @@
         },
         {
           "introduced": "0:1.29.4-1~noble",
+          "fixed": "0:1.29.5-1~noble",
           "identifier": "ubuntu"
         }
       ]
@@ -404,6 +405,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:1.24.0-2ubuntu7.5",
+          "identifier": "ubuntu"
+        },
         {
           "introduced": "0:1.29.4-1~noble",
           "identifier": "ubuntu"

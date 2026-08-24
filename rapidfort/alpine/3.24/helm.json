@@ -103,18 +103,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.14.3-r4"
-        },
-        {
-          "introduced": "3.14.3-r4"
-        },
-        {
-          "introduced": "3.18.4-r5"
-        },
-        {
-          "introduced": "3.18.4-r5"
-        },
-        {
           "introduced": "3.19.0-r7"
         }
       ]
@@ -126,18 +114,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.14.3-r4"
-        },
-        {
-          "introduced": "3.14.3-r4"
-        },
-        {
-          "introduced": "3.18.4-r5"
-        },
-        {
-          "introduced": "3.18.4-r5"
-        },
         {
           "introduced": "3.19.0-r7"
         }

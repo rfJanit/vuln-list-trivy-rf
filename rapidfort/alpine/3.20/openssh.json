@@ -10,6 +10,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "9.7_p1-r4",
+          "fixed": "9.9_p1-r0"
+        },
+        {
           "introduced": "9.7_p1-r5",
           "fixed": "9.9_p1-r0"
         }
@@ -25,10 +29,6 @@
         {
           "introduced": "9.7_p1-r4",
           "fixed": "9.7_p1-r5"
-        },
-        {
-          "introduced": "9.9_p1-r1",
-          "fixed": "9.9_p2-r0"
         }
       ]
     },
@@ -42,10 +42,6 @@
         {
           "introduced": "9.7_p1-r4",
           "fixed": "9.7_p1-r5"
-        },
-        {
-          "introduced": "9.9_p1-r1",
-          "fixed": "9.9_p2-r0"
         }
       ]
     },
@@ -56,6 +52,10 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.0_p1-r10"
+        },
         {
           "introduced": "9.7_p1-r5",
           "fixed": "10.0_p1-r10"
@@ -69,6 +69,10 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.0_p1-r10"
+        },
         {
           "introduced": "9.7_p1-r5",
           "fixed": "10.0_p1-r10"
@@ -86,16 +90,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.0_p1-r9"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     },
@@ -110,16 +105,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.1_p1-r0"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     },
@@ -134,16 +120,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.0_p1-r9"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     },
@@ -158,16 +135,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.0_p1-r9"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     },
@@ -182,16 +150,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.0_p1-r9"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     },
@@ -202,6 +161,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
         {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
@@ -216,6 +179,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
+        {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
         }
@@ -228,6 +195,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
         {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
@@ -242,6 +213,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
+        {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
         }
@@ -254,6 +229,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
         {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
@@ -268,6 +247,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
+        {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
         }
@@ -281,6 +264,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
+        {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
         }
@@ -293,6 +280,10 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "9.7_p1-r4",
+          "fixed": "10.5_p1-r0"
+        },
         {
           "introduced": "9.7_p1-r5",
           "fixed": "10.5_p1-r0"
@@ -310,16 +301,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.0_p1-r9"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     },
@@ -334,16 +316,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.0_p1-r9"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     },
@@ -358,16 +331,7 @@
           "introduced": "9.7_p1-r4"
         },
         {
-          "introduced": "9.9_p1-r1"
-        },
-        {
-          "introduced": "9.9_p2-r0"
-        },
-        {
-          "introduced": "10.0_p1-r9"
-        },
-        {
-          "introduced": "10.3_p1-r0"
+          "introduced": "9.7_p1-r5"
         }
       ]
     }

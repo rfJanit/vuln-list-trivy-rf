@@ -283,22 +283,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "21.1.14-r0",
-          "fixed": "21.1.24-r0"
-        },
-        {
-          "introduced": "21.1.14-r0",
-          "fixed": "21.1.24-r0"
-        },
-        {
-          "introduced": "21.1.16-r0",
-          "fixed": "21.1.24-r0"
-        },
-        {
-          "introduced": "21.1.19-r0",
-          "fixed": "21.1.24-r0"
-        },
-        {
           "introduced": "21.1.23-r0",
           "fixed": "21.1.24-r0"
         }

@@ -2,23 +2,6 @@
   "package_name": "libsndfile",
   "distro_version": "3.21",
   "advisories": {
-    "CVE-2024-50612": {
-      "cve_id": "CVE-2024-50612",
-      "title": "libsndfile through 1.2.2 has an ogg_vorbis.c vorbis_analysis_wrot ...",
-      "description": "libsndfile through 1.2.2 has an ogg_vorbis.c vorbis_analysis_wrote out-of-bounds read.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.2.2-r0",
-          "fixed": "1.2.2-r1"
-        },
-        {
-          "introduced": "1.2.2-r0",
-          "fixed": "1.2.2-r1"
-        }
-      ]
-    },
     "CVE-2024-50613": {
       "cve_id": "CVE-2024-50613",
       "title": "libsndfile through 1.2.2 has a reachable assertion, that may lead ...",
@@ -26,15 +9,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r2"
-        },
         {
           "introduced": "1.2.2-r2"
         }
@@ -48,15 +22,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r2"
-        },
-        {
           "introduced": "1.2.2-r2"
         }
       ]
@@ -69,15 +34,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r2"
-        },
-        {
           "introduced": "1.2.2-r2"
         }
       ]
@@ -89,15 +45,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r0"
-        },
-        {
-          "introduced": "1.2.2-r2"
-        },
         {
           "introduced": "1.2.2-r2"
         }

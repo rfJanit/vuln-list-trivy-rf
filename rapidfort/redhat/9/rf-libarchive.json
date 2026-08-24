@@ -107,10 +107,6 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:3.5.3-4.el9",
-          "identifier": "el9"
-        },
-        {
           "introduced": "0:3.7.4-4.fc41",
           "identifier": "fc41"
         },
@@ -142,10 +138,6 @@
           "introduced": "0:0",
           "fixed": "0:3.8.9-1.fc46",
           "identifier": "fc46"
-        },
-        {
-          "introduced": "0:3.5.3-4.el9",
-          "identifier": "el9"
         },
         {
           "introduced": "0:3.7.4-4.fc41",
@@ -181,10 +173,6 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:3.5.3-4.el9",
-          "identifier": "el9"
-        },
-        {
           "introduced": "0:3.7.4-4.fc41",
           "identifier": "fc41"
         },
@@ -216,10 +204,6 @@
           "introduced": "0:0",
           "fixed": "0:3.8.9-1.fc46",
           "identifier": "fc46"
-        },
-        {
-          "introduced": "0:3.5.3-4.el9",
-          "identifier": "el9"
         },
         {
           "introduced": "0:3.7.4-4.fc41",
@@ -255,10 +239,6 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:3.5.3-4.el9",
-          "identifier": "el9"
-        },
-        {
           "introduced": "0:3.7.4-4.fc41",
           "identifier": "fc41"
         },
@@ -287,8 +267,7 @@
           "identifier": "rf"
         },
         {
-          "introduced": "0:3.5.3-7.el9_7",
-          "fixed": "0:3.5.3-11.el9_8",
+          "introduced": "0:3.5.3-4.el9",
           "identifier": "el9"
         },
         {
@@ -332,16 +311,12 @@
       "title": "A flaw was found in libarchive. An Undefined Behavior vulnerabili ...",
       "description": "A flaw was found in libarchive. An Undefined Behavior vulnerability exists in the zisofs decompression logic, caused by improper validation of a field (`pz_log2_bs`) read from ISO9660 Rock Ridge extensions. A remote attacker can exploit this by supplying a specially crafted ISO file. This can lead to incorrect memory allocation and potential application crashes, resulting in a denial-of-service (DoS) condition.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
           "fixed": "0:3.8.7-1.fc44",
           "identifier": "fc44"
-        },
-        {
-          "introduced": "0:3.5.3-4.el9",
-          "identifier": "el9"
         }
       ]
     },

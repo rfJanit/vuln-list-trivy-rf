@@ -11,57 +11,6 @@
       "events": [
         {
           "introduced": "1.22.9-r0"
-        },
-        {
-          "introduced": "1.22.9-r0"
-        },
-        {
-          "introduced": "1.23.9-r0"
-        },
-        {
-          "introduced": "1.24.13-r0"
-        },
-        {
-          "introduced": "1.25.10-r0"
-        }
-      ]
-    },
-    "CVE-2024-34155": {
-      "cve_id": "CVE-2024-34155",
-      "title": "Calling any of the Parse functions on Go source code which contai ...",
-      "description": "Calling any of the Parse functions on Go source code which contains deeply nested literals can cause a panic due to stack exhaustion.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.1-r0"
-        }
-      ]
-    },
-    "CVE-2024-34156": {
-      "cve_id": "CVE-2024-34156",
-      "title": "Calling Decoder.Decode on a message which contains deeply nested  ...",
-      "description": "Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion. This is a follow-up to CVE-2022-30635.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.1-r0"
-        }
-      ]
-    },
-    "CVE-2024-34158": {
-      "cve_id": "CVE-2024-34158",
-      "title": "Calling Parse on a \"// +build\" build tag line with deeply nested  ...",
-      "description": "Calling Parse on a \"// +build\" build tag line with deeply nested expressions can cause a panic due to stack exhaustion.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.1-r0"
         }
       ]
     },
@@ -230,14 +179,6 @@
         {
           "introduced": "1.22.9-r0",
           "fixed": "1.24.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.24.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.6-r0"
         }
       ]
     },
@@ -865,22 +806,6 @@
         {
           "introduced": "1.22.9-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -894,22 +819,6 @@
         {
           "introduced": "1.22.9-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -939,22 +848,6 @@
       "events": [
         {
           "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
         }
       ]
@@ -1054,22 +947,6 @@
         {
           "introduced": "1.22.9-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -1082,22 +959,6 @@
       "events": [
         {
           "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
         }
       ]
@@ -1112,22 +973,6 @@
         {
           "introduced": "1.22.9-r0",
           "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
-          "fixed": "1.27.0-r0"
         }
       ]
     },
@@ -1140,22 +985,6 @@
       "events": [
         {
           "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.27.0-r0"
         }
       ]

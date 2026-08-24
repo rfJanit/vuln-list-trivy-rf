@@ -11,21 +11,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -36,21 +21,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -65,21 +35,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -90,21 +45,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -119,21 +59,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -144,21 +69,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -173,21 +83,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -198,21 +93,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -227,21 +107,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -252,21 +117,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -281,21 +131,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -306,21 +141,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -335,21 +155,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -360,21 +165,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -389,21 +179,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -414,21 +189,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -443,21 +203,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -468,21 +213,6 @@
       "severity": "LOW",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -497,21 +227,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -522,21 +237,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -551,21 +251,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -576,21 +261,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -605,21 +275,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -630,21 +285,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -659,21 +299,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -684,21 +309,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -713,21 +323,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -738,21 +333,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -767,21 +347,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -792,21 +357,6 @@
       "severity": "LOW",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -821,21 +371,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -846,21 +381,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -875,21 +395,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -900,21 +405,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -929,21 +419,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -954,21 +429,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -983,21 +443,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -1008,21 +453,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -1037,21 +467,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -1062,21 +477,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -1091,21 +491,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -1116,21 +501,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -1145,21 +515,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -1170,21 +525,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -1199,21 +539,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -1224,21 +549,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }
@@ -1253,21 +563,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -1280,21 +575,6 @@
       "events": [
         {
           "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
         }
       ]
     },
@@ -1305,21 +585,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
-        {
-          "introduced": "0.13.0-r14"
-        },
         {
           "introduced": "0.13.0-r14"
         }

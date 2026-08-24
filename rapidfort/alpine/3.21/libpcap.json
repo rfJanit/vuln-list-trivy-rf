@@ -10,27 +10,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.10.4-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.4-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.4-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
           "introduced": "1.10.5-r0",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.5-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.5-r1",
           "fixed": "1.10.6-r0"
         }
       ]
@@ -43,27 +23,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.10.4-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.4-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.4-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
           "introduced": "1.10.5-r0",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.5-r1",
-          "fixed": "1.10.6-r0"
-        },
-        {
-          "introduced": "1.10.5-r1",
           "fixed": "1.10.6-r0"
         }
       ]

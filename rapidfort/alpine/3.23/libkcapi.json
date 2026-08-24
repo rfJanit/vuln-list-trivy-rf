@@ -10,21 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.4.0-r4"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
           "introduced": "1.5.0-r1"
         }
       ]
@@ -37,21 +22,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.4.0-r4"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
           "introduced": "1.5.0-r1"
         }
       ]
@@ -63,21 +33,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.4.0-r4"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
-        {
-          "introduced": "1.5.0-r1"
-        },
         {
           "introduced": "1.5.0-r1"
         }

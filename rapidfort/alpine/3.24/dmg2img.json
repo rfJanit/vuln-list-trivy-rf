@@ -11,30 +11,6 @@
       "events": [
         {
           "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
         }
       ]
     },
@@ -45,30 +21,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
-        {
-          "introduced": "1.6.7-r1"
-        },
         {
           "introduced": "1.6.7-r1"
         }

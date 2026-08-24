@@ -258,21 +258,6 @@
       "events": [
         {
           "introduced": "0.9.2-r0"
-        },
-        {
-          "introduced": "0.9.2-r0"
-        },
-        {
-          "introduced": "0.9.2-r0"
-        },
-        {
-          "introduced": "2.1.0-r0"
-        },
-        {
-          "introduced": "2.1.0-r0"
-        },
-        {
-          "introduced": "2.1.0-r0"
         }
       ]
     },
@@ -325,26 +310,6 @@
         {
           "introduced": "0.9.2-r0",
           "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "0.9.2-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "0.9.2-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "2.1.0-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "2.1.0-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "2.1.0-r0",
-          "fixed": "20210528-r1"
         }
       ]
     },
@@ -357,26 +322,6 @@
       "events": [
         {
           "introduced": "0.9.2-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "0.9.2-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "0.9.2-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "2.1.0-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "2.1.0-r0",
-          "fixed": "20210528-r1"
-        },
-        {
-          "introduced": "2.1.0-r0",
           "fixed": "20210528-r1"
         }
       ]

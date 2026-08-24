@@ -25,14 +25,6 @@
         {
           "introduced": "10.0-r2",
           "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
         }
       ]
     },
@@ -45,14 +37,6 @@
       "events": [
         {
           "introduced": "10.0-r2",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
           "fixed": "10.4.1_git-r0"
         }
       ]
@@ -67,14 +51,6 @@
         {
           "introduced": "10.0-r2",
           "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
         }
       ]
     },
@@ -87,14 +63,6 @@
       "events": [
         {
           "introduced": "10.0-r2",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
           "fixed": "10.4.1_git-r0"
         }
       ]
@@ -109,14 +77,6 @@
         {
           "introduced": "10.0-r2",
           "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
         }
       ]
     },
@@ -129,14 +89,6 @@
       "events": [
         {
           "introduced": "10.0-r2",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
           "fixed": "10.4.1_git-r0"
         }
       ]
@@ -151,14 +103,6 @@
         {
           "introduced": "10.0-r2",
           "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
         }
       ]
     },
@@ -171,14 +115,6 @@
       "events": [
         {
           "introduced": "10.0-r2",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
           "fixed": "10.4.1_git-r0"
         }
       ]
@@ -193,14 +129,6 @@
         {
           "introduced": "10.0-r2",
           "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
-        },
-        {
-          "introduced": "10.2.1-r1",
-          "fixed": "10.4.1_git-r0"
         }
       ]
     },
@@ -211,6 +139,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "10.0-r2",
+          "fixed": "10.5.0_git-r0"
+        },
         {
           "introduced": "10.5.2_git-r0",
           "fixed": "10.6.1_git-r0"
@@ -224,6 +156,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "10.2.1-r1",
+          "fixed": "10.6.1-r0"
+        },
+        {
+          "introduced": "10.4.1_git-r0",
+          "fixed": "10.6.1-r0"
+        },
+        {
+          "introduced": "10.5.1_git-r0",
+          "fixed": "10.6.1-r0"
+        },
         {
           "introduced": "10.5.2_git-r0",
           "fixed": "10.6.1_git-r0"

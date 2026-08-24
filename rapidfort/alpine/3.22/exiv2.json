@@ -10,21 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
           "introduced": "0.28.7-r0"
         }
       ]
@@ -36,21 +21,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
         {
           "introduced": "0.28.7-r0"
         }
@@ -64,21 +34,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
           "introduced": "0.28.7-r0"
         }
       ]
@@ -90,21 +45,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
         {
           "introduced": "0.28.7-r0"
         }
@@ -118,21 +58,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
           "introduced": "0.28.7-r0"
         }
       ]
@@ -145,21 +70,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
           "introduced": "0.28.7-r0"
         }
       ]
@@ -171,21 +81,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.3-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
-        {
-          "introduced": "0.28.7-r0"
-        },
         {
           "introduced": "0.28.7-r0"
         }

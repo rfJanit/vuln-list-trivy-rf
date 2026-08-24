@@ -12,10 +12,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.32.5-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.32.5-r0"
         }
       ]
     },
@@ -26,10 +22,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.32.5-r0"
-        },
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.32.5-r0"
@@ -46,10 +38,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.32.7-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.32.7-r0"
         }
       ]
     },
@@ -60,10 +48,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.33.0-r0"
-        },
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.33.0-r0"
@@ -80,10 +64,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.33.0-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.33.0-r0"
         }
       ]
     },
@@ -96,18 +76,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.35.3-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.3-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.3-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.35.3-r0"
         }
       ]
@@ -122,18 +90,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.35.1-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.1-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.1-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
-          "fixed": "1.35.1-r0"
         }
       ]
     },
@@ -146,18 +102,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.35.4-r0"
         }
       ]
@@ -172,18 +116,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
-          "fixed": "1.35.4-r0"
         }
       ]
     },
@@ -196,18 +128,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.35.4-r0"
         }
       ]
@@ -222,18 +142,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
-          "fixed": "1.35.6-r0"
         }
       ]
     },
@@ -246,18 +154,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.35.6-r0"
         }
       ]
@@ -272,18 +168,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
-          "fixed": "1.35.6-r0"
         }
       ]
     },
@@ -296,18 +180,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.35.6-r0"
         }
       ]
@@ -322,18 +194,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.6-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
-          "fixed": "1.35.6-r0"
         }
       ]
     },
@@ -346,18 +206,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.35.4-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.35.4-r0"
         }
       ]
@@ -372,18 +220,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
-          "fixed": "1.36.0-r0"
         }
       ]
     },
@@ -396,18 +232,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.36.0-r0"
         }
       ]
@@ -422,18 +246,6 @@
         {
           "introduced": "1.32.0-r0",
           "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
-          "fixed": "1.36.0-r0"
         }
       ]
     },
@@ -446,18 +258,6 @@
       "events": [
         {
           "introduced": "1.32.0-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.32.0-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.33.2-r0",
-          "fixed": "1.36.0-r0"
-        },
-        {
-          "introduced": "1.34.3-r0",
           "fixed": "1.36.0-r0"
         }
       ]

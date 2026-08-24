@@ -10,22 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "10.0.6-r0"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
           "introduced": "10.3.0-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
         }
       ]
     },
@@ -37,22 +22,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "10.0.6-r0"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
           "introduced": "10.3.0-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
         }
       ]
     },
@@ -64,22 +34,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "10.0.6-r0"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
           "introduced": "10.3.0-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
         }
       ]
     },
@@ -91,22 +46,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "10.0.6-r0"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
           "introduced": "10.3.0-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
         }
       ]
     },
@@ -118,22 +58,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "10.0.6-r0"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
-          "introduced": "10.1.0-r1"
-        },
-        {
           "introduced": "10.3.0-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
-        },
-        {
-          "introduced": "10.3.2-r0"
         }
       ]
     }

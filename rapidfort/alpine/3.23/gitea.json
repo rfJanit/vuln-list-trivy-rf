@@ -10,18 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.3-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.3-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.3-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.3-r0"
         }
@@ -120,18 +108,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.3-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.3-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.3-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.3-r0"
         }
@@ -144,18 +120,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
         {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
@@ -170,19 +134,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -193,18 +145,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
         {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
@@ -219,18 +159,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
         }
@@ -244,23 +172,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -272,18 +184,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
         {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
@@ -298,18 +198,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
         }
@@ -322,18 +210,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
         {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
@@ -348,19 +224,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -371,18 +235,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
         {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
@@ -397,18 +249,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
         }
@@ -422,23 +262,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -450,18 +274,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.25.4-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.25.4-r0"
-        },
         {
           "introduced": "1.24.6-r7",
           "fixed": "1.25.4-r0"
@@ -476,23 +288,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -505,23 +301,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -534,19 +314,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -558,19 +326,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -582,23 +338,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -611,23 +351,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -640,16 +364,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.22.4-r5"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -661,23 +376,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -690,19 +389,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -714,23 +401,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -743,19 +414,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -767,23 +426,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -796,19 +439,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -820,23 +451,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -849,23 +464,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -878,23 +477,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -907,23 +490,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -936,23 +503,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -965,23 +516,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -994,19 +529,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1018,19 +541,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1042,23 +553,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -1071,23 +566,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -1100,19 +579,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1124,19 +591,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1148,23 +603,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -1190,19 +629,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1214,19 +641,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1238,40 +653,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
-        }
-      ]
-    },
-    "CVE-2026-42931": {
-      "cve_id": "CVE-2026-42931",
-      "title": "Denial of Service via Unbounded io.ReadAll in NPM Package Tag End ...",
-      "description": "Denial of Service via Unbounded io.ReadAll in NPM Package Tag Endpoint",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.24.6-r7"
         }
       ]
     },
@@ -1283,19 +665,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1307,19 +677,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1331,19 +689,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1355,19 +701,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1379,19 +713,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1403,19 +725,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1427,19 +737,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1451,19 +749,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1475,19 +761,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1499,19 +773,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1523,19 +785,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1547,19 +797,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1571,19 +809,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1595,19 +821,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1619,19 +833,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1643,23 +845,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.21.9-r4",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.23.8-r5",
-          "fixed": "1.27.1-r0"
-        },
-        {
           "introduced": "1.24.6-r7",
-          "fixed": "1.27.1-r0"
-        },
-        {
-          "introduced": "1.25.4-r3",
           "fixed": "1.27.1-r0"
         }
       ]
@@ -1672,19 +858,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1696,13 +870,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1714,19 +882,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1738,16 +894,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.22.4-r5"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1759,19 +906,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1783,19 +918,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1807,19 +930,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1831,19 +942,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1855,19 +954,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1879,19 +966,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1903,19 +978,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1927,19 +990,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1951,19 +1002,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1975,19 +1014,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -1999,19 +1026,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -2023,19 +1038,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -2047,19 +1050,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     },
@@ -2071,19 +1062,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.21.9-r4"
-        },
-        {
-          "introduced": "1.23.8-r5"
-        },
-        {
           "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
         }
       ]
     }

@@ -6,7 +6,7 @@
       "cve_id": "CVE-2023-45918",
       "title": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: no ...",
       "description": "Rejected reason: DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -27,23 +27,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.4_p20231125-r0",
-          "fixed": "6.6_p20251231-r0"
-        },
-        {
-          "introduced": "6.4_p20240420-r0",
-          "fixed": "6.6_p20251231-r0"
-        },
-        {
           "introduced": "6.5_p20240601-r0",
-          "fixed": "6.6_p20251231-r0"
-        },
-        {
-          "introduced": "6.5_p20250216-r0",
-          "fixed": "6.6_p20251231-r0"
-        },
-        {
-          "introduced": "6.5_p20250816-r0",
           "fixed": "6.6_p20251231-r0"
         }
       ]

@@ -11,21 +11,6 @@
       "events": [
         {
           "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
         }
       ]
     },
@@ -36,21 +21,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
-        {
-          "introduced": "5.0-r0"
-        },
         {
           "introduced": "5.0-r0"
         }

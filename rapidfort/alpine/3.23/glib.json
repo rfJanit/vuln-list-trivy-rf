@@ -121,27 +121,6 @@
         }
       ]
     },
-    "CVE-2025-6052": {
-      "cve_id": "CVE-2025-6052",
-      "title": "A flaw was found in how GLib’s GString manages memory when adding ...",
-      "description": "A flaw was found in how GLib’s GString manages memory when adding data to strings. If a string is already very large, combining it with more input can cause a hidden overflow in the size calculation. This makes the system think it has enough memory when it doesn’t. As a result, data may be written past the end of the allocated memory, leading to crashes or memory corruption.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2.80.5-r0",
-          "fixed": "2.84.4-r0"
-        },
-        {
-          "introduced": "2.80.5-r0",
-          "fixed": "2.84.4-r0"
-        },
-        {
-          "introduced": "2.82.5-r0",
-          "fixed": "2.84.4-r0"
-        }
-      ]
-    },
     "CVE-2026-1484": {
       "cve_id": "CVE-2026-1484",
       "title": "A flaw was found in the GLib Base64 encoding routine when process ...",
@@ -149,6 +128,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.86.4-r0"
+        },
         {
           "introduced": "2.86.3-r0",
           "fixed": "2.86.4-r0"
@@ -163,6 +146,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.86.4-r0"
+        },
+        {
           "introduced": "2.86.3-r0",
           "fixed": "2.86.4-r0"
         }
@@ -175,6 +162,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.86.4-r0"
+        },
         {
           "introduced": "2.86.3-r0",
           "fixed": "2.86.4-r0"
@@ -189,6 +180,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.87.5-r0"
+        },
+        {
           "introduced": "2.86.3-r0",
           "fixed": "2.87.5-r0"
         }
@@ -201,6 +196,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.87.5-r0"
+        },
         {
           "introduced": "2.86.3-r0",
           "fixed": "2.87.5-r0"
@@ -215,6 +214,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.87.5-r0"
+        },
+        {
           "introduced": "2.86.3-r0",
           "fixed": "2.87.5-r0"
         }
@@ -227,6 +230,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.88.1-r0"
+        },
         {
           "introduced": "2.86.3-r0",
           "fixed": "2.88.1-r0"
@@ -241,6 +248,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.88.1-r0"
+        },
+        {
           "introduced": "2.86.3-r0",
           "fixed": "2.88.1-r0"
         }
@@ -254,6 +265,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.88.1-r0"
+        },
+        {
           "introduced": "2.86.3-r0",
           "fixed": "2.88.1-r0"
         }
@@ -266,6 +281,10 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.84.4-r0",
+          "fixed": "2.88.1-r0"
+        },
         {
           "introduced": "2.86.3-r0",
           "fixed": "2.88.1-r0"

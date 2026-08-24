@@ -103,10 +103,6 @@
         {
           "introduced": "5.2.7-r0",
           "fixed": "5.3.6-r0"
-        },
-        {
-          "introduced": "5.3.6-r0",
-          "fixed": "5.4.1-r0"
         }
       ]
     },
@@ -120,10 +116,6 @@
         {
           "introduced": "5.2.7-r0",
           "fixed": "5.3.6-r0"
-        },
-        {
-          "introduced": "5.3.6-r0",
-          "fixed": "5.4.1-r0"
         }
       ]
     },
@@ -137,10 +129,6 @@
         {
           "introduced": "5.2.7-r0",
           "fixed": "5.3.6-r0"
-        },
-        {
-          "introduced": "5.3.6-r0",
-          "fixed": "5.4.1-r0"
         }
       ]
     },
@@ -154,10 +142,6 @@
         {
           "introduced": "5.2.7-r0",
           "fixed": "5.3.6-r0"
-        },
-        {
-          "introduced": "5.3.6-r0",
-          "fixed": "5.4.1-r0"
         }
       ]
     },
@@ -184,10 +168,6 @@
         {
           "introduced": "5.2.7-r0",
           "fixed": "5.3.6-r0"
-        },
-        {
-          "introduced": "5.3.6-r0",
-          "fixed": "5.4.1-r0"
         }
       ]
     },
@@ -201,10 +181,6 @@
         {
           "introduced": "5.2.7-r0",
           "fixed": "5.3.6-r0"
-        },
-        {
-          "introduced": "5.3.6-r0",
-          "fixed": "5.4.1-r0"
         }
       ]
     },
@@ -288,8 +264,8 @@
     },
     "CVE-2026-52682": {
       "cve_id": "CVE-2026-52682",
-      "title": "[A crafted DNS packet can cause increased memory and CPU consumpt",
-      "description": "[A crafted DNS packet can cause increased memory and CPU consumption]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

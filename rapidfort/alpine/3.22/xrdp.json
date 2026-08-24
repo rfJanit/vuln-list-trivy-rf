@@ -11,12 +11,6 @@
       "events": [
         {
           "introduced": "0.10.3-r0"
-        },
-        {
-          "introduced": "0.10.6-r0"
-        },
-        {
-          "introduced": "0.10.6-r0"
         }
       ]
     },
@@ -28,19 +22,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.9.24-r0"
-        },
-        {
-          "introduced": "0.10.1-r1"
-        },
-        {
           "introduced": "0.10.3-r0"
-        },
-        {
-          "introduced": "0.10.6-r0"
-        },
-        {
-          "introduced": "0.10.6-r0"
         }
       ]
     }

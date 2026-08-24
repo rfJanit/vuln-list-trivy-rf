@@ -12,14 +12,6 @@
         {
           "introduced": "1.11.1-r9",
           "fixed": "1.12.2-r0"
-        },
-        {
-          "introduced": "1.11.1-r9",
-          "fixed": "1.12.2-r0"
-        },
-        {
-          "introduced": "1.12.1-r7",
-          "fixed": "1.12.2-r0"
         }
       ]
     },
@@ -32,18 +24,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -56,18 +36,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -80,18 +48,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -104,18 +60,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -128,18 +72,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -152,18 +84,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -176,18 +96,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -200,18 +108,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -224,18 +120,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -248,18 +132,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     },
@@ -272,18 +144,6 @@
       "events": [
         {
           "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.11.1-r9"
-        },
-        {
-          "introduced": "1.12.1-r7"
-        },
-        {
-          "introduced": "1.12.3-r10"
-        },
-        {
-          "introduced": "1.13.2-r5"
         }
       ]
     }

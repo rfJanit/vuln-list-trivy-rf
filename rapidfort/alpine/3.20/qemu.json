@@ -11,18 +11,6 @@
       "events": [
         {
           "introduced": "9.0.2-r0"
-        },
-        {
-          "introduced": "9.0.2-r0"
-        },
-        {
-          "introduced": "10.0.0-r1"
-        },
-        {
-          "introduced": "10.1.5-r0"
-        },
-        {
-          "introduced": "10.1.5-r0"
         }
       ]
     }

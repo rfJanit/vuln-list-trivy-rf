@@ -64,7 +64,7 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:2.5.3-0rfubu",
+          "fixed": "0:2.5.2-1build1+rf.1",
           "identifier": "rf"
         },
         {
@@ -83,7 +83,7 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:2.5.3-0rfubu",
+          "fixed": "0:2.5.2-1build1+rf.1",
           "identifier": "rf"
         },
         {

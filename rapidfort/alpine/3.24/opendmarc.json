@@ -10,21 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.4.2-r1"
-        },
-        {
-          "introduced": "1.4.2-r1"
-        },
-        {
-          "introduced": "1.4.2-r1"
-        },
-        {
-          "introduced": "1.4.2-r3"
-        },
-        {
-          "introduced": "1.4.2-r3"
-        },
-        {
           "introduced": "1.4.2-r3"
         }
       ]

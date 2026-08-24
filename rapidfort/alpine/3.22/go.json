@@ -10,19 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.22.9-r0"
-        },
-        {
-          "introduced": "1.22.9-r0"
-        },
-        {
           "introduced": "1.23.9-r0"
-        },
-        {
-          "introduced": "1.24.13-r0"
-        },
-        {
-          "introduced": "1.25.10-r0"
         }
       ]
     },
@@ -65,19 +53,6 @@
         }
       ]
     },
-    "CVE-2024-45336": {
-      "cve_id": "CVE-2024-45336",
-      "title": "The HTTP client drops sensitive headers after following a cross-d ...",
-      "description": "The HTTP client drops sensitive headers after following a cross-domain redirect. For example, a request to a.com/ containing an Authorization header which is redirected to b.com/ will not send that header to b.com. In the event that the client received a subsequent same-domain redirect, however, the sensitive headers would be restored. For example, a chain of redirects from a.com/, to b.com/1, and finally to b.com/2 would incorrectly send the Authorization header to b.com/2.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.5-r0"
-        }
-      ]
-    },
     "CVE-2024-45340": {
       "cve_id": "CVE-2024-45340",
       "title": "Credentials provided via the new GOAUTH feature were not being pr ...",
@@ -91,19 +66,6 @@
         }
       ]
     },
-    "CVE-2024-45341": {
-      "cve_id": "CVE-2024-45341",
-      "title": "A certificate with a URI which has a IPv6 address with a zone ID  ...",
-      "description": "A certificate with a URI which has a IPv6 address with a zone ID may incorrectly satisfy a URI name constraint that applies to the certificate chain. Certificates containing URIs are not permitted in the web PKI, so this only affects users of private PKIs which make use of URIs.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.5-r0"
-        }
-      ]
-    },
     "CVE-2025-0913": {
       "cve_id": "CVE-2025-0913",
       "title": "os.OpenFile(path, os.O_CREATE|O_EXCL) behaved differently on Unix ...",
@@ -114,19 +76,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.4-r0"
-        }
-      ]
-    },
-    "CVE-2025-22866": {
-      "cve_id": "CVE-2025-22866",
-      "title": "Due to the usage of a variable time instruction in the assembly i ...",
-      "description": "Due to the usage of a variable time instruction in the assembly implementation of an internal function, a small number of bits of secret scalars are leaked on the ppc64le architecture. Due to the way this function is used, we do not believe this leakage is enough to allow recovery of the private key when P-256 is used in any well known protocols.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.6-r0"
         }
       ]
     },
@@ -151,10 +100,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.7-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.1-r0"
         }
@@ -168,10 +113,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.8-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.2-r0"
         }
@@ -184,10 +125,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.23.9-r0"
-        },
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.3-r0"
@@ -227,14 +164,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.24.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.24.5-r0"
-        },
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.6-r0"
@@ -290,10 +219,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -307,10 +232,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -324,10 +245,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -341,10 +258,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -358,10 +271,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -375,10 +284,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -392,10 +297,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -409,10 +310,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -426,10 +323,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -443,10 +336,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.8-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.2-r0"
         }
       ]
     },
@@ -460,10 +349,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.12-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.6-r0"
         }
       ]
     },
@@ -477,10 +362,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.11-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.5-r0"
         }
       ]
     },
@@ -494,10 +375,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.12-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.6-r0"
         }
       ]
     },
@@ -511,10 +388,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.11-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.5-r0"
         }
       ]
     },
@@ -528,10 +401,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.12-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.6-r0"
         }
       ]
     },
@@ -545,10 +414,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.12-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.6-r0"
         }
       ]
     },
@@ -575,10 +440,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.12-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.6-r0"
         }
       ]
     },
@@ -592,10 +453,6 @@
         {
           "introduced": "1.23.9-r0",
           "fixed": "1.24.12-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.6-r0"
         }
       ]
     },
@@ -863,24 +720,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -892,24 +733,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -938,23 +763,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
         }
       ]
@@ -1052,24 +861,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -1081,23 +874,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
         }
       ]
@@ -1110,23 +887,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.27.0-r0"
         }
       ]
@@ -1139,23 +900,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
           "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.27.0-r0"
         }
       ]

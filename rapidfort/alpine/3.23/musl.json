@@ -43,6 +43,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.2.5-r11",
+          "fixed": "1.2.5-r23"
+        },
+        {
           "introduced": "1.2.5-r9",
           "fixed": "1.2.5-r11"
         }
@@ -55,6 +59,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1.2.5-r11",
+          "fixed": "1.2.5-r22"
+        },
         {
           "introduced": "1.2.5-r9",
           "fixed": "1.2.5-r10"
