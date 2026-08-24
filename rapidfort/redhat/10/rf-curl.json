@@ -7,10 +7,16 @@
       "title": "curl: SFTP path ~ resolving discrepancy",
       "description": "A path traversal vulnerability exists in curl \u003c8.0.0 SFTP implementation causes the tilde (~) character to be wrongly replaced when used as a prefix in the first path element, in addition to its intended use as the first element to indicate a path relative to the user's home directory. Attackers can exploit this flaw to bypass filtering or execute arbitrary code by crafting a path like /~2/foo while accessing a server with a specific user.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:8.11.1-12.rf",
+          "fixed": "0:8.14.1-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.12.0-11.rf",
+          "fixed": "0:8.14.1-11.rf",
           "identifier": "rf"
         }
       ]
@@ -29,11 +35,31 @@
         },
         {
           "introduced": "0:8.11.1-12.rf",
+          "fixed": "0:8.14.1-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.12.0-11.rf",
+          "fixed": "0:8.14.1-11.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
           "identifier": "fc41"
+        }
+      ]
+    },
+    "CVE-2024-7264": {
+      "cve_id": "CVE-2024-7264",
+      "title": "curl: libcurl: ASN.1 date parser overread",
+      "description": "A flaw was found in libcurl, where libcurl's ASN1 parser code has the `GTime2str()` function, used for parsing an ASN.1 Generalized Time field. If a syntactically incorrect field is given, the parser can use -1 for the length of the *time fraction*, leading to a `strlen()` performed on a pointer to a heap buffer area that is not purposely NULL terminated.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.12.0-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -146,6 +172,17 @@
       "events": [
         {
           "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
           "identifier": "rf"
         },
         {
@@ -172,7 +209,18 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:8.11.1-12.rf",
+          "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
           "identifier": "rf"
         },
         {
@@ -246,7 +294,18 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:8.11.1-12.rf",
+          "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
           "identifier": "rf"
         },
         {
@@ -288,6 +347,17 @@
         },
         {
           "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
           "identifier": "rf"
         },
         {
@@ -328,7 +398,18 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:8.11.1-12.rf",
+          "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
           "identifier": "rf"
         },
         {
@@ -369,7 +450,18 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:8.11.1-12.rf",
+          "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.18.0-11.rf",
           "identifier": "rf"
         },
         {
@@ -635,12 +727,28 @@
         },
         {
           "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.19.0-10.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0:8.15.0-2.fc43",
           "fixed": "0:8.15.0-6.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.18.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -687,12 +795,28 @@
         },
         {
           "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.19.0-10.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0:8.15.0-2.fc43",
           "fixed": "0:8.15.0-6.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.18.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0:8.9.1-2.fc41",
@@ -763,7 +887,7 @@
       "title": "When doing a second SMB request to the same host again, curl woul ...",
       "description": "When doing a second SMB request to the same host again, curl would wrongly use\na data pointer pointing into already freed memory.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -777,12 +901,28 @@
         },
         {
           "introduced": "0:8.14.1-11.rf",
+          "fixed": "0:8.19.0-10.rf",
           "identifier": "rf"
         },
         {
           "introduced": "0:8.15.0-2.fc43",
           "fixed": "0:8.15.0-6.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0:8.16.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.17.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:8.18.0-11.rf",
+          "fixed": "0:8.19.0-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "8.14.1-1.fc43",
@@ -995,6 +1135,20 @@
         {
           "introduced": "8.15.0-2.fc43",
           "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-7009": {
+      "cve_id": "CVE-2026-7009",
+      "title": "When curl is told to use the Certificate Status Request TLS exten ...",
+      "description": "When curl is told to use the Certificate Status Request TLS extension, often\nreferred to as *OCSP stapling*, to verify that the server certificate is\nvalid, it fails to detect OCSP problems and instead wrongly consider the\nresponse as fine.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:8.17.0-11.rf",
+          "identifier": "rf"
         }
       ]
     },

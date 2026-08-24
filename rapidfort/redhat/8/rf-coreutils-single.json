@@ -11,6 +11,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:8.32-36.el9",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:9.10-5.fc44",
           "identifier": "fc44"
         },

@@ -11,6 +11,11 @@
       "events": [
         {
           "introduced": "0",
+          "fixed": "3.53.4-11.fc45.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0",
           "fixed": "3.45.2-1.fc41",
           "identifier": "fc41"
         },
@@ -62,6 +67,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "3.53.4-11.fc45.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0",
           "fixed": "3.52.0-1.fc45",
@@ -121,7 +131,7 @@
       "cve_id": "CVE-2025-7709",
       "title": "An integer overflow exists in the  FTS5 https://sqlite.org/fts5.h ...",
       "description": "An integer overflow exists in the  FTS5 https://sqlite.org/fts5.html  extension. It occurs when the size of an array of tombstone pointers is calculated and truncated into a 32-bit integer. A pointer to partially controlled data can then be written out of bounds.",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "status": "open",
       "events": [
         {

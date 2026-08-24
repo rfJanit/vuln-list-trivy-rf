@@ -80,6 +80,7 @@
         },
         {
           "introduced": "0:5.74-533.rf",
+          "fixed": "0:5.74-534.fc43.rf",
           "identifier": "rf"
         },
         {

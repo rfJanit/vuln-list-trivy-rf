@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "0:0",
-          "fixed": "0:9.9p1-4.fc41",
+          "fixed": "0:9.9p1-2.fc41",
           "identifier": "fc41"
         },
         {
@@ -28,6 +28,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:9.9p1-12.fc42",
@@ -47,6 +52,11 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:9.9p1-12.fc42",
@@ -125,6 +135,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.2p1-8.fc44",
           "identifier": "fc44"
         },
@@ -142,6 +157,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:10.2p1-8.fc44",
@@ -167,6 +187,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.2p1-8.fc44",
           "identifier": "fc44"
         },
@@ -190,6 +215,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.2p1-8.fc44",
           "identifier": "fc44"
         },
@@ -211,6 +241,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:10.2p1-11.fc44",
@@ -237,6 +272,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.2p1-11.fc44",
           "identifier": "fc44"
         },
@@ -261,6 +301,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.2p1-11.fc44",
           "identifier": "fc44"
         },
@@ -283,6 +328,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:10.2p1-14.fc44",
@@ -331,6 +381,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.5p1-1.fc46",
           "identifier": "fc46"
         },
@@ -351,6 +406,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:10.5p1-1.fc46",
@@ -375,6 +435,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.2p1-14.fc44",
           "identifier": "fc44"
         },
@@ -397,6 +462,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.5p1-1.fc46",
           "identifier": "fc46"
         },
@@ -417,6 +487,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:10.5p1-1.fc46",
@@ -481,6 +556,11 @@
       "events": [
         {
           "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:0",
           "fixed": "0:10.2p1-14.fc44",
           "identifier": "fc44"
         },
@@ -501,6 +581,11 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:9.9p1-2.fc41",
+          "identifier": "fc41"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:10.2p1-14.fc44",
