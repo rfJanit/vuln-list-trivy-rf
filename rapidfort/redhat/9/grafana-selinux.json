@@ -1413,6 +1413,23 @@
         }
       ]
     },
+    "CVE-2026-67213": {
+      "cve_id": "CVE-2026-67213",
+      "title": "nanoid (Nano ID) before 5.1.6 contains an infinite loop in the cu ...",
+      "description": "nanoid (Nano ID) before 5.1.6 contains an infinite loop in the customAlphabet and customRandom functions. When these functions are configured with a size of 0, the internal generation loop never satisfies its exit condition and spins indefinitely, hanging the calling thread. An application that passes an unvalidated, attacker-controlled size of 0 to these functions is exposed to a denial-of-service condition.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "10.2.6-19.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-6993": {
       "cve_id": "CVE-2026-6993",
       "title": "A security flaw has been discovered in go-kratos kratos up to 2.9 ...",

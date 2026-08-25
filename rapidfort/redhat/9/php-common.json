@@ -217,8 +217,8 @@
     },
     "CVE-2026-12184": {
       "cve_id": "CVE-2026-12184",
-      "title": "Amazon Linux 2023 - ALAS2023-2026-1733: Important priority package update for php8.5",
-      "description": "Signed integer overflow in metaphone()",
+      "title": "CVE-2026-12184",
+      "description": "PHP: Failure to setup TLS with a remote server can result in a remote DoS",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -346,6 +346,19 @@
           "introduced": "0",
           "fixed": "8.5.6-1.fc44",
           "identifier": "fc44"
+        }
+      ]
+    },
+    "CVE-2026-58081": {
+      "cve_id": "CVE-2026-58081",
+      "title": "Several encoding modules, including HZ, UTF-7, VIQR, and ZW, did  ...",
+      "description": "Several encoding modules, including HZ, UTF-7, VIQR, and ZW, did not properly check the size of the caller-supplied output buffer before writing converted characters.\n\nAn application that uses iconv(3) to convert untrusted input to or from one of the affected encodings may be vulnerable to buffer overflows if it uses one of the affected encoding modules.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
         }
       ]
     },

@@ -144,7 +144,7 @@
       "events": [
         {
           "introduced": "3.4.1-4.fc43",
-          "fixed": "3.4.3-1.fc43",
+          "fixed": "3.5.0-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -686,12 +686,8 @@
       "title": "rsync 3.2.0 through 3.2.3 (openssl mode) and rsync-ssl through 3. ...",
       "description": "rsync 3.2.0 through 3.2.3 (openssl mode) and rsync-ssl through 3.4.4 (stunnel mode) contain a TLS certificate validation vulnerability that allows on-path attackers to intercept encrypted sessions by presenting self-signed or otherwise invalid certificates. Attackers can exploit the failure to validate server TLS certificates against a trusted CA or verify certificate hostname matching to decrypt or tamper with rsync session content without detection by the client.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el8"
-        },
         {
           "introduced": "3.4.1-4.fc43",
           "fixed": "3.5.0-1.fc43",

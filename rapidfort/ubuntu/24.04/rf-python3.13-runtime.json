@@ -2,20 +2,6 @@
   "package_name": "rf-python3.13-runtime",
   "distro_version": "24.04",
   "advisories": {
-    "CVE-2024-3220": {
-      "cve_id": "CVE-2024-3220",
-      "title": "There is a defect in the CPython standard library module “mimetyp ...",
-      "description": "There is a defect in the CPython standard library module “mimetypes” where on Windows the default list of known file locations are writable meaning other users can create invalid files to cause MemoryError to be raised on Python runtime startup or have file extensions be interpreted as the incorrect file type.\n\nThis defect is caused by the default locations of Linux and macOS platforms (such as “/etc/mime.types”) also being used on Windows, where they are user-writable locations (“C:\\etc\\mime.types”).\n\nTo work-around this issue a user can call mimetypes.init() with an empty list (“[]”) on Windows platforms to avoid using the default list of known file locations.",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:3.13.12-1rfubu.1",
-          "identifier": "rf"
-        }
-      ]
-    },
     "CVE-2025-12781": {
       "cve_id": "CVE-2025-12781",
       "title": "When passing data to the b64decode(), standard_b64decode(), and u ...",
