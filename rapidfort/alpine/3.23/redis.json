@@ -119,6 +119,31 @@
         }
       ]
     },
+    "CVE-2025-46686": {
+      "cve_id": "CVE-2025-46686",
+      "title": "Redis through 8.0.3 allows memory consumption via a multi-bulk co ...",
+      "description": "Redis through 8.0.3 allows memory consumption via a multi-bulk command composed of many bulks, sent by an authenticated user. This occurs because the server allocates memory for the command arguments of every bulk, even when the command is skipped because of insufficient permissions. NOTE: this is disputed by the Supplier because abuse of the commands network protocol is not a violation of the Redis Security Model.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "8.0.4-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "8.0.4-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "8.0.4-r0"
+        },
+        {
+          "introduced": "7.2.9-r0",
+          "fixed": "8.0.4-r0"
+        }
+      ]
+    },
     "CVE-2025-46817": {
       "cve_id": "CVE-2025-46817",
       "title": "Redis is an open source, in-memory database that persists on disk ...",
@@ -126,6 +151,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.9-r0",
+          "fixed": "8.0.4-r0"
+        },
         {
           "introduced": "8.0.4-r0",
           "fixed": "8.2.2-r0"
@@ -140,6 +181,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.9-r0",
+          "fixed": "8.0.4-r0"
+        },
+        {
           "introduced": "8.0.4-r0",
           "fixed": "8.2.2-r0"
         }
@@ -152,6 +209,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.9-r0",
+          "fixed": "8.0.4-r0"
+        },
         {
           "introduced": "8.0.4-r0",
           "fixed": "8.2.2-r0"
@@ -191,6 +264,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.5-r1",
+          "fixed": "7.2.11-r0"
+        },
+        {
+          "introduced": "7.2.9-r0",
+          "fixed": "8.0.4-r0"
+        },
+        {
           "introduced": "8.0.4-r0",
           "fixed": "8.2.2-r0"
         }
@@ -203,10 +292,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8.0.4-r0",
-          "fixed": "8.2.3-r0"
-        },
         {
           "introduced": "8.2.2-r0",
           "fixed": "8.2.3-r0"
@@ -221,10 +306,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8.4.2-r0",
-          "fixed": "8.6.3-r0"
-        },
-        {
           "introduced": "8.6.0-r0",
           "fixed": "8.6.3-r0"
         }
@@ -237,10 +318,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8.0.4-r0",
-          "fixed": "8.6.3-r0"
-        },
         {
           "introduced": "8.6.0-r0",
           "fixed": "8.6.3-r0"
@@ -255,12 +332,34 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "8.4.2-r0",
-          "fixed": "8.6.3-r0"
-        },
-        {
           "introduced": "8.6.0-r0",
           "fixed": "8.6.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-25588": {
+      "cve_id": "CVE-2026-25588",
+      "title": "RedisTimeSeries is a time-series module for Redis. In all version ...",
+      "description": "RedisTimeSeries is a time-series module for Redis. In all versions before 1.12.14 of RedisTimeSeries, the module does not properly validate serialized values processed through the Redis RESTORE command. An authenticated attacker with permission to execute RESTORE on a server with the RedisTimeSeries module loaded can supply a crafted serialized payload that triggers invalid memory access and may lead to remote code execution. A workaround is to restrict access to the RESTORE command with ACL rules. This has been patched in version 1.12.14.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.4-r0",
+          "fixed": "8.2.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-25589": {
+      "cve_id": "CVE-2026-25589",
+      "title": "RedisBloom is a probabilistic data structures module for Redis. I ...",
+      "description": "RedisBloom is a probabilistic data structures module for Redis. In all versions of RedisBloom before 2.8.20, the module does not properly validate serialized values processed through the Redis RESTORE command. An authenticated attacker with permission to execute RESTORE on a server with the RedisBloom module loaded can supply a crafted serialized payload that triggers invalid memory access and may lead to remote code execution. A workaround is to restrict access to the RESTORE command with ACL rules. This issue is fixed in version 2.8.20.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.4-r0",
+          "fixed": "8.2.2-r0"
         }
       ]
     },
@@ -271,10 +370,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "8.0.4-r0",
-          "fixed": "8.8.0-r0"
-        },
         {
           "introduced": "8.6.0-r0",
           "fixed": "8.8.0-r0"

@@ -10,7 +10,15 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.3.5-r0",
+          "fixed": "2.5.1-r1"
+        },
+        {
           "introduced": "2.4.1-r0",
+          "fixed": "2.5.1-r1"
+        },
+        {
+          "introduced": "2.4.4-r3",
           "fixed": "2.5.1-r1"
         }
       ]

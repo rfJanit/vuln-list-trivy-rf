@@ -10,7 +10,22 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.4.0-r1"
+        },
+        {
+          "introduced": "2.6.0-r1"
+        },
+        {
+          "introduced": "2.6.0-r1"
+        },
+        {
           "introduced": "2.7.0-r0"
+        },
+        {
+          "introduced": "2.7.0-r1"
+        },
+        {
+          "introduced": "2.7.0-r1"
         }
       ]
     },
@@ -22,7 +37,22 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.4.0-r1"
+        },
+        {
+          "introduced": "2.6.0-r1"
+        },
+        {
+          "introduced": "2.6.0-r1"
+        },
+        {
           "introduced": "2.7.0-r0"
+        },
+        {
+          "introduced": "2.7.0-r1"
+        },
+        {
+          "introduced": "2.7.0-r1"
         }
       ]
     },
@@ -34,7 +64,22 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.4.0-r1"
+        },
+        {
+          "introduced": "2.6.0-r1"
+        },
+        {
+          "introduced": "2.6.0-r1"
+        },
+        {
           "introduced": "2.7.0-r0"
+        },
+        {
+          "introduced": "2.7.0-r1"
+        },
+        {
+          "introduced": "2.7.0-r1"
         }
       ]
     }

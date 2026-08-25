@@ -136,30 +136,6 @@
         }
       ]
     },
-    "CVE-2025-22921": {
-      "cve_id": "CVE-2025-22921",
-      "title": "FFmpeg git-master,N-113007-g8d24a28d06 was discovered to contain  ...",
-      "description": "FFmpeg git-master,N-113007-g8d24a28d06 was discovered to contain a segmentation violation via the component /libavcodec/jpeg2000dec.c.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2-2.fc43",
-          "fixed": "7.1.5-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "7.1.1-1.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "0",
-          "fixed": "7.1.1-1.fc42",
-          "identifier": "fc42"
-        }
-      ]
-    },
     "CVE-2025-59731": {
       "cve_id": "CVE-2025-59731",
       "title": "When decoding an OpenEXR file that uses DWAA or DWAB compression, ...",
@@ -436,6 +412,19 @@
       "cve_id": "CVE-2026-75146",
       "title": "FFmpeg before commit 65b0dab contains an out-of-bounds read in th ...",
       "description": "FFmpeg before commit 65b0dab contains an out-of-bounds read in the DASH demuxer (libavformat/dashdec.c). When a live DASH manifest is refreshed with a startNumber that is lower than the previous value, the current sequence number is driven negative. The fragment retrieval function checked only the upper bound before indexing the fragments array, allowing a negative index to be used and causing an out-of-bounds read. A malicious or misconfigured DASH server can trigger this by serving a live manifest with a decreasing startNumber across a manifest refresh.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "7.1.2-2.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-75147": {
+      "cve_id": "CVE-2026-75147",
+      "title": "FFmpeg before commit 983dae9 contains an out-of-bounds read in th ...",
+      "description": "FFmpeg before commit 983dae9 contains an out-of-bounds read in the AV1 RTP packetizer (libavformat/rtpenc_av1.c). The keyframe detection loop that searches for a sequence header OBU advanced its pointer and remaining-size counter by the encoded header length plus the OBU payload size without first bounding the OBU size against the remaining data. A crafted OBU size causes the remaining-size counter to wrap to a positive value, causing the next loop iteration to dereference a pointer beyond the end of the packet buffer. A crafted AV1 input packet muxed to RTP triggers the out-of-bounds read.",
       "severity": "HIGH",
       "status": "open",
       "events": [

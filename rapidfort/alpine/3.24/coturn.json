@@ -44,6 +44,35 @@
         }
       ]
     },
+    "CVE-2026-40613": {
+      "cve_id": "CVE-2026-40613",
+      "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
+      "description": "Coturn is a free open source implementation of TURN and STUN Server. Prior to 4.10.0, the STUN/TURN attribute parsing functions in coturn perform unsafe pointer casts from uint8_t * to uint16_t * without alignment checks. When processing a crafted STUN message with odd-aligned attribute boundaries, this results in misaligned memory reads at ns_turn_msg.c. On ARM64 architectures (AArch64) with strict alignment enforcement, this causes a SIGBUS signal that immediately kills the turnserver process. An unauthenticated remote attacker can crash any ARM64 coturn deployment by sending a single crafted UDP packet. This vulnerability is fixed in 4.10.0.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.3-r1",
+          "fixed": "4.10.0-r0"
+        }
+      ]
+    },
     "CVE-2026-43915": {
       "cve_id": "CVE-2026-43915",
       "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
@@ -52,8 +81,61 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.3-r1",
+          "fixed": "4.14.0-r0"
+        },
+        {
           "introduced": "4.10.0-r0",
           "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.10.0-r0",
+          "fixed": "4.14.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-43994": {
+      "cve_id": "CVE-2026-43994",
+      "title": "Coturn is a free open source implementation of TURN and STUN Serv ...",
+      "description": "Coturn is a free open source implementation of TURN and STUN Server. Versions prior to 4.10.0 contain a stack buffer overflow in decode_oauth_token_gcm(). A uint16_t nonce_len field read from an attacker-supplied OAuth access token (0-65535) is passed directly to memcpy() as the copy length into a 256-byte stack buffer (oauth_encrypted_block.nonce[256]) without bounds checking. The overflow occurs before AES-GCM authentication is verified, the attacker does not need to know the OAuth key or produce a valid AES-GCM token. Up to 735 bytes of attacker-controlled data are written past the buffer, may corrupt adjacent stack data, including control-flow data depending on compiler, ABI, and mitigations. Requires --oauth mode (non-default). This may provide a plausible RCE primitive depending on exploit mitigations; because coturn is widely deployed for WebRTC TURN/STUN and --oauth is commonly recommended, impact can be broad. This issue has been fixed in version 4.10.0.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.10.0-r0"
+        },
+        {
+          "introduced": "4.6.3-r1",
+          "fixed": "4.10.0-r0"
         }
       ]
     },
@@ -64,6 +146,30 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.3-r1",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.10.0-r0",
+          "fixed": "4.14.0-r0"
+        },
         {
           "introduced": "4.10.0-r0",
           "fixed": "4.14.0-r0"
@@ -78,6 +184,30 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.3-r1",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.10.0-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
           "introduced": "4.10.0-r0",
           "fixed": "4.14.0-r0"
         }
@@ -90,6 +220,30 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.3-r1",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.10.0-r0",
+          "fixed": "4.14.0-r0"
+        },
         {
           "introduced": "4.10.0-r0",
           "fixed": "4.14.0-r0"
@@ -104,6 +258,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
+        {
           "introduced": "4.10.0-r0"
         }
       ]
@@ -115,6 +287,24 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
         {
           "introduced": "4.10.0-r0"
         }
@@ -128,6 +318,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
+        {
           "introduced": "4.10.0-r0"
         }
       ]
@@ -140,6 +348,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
+        {
           "introduced": "4.10.0-r0"
         }
       ]
@@ -151,6 +377,30 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.2-r0",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.6.3-r1",
+          "fixed": "4.14.0-r0"
+        },
+        {
+          "introduced": "4.10.0-r0",
+          "fixed": "4.14.0-r0"
+        },
         {
           "introduced": "4.10.0-r0",
           "fixed": "4.14.0-r0"
@@ -165,6 +415,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
+        {
           "introduced": "4.10.0-r0"
         }
       ]
@@ -176,6 +444,24 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
         {
           "introduced": "4.10.0-r0"
         }
@@ -189,6 +475,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
+        {
           "introduced": "4.10.0-r0"
         }
       ]
@@ -200,6 +504,24 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
+        },
         {
           "introduced": "4.10.0-r0"
         }

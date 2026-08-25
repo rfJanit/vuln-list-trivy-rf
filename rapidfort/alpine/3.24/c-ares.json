@@ -31,18 +31,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r0",
-          "fixed": "1.34.6-r0"
-        },
-        {
-          "introduced": "1.32.2-r0",
-          "fixed": "1.34.6-r0"
-        },
-        {
-          "introduced": "1.34.4-r0",
-          "fixed": "1.34.6-r0"
-        },
-        {
           "introduced": "1.34.5-r0",
           "fixed": "1.34.6-r0"
         }

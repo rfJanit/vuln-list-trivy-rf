@@ -13,6 +13,9 @@
           "introduced": "1.119.0-r0"
         },
         {
+          "introduced": "1.119.0-r0"
+        },
+        {
           "introduced": "1.130.0-r0"
         },
         {
@@ -33,6 +36,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.119.0-r0"
+        },
         {
           "introduced": "1.119.0-r0"
         },
@@ -60,6 +66,10 @@
         {
           "introduced": "1.119.0-r0",
           "fixed": "1.120.1"
+        },
+        {
+          "introduced": "1.119.0-r0",
+          "fixed": "1.120.2-r0"
         }
       ]
     },
@@ -73,6 +83,10 @@
         {
           "introduced": "1.119.0-r0",
           "fixed": "1.120.1"
+        },
+        {
+          "introduced": "1.119.0-r0",
+          "fixed": "1.120.2-r0"
         }
       ]
     },
@@ -86,6 +100,10 @@
         {
           "introduced": "1.119.0-r0",
           "fixed": "1.120.1"
+        },
+        {
+          "introduced": "1.119.0-r0",
+          "fixed": "1.120.2-r0"
         }
       ]
     },
@@ -99,6 +117,10 @@
         {
           "introduced": "1.119.0-r0",
           "fixed": "1.120.1"
+        },
+        {
+          "introduced": "1.119.0-r0",
+          "fixed": "1.120.2-r0"
         }
       ]
     },
@@ -152,6 +174,9 @@
           "introduced": "1.119.0-r0"
         },
         {
+          "introduced": "1.119.0-r0"
+        },
+        {
           "introduced": "1.130.0-r0"
         },
         {
@@ -176,6 +201,9 @@
           "introduced": "1.119.0-r0"
         },
         {
+          "introduced": "1.119.0-r0"
+        },
+        {
           "introduced": "1.130.0-r0"
         },
         {
@@ -196,6 +224,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.119.0-r0"
+        },
         {
           "introduced": "1.119.0-r0"
         },

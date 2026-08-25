@@ -10,10 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.12.8-r0"
-        },
-        {
           "introduced": "2.12.7-r2",
           "fixed": "2.12.8-r0"
         }
@@ -61,14 +57,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.4-r5"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.12.7-r2"
-        },
-        {
           "introduced": "2.12.7-r1",
           "fixed": "2.12.7-r2"
         }
@@ -82,20 +70,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.4-r6"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.12.10-r0"
-        },
-        {
           "introduced": "2.12.7-r2",
           "fixed": "2.12.10-r0"
-        },
-        {
-          "introduced": "2.13.6-r0",
-          "fixed": "2.13.8-r0"
         }
       ]
     },
@@ -107,20 +83,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.4-r6"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.12.10-r0"
-        },
-        {
           "introduced": "2.12.7-r2",
           "fixed": "2.12.10-r0"
-        },
-        {
-          "introduced": "2.13.6-r0",
-          "fixed": "2.13.8-r0"
         }
       ]
     },
@@ -132,19 +96,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
           "introduced": "2.13.4-r6",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.13.6-r0",
           "fixed": "2.13.9-r0"
         }
       ]
@@ -157,19 +109,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
           "introduced": "2.13.4-r6",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.13.6-r0",
           "fixed": "2.13.9-r0"
         }
       ]
@@ -182,19 +122,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
           "introduced": "2.13.4-r6",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.13.6-r0",
           "fixed": "2.13.9-r0"
         }
       ]
@@ -207,19 +135,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
           "introduced": "2.13.4-r6",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.13.6-r0",
           "fixed": "2.13.9-r0"
         }
       ]
@@ -232,19 +148,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.12.10-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.12.7-r0",
-          "fixed": "2.13.9-r0"
-        },
-        {
           "introduced": "2.13.4-r6",
-          "fixed": "2.13.9-r0"
-        },
-        {
-          "introduced": "2.13.6-r0",
           "fixed": "2.13.9-r0"
         }
       ]
@@ -257,7 +161,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.12.7-r0",
           "fixed": "2.13.9_p0-r1"
         }
       ]
@@ -270,7 +174,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.12.7-r0",
           "fixed": "2.13.9_p0-r1"
         }
       ]
@@ -283,7 +187,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.12.7-r0",
           "fixed": "2.13.9_p0-r1"
         }
       ]
@@ -296,7 +200,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.12.7-r0",
           "fixed": "2.13.9_p0-r1"
         }
       ]
@@ -305,11 +209,11 @@
       "cve_id": "CVE-2026-11979",
       "title": "libxml2 is vulnerable to multiple stack-based buffer overflows in ...",
       "description": "libxml2 is vulnerable to multiple stack-based buffer overflows in the xmlcatalog utility when running in --shell mode. The usershell() function processes user input using fixed-size stack buffers without proper bounds checking.\nBy supplying an overly long input line, an attacker can overflow internal buffers (command, arg, and argv) during input parsing. This results in memory corruption within the stack frame.\nSuccessful exploitation may cause a crash or potentially allow arbitrary code execution in the context of the xmlcatalog process.\n\nThis issue has been fixed in the commit c2e233fc.\n\nNOTE:\nThe maintainers of this project did not agree that this issue is a vulnerability and considered it a bug.",
-      "severity": "LOW",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "2.12.7-r0",
           "fixed": "2.13.9_p0-r1"
         }
       ]
@@ -324,10 +228,6 @@
         {
           "introduced": "2.13.9-r0",
           "fixed": "2.13.9-r1"
-        },
-        {
-          "introduced": "2.13.9-r1",
-          "fixed": "2.13.9-r2"
         }
       ]
     }

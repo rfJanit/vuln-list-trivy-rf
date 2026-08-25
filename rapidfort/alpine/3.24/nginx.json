@@ -2,6 +2,33 @@
   "package_name": "nginx",
   "distro_version": "3.24",
   "advisories": {
+    "CVE-2009-4487": {
+      "cve_id": "CVE-2009-4487",
+      "title": "nginx 0.7.64 writes data to a log file without sanitizing non-pri ...",
+      "description": "nginx 0.7.64 writes data to a log file without sanitizing non-printable characters, which might allow remote attackers to modify a window's title, or possibly execute arbitrary commands or overwrite files, via an HTTP request containing an escape sequence for a terminal emulator.",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.26.1-r2"
+        },
+        {
+          "introduced": "1.26.1-r2"
+        },
+        {
+          "introduced": "1.26.3-r0"
+        },
+        {
+          "introduced": "1.28.1-r1"
+        },
+        {
+          "introduced": "1.28.1-r1"
+        },
+        {
+          "introduced": "1.30.3-r0"
+        }
+      ]
+    },
     "CVE-2024-7347": {
       "cve_id": "CVE-2024-7347",
       "title": "NGINX Open Source and NGINX Plus have a vulnerability in the ngx_ ...",
@@ -27,10 +54,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.26.1-r2",
-          "fixed": "1.26.3-r0"
-        },
-        {
           "introduced": "1.27.2-r1",
           "fixed": "1.27.5-r1"
         }
@@ -43,10 +66,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.2-r0"
-        },
         {
           "introduced": "1.28.2-r1",
           "fixed": "1.28.3-r0"
@@ -61,10 +80,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.2-r0"
-        },
-        {
           "introduced": "1.29.4-r1",
           "fixed": "1.29.5-r1"
         }
@@ -77,10 +92,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.3-r0"
-        },
         {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
@@ -95,10 +106,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.3-r0"
-        },
-        {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
         }
@@ -111,10 +118,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.3-r0"
-        },
         {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
@@ -129,10 +132,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.3-r0"
-        },
-        {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
         }
@@ -145,10 +144,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.3-r0"
-        },
         {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
@@ -163,10 +158,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.3-r0"
-        },
-        {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
         }
@@ -179,10 +170,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.1-r0"
-        },
         {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
@@ -197,18 +184,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.26.1-r2",
-          "fixed": "1.26.3-r1"
-        },
-        {
-          "introduced": "1.26.3-r0",
-          "fixed": "1.28.3-r1"
-        },
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.28.3-r1"
-        },
-        {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
         }
@@ -221,10 +196,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.3-r0"
-        },
         {
           "introduced": "1.31.0-r1"
         }
@@ -249,10 +220,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.4-r0"
-        },
         {
           "introduced": "1.30.3-r0",
           "fixed": "1.30.4-r0"
@@ -280,10 +247,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.1-r0"
-        },
-        {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
         }
@@ -296,10 +259,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.1-r0"
-        },
         {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
@@ -314,10 +273,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.1-r0"
-        },
-        {
           "introduced": "1.29.5-r1",
           "fixed": "1.30.3-r0"
         }
@@ -331,10 +286,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.3-r0"
-        },
-        {
           "introduced": "1.31.0-r1"
         }
       ]
@@ -346,10 +297,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.1-r0"
-        },
         {
           "introduced": "1.28.3-r1",
           "fixed": "1.28.3-r3"
@@ -364,10 +311,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.4-r0"
-        },
-        {
           "introduced": "1.30.3-r0",
           "fixed": "1.30.4-r0"
         }
@@ -380,10 +323,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.4-r0"
-        },
         {
           "introduced": "1.30.3-r0",
           "fixed": "1.30.4-r0"
@@ -398,10 +337,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.2-r1"
-        },
-        {
           "introduced": "1.28.3-r1",
           "fixed": "1.29.1-r1"
         }
@@ -414,10 +349,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.28.1-r1",
-          "fixed": "1.30.2-r0"
-        },
         {
           "introduced": "1.31.0-r1"
         }

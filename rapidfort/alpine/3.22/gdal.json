@@ -2,6 +2,19 @@
   "package_name": "gdal",
   "distro_version": "3.22",
   "advisories": {
+    "CVE-2025-29480": {
+      "cve_id": "CVE-2025-29480",
+      "title": "Buffer Overflow vulnerability in gdal 3.10.2 allows a local attac ...",
+      "description": "Buffer Overflow vulnerability in gdal 3.10.2 allows a local attacker to cause a denial of service via the OGRSpatialReference::Release function. NOTE: the Supplier indicates that the report is invalid and could not be reproduced.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.10.3-r0"
+        }
+      ]
+    },
     "CVE-2026-4738": {
       "cve_id": "CVE-2026-4738",
       "title": "Improper Restriction of Operations within the Bounds of a Memory  ...",
@@ -9,6 +22,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.11.0-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.11.0-r0"
+        },
         {
           "introduced": "3.10.3-r0",
           "fixed": "3.11.0-r0"
@@ -23,7 +44,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
           "introduced": "3.10.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -36,7 +69,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
           "introduced": "3.10.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -49,7 +94,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
           "introduced": "3.10.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -62,7 +119,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
           "introduced": "3.10.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -75,7 +144,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
           "introduced": "3.10.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -88,7 +169,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
           "introduced": "3.10.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]
@@ -101,7 +194,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.9.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
           "introduced": "3.10.3-r0",
+          "fixed": "3.13.2-r0"
+        },
+        {
+          "introduced": "3.11.5-r2",
           "fixed": "3.13.2-r0"
         }
       ]

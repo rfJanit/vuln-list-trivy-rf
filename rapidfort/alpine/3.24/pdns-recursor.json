@@ -67,6 +67,32 @@
         }
       ]
     },
+    "CVE-2026-0398": {
+      "cve_id": "CVE-2026-0398",
+      "title": "Crafted zones can lead to increased resource usage and crafted CN ...",
+      "description": "Crafted zones can lead to increased resource usage and crafted CNAME chains can lead to cache poisoning in Recursor.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.5-r0"
+        }
+      ]
+    },
+    "CVE-2026-24027": {
+      "cve_id": "CVE-2026-24027",
+      "title": "Crafted zones can lead to increased incoming network traffic.",
+      "description": "Crafted zones can lead to increased incoming network traffic.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.5-r0"
+        }
+      ]
+    },
     "CVE-2026-33256": {
       "cve_id": "CVE-2026-33256",
       "title": "An attacker can send a web request that causes unlimited memory a ...",
@@ -74,6 +100,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.6-r0"
+        },
         {
           "introduced": "5.3.6-r0",
           "fixed": "5.4.1-r0"
@@ -88,6 +118,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.6-r0"
+        },
+        {
           "introduced": "5.3.6-r0",
           "fixed": "5.4.1-r0"
         }
@@ -101,6 +135,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.6-r0"
+        },
+        {
           "introduced": "5.3.6-r0",
           "fixed": "5.4.1-r0"
         }
@@ -113,6 +151,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.6-r0"
+        },
         {
           "introduced": "5.3.6-r0",
           "fixed": "5.4.1-r0"
@@ -140,6 +182,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.6-r0"
+        },
+        {
           "introduced": "5.3.6-r0",
           "fixed": "5.4.1-r0"
         }
@@ -152,6 +198,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.2.7-r0",
+          "fixed": "5.3.6-r0"
+        },
         {
           "introduced": "5.3.6-r0",
           "fixed": "5.4.1-r0"
@@ -245,6 +295,10 @@
       "events": [
         {
           "introduced": "5.3.6-r0",
+          "fixed": "5.4.5-r0"
+        },
+        {
+          "introduced": "5.4.4-r0",
           "fixed": "5.4.5-r0"
         }
       ]

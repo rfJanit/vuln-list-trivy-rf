@@ -12,6 +12,22 @@
         {
           "introduced": "1.24.9-r0",
           "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.24.11-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.28.3-r0",
+          "fixed": "1.28.5-r0"
         }
       ]
     },
@@ -24,6 +40,18 @@
       "events": [
         {
           "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -38,6 +66,22 @@
         {
           "introduced": "1.24.9-r0",
           "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.24.11-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.28.3-r0",
+          "fixed": "1.28.5-r0"
         }
       ]
     },
@@ -50,6 +94,22 @@
       "events": [
         {
           "introduced": "1.24.9-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.24.11-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
+          "fixed": "1.28.5-r0"
+        },
+        {
+          "introduced": "1.28.3-r0",
           "fixed": "1.28.5-r0"
         }
       ]

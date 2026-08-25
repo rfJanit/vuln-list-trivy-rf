@@ -25,6 +25,10 @@
         {
           "introduced": "1.4.4-r0",
           "fixed": "1.4.6-r0"
+        },
+        {
+          "introduced": "1.4.5-r0",
+          "fixed": "1.4.6-r0"
         }
       ]
     },
@@ -142,6 +146,10 @@
         {
           "introduced": "1.4.4-r0",
           "fixed": "1.4.6-r0"
+        },
+        {
+          "introduced": "1.4.5-r0",
+          "fixed": "1.4.6-r0"
         }
       ]
     },
@@ -154,6 +162,10 @@
       "events": [
         {
           "introduced": "1.4.4-r0",
+          "fixed": "1.4.6-r0"
+        },
+        {
+          "introduced": "1.4.5-r0",
           "fixed": "1.4.6-r0"
         }
       ]
@@ -168,6 +180,10 @@
         {
           "introduced": "1.4.4-r0",
           "fixed": "1.4.6-r0"
+        },
+        {
+          "introduced": "1.4.5-r0",
+          "fixed": "1.4.6-r0"
         }
       ]
     },
@@ -181,6 +197,10 @@
         {
           "introduced": "1.4.4-r0",
           "fixed": "1.4.6-r0"
+        },
+        {
+          "introduced": "1.4.5-r0",
+          "fixed": "1.4.6-r0"
         }
       ]
     },
@@ -193,6 +213,10 @@
       "events": [
         {
           "introduced": "1.4.4-r0",
+          "fixed": "1.4.6-r0"
+        },
+        {
+          "introduced": "1.4.5-r0",
           "fixed": "1.4.6-r0"
         }
       ]

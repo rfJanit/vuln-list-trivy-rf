@@ -283,6 +283,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
           "fixed": "7.1.1-r0"
         }
@@ -295,6 +307,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
         {
           "introduced": "6.1.2-r1",
           "fixed": "7.1.1-r0"
@@ -309,6 +333,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
           "fixed": "7.1.1-r0"
         }
@@ -322,6 +358,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
           "fixed": "20100108-r0"
         }
@@ -334,6 +382,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
         {
           "introduced": "6.1.2-r1",
           "fixed": "20100108-r0"
@@ -480,6 +540,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "7.1.1-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
           "fixed": "7.1.1-r0"
         }
@@ -492,6 +564,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
         {
           "introduced": "6.1.2-r1",
           "fixed": "20100108-r0"
@@ -697,6 +781,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "8.0.1-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "8.0.1-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
           "fixed": "8.0.1-r0"
         }
@@ -710,7 +806,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "8.1.1-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "8.1.1-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "8.1.1-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.1-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
           "fixed": "8.1.1-r0"
         }
       ]
@@ -740,7 +856,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -753,7 +889,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -925,7 +1081,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "8.1.1-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "8.1.1-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "8.1.1-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "8.1.1-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
           "fixed": "8.1.1-r0"
         }
       ]
@@ -938,7 +1114,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -974,7 +1159,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -992,7 +1186,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -1010,7 +1213,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -1028,7 +1240,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -1046,7 +1267,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -1064,7 +1294,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1077,7 +1327,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -1095,7 +1354,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.1.1-r8"
+        },
+        {
+          "introduced": "6.1.1-r8"
+        },
+        {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
         },
         {
           "introduced": "8.0.1-r1"
@@ -1113,7 +1381,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1126,7 +1414,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1139,7 +1447,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1152,7 +1480,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1165,7 +1513,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1196,7 +1564,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1209,7 +1597,31 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1222,7 +1634,31 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1235,7 +1671,27 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1248,7 +1704,31 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        },
+        {
           "introduced": "6.1.2-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.0.1-r1",
+          "fixed": "20100108-r0"
+        },
+        {
+          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -1257,6 +1737,19 @@
       "cve_id": "CVE-2026-75146",
       "title": "FFmpeg before commit 65b0dab contains an out-of-bounds read in th ...",
       "description": "FFmpeg before commit 65b0dab contains an out-of-bounds read in the DASH demuxer (libavformat/dashdec.c). When a live DASH manifest is refreshed with a startNumber that is lower than the previous value, the current sequence number is driven negative. The fragment retrieval function checked only the upper bound before indexing the fragments array, allowing a negative index to be used and causing an out-of-bounds read. A malicious or misconfigured DASH server can trigger this by serving a live manifest with a decreasing startNumber across a manifest refresh.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
+        }
+      ]
+    },
+    "CVE-2026-75147": {
+      "cve_id": "CVE-2026-75147",
+      "title": "FFmpeg before commit 983dae9 contains an out-of-bounds read in th ...",
+      "description": "FFmpeg before commit 983dae9 contains an out-of-bounds read in the AV1 RTP packetizer (libavformat/rtpenc_av1.c). The keyframe detection loop that searches for a sequence header OBU advanced its pointer and remaining-size counter by the encoded header length plus the OBU payload size without first bounding the OBU size against the remaining data. A crafted OBU size causes the remaining-size counter to wrap to a positive value, causing the next loop iteration to dereference a pointer beyond the end of the packet buffer. A crafted AV1 input packet muxed to RTP triggers the out-of-bounds read.",
       "severity": "HIGH",
       "status": "fixed",
       "events": [

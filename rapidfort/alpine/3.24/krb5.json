@@ -49,7 +49,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "1.21.2-r0",
           "fixed": "1.22.2_p0-r1"
         }
       ]
@@ -62,7 +62,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "1.21.2-r0",
           "fixed": "1.22.2_p0-r1"
         }
       ]

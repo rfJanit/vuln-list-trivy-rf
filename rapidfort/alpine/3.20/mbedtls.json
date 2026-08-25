@@ -12,6 +12,10 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.3-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.3-r0"
         }
       ]
     },
@@ -22,6 +26,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.3-r0"
+        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.3-r0"
@@ -38,6 +46,10 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -48,6 +60,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.4-r0"
+        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
@@ -64,6 +80,10 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -74,6 +94,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.4-r0"
+        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
@@ -90,6 +114,10 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -100,6 +128,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.4-r0"
+        },
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
@@ -116,6 +148,10 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.4-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.4-r0"
         }
       ]
     },
@@ -129,6 +165,18 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.5-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.5-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.5-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.5-r0"
         }
       ]
     },
@@ -141,6 +189,18 @@
       "events": [
         {
           "introduced": "3.6.2-r0",
+          "fixed": "3.6.5-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.5-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.5-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
           "fixed": "3.6.5-r0"
         }
       ]
@@ -180,6 +240,18 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.6-r0"
         }
       ]
     },
@@ -192,6 +264,18 @@
       "events": [
         {
           "introduced": "3.6.2-r0",
+          "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
           "fixed": "3.6.6-r0"
         }
       ]
@@ -206,13 +290,25 @@
         {
           "introduced": "3.6.2-r0",
           "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.2-r0",
+          "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.6-r0"
+        },
+        {
+          "introduced": "3.6.4-r0",
+          "fixed": "3.6.6-r0"
         }
       ]
     },
     "CVE-2026-35336": {
       "cve_id": "CVE-2026-35336",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -232,8 +328,8 @@
     },
     "CVE-2026-49300": {
       "cve_id": "CVE-2026-49300",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -257,8 +353,8 @@
     },
     "CVE-2026-50579": {
       "cve_id": "CVE-2026-50579",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -399,8 +495,8 @@
     },
     "CVE-2026-50586": {
       "cve_id": "CVE-2026-50586",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -424,8 +520,8 @@
     },
     "CVE-2026-50587": {
       "cve_id": "CVE-2026-50587",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -516,8 +612,8 @@
     },
     "CVE-2026-54435": {
       "cve_id": "CVE-2026-54435",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[Unknown description]",
+      "description": "[Unknown description]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -537,8 +633,8 @@
     },
     "CVE-2026-54441": {
       "cve_id": "CVE-2026-54441",
-      "title": "[Unknown description]",
-      "description": "[Unknown description]",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

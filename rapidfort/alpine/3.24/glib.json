@@ -27,14 +27,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.80.5-r0",
-          "fixed": "2.86.3-r0"
-        },
-        {
-          "introduced": "2.82.5-r0",
-          "fixed": "2.86.3-r0"
-        },
-        {
           "introduced": "2.84.4-r0",
           "fixed": "2.86.3-r0"
         }
@@ -48,14 +40,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.80.5-r0",
-          "fixed": "2.86.3-r0"
-        },
-        {
-          "introduced": "2.82.5-r0",
-          "fixed": "2.86.3-r0"
-        },
-        {
           "introduced": "2.84.4-r0",
           "fixed": "2.86.3-r0"
         }
@@ -68,14 +52,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "2.80.5-r0",
-          "fixed": "2.86.3-r0"
-        },
-        {
-          "introduced": "2.82.5-r0",
-          "fixed": "2.86.3-r0"
-        },
         {
           "introduced": "2.84.4-r0",
           "fixed": "2.86.3-r0"

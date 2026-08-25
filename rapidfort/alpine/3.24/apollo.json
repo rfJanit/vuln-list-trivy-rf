@@ -10,6 +10,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
+        {
           "introduced": "0.3.1-r10"
         }
       ]
@@ -21,6 +27,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
         {
           "introduced": "0.3.1-r10"
         }
@@ -34,6 +46,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
+        {
           "introduced": "0.3.1-r10"
         }
       ]
@@ -45,6 +63,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
         {
           "introduced": "0.3.1-r10"
         }
@@ -58,6 +82,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
+        {
           "introduced": "0.3.1-r10"
         }
       ]
@@ -69,6 +99,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
         {
           "introduced": "0.3.1-r10"
         }
@@ -82,6 +118,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
+        {
           "introduced": "0.3.1-r10"
         }
       ]
@@ -93,6 +135,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
         {
           "introduced": "0.3.1-r10"
         }
@@ -106,6 +154,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
+        {
           "introduced": "0.3.1-r10"
         }
       ]
@@ -117,6 +171,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.3.0-r8"
+        },
+        {
+          "introduced": "0.3.1-r10"
+        },
         {
           "introduced": "0.3.1-r10"
         }

@@ -6,9 +6,24 @@
       "cve_id": "CVE-2025-11677",
       "title": "Use After Free in WebSocket server implementation in lws_handshak ...",
       "description": "Use After Free in WebSocket server implementation in lws_handshake_server in warmcat libwebsockets may allow an attacker, in specific configurations where the user provides a callback function that handles LWS_CALLBACK_HTTP_CONFIRM_UPGRADE, to achieve denial of service.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.5-r2"
+        },
+        {
+          "introduced": "4.3.5-r2"
+        },
         {
           "introduced": "4.3.5-r2"
         }
@@ -22,6 +37,21 @@
       "status": "open",
       "events": [
         {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.5-r2"
+        },
+        {
+          "introduced": "4.3.5-r2"
+        },
+        {
           "introduced": "4.3.5-r2"
         }
       ]
@@ -33,6 +63,21 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.3-r0"
+        },
+        {
+          "introduced": "4.3.5-r2"
+        },
+        {
+          "introduced": "4.3.5-r2"
+        },
         {
           "introduced": "4.3.5-r2"
         }

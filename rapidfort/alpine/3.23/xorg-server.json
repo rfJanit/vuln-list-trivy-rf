@@ -171,6 +171,45 @@
         }
       ]
     },
+    "CVE-2025-62229": {
+      "cve_id": "CVE-2025-62229",
+      "title": "A flaw was found in the X.Org X server and Xwayland when processi ...",
+      "description": "A flaw was found in the X.Org X server and Xwayland when processing X11 Present extension notifications. Improper error handling during notification creation can leave dangling pointers that lead to a use-after-free condition. This can cause memory corruption or a crash, potentially allowing an attacker to execute arbitrary code or cause a denial of service.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "21.1.16-r0",
+          "fixed": "21.1.19-r0"
+        }
+      ]
+    },
+    "CVE-2025-62230": {
+      "cve_id": "CVE-2025-62230",
+      "title": "A flaw was discovered in the X.Org X server’s X Keyboard (Xkb) ex ...",
+      "description": "A flaw was discovered in the X.Org X server’s X Keyboard (Xkb) extension when handling client resource cleanup. The software frees certain data structures without properly detaching related resources, leading to a use-after-free condition. This can cause memory corruption or a crash when affected clients disconnect.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "21.1.16-r0",
+          "fixed": "21.1.19-r0"
+        }
+      ]
+    },
+    "CVE-2025-62231": {
+      "cve_id": "CVE-2025-62231",
+      "title": "A flaw was identified in the X.Org X server’s X Keyboard (Xkb) ex ...",
+      "description": "A flaw was identified in the X.Org X server’s X Keyboard (Xkb) extension where improper bounds checking in the XkbSetCompatMap() function can cause an unsigned short overflow. If an attacker sends specially crafted input data, the value calculation may overflow, leading to memory corruption or a crash.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "21.1.16-r0",
+          "fixed": "21.1.19-r0"
+        }
+      ]
+    },
     "CVE-2026-33999": {
       "cve_id": "CVE-2026-33999",
       "title": "A flaw was found in the X.Org X server. This integer underflow vu ...",
@@ -244,7 +283,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "21.1.14-r0",
+          "fixed": "21.1.24-r0"
+        },
+        {
+          "introduced": "21.1.14-r0",
+          "fixed": "21.1.24-r0"
+        },
+        {
+          "introduced": "21.1.16-r0",
+          "fixed": "21.1.24-r0"
+        },
+        {
           "introduced": "21.1.19-r0",
+          "fixed": "21.1.24-r0"
+        },
+        {
+          "introduced": "21.1.23-r0",
           "fixed": "21.1.24-r0"
         }
       ]

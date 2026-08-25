@@ -10,6 +10,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
+        {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
+        {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
+        {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
+        {
           "introduced": "3.5.28-r5",
           "fixed": "3.5.29-r0"
         }
@@ -22,6 +38,22 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
+        {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
+        {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
+        {
+          "introduced": "3.5.28-r4",
+          "fixed": "3.5.29-r0"
+        },
         {
           "introduced": "3.5.28-r5",
           "fixed": "3.5.29-r0"

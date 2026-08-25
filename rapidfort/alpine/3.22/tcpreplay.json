@@ -25,6 +25,14 @@
         {
           "introduced": "4.5.1-r0",
           "fixed": "4.5.2-r0"
+        },
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
+        },
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
         }
       ]
     },
@@ -35,6 +43,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
+        },
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
+        },
         {
           "introduced": "4.5.1-r0",
           "fixed": "4.5.2-r0"
@@ -51,6 +67,14 @@
         {
           "introduced": "4.5.1-r0",
           "fixed": "4.5.2-r0"
+        },
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
+        },
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
         }
       ]
     },
@@ -61,6 +85,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
+        },
+        {
+          "introduced": "4.5.1-r0",
+          "fixed": "4.5.2-r0"
+        },
         {
           "introduced": "4.5.1-r0",
           "fixed": "4.5.2-r0"

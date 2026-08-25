@@ -31,6 +31,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
+        {
           "introduced": "1.12.3-r10"
         },
         {
@@ -45,6 +54,15 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
         {
           "introduced": "1.12.3-r10"
         },
@@ -61,6 +79,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
+        {
           "introduced": "1.12.3-r10"
         },
         {
@@ -75,6 +102,15 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
         {
           "introduced": "1.12.3-r10"
         },
@@ -91,6 +127,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
+        {
           "introduced": "1.12.3-r10"
         },
         {
@@ -105,6 +150,15 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
         {
           "introduced": "1.12.3-r10"
         },
@@ -121,6 +175,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
+        {
           "introduced": "1.12.3-r10"
         },
         {
@@ -135,6 +198,15 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
         {
           "introduced": "1.12.3-r10"
         },
@@ -151,6 +223,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
+        {
           "introduced": "1.12.3-r10"
         },
         {
@@ -166,6 +247,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
+        {
           "introduced": "1.12.3-r10"
         },
         {
@@ -180,6 +270,15 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.11.1-r9"
+        },
+        {
+          "introduced": "1.12.1-r7"
+        },
         {
           "introduced": "1.12.3-r10"
         },

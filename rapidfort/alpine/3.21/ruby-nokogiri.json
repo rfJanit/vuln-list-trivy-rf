@@ -10,7 +10,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]
@@ -23,7 +39,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]
@@ -36,7 +68,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]
@@ -49,7 +97,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]
@@ -62,7 +126,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]
@@ -75,7 +155,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]
@@ -88,7 +184,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]
@@ -101,7 +213,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.16.4-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
           "introduced": "1.16.7-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.18.8-r0",
+          "fixed": "1.19.4-r0"
+        },
+        {
+          "introduced": "1.19.2-r0",
           "fixed": "1.19.4-r0"
         }
       ]

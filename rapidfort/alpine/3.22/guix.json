@@ -10,6 +10,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.4.0-r6"
+        },
+        {
+          "introduced": "1.4.0-r6"
+        },
+        {
+          "introduced": "1.4.0-r7"
+        },
+        {
           "introduced": "1.4.0-r7"
         },
         {

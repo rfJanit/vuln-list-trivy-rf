@@ -133,6 +133,20 @@
         }
       ]
     },
+    "CVE-2023-36268": {
+      "cve_id": "CVE-2023-36268",
+      "title": "Rejected reason: DoS issues, or unexploitable crashes, are out of ...",
+      "description": "Rejected reason: DoS issues, or unexploitable crashes, are out of scope for vulnerabilities.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4:7.3.2-0ubuntu2",
+          "fixed": "4:24.2.7-0ubuntu0.24.04.4",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
     "CVE-2023-6185": {
       "cve_id": "CVE-2023-6185",
       "title": "Improper Input Validation vulnerability in GStreamer integration  ...",

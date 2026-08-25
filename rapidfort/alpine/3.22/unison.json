@@ -10,6 +10,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.53.5-r0"
+        },
+        {
+          "introduced": "2.53.7-r0"
+        },
+        {
           "introduced": "2.53.7-r1"
         },
         {
@@ -27,6 +33,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.53.5-r0"
+        },
+        {
+          "introduced": "2.53.7-r0"
+        },
         {
           "introduced": "2.53.7-r1"
         },

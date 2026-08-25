@@ -10,6 +10,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
@@ -22,6 +34,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.1-r0"
+        },
         {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
@@ -62,6 +86,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
         }
@@ -74,6 +110,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.1-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.1-r0"
+        },
         {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
@@ -90,6 +138,10 @@
         {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
+        },
+        {
+          "introduced": "2.10.0-r5",
+          "fixed": "2.11.2-r0"
         }
       ]
     },
@@ -100,6 +152,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.2-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.2-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.2-r0"
+        },
         {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.2-r0"
@@ -114,6 +178,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
@@ -126,6 +202,18 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.4-r0"
+        },
         {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
@@ -140,6 +228,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
@@ -153,6 +253,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"
         }
@@ -165,6 +277,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.7.6-r7",
+          "fixed": "2.11.4-r0"
+        },
+        {
+          "introduced": "2.8.4-r7",
+          "fixed": "2.11.4-r0"
+        },
         {
           "introduced": "2.10.0-r5",
           "fixed": "2.11.4-r0"

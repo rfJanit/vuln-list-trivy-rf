@@ -10,6 +10,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -21,6 +27,14 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
         {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
@@ -35,6 +49,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -47,6 +67,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -58,6 +84,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
         {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
@@ -72,6 +106,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -83,6 +123,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
         {
           "introduced": "5.0.3-r11"
         }
@@ -96,6 +142,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -107,6 +159,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
         {
           "introduced": "5.0.3-r11"
         }
@@ -120,6 +178,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -132,6 +196,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -143,6 +213,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
         {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
@@ -157,6 +235,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
+        {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
         }
@@ -169,6 +255,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
         {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
@@ -183,6 +277,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -195,6 +295,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -206,6 +312,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
         {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
@@ -220,6 +334,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
           "introduced": "5.0.3-r11"
         }
       ]
@@ -231,6 +351,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
         {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
@@ -245,6 +373,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r7"
+        },
+        {
+          "introduced": "5.0.3-r4",
+          "fixed": "5.0.3-r12"
+        },
+        {
           "introduced": "5.0.3-r11",
           "fixed": "5.0.3-r12"
         }
@@ -257,6 +393,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "5.0.3-r4"
+        },
+        {
+          "introduced": "5.0.3-r4"
+        },
         {
           "introduced": "5.0.3-r11"
         }

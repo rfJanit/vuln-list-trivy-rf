@@ -12,6 +12,14 @@
         {
           "introduced": "3.3.0-r0",
           "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
         }
       ]
     },
@@ -22,6 +30,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
         {
           "introduced": "3.3.0-r0",
           "fixed": "3.4.0-r0"
@@ -38,6 +54,14 @@
         {
           "introduced": "3.3.0-r0",
           "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
         }
       ]
     },
@@ -48,6 +72,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
         {
           "introduced": "3.3.0-r0",
           "fixed": "3.4.0-r0"
@@ -64,6 +96,14 @@
         {
           "introduced": "3.3.0-r0",
           "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
         }
       ]
     },
@@ -74,6 +114,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.0-r0"
+        },
         {
           "introduced": "3.3.0-r0",
           "fixed": "3.4.0-r0"
@@ -90,6 +138,22 @@
         {
           "introduced": "3.3.0-r0",
           "fixed": "3.4.1-r1"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.1-r1"
+        },
+        {
+          "introduced": "3.3.0-r0",
+          "fixed": "3.4.1-r1"
+        },
+        {
+          "introduced": "3.4.0-r0",
+          "fixed": "3.4.1-r1"
+        },
+        {
+          "introduced": "3.4.0-r0",
+          "fixed": "3.4.1-r1"
         }
       ]
     },
@@ -100,10 +164,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.3.0-r0",
-          "fixed": "3.4.3-r0"
-        },
         {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.3-r0"
@@ -118,10 +178,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.3.0-r0",
-          "fixed": "3.4.1-r2"
-        },
-        {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.1-r2"
         }
@@ -134,10 +190,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.3.0-r0",
-          "fixed": "3.4.3-r0"
-        },
         {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.3-r0"
@@ -152,10 +204,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.3.0-r0",
-          "fixed": "3.4.3-r0"
-        },
-        {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.3-r0"
         }
@@ -168,10 +216,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.3.0-r0",
-          "fixed": "3.4.3-r0"
-        },
         {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.3-r0"
@@ -186,10 +230,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.3.0-r0",
-          "fixed": "3.4.3-r0"
-        },
-        {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.3-r0"
         }
@@ -202,10 +242,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "3.3.0-r0",
-          "fixed": "3.4.3-r0"
-        },
         {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.3-r0"
@@ -221,6 +257,15 @@
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -244,6 +289,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -258,11 +312,20 @@
       "cve_id": "CVE-2026-53785",
       "title": "rsync before 3.5.0 contains a path traversal vulnerability that a ...",
       "description": "rsync before 3.5.0 contains a path traversal vulnerability that allows a malicious sender to write files outside the intended destination directory tree by crafting relative paths with symlink components in --relative mode. The make_path() function follows symlinks pointing outside the destination tree while creating intermediate directories without verifying that created paths remain within the destination boundary, enabling arbitrary file writes on the receiver's filesystem.",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -286,6 +349,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -307,6 +379,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -321,11 +402,20 @@
       "cve_id": "CVE-2026-53789",
       "title": "rsync before 3.5.0 contains an improper path handling vulnerabili ...",
       "description": "rsync before 3.5.0 contains an improper path handling vulnerability that allows a malicious sender to expand the scope of --delete operations beyond the intended destination subtree by sending a crafted file list that causes rsync to reclassify implied parent directory entries or treat synthetic paths as the transfer root. Attackers can exploit multiple variants including implied parent reclassification, synthetic root path construction, legacy protocol behavior below version 30, and non-directory root handling to cause the receiver to delete files outside the authorized destination directory.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -342,11 +432,20 @@
       "cve_id": "CVE-2026-53790",
       "title": "rsync before 3.5.0 contains multiple command and argument injecti ...",
       "description": "rsync before 3.5.0 contains multiple command and argument injection vulnerabilities that allow attackers to execute arbitrary commands by supplying malicious input through several code paths, including the RSYNC_CONNECT_PROG environment variable, daemon hooks, the rsync-ssl wrapper, and remote-shell command newline injection. Attackers can inject shell metacharacters or newline characters into unsanitized user-supplied values such as hostnames and hostspecs to execute arbitrary commands under the privileges of the rsync process or the invoking user.",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -370,6 +469,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -384,11 +492,20 @@
       "cve_id": "CVE-2026-53792",
       "title": "rsync before 3.5.0 contains an out-of-bounds read vulnerability i ...",
       "description": "rsync before 3.5.0 contains an out-of-bounds read vulnerability in the sender-side block matching logic that allows a malicious receiver to trigger memory access before the start of an allocated buffer by sending a crafted checksum block with a length of zero. Attackers can send a specially crafted checksum set containing a zero-length block to cause a negative offset calculation during delta computation, resulting in an out-of-bounds read of file data buffer memory on the sender side.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -405,11 +522,20 @@
       "cve_id": "CVE-2026-53793",
       "title": "rsync before 3.5.0 contains a path confinement bypass vulnerabili ...",
       "description": "rsync before 3.5.0 contains a path confinement bypass vulnerability that allows remote clients to escape the intended inner-module root confinement by constructing paths that resolve outside the chroot boundary when the module root contains a /./ boundary marker. Attackers can exploit improper handling of the /./ notation or forge delta-basis transfers referencing xname paths that cross the /./ boundary to gain unauthorized read or write access to files outside the module's subtree.",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -433,6 +559,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -452,6 +587,15 @@
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -475,6 +619,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -494,6 +647,15 @@
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -517,6 +679,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -531,11 +702,20 @@
       "cve_id": "CVE-2026-53799",
       "title": "rsync before 3.5.0 contains a symlink race condition vulnerabilit ...",
       "description": "rsync before 3.5.0 contains a symlink race condition vulnerability that allows local attackers to cause rsync to apply arbitrary ACLs or extended attributes to unintended files by substituting a symlink at a predictable destination path between the file write and the subsequent acl_set_file() or lsetxattr() call. Attackers can exploit this timing window to redirect ACL and xattr application through a crafted symlink to files outside the intended destination tree, potentially granting elevated permissions and enabling local privilege escalation.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -559,6 +739,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -573,11 +762,20 @@
       "cve_id": "CVE-2026-53801",
       "title": "rsync before 3.5.0 contains a symlink race condition vulnerabilit ...",
       "description": "rsync before 3.5.0 contains a symlink race condition vulnerability in the sender's directory scanning logic that allows attackers to cause the sender to enumerate and transfer files outside the module root's intended subtree. Attackers who can create or manipulate symlinks in a path component of the scanned tree can replace a symlink with a directory entry pointing outside the module root between the lstat() call and the subsequent opendir() call, exposing files beyond the intended root in both daemon-mode and non-daemon sender-side scanning.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -601,6 +799,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -622,6 +829,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -636,11 +852,20 @@
       "cve_id": "CVE-2026-70452",
       "title": "rsync 3.1.0 before 3.5.0 contains an access control bypass vulner ...",
       "description": "rsync 3.1.0 before 3.5.0 contains an access control bypass vulnerability that allows remote attackers to circumvent hosts deny rules by inducing DNS resolution failures during hostname-based access control evaluation. When a DNS lookup for a hostname-based deny rule fails, the daemon skips the rule rather than defaulting to a deny decision, enabling attackers who can trigger DNS failures to bypass module-level IP access controls and gain unauthorized access to restricted module file trees.",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -664,6 +889,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -685,6 +919,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -704,6 +947,18 @@
       "events": [
         {
           "introduced": "3.4.3-r0"
+        },
+        {
+          "introduced": "3.4.3-r0"
+        },
+        {
+          "introduced": "3.4.3-r0"
+        },
+        {
+          "introduced": "3.4.3-r0"
+        },
+        {
+          "introduced": "3.4.3-r0"
         }
       ]
     },
@@ -716,6 +971,15 @@
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -732,11 +996,20 @@
       "cve_id": "CVE-2026-70457",
       "title": "rsync 3.2.3 before 3.5.0 contains an out-of-bounds write in parse ...",
       "description": "rsync 3.2.3 before 3.5.0 contains an out-of-bounds write in parse_size_arg() where the return value of snprintf() is used directly as an index into a .bss-segment array without bounds checking. When snprintf truncates the formatted size string, the return value equals the number of characters that would have been written including the truncated portion, and this value may exceed the array length. The subsequent indexed write targets memory outside the intended array bounds, corrupting .bss memory.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -760,6 +1033,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -781,6 +1063,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -795,11 +1086,20 @@
       "cve_id": "CVE-2026-70460",
       "title": "rsync 2.3.3 before 3.5.0 contains a path traversal vulnerability  ...",
       "description": "rsync 2.3.3 before 3.5.0 contains a path traversal vulnerability that allows a malicious sender to escape the module root by exploiting symlinks within the module file tree when using --partial-dir or --backup-dir options. Attackers with write access to place a symlink under the module root, or who can exploit a pre-existing trusted symlink, can direct file writes to locations outside the intended module root, achieving arbitrary file write relative to the module root parent.",
-      "severity": "CRITICAL",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -823,6 +1123,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -837,11 +1146,20 @@
       "cve_id": "CVE-2026-70462",
       "title": "rsync 3.1.0 before 3.5.0 contains a signed integer overflow vulne ...",
       "description": "rsync 3.1.0 before 3.5.0 contains a signed integer overflow vulnerability in the I/O timeout implementation that allows attackers to permanently disable connection timeouts by injecting MSG_IO_TIMEOUT messages carrying non-positive (zero or negative) values. Attackers can craft malicious MSG_IO_TIMEOUT messages that cause the timeout variable to wrap to a non-positive value, preventing the timeout check from firing and enabling idle or stalled connections to hold daemon slots indefinitely, leading to resource exhaustion.",
-      "severity": "HIGH",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"
@@ -865,6 +1183,15 @@
           "introduced": "3.3.0-r0"
         },
         {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
+        },
+        {
           "introduced": "3.4.0-r0"
         },
         {
@@ -884,6 +1211,15 @@
       "events": [
         {
           "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.3.0-r0"
+        },
+        {
+          "introduced": "3.4.0-r0"
         },
         {
           "introduced": "3.4.0-r0"

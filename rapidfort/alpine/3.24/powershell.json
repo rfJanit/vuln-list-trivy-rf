@@ -78,6 +78,23 @@
         }
       ]
     },
+    "CVE-2026-26171": {
+      "cve_id": "CVE-2026-26171",
+      "title": "Uncontrolled resource consumption in .NET allows an unauthorized  ...",
+      "description": "Uncontrolled resource consumption in .NET allows an unauthorized attacker to deny service over a network.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.5.4-r0",
+          "fixed": "7.6.1-r0"
+        },
+        {
+          "introduced": "7.5.4-r0",
+          "fixed": "7.6.1-r0"
+        }
+      ]
+    },
     "CVE-2026-50523": {
       "cve_id": "CVE-2026-50523",
       "title": "Improper neutralization of special elements used in a command ('c ...",
@@ -85,6 +102,21 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        },
         {
           "introduced": "7.6.1-r0"
         }
@@ -98,6 +130,21 @@
       "status": "open",
       "events": [
         {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        },
+        {
           "introduced": "7.6.1-r0"
         }
       ]
@@ -109,6 +156,21 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        },
         {
           "introduced": "7.6.1-r0"
         }
@@ -122,6 +184,21 @@
       "status": "open",
       "events": [
         {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        },
+        {
           "introduced": "7.6.1-r0"
         }
       ]
@@ -133,6 +210,21 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.4.6-r1"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.5.4-r0"
+        },
+        {
+          "introduced": "7.6.1-r0"
+        },
         {
           "introduced": "7.6.1-r0"
         }

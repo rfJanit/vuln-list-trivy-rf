@@ -12,6 +12,14 @@
         {
           "introduced": "2.8.14-r1",
           "fixed": "2.8.32-r0"
+        },
+        {
+          "introduced": "2.8.14-r1",
+          "fixed": "2.8.32-r0"
+        },
+        {
+          "introduced": "2.8.14-r1",
+          "fixed": "2.8.32-r0"
         }
       ]
     },
@@ -22,6 +30,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.8.14-r1",
+          "fixed": "2.8.29-r0"
+        },
+        {
+          "introduced": "2.8.14-r1",
+          "fixed": "2.8.29-r0"
+        },
         {
           "introduced": "2.8.14-r1",
           "fixed": "2.8.29-r0"

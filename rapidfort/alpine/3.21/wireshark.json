@@ -2,6 +2,71 @@
   "package_name": "wireshark",
   "distro_version": "3.21",
   "advisories": {
+    "CVE-2024-11595": {
+      "cve_id": "CVE-2024-11595",
+      "title": "FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to 4.4.1 an ...",
+      "description": "FiveCo RAP dissector infinite loop in Wireshark 4.4.0 to 4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet injection or crafted capture file",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.4.2-r0"
+        }
+      ]
+    },
+    "CVE-2024-11596": {
+      "cve_id": "CVE-2024-11596",
+      "title": "ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0 to 4.2 ...",
+      "description": "ECMP dissector crash in Wireshark 4.4.0 to 4.4.1 and 4.2.0 to 4.2.8 allows denial of service via packet injection or crafted capture file",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.4.2-r0"
+        }
+      ]
+    },
+    "CVE-2024-8250": {
+      "cve_id": "CVE-2024-8250",
+      "title": "NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and 4.0.0 to  ...",
+      "description": "NTLMSSP dissector crash in Wireshark 4.2.0 to 4.0.6 and 4.0.0 to 4.0.16 allows denial of service via packet injection or crafted capture file",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.4.2-r0"
+        }
+      ]
+    },
+    "CVE-2024-8645": {
+      "cve_id": "CVE-2024-8645",
+      "title": "SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0 to 4.0 ...",
+      "description": "SPRT dissector crash in Wireshark 4.2.0 to 4.0.5 and 4.0.0 to 4.0.15 allows denial of service via packet injection or crafted capture file",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.2.6-r0"
+        }
+      ]
+    },
+    "CVE-2024-9781": {
+      "cve_id": "CVE-2024-9781",
+      "title": "AppleTalk and RELOAD Framing dissector crash in Wireshark 4.4.0 a ...",
+      "description": "AppleTalk and RELOAD Framing dissector crash in Wireshark 4.4.0 and 4.2.0 to 4.2.7 allows denial of service via packet injection or crafted capture file",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.4.1-r0"
+        }
+      ]
+    },
     "CVE-2025-11626": {
       "cve_id": "CVE-2025-11626",
       "title": "MONGO dissector infinite loop in Wireshark 4.4.0 to 4.4.9 and 4.2 ...",
@@ -10,7 +75,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -25,6 +102,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -38,6 +119,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.2-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.2-r0"
         }
       ]
     },
@@ -48,6 +133,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.4.7-r0"
+        },
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.4.7-r0"
@@ -61,6 +150,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.4.7-r0"
+        },
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.4.7-r0"
@@ -77,6 +170,14 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -89,6 +190,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.3-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.3-r0"
         }
       ]
@@ -103,6 +208,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.3-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.3-r0"
         }
       ]
     },
@@ -116,6 +225,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.3-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.3-r0"
         }
       ]
     },
@@ -127,7 +240,15 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "4.2.5-r0",
+          "fixed": "4.6.3-r0"
+        },
+        {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.3-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.3-r0"
         }
       ]
@@ -142,6 +263,18 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
         }
       ]
     },
@@ -154,6 +287,18 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
           "fixed": "4.6.7-r0"
         }
       ]
@@ -185,6 +330,18 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
         }
       ]
     },
@@ -197,6 +354,18 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
           "fixed": "4.6.7-r0"
         }
       ]
@@ -211,6 +380,18 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
         }
       ]
     },
@@ -223,6 +404,18 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
           "fixed": "4.6.7-r0"
         }
       ]
@@ -237,6 +430,18 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
         }
       ]
     },
@@ -250,6 +455,18 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
         }
       ]
     },
@@ -262,6 +479,18 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
           "fixed": "4.6.7-r0"
         }
       ]
@@ -293,6 +522,18 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.7-r0"
         }
       ]
     },
@@ -305,6 +546,14 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.4-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.4-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.4-r0"
         }
       ]
@@ -332,6 +581,14 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.4-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.4-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.4-r0"
         }
       ]
     },
@@ -344,6 +601,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -358,6 +619,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -370,6 +635,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -384,6 +653,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -396,6 +669,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -410,6 +687,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -422,6 +703,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -436,6 +721,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -448,6 +737,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -462,6 +755,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -474,6 +771,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -488,6 +789,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -500,6 +805,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -514,6 +823,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -526,6 +839,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -540,6 +857,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -552,6 +873,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -566,6 +891,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -578,6 +907,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -592,6 +925,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -604,6 +941,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -618,6 +959,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -630,6 +975,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -644,6 +993,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -656,6 +1009,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -670,6 +1027,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -682,6 +1043,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -696,6 +1061,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -708,6 +1077,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -722,6 +1095,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -734,6 +1111,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -748,6 +1129,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -760,6 +1145,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -774,6 +1163,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -786,6 +1179,10 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
           "fixed": "4.6.5-r0"
         }
       ]
@@ -800,6 +1197,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -813,6 +1214,10 @@
         {
           "introduced": "4.4.2-r0",
           "fixed": "4.6.5-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.5-r0"
         }
       ]
     },
@@ -825,6 +1230,18 @@
       "events": [
         {
           "introduced": "4.4.2-r0",
+          "fixed": "4.6.6-r0"
+        },
+        {
+          "introduced": "4.4.7-r0",
+          "fixed": "4.6.6-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.6-r0"
+        },
+        {
+          "introduced": "4.6.5-r0",
           "fixed": "4.6.6-r0"
         }
       ]

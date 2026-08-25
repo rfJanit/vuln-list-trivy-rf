@@ -1163,6 +1163,19 @@
         }
       ]
     },
+    "CVE-2025-12432": {
+      "cve_id": "CVE-2025-12432",
+      "title": "Race in V8 in Google Chrome prior to 142.0.7444.59 allowed a remo ...",
+      "description": "Race in V8 in Google Chrome prior to 142.0.7444.59 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r5"
+        }
+      ]
+    },
     "CVE-2025-12433": {
       "cve_id": "CVE-2025-12433",
       "title": "Inappropriate implementation in V8 in Google Chrome prior to 142. ...",
@@ -1241,6 +1254,123 @@
         {
           "introduced": "6.8.3-r6",
           "fixed": "6.10.0-r1"
+        }
+      ]
+    },
+    "CVE-2025-13042": {
+      "cve_id": "CVE-2025-13042",
+      "title": "Inappropriate implementation in V8 in Google Chrome prior to 142. ...",
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 142.0.7444.166 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-13224": {
+      "cve_id": "CVE-2025-13224",
+      "title": "Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 all ...",
+      "description": "Type Confusion in V8 in Google Chrome prior to 142.0.7444.175 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-13634": {
+      "cve_id": "CVE-2025-13634",
+      "title": "Inappropriate implementation in Downloads in Google Chrome on Win ...",
+      "description": "Inappropriate implementation in Downloads in Google Chrome on Windows prior to 143.0.7499.41 allowed a local attacker to bypass mark of the web via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-13638": {
+      "cve_id": "CVE-2025-13638",
+      "title": "Use after free in Media Stream in Google Chrome prior to 143.0.74 ...",
+      "description": "Use after free in Media Stream in Google Chrome prior to 143.0.7499.41 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Low)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-13639": {
+      "cve_id": "CVE-2025-13639",
+      "title": "Inappropriate implementation in WebRTC in Google Chrome prior to  ...",
+      "description": "Inappropriate implementation in WebRTC in Google Chrome prior to 143.0.7499.41 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: Low)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-13720": {
+      "cve_id": "CVE-2025-13720",
+      "title": "Bad cast in Loader in Google Chrome prior to 143.0.7499.41 allowe ...",
+      "description": "Bad cast in Loader in Google Chrome prior to 143.0.7499.41 allowed a remote attacker who had compromised the renderer process to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-13721": {
+      "cve_id": "CVE-2025-13721",
+      "title": "Race in v8 in Google Chrome prior to 143.0.7499.41 allowed a remo ...",
+      "description": "Race in v8 in Google Chrome prior to 143.0.7499.41 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-14174": {
+      "cve_id": "CVE-2025-14174",
+      "title": "Out of bounds memory access in ANGLE in Google Chrome on Mac prio ...",
+      "description": "Out of bounds memory access in ANGLE in Google Chrome on Mac prior to 143.0.7499.110 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
+        }
+      ]
+    },
+    "CVE-2025-141765": {
+      "cve_id": "CVE-2025-141765",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r1"
         }
       ]
     },
@@ -1902,6 +2032,58 @@
         }
       ]
     },
+    "CVE-2026-0628": {
+      "cve_id": "CVE-2026-0628",
+      "title": "Insufficient policy enforcement in WebView tag in Google Chrome p ...",
+      "description": "Insufficient policy enforcement in WebView tag in Google Chrome prior to 143.0.7499.192 allowed an attacker who convinced a user to install a malicious extension to inject scripts or HTML into a privileged page via a crafted Chrome Extension. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r4"
+        }
+      ]
+    },
+    "CVE-2026-0899": {
+      "cve_id": "CVE-2026-0899",
+      "title": "Out of bounds memory access in V8 in Google Chrome prior to 144.0 ...",
+      "description": "Out of bounds memory access in V8 in Google Chrome prior to 144.0.7559.59 allowed a remote attacker to potentially exploit object corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r2"
+        }
+      ]
+    },
+    "CVE-2026-0905": {
+      "cve_id": "CVE-2026-0905",
+      "title": "Insufficient policy enforcement in Network in Google Chrome prior ...",
+      "description": "Insufficient policy enforcement in Network in Google Chrome prior to 144.0.7559.59 allowed an attack who obtained a network log file to potentially obtain potentially sensitive information via a network log file. (Chromium security severity: Medium)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r2"
+        }
+      ]
+    },
+    "CVE-2026-0908": {
+      "cve_id": "CVE-2026-0908",
+      "title": "Use after free in ANGLE in Google Chrome prior to 144.0.7559.59 a ...",
+      "description": "Use after free in ANGLE in Google Chrome prior to 144.0.7559.59 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Low)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r2"
+        }
+      ]
+    },
     "CVE-2026-10002": {
       "cve_id": "CVE-2026-10002",
       "title": "Use after free in PDFium in Google Chrome prior to 148.0.7778.216 ...",
@@ -2058,6 +2240,110 @@
         }
       ]
     },
+    "CVE-2026-1220": {
+      "cve_id": "CVE-2026-1220",
+      "title": "Race in V8 in Google Chrome prior to 144.0.7559.99 allowed a remo ...",
+      "description": "Race in V8 in Google Chrome prior to 144.0.7559.99 allowed a remote attacker to potentially exploit type confusion via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r3"
+        }
+      ]
+    },
+    "CVE-2026-1504": {
+      "cve_id": "CVE-2026-1504",
+      "title": "Inappropriate implementation in Background Fetch API in Google Ch ...",
+      "description": "Inappropriate implementation in Background Fetch API in Google Chrome prior to 144.0.7559.110 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r4"
+        }
+      ]
+    },
+    "CVE-2026-2315": {
+      "cve_id": "CVE-2026-2315",
+      "title": "Inappropriate implementation in WebGPU in Google Chrome prior to  ...",
+      "description": "Inappropriate implementation in WebGPU in Google Chrome prior to 145.0.7632.45 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r6"
+        }
+      ]
+    },
+    "CVE-2026-2316": {
+      "cve_id": "CVE-2026-2316",
+      "title": "Insufficient policy enforcement in Frames in Google Chrome prior  ...",
+      "description": "Insufficient policy enforcement in Frames in Google Chrome prior to 145.0.7632.45 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r6"
+        }
+      ]
+    },
+    "CVE-2026-2317": {
+      "cve_id": "CVE-2026-2317",
+      "title": "Inappropriate implementation in Animation in Google Chrome prior  ...",
+      "description": "Inappropriate implementation in Animation in Google Chrome prior to 145.0.7632.45 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r6"
+        }
+      ]
+    },
+    "CVE-2026-2319": {
+      "cve_id": "CVE-2026-2319",
+      "title": "Race in DevTools in Google Chrome prior to 145.0.7632.45 allowed  ...",
+      "description": "Race in DevTools in Google Chrome prior to 145.0.7632.45 allowed a remote attacker who convinced a user to engage in specific UI gestures and install a malicious extension to potentially exploit object corruption via a malicious file. (Chromium security severity: Medium)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r6"
+        }
+      ]
+    },
+    "CVE-2026-2320": {
+      "cve_id": "CVE-2026-2320",
+      "title": "Inappropriate implementation in File input in Google Chrome prior ...",
+      "description": "Inappropriate implementation in File input in Google Chrome prior to 145.0.7632.45 allowed a remote attacker who convinced a user to engage in specific UI gestures to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r6"
+        }
+      ]
+    },
+    "CVE-2026-2441": {
+      "cve_id": "CVE-2026-2441",
+      "title": "Use after free in CSS in Google Chrome prior to 145.0.7632.75 all ...",
+      "description": "Use after free in CSS in Google Chrome prior to 145.0.7632.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r5"
+        }
+      ]
+    },
     "CVE-2026-25210": {
       "cve_id": "CVE-2026-25210",
       "title": "In libexpat before 2.7.4, the doContent function does not properl ...",
@@ -2071,6 +2357,656 @@
         }
       ]
     },
+    "CVE-2026-2648": {
+      "cve_id": "CVE-2026-2648",
+      "title": "Heap buffer overflow in PDFium in Google Chrome prior to 145.0.76 ...",
+      "description": "Heap buffer overflow in PDFium in Google Chrome prior to 145.0.7632.109 allowed a remote attacker to perform an out of bounds memory write via a crafted PDF file. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r7"
+        }
+      ]
+    },
+    "CVE-2026-2649": {
+      "cve_id": "CVE-2026-2649",
+      "title": "Integer overflow in V8 in Google Chrome prior to 145.0.7632.109 a ...",
+      "description": "Integer overflow in V8 in Google Chrome prior to 145.0.7632.109 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r7"
+        }
+      ]
+    },
+    "CVE-2026-3061": {
+      "cve_id": "CVE-2026-3061",
+      "title": "Out of bounds read in Media in Google Chrome prior to 145.0.7632. ...",
+      "description": "Out of bounds read in Media in Google Chrome prior to 145.0.7632.116 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r8"
+        }
+      ]
+    },
+    "CVE-2026-3062": {
+      "cve_id": "CVE-2026-3062",
+      "title": "Out of bounds read and write in Tint in Google Chrome on Mac prio ...",
+      "description": "Out of bounds read and write in Tint in Google Chrome on Mac prior to 145.0.7632.116 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r8"
+        }
+      ]
+    },
+    "CVE-2026-3536": {
+      "cve_id": "CVE-2026-3536",
+      "title": "Integer overflow in ANGLE in Google Chrome prior to 145.0.7632.15 ...",
+      "description": "Integer overflow in ANGLE in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3538": {
+      "cve_id": "CVE-2026-3538",
+      "title": "Integer overflow in Skia in Google Chrome prior to 145.0.7632.159 ...",
+      "description": "Integer overflow in Skia in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3539": {
+      "cve_id": "CVE-2026-3539",
+      "title": "Object lifecycle issue in DevTools in Google Chrome prior to 145. ...",
+      "description": "Object lifecycle issue in DevTools in Google Chrome prior to 145.0.7632.159 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3540": {
+      "cve_id": "CVE-2026-3540",
+      "title": "Inappropriate implementation in WebAudio in Google Chrome prior t ...",
+      "description": "Inappropriate implementation in WebAudio in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3541": {
+      "cve_id": "CVE-2026-3541",
+      "title": "Inappropriate implementation in CSS in Google Chrome prior to 145 ...",
+      "description": "Inappropriate implementation in CSS in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3542": {
+      "cve_id": "CVE-2026-3542",
+      "title": "Inappropriate implementation in WebAssembly in Google Chrome prio ...",
+      "description": "Inappropriate implementation in WebAssembly in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3543": {
+      "cve_id": "CVE-2026-3543",
+      "title": "Inappropriate implementation in V8 in Google Chrome prior to 145. ...",
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to potentially perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3544": {
+      "cve_id": "CVE-2026-3544",
+      "title": "Heap buffer overflow in WebCodecs in Google Chrome prior to 145.0 ...",
+      "description": "Heap buffer overflow in WebCodecs in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3545": {
+      "cve_id": "CVE-2026-3545",
+      "title": "Insufficient data validation in Navigation in Google Chrome prior ...",
+      "description": "Insufficient data validation in Navigation in Google Chrome prior to 145.0.7632.159 allowed a remote attacker to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r9"
+        }
+      ]
+    },
+    "CVE-2026-3909": {
+      "cve_id": "CVE-2026-3909",
+      "title": "Out of bounds write in Skia in Google Chrome prior to 146.0.7680. ...",
+      "description": "Out of bounds write in Skia in Google Chrome prior to 146.0.7680.75 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3910": {
+      "cve_id": "CVE-2026-3910",
+      "title": "Inappropriate implementation in V8 in Google Chrome prior to 146. ...",
+      "description": "Inappropriate implementation in V8 in Google Chrome prior to 146.0.7680.75 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3921": {
+      "cve_id": "CVE-2026-3921",
+      "title": "Use after free in TextEncoding in Google Chrome prior to 146.0.76 ...",
+      "description": "Use after free in TextEncoding in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3922": {
+      "cve_id": "CVE-2026-3922",
+      "title": "Use after free in MediaStream in Google Chrome prior to 146.0.768 ...",
+      "description": "Use after free in MediaStream in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3923": {
+      "cve_id": "CVE-2026-3923",
+      "title": "Use after free in WebMIDI in Google Chrome prior to 146.0.7680.71 ...",
+      "description": "Use after free in WebMIDI in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3929": {
+      "cve_id": "CVE-2026-3929",
+      "title": "Side-channel information leakage in ResourceTiming in Google Chro ...",
+      "description": "Side-channel information leakage in ResourceTiming in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3931": {
+      "cve_id": "CVE-2026-3931",
+      "title": "Heap buffer overflow in Skia in Google Chrome prior to 146.0.7680 ...",
+      "description": "Heap buffer overflow in Skia in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3934": {
+      "cve_id": "CVE-2026-3934",
+      "title": "Insufficient policy enforcement in ChromeDriver in Google Chrome  ...",
+      "description": "Insufficient policy enforcement in ChromeDriver in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to bypass same origin policy via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3938": {
+      "cve_id": "CVE-2026-3938",
+      "title": "Insufficient policy enforcement in Clipboard in Google Chrome pri ...",
+      "description": "Insufficient policy enforcement in Clipboard in Google Chrome prior to 146.0.7680.71 allowed a remote attacker who had compromised the renderer process to leak cross-origin data via a crafted HTML page. (Chromium security severity: Low)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3940": {
+      "cve_id": "CVE-2026-3940",
+      "title": "Insufficient policy enforcement in DevTools in Google Chrome prio ...",
+      "description": "Insufficient policy enforcement in DevTools in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to bypass navigation restrictions via a crafted HTML page. (Chromium security severity: Low)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3941": {
+      "cve_id": "CVE-2026-3941",
+      "title": "Insufficient policy enforcement in DevTools in Google Chrome prio ...",
+      "description": "Insufficient policy enforcement in DevTools in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to bypass navigation restrictions via a crafted HTML page. (Chromium security severity: Low)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-3942": {
+      "cve_id": "CVE-2026-3942",
+      "title": "Incorrect security UI in PictureInPicture in Google Chrome prior  ...",
+      "description": "Incorrect security UI in PictureInPicture in Google Chrome prior to 146.0.7680.71 allowed a remote attacker to perform UI spoofing via a crafted HTML page. (Chromium security severity: Low)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r10"
+        }
+      ]
+    },
+    "CVE-2026-4441": {
+      "cve_id": "CVE-2026-4441",
+      "title": "Use after free in Base in Google Chrome prior to 146.0.7680.153 a ...",
+      "description": "Use after free in Base in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r11"
+        }
+      ]
+    },
+    "CVE-2026-4442": {
+      "cve_id": "CVE-2026-4442",
+      "title": "Heap buffer overflow in CSS in Google Chrome prior to 146.0.7680. ...",
+      "description": "Heap buffer overflow in CSS in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4443": {
+      "cve_id": "CVE-2026-4443",
+      "title": "Heap buffer overflow in WebAudio in Google Chrome prior to 146.0. ...",
+      "description": "Heap buffer overflow in WebAudio in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r13"
+        }
+      ]
+    },
+    "CVE-2026-4444": {
+      "cve_id": "CVE-2026-4444",
+      "title": "Stack buffer overflow in WebRTC in Google Chrome prior to 146.0.7 ...",
+      "description": "Stack buffer overflow in WebRTC in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit stack corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4445": {
+      "cve_id": "CVE-2026-4445",
+      "title": "Use after free in WebRTC in Google Chrome prior to 146.0.7680.153 ...",
+      "description": "Use after free in WebRTC in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4446": {
+      "cve_id": "CVE-2026-4446",
+      "title": "Use after free in WebRTC in Google Chrome prior to 146.0.7680.153 ...",
+      "description": "Use after free in WebRTC in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4448": {
+      "cve_id": "CVE-2026-4448",
+      "title": "Heap buffer overflow in ANGLE in Google Chrome prior to 146.0.768 ...",
+      "description": "Heap buffer overflow in ANGLE in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4449": {
+      "cve_id": "CVE-2026-4449",
+      "title": "Use after free in Blink in Google Chrome prior to 146.0.7680.153  ...",
+      "description": "Use after free in Blink in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4450": {
+      "cve_id": "CVE-2026-4450",
+      "title": "Out of bounds write in V8 in Google Chrome prior to 146.0.7680.15 ...",
+      "description": "Out of bounds write in V8 in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4451": {
+      "cve_id": "CVE-2026-4451",
+      "title": "Insufficient validation of untrusted input in Navigation in Googl ...",
+      "description": "Insufficient validation of untrusted input in Navigation in Google Chrome prior to 146.0.7680.153 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4452": {
+      "cve_id": "CVE-2026-4452",
+      "title": "Integer overflow in ANGLE in Google Chrome on Windows prior to 14 ...",
+      "description": "Integer overflow in ANGLE in Google Chrome on Windows prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4453": {
+      "cve_id": "CVE-2026-4453",
+      "title": "Integer overflow in Dawn in Google Chrome on Mac prior to 146.0.7 ...",
+      "description": "Integer overflow in Dawn in Google Chrome on Mac prior to 146.0.7680.153 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4454": {
+      "cve_id": "CVE-2026-4454",
+      "title": "Use after free in Network in Google Chrome prior to 146.0.7680.15 ...",
+      "description": "Use after free in Network in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4455": {
+      "cve_id": "CVE-2026-4455",
+      "title": "Heap buffer overflow in PDFium in Google Chrome prior to 146.0.76 ...",
+      "description": "Heap buffer overflow in PDFium in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted PDF file. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4457": {
+      "cve_id": "CVE-2026-4457",
+      "title": "Type Confusion in V8 in Google Chrome prior to 146.0.7680.153 all ...",
+      "description": "Type Confusion in V8 in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4458": {
+      "cve_id": "CVE-2026-4458",
+      "title": "Use after free in Extensions in Google Chrome prior to 146.0.7680 ...",
+      "description": "Use after free in Extensions in Google Chrome prior to 146.0.7680.153 allowed an attacker who convinced a user to install a malicious extension to potentially exploit heap corruption via a crafted Chrome Extension. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4459": {
+      "cve_id": "CVE-2026-4459",
+      "title": "Out of bounds read and write in WebAudio in Google Chrome prior t ...",
+      "description": "Out of bounds read and write in WebAudio in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r13"
+        }
+      ]
+    },
+    "CVE-2026-4460": {
+      "cve_id": "CVE-2026-4460",
+      "title": "Out of bounds read in Skia in Google Chrome prior to 146.0.7680.1 ...",
+      "description": "Out of bounds read in Skia in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4462": {
+      "cve_id": "CVE-2026-4462",
+      "title": "Out of bounds read in Blink in Google Chrome prior to 146.0.7680. ...",
+      "description": "Out of bounds read in Blink in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4463": {
+      "cve_id": "CVE-2026-4463",
+      "title": "Heap buffer overflow in WebRTC in Google Chrome prior to 146.0.76 ...",
+      "description": "Heap buffer overflow in WebRTC in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4464": {
+      "cve_id": "CVE-2026-4464",
+      "title": "Integer overflow in ANGLE in Google Chrome prior to 146.0.7680.15 ...",
+      "description": "Integer overflow in ANGLE in Google Chrome prior to 146.0.7680.153 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r12"
+        }
+      ]
+    },
+    "CVE-2026-4674": {
+      "cve_id": "CVE-2026-4674",
+      "title": "Out of bounds read in CSS in Google Chrome prior to 146.0.7680.16 ...",
+      "description": "Out of bounds read in CSS in Google Chrome prior to 146.0.7680.165 allowed a remote attacker to perform out of bounds memory access via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r13"
+        }
+      ]
+    },
+    "CVE-2026-4675": {
+      "cve_id": "CVE-2026-4675",
+      "title": "Heap buffer overflow in WebGL in Google Chrome prior to 146.0.768 ...",
+      "description": "Heap buffer overflow in WebGL in Google Chrome prior to 146.0.7680.165 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r13"
+        }
+      ]
+    },
+    "CVE-2026-4677": {
+      "cve_id": "CVE-2026-4677",
+      "title": "Inappropriate implementation in WebAudio in Google Chrome prior t ...",
+      "description": "Inappropriate implementation in WebAudio in Google Chrome prior to 146.0.7680.165 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r13"
+        }
+      ]
+    },
+    "CVE-2026-4679": {
+      "cve_id": "CVE-2026-4679",
+      "title": "Integer overflow in Fonts in Google Chrome prior to 146.0.7680.16 ...",
+      "description": "Integer overflow in Fonts in Google Chrome prior to 146.0.7680.165 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r13"
+        }
+      ]
+    },
     "CVE-2026-4775": {
       "cve_id": "CVE-2026-4775",
       "title": "A flaw was found in the libtiff library. A remote attacker could  ...",
@@ -2079,8 +3015,25 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r9"
+        }
+      ]
+    },
+    "CVE-2026-5272": {
+      "cve_id": "CVE-2026-5272",
+      "title": "Heap buffer overflow in GPU in Google Chrome prior to 146.0.7680. ...",
+      "description": "Heap buffer overflow in GPU in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
         }
       ]
     },
@@ -2097,6 +3050,214 @@
         }
       ]
     },
+    "CVE-2026-5274": {
+      "cve_id": "CVE-2026-5274",
+      "title": "Integer overflow in Codecs in Google Chrome prior to 146.0.7680.1 ...",
+      "description": "Integer overflow in Codecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform arbitrary read/write via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5275": {
+      "cve_id": "CVE-2026-5275",
+      "title": "Heap buffer overflow in ANGLE in Google Chrome on Mac prior to 14 ...",
+      "description": "Heap buffer overflow in ANGLE in Google Chrome on Mac prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5276": {
+      "cve_id": "CVE-2026-5276",
+      "title": "Insufficient policy enforcement in WebUSB in Google Chrome prior  ...",
+      "description": "Insufficient policy enforcement in WebUSB in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5277": {
+      "cve_id": "CVE-2026-5277",
+      "title": "Integer overflow in ANGLE in Google Chrome on Windows prior to 14 ...",
+      "description": "Integer overflow in ANGLE in Google Chrome on Windows prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5279": {
+      "cve_id": "CVE-2026-5279",
+      "title": "Object corruption in V8 in Google Chrome prior to 146.0.7680.178  ...",
+      "description": "Object corruption in V8 in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5280": {
+      "cve_id": "CVE-2026-5280",
+      "title": "Use after free in WebCodecs in Google Chrome prior to 146.0.7680. ...",
+      "description": "Use after free in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5281": {
+      "cve_id": "CVE-2026-5281",
+      "title": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 a ...",
+      "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5282": {
+      "cve_id": "CVE-2026-5282",
+      "title": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7 ...",
+      "description": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5283": {
+      "cve_id": "CVE-2026-5283",
+      "title": "Inappropriate implementation in ANGLE in Google Chrome prior to 1 ...",
+      "description": "Inappropriate implementation in ANGLE in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to leak cross-origin data via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5284": {
+      "cve_id": "CVE-2026-5284",
+      "title": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 a ...",
+      "description": "Use after free in Dawn in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to execute arbitrary code via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5285": {
+      "cve_id": "CVE-2026-5285",
+      "title": "Use after free in WebGL in Google Chrome prior to 146.0.7680.178  ...",
+      "description": "Use after free in WebGL in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5287": {
+      "cve_id": "CVE-2026-5287",
+      "title": "Use after free in PDF in Google Chrome prior to 146.0.7680.178 al ...",
+      "description": "Use after free in PDF in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to execute arbitrary code inside a sandbox via a crafted PDF file. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5289": {
+      "cve_id": "CVE-2026-5289",
+      "title": "Use after free in Navigation in Google Chrome prior to 146.0.7680 ...",
+      "description": "Use after free in Navigation in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5290": {
+      "cve_id": "CVE-2026-5290",
+      "title": "Use after free in Compositing in Google Chrome prior to 146.0.768 ...",
+      "description": "Use after free in Compositing in Google Chrome prior to 146.0.7680.178 allowed a remote attacker who had compromised the renderer process to potentially perform a sandbox escape via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5291": {
+      "cve_id": "CVE-2026-5291",
+      "title": "Inappropriate implementation in WebGL in Google Chrome prior to 1 ...",
+      "description": "Inappropriate implementation in WebGL in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to obtain potentially sensitive information from process memory via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
+    "CVE-2026-5292": {
+      "cve_id": "CVE-2026-5292",
+      "title": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7 ...",
+      "description": "Out of bounds read in WebCodecs in Google Chrome prior to 146.0.7680.178 allowed a remote attacker to perform an out of bounds memory read via a crafted HTML page. (Chromium security severity: Medium)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.1-r14"
+        }
+      ]
+    },
     "CVE-2026-5860": {
       "cve_id": "CVE-2026-5860",
       "title": "Use after free in WebRTC in Google Chrome prior to 147.0.7727.55  ...",
@@ -2104,6 +3265,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2117,6 +3282,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2157,6 +3326,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2169,6 +3342,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2183,6 +3360,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2195,6 +3376,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2209,6 +3394,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2221,6 +3410,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2235,6 +3428,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2247,6 +3444,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2261,6 +3462,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2273,6 +3478,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2287,6 +3496,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2299,6 +3512,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2313,6 +3530,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2325,6 +3546,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2339,6 +3564,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r5"
         }
@@ -2351,6 +3580,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2378,6 +3611,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2390,6 +3627,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2404,6 +3645,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2416,6 +3661,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2430,6 +3679,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2442,6 +3695,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2456,6 +3713,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r5"
         }
@@ -2468,6 +3729,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2495,6 +3760,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2507,6 +3776,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -2521,6 +3794,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2534,6 +3811,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2546,6 +3827,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2586,6 +3871,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2599,6 +3888,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r5"
         }
@@ -2611,6 +3904,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2638,6 +3935,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
         }
@@ -2650,6 +3951,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r3"
@@ -2664,6 +3969,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r9"
         }
@@ -2676,6 +3985,10 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2690,6 +4003,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2702,6 +4019,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2729,6 +4050,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2741,6 +4066,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2755,6 +4084,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2767,6 +4100,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2781,6 +4118,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2794,6 +4135,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2806,6 +4151,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2833,6 +4182,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2845,6 +4198,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2859,6 +4216,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2871,6 +4232,10 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2885,6 +4250,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2897,6 +4266,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2911,6 +4284,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2923,6 +4300,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2937,6 +4318,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2950,6 +4335,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -2962,6 +4351,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
@@ -2989,6 +4382,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r2"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r4"
         }
@@ -3001,6 +4398,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r9"
@@ -3028,6 +4429,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3040,6 +4445,10 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3054,6 +4463,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3066,6 +4479,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3080,6 +4497,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3093,6 +4514,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3105,6 +4530,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3132,6 +4561,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3144,6 +4577,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3158,6 +4595,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3170,6 +4611,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3184,6 +4629,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3196,6 +4645,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3210,6 +4663,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3222,6 +4679,10 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3236,6 +4697,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3248,6 +4713,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3262,6 +4731,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r3"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3274,6 +4747,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
@@ -3288,6 +4765,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3301,6 +4782,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
+        {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"
         }
@@ -3313,6 +4798,10 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "6.8.3-r6",
+          "fixed": "6.10.3-r1"
+        },
         {
           "introduced": "6.10.3-r3",
           "fixed": "6.11.0-r7"

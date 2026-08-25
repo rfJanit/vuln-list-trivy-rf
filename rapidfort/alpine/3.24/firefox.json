@@ -10,6 +10,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -22,6 +34,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -33,6 +57,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -564,6 +600,317 @@
         }
       ]
     },
+    "CVE-2025-14321": {
+      "cve_id": "CVE-2025-14321",
+      "title": "Use-after-free in the WebRTC: Signaling component. This vulnerabi ...",
+      "description": "Use-after-free in the WebRTC: Signaling component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14322": {
+      "cve_id": "CVE-2025-14322",
+      "title": "Sandbox escape due to incorrect boundary conditions in the Graphi ...",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 146, Firefox ESR 115.31, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14323": {
+      "cve_id": "CVE-2025-14323",
+      "title": "Privilege escalation in the DOM: Notifications component. This vu ...",
+      "description": "Privilege escalation in the DOM: Notifications component. This vulnerability was fixed in Firefox 146, Firefox ESR 115.31, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14324": {
+      "cve_id": "CVE-2025-14324",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 146, Firefox ESR 115.31, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14325": {
+      "cve_id": "CVE-2025-14325",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14326": {
+      "cve_id": "CVE-2025-14326",
+      "title": "Use-after-free in the Audio/Video: GMP component. This vulnerabil ...",
+      "description": "Use-after-free in the Audio/Video: GMP component. This vulnerability was fixed in Firefox 146 and Thunderbird 146.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-14327": {
+      "cve_id": "CVE-2025-14327",
+      "title": "Spoofing issue in the Downloads Panel component. This vulnerabili ...",
+      "description": "Spoofing issue in the Downloads Panel component. This vulnerability was fixed in Firefox 146, Thunderbird 146, Firefox ESR 140.7, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-14328": {
+      "cve_id": "CVE-2025-14328",
+      "title": "Privilege escalation in the Netmonitor component. This vulnerabil ...",
+      "description": "Privilege escalation in the Netmonitor component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14329": {
+      "cve_id": "CVE-2025-14329",
+      "title": "Privilege escalation in the Netmonitor component. This vulnerabil ...",
+      "description": "Privilege escalation in the Netmonitor component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14330": {
+      "cve_id": "CVE-2025-14330",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14331": {
+      "cve_id": "CVE-2025-14331",
+      "title": "Same-origin policy bypass in the Request Handling component. This ...",
+      "description": "Same-origin policy bypass in the Request Handling component. This vulnerability was fixed in Firefox 146, Firefox ESR 115.31, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14332": {
+      "cve_id": "CVE-2025-14332",
+      "title": "Memory safety bugs present in Firefox 145 and Thunderbird 145. So ...",
+      "description": "Memory safety bugs present in Firefox 145 and Thunderbird 145. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 146 and Thunderbird 146.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-14333": {
+      "cve_id": "CVE-2025-14333",
+      "title": "Memory safety bugs present in Firefox ESR 140.5, Thunderbird ESR  ...",
+      "description": "Memory safety bugs present in Firefox ESR 140.5, Thunderbird ESR 140.5, Firefox 145 and Thunderbird 145. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14860": {
+      "cve_id": "CVE-2025-14860",
+      "title": "Use-after-free in the Disability Access APIs component. This vuln ...",
+      "description": "Use-after-free in the Disability Access APIs component. This vulnerability was fixed in Firefox 146.0.1.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-14861": {
+      "cve_id": "CVE-2025-14861",
+      "title": "Memory safety bugs present in Firefox 146. Some of these bugs sho ...",
+      "description": "Memory safety bugs present in Firefox 146. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 146.0.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
     "CVE-2025-1939": {
       "cve_id": "CVE-2025-1939",
       "title": "Android apps can load web pages using the Custom Tabs feature. Th ...",
@@ -1019,6 +1366,356 @@
         }
       ]
     },
+    "CVE-2026-0877": {
+      "cve_id": "CVE-2026-0877",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0878": {
+      "cve_id": "CVE-2026-0878",
+      "title": "Sandbox escape due to incorrect boundary conditions in the Graphi ...",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0879": {
+      "cve_id": "CVE-2026-0879",
+      "title": "Sandbox escape due to incorrect boundary conditions in the Graphi ...",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Graphics component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0880": {
+      "cve_id": "CVE-2026-0880",
+      "title": "Sandbox escape due to integer overflow in the Graphics component. ...",
+      "description": "Sandbox escape due to integer overflow in the Graphics component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0881": {
+      "cve_id": "CVE-2026-0881",
+      "title": "Sandbox escape in the Messaging System component. This vulnerabil ...",
+      "description": "Sandbox escape in the Messaging System component. This vulnerability was fixed in Firefox 147 and Thunderbird 147.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-0882": {
+      "cve_id": "CVE-2026-0882",
+      "title": "Use-after-free in the IPC component. This vulnerability was fixed ...",
+      "description": "Use-after-free in the IPC component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0883": {
+      "cve_id": "CVE-2026-0883",
+      "title": "Information disclosure in the Networking component. This vulnerab ...",
+      "description": "Information disclosure in the Networking component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0884": {
+      "cve_id": "CVE-2026-0884",
+      "title": "Use-after-free in the JavaScript Engine component. This vulnerabi ...",
+      "description": "Use-after-free in the JavaScript Engine component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0885": {
+      "cve_id": "CVE-2026-0885",
+      "title": "Use-after-free in the JavaScript: GC component. This vulnerabilit ...",
+      "description": "Use-after-free in the JavaScript: GC component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0886": {
+      "cve_id": "CVE-2026-0886",
+      "title": "Incorrect boundary conditions in the Graphics component. This vul ...",
+      "description": "Incorrect boundary conditions in the Graphics component. This vulnerability was fixed in Firefox 147, Firefox ESR 115.32, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0887": {
+      "cve_id": "CVE-2026-0887",
+      "title": "Clickjacking issue, information disclosure in the PDF Viewer comp ...",
+      "description": "Clickjacking issue, information disclosure in the PDF Viewer component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0888": {
+      "cve_id": "CVE-2026-0888",
+      "title": "Information disclosure in the XML component. This vulnerability w ...",
+      "description": "Information disclosure in the XML component. This vulnerability was fixed in Firefox 147 and Thunderbird 147.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-0889": {
+      "cve_id": "CVE-2026-0889",
+      "title": "Denial-of-service in the DOM: Service Workers component. This vul ...",
+      "description": "Denial-of-service in the DOM: Service Workers component. This vulnerability was fixed in Firefox 147 and Thunderbird 147.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-0890": {
+      "cve_id": "CVE-2026-0890",
+      "title": "Spoofing issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component ...",
+      "description": "Spoofing issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0891": {
+      "cve_id": "CVE-2026-0891",
+      "title": "Memory safety bugs present in Firefox ESR 140.6, Thunderbird ESR  ...",
+      "description": "Memory safety bugs present in Firefox ESR 140.6, Thunderbird ESR 140.6, Firefox 146 and Thunderbird 146. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0892": {
+      "cve_id": "CVE-2026-0892",
+      "title": "Memory safety bugs present in Firefox 146 and Thunderbird 146. So ...",
+      "description": "Memory safety bugs present in Firefox 146 and Thunderbird 146. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 147 and Thunderbird 147.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-10701": {
+      "cve_id": "CVE-2026-10701",
+      "title": "Incorrect boundary conditions in the Graphics: Text component. Th ...",
+      "description": "Incorrect boundary conditions in the Graphics: Text component. This vulnerability was fixed in Firefox 151.0.3.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-10702": {
+      "cve_id": "CVE-2026-10702",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 151.0.3.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
     "CVE-2026-12289": {
       "cve_id": "CVE-2026-12289",
       "title": "Privilege escalation in the Graphics: WebRender component. This v ...",
@@ -1026,6 +1723,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1040,6 +1745,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1052,6 +1765,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1066,6 +1791,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1078,6 +1811,22 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1092,6 +1841,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1104,6 +1865,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1118,6 +1891,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1130,6 +1911,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1144,6 +1937,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1156,6 +1957,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1170,6 +1979,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1182,6 +2007,22 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1196,6 +2037,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1208,6 +2057,22 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1222,6 +2087,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1234,6 +2107,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1248,6 +2129,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1260,6 +2149,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1274,6 +2171,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1286,6 +2191,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1300,6 +2213,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1312,6 +2233,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1326,6 +2255,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1338,6 +2275,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1352,6 +2297,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1364,6 +2317,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1378,6 +2339,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1390,6 +2367,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1404,6 +2397,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1416,6 +2425,22 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1430,6 +2455,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1442,6 +2483,22 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1456,6 +2513,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1468,6 +2541,22 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1482,6 +2571,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1494,6 +2591,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1508,6 +2613,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1520,6 +2641,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
@@ -1534,6 +2663,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
@@ -1547,6 +2684,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -1559,6 +2708,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -1570,6 +2731,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1584,6 +2757,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1596,6 +2781,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1610,6 +2807,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1622,6 +2831,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1636,6 +2857,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1648,6 +2881,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1662,6 +2907,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1674,6 +2931,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1688,6 +2957,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1701,6 +2982,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1713,6 +3006,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1748,6 +3053,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1760,6 +3073,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1774,6 +3095,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1786,6 +3123,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1800,6 +3153,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1812,6 +3181,22 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1826,6 +3211,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1838,6 +3231,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1852,6 +3253,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1864,6 +3281,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1878,6 +3303,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1890,6 +3331,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1904,6 +3353,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1916,6 +3373,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1930,6 +3403,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1942,6 +3423,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1956,6 +3453,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1968,6 +3473,22 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -1982,6 +3503,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -1994,6 +3523,22 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2008,6 +3553,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2020,6 +3573,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2034,6 +3603,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2046,6 +3631,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2060,6 +3661,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2072,6 +3681,22 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2086,6 +3711,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2098,6 +3739,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2112,6 +3761,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2124,6 +3781,22 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2138,6 +3811,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2150,6 +3839,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2164,6 +3861,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2176,6 +3889,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2190,6 +3919,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2202,6 +3947,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2216,6 +3977,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2228,6 +4005,22 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2242,6 +4035,22 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
@@ -2254,6 +4063,22 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
         {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
@@ -2268,8 +4093,45 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-2447": {
+      "cve_id": "CVE-2026-2447",
+      "title": "Heap buffer overflow in libvpx. This vulnerability was fixed in F ...",
+      "description": "Heap buffer overflow in libvpx. This vulnerability was fixed in Firefox 147.0.4, Firefox ESR 140.7.1, Firefox ESR 115.32.1, Thunderbird 140.7.2, and Thunderbird 147.0.2.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
         }
       ]
     },
@@ -3071,6 +4933,48 @@
         }
       ]
     },
+    "CVE-2026-7320": {
+      "cve_id": "CVE-2026-7320",
+      "title": "Information disclosure due to incorrect boundary conditions in th ...",
+      "description": "Information disclosure due to incorrect boundary conditions in the Audio/Video component. This vulnerability was fixed in Firefox 150.0.1, Firefox ESR 140.10.1, Firefox ESR 115.35.1, Thunderbird 150.0.1, and Thunderbird 140.10.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-7322": {
+      "cve_id": "CVE-2026-7322",
+      "title": "Memory safety bugs present in Thunderbird ESR 140.10.0 and Thunde ...",
+      "description": "Memory safety bugs present in Thunderbird ESR 140.10.0 and Thunderbird 150.0.0. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 150.0.1, Firefox ESR 140.10.1, Firefox ESR 115.35.1, Thunderbird 150.0.1, and Thunderbird 140.10.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
     "CVE-2026-74934": {
       "cve_id": "CVE-2026-74934",
       "title": "Site isolation issue in the Graphics: CanvasWebGL component. This ...",
@@ -3078,6 +4982,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3091,6 +5007,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3102,6 +5030,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3115,6 +5055,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3126,6 +5078,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3139,6 +5103,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3150,6 +5126,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3163,6 +5151,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3174,6 +5174,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3187,6 +5199,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3198,6 +5222,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3211,6 +5247,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3222,6 +5270,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3235,6 +5295,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3246,6 +5318,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3259,6 +5343,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3270,6 +5366,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3283,6 +5391,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3294,6 +5414,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3307,6 +5439,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3318,6 +5462,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3331,6 +5487,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3342,6 +5510,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3355,6 +5535,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3366,6 +5558,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3379,6 +5583,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3390,6 +5606,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3403,6 +5631,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3414,6 +5654,14 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3427,6 +5675,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3438,6 +5698,14 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3451,6 +5719,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3462,6 +5742,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3475,6 +5767,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3486,6 +5790,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3499,6 +5815,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3510,6 +5838,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3523,6 +5863,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3534,6 +5886,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3547,6 +5911,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3558,6 +5934,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3571,6 +5959,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3582,6 +5982,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3595,6 +6007,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
         }
       ]
@@ -3606,6 +6030,18 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "151.0.3-r0"
         }
@@ -3619,7 +6055,222 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "136.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8090": {
+      "cve_id": "CVE-2026-8090",
+      "title": "Use-after-free in the DOM: Networking component. This vulnerabili ...",
+      "description": "Use-after-free in the DOM: Networking component. This vulnerability was fixed in Firefox 150.0.2, Firefox ESR 140.10.2, Firefox ESR 115.35.2, Thunderbird 150.0.2, and Thunderbird 140.10.2.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-8945": {
+      "cve_id": "CVE-2026-8945",
+      "title": "Sandbox escape in Firefox and Firefox Focus for Android. This vul ...",
+      "description": "Sandbox escape in Firefox and Firefox Focus for Android. This vulnerability was fixed in Firefox 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8948": {
+      "cve_id": "CVE-2026-8948",
+      "title": "Same-origin policy bypass in the DOM: Networking component. This  ...",
+      "description": "Same-origin policy bypass in the DOM: Networking component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8951": {
+      "cve_id": "CVE-2026-8951",
+      "title": "Spoofing issue in the Toolbar component in Firefox for Android. T ...",
+      "description": "Spoofing issue in the Toolbar component in Firefox for Android. This vulnerability was fixed in Firefox 151.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8952": {
+      "cve_id": "CVE-2026-8952",
+      "title": "Privilege escalation in the Application Update component. This vu ...",
+      "description": "Privilege escalation in the Application Update component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8960": {
+      "cve_id": "CVE-2026-8960",
+      "title": "Spoofing issue in WebExtensions. This vulnerability was fixed in  ...",
+      "description": "Spoofing issue in WebExtensions. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8963": {
+      "cve_id": "CVE-2026-8963",
+      "title": "Spoofing issue in the Web Speech component. This vulnerability wa ...",
+      "description": "Spoofing issue in the Web Speech component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8964": {
+      "cve_id": "CVE-2026-8964",
+      "title": "Spoofing issue in the Popup Blocker component. This vulnerability ...",
+      "description": "Spoofing issue in the Popup Blocker component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8965": {
+      "cve_id": "CVE-2026-8965",
+      "title": "Information disclosure in the DOM: Security component. This vulne ...",
+      "description": "Information disclosure in the DOM: Security component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8966": {
+      "cve_id": "CVE-2026-8966",
+      "title": "Information disclosure in the IP Protection component. This vulne ...",
+      "description": "Information disclosure in the IP Protection component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8967": {
+      "cve_id": "CVE-2026-8967",
+      "title": "Information disclosure in the Graphics: WebGPU component. This vu ...",
+      "description": "Information disclosure in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8969": {
+      "cve_id": "CVE-2026-8969",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8971": {
+      "cve_id": "CVE-2026-8971",
+      "title": "Same-origin policy bypass in the Networking: JAR component. This  ...",
+      "description": "Same-origin policy bypass in the Networking: JAR component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8972": {
+      "cve_id": "CVE-2026-8972",
+      "title": "Privilege escalation in the WebRTC: Audio/Video component. This v ...",
+      "description": "Privilege escalation in the WebRTC: Audio/Video component. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-8973": {
+      "cve_id": "CVE-2026-8973",
+      "title": "Memory safety bugs present in Firefox 150. Some of these bugs sho ...",
+      "description": "Memory safety bugs present in Firefox 150. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 151 and Thunderbird 151.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "142.0-r0",
+          "fixed": "151.0.3-r0"
         }
       ]
     }

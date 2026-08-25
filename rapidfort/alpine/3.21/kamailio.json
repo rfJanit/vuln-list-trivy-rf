@@ -12,6 +12,10 @@
         {
           "introduced": "5.8.4-r0",
           "fixed": "5.8.8-r0"
+        },
+        {
+          "introduced": "5.8.4-r0",
+          "fixed": "5.8.8-r0"
         }
       ]
     },
@@ -22,6 +26,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "5.8.4-r0",
+          "fixed": "5.8.8-r0"
+        },
         {
           "introduced": "5.8.4-r0",
           "fixed": "5.8.8-r0"

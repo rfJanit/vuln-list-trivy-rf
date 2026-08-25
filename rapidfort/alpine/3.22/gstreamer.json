@@ -503,6 +503,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.3-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.3-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
           "fixed": "1.26.3-r0"
         }
@@ -516,8 +524,101 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
           "fixed": "1.26.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-47183": {
+      "cve_id": "CVE-2025-47183",
+      "title": "In GStreamer through 1.26.1, the isomp4 plugin's qtdemux_parse_tr ...",
+      "description": "In GStreamer through 1.26.1, the isomp4 plugin's qtdemux_parse_tree function may read past the end of a heap buffer while parsing an MP4 file, leading to information disclosure.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-47219": {
+      "cve_id": "CVE-2025-47219",
+      "title": "In GStreamer through 1.26.1, the isomp4 plugin's qtdemux_parse_tr ...",
+      "description": "In GStreamer through 1.26.1, the isomp4 plugin's qtdemux_parse_trak function may read past the end of a heap buffer while parsing an MP4 file, possibly leading to information disclosure.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-47806": {
+      "cve_id": "CVE-2025-47806",
+      "title": "In GStreamer through 1.26.1, the subparse plugin's parse_subrip_t ...",
+      "description": "In GStreamer through 1.26.1, the subparse plugin's parse_subrip_time function may write data past the bounds of a stack buffer, leading to a crash.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-47807": {
+      "cve_id": "CVE-2025-47807",
+      "title": "In GStreamer through 1.26.1, the subparse plugin's subrip_unescap ...",
+      "description": "In GStreamer through 1.26.1, the subparse plugin's subrip_unescape_formatting function may dereference a NULL pointer while parsing a subtitle file, leading to a crash.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-47808": {
+      "cve_id": "CVE-2025-47808",
+      "title": "In GStreamer through 1.26.1, the subparse plugin's tmplayer_parse ...",
+      "description": "In GStreamer through 1.26.1, the subparse plugin's tmplayer_parse_line function may dereference a NULL pointer while parsing a subtitle file, leading to a crash.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.26.2-r0"
         }
       ]
     },
@@ -529,7 +630,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -542,7 +655,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -555,7 +680,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -568,7 +705,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -581,7 +730,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -594,7 +755,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -607,7 +780,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -620,7 +805,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -633,7 +830,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -646,7 +855,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -659,7 +880,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.24.9-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
           "introduced": "1.24.11-r0",
+          "fixed": "1.28.1-r0"
+        },
+        {
+          "introduced": "1.26.3-r0",
           "fixed": "1.28.1-r0"
         }
       ]
@@ -671,6 +904,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.24.9-r0"
+        },
+        {
+          "introduced": "1.24.9-r0"
+        },
         {
           "introduced": "1.24.11-r0"
         },
@@ -689,6 +928,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.24.9-r0"
+        },
+        {
+          "introduced": "1.24.9-r0"
+        },
         {
           "introduced": "1.24.11-r0"
         },

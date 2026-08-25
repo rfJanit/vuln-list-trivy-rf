@@ -2,6 +2,31 @@
   "package_name": "bind",
   "distro_version": "3.21",
   "advisories": {
+    "CVE-2024-0760": {
+      "cve_id": "CVE-2024-0760",
+      "title": "A malicious client can send many DNS messages over TCP, potential ...",
+      "description": "A malicious client can send many DNS messages over TCP, potentially causing the server to become unstable while the attack is in progress. The server may recover after the attack ceases. Use of ACLs will not mitigate the attack. \nThis issue affects BIND 9 versions 9.18.1 through 9.18.27, 9.19.0 through 9.19.24, and 9.18.11-S1 through 9.18.27-S1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        }
+      ]
+    },
     "CVE-2024-11187": {
       "cve_id": "CVE-2024-11187",
       "title": "It is possible to construct a zone such that some queries to it w ...",
@@ -28,6 +53,81 @@
         }
       ]
     },
+    "CVE-2024-1737": {
+      "cve_id": "CVE-2024-1737",
+      "title": "Resolver caches and authoritative zone databases that hold signif ...",
+      "description": "Resolver caches and authoritative zone databases that hold significant numbers of RRs for the same hostname (of any RTYPE) can suffer from degraded performance as content is being added or updated, and also when handling client queries for this name.\nThis issue affects BIND 9 versions 9.11.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.4-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        }
+      ]
+    },
+    "CVE-2024-1975": {
+      "cve_id": "CVE-2024-1975",
+      "title": "If a server hosts a zone containing a \"KEY\" Resource Record, or a ...",
+      "description": "If a server hosts a zone containing a \"KEY\" Resource Record, or a resolver DNSSEC-validates a \"KEY\" Resource Record from a DNSSEC-signed domain in cache, a client can exhaust resolver CPU resources by sending a stream of SIG(0) signed requests.\nThis issue affects BIND 9 versions 9.0.0 through 9.11.37, 9.16.0 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.49-S1, and 9.18.11-S1 through 9.18.27-S1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        }
+      ]
+    },
+    "CVE-2024-4076": {
+      "cve_id": "CVE-2024-4076",
+      "title": "Client queries that trigger serving stale data and that also requ ...",
+      "description": "Client queries that trigger serving stale data and that also require lookups in local authoritative zone data may result in an assertion failure.\nThis issue affects BIND 9 versions 9.16.13 through 9.16.50, 9.18.0 through 9.18.27, 9.19.0 through 9.19.24, 9.11.33-S1 through 9.11.37-S1, 9.16.13-S1 through 9.16.50-S1, and 9.18.11-S1 through 9.18.27-S1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        },
+        {
+          "introduced": "9.18.27-r0",
+          "fixed": "9.18.31-r0"
+        }
+      ]
+    },
     "CVE-2025-13878": {
       "cve_id": "CVE-2025-13878",
       "title": "Malformed BRID/HHIT records can cause `named` to terminate unexpe ...",
@@ -35,10 +135,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.44-r0"
-        },
         {
           "introduced": "9.20.15-r0",
           "fixed": "9.20.18-r0"
@@ -66,10 +162,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.11-r0"
-        },
-        {
           "introduced": "9.18.44-r0",
           "fixed": "9.20.11-r0"
         }
@@ -82,10 +174,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.11-r0"
-        },
         {
           "introduced": "9.18.44-r0",
           "fixed": "9.20.11-r0"
@@ -100,10 +188,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.41-r0"
-        },
-        {
           "introduced": "9.20.11-r0",
           "fixed": "9.20.15-r0"
         }
@@ -116,10 +200,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.41-r0"
-        },
         {
           "introduced": "9.20.11-r0",
           "fixed": "9.20.15-r0"
@@ -134,10 +214,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.41-r0"
-        },
-        {
           "introduced": "9.20.11-r0",
           "fixed": "9.20.15-r0"
         }
@@ -150,18 +226,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
         {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
@@ -176,18 +240,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
         }
@@ -200,18 +252,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
         {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
@@ -226,18 +266,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
         }
@@ -250,18 +278,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
         {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
@@ -276,18 +292,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
         }
@@ -300,18 +304,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
         {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
@@ -326,18 +318,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
         }
@@ -350,18 +330,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.26-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.26-r0"
-        },
         {
           "introduced": "9.20.23-r0",
           "fixed": "9.20.26-r0"
@@ -376,14 +344,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.47-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.21-r0"
-        },
-        {
           "introduced": "9.20.18-r0",
           "fixed": "9.20.21-r0"
         }
@@ -396,18 +356,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.49-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.23-r0"
-        },
         {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
@@ -422,14 +370,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.21-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.21-r0"
-        },
-        {
           "introduced": "9.20.18-r0",
           "fixed": "9.20.21-r0"
         }
@@ -442,14 +382,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.21-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.21-r0"
-        },
         {
           "introduced": "9.20.18-r0",
           "fixed": "9.20.21-r0"
@@ -464,14 +396,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.20.21-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.21-r0"
-        },
-        {
           "introduced": "9.20.18-r0",
           "fixed": "9.20.21-r0"
         }
@@ -484,18 +408,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.49-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.23-r0"
-        },
         {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
@@ -510,18 +422,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.49-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
         }
@@ -534,18 +434,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.49-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.23-r0"
-        },
         {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
@@ -560,18 +448,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.49-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
         }
@@ -584,18 +460,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "9.18.39-r0",
-          "fixed": "9.18.49-r0"
-        },
-        {
-          "introduced": "9.20.15-r0",
-          "fixed": "9.20.23-r0"
-        },
-        {
-          "introduced": "9.20.18-r0",
-          "fixed": "9.20.23-r0"
-        },
         {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"

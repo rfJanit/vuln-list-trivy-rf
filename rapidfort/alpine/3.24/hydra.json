@@ -10,6 +10,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
           "introduced": "9.6-r1"
         }
       ]
@@ -21,6 +39,24 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
         {
           "introduced": "9.6-r1"
         }
@@ -34,6 +70,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
           "introduced": "9.6-r1"
         }
       ]
@@ -45,6 +99,24 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
         {
           "introduced": "9.6-r1"
         }
@@ -58,6 +130,24 @@
       "status": "open",
       "events": [
         {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
           "introduced": "9.6-r1"
         }
       ]
@@ -69,6 +159,24 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.5-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
+        {
+          "introduced": "9.6-r1"
+        },
         {
           "introduced": "9.6-r1"
         }

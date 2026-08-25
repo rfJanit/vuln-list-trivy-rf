@@ -10,6 +10,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -27,6 +33,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -46,6 +58,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -63,6 +81,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -82,6 +106,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -99,6 +129,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -118,6 +154,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -135,6 +177,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -154,6 +202,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -171,6 +225,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -190,6 +250,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -207,6 +273,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -226,6 +298,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -243,6 +321,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -262,6 +346,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -279,6 +369,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -298,6 +394,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -315,6 +417,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -334,6 +442,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -351,6 +465,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -370,6 +490,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -387,6 +513,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -406,6 +538,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -423,6 +561,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -442,6 +586,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -459,6 +609,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -478,6 +634,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -495,6 +657,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -514,6 +682,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -531,6 +705,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -550,6 +730,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -567,6 +753,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -586,6 +778,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -603,6 +801,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -622,6 +826,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -639,6 +849,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -658,6 +874,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -675,6 +897,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -694,6 +922,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -711,6 +945,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -730,6 +970,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -747,6 +993,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -766,6 +1018,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -783,6 +1041,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -802,6 +1066,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -819,6 +1089,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -838,6 +1114,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -855,6 +1137,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -874,6 +1162,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -891,6 +1185,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -910,6 +1210,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -927,6 +1233,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -946,6 +1258,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -963,6 +1281,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -982,6 +1306,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -999,6 +1329,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1018,6 +1354,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1035,6 +1377,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1054,6 +1402,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1071,6 +1425,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1090,6 +1450,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1107,6 +1473,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1126,6 +1498,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1143,6 +1521,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1162,6 +1546,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1179,6 +1569,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1198,6 +1594,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1215,6 +1617,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1234,6 +1642,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1251,6 +1665,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1270,6 +1690,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1287,6 +1713,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1306,6 +1738,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1323,6 +1761,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1342,6 +1786,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1359,6 +1809,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1378,6 +1834,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1395,6 +1857,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1414,6 +1882,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1431,6 +1905,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },
@@ -1450,6 +1930,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
           "introduced": "0.4.5-r5"
         },
         {
@@ -1467,6 +1953,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.4.5-r0"
+        },
+        {
+          "introduced": "0.4.5-r0"
+        },
         {
           "introduced": "0.4.5-r5"
         },

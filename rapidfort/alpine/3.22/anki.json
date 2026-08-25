@@ -12,6 +12,10 @@
         {
           "introduced": "25.02.7-r0",
           "fixed": "25.09.4-r0"
+        },
+        {
+          "introduced": "25.02.7-r0",
+          "fixed": "25.09.4-r0"
         }
       ]
     },
@@ -22,6 +26,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "25.02.7-r0",
+          "fixed": "25.09.4-r0"
+        },
         {
           "introduced": "25.02.7-r0",
           "fixed": "25.09.4-r0"

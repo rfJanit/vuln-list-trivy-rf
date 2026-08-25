@@ -12,6 +12,10 @@
         {
           "introduced": "1.8.0.0-r0",
           "fixed": "1.8.0.3-r0"
+        },
+        {
+          "introduced": "1.8.0.0-r0",
+          "fixed": "1.8.0.3-r0"
         }
       ]
     },
@@ -24,6 +28,18 @@
       "events": [
         {
           "introduced": "1.8.0.0-r0",
+          "fixed": "1.8.1.2-r0"
+        },
+        {
+          "introduced": "1.8.0.0-r0",
+          "fixed": "1.8.1.2-r0"
+        },
+        {
+          "introduced": "1.8.0.3-r0",
+          "fixed": "1.8.1.2-r0"
+        },
+        {
+          "introduced": "1.8.0.3-r0",
           "fixed": "1.8.1.2-r0"
         }
       ]

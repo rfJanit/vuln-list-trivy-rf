@@ -11,6 +11,21 @@
       "events": [
         {
           "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
         }
       ]
     },
@@ -21,6 +36,21 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
         {
           "introduced": "2.15-r0"
         }
@@ -35,6 +65,21 @@
       "events": [
         {
           "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
         }
       ]
     },
@@ -45,6 +90,21 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
+        {
+          "introduced": "2.15-r0"
+        },
         {
           "introduced": "2.15-r0"
         }

@@ -36,7 +36,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0.10.2-r0",
+          "fixed": "0.11.2-r0"
+        },
+        {
           "introduced": "0.10.3-r2",
+          "fixed": "0.11.2-r0"
+        },
+        {
+          "introduced": "0.10.3-r2",
+          "fixed": "0.11.2-r0"
+        },
+        {
+          "introduced": "0.11.1-r3",
           "fixed": "0.11.2-r0"
         }
       ]
@@ -49,7 +61,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0.10.2-r0",
+          "fixed": "0.11.2-r0"
+        },
+        {
           "introduced": "0.10.3-r2",
+          "fixed": "0.11.2-r0"
+        },
+        {
+          "introduced": "0.10.3-r2",
+          "fixed": "0.11.2-r0"
+        },
+        {
+          "introduced": "0.11.1-r3",
           "fixed": "0.11.2-r0"
         }
       ]

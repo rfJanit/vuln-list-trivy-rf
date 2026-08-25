@@ -45,6 +45,23 @@
         }
       ]
     },
+    "CVE-2024-56362": {
+      "cve_id": "CVE-2024-56362",
+      "title": "Navidrome is an open source web-based music collection server and ...",
+      "description": "Navidrome is an open source web-based music collection server and streamer. Navidrome stores the JWT secret in plaintext in the navidrome.db database file under the property table. This practice introduces a security risk because anyone with access to the database file can retrieve the secret. This vulnerability is fixed in 0.54.1.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.54.4-r0"
+        },
+        {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.54.4-r0"
+        }
+      ]
+    },
     "CVE-2025-27112": {
       "cve_id": "CVE-2025-27112",
       "title": "Navidrome is an open source web-based music collection server and ...",
@@ -52,6 +69,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0.53.3-r5",
+          "fixed": "0.55.2-r6"
+        },
         {
           "introduced": "0.53.3-r5",
           "fixed": "0.55.2-r6"
@@ -65,6 +86,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.56.1-r0"
+        },
+        {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.56.1-r0"
+        },
         {
           "introduced": "0.53.3-r5",
           "fixed": "0.56.1-r0"
@@ -92,7 +121,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.60.0-r0"
+        },
+        {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.60.0-r0"
+        },
+        {
           "introduced": "0.53.3-r5",
+          "fixed": "0.60.0-r0"
+        },
+        {
+          "introduced": "0.58.5-r6",
           "fixed": "0.60.0-r0"
         }
       ]
@@ -105,7 +146,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.60.0-r0"
+        },
+        {
+          "introduced": "0.51.1-r5",
+          "fixed": "0.60.0-r0"
+        },
+        {
           "introduced": "0.53.3-r5",
+          "fixed": "0.60.0-r0"
+        },
+        {
+          "introduced": "0.58.5-r6",
           "fixed": "0.60.0-r0"
         }
       ]

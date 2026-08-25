@@ -12,6 +12,14 @@
         {
           "introduced": "2.2.0-r0",
           "fixed": "2.2.1-r0"
+        },
+        {
+          "introduced": "2.2.0-r0",
+          "fixed": "2.2.1-r0"
+        },
+        {
+          "introduced": "2.2.0-r1",
+          "fixed": "2.2.1-r0"
         }
       ]
     },
@@ -25,6 +33,14 @@
         {
           "introduced": "2.2.0-r0",
           "fixed": "2.2.1-r0"
+        },
+        {
+          "introduced": "2.2.0-r0",
+          "fixed": "2.2.1-r0"
+        },
+        {
+          "introduced": "2.2.0-r1",
+          "fixed": "2.2.1-r0"
         }
       ]
     },
@@ -37,6 +53,15 @@
       "events": [
         {
           "introduced": "2.2.0-r0"
+        },
+        {
+          "introduced": "2.2.0-r0"
+        },
+        {
+          "introduced": "2.2.0-r1"
+        },
+        {
+          "introduced": "2.2.1-r1"
         },
         {
           "introduced": "2.2.1-r1"

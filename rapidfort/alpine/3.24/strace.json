@@ -10,6 +10,21 @@
       "status": "open",
       "events": [
         {
+          "introduced": "6.9-r0"
+        },
+        {
+          "introduced": "6.12-r0"
+        },
+        {
+          "introduced": "6.13-r0"
+        },
+        {
+          "introduced": "6.17-r0"
+        },
+        {
+          "introduced": "6.19-r1"
+        },
+        {
           "introduced": "6.19-r1"
         }
       ]

@@ -238,6 +238,34 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.7.7-r0",
+          "fixed": "3.8.8-r0"
+        },
+        {
+          "introduced": "3.7.7-r0",
+          "fixed": "3.8.8-r0"
+        },
+        {
+          "introduced": "3.7.7-r0",
+          "fixed": "3.8.8-r0"
+        },
+        {
+          "introduced": "3.7.7-r0",
+          "fixed": "3.8.8-r0"
+        },
+        {
+          "introduced": "3.7.7-r0",
+          "fixed": "3.8.8-r0"
+        },
+        {
+          "introduced": "3.8.1-r0",
+          "fixed": "3.8.8-r0"
+        },
+        {
+          "introduced": "3.8.1-r0",
+          "fixed": "3.8.8-r0"
+        },
+        {
           "introduced": "3.8.5-r0",
           "fixed": "3.8.8-r0"
         }

@@ -10,6 +10,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -983,6 +992,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -995,6 +1016,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1009,6 +1042,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1021,6 +1066,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1035,6 +1092,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1047,6 +1116,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1061,6 +1142,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1073,6 +1166,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1087,6 +1192,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1100,7 +1217,40 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-11708": {
+      "cve_id": "CVE-2025-11708",
+      "title": "Use-after-free in MediaTrackGraphImpl::GetInstance(). This vulner ...",
+      "description": "Use-after-free in MediaTrackGraphImpl::GetInstance(). This vulnerability was fixed in Firefox 144, Firefox ESR 140.4, Thunderbird 144, and Thunderbird 140.4.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
           "fixed": "144.0-r0"
         }
       ]
@@ -1113,8 +1263,125 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "145.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "145.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-11710": {
+      "cve_id": "CVE-2025-11710",
+      "title": "A compromised web process using malicious IPC messages could have ...",
+      "description": "A compromised web process using malicious IPC messages could have caused the privileged browser process to reveal blocks of its memory to the compromised process. This vulnerability was fixed in Firefox 144, Firefox ESR 115.29, Firefox ESR 140.4, Thunderbird 144, and Thunderbird 140.4.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-11711": {
+      "cve_id": "CVE-2025-11711",
+      "title": "There was a way to change the value of JavaScript Object properti ...",
+      "description": "There was a way to change the value of JavaScript Object properties that were supposed to be non-writeable. This vulnerability was fixed in Firefox 144, Firefox ESR 115.29, Firefox ESR 140.4, Thunderbird 144, and Thunderbird 140.4.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-11712": {
+      "cve_id": "CVE-2025-11712",
+      "title": "A malicious page could have used the type attribute of an OBJECT  ...",
+      "description": "A malicious page could have used the type attribute of an OBJECT tag to override the default browser behavior when encountering a web resource served without a content-type. This could have contributed to an XSS on a site that unsafely serves files without a content-type header. This vulnerability was fixed in Firefox 144, Firefox ESR 140.4, Thunderbird 144, and Thunderbird 140.4.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-11713": {
+      "cve_id": "CVE-2025-11713",
+      "title": "Insufficient escaping in the “Copy as cURL” feature could have be ...",
+      "description": "Insufficient escaping in the “Copy as cURL” feature could have been used to trick a user into executing unexpected code on Windows. This did not affect the application when running on other operating systems. This vulnerability was fixed in Firefox 144, Firefox ESR 140.4, Thunderbird 144, and Thunderbird 140.4.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-11714": {
+      "cve_id": "CVE-2025-11714",
+      "title": "Memory safety bugs present in Firefox ESR 115.28, Firefox ESR 140 ...",
+      "description": "Memory safety bugs present in Firefox ESR 115.28, Firefox ESR 140.3, Thunderbird ESR 140.3, Firefox 143 and Thunderbird 143. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 144, Firefox ESR 115.29, Firefox ESR 140.4, Thunderbird 144, and Thunderbird 140.4.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -1125,6 +1392,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1138,6 +1417,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1155,6 +1446,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -1169,6 +1469,15 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
         {
           "introduced": "140.0.1-r0"
         },
@@ -1185,6 +1494,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -1200,6 +1518,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
         }
@@ -1212,6 +1542,15 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
         {
           "introduced": "140.0.1-r0"
         },
@@ -1228,6 +1567,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -1242,6 +1590,15 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
         {
           "introduced": "140.0.1-r0"
         },
@@ -1258,6 +1615,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1270,6 +1639,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1284,6 +1665,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1296,6 +1689,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1310,6 +1715,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1322,6 +1739,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
@@ -1336,6 +1765,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
         }
@@ -1348,6 +1789,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1362,6 +1815,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1374,6 +1839,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1388,6 +1865,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1401,6 +1890,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
         }
@@ -1413,6 +1914,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1644,6 +2157,23 @@
         }
       ]
     },
+    "CVE-2025-2817": {
+      "cve_id": "CVE-2025-2817",
+      "title": "Thunderbird's update mechanism allowed a medium-integrity user pr ...",
+      "description": "Thunderbird's update mechanism allowed a medium-integrity user process to interfere with the SYSTEM-level updater by manipulating the file-locking behavior. By injecting code into the user-privileged process, an attacker could bypass intended access controls, allowing SYSTEM-level file operations on paths controlled by a non-privileged user and enabling privilege escalation. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Firefox ESR 115.23, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
     "CVE-2025-2830": {
       "cve_id": "CVE-2025-2830",
       "title": "By crafting a malformed file name for an attachment in a multipar ...",
@@ -1830,6 +2360,91 @@
         }
       ]
     },
+    "CVE-2025-3875": {
+      "cve_id": "CVE-2025-3875",
+      "title": "Thunderbird parses addresses in a way that can allow sender spoof ...",
+      "description": "Thunderbird parses addresses in a way that can allow sender spoofing in case the server allows an invalid From address to be used. For example, if the From header contains an (invalid) value \"Spoofed Name  \", Thunderbird treats spoofed@example.com as the actual address. This vulnerability was fixed in Thunderbird 128.10.1 and Thunderbird 138.0.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-3909": {
+      "cve_id": "CVE-2025-3909",
+      "title": "Thunderbird's handling of the X-Mozilla-External-Attachment-URL h ...",
+      "description": "Thunderbird's handling of the X-Mozilla-External-Attachment-URL header can be exploited to execute JavaScript in the file:/// context. By crafting a nested email attachment (message/rfc822) and setting its content type to application/pdf, Thunderbird may incorrectly render it as HTML when opened, allowing the embedded JavaScript to run without requiring a file download. This behavior relies on Thunderbird auto-saving the attachment to /tmp and linking to it via the file:/// protocol, potentially enabling JavaScript execution as part of the HTML. This vulnerability was fixed in Thunderbird 128.10.1 and Thunderbird 138.0.1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-3932": {
+      "cve_id": "CVE-2025-3932",
+      "title": "It was possible to craft an email that showed a tracking link as  ...",
+      "description": "It was possible to craft an email that showed a tracking link as an attachment. If the user attempted to open the attachment, Thunderbird automatically accessed the link. The configuration to block remote content did not prevent that. Thunderbird has been fixed to no longer allow access to web pages listed in the X-Mozilla-External-Attachment-URL header of an email. This vulnerability was fixed in Thunderbird 128.10.1 and Thunderbird 138.0.1.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4082": {
+      "cve_id": "CVE-2025-4082",
+      "title": "Modification of specific WebGL shader attributes could trigger an ...",
+      "description": "Modification of specific WebGL shader attributes could trigger an out-of-bounds read, which, when chained with other vulnerabilities, could be used to escalate privileges.\n*This bug only affects Thunderbird for macOS. Other versions of Thunderbird are unaffected.*. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Firefox ESR 115.23, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4083": {
+      "cve_id": "CVE-2025-4083",
+      "title": "A process isolation vulnerability in Thunderbird stemmed from imp ...",
+      "description": "A process isolation vulnerability in Thunderbird stemmed from improper handling of javascript: URIs, which could allow content to execute in the top-level document's process instead of the intended frame, potentially enabling a sandbox escape. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Firefox ESR 115.23, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
     "CVE-2025-4084": {
       "cve_id": "CVE-2025-4084",
       "title": "Due to insufficient escaping of the special characters in the \"co ...",
@@ -1844,6 +2459,166 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4085": {
+      "cve_id": "CVE-2025-4085",
+      "title": "An attacker with control over a content process could potentially ...",
+      "description": "An attacker with control over a content process could potentially leverage the privileged UITour actor to leak sensitive information or escalate privileges. This vulnerability was fixed in Firefox 138 and Thunderbird 138.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "139.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4086": {
+      "cve_id": "CVE-2025-4086",
+      "title": "A specially crafted filename containing a large number of encoded ...",
+      "description": "A specially crafted filename containing a large number of encoded newline characters could obscure the file's extension when displayed in the download dialog.\n*This bug only affects Thunderbird for Android. Other versions of Thunderbird are unaffected.*. This vulnerability was fixed in Firefox 138 and Thunderbird 138.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "139.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4087": {
+      "cve_id": "CVE-2025-4087",
+      "title": "A vulnerability was identified in Thunderbird where XPath parsing ...",
+      "description": "A vulnerability was identified in Thunderbird where XPath parsing could trigger undefined behavior due to missing null checks during attribute access. This could lead to out-of-bounds read access and potentially, memory corruption. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4088": {
+      "cve_id": "CVE-2025-4088",
+      "title": "A security vulnerability in Thunderbird allowed malicious sites t ...",
+      "description": "A security vulnerability in Thunderbird allowed malicious sites to use redirects to send credentialed requests to arbitrary endpoints on any site that had invoked the Storage Access API. This enabled potential Cross-Site Request Forgery attacks across origins. This vulnerability was fixed in Firefox 138 and Thunderbird 138.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "139.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4089": {
+      "cve_id": "CVE-2025-4089",
+      "title": "Due to insufficient escaping of special characters in the \"copy a ...",
+      "description": "Due to insufficient escaping of special characters in the \"copy as cURL\" feature, an attacker could trick a user into using this command, potentially leading to local code execution on the user's system. This vulnerability was fixed in Firefox 138 and Thunderbird 138.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "139.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4090": {
+      "cve_id": "CVE-2025-4090",
+      "title": "A vulnerability existed in Thunderbird for Android where potentia ...",
+      "description": "A vulnerability existed in Thunderbird for Android where potentially sensitive library locations were logged via Logcat. This vulnerability was fixed in Firefox 138 and Thunderbird 138.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "139.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4091": {
+      "cve_id": "CVE-2025-4091",
+      "title": "Memory safety bugs present in Firefox 137, Thunderbird 137, Firef ...",
+      "description": "Memory safety bugs present in Firefox 137, Thunderbird 137, Firefox ESR 128.9, and Thunderbird 128.9. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4092": {
+      "cve_id": "CVE-2025-4092",
+      "title": "Memory safety bugs present in Firefox 137 and Thunderbird 137. So ...",
+      "description": "Memory safety bugs present in Firefox 137 and Thunderbird 137. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 138 and Thunderbird 138.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "139.0.2-r0"
         }
       ]
     },
@@ -1864,6 +2639,74 @@
         }
       ]
     },
+    "CVE-2025-4918": {
+      "cve_id": "CVE-2025-4918",
+      "title": "An attacker was able to perform an out-of-bounds read or write on ...",
+      "description": "An attacker was able to perform an out-of-bounds read or write on a JavaScript `Promise` object. This vulnerability was fixed in Firefox 138.0.4, Firefox ESR 128.10.1, Firefox ESR 115.23.1, Thunderbird 128.10.2, and Thunderbird 138.0.2.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-4919": {
+      "cve_id": "CVE-2025-4919",
+      "title": "An attacker was able to perform an out-of-bounds read or write on ...",
+      "description": "An attacker was able to perform an out-of-bounds read or write on a JavaScript object by confusing array index sizes. This vulnerability was fixed in Firefox 138.0.4, Firefox ESR 128.10.1, Firefox ESR 115.23.1, Thunderbird 128.10.2, and Thunderbird 138.0.2.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.10.2-r0"
+        }
+      ]
+    },
+    "CVE-2025-5262": {
+      "cve_id": "CVE-2025-5262",
+      "title": "A double-free could have occurred in `vpx_codec_enc_init_multi` a ...",
+      "description": "A double-free could have occurred in `vpx_codec_enc_init_multi` after a failed allocation when initializing the encoder for WebRTC. This could have caused memory corruption and a potentially exploitable crash. This vulnerability affects Thunderbird \u003c 139 and Thunderbird \u003c 128.11.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.11.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.11.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-5268": {
+      "cve_id": "CVE-2025-5268",
+      "title": "Memory safety bugs present in Firefox 138, Thunderbird 138, Firef ...",
+      "description": "Memory safety bugs present in Firefox 138, Thunderbird 138, Firefox ESR 128.10, and Thunderbird 128.10. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 139, Firefox ESR 128.11, Thunderbird 139, and Thunderbird 128.11.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.11.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.11.0-r0"
+        }
+      ]
+    },
     "CVE-2025-5269": {
       "cve_id": "CVE-2025-5269",
       "title": "Memory safety bug present in Firefox ESR 128.10, and Thunderbird  ...",
@@ -1878,6 +2721,27 @@
         {
           "introduced": "128.4.3-r0",
           "fixed": "128.11.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-5272": {
+      "cve_id": "CVE-2025-5272",
+      "title": "Memory safety bugs present in Firefox 138 and Thunderbird 138. So ...",
+      "description": "Memory safety bugs present in Firefox 138 and Thunderbird 138. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 139 and Thunderbird 139.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "139.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "139.0.2-r0"
         }
       ]
     },
@@ -1898,6 +2762,23 @@
         }
       ]
     },
+    "CVE-2025-5986": {
+      "cve_id": "CVE-2025-5986",
+      "title": "A crafted HTML email using mailbox:/// links can trigger automati ...",
+      "description": "A crafted HTML email using mailbox:/// links can trigger automatic, unsolicited downloads of .pdf files to the user's desktop or home directory without prompting, even if auto-saving is disabled. This behavior can be abused to fill the disk with garbage data (e.g. using /dev/urandom on Linux) or to leak Windows credentials via SMB links when the email is viewed in HTML mode. While user interaction is required to download the .pdf file, visual obfuscation can conceal the download trigger. Viewing the email in HTML mode is enough to load external content. This vulnerability was fixed in Thunderbird 128.11.1 and Thunderbird 139.0.2.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        }
+      ]
+    },
     "CVE-2025-6424": {
       "cve_id": "CVE-2025-6424",
       "title": "A use-after-free in FontFaceSet resulted in a potentially exploit ...",
@@ -1915,6 +2796,48 @@
         }
       ]
     },
+    "CVE-2025-6435": {
+      "cve_id": "CVE-2025-6435",
+      "title": "If a user saved a response from the Network tab in Devtools using ...",
+      "description": "If a user saved a response from the Network tab in Devtools using the Save As context menu option, that file may not have been saved with the `.download` file extension. This could have led to the user inadvertently running a malicious executable. This vulnerability was fixed in Firefox 140 and Thunderbird 140.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "140.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "140.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "140.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-6436": {
+      "cve_id": "CVE-2025-6436",
+      "title": "Memory safety bugs present in Firefox 139 and Thunderbird 139. So ...",
+      "description": "Memory safety bugs present in Firefox 139 and Thunderbird 139. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 140 and Thunderbird 140.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "140.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "140.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "140.0.1-r0"
+        }
+      ]
+    },
     "CVE-2025-8027": {
       "cve_id": "CVE-2025-8027",
       "title": "On 64-bit platforms IonMonkey-JIT only wrote 32 bits of the 64-bi ...",
@@ -1922,6 +2845,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1936,6 +2871,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1948,6 +2895,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1962,6 +2921,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -1974,6 +2945,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -1988,6 +2971,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2000,6 +2995,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2014,6 +3021,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2026,6 +3045,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2040,6 +3071,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2052,6 +3095,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2066,6 +3121,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2078,6 +3145,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2092,6 +3171,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2104,6 +3195,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2118,6 +3221,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2130,6 +3245,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2144,6 +3271,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2156,6 +3295,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2170,6 +3321,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2182,6 +3345,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2196,6 +3371,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "128.14.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2208,6 +3395,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2222,6 +3421,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2234,6 +3445,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2248,6 +3471,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2260,6 +3495,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2274,6 +3521,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2286,6 +3545,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
@@ -2300,6 +3571,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2312,6 +3595,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2326,6 +3621,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2338,6 +3645,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2352,6 +3671,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2364,6 +3695,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2378,6 +3721,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
         }
@@ -2390,6 +3745,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
@@ -2404,6 +3771,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -2416,6 +3795,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2430,6 +3821,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "148.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "148.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "148.0-r0"
         }
@@ -2442,6 +3845,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2460,6 +3875,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2476,6 +3903,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2494,6 +3933,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2511,7 +3962,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2523,6 +3990,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2541,6 +4020,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2557,6 +4048,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2575,6 +4078,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2591,6 +4106,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2609,6 +4136,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2626,7 +4165,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2639,7 +4194,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2651,6 +4222,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2669,7 +4252,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2681,6 +4280,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2699,6 +4310,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2715,6 +4338,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2733,6 +4368,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2749,6 +4396,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2767,6 +4426,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2783,6 +4454,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2801,6 +4484,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2817,6 +4512,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2835,6 +4542,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2851,6 +4570,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -2869,6 +4600,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -2886,7 +4629,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2899,7 +4658,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2912,7 +4687,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2925,7 +4716,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2938,7 +4745,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2951,7 +4774,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2964,7 +4803,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2977,7 +4832,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -2989,6 +4860,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -3007,6 +4890,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -3024,7 +4919,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3036,6 +4947,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -3053,6 +4976,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -3073,6 +5008,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -3083,6 +5022,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -3097,6 +5040,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -3109,6 +5064,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3127,6 +5094,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3143,6 +5122,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3161,6 +5152,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3177,6 +5180,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3195,6 +5210,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3211,6 +5238,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3229,6 +5268,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3245,6 +5296,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3263,6 +5326,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3279,6 +5354,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3297,6 +5384,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3314,6 +5413,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -3326,6 +5437,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3344,6 +5467,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3361,7 +5496,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3374,7 +5525,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3387,7 +5554,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3400,7 +5583,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3412,6 +5611,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3430,6 +5641,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3447,7 +5670,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3459,6 +5698,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3477,7 +5728,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3489,6 +5756,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3507,6 +5786,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3524,7 +5815,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3536,6 +5843,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3554,7 +5873,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3566,6 +5901,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3584,7 +5931,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3596,6 +5959,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3614,7 +5989,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3626,6 +6017,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3644,7 +6047,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3657,7 +6076,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3670,7 +6105,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3682,6 +6133,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3700,7 +6163,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3713,7 +6192,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3725,6 +6220,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3743,6 +6250,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -3760,7 +6279,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3773,7 +6308,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3785,6 +6336,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3803,7 +6366,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3816,7 +6395,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3829,7 +6424,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3842,7 +6453,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3855,7 +6482,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3868,7 +6511,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3881,7 +6540,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3894,7 +6569,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3907,7 +6598,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
+          "fixed": "153.0.1-r0"
+        },
+        {
+          "introduced": "151.0.1-r0",
           "fixed": "153.0.1-r0"
         }
       ]
@@ -3919,6 +6626,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -3933,6 +6652,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -3945,6 +6676,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -3959,6 +6702,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -3971,6 +6726,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -3985,6 +6752,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -3997,6 +6776,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4011,6 +6802,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4023,6 +6826,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4037,6 +6852,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4049,6 +6876,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4063,6 +6902,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4075,6 +6926,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4089,6 +6952,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4101,6 +6976,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4115,6 +7002,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4127,6 +7026,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4141,6 +7052,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4153,6 +7076,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4167,6 +7102,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4179,6 +7126,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4193,6 +7152,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4205,6 +7176,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4219,6 +7202,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4231,6 +7226,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4245,6 +7252,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4257,6 +7276,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4271,6 +7302,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4283,6 +7326,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4297,6 +7352,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4309,6 +7376,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4323,6 +7402,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4335,6 +7426,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4349,6 +7452,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4361,6 +7476,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4375,6 +7502,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4387,6 +7526,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4401,6 +7552,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4413,6 +7576,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4427,6 +7602,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4439,6 +7626,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4453,6 +7652,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4465,6 +7676,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4479,6 +7702,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4491,6 +7726,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4505,6 +7752,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4517,6 +7776,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4531,6 +7802,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4543,6 +7826,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4557,6 +7852,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4569,6 +7876,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4583,6 +7902,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4595,6 +7926,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4609,6 +7952,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4621,6 +7976,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4635,6 +8002,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4647,6 +8026,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4661,6 +8052,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4673,6 +8076,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4687,6 +8102,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4699,6 +8126,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4713,6 +8152,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4725,6 +8176,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4739,6 +8202,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4751,6 +8226,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
@@ -4765,6 +8252,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4777,6 +8276,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4791,6 +8302,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0-r0"
         }
@@ -4803,6 +8326,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4821,6 +8356,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -4838,6 +8385,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4850,6 +8409,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4864,6 +8435,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4877,6 +8460,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -4889,6 +8484,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4905,6 +8512,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -4915,6 +8526,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4931,6 +8546,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -4941,6 +8560,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -4954,6 +8585,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -4970,6 +8613,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -4980,6 +8627,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -4996,6 +8655,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -5006,6 +8669,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -5019,6 +8694,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5035,6 +8722,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -5045,6 +8736,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5061,6 +8756,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -5071,6 +8770,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5084,6 +8795,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5100,6 +8823,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -5110,6 +8837,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -5124,6 +8863,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -5136,6 +8887,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5152,6 +8915,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -5162,6 +8929,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5176,6 +8955,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
         }
@@ -5188,6 +8979,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -5202,6 +9005,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
         }
@@ -5214,6 +9029,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5228,6 +9055,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
         }
@@ -5240,6 +9079,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -5254,6 +9105,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
         }
@@ -5266,6 +9129,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -5280,6 +9155,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
         }
@@ -5292,6 +9179,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -5306,6 +9205,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
         }
@@ -5318,6 +9229,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
@@ -5334,6 +9257,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -5344,6 +9271,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5358,6 +9289,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -5370,6 +9313,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5384,6 +9339,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -5396,6 +9363,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -5410,6 +9389,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.1-r0"
         }
@@ -5422,6 +9413,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5440,6 +9443,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5456,6 +9471,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5474,6 +9501,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5489,6 +9525,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5503,6 +9548,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5521,6 +9578,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5537,6 +9606,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5555,6 +9636,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5571,6 +9664,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5589,6 +9694,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5605,6 +9722,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5623,6 +9752,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5640,6 +9781,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5654,6 +9804,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5672,6 +9834,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5689,6 +9863,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5704,6 +9887,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5718,6 +9910,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5736,6 +9940,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5750,6 +9963,15 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
         {
           "introduced": "140.0.1-r0"
         },
@@ -5766,6 +9988,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5780,6 +10011,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5798,6 +10041,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5812,6 +10064,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5830,6 +10094,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5847,6 +10123,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5861,6 +10146,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5879,6 +10176,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -5895,6 +10204,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5913,6 +10234,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         },
@@ -5929,6 +10262,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5947,6 +10292,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -5961,6 +10315,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -5979,6 +10345,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -5995,6 +10373,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -6013,6 +10403,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -6029,6 +10431,18 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -6047,6 +10461,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -6064,6 +10490,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -6078,6 +10513,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -6096,6 +10543,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
         },
@@ -6113,6 +10572,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -6128,6 +10596,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -6142,6 +10619,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "145.0-r0",
           "fixed": "145.0-r1"
@@ -6160,6 +10649,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.4.3-r0"
+        },
+        {
+          "introduced": "128.11.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0"
         },
         {
@@ -6174,6 +10672,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6190,6 +10700,10 @@
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
         }
       ]
     },
@@ -6200,6 +10714,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "140.0.1-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6214,6 +10732,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.2-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "150.0.2-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "150.0.2-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "150.0.2-r0"
         }
@@ -6226,6 +10756,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6240,6 +10782,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6252,6 +10806,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6266,6 +10832,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
         }
@@ -6278,6 +10856,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6292,6 +10882,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6304,6 +10906,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
@@ -6318,6 +10932,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6330,6 +10956,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6344,6 +10982,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6356,6 +11006,18 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6370,6 +11032,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6382,6 +11056,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6396,6 +11082,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6408,6 +11106,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
@@ -6422,6 +11132,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6434,6 +11156,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6448,6 +11182,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
         }
@@ -6460,6 +11206,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
@@ -6474,6 +11232,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
         }
@@ -6486,6 +11256,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
@@ -6500,6 +11282,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
         }
@@ -6512,6 +11306,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6526,6 +11332,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
         }
@@ -6538,6 +11356,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
@@ -6552,6 +11382,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
         }
@@ -6564,6 +11406,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
@@ -6578,6 +11432,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "151.0.1-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "151.0.1-r0"
         }
@@ -6591,6 +11457,18 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
+        {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"
         }
@@ -6603,6 +11481,18 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.4.3-r0",
+          "fixed": "144.0-r0"
+        },
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "144.0-r0"
+        },
         {
           "introduced": "140.0.1-r0",
           "fixed": "144.0-r0"

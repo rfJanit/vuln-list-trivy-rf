@@ -2,6 +2,19 @@
   "package_name": "cups",
   "distro_version": "3.20",
   "advisories": {
+    "CVE-2024-47175": {
+      "cve_id": "CVE-2024-47175",
+      "title": "CUPS is a standards-based, open-source printing system, and `libp ...",
+      "description": "CUPS is a standards-based, open-source printing system, and `libppd` can be used for legacy PPD file support. The `libppd` function `ppdCreatePPDFromIPP2` does not sanitize IPP attributes when creating the PPD buffer. When used in combination with other functions such as `cfGetPrinterAttributes5`, can result in user controlled input and ultimately code execution via Foomatic. This vulnerability can be part of an exploit chain leading to remote code execution (RCE), as described in CVE-2024-47176.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.10-r1"
+        }
+      ]
+    },
     "CVE-2025-58060": {
       "cve_id": "CVE-2025-58060",
       "title": "OpenPrinting CUPS is an open source printing system for Linux and ...",
@@ -9,6 +22,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.13-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.16-r0"
+        },
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.16-r0"
@@ -22,6 +43,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.13-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.16-r0"
+        },
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.16-r0"
@@ -38,6 +67,14 @@
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.16-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.16-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.16-r0"
         }
       ]
     },
@@ -48,6 +85,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.16-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.16-r0"
+        },
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.16-r0"
@@ -64,6 +109,14 @@
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
         }
       ]
     },
@@ -74,6 +127,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"
@@ -90,6 +151,14 @@
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
         }
       ]
     },
@@ -100,6 +169,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"
@@ -116,6 +193,14 @@
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
         }
       ]
     },
@@ -126,6 +211,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"
@@ -142,6 +235,14 @@
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
         }
       ]
     },
@@ -152,6 +253,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
+        {
+          "introduced": "2.4.9-r1",
+          "fixed": "2.4.18-r0"
+        },
         {
           "introduced": "2.4.9-r1",
           "fixed": "2.4.18-r0"

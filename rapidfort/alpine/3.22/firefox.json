@@ -10,6 +10,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0"
         },
         {
@@ -28,6 +34,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0"
         },
         {
@@ -45,6 +57,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -192,6 +210,58 @@
         }
       ]
     },
+    "CVE-2024-43097": {
+      "cve_id": "CVE-2024-43097",
+      "title": "In resizeToAtLeast of SkRegion.cpp, there is a possible out of bo ...",
+      "description": "In resizeToAtLeast of SkRegion.cpp, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "134.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-0244": {
+      "cve_id": "CVE-2025-0244",
+      "title": "When redirecting to an invalid protocol scheme, an attacker could ...",
+      "description": "When redirecting to an invalid protocol scheme, an attacker could spoof the address bar. \n*Note: This issue only affected Android operating systems. Other operating systems are unaffected.*. This vulnerability was fixed in Firefox 134.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "134.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-0245": {
+      "cve_id": "CVE-2025-0245",
+      "title": "Under certain circumstances, a user opt-in setting that Focus sho ...",
+      "description": "Under certain circumstances, a user opt-in setting that Focus should require authentication before use could have been be bypassed. This vulnerability was fixed in Firefox 134.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "134.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-0247": {
+      "cve_id": "CVE-2025-0247",
+      "title": "Memory safety bugs present in Firefox 133 and Thunderbird 133. So ...",
+      "description": "Memory safety bugs present in Firefox 133 and Thunderbird 133. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 134 and Thunderbird 134.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "134.0.1-r0"
+        }
+      ]
+    },
     "CVE-2025-10530": {
       "cve_id": "CVE-2025-10530",
       "title": "Spoofing issue in the WebAuthn component in Firefox for Android.  ...",
@@ -225,6 +295,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -265,6 +343,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -277,6 +363,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -291,6 +385,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -303,6 +405,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -322,6 +432,74 @@
         }
       ]
     },
+    "CVE-2025-13012": {
+      "cve_id": "CVE-2025-13012",
+      "title": "Race condition in the Graphics component. This vulnerability was  ...",
+      "description": "Race condition in the Graphics component. This vulnerability was fixed in Firefox 145, Firefox ESR 140.5, Firefox ESR 115.30, Thunderbird 145, and Thunderbird 140.5.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-13013": {
+      "cve_id": "CVE-2025-13013",
+      "title": "Mitigation bypass in the DOM: Core \u0026 HTML component. This vulnera ...",
+      "description": "Mitigation bypass in the DOM: Core \u0026 HTML component. This vulnerability was fixed in Firefox 145, Firefox ESR 140.5, Firefox ESR 115.30, Thunderbird 145, and Thunderbird 140.5.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-13015": {
+      "cve_id": "CVE-2025-13015",
+      "title": "Spoofing issue in Firefox. This vulnerability was fixed in Firefo ...",
+      "description": "Spoofing issue in Firefox. This vulnerability was fixed in Firefox 145, Firefox ESR 140.5, and Firefox ESR 115.30.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-13016": {
+      "cve_id": "CVE-2025-13016",
+      "title": "Incorrect boundary conditions in the JavaScript: WebAssembly comp ...",
+      "description": "Incorrect boundary conditions in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 145, Firefox ESR 140.5, Thunderbird 145, and Thunderbird 140.5.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
     "CVE-2025-13021": {
       "cve_id": "CVE-2025-13021",
       "title": "Incorrect boundary conditions in the Graphics: WebGPU component.  ...",
@@ -330,7 +508,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "145.0-r0"
         }
       ]
@@ -343,7 +533,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "145.0-r0"
         }
       ]
@@ -356,7 +558,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "145.0-r0"
         }
       ]
@@ -369,8 +583,37 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "145.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "145.0-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "145.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14321": {
+      "cve_id": "CVE-2025-14321",
+      "title": "Use-after-free in the WebRTC: Signaling component. This vulnerabi ...",
+      "description": "Use-after-free in the WebRTC: Signaling component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
         }
       ]
     },
@@ -381,6 +624,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -395,6 +646,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -408,7 +667,32 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14325": {
+      "cve_id": "CVE-2025-14325",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
           "fixed": "142.0-r0"
         }
       ]
@@ -421,7 +705,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "147.0.1-r0"
         }
       ]
@@ -434,8 +730,71 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-14328": {
+      "cve_id": "CVE-2025-14328",
+      "title": "Privilege escalation in the Netmonitor component. This vulnerabil ...",
+      "description": "Privilege escalation in the Netmonitor component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14329": {
+      "cve_id": "CVE-2025-14329",
+      "title": "Privilege escalation in the Netmonitor component. This vulnerabil ...",
+      "description": "Privilege escalation in the Netmonitor component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-14330": {
+      "cve_id": "CVE-2025-14330",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
         }
       ]
     },
@@ -446,6 +805,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -460,8 +827,37 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-14333": {
+      "cve_id": "CVE-2025-14333",
+      "title": "Memory safety bugs present in Firefox ESR 140.5, Thunderbird ESR  ...",
+      "description": "Memory safety bugs present in Firefox ESR 140.5, Thunderbird ESR 140.5, Firefox 145 and Thunderbird 145. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 146, Firefox ESR 140.6, Thunderbird 146, and Thunderbird 140.6.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
         }
       ]
     },
@@ -473,7 +869,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "147.0.1-r0"
         }
       ]
@@ -486,8 +894,85 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-1939": {
+      "cve_id": "CVE-2025-1939",
+      "title": "Android apps can load web pages using the Custom Tabs feature. Th ...",
+      "description": "Android apps can load web pages using the Custom Tabs feature. This feature supports a transition animation that could have been used to trick a user into granting sensitive permissions by hiding what the user was actually clicking. This vulnerability was fixed in Firefox 136.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "136.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2025-1940": {
+      "cve_id": "CVE-2025-1940",
+      "title": "A select option could partially obscure the confirmation prompt s ...",
+      "description": "A select option could partially obscure the confirmation prompt shown before launching external apps. This could be used to trick a user in to launching an external app unexpectedly. \n*This issue only affects Android versions of Firefox.*. This vulnerability was fixed in Firefox 136.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "136.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2025-1941": {
+      "cve_id": "CVE-2025-1941",
+      "title": "Under certain circumstances, a user opt-in setting that Focus sho ...",
+      "description": "Under certain circumstances, a user opt-in setting that Focus should require authentication before use could have been be bypassed (distinct from CVE-2025-0245). This vulnerability was fixed in Firefox 136.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "136.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2025-1942": {
+      "cve_id": "CVE-2025-1942",
+      "title": "When String.toUpperCase() caused a string to get longer it was po ...",
+      "description": "When String.toUpperCase() caused a string to get longer it was possible for uninitialized memory to be incorporated into the result string. This vulnerability was fixed in Firefox 136 and Thunderbird 136.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "136.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2025-1943": {
+      "cve_id": "CVE-2025-1943",
+      "title": "Memory safety bugs present in Firefox 135 and Thunderbird 135. So ...",
+      "description": "Memory safety bugs present in Firefox 135 and Thunderbird 135. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 136 and Thunderbird 136.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "136.0.3-r0"
         }
       ]
     },
@@ -889,7 +1374,32 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0878": {
+      "cve_id": "CVE-2026-0878",
+      "title": "Sandbox escape due to incorrect boundary conditions in the Graphi ...",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
           "fixed": "142.0-r0"
         }
       ]
@@ -901,6 +1411,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -915,6 +1433,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -928,7 +1454,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "147.0.1-r0"
         }
       ]
@@ -941,7 +1479,66 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0883": {
+      "cve_id": "CVE-2026-0883",
+      "title": "Information disclosure in the Networking component. This vulnerab ...",
+      "description": "Information disclosure in the Networking component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0884": {
+      "cve_id": "CVE-2026-0884",
+      "title": "Use-after-free in the JavaScript Engine component. This vulnerabi ...",
+      "description": "Use-after-free in the JavaScript Engine component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0885": {
+      "cve_id": "CVE-2026-0885",
+      "title": "Use-after-free in the JavaScript: GC component. This vulnerabilit ...",
+      "description": "Use-after-free in the JavaScript: GC component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
           "fixed": "142.0-r0"
         }
       ]
@@ -954,7 +1551,32 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0887": {
+      "cve_id": "CVE-2026-0887",
+      "title": "Clickjacking issue, information disclosure in the PDF Viewer comp ...",
+      "description": "Clickjacking issue, information disclosure in the PDF Viewer component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
           "fixed": "142.0-r0"
         }
       ]
@@ -967,7 +1589,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "147.0.1-r0"
         }
       ]
@@ -980,8 +1614,54 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "147.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-0890": {
+      "cve_id": "CVE-2026-0890",
+      "title": "Spoofing issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component ...",
+      "description": "Spoofing issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-0891": {
+      "cve_id": "CVE-2026-0891",
+      "title": "Memory safety bugs present in Firefox ESR 140.6, Thunderbird ESR  ...",
+      "description": "Memory safety bugs present in Firefox ESR 140.6, Thunderbird ESR 140.6, Firefox 146 and Thunderbird 146. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 147, Firefox ESR 140.7, Thunderbird 147, and Thunderbird 140.7.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
         }
       ]
     },
@@ -993,7 +1673,19 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "147.0.1-r0"
+        },
+        {
+          "introduced": "142.0-r0",
           "fixed": "147.0.1-r0"
         }
       ]
@@ -1024,6 +1716,48 @@
         }
       ]
     },
+    "CVE-2026-12289": {
+      "cve_id": "CVE-2026-12289",
+      "title": "Privilege escalation in the Graphics: WebRender component. This v ...",
+      "description": "Privilege escalation in the Graphics: WebRender component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12290": {
+      "cve_id": "CVE-2026-12290",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
     "CVE-2026-12291": {
       "cve_id": "CVE-2026-12291",
       "title": "Use-after-free in the Networking: HTTP component. This vulnerabil ...",
@@ -1032,7 +1766,36 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12292": {
+      "cve_id": "CVE-2026-12292",
+      "title": "Incorrect boundary conditions in the Web Audio component. This vu ...",
+      "description": "Incorrect boundary conditions in the Web Audio component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
           "fixed": "142.0-r0"
         },
         {
@@ -1049,7 +1812,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1061,6 +1840,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1079,7 +1866,36 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12296": {
+      "cve_id": "CVE-2026-12296",
+      "title": "Sandbox escape in the Security: Process Sandboxing component. Thi ...",
+      "description": "Sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
           "fixed": "142.0-r0"
         },
         {
@@ -1096,7 +1912,57 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12298": {
+      "cve_id": "CVE-2026-12298",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12299": {
+      "cve_id": "CVE-2026-12299",
+      "title": "JIT miscompilation in the DOM: Core \u0026 HTML component. This vulner ...",
+      "description": "JIT miscompilation in the DOM: Core \u0026 HTML component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
           "fixed": "142.0-r0"
         },
         {
@@ -1113,7 +1979,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1126,7 +2008,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12302": {
+      "cve_id": "CVE-2026-12302",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1139,7 +2058,275 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12304": {
+      "cve_id": "CVE-2026-12304",
+      "title": "Same-origin policy bypass in the Networking: Cookies component. T ...",
+      "description": "Same-origin policy bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12305": {
+      "cve_id": "CVE-2026-12305",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12306": {
+      "cve_id": "CVE-2026-12306",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12307": {
+      "cve_id": "CVE-2026-12307",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12308": {
+      "cve_id": "CVE-2026-12308",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12309": {
+      "cve_id": "CVE-2026-12309",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12310": {
+      "cve_id": "CVE-2026-12310",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12311": {
+      "cve_id": "CVE-2026-12311",
+      "title": "Information disclosure, sandbox escape in the Security: Process S ...",
+      "description": "Information disclosure, sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12312": {
+      "cve_id": "CVE-2026-12312",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12313": {
+      "cve_id": "CVE-2026-12313",
+      "title": "Information disclosure, sandbox escape in the Security: Process S ...",
+      "description": "Information disclosure, sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12314": {
+      "cve_id": "CVE-2026-12314",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12315": {
+      "cve_id": "CVE-2026-12315",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1152,7 +2339,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1165,7 +2368,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1178,7 +2397,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1191,7 +2426,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1204,7 +2455,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1217,7 +2484,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1230,7 +2513,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1243,7 +2542,65 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12324": {
+      "cve_id": "CVE-2026-12324",
+      "title": "Incorrect boundary conditions in the Graphics: CanvasWebGL compon ...",
+      "description": "Incorrect boundary conditions in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12325": {
+      "cve_id": "CVE-2026-12325",
+      "title": "Denial-of-service in the Graphics: ImageLib component. This vulne ...",
+      "description": "Denial-of-service in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1256,7 +2613,65 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "152.0.2-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12327": {
+      "cve_id": "CVE-2026-12327",
+      "title": "Memory safety bugs present in Firefox ESR 140.11, Thunderbird ESR ...",
+      "description": "Memory safety bugs present in Firefox ESR 140.11, Thunderbird ESR 140.11, Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12328": {
+      "cve_id": "CVE-2026-12328",
+      "title": "Memory safety bugs present in Firefox ESR 115.36, Firefox ESR 140 ...",
+      "description": "Memory safety bugs present in Firefox ESR 115.36, Firefox ESR 140.11, Thunderbird ESR 140.11, Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "152.0.2-r0"
         }
       ]
@@ -1268,6 +2683,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -1287,6 +2708,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0"
         },
         {
@@ -1305,6 +2732,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         },
@@ -1321,6 +2756,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1339,6 +2782,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         },
@@ -1355,6 +2806,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1373,6 +2832,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         },
@@ -1389,6 +2856,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1407,6 +2882,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         },
@@ -1423,6 +2906,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1441,6 +2932,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         },
@@ -1457,6 +2956,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1475,6 +2982,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         },
@@ -1491,6 +3006,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1509,8 +3032,58 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-16362": {
+      "cve_id": "CVE-2026-16362",
+      "title": "Use-after-free in the WebRTC: Audio/Video component. This vulnera ...",
+      "description": "Use-after-free in the WebRTC: Audio/Video component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16363": {
+      "cve_id": "CVE-2026-16363",
+      "title": "JIT miscompilation in the JavaScript: WebAssembly component. This ...",
+      "description": "JIT miscompilation in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
         }
       ]
     },
@@ -1522,7 +3095,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1535,7 +3124,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1548,7 +3153,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1561,7 +3182,65 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16368": {
+      "cve_id": "CVE-2026-16368",
+      "title": "Incorrect boundary conditions in the JavaScript: WebAssembly comp ...",
+      "description": "Incorrect boundary conditions in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16369": {
+      "cve_id": "CVE-2026-16369",
+      "title": "Integer overflow in the JavaScript: WebAssembly component. This v ...",
+      "description": "Integer overflow in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1574,7 +3253,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16371": {
+      "cve_id": "CVE-2026-16371",
+      "title": "Privilege escalation in the DOM: Navigation component. This vulne ...",
+      "description": "Privilege escalation in the DOM: Navigation component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1587,7 +3303,65 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16374": {
+      "cve_id": "CVE-2026-16374",
+      "title": "Information disclosure in the Framework component in DevTools. Th ...",
+      "description": "Information disclosure in the Framework component in DevTools. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16375": {
+      "cve_id": "CVE-2026-16375",
+      "title": "Site isolation issue in the Networking: HTTP component. This vuln ...",
+      "description": "Site isolation issue in the Networking: HTTP component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1600,7 +3374,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16377": {
+      "cve_id": "CVE-2026-16377",
+      "title": "Mitigation bypass in the PDF Viewer component. This vulnerability ...",
+      "description": "Mitigation bypass in the PDF Viewer component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1613,7 +3424,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16379": {
+      "cve_id": "CVE-2026-16379",
+      "title": "Privilege escalation in the DOM: Content Processes component. Thi ...",
+      "description": "Privilege escalation in the DOM: Content Processes component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1626,7 +3474,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16381": {
+      "cve_id": "CVE-2026-16381",
+      "title": "Same-origin policy bypass in the Networking: DNS component. This  ...",
+      "description": "Same-origin policy bypass in the Networking: DNS component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1639,7 +3524,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16383": {
+      "cve_id": "CVE-2026-16383",
+      "title": "Mitigation bypass in the DOM: Networking component. This vulnerab ...",
+      "description": "Mitigation bypass in the DOM: Networking component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1652,7 +3574,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1665,7 +3603,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1678,7 +3632,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16387": {
+      "cve_id": "CVE-2026-16387",
+      "title": "Site isolation issue in the Networking component. This vulnerabil ...",
+      "description": "Site isolation issue in the Networking component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1691,7 +3682,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1704,7 +3711,65 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16390": {
+      "cve_id": "CVE-2026-16390",
+      "title": "Mitigation bypass in the Enterprise Policies component. This vuln ...",
+      "description": "Mitigation bypass in the Enterprise Policies component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16391": {
+      "cve_id": "CVE-2026-16391",
+      "title": "Information disclosure in the Storage: IndexedDB component. This  ...",
+      "description": "Information disclosure in the Storage: IndexedDB component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1717,7 +3782,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1730,7 +3811,44 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16396": {
+      "cve_id": "CVE-2026-16396",
+      "title": "Privilege escalation in WebExtensions. This vulnerability was fix ...",
+      "description": "Privilege escalation in WebExtensions. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1743,7 +3861,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1756,7 +3890,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1769,7 +3919,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1782,7 +3948,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1795,7 +3977,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1808,7 +4006,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1821,7 +4035,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1834,7 +4064,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1847,7 +4093,23 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "142.0-r0",
+          "fixed": "153.0.4-r0"
+        },
+        {
+          "introduced": "151.0.3-r0",
           "fixed": "153.0.4-r0"
         }
       ]
@@ -1859,6 +4121,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1873,6 +4143,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -1885,6 +4163,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1899,6 +4185,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -1911,6 +4205,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1925,6 +4227,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -1937,6 +4247,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1951,6 +4269,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -1963,6 +4289,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -1977,6 +4311,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -1989,6 +4331,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2003,6 +4353,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2015,6 +4373,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2029,6 +4395,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2041,6 +4415,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2055,6 +4437,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2067,6 +4457,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2081,6 +4479,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2093,6 +4499,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2107,6 +4521,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2119,6 +4541,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2133,6 +4563,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2145,6 +4583,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2159,6 +4605,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2171,6 +4625,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2185,6 +4647,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2197,6 +4667,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2211,6 +4689,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2223,6 +4709,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2237,6 +4731,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2249,6 +4751,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2263,6 +4773,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2275,6 +4793,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2289,6 +4815,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2301,6 +4835,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2315,6 +4857,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2327,6 +4877,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2341,6 +4899,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2353,6 +4919,14 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
@@ -2367,6 +4941,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2380,6 +4962,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
         }
@@ -2392,6 +4982,15 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -2408,6 +5007,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2423,6 +5031,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2437,6 +5054,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2456,6 +5079,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0"
         },
         {
@@ -2474,6 +5103,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2488,6 +5126,15 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -2504,6 +5151,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2518,6 +5174,15 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -2534,6 +5199,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2548,6 +5222,15 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -2564,6 +5247,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2579,6 +5271,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2593,6 +5294,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2612,6 +5319,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2627,6 +5343,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2641,6 +5366,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2660,6 +5391,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0"
         },
         {
@@ -2678,6 +5415,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2692,6 +5438,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2711,6 +5463,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0"
         },
         {
@@ -2728,6 +5486,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2747,6 +5511,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2761,6 +5534,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2780,6 +5559,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2795,6 +5583,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2809,6 +5606,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2828,7 +5631,36 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-74963": {
+      "cve_id": "CVE-2026-74963",
+      "title": "Same-origin policy bypass in the Networking: Cookies component. T ...",
+      "description": "Same-origin policy bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
         },
         {
           "introduced": "151.0.3-r0"
@@ -2843,7 +5675,36 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
+          "introduced": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-74965": {
+      "cve_id": "CVE-2026-74965",
+      "title": "Privilege escalation in the Shell Integration component. This vul ...",
+      "description": "Privilege escalation in the Shell Integration component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
         },
         {
           "introduced": "151.0.3-r0"
@@ -2857,6 +5718,15 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -2872,6 +5742,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2891,6 +5767,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2905,6 +5790,15 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -2921,6 +5815,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2935,6 +5838,15 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
         {
           "introduced": "142.0-r0"
         },
@@ -2951,6 +5863,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2966,6 +5887,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -2980,6 +5910,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -2999,6 +5935,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -3014,6 +5959,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -3028,6 +5982,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -3047,6 +6007,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
           "introduced": "136.0.4-r0"
         },
         {
@@ -3065,6 +6031,15 @@
       "status": "open",
       "events": [
         {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "142.0-r0"
+        },
+        {
           "introduced": "142.0-r0"
         },
         {
@@ -3079,6 +6054,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "132.0.2-r0"
+        },
+        {
+          "introduced": "132.0.2-r0"
+        },
         {
           "introduced": "136.0.4-r0"
         },
@@ -3097,6 +6078,14 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
+        {
+          "introduced": "132.0.2-r0",
+          "fixed": "142.0-r0"
+        },
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"

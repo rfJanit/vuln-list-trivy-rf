@@ -12,6 +12,10 @@
         {
           "introduced": "8.2.26-r0",
           "fixed": "8.2.28-r0"
+        },
+        {
+          "introduced": "8.2.26-r0",
+          "fixed": "8.2.28-r0"
         }
       ]
     },
@@ -22,6 +26,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "8.2.26-r0",
+          "fixed": "8.2.28-r0"
+        },
         {
           "introduced": "8.2.26-r0",
           "fixed": "8.2.28-r0"
@@ -90,6 +98,10 @@
         {
           "introduced": "8.2.26-r0",
           "fixed": "8.2.28-r0"
+        },
+        {
+          "introduced": "8.2.26-r0",
+          "fixed": "8.2.28-r0"
         }
       ]
     },
@@ -116,6 +128,10 @@
         {
           "introduced": "8.2.26-r0",
           "fixed": "8.2.28-r0"
+        },
+        {
+          "introduced": "8.2.26-r0",
+          "fixed": "8.2.28-r0"
         }
       ]
     },
@@ -126,6 +142,10 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "8.2.26-r0",
+          "fixed": "8.2.28-r0"
+        },
         {
           "introduced": "8.2.26-r0",
           "fixed": "8.2.28-r0"
@@ -277,8 +297,8 @@
     },
     "CVE-2026-9672": {
       "cve_id": "CVE-2026-9672",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "CVE-2026-9672",
+      "description": "NOTE: Fixed by: https://github.com/php/php-src/commit/b590f0380fda26ed180874a0255f0be078434315 (php-8.4.24) DEBIANBUG: [1143152]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

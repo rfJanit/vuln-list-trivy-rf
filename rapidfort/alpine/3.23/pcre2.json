@@ -12,6 +12,10 @@
         {
           "introduced": "10.45-r0",
           "fixed": "10.46-r0"
+        },
+        {
+          "introduced": "10.45-r0",
+          "fixed": "10.46-r0"
         }
       ]
     }

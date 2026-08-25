@@ -2,6 +2,27 @@
   "package_name": "fluidsynth",
   "distro_version": "3.23",
   "advisories": {
+    "CVE-2025-56225": {
+      "cve_id": "CVE-2025-56225",
+      "title": "fluidsynth-2.4.6 and earlier versions is vulnerable to Null point ...",
+      "description": "fluidsynth-2.4.6 and earlier versions is vulnerable to Null pointer dereference in fluid_synth_monopoly.c, that can be triggered when loading an invalid midi file.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "2.3.5-r0",
+          "fixed": "2.5.1-r1"
+        },
+        {
+          "introduced": "2.4.1-r0",
+          "fixed": "2.5.1-r1"
+        },
+        {
+          "introduced": "2.4.4-r3",
+          "fixed": "2.5.1-r1"
+        }
+      ]
+    },
     "CVE-2025-68617": {
       "cve_id": "CVE-2025-68617",
       "title": "FluidSynth is a software synthesizer based on the SoundFont 2 spe ...",

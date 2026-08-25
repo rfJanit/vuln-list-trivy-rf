@@ -10,6 +10,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
+        {
           "introduced": "0.20251015.172955-r6"
         }
       ]
@@ -21,6 +33,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
         {
           "introduced": "0.20251015.172955-r6"
         }
@@ -34,6 +58,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
+        {
           "introduced": "0.20251015.172955-r6"
         }
       ]
@@ -45,6 +81,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
         {
           "introduced": "0.20251015.172955-r6"
         }
@@ -58,6 +106,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
+        {
           "introduced": "0.20251015.172955-r6"
         }
       ]
@@ -69,6 +129,18 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
         {
           "introduced": "0.20251015.172955-r6"
         }
@@ -82,6 +154,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
+        {
           "introduced": "0.20251015.172955-r6"
         }
       ]
@@ -93,6 +177,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
         {
           "introduced": "0.20251015.172955-r6"
         }
@@ -106,6 +202,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
+        {
           "introduced": "0.20251015.172955-r6"
         }
       ]
@@ -118,6 +226,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
+        {
           "introduced": "0.20251015.172955-r6"
         }
       ]
@@ -129,6 +249,18 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20240527.191746-r2"
+        },
+        {
+          "introduced": "0.20250524.170830-r5"
+        },
+        {
+          "introduced": "0.20251015.172955-r6"
+        },
         {
           "introduced": "0.20251015.172955-r6"
         }

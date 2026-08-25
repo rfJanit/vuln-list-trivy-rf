@@ -10,6 +10,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.3.2-r0"
+        },
+        {
+          "introduced": "2.3.2-r1"
+        },
+        {
+          "introduced": "2.3.2-r1"
+        },
+        {
+          "introduced": "2.3.2-r1"
+        },
+        {
           "introduced": "2.3.2-r1"
         }
       ]
@@ -21,6 +33,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.3.2-r0"
+        },
+        {
+          "introduced": "2.3.2-r1"
+        },
+        {
+          "introduced": "2.3.2-r1"
+        },
+        {
+          "introduced": "2.3.2-r1"
+        },
         {
           "introduced": "2.3.2-r1"
         }
