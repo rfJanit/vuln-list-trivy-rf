@@ -37,6 +37,9 @@
       "events": [
         {
           "introduced": "3.26.1-r0"
+        },
+        {
+          "introduced": "3.27.3-r1"
         }
       ]
     }

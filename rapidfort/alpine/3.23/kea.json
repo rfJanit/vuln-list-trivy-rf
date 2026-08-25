@@ -11,6 +11,9 @@
       "events": [
         {
           "introduced": "2.6.5-r0"
+        },
+        {
+          "introduced": "3.0.3-r0"
         }
       ]
     },

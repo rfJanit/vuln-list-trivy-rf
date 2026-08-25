@@ -11,6 +11,9 @@
       "events": [
         {
           "introduced": "6.6.0-r1"
+        },
+        {
+          "introduced": "6.6.4-r0"
         }
       ]
     },
@@ -23,6 +26,9 @@
       "events": [
         {
           "introduced": "6.6.0-r1"
+        },
+        {
+          "introduced": "6.6.4-r0"
         }
       ]
     },
@@ -35,6 +41,9 @@
       "events": [
         {
           "introduced": "6.6.0-r1"
+        },
+        {
+          "introduced": "6.6.4-r0"
         }
       ]
     },
@@ -47,6 +56,9 @@
       "events": [
         {
           "introduced": "6.6.0-r1"
+        },
+        {
+          "introduced": "6.6.4-r0"
         }
       ]
     },
@@ -59,6 +71,9 @@
       "events": [
         {
           "introduced": "6.6.0-r1"
+        },
+        {
+          "introduced": "6.6.4-r0"
         }
       ]
     }

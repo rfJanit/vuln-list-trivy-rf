@@ -602,10 +602,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
         }
@@ -618,10 +614,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
@@ -636,10 +628,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
         }
@@ -652,10 +640,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
@@ -670,10 +654,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
         }
@@ -686,10 +666,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
@@ -704,10 +680,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
         }
@@ -720,10 +692,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
@@ -738,10 +706,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
         }
@@ -754,10 +718,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
@@ -959,10 +919,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el9"
-        },
-        {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"
         }
@@ -975,10 +931,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        },
         {
           "introduced": "143.0.3-1.fc43",
           "identifier": "fc43"

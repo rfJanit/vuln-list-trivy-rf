@@ -63,6 +63,9 @@
       "events": [
         {
           "introduced": "4.0.0-r1"
+        },
+        {
+          "introduced": "4.0.2-r3"
         }
       ]
     },
@@ -75,6 +78,9 @@
       "events": [
         {
           "introduced": "4.0.0-r1"
+        },
+        {
+          "introduced": "4.0.2-r3"
         }
       ]
     },
@@ -152,6 +158,9 @@
       "events": [
         {
           "introduced": "4.0.0-r1"
+        },
+        {
+          "introduced": "4.0.2-r3"
         }
       ]
     },
@@ -164,6 +173,9 @@
       "events": [
         {
           "introduced": "4.0.0-r1"
+        },
+        {
+          "introduced": "4.0.2-r3"
         }
       ]
     },
@@ -176,6 +188,9 @@
       "events": [
         {
           "introduced": "4.0.0-r1"
+        },
+        {
+          "introduced": "4.0.2-r3"
         }
       ]
     },

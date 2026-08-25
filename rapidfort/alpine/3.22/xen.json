@@ -63,6 +63,12 @@
       "events": [
         {
           "introduced": "4.19.3-r0"
+        },
+        {
+          "introduced": "4.20.3-r4"
+        },
+        {
+          "introduced": "4.21.1-r6"
         }
       ]
     },
@@ -465,6 +471,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -478,6 +492,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -491,6 +513,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -504,6 +534,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -517,6 +555,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -530,6 +576,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -543,6 +597,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -556,6 +618,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -569,6 +639,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -582,6 +660,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -595,6 +681,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -608,6 +702,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -621,6 +723,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -634,6 +744,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -647,6 +765,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -660,6 +786,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     },
@@ -673,6 +807,14 @@
         {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.4-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.21.2-r0"
+        },
+        {
+          "introduced": "4.21.1-r6",
+          "fixed": "4.22.0-r0"
         }
       ]
     }

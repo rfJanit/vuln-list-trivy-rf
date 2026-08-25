@@ -446,6 +446,9 @@
       "events": [
         {
           "introduced": "3.4.0-r5"
+        },
+        {
+          "introduced": "3.7.1-r0"
         }
       ]
     },
@@ -458,6 +461,9 @@
       "events": [
         {
           "introduced": "3.4.0-r5"
+        },
+        {
+          "introduced": "3.7.1-r0"
         }
       ]
     },
@@ -485,6 +491,9 @@
       "events": [
         {
           "introduced": "3.4.0-r5"
+        },
+        {
+          "introduced": "3.7.1-r0"
         }
       ]
     }

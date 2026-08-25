@@ -12,6 +12,10 @@
         {
           "introduced": "3.4.1-r1",
           "fixed": "3.4.1-r2"
+        },
+        {
+          "introduced": "3.5.1-r1",
+          "fixed": "3.5.3-r0"
         }
       ]
     }

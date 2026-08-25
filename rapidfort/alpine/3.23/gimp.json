@@ -226,6 +226,9 @@
       "events": [
         {
           "introduced": "3.0.4-r1"
+        },
+        {
+          "introduced": "3.2.4-r0"
         }
       ]
     }

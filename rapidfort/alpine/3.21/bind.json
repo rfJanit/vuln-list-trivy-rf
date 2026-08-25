@@ -380,6 +380,10 @@
           "fixed": "9.18.47-r0"
         },
         {
+          "introduced": "9.20.15-r0",
+          "fixed": "9.20.21-r0"
+        },
+        {
           "introduced": "9.20.18-r0",
           "fixed": "9.20.21-r0"
         }
@@ -395,6 +399,14 @@
         {
           "introduced": "9.18.39-r0",
           "fixed": "9.18.49-r0"
+        },
+        {
+          "introduced": "9.20.15-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
+          "introduced": "9.20.18-r0",
+          "fixed": "9.20.23-r0"
         },
         {
           "introduced": "9.20.21-r0",
@@ -477,6 +489,14 @@
           "fixed": "9.18.49-r0"
         },
         {
+          "introduced": "9.20.15-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
+          "introduced": "9.20.18-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
         }
@@ -492,6 +512,14 @@
         {
           "introduced": "9.18.39-r0",
           "fixed": "9.18.49-r0"
+        },
+        {
+          "introduced": "9.20.15-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
+          "introduced": "9.20.18-r0",
+          "fixed": "9.20.23-r0"
         },
         {
           "introduced": "9.20.21-r0",
@@ -511,6 +539,14 @@
           "fixed": "9.18.49-r0"
         },
         {
+          "introduced": "9.20.15-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
+          "introduced": "9.20.18-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
         }
@@ -528,6 +564,14 @@
           "fixed": "9.18.49-r0"
         },
         {
+          "introduced": "9.20.15-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
+          "introduced": "9.20.18-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
           "introduced": "9.20.21-r0",
           "fixed": "9.20.23-r0"
         }
@@ -543,6 +587,14 @@
         {
           "introduced": "9.18.39-r0",
           "fixed": "9.18.49-r0"
+        },
+        {
+          "introduced": "9.20.15-r0",
+          "fixed": "9.20.23-r0"
+        },
+        {
+          "introduced": "9.20.18-r0",
+          "fixed": "9.20.23-r0"
         },
         {
           "introduced": "9.20.21-r0",

@@ -82,6 +82,9 @@
       "events": [
         {
           "introduced": "2.6.20-r0"
+        },
+        {
+          "introduced": "2.7.5-r0"
         }
       ]
     },

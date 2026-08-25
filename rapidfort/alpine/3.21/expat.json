@@ -500,6 +500,15 @@
           "introduced": "2.6.3-r0"
         },
         {
+          "introduced": "2.7.0-r0"
+        },
+        {
+          "introduced": "2.7.2-r0"
+        },
+        {
+          "introduced": "2.7.4-r0"
+        },
+        {
           "introduced": "2.8.2-r0"
         }
       ]

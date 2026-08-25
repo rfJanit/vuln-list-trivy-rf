@@ -939,6 +939,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -969,6 +975,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -981,6 +993,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -993,6 +1011,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1005,6 +1029,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1017,6 +1047,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1042,6 +1078,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },
@@ -1054,6 +1096,12 @@
       "events": [
         {
           "introduced": "6.1.2-r1"
+        },
+        {
+          "introduced": "8.0.1-r1"
+        },
+        {
+          "introduced": "8.1.2-r0"
         }
       ]
     },

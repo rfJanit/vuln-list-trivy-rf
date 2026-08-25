@@ -11,6 +11,9 @@
       "events": [
         {
           "introduced": "6.3.6-r0"
+        },
+        {
+          "introduced": "6.5.6-r0"
         }
       ]
     }

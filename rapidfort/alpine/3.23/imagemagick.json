@@ -11,6 +11,9 @@
       "events": [
         {
           "introduced": "7.1.2.15-r0"
+        },
+        {
+          "introduced": "7.1.2.27-r0"
         }
       ]
     },
@@ -23,6 +26,9 @@
       "events": [
         {
           "introduced": "7.1.2.15-r0"
+        },
+        {
+          "introduced": "7.1.2.27-r0"
         }
       ]
     },
@@ -35,6 +41,9 @@
       "events": [
         {
           "introduced": "7.1.2.15-r0"
+        },
+        {
+          "introduced": "7.1.2.27-r0"
         }
       ]
     },
@@ -47,6 +56,9 @@
       "events": [
         {
           "introduced": "7.1.2.15-r0"
+        },
+        {
+          "introduced": "7.1.2.27-r0"
         }
       ]
     },
@@ -59,6 +71,9 @@
       "events": [
         {
           "introduced": "7.1.2.15-r0"
+        },
+        {
+          "introduced": "7.1.2.27-r0"
         }
       ]
     },
@@ -71,6 +86,9 @@
       "events": [
         {
           "introduced": "7.1.2.15-r0"
+        },
+        {
+          "introduced": "7.1.2.27-r0"
         }
       ]
     },

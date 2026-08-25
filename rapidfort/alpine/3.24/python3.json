@@ -2,18 +2,6 @@
   "package_name": "python3",
   "distro_version": "3.24",
   "advisories": {
-    "CVE-2023-36632": {
-      "cve_id": "CVE-2023-36632",
-      "title": "The legacy email.utils.parseaddr function in Python through 3.11. ...",
-      "description": "The legacy email.utils.parseaddr function in Python through 3.11.4 allows attackers to trigger \"RecursionError: maximum recursion depth exceeded while calling a Python object\" via a crafted argument. This argument is plausibly an untrusted value from an application's input data that was supposed to contain a name and an e-mail address. NOTE: email.utils.parseaddr is categorized as a Legacy API in the documentation of the Python email package. Applications should instead use the email.parser.BytesParser or email.parser.Parser class. NOTE: the vendor's perspective is that this is neither a vulnerability nor a bug. The email package is intended to have size limits and to throw an exception when limits are exceeded; they were exceeded by the example demonstration code.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.14.3-r0"
-        }
-      ]
-    },
     "CVE-2024-12254": {
       "cve_id": "CVE-2024-12254",
       "title": "Starting in Python 3.12.0, the asyncio._SelectorSocketTransport.w ...",
@@ -45,18 +33,6 @@
         {
           "introduced": "3.12.9-r0",
           "fixed": "3.12.11-r0"
-        }
-      ]
-    },
-    "CVE-2024-3220": {
-      "cve_id": "CVE-2024-3220",
-      "title": "There is a defect in the CPython standard library module “mimetyp ...",
-      "description": "There is a defect in the CPython standard library module “mimetypes” where on Windows the default list of known file locations are writable meaning other users can create invalid files to cause MemoryError to be raised on Python runtime startup or have file extensions be interpreted as the incorrect file type.\n\nThis defect is caused by the default locations of Linux and macOS platforms (such as “/etc/mime.types”) also being used on Windows, where they are user-writable locations (“C:\\etc\\mime.types”).\n\nTo work-around this issue a user can call mimetypes.init() with an empty list (“[]”) on Windows platforms to avoid using the default list of known file locations.",
-      "severity": "",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "3.14.3-r0"
         }
       ]
     },
@@ -117,6 +93,19 @@
         {
           "introduced": "3.9.25-r0",
           "fixed": "3.12.13-r0"
+        }
+      ]
+    },
+    "CVE-2025-12781": {
+      "cve_id": "CVE-2025-12781",
+      "title": "When passing data to the b64decode(), standard_b64decode(), and u ...",
+      "description": "When passing data to the b64decode(), standard_b64decode(), and urlsafe_b64decode() functions in the \"base64\" module the characters \"+/\" will always be accepted, regardless of the value of \"altchars\" parameter, typically used to establish an \"alternative base64 alphabet\" such as the URL safe alphabet. This behavior matches what is recommended in earlier base64 RFCs, but newer RFCs now recommend either dropping characters outside the specified base64 alphabet or raising an error. The old behavior has the possibility of causing data integrity issues.\n\n\n\n\nThis behavior can only be insecure if your application uses an alternate base64 alphabet (without \"+/\"). If your application does not use the \"altchars\" parameter or the urlsafe_b64decode() function, then your application does not use an alternative base64 alphabet.\n\n\n\n\nThe attached patches DOES NOT make the base64-decode behavior raise an error, as this would be a change in behavior and break existing programs. Instead, the patch deprecates the behavior which will be replaced with the newly recommended behavior in a future version of Python. Users are recommended to mitigate by verifying user-controlled inputs match the base64 \nalphabet they are expecting or verify that their application would not be \naffected if the b64decode() functions accepted \"+\" or \"/\" outside of altchars.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.9.25-r0",
+          "fixed": "3.12.9-r0"
         }
       ]
     },
@@ -202,6 +191,9 @@
       "events": [
         {
           "introduced": "3.14.3-r0"
+        },
+        {
+          "introduced": "3.14.5-r1"
         },
         {
           "introduced": "3.9.25-r0"
@@ -513,6 +505,9 @@
           "introduced": "3.14.3-r0"
         },
         {
+          "introduced": "3.14.5-r1"
+        },
+        {
           "introduced": "3.9.25-r0"
         }
       ]
@@ -526,6 +521,9 @@
       "events": [
         {
           "introduced": "3.14.3-r0"
+        },
+        {
+          "introduced": "3.14.5-r1"
         },
         {
           "introduced": "3.9.25-r0"
@@ -558,6 +556,9 @@
       "events": [
         {
           "introduced": "3.14.3-r0"
+        },
+        {
+          "introduced": "3.14.5-r1"
         },
         {
           "introduced": "3.9.25-r0"

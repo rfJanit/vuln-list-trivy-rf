@@ -24,6 +24,15 @@
       "events": [
         {
           "introduced": "1.8.4-r0"
+        },
+        {
+          "introduced": "2.0.1-r0"
+        },
+        {
+          "introduced": "2.2.1-r0"
+        },
+        {
+          "introduced": "2.3.3-r0"
         }
       ]
     }

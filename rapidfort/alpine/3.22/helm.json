@@ -37,6 +37,9 @@
       "events": [
         {
           "introduced": "3.18.4-r5"
+        },
+        {
+          "introduced": "3.19.0-r7"
         }
       ]
     },
@@ -49,6 +52,9 @@
       "events": [
         {
           "introduced": "3.18.4-r5"
+        },
+        {
+          "introduced": "3.19.0-r7"
         }
       ]
     }

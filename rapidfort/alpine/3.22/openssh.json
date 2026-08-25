@@ -306,6 +306,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "10.0_p1-r9"
+        },
+        {
+          "introduced": "10.3_p1-r0"
+        },
+        {
           "introduced": "9.7_p1-r5"
         },
         {
@@ -321,6 +327,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "10.0_p1-r9"
+        },
+        {
+          "introduced": "10.3_p1-r0"
+        },
+        {
           "introduced": "9.7_p1-r5"
         },
         {
@@ -335,6 +347,12 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "10.0_p1-r9"
+        },
+        {
+          "introduced": "10.3_p1-r0"
+        },
         {
           "introduced": "9.7_p1-r5"
         },

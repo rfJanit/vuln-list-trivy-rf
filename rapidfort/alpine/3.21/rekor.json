@@ -37,6 +37,15 @@
       "events": [
         {
           "introduced": "1.3.5-r5"
+        },
+        {
+          "introduced": "1.3.6-r5"
+        },
+        {
+          "introduced": "1.3.9-r8"
+        },
+        {
+          "introduced": "1.4.2-r6"
         }
       ]
     }

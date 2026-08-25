@@ -11,6 +11,9 @@
       "events": [
         {
           "introduced": "3.39-r0"
+        },
+        {
+          "introduced": "3.41-r0"
         }
       ]
     },
@@ -23,6 +26,9 @@
       "events": [
         {
           "introduced": "3.39-r0"
+        },
+        {
+          "introduced": "3.41-r0"
         }
       ]
     }

@@ -24,6 +24,9 @@
       "events": [
         {
           "introduced": "2.2.1-r0"
+        },
+        {
+          "introduced": "2.3.3-r0"
         }
       ]
     }

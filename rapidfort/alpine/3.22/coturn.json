@@ -115,6 +115,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     },
@@ -127,6 +130,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     },
@@ -139,6 +145,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     },
@@ -151,6 +160,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     },
@@ -176,6 +188,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     },
@@ -188,6 +203,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     },
@@ -200,6 +218,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     },
@@ -212,6 +233,9 @@
       "events": [
         {
           "introduced": "4.6.3-r1"
+        },
+        {
+          "introduced": "4.10.0-r0"
         }
       ]
     }

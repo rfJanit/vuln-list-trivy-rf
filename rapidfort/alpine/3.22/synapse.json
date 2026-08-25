@@ -11,6 +11,15 @@
       "events": [
         {
           "introduced": "1.130.0-r0"
+        },
+        {
+          "introduced": "1.141.0-r0"
+        },
+        {
+          "introduced": "1.154.0-r1"
+        },
+        {
+          "introduced": "1.157.2-r0"
         }
       ]
     },
@@ -23,6 +32,15 @@
       "events": [
         {
           "introduced": "1.130.0-r0"
+        },
+        {
+          "introduced": "1.141.0-r0"
+        },
+        {
+          "introduced": "1.154.0-r1"
+        },
+        {
+          "introduced": "1.157.2-r0"
         }
       ]
     },
@@ -129,6 +147,15 @@
       "events": [
         {
           "introduced": "1.130.0-r0"
+        },
+        {
+          "introduced": "1.141.0-r0"
+        },
+        {
+          "introduced": "1.154.0-r1"
+        },
+        {
+          "introduced": "1.157.2-r0"
         }
       ]
     },
@@ -141,6 +168,15 @@
       "events": [
         {
           "introduced": "1.130.0-r0"
+        },
+        {
+          "introduced": "1.141.0-r0"
+        },
+        {
+          "introduced": "1.154.0-r1"
+        },
+        {
+          "introduced": "1.157.2-r0"
         }
       ]
     },
@@ -153,6 +189,15 @@
       "events": [
         {
           "introduced": "1.130.0-r0"
+        },
+        {
+          "introduced": "1.141.0-r0"
+        },
+        {
+          "introduced": "1.154.0-r1"
+        },
+        {
+          "introduced": "1.157.2-r0"
         }
       ]
     },

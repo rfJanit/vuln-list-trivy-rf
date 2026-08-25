@@ -50,6 +50,12 @@
       "events": [
         {
           "introduced": "2.4.1-r2"
+        },
+        {
+          "introduced": "2.4.3-r1"
+        },
+        {
+          "introduced": "2.4.3-r2"
         }
       ]
     },
@@ -62,6 +68,12 @@
       "events": [
         {
           "introduced": "2.4.1-r2"
+        },
+        {
+          "introduced": "2.4.3-r1"
+        },
+        {
+          "introduced": "2.4.3-r2"
         }
       ]
     },
