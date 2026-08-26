@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -24,7 +24,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -75,7 +75,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -88,7 +88,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -127,7 +127,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -140,7 +140,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -166,7 +166,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -218,7 +218,7 @@
       "events": [
         {
           "introduced": "3.10.19-r1",
-          "fixed": "3.10.20-r1"
+          "fixed": "3.10.20"
         }
       ]
     },
@@ -277,10 +277,11 @@
       "title": "Attacker-controlled CSV samples can trigger super-linear \nregular ...",
       "description": "Attacker-controlled CSV samples can trigger super-linear \nregular-expression work during dialect sniffing and consume significant \nCPU when applications pass unbounded input to csv.Sniffer.sniff().",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.20-r1"
+          "introduced": "3.10.20-r1",
+          "fixed": "3.10.21"
         }
       ]
     },
@@ -314,10 +315,11 @@
       "title": "unicodedata.normalize() can take excessive CPU time when processi ...",
       "description": "unicodedata.normalize() can take excessive CPU time when processing\nspecially crafted Unicode input containing long runs of combining characters\nwith alternating Canonical Combining Class values.\nThis affects all normalization forms.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.20-r1"
+          "introduced": "3.10.20-r1",
+          "fixed": "3.10.21"
         }
       ]
     },
@@ -429,10 +431,11 @@
       "title": "`Element.findall()` and fully-consumed `Element.iterfind()` exhib ...",
       "description": "`Element.findall()` and fully-consumed `Element.iterfind()` exhibit `O(n^2)` time complexity when using XPath index predicates (e.g. `[1]`, `[last()]`, `[last()-N]`) on XML documents with many same-tag siblings. `Element.find()` is only affected when the first match is near the end  of the sibling list, such as with `[last()]` or `[last()-N]`;  `.//item[1]` short-circuits after the first match.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "3.10.20-r1"
+          "introduced": "3.10.20-r1",
+          "fixed": "3.10.21"
         }
       ]
     },

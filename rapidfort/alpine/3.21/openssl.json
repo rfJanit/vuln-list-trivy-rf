@@ -269,7 +269,7 @@
         },
         {
           "introduced": "3.1.6_p1-r0",
-          "fixed": "3.3.1_p1-r0"
+          "fixed": "3.1.7-r1"
         },
         {
           "introduced": "3.3.2-r0",
@@ -514,8 +514,24 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -527,8 +543,24 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -540,8 +572,24 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -728,10 +776,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -757,10 +801,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -790,10 +830,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -819,10 +855,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -848,10 +880,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -881,10 +909,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -914,10 +938,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -943,10 +963,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -972,10 +988,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -1005,10 +1017,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -1038,10 +1046,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -1071,10 +1075,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -1104,10 +1104,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -1123,8 +1119,24 @@
           "fixed": "3.1.7-r1"
         },
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -1140,8 +1152,24 @@
           "fixed": "3.1.7-r1"
         },
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -1153,8 +1181,24 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -1170,8 +1214,24 @@
           "fixed": "3.1.7-r1"
         },
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -1183,8 +1243,24 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -1200,8 +1276,24 @@
           "fixed": "3.1.7-r1"
         },
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -1231,10 +1323,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     },
@@ -1250,8 +1338,24 @@
           "fixed": "3.1.7-r1"
         },
         {
-          "introduced": "3.5.7_p0-r0",
-          "fixed": "3.5.7_p1-r0"
+          "introduced": "3.3.2_p0-r1",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.6_p0-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7-r0",
+          "fixed": "3.5.8-r0"
+        },
+        {
+          "introduced": "3.5.7_p1-r0",
+          "fixed": "3.5.8-r0"
         }
       ]
     },
@@ -1281,10 +1385,6 @@
         {
           "introduced": "3.5.6_p0-r0",
           "fixed": "3.5.7-r0"
-        },
-        {
-          "introduced": "3.5.6_p0-r0",
-          "fixed": "3.5.7_p0-r0"
         }
       ]
     }

@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "141.0.7390.107-1.fc43",
+          "fixed": "141.0.7390.65-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -40,7 +40,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "141.0.7390.107-1.fc43",
+          "fixed": "141.0.7390.65-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -98,7 +98,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "142.0.7444.59-1.fc43",
+          "fixed": "141.0.7390.122-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -776,7 +776,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "142.0.7444.175-2.fc43",
+          "fixed": "142.0.7444.162-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -13430,7 +13430,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "149.0.7827.196-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -13449,7 +13449,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "149.0.7827.196-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -13677,7 +13677,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "149.0.7827.196-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -13715,7 +13715,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "149.0.7827.196-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -13734,7 +13734,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "149.0.7827.196-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21793,7 +21793,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21817,7 +21817,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21841,7 +21841,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21865,7 +21865,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21889,7 +21889,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21913,7 +21913,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21937,7 +21937,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21961,7 +21961,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -21985,7 +21985,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -22009,7 +22009,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -22033,7 +22033,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -22057,7 +22057,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -22081,7 +22081,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -22105,7 +22105,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "150.0.7871.181-1.fc43",
+          "fixed": "150.0.7871.124-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34228,7 +34228,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34257,7 +34257,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34286,7 +34286,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34315,7 +34315,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34344,7 +34344,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34373,7 +34373,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34402,7 +34402,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34431,7 +34431,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34460,7 +34460,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34489,7 +34489,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34518,7 +34518,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34547,7 +34547,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34576,7 +34576,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34605,7 +34605,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34634,7 +34634,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34663,7 +34663,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34692,7 +34692,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34721,7 +34721,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34750,7 +34750,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34779,7 +34779,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34808,7 +34808,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34837,7 +34837,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34866,7 +34866,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34895,7 +34895,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34924,7 +34924,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34953,7 +34953,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -34982,7 +34982,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35011,7 +35011,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35040,7 +35040,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35069,7 +35069,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35098,7 +35098,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35127,7 +35127,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35156,7 +35156,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35185,7 +35185,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35214,7 +35214,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35243,7 +35243,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35272,7 +35272,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35301,7 +35301,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35330,7 +35330,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35359,7 +35359,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35388,7 +35388,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35417,7 +35417,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35446,7 +35446,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35475,7 +35475,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35504,7 +35504,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35533,7 +35533,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35562,7 +35562,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35591,7 +35591,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35620,7 +35620,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35649,7 +35649,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35678,7 +35678,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35707,7 +35707,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35736,7 +35736,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35765,7 +35765,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35794,7 +35794,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35823,7 +35823,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35852,7 +35852,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35881,7 +35881,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35910,7 +35910,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -35939,7 +35939,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "147.0.7727.55-1.fc43",
+          "fixed": "147.0.7727.101-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38055,10 +38055,250 @@
         }
       ]
     },
+    "CVE-2026-76036": {
+      "cve_id": "CVE-2026-76036",
+      "title": "Buffer overflow in Dawn in Google Chrome on on Android prior to 1 ...",
+      "description": "Buffer overflow in Dawn in Google Chrome on on Android prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Critical)",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76037": {
+      "cve_id": "CVE-2026-76037",
+      "title": "Link following in CredentialProvider in Google Chrome on on Windo ...",
+      "description": "Link following in CredentialProvider in Google Chrome on on Windows prior to 151.0.7922.169 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76038": {
+      "cve_id": "CVE-2026-76038",
+      "title": "Type confusion in V8 in Google Chrome prior to 151.0.7922.169 all ...",
+      "description": "Type confusion in V8 in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76039": {
+      "cve_id": "CVE-2026-76039",
+      "title": "Incorrect reference resolution in Core in Google Chrome on on And ...",
+      "description": "Incorrect reference resolution in Core in Google Chrome on on Android prior to 151.0.7922.169 allowed a remote attacker leveraging social engineering to obtain sensitive information via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76040": {
+      "cve_id": "CVE-2026-76040",
+      "title": "Use after free in Browser in Google Chrome on on Mac prior to 151 ...",
+      "description": "Use after free in Browser in Google Chrome on on Mac prior to 151.0.7922.169 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76041": {
+      "cve_id": "CVE-2026-76041",
+      "title": "Information leak in Skia in Google Chrome prior to 151.0.7922.169 ...",
+      "description": "Information leak in Skia in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to potentially bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76042": {
+      "cve_id": "CVE-2026-76042",
+      "title": "Use of uninitialized resource in GPU in Google Chrome prior to 15 ...",
+      "description": "Use of uninitialized resource in GPU in Google Chrome prior to 151.0.7922.169 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76043": {
+      "cve_id": "CVE-2026-76043",
+      "title": "Incorrect calculation in V8 in Google Chrome prior to 151.0.7922. ...",
+      "description": "Incorrect calculation in V8 in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76044": {
+      "cve_id": "CVE-2026-76044",
+      "title": "Race condition in USB in Google Chrome prior to 151.0.7922.169 al ...",
+      "description": "Race condition in USB in Google Chrome prior to 151.0.7922.169 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
     "CVE-2026-76045": {
       "cve_id": "CVE-2026-76045",
       "title": "Use after free in WebGL in Google Chrome prior to 151.0.7922.169  ...",
       "description": "Use after free in WebGL in Google Chrome prior to 151.0.7922.169 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "141.0.7390.54-1.fc43",
+          "fixed": "151.0.7922.173-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.169-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "151.0.7922.173-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
+    "CVE-2026-76046": {
+      "cve_id": "CVE-2026-76046",
+      "title": "Buffer overflow in ANGLE in Google Chrome on on Android prior to  ...",
+      "description": "Buffer overflow in ANGLE in Google Chrome on on Android prior to 151.0.7922.169 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
       "severity": "HIGH",
       "status": "fixed",
       "events": [
@@ -38112,7 +38352,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38141,7 +38381,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38170,7 +38410,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38199,7 +38439,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38228,7 +38468,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38257,7 +38497,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38286,7 +38526,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38315,7 +38555,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38344,7 +38584,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38373,7 +38613,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38402,7 +38642,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38431,7 +38671,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38460,7 +38700,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38489,7 +38729,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -38518,7 +38758,7 @@
       "events": [
         {
           "introduced": "141.0.7390.54-1.fc43",
-          "fixed": "148.0.7778.96-1.fc43",
+          "fixed": "148.0.7778.167-1.fc43",
           "identifier": "fc43"
         },
         {

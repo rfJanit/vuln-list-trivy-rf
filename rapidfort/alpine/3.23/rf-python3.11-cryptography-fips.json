@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "46.0.5-r0",
-          "fixed": "48.0.1-r0"
+          "fixed": "46.0.6"
         }
       ]
     },
