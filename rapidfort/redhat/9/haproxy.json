@@ -65,8 +65,12 @@
       "title": "HAProxy Community Edition 3.0 through 3.3 before 3.3.3 lacks a le ...",
       "description": "HAProxy Community Edition 3.0 through 3.3 before 3.3.3 lacks a length check for the NEW_TOKEN format. HAProxy Enterprise and ALOHA are also affected.",
       "severity": "MEDIUM",
-      "status": "fixed",
+      "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "identifier": "el9"
+        },
         {
           "introduced": "3.0.5-4.fc43",
           "fixed": "3.0.25-1.fc43",

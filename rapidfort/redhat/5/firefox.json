@@ -471,6 +471,19 @@
         }
       ]
     },
+    "CVE-2026-67214": {
+      "cve_id": "CVE-2026-67214",
+      "title": "nanoid (Nano ID) before 3.3.16 and 5.1.16 contains an infinite lo ...",
+      "description": "nanoid (Nano ID) before 3.3.16 and 5.1.16 contains an infinite loop in the customAlphabet and nanoid functions of its non-secure module (nanoid/non-secure). When these functions are given a negative size, the loop counter is decremented from a negative value and never reaches its termination condition, spinning indefinitely and hanging the calling thread. An application that passes an unvalidated, attacker-controlled negative size to these functions is exposed to a denial-of-service condition.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-74934": {
       "cve_id": "CVE-2026-74934",
       "title": "Site isolation issue in the Graphics: CanvasWebGL component. This ...",

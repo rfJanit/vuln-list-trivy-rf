@@ -549,6 +549,9 @@
         },
         {
           "introduced": "2.8.2-r0"
+        },
+        {
+          "introduced": "2.8.3-r0"
         }
       ]
     },
@@ -590,6 +593,9 @@
       "events": [
         {
           "introduced": "2.8.2-r0"
+        },
+        {
+          "introduced": "2.8.3-r0"
         }
       ]
     }
