@@ -11,9 +11,6 @@
       "events": [
         {
           "introduced": "1.10.2-r0"
-        },
-        {
-          "introduced": "1.10.2-r0"
         }
       ]
     },
@@ -24,18 +21,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.9.2-r0"
-        },
-        {
-          "introduced": "1.9.3-r0"
-        },
-        {
-          "introduced": "1.9.4-r0"
-        },
-        {
-          "introduced": "1.9.4-r0"
-        },
         {
           "introduced": "1.9.4-r0"
         },
@@ -51,18 +36,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.9.2-r0"
-        },
-        {
-          "introduced": "1.9.3-r0"
-        },
-        {
-          "introduced": "1.9.4-r0"
-        },
-        {
-          "introduced": "1.9.4-r0"
-        },
         {
           "introduced": "1.9.4-r0"
         },

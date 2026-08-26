@@ -12,10 +12,6 @@
         {
           "introduced": "4.2.4-r0",
           "fixed": "4.2.7-r0"
-        },
-        {
-          "introduced": "4.2.4-r0",
-          "fixed": "4.2.7-r0"
         }
       ]
     },
@@ -29,10 +25,6 @@
         {
           "introduced": "4.2.4-r0",
           "fixed": "4.2.7-r0"
-        },
-        {
-          "introduced": "4.2.4-r0",
-          "fixed": "4.2.7-r0"
         }
       ]
     },
@@ -43,10 +35,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "4.2.4-r0",
-          "fixed": "4.2.7-r0"
-        },
         {
           "introduced": "4.2.4-r0",
           "fixed": "4.2.7-r0"

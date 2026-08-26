@@ -10,15 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.22.9-r0"
-        },
-        {
-          "introduced": "1.22.9-r0"
-        },
-        {
-          "introduced": "1.23.9-r0"
-        },
-        {
           "introduced": "1.24.13-r0"
         },
         {
@@ -220,53 +211,6 @@
         }
       ]
     },
-    "CVE-2025-4674": {
-      "cve_id": "CVE-2025-4674",
-      "title": "The go command may execute unexpected commands when operating in  ...",
-      "description": "The go command may execute unexpected commands when operating in untrusted VCS repositories. This occurs when possibly dangerous VCS configuration is present in repositories. This can happen when a repository was fetched via one VCS (e.g. Git), but contains metadata for another VCS (e.g. Mercurial). Modules which are retrieved using the go command line, i.e. via \"go get\", are not affected.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.24.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.24.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.6-r0"
-        }
-      ]
-    },
-    "CVE-2025-47906": {
-      "cve_id": "CVE-2025-47906",
-      "title": "If the PATH environment variable contains paths which are executa ...",
-      "description": "If the PATH environment variable contains paths which are executables (rather than just directories), passing certain strings to LookPath (\"\", \".\", and \"..\"), can result in the binaries listed in the PATH being unexpectedly returned.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.6-r0"
-        }
-      ]
-    },
-    "CVE-2025-47907": {
-      "cve_id": "CVE-2025-47907",
-      "title": "Cancelling a query (e.g. by cancelling the context passed to one  ...",
-      "description": "Cancelling a query (e.g. by cancelling the context passed to one of the query methods) during a call to the Scan method of the returned Rows can result in unexpected results if other queries are being made in parallel. This can result in a race condition that may overwrite the expected results with those of another query, causing the call to Scan to return either unexpected results from the other query or an error.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.6-r0"
-        }
-      ]
-    },
     "CVE-2025-47910": {
       "cve_id": "CVE-2025-47910",
       "title": "When using http.CrossOriginProtection, the AddInsecureBypassPatte ...",
@@ -288,10 +232,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
         }
@@ -304,10 +244,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
@@ -322,10 +258,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
         }
@@ -338,10 +270,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
@@ -356,10 +284,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
         }
@@ -372,10 +296,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
@@ -390,10 +310,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
         }
@@ -406,10 +322,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
@@ -424,10 +336,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
         }
@@ -440,10 +348,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.8-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.2-r0"
@@ -458,10 +362,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.12-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.6-r0"
         }
@@ -474,10 +374,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.11-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.5-r0"
@@ -492,10 +388,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.12-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.6-r0"
         }
@@ -508,10 +400,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.11-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.5-r0"
@@ -526,10 +414,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.12-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.6-r0"
         }
@@ -542,10 +426,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.12-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.6-r0"
@@ -573,10 +453,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.12-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.6-r0"
         }
@@ -589,10 +465,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.24.12-r0"
-        },
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.6-r0"
@@ -831,10 +703,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -848,10 +716,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -863,24 +727,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -892,24 +740,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -923,10 +755,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -938,23 +766,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
         }
       ]
@@ -969,10 +781,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -986,10 +794,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -1003,10 +807,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -1020,10 +820,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -1037,10 +833,6 @@
         {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -1052,24 +844,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.25.10-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
           "fixed": "1.25.10-r0"
-        },
-        {
-          "introduced": "1.25.10-r0",
-          "fixed": "1.26.3-r0"
         }
       ]
     },
@@ -1081,23 +857,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
-          "fixed": "1.26.5-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.26.5-r0"
         }
       ]
@@ -1110,23 +870,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.27.0-r0"
         }
       ]
@@ -1139,23 +883,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.22.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.23.9-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
           "introduced": "1.24.13-r0",
-          "fixed": "1.27.0-r0"
-        },
-        {
-          "introduced": "1.26.3-r0",
           "fixed": "1.27.0-r0"
         }
       ]

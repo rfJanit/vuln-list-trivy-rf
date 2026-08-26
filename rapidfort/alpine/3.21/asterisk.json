@@ -11,14 +11,6 @@
       "events": [
         {
           "introduced": "20.9.3-r0",
-          "fixed": "20.9.3-r1"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "20.9.3-r1"
-        },
-        {
-          "introduced": "20.9.3-r0",
           "fixed": "20.11.1-r0"
         }
       ]
@@ -33,22 +25,6 @@
         {
           "introduced": "20.9.3-r0",
           "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r6",
-          "fixed": "20.15.2-r0"
         }
       ]
     },
@@ -61,22 +37,6 @@
       "events": [
         {
           "introduced": "20.9.3-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r6",
           "fixed": "20.15.2-r0"
         }
       ]
@@ -91,22 +51,6 @@
         {
           "introduced": "20.9.3-r0",
           "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r0",
-          "fixed": "20.15.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r6",
-          "fixed": "20.15.2-r0"
         }
       ]
     },
@@ -119,22 +63,6 @@
       "events": [
         {
           "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r6",
           "fixed": "22.8.2-r0"
         }
       ]
@@ -149,22 +77,6 @@
         {
           "introduced": "20.9.3-r0",
           "fixed": "22.9.0-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.9.0-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.9.0-r0"
-        },
-        {
-          "introduced": "20.11.1-r0",
-          "fixed": "22.9.0-r0"
-        },
-        {
-          "introduced": "20.11.1-r6",
-          "fixed": "22.9.0-r0"
         }
       ]
     },
@@ -178,22 +90,6 @@
         {
           "introduced": "20.9.3-r0",
           "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r6",
-          "fixed": "22.8.2-r0"
         }
       ]
     },
@@ -206,22 +102,6 @@
       "events": [
         {
           "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.9.3-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r0",
-          "fixed": "22.8.2-r0"
-        },
-        {
-          "introduced": "20.11.1-r6",
           "fixed": "22.8.2-r0"
         }
       ]

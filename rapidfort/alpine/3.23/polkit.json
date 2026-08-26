@@ -10,19 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "124-r0"
-        },
-        {
-          "introduced": "125-r0"
-        },
-        {
-          "introduced": "126-r0"
-        },
-        {
           "introduced": "126-r1"
-        },
-        {
-          "introduced": "127-r2"
         },
         {
           "introduced": "127-r2"

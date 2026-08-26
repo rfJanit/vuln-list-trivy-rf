@@ -6,7 +6,7 @@
       "cve_id": "CVE-2025-15661",
       "title": "libssh2 through 1.11.1, fixed in commit 2dae302, contains an out- ...",
       "description": "libssh2 through 1.11.1, fixed in commit 2dae302, contains an out-of-bounds heap read vulnerability in the sftp_symlink() function in src/sftp.c that allows a malicious SSH server or man-in-the-middle attacker to disclose heap memory contents or cause a crash by sending a crafted SSH_FXP_NAME response. Attackers can supply a link_len value larger than the actual packet data in SSH_FXP_NAME responses for SFTP READLINK and REALPATH operations, triggering a heap buffer over-read of up to target_len minus one bytes due to the missing validation of available packet buffer size before the memcpy operation.",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -14,9 +14,6 @@
         },
         {
           "introduced": "1.11.1-r0"
-        },
-        {
-          "introduced": "1.11.1-r1"
         },
         {
           "introduced": "1.11.1-r1"
@@ -39,22 +36,6 @@
         {
           "introduced": "1.11.0-r2",
           "fixed": "1.11.1-r2"
-        },
-        {
-          "introduced": "1.11.1-r0",
-          "fixed": "1.11.1-r2"
-        },
-        {
-          "introduced": "1.11.1-r1",
-          "fixed": "1.11.1-r2"
-        },
-        {
-          "introduced": "1.11.1-r1",
-          "fixed": "1.11.1-r3"
-        },
-        {
-          "introduced": "1.11.1-r2",
-          "fixed": "1.11.1-r3"
         }
       ]
     },
@@ -68,22 +49,6 @@
         {
           "introduced": "1.11.0-r2",
           "fixed": "1.11.1-r2"
-        },
-        {
-          "introduced": "1.11.1-r0",
-          "fixed": "1.11.1-r2"
-        },
-        {
-          "introduced": "1.11.1-r1",
-          "fixed": "1.11.1-r2"
-        },
-        {
-          "introduced": "1.11.1-r1",
-          "fixed": "1.11.1-r3"
-        },
-        {
-          "introduced": "1.11.1-r2",
-          "fixed": "1.11.1-r3"
         }
       ]
     },
@@ -104,9 +69,6 @@
           "introduced": "1.11.1-r1"
         },
         {
-          "introduced": "1.11.1-r1"
-        },
-        {
           "introduced": "1.11.1-r2"
         },
         {
@@ -118,7 +80,7 @@
       "cve_id": "CVE-2026-58051",
       "title": "libssh2 through 1.11.1 grows its publickey list with SSH2_REALLOC ...",
       "description": "libssh2 through 1.11.1 grows its publickey list with SSH2_REALLOC but does not zero-initialize new entries before parsing populates them, so a parse failure reaching the cleanup path leaves libssh2_publickey_list_free operating on an uninitialized entry. A malicious SSH server offering the publickey subsystem can use a malformed response to make cleanup free an uninitialized, attacker-influenceable attrs pointer in a connecting libssh2 client.",
-      "severity": "MEDIUM",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -126,9 +88,6 @@
         },
         {
           "introduced": "1.11.1-r0"
-        },
-        {
-          "introduced": "1.11.1-r1"
         },
         {
           "introduced": "1.11.1-r1"
@@ -158,9 +117,6 @@
           "introduced": "1.11.1-r1"
         },
         {
-          "introduced": "1.11.1-r1"
-        },
-        {
           "introduced": "1.11.1-r2"
         },
         {
@@ -180,9 +136,6 @@
         },
         {
           "introduced": "1.11.1-r0"
-        },
-        {
-          "introduced": "1.11.1-r1"
         },
         {
           "introduced": "1.11.1-r1"
@@ -212,9 +165,6 @@
           "introduced": "1.11.1-r1"
         },
         {
-          "introduced": "1.11.1-r1"
-        },
-        {
           "introduced": "1.11.1-r2"
         },
         {
@@ -234,9 +184,6 @@
         },
         {
           "introduced": "1.11.1-r0"
-        },
-        {
-          "introduced": "1.11.1-r1"
         },
         {
           "introduced": "1.11.1-r1"

@@ -10,27 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -42,27 +21,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }
@@ -76,27 +34,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -108,27 +45,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }
@@ -142,27 +58,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -174,27 +69,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }
@@ -208,27 +82,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -240,27 +93,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }
@@ -274,27 +106,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -306,27 +117,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }
@@ -340,27 +130,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -372,27 +141,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }
@@ -406,27 +154,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -438,27 +165,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }
@@ -472,27 +178,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
           "introduced": "3.18.0-r5"
         }
       ]
@@ -504,27 +189,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r4"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
-        {
-          "introduced": "3.18.0-r5"
-        },
         {
           "introduced": "3.18.0-r5"
         }

@@ -2,23 +2,6 @@
   "package_name": "cjson",
   "distro_version": "3.22",
   "advisories": {
-    "CVE-2025-57052": {
-      "cve_id": "CVE-2025-57052",
-      "title": "cJSON 1.5.0 through 1.7.18 allows out-of-bounds access via the de ...",
-      "description": "cJSON 1.5.0 through 1.7.18 allows out-of-bounds access via the decode_array_index_from_pointer function in cJSON_Utils.c, allowing remote attackers to bypass array bounds checking and access restricted data via malformed JSON pointer strings containing alphanumeric characters.",
-      "severity": "CRITICAL",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.7.18-r0",
-          "fixed": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.18-r0",
-          "fixed": "1.7.19-r0"
-        }
-      ]
-    },
     "CVE-2026-16554": {
       "cve_id": "CVE-2026-16554",
       "title": "cJSON library is vulnerable to an integer overflow in the print_s ...",
@@ -28,24 +11,6 @@
       "events": [
         {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -57,25 +22,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -87,25 +34,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -117,25 +46,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     },
@@ -147,25 +58,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.7.18-r0"
-        },
-        {
-          "introduced": "1.7.18-r0"
-        },
-        {
           "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r0"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
-        },
-        {
-          "introduced": "1.7.19-r1"
         }
       ]
     }

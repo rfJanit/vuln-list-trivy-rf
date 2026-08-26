@@ -183,12 +183,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.10.14-r3"
-        },
-        {
-          "introduced": "2.10.29-r1"
-        },
-        {
           "introduced": "2.10.29-r1"
         },
         {
@@ -206,12 +200,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "2.10.14-r3"
-        },
-        {
-          "introduced": "2.10.29-r1"
-        },
         {
           "introduced": "2.10.29-r1"
         },
@@ -246,12 +234,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.10.14-r3"
-        },
-        {
-          "introduced": "2.10.29-r1"
-        },
-        {
           "introduced": "2.10.29-r1"
         },
         {
@@ -269,12 +251,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "2.10.14-r3"
-        },
-        {
-          "introduced": "2.10.29-r1"
-        },
         {
           "introduced": "2.10.29-r1"
         },
@@ -294,19 +270,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.10.14-r3",
-          "fixed": "2.12.8-r0"
-        },
-        {
           "introduced": "2.10.29-r1",
-          "fixed": "2.12.8-r0"
-        },
-        {
-          "introduced": "2.10.29-r1",
-          "fixed": "2.12.8-r0"
-        },
-        {
-          "introduced": "2.11.11-r2",
           "fixed": "2.12.8-r0"
         },
         {

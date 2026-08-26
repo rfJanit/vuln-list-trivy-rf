@@ -62,12 +62,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.0.2-r0"
-        },
-        {
-          "introduced": "3.0.2-r0"
-        },
-        {
           "introduced": "4.0.0-r1"
         },
         {
@@ -82,12 +76,6 @@
       "severity": "",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.0.2-r0"
-        },
-        {
-          "introduced": "3.0.2-r0"
-        },
         {
           "introduced": "4.0.0-r1"
         },
@@ -169,12 +157,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.0.2-r0"
-        },
-        {
-          "introduced": "3.0.2-r0"
-        },
-        {
           "introduced": "4.0.0-r1"
         },
         {
@@ -190,12 +172,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "3.0.2-r0"
-        },
-        {
-          "introduced": "3.0.2-r0"
-        },
-        {
           "introduced": "4.0.0-r1"
         },
         {
@@ -210,12 +186,6 @@
       "severity": "",
       "status": "open",
       "events": [
-        {
-          "introduced": "3.0.2-r0"
-        },
-        {
-          "introduced": "3.0.2-r0"
-        },
         {
           "introduced": "4.0.0-r1"
         },

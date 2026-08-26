@@ -10,15 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.6.1.7494-r1"
-        },
-        {
-          "introduced": "0.6.1.7494-r1"
-        },
-        {
-          "introduced": "0.6.1.7494-r3"
-        },
-        {
           "introduced": "0.6.1.7494-r3"
         }
       ]
@@ -30,15 +21,6 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.6.1.7494-r1"
-        },
-        {
-          "introduced": "0.6.1.7494-r1"
-        },
-        {
-          "introduced": "0.6.1.7494-r3"
-        },
         {
           "introduced": "0.6.1.7494-r3"
         }

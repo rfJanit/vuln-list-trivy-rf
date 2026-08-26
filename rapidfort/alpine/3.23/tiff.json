@@ -49,14 +49,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.6.0t-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"
         }
@@ -69,14 +61,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "4.6.0t-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
-        },
         {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"
@@ -91,14 +75,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.6.0t-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"
         }
@@ -111,14 +87,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "4.6.0t-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
-        },
         {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"
@@ -133,14 +101,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.6.0t-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"
         }
@@ -153,14 +113,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "4.6.0t-r0",
-          "fixed": "4.7.1-r0"
-        },
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
-        },
         {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"
@@ -177,10 +129,6 @@
         {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"
-        },
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
         }
       ]
     },
@@ -191,10 +139,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "4.7.0-r0",
-          "fixed": "4.7.1-r0"
-        },
         {
           "introduced": "4.7.0-r0",
           "fixed": "4.7.1-r0"

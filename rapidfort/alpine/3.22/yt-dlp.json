@@ -2,33 +2,6 @@
   "package_name": "yt-dlp",
   "distro_version": "3.22",
   "advisories": {
-    "CVE-2024-3566": {
-      "cve_id": "CVE-2024-3566",
-      "title": "A command inject vulnerability allows an attacker to perform comm ...",
-      "description": "A command inject vulnerability allows an attacker to perform command injection on Windows applications that indirectly depend on the CreateProcess function when the specific conditions are satisfied.",
-      "severity": "CRITICAL",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "2024.11.18-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0"
-        },
-        {
-          "introduced": "2025.03.31-r0"
-        },
-        {
-          "introduced": "2025.11.12-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0"
-        },
-        {
-          "introduced": "2026.07.04-r0"
-        }
-      ]
-    },
     "CVE-2025-54072": {
       "cve_id": "CVE-2025-54072",
       "title": "yt-dlp is a feature-rich command-line audio/video downloader. In  ...",
@@ -54,19 +27,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.02.21-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.02.21-r0"
-        },
-        {
           "introduced": "2025.03.31-r0",
-          "fixed": "2026.02.21-r0"
-        },
-        {
-          "introduced": "2025.11.12-r0",
           "fixed": "2026.02.21-r0"
         }
       ]
@@ -79,23 +40,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
           "introduced": "2025.03.31-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2025.11.12-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.06.09-r0"
         }
       ]
@@ -108,23 +53,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
           "introduced": "2025.03.31-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2025.11.12-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.06.09-r0"
         }
       ]
@@ -137,23 +66,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
           "introduced": "2025.03.31-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2025.11.12-r0",
-          "fixed": "2026.06.09-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.06.09-r0"
         }
       ]
@@ -166,23 +79,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
-          "introduced": "2024.11.18-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
           "introduced": "2025.03.31-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
-          "introduced": "2025.11.12-r0",
-          "fixed": "2026.07.04-r0"
-        },
-        {
-          "introduced": "2026.03.17-r0",
           "fixed": "2026.07.04-r0"
         }
       ]

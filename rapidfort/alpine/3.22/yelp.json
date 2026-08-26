@@ -10,10 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "42.2-r3",
-          "fixed": "42.2-r4"
-        },
-        {
           "introduced": "42.2-r4",
           "fixed": "42.2-r5"
         }

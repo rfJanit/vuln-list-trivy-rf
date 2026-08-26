@@ -12,22 +12,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.21.1-r6"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.21.1-r6"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.21.1-r6"
-        },
-        {
-          "introduced": "4.19.3-r0",
-          "fixed": "4.21.1-r6"
-        },
-        {
-          "introduced": "4.20.3-r4",
-          "fixed": "4.21.1-r6"
         }
       ]
     },
@@ -43,42 +27,8 @@
           "fixed": "4.18.5-r0"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r0"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.2-r1"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.0-r1"
-        }
-      ]
-    },
-    "CVE-2024-31143": {
-      "cve_id": "CVE-2024-31143",
-      "title": "An optional feature of PCI MSI called \"Multiple Message\" allows a ...",
-      "description": "An optional feature of PCI MSI called \"Multiple Message\" allows a\ndevice to use multiple consecutive interrupt vectors.  Unlike for MSI-X,\nthe setting up of these consecutive vectors needs to happen all in one\ngo.  In this handling an error path could be taken in different\nsituations, with or without a particular lock held.  This error path\nwrongly releases the lock even when it is not currently held.\n",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.0-r0"
-        }
-      ]
-    },
-    "CVE-2024-31145": {
-      "cve_id": "CVE-2024-31145",
-      "title": "Certain PCI devices in a system might be assigned Reserved Memory ...",
-      "description": "Certain PCI devices in a system might be assigned Reserved Memory\nRegions (specified via Reserved Memory Region Reporting, \"RMRR\") for\nIntel VT-d or Unity Mapping ranges for AMD-Vi.  These are typically used\nfor platform tasks such as legacy USB emulation.\n\nSince the precise purpose of these regions is unknown, once a device\nassociated with such a region is active, the mappings of these regions\nneed to remain continuouly accessible by the device.  In the logic\nestablishing these mappings, error handling was flawed, resulting in\nsuch mappings to potentially remain in place when they should have been\nremoved again.  Respective guests would then gain access to memory\nregions which they aren't supposed to have access to.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.0-r0"
         }
       ]
     },
@@ -93,19 +43,10 @@
           "introduced": "4.18.3-r2"
         },
         {
-          "introduced": "4.18.3-r2"
-        },
-        {
-          "introduced": "4.18.3-r2"
-        },
-        {
           "introduced": "4.19.3-r0"
         },
         {
           "introduced": "4.20.3-r4"
-        },
-        {
-          "introduced": "4.21.1-r6"
         },
         {
           "introduced": "4.21.1-r6"
@@ -122,14 +63,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r1"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r1"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.2-r2"
         },
         {
           "introduced": "4.19.3-r0",
@@ -149,55 +82,8 @@
           "fixed": "4.18.5-r1"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r1"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.2-r2"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.1-r0"
-        }
-      ]
-    },
-    "CVE-2024-45817": {
-      "cve_id": "CVE-2024-45817",
-      "title": "In x86's APIC (Advanced Programmable Interrupt Controller) archit ...",
-      "description": "In x86's APIC (Advanced Programmable Interrupt Controller) architecture,\nerror conditions are reported in a status register.  Furthermore, the OS\ncan opt to receive an interrupt when a new error occurs.\n\nIt is possible to configure the error interrupt with an illegal vector,\nwhich generates an error when an error interrupt is raised.\n\nThis case causes Xen to recurse through vlapic_error().  The recursion\nitself is bounded; errors accumulate in the the status register and only\ngenerate an interrupt when a new status bit becomes set.\n\nHowever, the lock protecting this state in Xen will try to be taken\nrecursively, and deadlock.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.0-r0"
-        }
-      ]
-    },
-    "CVE-2024-45818": {
-      "cve_id": "CVE-2024-45818",
-      "title": "The hypervisor contains code to accelerate VGA memory accesses fo ...",
-      "description": "The hypervisor contains code to accelerate VGA memory accesses for HVM\nguests, when the (virtual) VGA is in \"standard\" mode.  Locking involved\nthere has an unusual discipline, leaving a lock acquired past the\nreturn from the function that acquired it.  This behavior results in a\nproblem when emulating an instruction with two memory accesses, both of\nwhich touch VGA memory (plus some further constraints which aren't\nrelevant here).  When emulating the 2nd access, the lock that is already\nbeing held would be attempted to be re-acquired, resulting in a\ndeadlock.\n\nThis deadlock was already found when the code was first introduced, but\nwas analysed incorrectly and the fix was incomplete.  Analysis in light\nof the new finding cannot find a way to make the existing locking\ndiscipline work.\n\nIn staging, this logic has all been removed because it was discovered\nto be accidentally disabled since Xen 4.7.  Therefore, we are fixing the\nlocking problem by backporting the removal of most of the feature.  Note\nthat even with the feature disabled, the lock would still be acquired\nfor any accesses to the VGA MMIO region.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.0-r1"
-        }
-      ]
-    },
-    "CVE-2024-45819": {
-      "cve_id": "CVE-2024-45819",
-      "title": "PVH guests have their ACPI tables constructed by the toolstack.   ...",
-      "description": "PVH guests have their ACPI tables constructed by the toolstack.  The\nconstruction involves building the tables in local memory, which are\nthen copied into guest memory.  While actually used parts of the local\nmemory are filled in correctly, excess space that is being allocated is\nleft with its prior contents.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.0-r1"
         }
       ]
     },
@@ -211,10 +97,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r9"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r4"
         },
         {
           "introduced": "4.19.3-r0",
@@ -232,14 +114,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.4-r1"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.4-r1"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.2-r0"
         }
       ]
     },
@@ -253,14 +127,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r1"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r1"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.2-r2"
         },
         {
           "introduced": "4.19.3-r0",
@@ -280,14 +146,6 @@
           "fixed": "4.18.5-r2"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r2"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r1"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.1-r1"
         }
@@ -303,10 +161,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r6"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r1"
         },
         {
           "introduced": "4.19.3-r0",
@@ -326,10 +180,6 @@
           "fixed": "4.18.5-r8"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r3"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.3-r3"
         }
@@ -345,14 +195,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r2"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r2"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r1"
         },
         {
           "introduced": "4.19.3-r0",
@@ -372,14 +214,6 @@
           "fixed": "4.18.5-r2"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r2"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r1"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.1-r1"
         }
@@ -395,14 +229,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r2"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r2"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r1"
         },
         {
           "introduced": "4.19.3-r0",
@@ -422,14 +248,6 @@
           "fixed": "4.18.5-r2"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r2"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r1"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.1-r1"
         }
@@ -445,14 +263,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r3"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r3"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r2"
         },
         {
           "introduced": "4.19.3-r0",
@@ -472,14 +282,6 @@
           "fixed": "4.18.5-r3"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r3"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r2"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.1-r2"
         }
@@ -495,14 +297,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r3"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r3"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.3-r2"
         },
         {
           "introduced": "4.19.3-r0",
@@ -522,10 +316,6 @@
           "fixed": "4.18.5-r4"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.4-r1"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.2-r1"
         }
@@ -541,14 +331,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r4"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r4"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.4-r1"
         },
         {
           "introduced": "4.19.3-r0",
@@ -568,14 +350,6 @@
           "fixed": "4.18.5-r5"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r5"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.4-r2"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.2-r2"
         }
@@ -591,14 +365,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r5"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r5"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.4-r2"
         },
         {
           "introduced": "4.19.3-r0",
@@ -618,14 +384,6 @@
           "fixed": "4.18.5-r7"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r7"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r2"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.3-r2"
         }
@@ -641,14 +399,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r7"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.18.5-r7"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r2"
         },
         {
           "introduced": "4.19.3-r0",
@@ -668,10 +418,6 @@
           "fixed": "4.18.5-r9"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r4"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.3-r4"
         }
@@ -687,10 +433,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r9"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r4"
         },
         {
           "introduced": "4.19.3-r0",
@@ -710,10 +452,6 @@
           "fixed": "4.18.5-r9"
         },
         {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r4"
-        },
-        {
           "introduced": "4.19.3-r0",
           "fixed": "4.20.3-r4"
         }
@@ -729,10 +467,6 @@
         {
           "introduced": "4.18.3-r2",
           "fixed": "4.18.5-r9"
-        },
-        {
-          "introduced": "4.18.3-r2",
-          "fixed": "4.19.5-r4"
         },
         {
           "introduced": "4.19.3-r0",

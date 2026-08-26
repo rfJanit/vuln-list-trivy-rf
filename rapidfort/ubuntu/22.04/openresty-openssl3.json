@@ -212,6 +212,34 @@
         }
       ]
     },
+    "CVE-2026-14457": {
+      "cve_id": "CVE-2026-14457",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-18798": {
+      "cve_id": "CVE-2026-18798",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
     "CVE-2026-22795": {
       "cve_id": "CVE-2026-22795",
       "title": "",
@@ -520,6 +548,90 @@
         }
       ]
     },
+    "CVE-2026-54874": {
+      "cve_id": "CVE-2026-54874",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-63072": {
+      "cve_id": "CVE-2026-63072",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-63073": {
+      "cve_id": "CVE-2026-63073",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-63074": {
+      "cve_id": "CVE-2026-63074",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-63075": {
+      "cve_id": "CVE-2026-63075",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-63076": {
+      "cve_id": "CVE-2026-63076",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
     "CVE-2026-7383": {
       "cve_id": "CVE-2026-7383",
       "title": "",
@@ -530,6 +642,20 @@
         {
           "introduced": "3.5.0",
           "fixed": "3.5.7",
+          "identifier": "ubuntu"
+        }
+      ]
+    },
+    "CVE-2026-75803": {
+      "cve_id": "CVE-2026-75803",
+      "title": "",
+      "description": "",
+      "severity": "UNKNOWN",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "3.5.0",
+          "fixed": "3.5.8",
           "identifier": "ubuntu"
         }
       ]

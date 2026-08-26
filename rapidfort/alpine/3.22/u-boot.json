@@ -10,126 +10,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.04-r1",
-          "fixed": "2026.04-r1"
-        },
-        {
           "introduced": "2024.10-r6",
           "fixed": "2026.04-r1"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2026.04-r1"
-        },
-        {
-          "introduced": "2025.04-r7",
-          "fixed": "2026.04-r1"
-        },
-        {
-          "introduced": "2025.10-r5",
-          "fixed": "2026.04-r1"
-        }
-      ]
-    },
-    "CVE-2024-57254": {
-      "cve_id": "CVE-2024-57254",
-      "title": "An integer overflow in sqfs_inode_size in Das U-Boot before 2025. ...",
-      "description": "An integer overflow in sqfs_inode_size in Das U-Boot before 2025.01-rc1 occurs in the symlink size calculation via a crafted squashfs filesystem.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2024.04-r1",
-          "fixed": "2025.04-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2025.04-r0"
-        }
-      ]
-    },
-    "CVE-2024-57255": {
-      "cve_id": "CVE-2024-57255",
-      "title": "An integer overflow in sqfs_resolve_symlink in Das U-Boot before  ...",
-      "description": "An integer overflow in sqfs_resolve_symlink in Das U-Boot before 2025.01-rc1 occurs via a crafted squashfs filesystem with an inode size of 0xffffffff, resulting in a malloc of zero and resultant memory overwrite.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2024.04-r1",
-          "fixed": "2025.04-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2025.04-r0"
-        }
-      ]
-    },
-    "CVE-2024-57256": {
-      "cve_id": "CVE-2024-57256",
-      "title": "An integer overflow in ext4fs_read_symlink in Das U-Boot before 2 ...",
-      "description": "An integer overflow in ext4fs_read_symlink in Das U-Boot before 2025.01-rc1 occurs for zalloc (adding one to an le32 variable) via a crafted ext4 filesystem with an inode size of 0xffffffff, resulting in a malloc of zero and resultant memory overwrite.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2024.04-r1",
-          "fixed": "2025.04-r7"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2025.04-r7"
-        }
-      ]
-    },
-    "CVE-2024-57257": {
-      "cve_id": "CVE-2024-57257",
-      "title": "A stack consumption issue in sqfs_size in Das U-Boot before 2025. ...",
-      "description": "A stack consumption issue in sqfs_size in Das U-Boot before 2025.01-rc1 occurs via a crafted squashfs filesystem with deep symlink nesting.",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2024.04-r1",
-          "fixed": "2025.04-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2025.04-r0"
-        }
-      ]
-    },
-    "CVE-2024-57258": {
-      "cve_id": "CVE-2024-57258",
-      "title": "Integer overflows in memory allocation in Das U-Boot before 2025. ...",
-      "description": "Integer overflows in memory allocation in Das U-Boot before 2025.01-rc1 occur for a crafted squashfs filesystem via sbrk, via request2size, or because ptrdiff_t is mishandled on x86_64.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2024.04-r1",
-          "fixed": "2025.04-r7"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2025.04-r7"
-        }
-      ]
-    },
-    "CVE-2024-57259": {
-      "cve_id": "CVE-2024-57259",
-      "title": "sqfs_search_dir in Das U-Boot before 2025.01-rc1 exhibits an off- ...",
-      "description": "sqfs_search_dir in Das U-Boot before 2025.01-rc1 exhibits an off-by-one error and resultant heap memory corruption for squashfs directory listing because the path separator is not considered in a size calculation.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2024.04-r1",
-          "fixed": "2025.04-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2025.04-r0"
         }
       ]
     },
@@ -141,23 +23,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.04-r1",
-          "fixed": "2026.07-r0"
-        },
-        {
           "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.04-r7",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.10-r5",
           "fixed": "2026.07-r0"
         }
       ]
@@ -170,23 +36,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.04-r1",
-          "fixed": "2026.07-r0"
-        },
-        {
           "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.04-r7",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.10-r5",
           "fixed": "2026.07-r0"
         }
       ]
@@ -199,23 +49,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.04-r1",
-          "fixed": "2026.07-r0"
-        },
-        {
           "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.04-r7",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.10-r5",
           "fixed": "2026.07-r0"
         }
       ]
@@ -228,23 +62,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.04-r1",
-          "fixed": "2026.07-r0"
-        },
-        {
           "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.04-r7",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.10-r5",
           "fixed": "2026.07-r0"
         }
       ]
@@ -257,23 +75,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.04-r1",
-          "fixed": "2026.07-r0"
-        },
-        {
           "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2024.10-r6",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.04-r7",
-          "fixed": "2026.07-r0"
-        },
-        {
-          "introduced": "2025.10-r5",
           "fixed": "2026.07-r0"
         }
       ]

@@ -10,14 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.3.43-r0",
-          "fixed": "1.3.46-r0"
-        },
-        {
-          "introduced": "1.3.45-r0",
-          "fixed": "1.3.46-r0"
-        },
-        {
           "introduced": "1.3.45-r0",
           "fixed": "1.3.46-r0"
         }
@@ -31,14 +23,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.3.43-r0",
-          "fixed": "1.3.46-r0"
-        },
-        {
-          "introduced": "1.3.45-r0",
-          "fixed": "1.3.46-r0"
-        },
-        {
           "introduced": "1.3.45-r0",
           "fixed": "1.3.46-r0"
         }
@@ -51,14 +35,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.3.43-r0",
-          "fixed": "1.3.46-r0"
-        },
-        {
-          "introduced": "1.3.45-r0",
-          "fixed": "1.3.46-r0"
-        },
         {
           "introduced": "1.3.45-r0",
           "fixed": "1.3.46-r0"

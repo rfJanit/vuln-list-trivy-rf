@@ -10,19 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.15.0-r3"
-        },
-        {
-          "introduced": "0.15.0-r3"
-        },
-        {
           "introduced": "0.15.1-r5"
-        },
-        {
-          "introduced": "0.15.1-r10"
-        },
-        {
-          "introduced": "0.15.1-r15"
         }
       ]
     }

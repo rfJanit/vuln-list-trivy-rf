@@ -23,22 +23,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.39.3-r0",
-          "fixed": "2.41.3-r0"
-        },
-        {
-          "introduced": "2.40.1-r1",
-          "fixed": "2.41.3-r0"
-        },
-        {
-          "introduced": "2.40.4-r0",
-          "fixed": "2.41.3-r0"
-        },
-        {
-          "introduced": "2.40.4-r0",
-          "fixed": "2.41.3-r0"
-        },
-        {
           "introduced": "2.41.2-r0",
           "fixed": "2.41.3-r0"
         }
@@ -51,6 +35,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.41.2-r0",
+          "fixed": "2.42.2-r0"
+        },
         {
           "introduced": "2.41.4-r0",
           "fixed": "2.42.2-r0"
@@ -65,27 +53,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.39.3-r0",
-          "fixed": "2.41.4-r0"
-        },
-        {
-          "introduced": "2.40.1-r1",
-          "fixed": "2.41.4-r0"
-        },
-        {
-          "introduced": "2.40.4-r0",
-          "fixed": "2.41.4-r0"
-        },
-        {
-          "introduced": "2.40.4-r0",
-          "fixed": "2.41.4-r0"
-        },
-        {
           "introduced": "2.41.2-r0",
-          "fixed": "2.41.4-r0"
-        },
-        {
-          "introduced": "2.41.3-r1",
           "fixed": "2.41.4-r0"
         }
       ]
@@ -97,6 +65,10 @@
       "severity": "",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.41.2-r0",
+          "fixed": "2.42.2-r0"
+        },
         {
           "introduced": "2.41.4-r0",
           "fixed": "2.42.2-r0"
@@ -111,6 +83,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.41.2-r0",
+          "fixed": "2.42.2-r0"
+        },
+        {
           "introduced": "2.41.4-r0",
           "fixed": "2.42.2-r0"
         }
@@ -123,6 +99,10 @@
       "severity": "",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "2.41.2-r0",
+          "fixed": "2.42.2-r0"
+        },
         {
           "introduced": "2.41.4-r0",
           "fixed": "2.42.2-r0"

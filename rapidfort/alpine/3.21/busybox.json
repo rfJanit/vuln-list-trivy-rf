@@ -25,6 +25,14 @@
         {
           "introduced": "0",
           "fixed": "1.36.1_p0-r28"
+        },
+        {
+          "introduced": "1.36.1-r19",
+          "fixed": "1.36.1-r27"
+        },
+        {
+          "introduced": "1.36.1-r7",
+          "fixed": "1.36.1-r17"
         }
       ]
     },
@@ -38,6 +46,10 @@
         {
           "introduced": "0",
           "fixed": "1.36.1_p0-r28"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.36.1-r30"
         }
       ]
     },
@@ -51,6 +63,10 @@
         {
           "introduced": "0",
           "fixed": "1.36.1_p0-r28"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.36.1-r30"
         }
       ]
     },
@@ -64,6 +80,14 @@
         {
           "introduced": "0",
           "fixed": "1.36.1_p0-r28"
+        },
+        {
+          "introduced": "1.36.1-r19",
+          "fixed": "1.36.1-r25"
+        },
+        {
+          "introduced": "1.36.1-r7",
+          "fixed": "1.36.1-r16"
         }
       ]
     },
@@ -77,6 +101,10 @@
         {
           "introduced": "0",
           "fixed": "1.37.0_p0-r12"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.37.0-r14"
         }
       ]
     },
@@ -90,6 +118,10 @@
         {
           "introduced": "0",
           "fixed": "1.37.0_p0-r12"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.37.0-r14"
         }
       ]
     },
@@ -101,7 +133,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.36.1-r7",
+          "introduced": "0",
           "fixed": "1.37.0_p1-r12"
         }
       ]
@@ -116,6 +148,10 @@
         {
           "introduced": "0",
           "fixed": "1.37.0_p3-r12"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.38.0-r0"
         }
       ]
     },
@@ -129,6 +165,10 @@
         {
           "introduced": "0",
           "fixed": "1.37.0_p3-r12"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.38.0-r0"
         }
       ]
     },
@@ -142,6 +182,10 @@
         {
           "introduced": "0",
           "fixed": "1.37.0_p3-r12"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.38.0-r0"
         }
       ]
     },
@@ -153,7 +197,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.36.1-r7",
+          "introduced": "0",
           "fixed": "1.37.0_p2-r12"
         }
       ]
@@ -166,7 +210,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.36.1-r7",
+          "introduced": "0",
           "fixed": "1.37.0_p2-r12"
         }
       ]
@@ -179,7 +223,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.36.1-r7",
+          "introduced": "0",
           "fixed": "1.37.0_p2-r12"
         }
       ]

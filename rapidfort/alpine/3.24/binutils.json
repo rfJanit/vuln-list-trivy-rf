@@ -53,8 +53,20 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.42-r0",
+          "fixed": "2.44-r3"
+        },
+        {
+          "introduced": "2.42-r1",
+          "fixed": "2.44-r3"
+        },
+        {
           "introduced": "2.43.1-r3",
           "fixed": "2.44-r3"
+        },
+        {
+          "introduced": "2.44-r3",
+          "fixed": "2.45.1-r0"
         }
       ]
     },
@@ -66,8 +78,20 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "2.42-r0",
+          "fixed": "2.44-r3"
+        },
+        {
+          "introduced": "2.42-r1",
+          "fixed": "2.44-r3"
+        },
+        {
           "introduced": "2.43.1-r3",
           "fixed": "2.44-r3"
+        },
+        {
+          "introduced": "2.44-r3",
+          "fixed": "2.45.1-r0"
         }
       ]
     },
@@ -79,19 +103,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"
@@ -132,19 +144,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"
@@ -159,19 +159,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"
@@ -186,19 +174,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"
@@ -213,19 +189,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"
@@ -240,19 +204,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"
@@ -267,19 +219,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"
@@ -294,19 +234,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.42-r0"
-        },
-        {
-          "introduced": "2.42-r1"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.44-r3"
-        },
-        {
-          "introduced": "2.45.1-r1"
+          "introduced": "2.45.1-r0"
         },
         {
           "introduced": "2.45.1-r1"

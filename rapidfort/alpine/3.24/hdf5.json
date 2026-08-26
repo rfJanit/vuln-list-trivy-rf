@@ -10,14 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
-        {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
         }
@@ -30,14 +22,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
         {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
@@ -52,12 +36,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -70,12 +48,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -87,14 +59,6 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
         {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
@@ -109,12 +73,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -126,12 +84,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
         {
           "introduced": "1.14.4.2-r1"
         }
@@ -145,12 +97,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -163,12 +109,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -180,14 +120,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
         {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
@@ -202,12 +134,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -219,14 +145,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
         {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
@@ -241,14 +159,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
-        {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
         }
@@ -261,14 +171,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
         {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
@@ -283,12 +185,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -300,12 +196,6 @@
       "severity": "LOW",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
         {
           "introduced": "1.14.4.2-r1"
         }
@@ -319,12 +209,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -333,15 +217,9 @@
       "cve_id": "CVE-2026-19026",
       "title": "H5Z__filter_nbit in H5Znbit.c in HDF5 through 2.3.0 dereferences  ...",
       "description": "H5Z__filter_nbit in H5Znbit.c in HDF5 through 2.3.0 dereferences cd_values[0] through cd_values[4] without validating that cd_values is non-NULL or that cd_nelmts is at least 5, the fixed size of the filter's header. This allows attackers to cause a denial of service via a crafted HDF5 file that stores the N-Bit filter pipeline message with zero client-data values, opened and read via H5Dread, e.g. by the h5ls or h5repack tools.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
         {
           "introduced": "1.14.4.2-r1"
         }
@@ -355,12 +233,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
-        {
           "introduced": "1.14.4.2-r1"
         }
       ]
@@ -369,15 +241,9 @@
       "cve_id": "CVE-2026-19028",
       "title": "H5Z__filter_fletcher32 in H5Zfletcher32.c in HDF5 through 2.3.0 c ...",
       "description": "H5Z__filter_fletcher32 in H5Zfletcher32.c in HDF5 through 2.3.0 computes the data length to checksum by subtracting the 4-byte trailing checksum size from the input buffer size without checking that the buffer is at least 4 bytes, allowing a size_t underflow. This allows attackers to cause a denial of service (massively out-of-bounds read and application crash in H5_checksum_fletcher32) via a crafted HDF5 file with a Fletcher32-filtered chunk smaller than 4 bytes, triggered via H5Dread, e.g. by the h5ls or h5dump tools.",
-      "severity": "LOW",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1"
-        },
         {
           "introduced": "1.14.4.2-r1"
         }
@@ -391,14 +257,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
-        {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"
         }
@@ -411,14 +269,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.14.4.2-r0",
-          "fixed": "2.2.0-r0"
-        },
-        {
-          "introduced": "1.14.4.2-r1",
-          "fixed": "2.2.0-r0"
-        },
         {
           "introduced": "1.14.4.2-r1",
           "fixed": "2.2.0-r0"

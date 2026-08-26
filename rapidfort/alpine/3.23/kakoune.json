@@ -10,18 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2024.05.18-r0",
-          "fixed": "2026.05.21-r0"
-        },
-        {
-          "introduced": "2024.05.18-r0",
-          "fixed": "2026.05.21-r0"
-        },
-        {
-          "introduced": "2024.05.18-r0",
-          "fixed": "2026.05.21-r0"
-        },
-        {
           "introduced": "2025.06.03-r0",
           "fixed": "2026.05.21-r0"
         }

@@ -19,23 +19,6 @@
         }
       ]
     },
-    "CVE-2025-9640": {
-      "cve_id": "CVE-2025-9640",
-      "title": "A flaw was found in Samba, in the vfs_streams_xattr module, where ...",
-      "description": "A flaw was found in Samba, in the vfs_streams_xattr module, where uninitialized heap memory could be written into alternate data streams. This allows an authenticated user to read residual memory content that may include sensitive data, resulting in an information disclosure vulnerability.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.21.9-r0"
-        },
-        {
-          "introduced": "4.20.6-r1",
-          "fixed": "4.21.9-r0"
-        }
-      ]
-    },
     "CVE-2026-1933": {
       "cve_id": "CVE-2026-1933",
       "title": "A flaw was found in Samba’s handling of NTFS-style reparse points ...",
@@ -46,10 +29,6 @@
         {
           "introduced": "4.21.9-r1",
           "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },
@@ -61,24 +40,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.20.6-r1",
-          "fixed": "4.22.10-r0"
-        },
-        {
           "introduced": "4.21.9-r1",
           "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.21.9-r1",
-          "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },
@@ -90,20 +53,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.21.3-r0"
-        },
-        {
-          "introduced": "4.20.6-r1",
-          "fixed": "4.21.3-r0"
-        },
-        {
           "introduced": "4.21.9-r1",
           "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },
@@ -117,10 +68,6 @@
         {
           "introduced": "4.21.9-r1",
           "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },
@@ -132,20 +79,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.19.9-r0",
-          "fixed": "4.21.3-r0"
-        },
-        {
-          "introduced": "4.20.6-r1",
-          "fixed": "4.21.3-r0"
-        },
-        {
           "introduced": "4.21.9-r1",
           "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     },
@@ -159,10 +94,6 @@
         {
           "introduced": "4.21.9-r1",
           "fixed": "4.22.10-r0"
-        },
-        {
-          "introduced": "4.22.10-r0",
-          "fixed": "4.23.8-r0"
         }
       ]
     }

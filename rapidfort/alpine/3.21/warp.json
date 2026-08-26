@@ -10,9 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.7.0-r0"
-        },
-        {
           "introduced": "0.8.0-r0"
         },
         {
@@ -33,9 +30,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.7.0-r0"
-        },
         {
           "introduced": "0.8.0-r0"
         },
@@ -58,9 +52,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.7.0-r0"
-        },
-        {
           "introduced": "0.8.0-r0"
         },
         {
@@ -81,9 +72,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.7.0-r0"
-        },
         {
           "introduced": "0.8.0-r0"
         },
@@ -106,9 +94,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.7.0-r0"
-        },
-        {
           "introduced": "0.8.0-r0"
         },
         {
@@ -129,9 +114,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.7.0-r0"
-        },
         {
           "introduced": "0.8.0-r0"
         },
@@ -154,9 +136,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.7.0-r0"
-        },
-        {
           "introduced": "0.8.0-r0"
         },
         {
@@ -178,9 +157,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0.7.0-r0"
-        },
-        {
           "introduced": "0.8.0-r0"
         },
         {
@@ -201,9 +177,6 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
-        {
-          "introduced": "0.7.0-r0"
-        },
         {
           "introduced": "0.8.0-r0"
         },

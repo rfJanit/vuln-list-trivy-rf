@@ -10,16 +10,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "24.0.5-r1"
-        },
-        {
-          "introduced": "24.0.5-r1"
-        },
-        {
           "introduced": "26.1.5-r0"
-        },
-        {
-          "introduced": "26.2.5-r0"
         },
         {
           "introduced": "26.2.5-r0"
@@ -34,16 +25,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "24.0.5-r1"
-        },
-        {
-          "introduced": "24.0.5-r1"
-        },
-        {
           "introduced": "26.1.5-r0"
-        },
-        {
-          "introduced": "26.2.5-r0"
         },
         {
           "introduced": "26.2.5-r0"

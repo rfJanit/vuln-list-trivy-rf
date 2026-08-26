@@ -10,14 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.42-r2",
-          "fixed": "1.45-r0"
-        },
-        {
-          "introduced": "1.42-r2",
-          "fixed": "1.45-r0"
-        },
-        {
           "introduced": "1.44-r0",
           "fixed": "1.45-r0"
         }
@@ -30,14 +22,6 @@
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.42-r2",
-          "fixed": "1.45-r0"
-        },
-        {
-          "introduced": "1.42-r2",
-          "fixed": "1.45-r0"
-        },
         {
           "introduced": "1.44-r0",
           "fixed": "1.45-r0"

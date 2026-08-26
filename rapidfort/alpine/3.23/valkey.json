@@ -95,69 +95,6 @@
         }
       ]
     },
-    "CVE-2025-46817": {
-      "cve_id": "CVE-2025-46817",
-      "title": "Redis is an open source, in-memory database that persists on disk ...",
-      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to cause an integer overflow and potentially lead to remote code execution The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.4-r0"
-        }
-      ]
-    },
-    "CVE-2025-46818": {
-      "cve_id": "CVE-2025-46818",
-      "title": "Redis is an open source, in-memory database that persists on disk ...",
-      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate different LUA objects and potentially run their own code in the context of another user. The problem exists in all versions of Redis with LUA scripting. This issue is fixed in version 8.2.2. A workaround to mitigate the problem without patching the redis-server executable is to prevent users from executing LUA scripts. This can be done using ACL to block a script by restricting both the EVAL and FUNCTION command families.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.4-r0"
-        }
-      ]
-    },
-    "CVE-2025-46819": {
-      "cve_id": "CVE-2025-46819",
-      "title": "Redis is an open source, in-memory database that persists on disk ...",
-      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted LUA script to read out-of-bound data or crash the server and subsequent denial of service. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to block a script by restricting both the EVAL and FUNCTION command families.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.4-r0"
-        }
-      ]
-    },
     "CVE-2025-48367": {
       "cve_id": "CVE-2025-48367",
       "title": "Redis is an open source, in-memory database that persists on disk ...",
@@ -179,48 +116,6 @@
         }
       ]
     },
-    "CVE-2025-49112": {
-      "cve_id": "CVE-2025-49112",
-      "title": "setDeferredReply in networking.c in Valkey through 8.1.1 has an i ...",
-      "description": "setDeferredReply in networking.c in Valkey through 8.1.1 has an integer underflow for prev-\u003esize - prev-\u003eused.",
-      "severity": "LOW",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "8.1.4-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "8.1.4-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.4-r0"
-        }
-      ]
-    },
-    "CVE-2025-49844": {
-      "cve_id": "CVE-2025-49844",
-      "title": "Redis is an open source, in-memory database that persists on disk ...",
-      "description": "Redis is an open source, in-memory database that persists on disk. Versions 8.2.1 and below allow an authenticated user to use a specially crafted Lua script to manipulate the garbage collector, trigger a use-after-free and potentially lead to remote code execution. The problem exists in all versions of Redis with Lua scripting. This issue is fixed in version 8.2.2. To workaround this issue without patching the redis-server executable is to prevent users from executing Lua scripts. This can be done using ACL to restrict EVAL and EVALSHA commands.",
-      "severity": "CRITICAL",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.11-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.4-r0"
-        }
-      ]
-    },
     "CVE-2025-67733": {
       "cve_id": "CVE-2025-67733",
       "title": "Valkey is a distributed key-value database. Prior to versions 9.0 ...",
@@ -228,18 +123,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.12-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.12-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.6-r0"
-        },
         {
           "introduced": "8.1.7-r0",
           "fixed": "9.0.3-r0"
@@ -254,18 +137,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.12-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.12-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.6-r0"
-        },
-        {
           "introduced": "8.1.7-r0",
           "fixed": "9.0.3-r0"
         }
@@ -278,18 +149,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.13-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.13-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.7-r0"
-        },
         {
           "introduced": "8.1.7-r0",
           "fixed": "9.0.4-r0"
@@ -304,18 +163,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.13-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.13-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.7-r0"
-        },
-        {
           "introduced": "8.1.7-r0",
           "fixed": "9.0.4-r0"
         }
@@ -328,18 +175,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.13-r0"
-        },
-        {
-          "introduced": "7.2.7-r0",
-          "fixed": "7.2.13-r0"
-        },
-        {
-          "introduced": "7.2.9-r1",
-          "fixed": "8.1.7-r0"
-        },
         {
           "introduced": "8.1.7-r0",
           "fixed": "9.0.4-r0"

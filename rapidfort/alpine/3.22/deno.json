@@ -2,19 +2,6 @@
   "package_name": "deno",
   "distro_version": "3.22",
   "advisories": {
-    "CVE-2025-24015": {
-      "cve_id": "CVE-2025-24015",
-      "title": "Deno is a JavaScript, TypeScript, and WebAssembly runtime. Versio ...",
-      "description": "Deno is a JavaScript, TypeScript, and WebAssembly runtime. Versions 1.46.0 through 2.1.6 have an issue that affects AES-256-GCM and AES-128-GCM in Deno in which the authentication tag is not being validated. This means tampered ciphertexts or incorrect keys might not be detected, which breaks the guarantees expected from AES-GCM. Older versions of Deno correctly threw errors in such cases, as does Node.js. Without authentication tag verification, AES-GCM degrades to essentially CTR mode, removing integrity protection. Authenticated data set with set_aad is also affected, as it is incorporated into the GCM hash (ghash) but this too is not validated, rendering AAD checks ineffective. Version 2.1.7 includes a patch that addresses this issue.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "2.0.6-r0",
-          "fixed": "2.3.1-r2"
-        }
-      ]
-    },
     "CVE-2025-48888": {
       "cve_id": "CVE-2025-48888",
       "title": "Deno is a JavaScript, TypeScript, and WebAssembly runtime. Starti ...",
@@ -23,23 +10,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.43.5-r0",
-          "fixed": "2.7.4-r2"
-        },
-        {
-          "introduced": "2.0.6-r0",
-          "fixed": "2.7.4-r2"
-        },
-        {
           "introduced": "2.3.1-r2",
-          "fixed": "2.7.4-r2"
-        },
-        {
-          "introduced": "2.3.1-r5",
-          "fixed": "2.7.4-r2"
-        },
-        {
-          "introduced": "2.3.1-r5",
           "fixed": "2.7.4-r2"
         }
       ]
@@ -54,14 +25,6 @@
         {
           "introduced": "2.3.1-r2",
           "fixed": "2.7.4-r2"
-        },
-        {
-          "introduced": "2.3.1-r5",
-          "fixed": "2.7.4-r2"
-        },
-        {
-          "introduced": "2.3.1-r5",
-          "fixed": "2.7.4-r2"
         }
       ]
     },
@@ -74,14 +37,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2",
-          "fixed": "2.7.4-r2"
-        },
-        {
-          "introduced": "2.3.1-r5",
-          "fixed": "2.7.4-r2"
-        },
-        {
-          "introduced": "2.3.1-r5",
           "fixed": "2.7.4-r2"
         }
       ]
@@ -107,16 +62,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.3.1-r5"
         },
         {
           "introduced": "2.7.4-r2"
@@ -131,19 +77,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.43.5-r0"
-        },
-        {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.3.1-r5"
         },
         {
           "introduced": "2.7.4-r2"
@@ -158,19 +92,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.43.5-r0"
-        },
-        {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.3.1-r5"
         },
         {
           "introduced": "2.7.4-r2"
@@ -185,19 +107,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.43.5-r0"
-        },
-        {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.7.4-r2"
         },
         {
           "introduced": "2.7.4-r2"
@@ -212,19 +122,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.43.5-r0"
-        },
-        {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.3.1-r5"
         },
         {
           "introduced": "2.7.4-r2"
@@ -239,19 +137,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.43.5-r0"
-        },
-        {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.3.1-r5"
         },
         {
           "introduced": "2.7.4-r2"
@@ -266,19 +152,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.43.5-r0"
-        },
-        {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.3.1-r5"
         },
         {
           "introduced": "2.7.4-r2"
@@ -296,12 +170,6 @@
           "introduced": "2.3.1-r2"
         },
         {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
           "introduced": "2.7.4-r2"
         }
       ]
@@ -314,19 +182,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "1.43.5-r0"
-        },
-        {
-          "introduced": "2.0.6-r0"
-        },
-        {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.3.1-r5"
-        },
-        {
-          "introduced": "2.7.4-r2"
         },
         {
           "introduced": "2.7.4-r2"

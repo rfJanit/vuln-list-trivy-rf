@@ -23,14 +23,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "4.6.4-r1",
-          "fixed": "5.1.2-r0"
-        },
-        {
-          "introduced": "5.0.2-r0",
-          "fixed": "5.1.2-r0"
-        },
-        {
           "introduced": "5.1.0-r0",
           "fixed": "5.1.2-r0"
         }

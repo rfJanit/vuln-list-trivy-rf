@@ -10,14 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.2-r0",
-          "fixed": "1.26.11-r0"
-        },
-        {
-          "introduced": "1.24.10-r0",
-          "fixed": "1.26.11-r0"
-        },
-        {
           "introduced": "1.25.6-r1",
           "fixed": "1.26.11-r0"
         }
@@ -30,14 +22,6 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "1.24.2-r0",
-          "fixed": "1.26.11-r0"
-        },
-        {
-          "introduced": "1.24.10-r0",
-          "fixed": "1.26.11-r0"
-        },
         {
           "introduced": "1.25.6-r1",
           "fixed": "1.26.11-r0"
@@ -52,19 +36,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.2-r0",
-          "fixed": "1.27.2-r0"
-        },
-        {
-          "introduced": "1.24.10-r0",
-          "fixed": "1.27.2-r0"
-        },
-        {
           "introduced": "1.25.6-r1",
-          "fixed": "1.27.2-r0"
-        },
-        {
-          "introduced": "1.26.11-r0",
           "fixed": "1.27.2-r0"
         }
       ]
@@ -77,19 +49,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.2-r0",
-          "fixed": "1.27.2-r0"
-        },
-        {
-          "introduced": "1.24.10-r0",
-          "fixed": "1.27.2-r0"
-        },
-        {
           "introduced": "1.25.6-r1",
-          "fixed": "1.27.2-r0"
-        },
-        {
-          "introduced": "1.26.11-r0",
           "fixed": "1.27.2-r0"
         }
       ]
@@ -102,19 +62,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.2-r0",
-          "fixed": "1.27.2-r0"
-        },
-        {
-          "introduced": "1.24.10-r0",
-          "fixed": "1.27.2-r0"
-        },
-        {
           "introduced": "1.25.6-r1",
-          "fixed": "1.27.2-r0"
-        },
-        {
-          "introduced": "1.26.11-r0",
           "fixed": "1.27.2-r0"
         }
       ]
@@ -126,12 +74,6 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
-        {
-          "introduced": "1.24.2-r0"
-        },
-        {
-          "introduced": "1.24.10-r0"
-        },
         {
           "introduced": "1.25.6-r1"
         },

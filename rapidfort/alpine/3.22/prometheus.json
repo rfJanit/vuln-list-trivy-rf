@@ -10,14 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.52.0-r4",
-          "fixed": "3.5.3-r0"
-        },
-        {
-          "introduced": "2.52.0-r4",
-          "fixed": "3.5.3-r0"
-        },
-        {
           "introduced": "2.53.4-r7",
           "fixed": "3.5.3-r0"
         }
@@ -30,14 +22,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "2.52.0-r4",
-          "fixed": "3.5.3-r0"
-        },
-        {
-          "introduced": "2.52.0-r4",
-          "fixed": "3.5.3-r0"
-        },
         {
           "introduced": "2.53.4-r7",
           "fixed": "3.5.3-r0"

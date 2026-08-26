@@ -503,18 +503,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "20241112-r0",
-          "fixed": "20260210-r0"
-        },
-        {
-          "introduced": "20241112-r0",
-          "fixed": "20260210-r0"
-        },
-        {
-          "introduced": "20250812-r0",
-          "fixed": "20260210-r0"
-        },
-        {
           "introduced": "20250812-r0",
           "fixed": "20260210-r0"
         }
@@ -548,18 +536,6 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
-        {
-          "introduced": "20241112-r0",
-          "fixed": "20260512-r0"
-        },
-        {
-          "introduced": "20241112-r0",
-          "fixed": "20260512-r0"
-        },
-        {
-          "introduced": "20250812-r0",
-          "fixed": "20260512-r0"
-        },
         {
           "introduced": "20250812-r0",
           "fixed": "20260512-r0"

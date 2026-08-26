@@ -12,14 +12,6 @@
         {
           "introduced": "14.15-r0",
           "fixed": "14.17-r0"
-        },
-        {
-          "introduced": "14.15-r0",
-          "fixed": "14.17-r0"
-        },
-        {
-          "introduced": "14.15-r0",
-          "fixed": "14.17-r0"
         }
       ]
     },
@@ -30,6 +22,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "14.15-r0",
+          "fixed": "14.18-r0"
+        },
         {
           "introduced": "14.17-r0",
           "fixed": "14.18-r0"

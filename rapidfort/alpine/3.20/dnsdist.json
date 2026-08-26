@@ -12,14 +12,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "1.9.11-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "1.9.11-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "1.9.11-r0"
         }
       ]
     },
@@ -85,14 +77,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -105,14 +89,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -127,14 +103,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -147,14 +115,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -169,14 +129,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -189,14 +141,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -211,14 +155,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -231,14 +167,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -253,14 +181,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -273,14 +193,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -295,14 +207,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -315,14 +219,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -337,14 +233,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -357,14 +245,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -379,14 +259,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -399,14 +271,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -421,14 +285,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
         }
       ]
     },
@@ -441,14 +297,6 @@
       "events": [
         {
           "introduced": "1.9.4-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.4-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
           "fixed": "2.0.4-r0"
         }
       ]
@@ -463,18 +311,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "2.0.4-r0",
-          "fixed": "2.0.7-r0"
         },
         {
           "introduced": "2.0.4-r0",
@@ -494,18 +330,6 @@
           "fixed": "2.0.0-r0"
         },
         {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "2.0.4-r0",
-          "fixed": "2.0.7-r0"
-        },
-        {
           "introduced": "2.0.4-r0",
           "fixed": "2.0.7-r0"
         }
@@ -521,18 +345,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "2.0.4-r0",
-          "fixed": "2.0.7-r0"
         },
         {
           "introduced": "2.0.4-r0",
@@ -552,18 +364,6 @@
           "fixed": "2.0.0-r0"
         },
         {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "2.0.4-r0",
-          "fixed": "2.0.7-r0"
-        },
-        {
           "introduced": "2.0.4-r0",
           "fixed": "2.0.7-r0"
         }
@@ -579,18 +379,6 @@
         {
           "introduced": "1.9.4-r0",
           "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "2.0.4-r0",
-          "fixed": "2.0.7-r0"
         },
         {
           "introduced": "2.0.4-r0",
@@ -610,18 +398,6 @@
           "fixed": "2.0.0-r0"
         },
         {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "1.9.10-r0",
-          "fixed": "2.0.0-r0"
-        },
-        {
-          "introduced": "2.0.4-r0",
-          "fixed": "2.0.7-r0"
-        },
-        {
           "introduced": "2.0.4-r0",
           "fixed": "2.0.7-r0"
         }
@@ -629,8 +405,8 @@
     },
     "CVE-2026-52682": {
       "cve_id": "CVE-2026-52682",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
+      "title": "[A crafted DNS packet can cause increased memory and CPU consumpt",
+      "description": "[A crafted DNS packet can cause increased memory and CPU consumption]",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [

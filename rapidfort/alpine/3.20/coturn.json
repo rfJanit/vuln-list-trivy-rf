@@ -25,22 +25,6 @@
         {
           "introduced": "4.6.2-r0",
           "fixed": "4.9.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.9.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.9.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.9.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
-          "fixed": "4.9.0-r0"
         }
       ]
     },
@@ -53,22 +37,6 @@
       "events": [
         {
           "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
           "fixed": "4.10.0-r0"
         }
       ]
@@ -83,30 +51,6 @@
         {
           "introduced": "4.6.2-r0",
           "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
         }
       ]
     },
@@ -119,22 +63,6 @@
       "events": [
         {
           "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.10.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
           "fixed": "4.10.0-r0"
         }
       ]
@@ -149,30 +77,6 @@
         {
           "introduced": "4.6.2-r0",
           "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
         }
       ]
     },
@@ -186,30 +90,6 @@
         {
           "introduced": "4.6.2-r0",
           "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
         }
       ]
     },
@@ -222,30 +102,6 @@
       "events": [
         {
           "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
           "fixed": "4.14.0-r0"
         }
       ]
@@ -261,19 +117,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"
@@ -291,19 +135,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"
@@ -321,19 +153,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"
@@ -351,19 +171,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"
@@ -380,30 +188,6 @@
         {
           "introduced": "4.6.2-r0",
           "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.2-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.6.3-r1",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
-        },
-        {
-          "introduced": "4.10.0-r0",
-          "fixed": "4.14.0-r0"
         }
       ]
     },
@@ -418,19 +202,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"
@@ -448,19 +220,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"
@@ -478,19 +238,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"
@@ -508,19 +256,7 @@
           "introduced": "4.6.2-r0"
         },
         {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
-          "introduced": "4.6.2-r0"
-        },
-        {
           "introduced": "4.6.3-r1"
-        },
-        {
-          "introduced": "4.10.0-r0"
         },
         {
           "introduced": "4.10.0-r0"

@@ -10,18 +10,6 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "2.19-r4",
-          "fixed": "2.21-r0"
-        },
-        {
-          "introduced": "2.19-r4",
-          "fixed": "2.21-r0"
-        },
-        {
-          "introduced": "2.19-r4",
-          "fixed": "2.21-r0"
-        },
-        {
           "introduced": "2.20-r0",
           "fixed": "2.21-r0"
         }

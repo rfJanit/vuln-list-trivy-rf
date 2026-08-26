@@ -12,18 +12,6 @@
         {
           "introduced": "2.2.13-r0",
           "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.14-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.16-r0",
-          "fixed": "2.3.2-r0"
         }
       ]
     },
@@ -36,18 +24,6 @@
       "events": [
         {
           "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.14-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.16-r0",
           "fixed": "2.3.2-r0"
         }
       ]
@@ -62,18 +38,6 @@
         {
           "introduced": "2.2.13-r0",
           "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.14-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.16-r0",
-          "fixed": "2.3.2-r0"
         }
       ]
     },
@@ -86,18 +50,6 @@
       "events": [
         {
           "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.14-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.16-r0",
           "fixed": "2.3.2-r0"
         }
       ]
@@ -112,18 +64,6 @@
         {
           "introduced": "2.2.13-r0",
           "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.14-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.16-r0",
-          "fixed": "2.3.2-r0"
         }
       ]
     },
@@ -136,18 +76,6 @@
       "events": [
         {
           "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.13-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.14-r0",
-          "fixed": "2.3.2-r0"
-        },
-        {
-          "introduced": "2.2.16-r0",
           "fixed": "2.3.2-r0"
         }
       ]

@@ -20,9 +20,6 @@
         },
         {
           "introduced": "3.9.2.0-r0"
-        },
-        {
-          "introduced": "3.9.2.0-r0"
         }
       ]
     },
@@ -41,9 +38,6 @@
         },
         {
           "introduced": "3.7.3.0-r0"
-        },
-        {
-          "introduced": "3.9.2.0-r0"
         },
         {
           "introduced": "3.9.2.0-r0"
@@ -68,9 +62,6 @@
         },
         {
           "introduced": "3.9.2.0-r0"
-        },
-        {
-          "introduced": "3.9.2.0-r0"
         }
       ]
     },
@@ -92,9 +83,6 @@
         },
         {
           "introduced": "3.9.2.0-r0"
-        },
-        {
-          "introduced": "3.9.2.0-r0"
         }
       ]
     },
@@ -107,10 +95,6 @@
       "events": [
         {
           "introduced": "3.1.82.0-r0",
-          "fixed": "3.6.3.0-r0"
-        },
-        {
-          "introduced": "3.5.2.0-r0",
           "fixed": "3.6.3.0-r0"
         }
       ]
@@ -130,9 +114,6 @@
         },
         {
           "introduced": "3.7.3.0-r0"
-        },
-        {
-          "introduced": "3.9.2.0-r0"
         },
         {
           "introduced": "3.9.2.0-r0"
@@ -157,9 +138,6 @@
         },
         {
           "introduced": "3.9.2.0-r0"
-        },
-        {
-          "introduced": "3.9.2.0-r0"
         }
       ]
     },
@@ -172,14 +150,6 @@
       "events": [
         {
           "introduced": "3.1.82.0-r0",
-          "fixed": "3.9.2.0-r0"
-        },
-        {
-          "introduced": "3.5.2.0-r0",
-          "fixed": "3.9.2.0-r0"
-        },
-        {
-          "introduced": "3.7.3.0-r0",
           "fixed": "3.9.2.0-r0"
         }
       ]

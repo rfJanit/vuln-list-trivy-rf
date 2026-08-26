@@ -11,18 +11,6 @@
       "events": [
         {
           "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r2"
-        },
-        {
-          "introduced": "3.2.16-r2"
         }
       ]
     },
@@ -35,18 +23,6 @@
       "events": [
         {
           "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r2"
-        },
-        {
-          "introduced": "3.2.16-r2"
         }
       ]
     },
@@ -59,18 +35,6 @@
       "events": [
         {
           "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r1"
-        },
-        {
-          "introduced": "3.2.16-r2"
-        },
-        {
-          "introduced": "3.2.16-r2"
         }
       ]
     }
