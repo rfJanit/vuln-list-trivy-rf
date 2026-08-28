@@ -31,6 +31,11 @@
         {
           "introduced": "0",
           "identifier": "el8"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.12.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     }

@@ -692,13 +692,11 @@
       "title": "Gitea prior to 1.27.0 contains a server-side request forgery vuln ...",
       "description": "Gitea prior to 1.27.0 contains a server-side request forgery vulnerability that allows authenticated attackers to bypass SSRF protections by exploiting HTTP fetch operations in migration and OAuth avatar code paths that use Go's default http.Get without a custom DialContext. Attackers can supply arbitrary URLs through release asset download URLs, pull-request patch URLs, or OAuth avatar endpoints to reach internal services, cloud instance-metadata endpoints, or read local files such as the application configuration containing database credentials and signing secrets, with exfiltrated content persisted as migration release assets for later retrieval.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "1.24.6-r7"
-        },
-        {
-          "introduced": "1.25.4-r3"
+          "introduced": "1.24.6-r7",
+          "fixed": "1.27.1-r0"
         }
       ]
     },
@@ -867,6 +865,21 @@
         }
       ]
     },
+    "CVE-2026-57894": {
+      "cve_id": "CVE-2026-57894",
+      "title": "Repository Migration Follows Git HTTP Redirects After URL Allow/B ...",
+      "description": "Repository Migration Follows Git HTTP Redirects After URL Allow/Block Validation, Enabling Internal Git Repository Exfiltration",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
     "CVE-2026-57897": {
       "cve_id": "CVE-2026-57897",
       "title": "Cross-Repo Information Disclosure via Org-Level Actions Run/Job A ...",
@@ -912,10 +925,40 @@
         }
       ]
     },
+    "CVE-2026-58417": {
+      "cve_id": "CVE-2026-58417",
+      "title": "REST API exposes organization membership of private organizations ...",
+      "description": "REST API exposes organization membership of private organizations to public",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
     "CVE-2026-58418": {
       "cve_id": "CVE-2026-58418",
       "title": "SSRF via HTTP Redirect in Repository Migration",
       "description": "SSRF via HTTP Redirect in Repository Migration",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-58420": {
+      "cve_id": "CVE-2026-58420",
+      "title": "Local File Inclusion via file:// URI in Migration Restore",
+      "description": "Local File Inclusion via file:// URI in Migration Restore",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
@@ -985,6 +1028,21 @@
         }
       ]
     },
+    "CVE-2026-58425": {
+      "cve_id": "CVE-2026-58425",
+      "title": "OAuth token introspection returns metadata of tokens issued to ot ...",
+      "description": "OAuth token introspection returns metadata of tokens issued to other clients (RFC 7662 section 4 violation)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
     "CVE-2026-58426": {
       "cve_id": "CVE-2026-58426",
       "title": "Gitea Actions Artifacts V4 signed URL HMAC ambiguity allows cross ...",
@@ -1015,10 +1073,40 @@
         }
       ]
     },
+    "CVE-2026-58428": {
+      "cve_id": "CVE-2026-58428",
+      "title": "Release attachment extension allowlist bypass via web release edi ...",
+      "description": "Release attachment extension allowlist bypass via web release edit form (variant of CVE-2025-68939)",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
     "CVE-2026-58429": {
       "cve_id": "CVE-2026-58429",
       "title": "Public-Only Personal access tokens scope bypass in Organization a ...",
       "description": "Public-Only Personal access tokens scope bypass in Organization and Permission Endpoints",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-58431": {
+      "cve_id": "CVE-2026-58431",
+      "title": "Public-only API token restriction is not enforced on team API rou ...",
+      "description": "Public-only API token restriction is not enforced on team API routes",
       "severity": "MEDIUM",
       "status": "open",
       "events": [
@@ -1050,6 +1138,51 @@
       "title": "Team-repository linking endpoint bypasses the RepoAdminChangeTeam ...",
       "description": "Team-repository linking endpoint bypasses the RepoAdminChangeTeamAccess organization setting",
       "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-58435": {
+      "cve_id": "CVE-2026-58435",
+      "title": "Gitea LFS Deploy-Key Privilege Escalation",
+      "description": "Gitea LFS Deploy-Key Privilege Escalation",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-58436": {
+      "cve_id": "CVE-2026-58436",
+      "title": "ParseAcceptLanguage quadratic-time DoS via Locale middleware on u ...",
+      "description": "ParseAcceptLanguage quadratic-time DoS via Locale middleware on unauthenticated requests",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-58437": {
+      "cve_id": "CVE-2026-58437",
+      "title": "Repository Visibility Manipulation via Git Push Options",
+      "description": "Repository Visibility Manipulation via Git Push Options",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {
@@ -1150,6 +1283,64 @@
         }
       ]
     },
+    "CVE-2026-58444": {
+      "cve_id": "CVE-2026-58444",
+      "title": "Personal access token scope enforcement bypass on the repository  ...",
+      "description": "Personal access token scope enforcement bypass on the repository home page (`GET /{owner}/{repo}`) discloses private repository contents",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.24.6-r7",
+          "fixed": "1.27.1-r0"
+        }
+      ]
+    },
+    "CVE-2026-58445": {
+      "cve_id": "CVE-2026-58445",
+      "title": "Cross-repository label-ID enumeration oracle via unscoped DeleteI ...",
+      "description": "Cross-repository label-ID enumeration oracle via unscoped DeleteIssueLabel API",
+      "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-58507": {
+      "cve_id": "CVE-2026-58507",
+      "title": "Private Repository Existence Disclosure via go-get Meta Endpoint",
+      "description": "Private Repository Existence Disclosure via go-get Meta Endpoint",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-58508": {
+      "cve_id": "CVE-2026-58508",
+      "title": "Two SSRF vulnerabilities in Gitea migration/mirror (DNS rebinding ...",
+      "description": "Two SSRF vulnerabilities in Gitea migration/mirror (DNS rebinding + missing re-validation)",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "1.24.6-r7"
+        },
+        {
+          "introduced": "1.25.4-r3"
+        }
+      ]
+    },
     "CVE-2026-58510": {
       "cve_id": "CVE-2026-58510",
       "title": "GHSA-8fwc-qjw5-rvgp ClearRepoWatches fix not applied to API EditR ...",
@@ -1207,6 +1398,19 @@
         },
         {
           "introduced": "1.25.4-r3"
+        }
+      ]
+    },
+    "CVE-2026-60004": {
+      "cve_id": "CVE-2026-60004",
+      "title": "Gitea before 1.27.1 allows remote code execution via the diffpatc ...",
+      "description": "Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook installation.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1.24.6-r7",
+          "fixed": "1.27.1-r0"
         }
       ]
     }

@@ -59,6 +59,11 @@
           "introduced": "0",
           "fixed": "2.7.4-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -77,6 +82,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -123,6 +133,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -164,6 +179,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -205,6 +225,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -246,6 +271,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -264,6 +294,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -282,6 +317,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -300,6 +340,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -318,6 +363,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -332,6 +382,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -346,6 +401,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -360,6 +420,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -374,6 +439,11 @@
           "introduced": "2.7.2-1.fc43",
           "fixed": "2.8.2-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -413,6 +483,34 @@
         }
       ]
     },
+    "CVE-2026-72522": {
+      "cve_id": "CVE-2026-72522",
+      "title": "libexpat before 2.8.3 has an out-of-bounds read and resultant inf ...",
+      "description": "libexpat before 2.8.3 has an out-of-bounds read and resultant infinite loop because low surrogates are treated the same as high surrogates during Unicode processing in the *_toUtf16 functions.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "2.7.2-1.fc43",
+          "fixed": "2.8.3-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.8.3-1.fc45",
+          "identifier": "fc45"
+        }
+      ]
+    },
     "CVE-2026-76956": {
       "cve_id": "CVE-2026-76956",
       "title": "In libexpat 2.8.2 and 2.8.3 before 2.8.4, misinterpretation of ge ...",
@@ -422,6 +520,23 @@
       "events": [
         {
           "introduced": "2.8.2-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-76957": {
+      "cve_id": "CVE-2026-76957",
+      "title": "libexpat before 2.8.4 lacks handler call depth tracking with cust ...",
+      "description": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur. NOTE: this is similar to CVE-2026-50219, CVE-2026-56131 and CVE-2026-56412.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el8"
+        },
+        {
+          "introduced": "2.7.2-1.fc43",
           "identifier": "fc43"
         }
       ]

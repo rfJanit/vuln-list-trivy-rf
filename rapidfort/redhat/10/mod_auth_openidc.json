@@ -35,6 +35,11 @@
           "introduced": "0",
           "fixed": "2.4.19.2-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2.4.20.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     }

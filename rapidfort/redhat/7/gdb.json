@@ -107,10 +107,6 @@
         {
           "introduced": "0",
           "identifier": "el7"
-        },
-        {
-          "introduced": "16.3-6.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -124,10 +120,6 @@
         {
           "introduced": "0",
           "identifier": "el7"
-        },
-        {
-          "introduced": "16.3-6.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -505,7 +497,7 @@
       "cve_id": "CVE-2026-19582",
       "title": "In binutils 2.46.1 and prior versions, a victim who opens a craft ...",
       "description": "In binutils 2.46.1 and prior versions, a victim who opens a crafted PE file using binutils could execute arbitrary code unknowningly via a stack buffer overflow out of bounds write.",
-      "severity": "",
+      "severity": "NONE",
       "status": "open",
       "events": [
         {

@@ -386,12 +386,18 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:8.9.1-2.fc41",
-          "identifier": "fc41"
+          "introduced": "0:0",
+          "fixed": "0:8.18.0-9.fc44",
+          "identifier": "fc44"
         },
         {
-          "introduced": "8.15.0-2.fc43",
+          "introduced": "0:8.15.0-2.fc43",
+          "fixed": "0:8.15.0-9.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0:8.9.1-2.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -666,12 +672,18 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:8.9.1-2.fc41",
-          "identifier": "fc41"
+          "introduced": "0:0",
+          "fixed": "0:8.18.0-9.fc44",
+          "identifier": "fc44"
         },
         {
-          "introduced": "8.15.0-2.fc43",
+          "introduced": "0:8.15.0-2.fc43",
+          "fixed": "0:8.15.0-9.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0:8.9.1-2.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -725,10 +737,16 @@
       "title": "The curl logic that works with SASL authentication could end up c ...",
       "description": "The curl logic that works with SASL authentication could end up cleaning up\nthe GSASL context *twice* without clearing the pointer in between, making it\n`free()` the same pointer twice.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.15.0-2.fc43",
+          "introduced": "0:0",
+          "fixed": "0:8.18.0-9.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:8.15.0-2.fc43",
+          "fixed": "0:8.15.0-9.fc43",
           "identifier": "fc43"
         }
       ]
@@ -760,12 +778,18 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:8.9.1-2.fc41",
-          "identifier": "fc41"
+          "introduced": "0:0",
+          "fixed": "0:8.18.0-9.fc44",
+          "identifier": "fc44"
         },
         {
-          "introduced": "8.15.0-2.fc43",
+          "introduced": "0:8.15.0-2.fc43",
+          "fixed": "0:8.15.0-9.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0:8.9.1-2.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -818,10 +842,16 @@
       "title": "Calling `curl_easy_pause()` within the event-based `CURLMOPT_SOCK ...",
       "description": "Calling `curl_easy_pause()` within the event-based `CURLMOPT_SOCKETFUNCTION`\ncallback triggers a use-after-free vulnerability, where libcurl attempts to\nstore a flag using a dangling struct pointer immediately after that pointer's\nmemory has been freed.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.15.0-2.fc43",
+          "introduced": "0:0",
+          "fixed": "0:8.18.0-9.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:8.15.0-2.fc43",
+          "fixed": "0:8.15.0-9.fc43",
           "identifier": "fc43"
         }
       ]
@@ -831,10 +861,16 @@
       "title": "In this scenario, libcurl first uses a proper HTTP/3 server for t ...",
       "description": "In this scenario, libcurl first uses a proper HTTP/3 server for the initial\ntransfers, and when it makes a second transfer to the same site it has been\nreplaced by the attacker's impostor machine - without a valid certificate.\n\nWhen libcurl returns to the hostname the second time with a cached SSL session\n(`CURLOPT_SSL_SESSIONID_CACHE` is not disabled) and early data enabled (the\n`CURLSSLOPT_EARLYDATA` bit is set in `CURLOPT_SSL_OPTIONS`), libcurl might\nsend off the second request's bytes on that new connection *before* enforcing\nthe certificate verification failure. Potentially leaking sensitive\ninformation.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "8.15.0-2.fc43",
+          "introduced": "0:0",
+          "fixed": "0:8.18.0-9.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:8.15.0-2.fc43",
+          "fixed": "0:8.15.0-9.fc43",
           "identifier": "fc43"
         }
       ]

@@ -18,6 +18,11 @@
           "introduced": "0",
           "fixed": "2:3.23.0-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1163,6 +1168,11 @@
           "introduced": "0",
           "fixed": "2:3.23.0-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1186,6 +1196,11 @@
           "introduced": "0",
           "fixed": "2:3.23.0-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1209,6 +1224,11 @@
           "introduced": "0",
           "fixed": "2:3.23.0-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1232,6 +1252,11 @@
           "introduced": "0",
           "fixed": "2:3.23.0-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1248,7 +1273,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1281,7 +1306,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1314,7 +1339,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1343,7 +1368,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1376,7 +1401,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1409,7 +1434,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1438,7 +1463,7 @@
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1471,7 +1496,7 @@
         },
         {
           "introduced": "2:3.16.0-4.fc43",
-          "fixed": "2:3.24.0-1.fc43",
+          "fixed": "2:3.24.0-2.fc43",
           "identifier": "fc43"
         },
         {
@@ -1803,6 +1828,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1849,6 +1879,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1867,6 +1902,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1885,6 +1925,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1903,6 +1948,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2025,6 +2075,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2104,6 +2159,11 @@
           "introduced": "0",
           "fixed": "2:3.23.0-1.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2202,6 +2262,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2210,11 +2275,17 @@
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",
       "description": "FreeRDP is a free implementation of the Remote Desktop Protocol. Prior to 3.28.0, freerdp_dsp_decode_opus in libfreerdp/codec/dsp.c calls Stream_EnsureRemainingCapacity on context-\u003ecommon.buffer even though opus_decode writes decoded PCM into the caller-supplied out stream. A malicious RDP server that negotiates WAVE_FORMAT_OPUS with a client built with WITH_OPUS enabled and WITH_DSP_FFMPEG disabled can make libopus write a large decoded frame beyond the 4096-byte StreamPool_Take destination used by channels/rdpsnd/client/rdpsnd_main.c. This can corrupt the client heap, crash the client, and may permit code execution. This issue is fixed in version 3.28.0.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:3.16.0-4.fc43",
+          "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2229,6 +2300,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2247,6 +2323,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2265,6 +2346,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2283,6 +2369,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2301,6 +2392,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2319,6 +2415,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2333,6 +2434,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2351,6 +2457,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2369,6 +2480,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2387,6 +2503,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2405,6 +2526,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2423,6 +2549,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2441,6 +2572,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2459,6 +2595,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2473,6 +2614,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2487,6 +2633,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2505,6 +2656,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2523,6 +2679,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2541,6 +2702,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2555,6 +2721,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2573,6 +2744,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2591,6 +2767,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2605,6 +2786,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2619,6 +2805,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2637,6 +2828,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2651,6 +2847,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2669,6 +2870,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2696,6 +2902,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -2710,6 +2921,11 @@
           "introduced": "2:3.16.0-4.fc43",
           "fixed": "2:3.30.0-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "2:3.31.0-1.fc46",
+          "identifier": "fc46"
         }
       ]
     }

@@ -7,12 +7,8 @@
       "title": "Libgcrypt before 1.12.2 sometimes allows a heap-based buffer over ...",
       "description": "Libgcrypt before 1.12.2 sometimes allows a heap-based buffer overflow and denial of service via crafted ECDH ciphertext to gcry_pk_decrypt.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
         {
           "introduced": "1.11.1-2.fc43",
           "fixed": "1.11.1-4.fc43",
@@ -35,6 +31,11 @@
         {
           "introduced": "0",
           "identifier": "el7"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.12.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     }

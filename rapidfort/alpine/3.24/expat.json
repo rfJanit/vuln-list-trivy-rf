@@ -548,9 +548,6 @@
           "introduced": "2.7.4-r0"
         },
         {
-          "introduced": "2.8.2-r0"
-        },
-        {
           "introduced": "2.8.3-r0"
         }
       ]
@@ -591,6 +588,24 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.8.2-r0"
+        },
+        {
+          "introduced": "2.8.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-76957": {
+      "cve_id": "CVE-2026-76957",
+      "title": "libexpat before 2.8.4 lacks handler call depth tracking with cust ...",
+      "description": "libexpat before 2.8.4 lacks handler call depth tracking with custom encoding callbacks. Thus, a use-after-free can occur. NOTE: this is similar to CVE-2026-50219, CVE-2026-56131 and CVE-2026-56412.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "2.7.4-r0"
+        },
         {
           "introduced": "2.8.2-r0"
         },

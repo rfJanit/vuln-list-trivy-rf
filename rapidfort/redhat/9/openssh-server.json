@@ -383,6 +383,7 @@
         },
         {
           "introduced": "10.0p1-5.fc43",
+          "fixed": "10.0p1-12.fc43",
           "identifier": "fc43"
         },
         {
@@ -490,6 +491,7 @@
         },
         {
           "introduced": "10.0p1-5.fc43",
+          "fixed": "10.0p1-12.fc43",
           "identifier": "fc43"
         },
         {
@@ -512,6 +514,7 @@
         },
         {
           "introduced": "10.0p1-5.fc43",
+          "fixed": "10.0p1-12.fc43",
           "identifier": "fc43"
         },
         {

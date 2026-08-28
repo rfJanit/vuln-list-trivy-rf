@@ -44,6 +44,27 @@
         }
       ]
     },
+    "CVE-2022-3322": {
+      "cve_id": "CVE-2022-3322",
+      "title": "Lock Warp switch is a feature of Zero Trust platform which, when\n ...",
+      "description": "Lock Warp switch is a feature of Zero Trust platform which, when\n enabled, prevents users of enrolled devices from disabling WARP client.\n Due to insufficient policy verification by WARP iOS client, this \nfeature could be bypassed by using the \"Disable WARP\" quick action.\n\n\n\n",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0.8.0-r0"
+        },
+        {
+          "introduced": "0.9.2-r0"
+        },
+        {
+          "introduced": "0.9.2-r1"
+        },
+        {
+          "introduced": "1.0.0-r0"
+        }
+      ]
+    },
     "CVE-2022-3337": {
       "cve_id": "CVE-2022-3337",
       "title": "It was possible for a user to delete a VPN profile from WARP mobi ...",

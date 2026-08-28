@@ -106,6 +106,19 @@
         }
       ]
     },
+    "CVE-2024-45700": {
+      "cve_id": "CVE-2024-45700",
+      "title": "Zabbix server is vulnerable to a DoS vulnerability due to uncontr ...",
+      "description": "Zabbix server is vulnerable to a DoS vulnerability due to uncontrolled resource exhaustion. An attacker can send specially crafted requests to the server, which will cause the server to allocate an excessive amount of memory and perform CPU-intensive decompression operations, ultimately leading to a service crash.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "7.2.13-r3",
+          "fixed": "7.4.0-r0"
+        }
+      ]
+    },
     "CVE-2025-27231": {
       "cve_id": "CVE-2025-27231",
       "title": "The LDAP 'Bind password' value cannot be read after saving, but a ...",

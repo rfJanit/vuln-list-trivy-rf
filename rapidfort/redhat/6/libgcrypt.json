@@ -10,10 +10,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el6"
-        },
-        {
           "introduced": "0:1.11.0-3.fc41",
           "identifier": "fc41"
         },
@@ -39,6 +35,11 @@
         {
           "introduced": "0",
           "identifier": "el6"
+        },
+        {
+          "introduced": "0",
+          "fixed": "0:1.12.3-1.fc46",
+          "identifier": "fc46"
         }
       ]
     }

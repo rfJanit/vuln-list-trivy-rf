@@ -168,6 +168,25 @@
           "identifier": "ubuntu"
         }
       ]
+    },
+    "CVE-2026-53499": {
+      "cve_id": "CVE-2026-53499",
+      "title": "FORT Validator is a Resource Public Key Infrastructure (RPKI) rel ...",
+      "description": "FORT Validator is a Resource Public Key Infrastructure (RPKI) relying-party validator that produces validated route-origin data. FORT Validator versions through 1.6.7 contain an origin-validation error in their RRDP processing: a delegated CA under the same Trust Anchor Locator (TAL) can reference a victim CA’s public RRDP notification and snapshot URLs, causing FORT’s URL-based download cache to report success after deleting the victim’s local snapshot. Following a routine victim publication, this can silently remove the victim’s VRPs and other signed objects from FORT’s output, potentially enabling route hijacking or loss of reachability. Version 1.6.8 contains a patch that rejects cross-origin RRDP snapshot and delta URLs; as a workaround, administrators can disable HTTP/RRDP with  --http.enabled=false  while keeping rsync enabled, although this can leave data unavailable or stale where rsync is not supported.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:1.5.3-1build1",
+          "fixed": "0:1.6.8-1",
+          "identifier": "ubuntu"
+        },
+        {
+          "introduced": "0:1.6.1-1build3",
+          "fixed": "0:1.6.8-1",
+          "identifier": "ubuntu"
+        }
+      ]
     }
   }
 }

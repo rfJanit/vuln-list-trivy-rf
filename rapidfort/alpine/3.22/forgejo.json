@@ -4,9 +4,9 @@
   "advisories": {
     "CVE-2026-60004": {
       "cve_id": "CVE-2026-60004",
-      "title": "Title Not Available",
-      "description": "Description Not Available",
-      "severity": "",
+      "title": "Gitea before 1.27.1 allows remote code execution via the diffpatc ...",
+      "description": "Gitea before 1.27.1 allows remote code execution via the diffpatch API through Git hook installation.",
+      "severity": "CRITICAL",
       "status": "fixed",
       "events": [
         {

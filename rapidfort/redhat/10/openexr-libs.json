@@ -151,10 +151,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "3.2.4-6.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -168,10 +164,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "3.2.4-6.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -185,10 +177,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "3.2.4-6.fc43",
-          "identifier": "fc43"
         }
       ]
     }

@@ -76,7 +76,7 @@
       "events": [
         {
           "introduced": "1.36.0-r0",
-          "fixed": "1.41.2-r0"
+          "fixed": "1.41.1-r0"
         }
       ]
     }

@@ -359,12 +359,8 @@
       "title": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server wi ...",
       "description": "Heap-based Buffer Overflow vulnerability in Apache HTTP Server with malicious backend servers and ProxyPassReverseCookie*\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",
@@ -485,12 +481,8 @@
       "title": "Buffer Underwrite vulnerability in Apache HTTP Server on crafted  ...",
       "description": "Buffer Underwrite vulnerability in Apache HTTP Server on crafted regular expressions in the configuration.\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.67.\n\nUsers are recommended to upgrade to version 2.4.68, which fixes the issue.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
         {
           "introduced": "2.4.64-3.fc43",
           "fixed": "2.4.68-1.fc43",

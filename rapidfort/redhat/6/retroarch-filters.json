@@ -27,6 +27,11 @@
           "introduced": "1.19.0-13.fc43",
           "fixed": "1.22.0-20.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.22.0-21.fc45",
+          "identifier": "fc45"
         }
       ]
     }
