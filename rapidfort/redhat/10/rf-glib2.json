@@ -7,11 +7,12 @@
       "title": "A heap-based buffer overflow problem was found in glib through an ...",
       "description": "A heap-based buffer overflow problem was found in glib through an incorrect calculation of buffer size in the g_escape_uri_string() function. If the string to escape contains a very large number of unacceptable characters (which would need escaping), the calculation of the length of the escaped string could overflow, leading to a potential write off the end of the newly allocated string.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.2-1.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -20,11 +21,22 @@
       "title": "A flaw was found in GLib (Gnome Lib). This vulnerability allows a ...",
       "description": "A flaw was found in GLib (Gnome Lib). This vulnerability allows a remote attacker to cause heap corruption, leading to a denial of service or potential code execution via a buffer-underflow in the GVariant parser when processing maliciously crafted input strings.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
+          "introduced": "0:0",
+          "fixed": "0:2.87.2-2.fc45",
+          "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -33,11 +45,22 @@
       "title": "A flaw was found in glib. This vulnerability allows a heap buffer ...",
       "description": "A flaw was found in glib. This vulnerability allows a heap buffer overflow and denial-of-service (DoS) via an integer overflow in GLib's GIO (GLib Input/Output) escape_byte_string() function when processing malicious file or remote filesystem attribute values.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
+          "introduced": "0:0",
+          "fixed": "0:2.87.2-2.fc45",
+          "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -46,11 +69,27 @@
       "title": "A flaw was found in GLib. An integer overflow and buffer under-re ...",
       "description": "A flaw was found in GLib. An integer overflow and buffer under-read occur when parsing a long invalid ISO 8601 timestamp with the g_date_time_new_from_iso8601() function.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
+          "introduced": "0:0",
+          "fixed": "0:2.83.5-1.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.85.3-2.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.87.2-2.fc45",
+          "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -59,11 +98,22 @@
       "title": "A flaw was found in GLib, which is vulnerable to an integer overf ...",
       "description": "A flaw was found in GLib, which is vulnerable to an integer overflow in the g_string_insert_unichar() function. When the position at which to insert the character is large, the position will overflow, leading to a buffer underwrite.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
+          "introduced": "0:0",
+          "fixed": "0:2.85.3-2.fc44",
+          "identifier": "fc44"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.87.2-2.fc45",
+          "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -106,6 +156,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.4-2.fc43",
           "identifier": "fc43"
@@ -119,6 +174,21 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.87.2-2.fc45",
+          "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc43"
+        },
         {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.4-1.fc43",
@@ -134,6 +204,21 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:2.87.2-2.fc45",
+          "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.4-1.fc43",
           "identifier": "fc43"
@@ -147,6 +232,21 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.87.2-2.fc45",
+          "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.4-2.fc43",
+          "identifier": "fc43"
+        },
         {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.4-1.fc43",
@@ -170,13 +270,13 @@
           "identifier": "fc42"
         },
         {
-          "introduced": "0:2.86.3-1.fc43",
-          "identifier": "fc43"
-        },
-        {
           "introduced": "0:2.86.5-10.rfal",
           "fixed": "0:2.86.5-12.rf",
           "identifier": "rf"
+        },
+        {
+          "introduced": "2.86.0-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -187,6 +287,16 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.5-1.fc43",
+          "identifier": "fc43"
+        },
         {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.5-1.fc43",
@@ -207,6 +317,16 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.5-1.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.5-1.fc43",
           "identifier": "fc43"
@@ -225,6 +345,16 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:2.86.0-2.fc43",
+          "fixed": "0:2.86.5-1.fc43",
+          "identifier": "fc43"
+        },
         {
           "introduced": "0:2.86.3-1.fc43",
           "fixed": "0:2.86.5-1.fc43",
@@ -245,6 +375,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.86.5-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.82.2-1.fc41",
           "identifier": "fc41"
         },
@@ -253,13 +393,8 @@
           "identifier": "fc42"
         },
         {
-          "introduced": "0:2.86.3-1.fc43",
+          "introduced": "2.86.0-2.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:2.86.5-10.rfal",
-          "fixed": "0:2.86.5-11.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -271,6 +406,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.86.5-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.82.2-1.fc41",
           "identifier": "fc41"
         },
@@ -279,13 +424,8 @@
           "identifier": "fc42"
         },
         {
-          "introduced": "0:2.86.3-1.fc43",
+          "introduced": "2.86.0-2.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:2.86.5-10.rfal",
-          "fixed": "0:2.86.5-11.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -297,6 +437,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.86.5-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.82.2-1.fc41",
           "identifier": "fc41"
         },
@@ -305,13 +455,8 @@
           "identifier": "fc42"
         },
         {
-          "introduced": "0:2.86.3-1.fc43",
+          "introduced": "2.86.0-2.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:2.86.5-10.rfal",
-          "fixed": "0:2.86.5-11.rf",
-          "identifier": "rf"
         }
       ]
     },
@@ -323,6 +468,16 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0:0",
+          "fixed": "0:2.89.4-1.fc46",
+          "identifier": "fc46"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.86.5-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.82.2-1.fc41",
           "identifier": "fc41"
         },
@@ -331,13 +486,8 @@
           "identifier": "fc42"
         },
         {
-          "introduced": "0:2.86.3-1.fc43",
+          "introduced": "2.86.0-2.fc43",
           "identifier": "fc43"
-        },
-        {
-          "introduced": "0:2.86.5-10.rfal",
-          "fixed": "0:2.86.5-11.rf",
-          "identifier": "rf"
         }
       ]
     }

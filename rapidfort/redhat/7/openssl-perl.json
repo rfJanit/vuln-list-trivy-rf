@@ -473,6 +473,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -486,6 +491,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -499,6 +509,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -953,6 +968,11 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -967,6 +987,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -981,6 +1006,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -995,6 +1025,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1009,19 +1044,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-42765": {
-      "cve_id": "CVE-2026-42765",
-      "title": "Issue summary: When a partial-chain certificate verification is e ...",
-      "description": "Issue summary: When a partial-chain certificate verification is enabled\ntogether with OCSP response checking for the whole chain, a NULL dereference\nwill happen if the verified chain does not have a self-signed trusted anchor,\ncrashing the process.\n\nImpact summary: A NULL pointer dereference can trigger a crash which leads to a\nDenial of Service for an application.\n\nWhen performing OCSP response checking for certificates in the verification\nchain, the code always tries to access the next certificate as the issuer.\nThere is a check for a self-signed certificate. However with the partial\nchain verification enabled when the chain does not have a self-signed trusted\nanchor, the issuer will be NULL for the last certificate in the chain. A NULL\npointer dereference then happens.\n\nThis issue affects only applications which enable both OCSP verification\nof the certificate chain (X509_V_FLAG_OCSP_RESP_CHECK_ALL) and partial\nchain verification (X509_V_FLAG_PARTIAL_CHAIN) in the certificate\nverification. Both flags are disabled by default. For that reason, we have\nassigned Low severity to the issue.\n\nNo FIPS modules are affected by this issue as the affected code is outside\nthe OpenSSL FIPS module boundary.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
+        },
         {
-          "introduced": "1:3.5.1-2.fc43",
-          "identifier": "fc43"
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1081,6 +1108,11 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1095,6 +1127,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1109,6 +1146,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1123,6 +1165,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1137,6 +1184,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1151,6 +1203,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1165,6 +1222,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1224,6 +1286,11 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1286,6 +1353,11 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1329,6 +1401,11 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1342,6 +1419,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1355,6 +1437,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1368,6 +1455,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1381,6 +1473,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1440,6 +1537,11 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1453,6 +1555,11 @@
         {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     },
@@ -1512,6 +1619,11 @@
           "introduced": "0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1:4.0.2-1.fc46",
+          "identifier": "fc46"
         }
       ]
     }
