@@ -125,11 +125,6 @@
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -143,11 +138,6 @@
         {
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
           "identifier": "ubuntu"
         }
       ]
@@ -163,11 +153,6 @@
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -181,11 +166,6 @@
         {
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
           "identifier": "ubuntu"
         }
       ]
@@ -201,11 +181,6 @@
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -219,11 +194,6 @@
         {
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
           "identifier": "ubuntu"
         }
       ]
@@ -239,11 +209,6 @@
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
           "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
-          "identifier": "ubuntu"
         }
       ]
     },
@@ -257,11 +222,6 @@
         {
           "introduced": "0:3.2.3-8ubuntu3",
           "fixed": "0:3.2.7-0ubuntu0.22.04.6",
-          "identifier": "ubuntu"
-        },
-        {
-          "introduced": "0:3.2.7-1ubuntu1.2",
-          "fixed": "0:3.2.7-1ubuntu1.4",
           "identifier": "ubuntu"
         }
       ]

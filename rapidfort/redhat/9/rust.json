@@ -116,10 +116,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -146,10 +142,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -176,10 +168,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -258,10 +246,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -275,10 +259,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -292,10 +272,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -309,10 +285,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -339,10 +311,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -356,10 +324,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -373,10 +337,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -416,29 +376,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
-    "CVE-2026-5222": {
-      "cve_id": "CVE-2026-5222",
-      "title": "Cargo between 1.68 and 1.96 incorrectly normalized the URLs of th ...",
-      "description": "Cargo between 1.68 and 1.96 incorrectly normalized the URLs of third-party registries using the sparse index protocol. If a hosting provider allowed multiple registries to be hosted with arbitrary names within the same domain, an attacker able to publish crates in a registry could obtain the credentials of others users of the same registry. The severity of the vulnerability is **low**, due to the extremely niche requirements needed to achieve the attack.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "1.90.0-1.fc43",
-          "fixed": "1.96.0-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.96.0-1.fc44",
-          "identifier": "fc44"
         }
       ]
     },
@@ -452,16 +389,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "fixed": "1.96.0-1.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "0",
-          "fixed": "1.96.0-1.fc44",
-          "identifier": "fc44"
         }
       ]
     },
@@ -631,10 +558,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -648,10 +571,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "1.90.0-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
