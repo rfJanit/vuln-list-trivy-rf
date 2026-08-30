@@ -26,10 +26,6 @@
         {
           "introduced": "0",
           "identifier": "el10"
-        },
-        {
-          "introduced": "1.4.2-16.fc43",
-          "identifier": "fc43"
         }
       ]
     }

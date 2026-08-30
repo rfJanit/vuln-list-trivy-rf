@@ -38,11 +38,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0",
-          "fixed": "22.1.8-4.fc44",
-          "identifier": "fc44"
         }
       ]
     },
@@ -56,10 +51,6 @@
         {
           "introduced": "0",
           "identifier": "el9"
-        },
-        {
-          "introduced": "21.1.2-1.fc43",
-          "identifier": "fc43"
         }
       ]
     }
