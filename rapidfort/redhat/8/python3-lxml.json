@@ -12,6 +12,14 @@
         {
           "introduced": "0",
           "identifier": "el8"
+        },
+        {
+          "introduced": "0:5.2.1-6.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "6.0.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -25,6 +33,14 @@
         {
           "introduced": "0",
           "identifier": "el8"
+        },
+        {
+          "introduced": "0:5.2.1-6.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "6.0.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     }

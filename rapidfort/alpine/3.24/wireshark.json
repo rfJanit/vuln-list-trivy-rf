@@ -342,10 +342,11 @@
       "title": "C12.22 protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4. ...",
       "description": "C12.22 protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4.4.18 allows denial of service",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "4.6.5-r0"
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.8-r0"
         }
       ]
     },
@@ -354,10 +355,11 @@
       "title": "RDP protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4.4.1 ...",
       "description": "RDP protocol dissector crash in 4.6.0 to 4.6.7 and 4.4.0 to 4.4.18 allows denial of service",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "4.6.5-r0"
+          "introduced": "4.6.5-r0",
+          "fixed": "4.6.8-r0"
         }
       ]
     },

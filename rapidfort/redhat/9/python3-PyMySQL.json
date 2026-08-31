@@ -12,6 +12,16 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.1.1-1.fc39",
+          "identifier": "fc39"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.1.1-1.fc40",
+          "identifier": "fc40"
         }
       ]
     }

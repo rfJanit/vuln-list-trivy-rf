@@ -63,9 +63,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.7.4-r2"
         }
       ]
     },
@@ -78,9 +75,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.7.4-r2"
         }
       ]
     },
@@ -93,9 +87,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.7.4-r2"
         }
       ]
     },
@@ -123,9 +114,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.7.4-r2"
         }
       ]
     },
@@ -138,9 +126,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.7.4-r2"
         }
       ]
     },
@@ -153,9 +138,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.7.4-r2"
         }
       ]
     },
@@ -168,9 +150,6 @@
       "events": [
         {
           "introduced": "2.3.1-r2"
-        },
-        {
-          "introduced": "2.7.4-r2"
         }
       ]
     },
