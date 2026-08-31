@@ -15,12 +15,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "15.4-1.fc40",
+          "fixed": "0:15.4-1.fc40",
           "identifier": "fc40"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -38,12 +38,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "15.4-1.fc40",
+          "fixed": "0:15.4-1.fc40",
           "identifier": "fc40"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -61,7 +61,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -75,7 +75,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -93,17 +93,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "16.3-3.fc41",
+          "fixed": "0:16.3-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "16.8-1.fc42",
+          "fixed": "0:16.8-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -121,17 +121,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "16.3-3.fc41",
+          "fixed": "0:16.3-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "16.8-1.fc42",
+          "fixed": "0:16.8-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -149,17 +149,17 @@
         },
         {
           "introduced": "0",
-          "fixed": "16.3-3.fc41",
+          "fixed": "0:16.3-3.fc41",
           "identifier": "fc41"
         },
         {
           "introduced": "0",
-          "fixed": "16.8-1.fc42",
+          "fixed": "0:16.8-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -173,12 +173,12 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "16.8-1.fc42",
+          "fixed": "0:16.8-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -196,12 +196,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "16.8-1.fc42",
+          "fixed": "0:16.8-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -219,12 +219,12 @@
         },
         {
           "introduced": "0",
-          "fixed": "16.8-1.fc42",
+          "fixed": "0:16.8-1.fc42",
           "identifier": "fc42"
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -242,7 +242,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18.3-1.fc45",
+          "fixed": "0:18.3-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -260,7 +260,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18.3-1.fc45",
+          "fixed": "0:18.3-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -278,7 +278,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -296,7 +296,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -314,7 +314,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -332,7 +332,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18beta1-4.fc43",
+          "fixed": "0:18beta1-4.fc43",
           "identifier": "fc43"
         }
       ]
@@ -349,7 +349,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -362,7 +362,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -375,7 +375,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -388,7 +388,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -401,7 +401,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -418,7 +418,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -431,7 +431,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -444,7 +444,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -457,7 +457,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -470,7 +470,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -483,7 +483,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -500,7 +500,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -513,7 +513,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -526,7 +526,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -543,7 +543,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -556,7 +556,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -569,7 +569,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -586,7 +586,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -599,7 +599,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -616,7 +616,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -629,7 +629,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -642,7 +642,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -655,7 +655,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -668,7 +668,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -686,7 +686,7 @@
         },
         {
           "introduced": "0",
-          "fixed": "18.3-1.fc45",
+          "fixed": "0:18.3-1.fc45",
           "identifier": "fc45"
         }
       ]
@@ -699,7 +699,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -712,7 +712,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -725,7 +725,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -738,7 +738,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -751,7 +751,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -768,7 +768,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -785,7 +785,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -802,7 +802,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -815,7 +815,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -832,7 +832,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -849,7 +849,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -866,7 +866,7 @@
           "identifier": "el6"
         },
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -879,7 +879,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -892,7 +892,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]
@@ -905,7 +905,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "18.3-2.fc43",
+          "introduced": "0:18.3-2.fc43",
           "identifier": "fc43"
         }
       ]

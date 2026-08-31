@@ -106,7 +106,7 @@
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
-          "fixed": "153.0-3.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -164,10 +164,11 @@
       "title": "Site isolation issue in the Graphics: CanvasWebGL component. This ...",
       "description": "Site isolation issue in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -177,10 +178,11 @@
       "title": "Privilege escalation in the DOM: Networking component. This vulne ...",
       "description": "Privilege escalation in the DOM: Networking component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -190,10 +192,11 @@
       "title": "Use-after-free in the JavaScript: WebAssembly component. This vul ...",
       "description": "Use-after-free in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -203,10 +206,11 @@
       "title": "Privilege escalation in the DOM: Navigation component. This vulne ...",
       "description": "Privilege escalation in the DOM: Navigation component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -216,10 +220,11 @@
       "title": "Use-after-free in the Graphics: Text component. This vulnerabilit ...",
       "description": "Use-after-free in the Graphics: Text component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -229,10 +234,11 @@
       "title": "Privilege escalation in the Graphics: CanvasWebGL component. This ...",
       "description": "Privilege escalation in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -242,10 +248,11 @@
       "title": "Privilege escalation in the Remote Settings Client component. Thi ...",
       "description": "Privilege escalation in the Remote Settings Client component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -255,10 +262,11 @@
       "title": "Use-after-free in the Graphics: ImageLib component. This vulnerab ...",
       "description": "Use-after-free in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -268,10 +276,11 @@
       "title": "Use-after-free in the DOM: Core \u0026 HTML component. This vulnerabil ...",
       "description": "Use-after-free in the DOM: Core \u0026 HTML component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -281,10 +290,11 @@
       "title": "Information disclosure in the Graphics: Text component. This vuln ...",
       "description": "Information disclosure in the Graphics: Text component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -294,10 +304,11 @@
       "title": "Privilege escalation due to incorrect boundary conditions in the  ...",
       "description": "Privilege escalation due to incorrect boundary conditions in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -307,10 +318,11 @@
       "title": "Information disclosure in the Graphics component. This vulnerabil ...",
       "description": "Information disclosure in the Graphics component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -320,10 +332,11 @@
       "title": "Use-after-free in the Graphics: Canvas2D component. This vulnerab ...",
       "description": "Use-after-free in the Graphics: Canvas2D component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -333,10 +346,11 @@
       "title": "Privilege escalation in the Networking: Cookies component. This v ...",
       "description": "Privilege escalation in the Networking: Cookies component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -346,10 +360,11 @@
       "title": "Mitigation bypass in the Safe Browsing component. This vulnerabil ...",
       "description": "Mitigation bypass in the Safe Browsing component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -359,10 +374,11 @@
       "title": "Mitigation bypass in the Storage: Cache API component. This vulne ...",
       "description": "Mitigation bypass in the Storage: Cache API component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -372,10 +388,11 @@
       "title": "Site isolation issue in the WebExtensions component. This vulnera ...",
       "description": "Site isolation issue in the WebExtensions component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -385,10 +402,11 @@
       "title": "Site isolation issue in the Networking: Cookies component. This v ...",
       "description": "Site isolation issue in the Networking: Cookies component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -398,10 +416,11 @@
       "title": "Integer overflow in the Graphics component. This vulnerability wa ...",
       "description": "Integer overflow in the Graphics component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -411,10 +430,11 @@
       "title": "Same-origin policy bypass in the Audio/Video: Playback component. ...",
       "description": "Same-origin policy bypass in the Audio/Video: Playback component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -424,10 +444,11 @@
       "title": "Use-after-free in the Layout: Text and Fonts component. This vuln ...",
       "description": "Use-after-free in the Layout: Text and Fonts component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -437,10 +458,11 @@
       "title": "Information disclosure in the DOM: UI Events \u0026 Focus Handling com ...",
       "description": "Information disclosure in the DOM: UI Events \u0026 Focus Handling component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -450,10 +472,11 @@
       "title": "Information disclosure in the DOM: Push Subscriptions component.  ...",
       "description": "Information disclosure in the DOM: Push Subscriptions component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -463,10 +486,11 @@
       "title": "Race condition, use-after-free in the Graphics component. This vu ...",
       "description": "Race condition, use-after-free in the Graphics component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -476,10 +500,11 @@
       "title": "Same-origin policy bypass in the Graphics: ImageLib component. Th ...",
       "description": "Same-origin policy bypass in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -489,10 +514,11 @@
       "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
       "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -502,10 +528,11 @@
       "title": "Mitigation bypass in the Data Loss Prevention component. This vul ...",
       "description": "Mitigation bypass in the Data Loss Prevention component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -515,10 +542,11 @@
       "title": "Internally found bugs present in Firefox ESR 140.13, Firefox ESR  ...",
       "description": "Internally found bugs present in Firefox ESR 140.13, Firefox ESR 153.0 and Firefox 153. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]
@@ -528,10 +556,11 @@
       "title": "Internally found bugs present in Firefox ESR 115.38, Firefox ESR  ...",
       "description": "Internally found bugs present in Firefox ESR 115.38, Firefox ESR 140.13, Firefox ESR 153.0 and Firefox 153. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. This vulnerability was fixed in Firefox 154, Firefox ESR 115.39, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "143.0.3-1.fc43",
+          "fixed": "154.0-5.fc43",
           "identifier": "fc43"
         }
       ]

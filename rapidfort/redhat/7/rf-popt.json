@@ -14,6 +14,10 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "1.19-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1.19-9.fc43",
           "identifier": "fc43"
         }
@@ -29,6 +33,10 @@
         {
           "introduced": "0:1.19-7.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "1.19-11.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1.19-9.fc43",

@@ -11,6 +11,11 @@
       "events": [
         {
           "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -24,6 +29,11 @@
       "events": [
         {
           "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -37,6 +47,11 @@
       "events": [
         {
           "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -50,6 +65,11 @@
       "events": [
         {
           "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -264,7 +284,7 @@
       "title": "Issue summary: PBMAC1 parameters in PKCS#12 files are missing val ...",
       "description": "Issue summary: PBMAC1 parameters in PKCS#12 files are missing validation\nwhich can trigger a stack-based buffer overflow, invalid pointer or NULL\npointer dereference during MAC verification.\n\nImpact summary: The stack buffer overflow or NULL pointer dereference may\ncause a crash leading to Denial of Service for an application that parses\nuntrusted PKCS#12 files. The buffer overflow may also potentially enable\ncode execution depending on platform mitigations.\n\nWhen verifying a PKCS#12 file that uses PBMAC1 for the MAC, the PBKDF2\nsalt and keylength parameters from the file are used without validation.\nIf the value of keylength exceeds the size of the fixed stack buffer used\nfor the derived key (64 bytes), the key derivation will overflow the buffer.\nThe overflow length is attacker-controlled. Also, if the salt parameter is\nnot an OCTET STRING type this can lead to invalid or NULL pointer\ndereference.\n\nExploiting this issue requires a user or application to process\na maliciously crafted PKCS#12 file. It is uncommon to accept untrusted\nPKCS#12 files in applications as they are usually used to store private\nkeys which are trusted by definition. For this reason the issue was assessed\nas Moderate severity.\n\nThe FIPS modules in 3.6, 3.5 and 3.4 are not affected by this issue, as\nPKCS#12 processing is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5 and 3.4 are vulnerable to this issue.\n\nOpenSSL 3.3, 3.0, 1.1.1 and 1.0.2 are not affected by this issue as they do\nnot support PBMAC1 in PKCS#12.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:0",
@@ -278,6 +298,7 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
           "identifier": "rf"
         },
         {
@@ -292,7 +313,7 @@
       "title": "Issue summary: Parsing CMS AuthEnvelopedData or EnvelopedData mes ...",
       "description": "Issue summary: Parsing CMS AuthEnvelopedData or EnvelopedData message with\nmaliciously crafted AEAD parameters can trigger a stack buffer overflow.\n\nImpact summary: A stack buffer overflow may lead to a crash, causing Denial\nof Service, or potentially remote code execution.\n\nWhen parsing CMS (Auth)EnvelopedData structures that use AEAD ciphers such as\nAES-GCM, the IV (Initialization Vector) encoded in the ASN.1 parameters is\ncopied into a fixed-size stack buffer without verifying that its length fits\nthe destination. An attacker can supply a crafted CMS message with an\noversized IV, causing a stack-based out-of-bounds write before any\nauthentication or tag verification occurs.\n\nApplications and services that parse untrusted CMS or PKCS#7 content using\nAEAD ciphers (e.g., S/MIME (Auth)EnvelopedData with AES-GCM) are vulnerable.\nBecause the overflow occurs prior to authentication, no valid key material\nis required to trigger it. While exploitability to remote code execution\ndepends on platform and toolchain mitigations, the stack-based write\nprimitive represents a severe risk.\n\nThe FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this\nissue, as the CMS implementation is outside the OpenSSL FIPS module\nboundary.\n\nOpenSSL 3.6, 3.5, 3.4, 3.3 and 3.0 are vulnerable to this issue.\n\nOpenSSL 1.1.1 and 1.0.2 are not affected by this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:0",
@@ -306,6 +327,7 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
           "identifier": "rf"
         },
         {
@@ -329,6 +351,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -362,6 +389,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -386,7 +418,7 @@
       "title": "Issue summary: A TLS 1.3 connection using certificate compression ...",
       "description": "Issue summary: A TLS 1.3 connection using certificate compression can be\nforced to allocate a large buffer before decompression without checking\nagainst the configured certificate size limit.\n\nImpact summary: An attacker can cause per-connection memory allocations of\nup to approximately 22 MiB and extra CPU work, potentially leading to\nservice degradation or resource exhaustion (Denial of Service).\n\nIn affected configurations, the peer-supplied uncompressed certificate\nlength from a CompressedCertificate message is used to grow a heap buffer\nprior to decompression. This length is not bounded by the max_cert_list\nsetting, which otherwise constrains certificate message sizes. An attacker\ncan exploit this to cause large per-connection allocations followed by\nhandshake failure. No memory corruption or information disclosure occurs.\n\nThis issue only affects builds where TLS 1.3 certificate compression is\ncompiled in (i.e., not OPENSSL_NO_COMP_ALG) and at least one compression\nalgorithm (brotli, zlib, or zstd) is available, and where the compression\nextension is negotiated. Both clients receiving a server CompressedCertificate\nand servers in mutual TLS scenarios receiving a client CompressedCertificate\nare affected. Servers that do not request client certificates are not\nvulnerable to client-initiated attacks.\n\nUsers can mitigate this issue by setting SSL_OP_NO_RX_CERTIFICATE_COMPRESSION\nto disable receiving compressed certificates.\n\nThe FIPS modules in 3.6, 3.5, 3.4 and 3.3 are not affected by this issue,\nas the TLS implementation is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5, 3.4 and 3.3 are vulnerable to this issue.\n\nOpenSSL 3.0, 1.1.1 and 1.0.2 are not affected by this issue.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -395,6 +427,7 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
           "identifier": "rf"
         },
         {
@@ -463,6 +496,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -526,6 +564,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -550,7 +593,7 @@
       "title": "Issue summary: Calling PKCS12_get_friendlyname() function on a ma ...",
       "description": "Issue summary: Calling PKCS12_get_friendlyname() function on a maliciously\ncrafted PKCS#12 file with a BMPString (UTF-16BE) friendly name containing\nnon-ASCII BMP code point can trigger a one byte write before the allocated\nbuffer.\n\nImpact summary: The out-of-bounds write can cause a memory corruption\nwhich can have various consequences including a Denial of Service.\n\nThe OPENSSL_uni2utf8() function performs a two-pass conversion of a PKCS#12\nBMPString (UTF-16BE) to UTF-8. In the second pass, when emitting UTF-8 bytes,\nthe helper function bmp_to_utf8() incorrectly forwards the remaining UTF-16\nsource byte count as the destination buffer capacity to UTF8_putc(). For BMP\ncode points above U+07FF, UTF-8 requires three bytes, but the forwarded\ncapacity can be just two bytes. UTF8_putc() then returns -1, and this negative\nvalue is added to the output length without validation, causing the\nlength to become negative. The subsequent trailing NUL byte is then written\nat a negative offset, causing write outside of heap allocated buffer.\n\nThe vulnerability is reachable via the public PKCS12_get_friendlyname() API\nwhen parsing attacker-controlled PKCS#12 files. While PKCS12_parse() uses a\ndifferent code path that avoids this issue, PKCS12_get_friendlyname() directly\ninvokes the vulnerable function. Exploitation requires an attacker to provide\na malicious PKCS#12 file to be parsed by the application and the attacker\ncan just trigger a one zero byte write before the allocated buffer.\nFor that reason the issue was assessed as Low severity according to our\nSecurity Policy.\n\nThe FIPS modules in 3.6, 3.5, 3.4, 3.3 and 3.0 are not affected by this issue,\nas the PKCS#12 implementation is outside the OpenSSL FIPS module boundary.\n\nOpenSSL 3.6, 3.5, 3.4, 3.3, 3.0 and 1.1.1 are vulnerable to this issue.\n\nOpenSSL 1.0.2 is not affected by this issue.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "1:0",
@@ -594,6 +637,7 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
           "identifier": "rf"
         },
         {
@@ -647,6 +691,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -725,6 +774,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -894,6 +948,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -916,6 +986,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -938,6 +1024,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -986,6 +1088,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -1064,6 +1171,11 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.5-11.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-12.rf",
           "identifier": "rf"
         },
         {
@@ -2159,6 +2271,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -2181,6 +2309,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -2203,6 +2347,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -2225,6 +2385,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]
@@ -2312,7 +2488,7 @@
       "cve_id": "CVE-2026-75803",
       "title": "Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an e ...",
       "description": "Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty\nciphertext can report success without verifying the supplied authentication\ntag when the operation is finalized by calling the EVP_Cipher() function.\n\nImpact summary: Applications calling EVP_Cipher() on an empty ciphertext and\nexpecting the call to check the AEAD tag may accept forged messages.\n\nCWE: CWE-354 (Improper Validation of Integrity Check Value)\n\nDescription: The EVP_Cipher() API call for AEAD ciphers behaves like a one\nshot encryption and decryption call. It also verifies the AEAD tag after the\ndecryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers\nit skipped the AEAD tag verification when an empty ciphertext was passed to\nthe function. The callers of this function might believe that a successful\nreturn indicates a valid AEAD tag for these ciphers, even when that has not\ntruly been validated in this case.\n\nFIPS impact: no\nThe FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE\nas the affected algorithms are not FIPS approved and thus not implemented\nin the FIPS module.",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "status": "open",
       "events": [
         {
@@ -2326,6 +2502,22 @@
         },
         {
           "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.6-11.rf",
+          "fixed": "1:3.5.7-12.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "1:3.5.7-11.rf",
+          "fixed": "1:3.5.7-12.rf",
           "identifier": "rf"
         }
       ]

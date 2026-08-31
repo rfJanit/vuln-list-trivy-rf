@@ -2,6 +2,34 @@
   "package_name": "rf-openssh-clients",
   "distro_version": "9",
   "advisories": {
+    "CVE-2025-26465": {
+      "cve_id": "CVE-2025-26465",
+      "title": "A vulnerability was found in OpenSSH when the VerifyHostKeyDNS op ...",
+      "description": "A vulnerability was found in OpenSSH when the VerifyHostKeyDNS option is enabled. A machine-in-the-middle attack can be performed by a malicious machine impersonating a legit server. This issue occurs due to how OpenSSH mishandles error codes in specific conditions when verifying the host key. For an attack to be considered successful, the attacker needs to manage to exhaust the client's memory resource first, turning the attack complexity high.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:9.9p1-2.fc41",
+          "fixed": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
+        }
+      ]
+    },
+    "CVE-2025-26466": {
+      "cve_id": "CVE-2025-26466",
+      "title": "A flaw was found in the OpenSSH package. For each ping packet the ...",
+      "description": "A flaw was found in the OpenSSH package. For each ping packet the SSH server receives, a pong packet is allocated in a memory buffer and stored in a queue of packages. It is only freed when the server/client key exchange has finished. A malicious client may keep sending such packages, leading to an uncontrolled increase in memory consumption on the server side. Consequently, the server may become unavailable, resulting in a denial of service attack.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "0:9.9p1-2.fc41",
+          "fixed": "0:9.9p1-3.fc41",
+          "identifier": "fc41"
+        }
+      ]
+    },
     "CVE-2025-32728": {
       "cve_id": "CVE-2025-32728",
       "title": "In sshd in OpenSSH before 10.0, the DisableForwarding directive d ...",
@@ -18,6 +46,16 @@
           "introduced": "0:0",
           "fixed": "0:9.9p1-11.fc42",
           "identifier": "fc42"
+        },
+        {
+          "introduced": "0:9.9p1-2.fc41",
+          "fixed": "0:9.9p1-4.fc41",
+          "identifier": "fc41"
+        },
+        {
+          "introduced": "0:9.9p1-3.fc41",
+          "fixed": "0:9.9p1-4.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -26,7 +64,7 @@
       "title": "ssh in OpenSSH before 10.1 allows control characters in usernames ...",
       "description": "ssh in OpenSSH before 10.1 allows control characters in usernames that originate from certain possibly untrusted sources, potentially leading to code execution when a ProxyCommand is used. The untrusted sources are the command line and %-sequence expansion of a configuration file. (A configuration file that provides a complete literal username is not categorized as an untrusted source.)",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -39,8 +77,9 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-9.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -49,7 +88,7 @@
       "title": "ssh in OpenSSH before 10.1 allows the '\\0' character in an ssh:// ...",
       "description": "ssh in OpenSSH before 10.1 allows the '\\0' character in an ssh:// URI, potentially leading to code execution when a ProxyCommand is used.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -62,8 +101,9 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-9.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -101,13 +141,8 @@
       "title": "In OpenSSH before 10.3, a file downloaded by scp may be installed ...",
       "description": "In OpenSSH before 10.3, a file downloaded by scp may be installed setuid or setgid, an outcome contrary to some users' expectations, if the download is performed as root with -O (legacy scp protocol) and without -p (preserve mode).",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
-        {
-          "introduced": "0:0",
-          "fixed": "0:9.9p1-14.fc42",
-          "identifier": "fc42"
-        },
         {
           "introduced": "0:0",
           "fixed": "0:10.2p1-8.fc44",
@@ -119,8 +154,14 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-9.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:9.9p1-13.fc42",
+          "fixed": "0:9.9p1-14.fc42",
+          "identifier": "fc42"
         }
       ]
     },
@@ -140,6 +181,11 @@
           "introduced": "0:10.0p1-5.fc43",
           "fixed": "0:10.0p1-9.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-9.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -148,7 +194,7 @@
       "title": "OpenSSH before 10.3 can use unintended ECDSA algorithms. Listing  ...",
       "description": "OpenSSH before 10.3 can use unintended ECDSA algorithms. Listing of any ECDSA algorithm in PubkeyAcceptedAlgorithms or HostbasedAcceptedAlgorithms is misinterpreted to mean all ECDSA algorithms.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -161,8 +207,9 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-9.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -171,7 +218,7 @@
       "title": "OpenSSH before 10.3 omits connection multiplexing confirmation fo ...",
       "description": "OpenSSH before 10.3 omits connection multiplexing confirmation for proxy-mode multiplexing sessions.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -184,8 +231,9 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-9.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -194,7 +242,7 @@
       "title": "OpenSSH before 10.3 mishandles the authorized_keys principals opt ...",
       "description": "OpenSSH before 10.3 mishandles the authorized_keys principals option in uncommon scenarios involving a principals list in conjunction with a Certificate Authority that makes certain use of comma characters.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -207,8 +255,9 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-9.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -231,6 +280,16 @@
         },
         {
           "introduced": "0:10.0p1-5.fc43",
+          "fixed": "0:10.0p1-10.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-10.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
           "fixed": "0:10.0p1-10.fc43",
           "identifier": "fc43"
         },
@@ -264,6 +323,16 @@
           "identifier": "fc43"
         },
         {
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-10.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-10.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:8.7p1-48.el9_7",
           "fixed": "0:9.9p1-9.el9_8",
           "identifier": "el9"
@@ -293,6 +362,16 @@
           "identifier": "fc43"
         },
         {
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-10.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-10.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:8.7p1-48.el9_7",
           "fixed": "0:9.9p1-9.el9_8",
           "identifier": "el9"
@@ -304,7 +383,7 @@
       "title": "sftp in OpenSSH before 10.4 does not properly constrain the locat ...",
       "description": "sftp in OpenSSH before 10.4 does not properly constrain the location of downloaded files when \"sftp server:/path .\" is used with an attacker-controlled server.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -317,8 +396,14 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -327,7 +412,7 @@
       "title": "scp in OpenSSH before 10.4 may place a file in the parent directo ...",
       "description": "scp in OpenSSH before 10.4 may place a file in the parent directory of an intended directory when the copy occurs between two remote destinations.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -340,13 +425,19 @@
           "identifier": "fc43"
         },
         {
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-11.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-11.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:8.7p1-48.el9_7",
           "fixed": "0:9.9p1-9.el9_8",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
         }
       ]
     },
@@ -361,10 +452,6 @@
           "introduced": "0:0",
           "fixed": "0:10.5p1-1.fc46",
           "identifier": "fc46"
-        },
-        {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -385,10 +472,6 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
-        },
-        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -399,7 +482,7 @@
       "title": "In sshd in OpenSSH before 10.4, DisableForwarding=yes was suppose ...",
       "description": "In sshd in OpenSSH before 10.4, DisableForwarding=yes was supposed to take precedence over PermitTunnel=yes, but did not.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -412,8 +495,14 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -428,10 +517,6 @@
           "introduced": "0:0",
           "fixed": "0:10.5p1-1.fc46",
           "identifier": "fc46"
-        },
-        {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
         },
         {
           "introduced": "10.0p1-5.fc43",
@@ -452,10 +537,6 @@
           "identifier": "fc46"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
-        },
-        {
           "introduced": "10.0p1-5.fc43",
           "identifier": "fc43"
         }
@@ -466,7 +547,7 @@
       "title": "ssh in OpenSSH before 10.4 can have a use-after-free when a serve ...",
       "description": "ssh in OpenSSH before 10.4 can have a use-after-free when a server changes its host key during a key re-exchange. (This outcome occurs only on the client side.)",
       "severity": "CRITICAL",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -479,13 +560,19 @@
           "identifier": "fc43"
         },
         {
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-11.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-11.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:8.7p1-48.el9_7",
           "fixed": "0:9.9p1-9.el9_8",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
         }
       ]
     },
@@ -497,7 +584,15 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:9.9p1-4.fc41",
+          "introduced": "0:10.4p1-12.fc45.rf",
+          "identifier": "rf"
+        },
+        {
+          "introduced": "0:9.9p1-13.fc42",
+          "identifier": "fc42"
+        },
+        {
+          "introduced": "0:9.9p1-2.fc41",
           "identifier": "fc41"
         },
         {
@@ -511,7 +606,7 @@
       "title": "In ssh in OpenSSH before 10.5, a use-after-free for realloc data  ...",
       "description": "In ssh in OpenSSH before 10.5, a use-after-free for realloc data can occur if a certain pair of remote-forwarding operations are concurrent.",
       "severity": "MEDIUM",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -524,8 +619,14 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -534,7 +635,7 @@
       "title": "In sshd in OpenSSH before 10.5, the restrict keyword (in authoriz ...",
       "description": "In sshd in OpenSSH before 10.5, the restrict keyword (in authorized_keys) was supposed to be applicable to tunnel forwarding but was not.",
       "severity": "LOW",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
           "introduced": "0:0",
@@ -547,8 +648,14 @@
           "identifier": "fc43"
         },
         {
-          "introduced": "0:9.9p1-4.fc41",
-          "identifier": "fc41"
+          "introduced": "0:10.0p1-8.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
+        },
+        {
+          "introduced": "0:10.0p1-9.fc43",
+          "fixed": "0:10.0p1-12.fc43",
+          "identifier": "fc43"
         }
       ]
     }

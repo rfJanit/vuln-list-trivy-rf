@@ -103,6 +103,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "2.4.9-15.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.4.5-3.fc41",
           "identifier": "fc41"
         },

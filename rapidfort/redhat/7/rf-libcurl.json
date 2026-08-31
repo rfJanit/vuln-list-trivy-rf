@@ -355,6 +355,45 @@
         }
       ]
     },
+    "CVE-2026-11352": {
+      "cve_id": "CVE-2026-11352",
+      "title": "QUIC zero-length UDP datagrams busy-loop",
+      "description": "An issue in curl’s QUIC UDP receive function allows a malicious HTTP/3 server to trigger a remote denial of service against a curl or libcurl client. Because the helper function discards zero-length UDP datagrams before counting them toward the per-call packet budget, a connected QUIC peer can continuously stream empty datagrams to indefinitely stall the client.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
+    "CVE-2026-11564": {
+      "cve_id": "CVE-2026-11564",
+      "title": "libcurl keeps previously used connections in a connection pool fo ...",
+      "description": "libcurl keeps previously used connections in a connection pool for subsequent\ntransfers to reuse if one of them matches the setup.\n\nAn easy handle that first uses default native CA trust can continue trusting\nthe native platform store after the application switches that same handle to\ncustom CA material for a later transfer.",
+      "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
+    "CVE-2026-11586": {
+      "cve_id": "CVE-2026-11586",
+      "title": "WS Auto-PONG memory exhaustion",
+      "description": "By default, curl automatically responds to WebSocket PING frames. Because curl lacks an upper bound on memory allocation for unacknowledged frames, a malicious server can exhaust all available memory by flooding curl with rapid, sequential PING messages.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
     "CVE-2026-11856": {
       "cve_id": "CVE-2026-11856",
       "title": "Successfully using libcurl to do a transfer to a specific HTTP or ...",
@@ -362,6 +401,11 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.18.0-8.fc44",
@@ -385,6 +429,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.18.0-9.fc44",
@@ -517,6 +566,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.20.0-16.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.22.0~rc2-1.fc46",
           "identifier": "fc46"
@@ -538,6 +592,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.20.0-16.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.22.0~rc2-1.fc46",
@@ -561,6 +620,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.20.0-16.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.22.0~rc2-1.fc46",
           "identifier": "fc46"
@@ -582,6 +646,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.20.0-16.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.22.0~rc2-1.fc46",
@@ -605,6 +674,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.20.0-16.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.22.0~rc2-1.fc46",
           "identifier": "fc46"
@@ -627,6 +701,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.20.0-16.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.22.0~rc2-1.fc46",
           "identifier": "fc46"
@@ -648,6 +727,11 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.18.0-8.fc44",
@@ -672,6 +756,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.18.0-9.fc44",
           "identifier": "fc44"
@@ -695,6 +784,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.20.0-16.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.22.0~rc2-1.fc46",
           "identifier": "fc46"
@@ -716,6 +810,11 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.18.0-8.fc44",
@@ -740,6 +839,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.18.0-9.fc44",
           "identifier": "fc44"
@@ -759,6 +863,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.18.0-8.fc44",
           "identifier": "fc44"
@@ -777,6 +886,11 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.18.0-9.fc44",
@@ -845,6 +959,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.18.0-9.fc44",
           "identifier": "fc44"
@@ -864,6 +983,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:8.18.0-9.fc44",
           "identifier": "fc44"
@@ -875,6 +999,19 @@
         }
       ]
     },
+    "CVE-2026-9546": {
+      "cve_id": "CVE-2026-9546",
+      "title": "sending old referer",
+      "description": "A vulnerability in libcurl caused the HTTP `Referer:` header to persist even when explicitly cleared. While the documentation states that passing NULL to `CURLOPT_REFERER` suppresses the header, the option failed to clear the internal state. As a result, the previous referrer string was erroneously reused and sent in subsequent requests, potentially leaking sensitive information to unintended servers.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
     "CVE-2026-9547": {
       "cve_id": "CVE-2026-9547",
       "title": "When a libcurl-based application performs transfers via `SCP://`  ...",
@@ -882,6 +1019,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "0",
+          "fixed": "8.19.0-10.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "0:0",
           "fixed": "0:8.18.0-8.fc44",

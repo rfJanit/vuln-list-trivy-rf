@@ -130,6 +130,7 @@
         },
         {
           "introduced": "1.9.0-6.fc43",
+          "fixed": "1.9.7-1.fc43",
           "identifier": "fc43"
         }
       ]

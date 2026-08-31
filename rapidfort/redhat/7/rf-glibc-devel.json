@@ -98,6 +98,10 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:2.42-23.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "identifier": "fc43"
         }
@@ -115,6 +119,10 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:2.42-23.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "identifier": "fc43"
         }
@@ -128,8 +136,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "2.42-26.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:2.40-28.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "0:2.42-23.rf",
+          "fixed": "2.42-26.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "2.42-4.fc43",
@@ -157,6 +175,11 @@
         {
           "introduced": "0:2.40-28.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "0:2.42-11.fc43",
+          "fixed": "0:2.42-12.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "0:2.42-4.fc43",
@@ -253,6 +276,11 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:2.42-11.fc43",
+          "fixed": "0:2.42-12.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",
           "identifier": "fc43"
@@ -279,6 +307,11 @@
         {
           "introduced": "0:2.40-28.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "0:2.42-11.fc43",
+          "fixed": "0:2.42-12.fc43",
+          "identifier": "fc43"
         },
         {
           "introduced": "0:2.42-4.fc43",
@@ -309,6 +342,11 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:2.42-11.fc43",
+          "fixed": "0:2.42-12.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",
           "identifier": "fc43"
@@ -337,6 +375,11 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:2.42-11.fc43",
+          "fixed": "0:2.42-12.fc43",
+          "identifier": "fc43"
+        },
+        {
           "introduced": "0:2.42-4.fc43",
           "fixed": "0:2.42-12.fc43",
           "identifier": "fc43"
@@ -351,9 +394,19 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "2.42-26.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:2.43.9000-25.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.42-23.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0:2.40-28.fc41",
@@ -373,6 +426,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "0",
+          "fixed": "2.42-26.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "0:0",
           "fixed": "0:2.43-7.fc44",
           "identifier": "fc44"
@@ -381,6 +439,11 @@
           "introduced": "0:0",
           "fixed": "0:2.43.9000-22.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0:0",
+          "fixed": "0:2.42-23.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "0:2.40-28.fc41",
@@ -404,6 +467,10 @@
           "identifier": "fc41"
         },
         {
+          "introduced": "0:2.42-23.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "2.42-4.fc43",
           "identifier": "fc43"
         }
@@ -411,7 +478,7 @@
     },
     "CVE-2026-80489": {
       "cve_id": "CVE-2026-80489",
-      "title": "CVE-2026-80489",
+      "title": "glibc: Non-progress DoS in SHIFT_JISX0213 -\u0026gt; UCS-4 conversion state",
       "description": "A flaw was found in glibc. This vulnerability allows a remote attacker to cause a denial of service (DoS) by providing specially crafted text to an application that converts text from SHIFT_JISX0213 to UCS-4. The crafted input can lead to a continuous loop of processing, preventing the application from making progress and consuming resources. Exploitation requires specific conditions, including the application retrying conversion after an error with limited output space.",
       "severity": "MEDIUM",
       "status": "open",
@@ -419,6 +486,10 @@
         {
           "introduced": "0:2.40-28.fc41",
           "identifier": "fc41"
+        },
+        {
+          "introduced": "0:2.42-23.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "2.42-4.fc43",

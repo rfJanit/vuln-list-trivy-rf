@@ -10,6 +10,10 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.19-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1.19-9.fc43",
           "identifier": "fc43"
         }
@@ -22,6 +26,10 @@
       "severity": "LOW",
       "status": "open",
       "events": [
+        {
+          "introduced": "1.19-11.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1.19-9.fc43",
           "identifier": "fc43"

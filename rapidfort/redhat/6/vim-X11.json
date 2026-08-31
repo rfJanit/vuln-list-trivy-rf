@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -348,7 +348,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -371,7 +371,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -394,7 +394,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -417,7 +417,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -440,7 +440,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -481,7 +481,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -504,7 +504,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -527,7 +527,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -550,7 +550,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -573,7 +573,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -596,7 +596,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -619,7 +619,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -638,7 +638,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -657,7 +657,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -680,7 +680,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -699,7 +699,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -722,7 +722,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -745,7 +745,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -768,7 +768,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -791,7 +791,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -814,7 +814,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -837,26 +837,13 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
           "introduced": "0",
           "fixed": "2:9.2.967-1.fc46",
           "identifier": "fc46"
-        }
-      ]
-    },
-    "CVE-2026-73071": {
-      "cve_id": "CVE-2026-73071",
-      "title": "Vim is an open source, command line text editor. From 9.2.0511 un ...",
-      "description": "Vim is an open source, command line text editor. From 9.2.0511 until 9.2.0844, json_decode_item() in src/json.c can retain a stale pointer after json_decode_string() invokes channel_fill() to refill and free the current buffer, causing the error path to read freed memory instead of reader-\u003ejs_buf + reader-\u003ejs_used when an invalid JSON string spans buffers. This issue is fixed in version 9.2.0844.",
-      "severity": "LOW",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "2:9.2.843-1.fc43",
-          "identifier": "fc43"
         }
       ]
     },
@@ -881,11 +868,12 @@
       "cve_id": "CVE-2026-73073",
       "title": "Vim is an open source, command line text editor. Prior to 9.2.084 ...",
       "description": "Vim is an open source, command line text editor. Prior to 9.2.0845, StructMembers() in runtime/autoload/ccomplete.vim constructs and executes a vimgrep command using an insufficiently escaped typeref: or typename: value from a tags file, allowing an unterminated collection followed by a command separator to execute arbitrary Ex and operating-system commands when a user invokes C omni-completion with CTRL-X CTRL-O on a member access whose type is resolved from that tags file. This issue is fixed in version 9.2.0845.",
-      "severity": "HIGH",
-      "status": "open",
+      "severity": "MEDIUM",
+      "status": "fixed",
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -904,7 +892,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -927,6 +915,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -945,7 +934,7 @@
       "events": [
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
@@ -968,7 +957,7 @@
         },
         {
           "introduced": "2:9.1.1818-1.fc43",
-          "fixed": "2:9.2.843-1.fc43",
+          "fixed": "2:9.2.967-1.fc43",
           "identifier": "fc43"
         },
         {
