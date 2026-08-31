@@ -150,6 +150,19 @@
         }
       ]
     },
+    "CVE-2024-10468": {
+      "cve_id": "CVE-2024-10468",
+      "title": "Potential race conditions in IndexedDB could have caused memory c ...",
+      "description": "Potential race conditions in IndexedDB could have caused memory corruption, leading to a potentially exploitable crash. This vulnerability affects Firefox \u003c 132 and Thunderbird \u003c 132.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
     "CVE-2024-11159": {
       "cve_id": "CVE-2024-11159",
       "title": "Using remote content in OpenPGP encrypted messages can lead to th ...",
@@ -312,6 +325,84 @@
         }
       ]
     },
+    "CVE-2024-11700": {
+      "cve_id": "CVE-2024-11700",
+      "title": "Malicious websites may have been able to perform user intent conf ...",
+      "description": "Malicious websites may have been able to perform user intent confirmation through tapjacking. This could have led to users unknowingly approving the launch of external applications, potentially exposing them to underlying vulnerabilities. This vulnerability affects Firefox \u003c 133 and Thunderbird \u003c 133.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2024-11701": {
+      "cve_id": "CVE-2024-11701",
+      "title": "The incorrect domain may have been displayed in the address bar d ...",
+      "description": "The incorrect domain may have been displayed in the address bar during an interrupted navigation attempt. This could have led to user confusion and possible spoofing attacks. This vulnerability affects Firefox \u003c 133 and Thunderbird \u003c 133.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2024-11702": {
+      "cve_id": "CVE-2024-11702",
+      "title": "Copying sensitive information from Private Browsing tabs on Andro ...",
+      "description": "Copying sensitive information from Private Browsing tabs on Android, such as passwords, may have inadvertently stored data in the cloud-based clipboard history if enabled. This vulnerability affects Firefox \u003c 133 and Thunderbird \u003c 133.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2024-11705": {
+      "cve_id": "CVE-2024-11705",
+      "title": "`NSC_DeriveKey` inadvertently assumed that the `phKey` parameter  ...",
+      "description": "`NSC_DeriveKey` inadvertently assumed that the `phKey` parameter is always non-NULL. When it was passed as NULL, a segmentation fault (SEGV) occurred, leading to crashes. This behavior conflicted with the PKCS#11 v3.0 specification, which allows `phKey` to be NULL for certain mechanisms. This vulnerability affects Firefox \u003c 133 and Thunderbird \u003c 133.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2024-11706": {
+      "cve_id": "CVE-2024-11706",
+      "title": "A null pointer dereference may have inadvertently occurred in `pk ...",
+      "description": "A null pointer dereference may have inadvertently occurred in `pk12util`, and specifically in the `SEC_ASN1DecodeItem_Util` function, when handling malformed or improperly formatted input files. This vulnerability affects Firefox \u003c 133 and Thunderbird \u003c 133.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2024-11708": {
+      "cve_id": "CVE-2024-11708",
+      "title": "Missing thread synchronization primitives could have led to a dat ...",
+      "description": "Missing thread synchronization primitives could have led to a data race on members of the PlaybackParams structure. This vulnerability affects Firefox \u003c 133 and Thunderbird \u003c 133.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
     "CVE-2024-50336": {
       "cve_id": "CVE-2024-50336",
       "title": "matrix-js-sdk is a Matrix messaging protocol Client-Server SDK fo ...",
@@ -459,10 +550,36 @@
         }
       ]
     },
+    "CVE-2024-9403": {
+      "cve_id": "CVE-2024-9403",
+      "title": "Memory safety bugs present in Firefox 130. Some of these bugs sho ...",
+      "description": "Memory safety bugs present in Firefox 130. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability affects Firefox \u003c 131 and Thunderbird \u003c 131.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
     "CVE-2024-9680": {
       "cve_id": "CVE-2024-9680",
       "title": "An attacker was able to achieve code execution in the content pro ...",
       "description": "An attacker was able to achieve code execution in the content process by exploiting a use-after-free in Animation timelines. We have had reports of this vulnerability being exploited in the wild. This vulnerability affects Firefox \u003c 131.0.2, Firefox ESR \u003c 128.3.1, Firefox ESR \u003c 115.16.1, Thunderbird \u003c 131.0.1, Thunderbird \u003c 128.3.1, and Thunderbird \u003c 115.16.0.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-0247": {
+      "cve_id": "CVE-2025-0247",
+      "title": "Memory safety bugs present in Firefox 133 and Thunderbird 133. So ...",
+      "description": "Memory safety bugs present in Firefox 133 and Thunderbird 133. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 134 and Thunderbird 134.",
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
@@ -1146,6 +1263,32 @@
       "cve_id": "CVE-2025-1932",
       "title": "An inconsistent comparator in xslt/txNodeSorter could have result ...",
       "description": "An inconsistent comparator in xslt/txNodeSorter could have resulted in potentially exploitable out-of-bounds access. Only affected version 122 and later. This vulnerability was fixed in Firefox 136, Firefox ESR 128.8, Thunderbird 136, and Thunderbird 128.8.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-1942": {
+      "cve_id": "CVE-2025-1942",
+      "title": "When String.toUpperCase() caused a string to get longer it was po ...",
+      "description": "When String.toUpperCase() caused a string to get longer it was possible for uninitialized memory to be incorporated into the result string. This vulnerability was fixed in Firefox 136 and Thunderbird 136.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "128.11.0-r0",
+          "fixed": "137.0-r0"
+        }
+      ]
+    },
+    "CVE-2025-1943": {
+      "cve_id": "CVE-2025-1943",
+      "title": "Memory safety bugs present in Firefox 135 and Thunderbird 135. So ...",
+      "description": "Memory safety bugs present in Firefox 135 and Thunderbird 135. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 136 and Thunderbird 136.",
       "severity": "HIGH",
       "status": "fixed",
       "events": [

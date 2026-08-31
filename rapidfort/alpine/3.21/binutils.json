@@ -83,6 +83,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.42-r0"
+        },
+        {
           "introduced": "2.42-r1"
         },
         {
@@ -130,6 +133,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.42-r0"
+        },
+        {
           "introduced": "2.42-r1"
         },
         {
@@ -150,6 +156,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.42-r0"
+        },
         {
           "introduced": "2.42-r1"
         },
@@ -172,6 +181,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.42-r0"
+        },
+        {
           "introduced": "2.42-r1"
         },
         {
@@ -192,6 +204,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.42-r0"
+        },
         {
           "introduced": "2.42-r1"
         },
@@ -214,6 +229,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "2.42-r0"
+        },
+        {
           "introduced": "2.42-r1"
         },
         {
@@ -234,6 +252,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "2.42-r0"
+        },
         {
           "introduced": "2.42-r1"
         },

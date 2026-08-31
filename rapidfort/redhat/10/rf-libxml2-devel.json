@@ -100,7 +100,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2.12.10-15.rf",
+          "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         },
         {
@@ -118,7 +118,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2.12.10-15.rf",
+          "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         },
         {
@@ -136,7 +136,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2.12.10-15.rf",
+          "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         },
         {
@@ -154,7 +154,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2.12.10-15.rf",
+          "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         },
         {
@@ -172,7 +172,7 @@
       "events": [
         {
           "introduced": "0",
-          "fixed": "2.12.10-15.rf",
+          "fixed": "2.12.10-14.rf",
           "identifier": "rf"
         },
         {
@@ -269,11 +269,6 @@
           "introduced": "0:2.12.5-9.el10_0",
           "fixed": "0:2.12.5-10.el10_2.3",
           "identifier": "el10"
-        },
-        {
-          "introduced": "2.12.10-14.rf",
-          "fixed": "2.12.10-15.rf",
-          "identifier": "rf"
         },
         {
           "introduced": "2.12.10-5.fc43",

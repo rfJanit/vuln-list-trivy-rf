@@ -11,6 +11,9 @@
       "events": [
         {
           "introduced": "1.6.2-r3"
+        },
+        {
+          "introduced": "1.6.2-r4"
         }
       ]
     },
@@ -23,6 +26,9 @@
       "events": [
         {
           "introduced": "1.6.2-r3"
+        },
+        {
+          "introduced": "1.6.2-r4"
         }
       ]
     }

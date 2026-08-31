@@ -2,19 +2,6 @@
   "package_name": "nodejs",
   "distro_version": "3.24",
   "advisories": {
-    "CVE-2024-27980": {
-      "cve_id": "CVE-2024-27980",
-      "title": "Due to the improper handling of batch files in child_process.spaw ...",
-      "description": "Due to the improper handling of batch files in child_process.spawn / child_process.spawnSync, a malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "20.15.1-r0",
-          "fixed": "22.11.0-r0"
-        }
-      ]
-    },
     "CVE-2025-22150": {
       "cve_id": "CVE-2025-22150",
       "title": "Undici is an HTTP/1.1 client. Starting in version 4.5.0 and prior ...",

@@ -15,19 +15,6 @@
         }
       ]
     },
-    "CVE-2021-3997": {
-      "cve_id": "CVE-2021-3997",
-      "title": "systemd: Uncontrolled recursion in systemd-tmpfiles when removing files",
-      "description": "A flaw was found in systemd. An uncontrolled recursion in systemd-tmpfiles may lead to a denial of service at boot time when too many nested directories are created in /tmp.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el6"
-        }
-      ]
-    },
     "CVE-2025-40223": {
       "cve_id": "CVE-2025-40223",
       "title": "In the Linux kernel, the following vulnerability has been resolve ...",

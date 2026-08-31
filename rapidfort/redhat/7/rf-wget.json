@@ -12,10 +12,6 @@
         {
           "introduced": "0:1.21.1-8.el9_4",
           "identifier": "el9"
-        },
-        {
-          "introduced": "0:1.25.0-1.rf",
-          "identifier": "rf"
         }
       ]
     },

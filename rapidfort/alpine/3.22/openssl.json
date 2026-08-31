@@ -322,6 +322,10 @@
         },
         {
           "introduced": "3.3.2-r0",
+          "fixed": "3.3.2-r1"
+        },
+        {
+          "introduced": "3.3.2-r2",
           "fixed": "3.3.2-r3"
         }
       ]
@@ -356,6 +360,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -373,6 +381,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -407,6 +419,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -424,6 +440,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -441,6 +461,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -458,6 +482,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -475,6 +503,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -492,6 +524,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -509,6 +545,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.5-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.4-r0"
         }
       ]
@@ -522,6 +562,10 @@
       "events": [
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.5-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.4-r0"
         },
         {
@@ -543,6 +587,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.5-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.4-r0"
         }
       ]
@@ -611,6 +659,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -628,6 +680,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.6-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.5-r0"
         }
       ]
@@ -662,6 +718,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.7-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.6-r0"
         }
       ]
@@ -679,6 +739,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.7-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.6-r0"
         }
       ]
@@ -696,6 +760,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.7-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.6-r0"
         }
       ]
@@ -713,6 +781,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.7-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.6-r0"
         }
       ]
@@ -730,6 +802,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.7-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.6-r0"
         }
       ]
@@ -747,6 +823,10 @@
         },
         {
           "introduced": "3.3.2_p0-r1",
+          "fixed": "3.3.7-r0"
+        },
+        {
+          "introduced": "3.5.2_p0-r0",
           "fixed": "3.5.6-r0"
         }
       ]

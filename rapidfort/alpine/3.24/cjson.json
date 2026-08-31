@@ -40,6 +40,9 @@
       "events": [
         {
           "introduced": "1.7.19-r1"
+        },
+        {
+          "introduced": "1.7.19-r0"
         }
       ]
     },
@@ -52,6 +55,9 @@
       "events": [
         {
           "introduced": "1.7.19-r1"
+        },
+        {
+          "introduced": "1.7.19-r0"
         }
       ]
     },
@@ -64,6 +70,9 @@
       "events": [
         {
           "introduced": "1.7.19-r1"
+        },
+        {
+          "introduced": "1.7.19-r0"
         }
       ]
     },
@@ -76,6 +85,9 @@
       "events": [
         {
           "introduced": "1.7.19-r1"
+        },
+        {
+          "introduced": "1.7.19-r0"
         }
       ]
     }
