@@ -2,24 +2,6 @@
   "package_name": "wolfssl",
   "distro_version": "3.20",
   "advisories": {
-    "CVE-2024-5814": {
-      "cve_id": "CVE-2024-5814",
-      "title": "A malicious TLS1.2 server can force a TLS1.3 client with downgrad ...",
-      "description": "A malicious TLS1.2 server can force a TLS1.3 client with downgrade capability to use a ciphersuite that it did not agree to and achieve a successful connection. This is because, aside from the extensions, the client was skipping fully parsing the server hello.  https://doi.org/10.46586/tches.v2024.i1.457-500",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "5.7.4-r0"
-        },
-        {
-          "introduced": "5.7.6-r0"
-        },
-        {
-          "introduced": "5.9.1-r0"
-        }
-      ]
-    },
     "CVE-2025-11931": {
       "cve_id": "CVE-2025-11931",
       "title": "Integer Underflow Leads to Out-of-Bounds Access in XChaCha20-Poly ...",
@@ -102,7 +84,7 @@
       "cve_id": "CVE-2025-13912",
       "title": "Multiple constant-time implementations in wolfSSL before version  ...",
       "description": "Multiple constant-time implementations in wolfSSL before version 5.8.4 may be transformed into non-constant-time binary by LLVM optimizations, which can potentially result in observable timing discrepancies and lead to information disclosure through timing side-channel attacks.",
-      "severity": "MEDIUM",
+      "severity": "LOW",
       "status": "fixed",
       "events": [
         {

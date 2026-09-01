@@ -3258,7 +3258,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.23.2-1.el10_2",
           "identifier": "el10"
         },
         {
@@ -3292,7 +3293,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.23.2-1.el10_2",
           "identifier": "el10"
         },
         {
@@ -3390,7 +3392,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "1:22.22.2-1.el10_1",
+          "fixed": "1:22.23.2-1.el10_2",
           "identifier": "el10"
         },
         {

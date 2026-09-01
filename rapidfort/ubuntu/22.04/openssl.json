@@ -482,7 +482,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:3.0.13-1rfubuntu3.1~rf.1",
+          "introduced": "0:3.0.14-0rfubuntu3.1+rf.1",
           "fixed": "0:3.3.1-2ubuntu2.1",
           "identifier": "rf"
         }
@@ -506,7 +506,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:3.0.13-1rfubuntu3.1~rf.1",
+          "introduced": "0:3.0.14-0rfubuntu3.1+rf.1",
           "fixed": "0:3.2.2-1ubuntu1",
           "identifier": "rf"
         }
@@ -530,7 +530,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:3.0.13-1rfubuntu3.1~rf.1",
+          "introduced": "0:3.0.14-0rfubuntu3.1+rf.1",
           "fixed": "0:3.2.2-1ubuntu1",
           "identifier": "rf"
         }
@@ -554,7 +554,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:3.0.13-1rfubuntu3.1~rf.1",
+          "introduced": "0:3.0.14-0rfubuntu3.1+rf.1",
           "fixed": "0:3.2.2-1ubuntu1",
           "identifier": "rf"
         }
@@ -578,7 +578,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:3.0.13-1rfubuntu3.1~rf.1",
+          "introduced": "0:3.0.14-0rfubuntu3.1+rf.1",
           "fixed": "0:3.2.2-1ubuntu2",
           "identifier": "rf"
         }
@@ -602,7 +602,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:3.0.13-1rfubuntu3.1~rf.1",
+          "introduced": "0:3.0.14-0rfubuntu3.1+rf.1",
           "fixed": "0:3.3.1-2ubuntu2",
           "identifier": "rf"
         }
@@ -626,7 +626,7 @@
           "identifier": "ubuntu"
         },
         {
-          "introduced": "0:3.0.13-1rfubuntu3.1~rf.1",
+          "introduced": "0:3.0.14-0rfubuntu3.1+rf.1",
           "fixed": "0:3.3.1-2ubuntu2.1",
           "identifier": "rf"
         }

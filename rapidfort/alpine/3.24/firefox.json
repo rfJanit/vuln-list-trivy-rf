@@ -707,6 +707,58 @@
         }
       ]
     },
+    "CVE-2025-2817": {
+      "cve_id": "CVE-2025-2817",
+      "title": "Thunderbird's update mechanism allowed a medium-integrity user pr ...",
+      "description": "Thunderbird's update mechanism allowed a medium-integrity user process to interfere with the SYSTEM-level updater by manipulating the file-locking behavior. By injecting code into the user-privileged process, an attacker could bypass intended access controls, allowing SYSTEM-level file operations on paths controlled by a non-privileged user and enabling privilege escalation. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Firefox ESR 115.23, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "138.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-3028": {
+      "cve_id": "CVE-2025-3028",
+      "title": "JavaScript code running while transforming a document with the XS ...",
+      "description": "JavaScript code running while transforming a document with the XSLTProcessor could lead to a use-after-free. This vulnerability was fixed in Firefox 137, Firefox ESR 115.22, Firefox ESR 128.9, Thunderbird 137, and Thunderbird 128.9.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "137.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-3029": {
+      "cve_id": "CVE-2025-3029",
+      "title": "A crafted URL containing specific Unicode characters could have h ...",
+      "description": "A crafted URL containing specific Unicode characters could have hidden the true origin of the page, resulting in a potential spoofing attack. This vulnerability was fixed in Firefox 137, Firefox ESR 128.9, Thunderbird 137, and Thunderbird 128.9.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "137.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-3030": {
+      "cve_id": "CVE-2025-3030",
+      "title": "Memory safety bugs present in Firefox 136, Thunderbird 136, Firef ...",
+      "description": "Memory safety bugs present in Firefox 136, Thunderbird 136, Firefox ESR 128.8, and Thunderbird 128.8. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 137, Firefox ESR 128.9, Thunderbird 137, and Thunderbird 128.9.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "137.0.1-r0"
+        }
+      ]
+    },
     "CVE-2025-3031": {
       "cve_id": "CVE-2025-3031",
       "title": "An attacker could read 32 bits of values spilled onto the stack i ...",
@@ -772,6 +824,32 @@
         }
       ]
     },
+    "CVE-2025-4082": {
+      "cve_id": "CVE-2025-4082",
+      "title": "Modification of specific WebGL shader attributes could trigger an ...",
+      "description": "Modification of specific WebGL shader attributes could trigger an out-of-bounds read, which, when chained with other vulnerabilities, could be used to escalate privileges.\n*This bug only affects Thunderbird for macOS. Other versions of Thunderbird are unaffected.*. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Firefox ESR 115.23, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "138.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-4083": {
+      "cve_id": "CVE-2025-4083",
+      "title": "A process isolation vulnerability in Thunderbird stemmed from imp ...",
+      "description": "A process isolation vulnerability in Thunderbird stemmed from improper handling of javascript: URIs, which could allow content to execute in the top-level document's process instead of the intended frame, potentially enabling a sandbox escape. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Firefox ESR 115.23, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "138.0.1-r0"
+        }
+      ]
+    },
     "CVE-2025-4085": {
       "cve_id": "CVE-2025-4085",
       "title": "An attacker with control over a content process could potentially ...",
@@ -789,6 +867,19 @@
       "cve_id": "CVE-2025-4086",
       "title": "A specially crafted filename containing a large number of encoded ...",
       "description": "A specially crafted filename containing a large number of encoded newline characters could obscure the file's extension when displayed in the download dialog.\n*This bug only affects Thunderbird for Android. Other versions of Thunderbird are unaffected.*. This vulnerability was fixed in Firefox 138 and Thunderbird 138.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "138.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-4087": {
+      "cve_id": "CVE-2025-4087",
+      "title": "A vulnerability was identified in Thunderbird where XPath parsing ...",
+      "description": "A vulnerability was identified in Thunderbird where XPath parsing could trigger undefined behavior due to missing null checks during attribute access. This could lead to out-of-bounds read access and potentially, memory corruption. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Thunderbird 138, and Thunderbird 128.10.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -837,6 +928,19 @@
         }
       ]
     },
+    "CVE-2025-4091": {
+      "cve_id": "CVE-2025-4091",
+      "title": "Memory safety bugs present in Firefox 137, Thunderbird 137, Firef ...",
+      "description": "Memory safety bugs present in Firefox 137, Thunderbird 137, Firefox ESR 128.9, and Thunderbird 128.9. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 138, Firefox ESR 128.10, Thunderbird 138, and Thunderbird 128.10.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "138.0.1-r0"
+        }
+      ]
+    },
     "CVE-2025-4092": {
       "cve_id": "CVE-2025-4092",
       "title": "Memory safety bugs present in Firefox 137 and Thunderbird 137. So ...",
@@ -847,6 +951,32 @@
         {
           "introduced": "136.0.4-r0",
           "fixed": "138.0.1-r0"
+        }
+      ]
+    },
+    "CVE-2025-6424": {
+      "cve_id": "CVE-2025-6424",
+      "title": "A use-after-free in FontFaceSet resulted in a potentially exploit ...",
+      "description": "A use-after-free in FontFaceSet resulted in a potentially exploitable crash. This vulnerability was fixed in Firefox 140, Firefox ESR 115.25, Firefox ESR 128.12, Thunderbird 140, and Thunderbird 128.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "140.0.4-r1"
+        }
+      ]
+    },
+    "CVE-2025-6425": {
+      "cve_id": "CVE-2025-6425",
+      "title": "An attacker who enumerated resources from the WebCompat extension ...",
+      "description": "An attacker who enumerated resources from the WebCompat extension could have obtained a persistent UUID that identified the browser, and persisted between containers and normal/private browsing mode, but not profiles. This vulnerability was fixed in Firefox 140, Firefox ESR 115.25, Firefox ESR 128.12, Thunderbird 140, and Thunderbird 128.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "140.0.4-r1"
         }
       ]
     },
@@ -880,6 +1010,32 @@
       "cve_id": "CVE-2025-6428",
       "title": "When a URL was provided in a link querystring parameter, Firefox  ...",
       "description": "When a URL was provided in a link querystring parameter, Firefox for Android would follow that URL instead of the correct URL, potentially leading to phishing attacks.\n*This bug only affects Firefox for Android. Other versions of Firefox are unaffected.*. This vulnerability was fixed in Firefox 140.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "140.0.4-r1"
+        }
+      ]
+    },
+    "CVE-2025-6429": {
+      "cve_id": "CVE-2025-6429",
+      "title": "Firefox could have incorrectly parsed a URL and rewritten it to t ...",
+      "description": "Firefox could have incorrectly parsed a URL and rewritten it to the youtube.com domain when parsing the URL specified in an `embed` tag.  This could have bypassed website security checks that restricted which domains users were allowed to embed. This vulnerability was fixed in Firefox 140, Firefox ESR 128.12, Thunderbird 140, and Thunderbird 128.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "136.0.4-r0",
+          "fixed": "140.0.4-r1"
+        }
+      ]
+    },
+    "CVE-2025-6430": {
+      "cve_id": "CVE-2025-6430",
+      "title": "When a file download is specified via the `Content-Disposition` h ...",
+      "description": "When a file download is specified via the `Content-Disposition` header, that directive would be ignored if the file was included via a `\u0026lt;embed\u0026gt;` or `\u0026lt;object\u0026gt;` tag, potentially making a website vulnerable to a cross-site scripting attack. This vulnerability was fixed in Firefox 140, Firefox ESR 128.12, Thunderbird 140, and Thunderbird 128.12.",
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
@@ -993,11 +1149,141 @@
         }
       ]
     },
+    "CVE-2026-12289": {
+      "cve_id": "CVE-2026-12289",
+      "title": "Privilege escalation in the Graphics: WebRender component. This v ...",
+      "description": "Privilege escalation in the Graphics: WebRender component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12290": {
+      "cve_id": "CVE-2026-12290",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12291": {
+      "cve_id": "CVE-2026-12291",
+      "title": "Use-after-free in the Networking: HTTP component. This vulnerabil ...",
+      "description": "Use-after-free in the Networking: HTTP component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12292": {
+      "cve_id": "CVE-2026-12292",
+      "title": "Incorrect boundary conditions in the Web Audio component. This vu ...",
+      "description": "Incorrect boundary conditions in the Web Audio component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
     "CVE-2026-12293": {
       "cve_id": "CVE-2026-12293",
       "title": "Use-after-free in the Graphics: WebGPU component. This vulnerabil ...",
       "description": "Use-after-free in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12294": {
+      "cve_id": "CVE-2026-12294",
+      "title": "Sandbox escape in the DOM: Workers component. This vulnerability  ...",
+      "description": "Sandbox escape in the DOM: Workers component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12295": {
+      "cve_id": "CVE-2026-12295",
+      "title": "Sandbox escape in the DOM: Navigation component. This vulnerabili ...",
+      "description": "Sandbox escape in the DOM: Navigation component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12296": {
+      "cve_id": "CVE-2026-12296",
+      "title": "Sandbox escape in the Security: Process Sandboxing component. Thi ...",
+      "description": "Sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12297": {
+      "cve_id": "CVE-2026-12297",
+      "title": "Sandbox escape due to incorrect boundary conditions in the Networ ...",
+      "description": "Sandbox escape due to incorrect boundary conditions in the Networking component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12298": {
+      "cve_id": "CVE-2026-12298",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12299": {
+      "cve_id": "CVE-2026-12299",
+      "title": "JIT miscompilation in the DOM: Core \u0026 HTML component. This vulner ...",
+      "description": "JIT miscompilation in the DOM: Core \u0026 HTML component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -1032,11 +1318,180 @@
         }
       ]
     },
+    "CVE-2026-12302": {
+      "cve_id": "CVE-2026-12302",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
     "CVE-2026-12303": {
       "cve_id": "CVE-2026-12303",
       "title": "Information disclosure due to incorrect boundary conditions in th ...",
       "description": "Information disclosure due to incorrect boundary conditions in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
       "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12304": {
+      "cve_id": "CVE-2026-12304",
+      "title": "Same-origin policy bypass in the Networking: Cookies component. T ...",
+      "description": "Same-origin policy bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12305": {
+      "cve_id": "CVE-2026-12305",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12306": {
+      "cve_id": "CVE-2026-12306",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12307": {
+      "cve_id": "CVE-2026-12307",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12308": {
+      "cve_id": "CVE-2026-12308",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12309": {
+      "cve_id": "CVE-2026-12309",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12310": {
+      "cve_id": "CVE-2026-12310",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12311": {
+      "cve_id": "CVE-2026-12311",
+      "title": "Information disclosure, sandbox escape in the Security: Process S ...",
+      "description": "Information disclosure, sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12312": {
+      "cve_id": "CVE-2026-12312",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12313": {
+      "cve_id": "CVE-2026-12313",
+      "title": "Information disclosure, sandbox escape in the Security: Process S ...",
+      "description": "Information disclosure, sandbox escape in the Security: Process Sandboxing component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12314": {
+      "cve_id": "CVE-2026-12314",
+      "title": "Memory safety bug fixed in Firefox 152. This vulnerability was fi ...",
+      "description": "Memory safety bug fixed in Firefox 152. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12315": {
+      "cve_id": "CVE-2026-12315",
+      "title": "Mitigation bypass in the DOM: Security component. This vulnerabil ...",
+      "description": "Mitigation bypass in the DOM: Security component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "CRITICAL",
       "status": "fixed",
       "events": [
         {
@@ -1149,10 +1604,62 @@
         }
       ]
     },
+    "CVE-2026-12324": {
+      "cve_id": "CVE-2026-12324",
+      "title": "Incorrect boundary conditions in the Graphics: CanvasWebGL compon ...",
+      "description": "Incorrect boundary conditions in the Graphics: CanvasWebGL component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12325": {
+      "cve_id": "CVE-2026-12325",
+      "title": "Denial-of-service in the Graphics: ImageLib component. This vulne ...",
+      "description": "Denial-of-service in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
     "CVE-2026-12326": {
       "cve_id": "CVE-2026-12326",
       "title": "Memory safety bugs present in Firefox 151 and Thunderbird 151. So ...",
       "description": "Memory safety bugs present in Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152 and Thunderbird 152.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12327": {
+      "cve_id": "CVE-2026-12327",
+      "title": "Memory safety bugs present in Firefox ESR 140.11, Thunderbird ESR ...",
+      "description": "Memory safety bugs present in Firefox ESR 140.11, Thunderbird ESR 140.11, Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Thunderbird 152, and Thunderbird 140.12.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "152.0.2-r0"
+        }
+      ]
+    },
+    "CVE-2026-12328": {
+      "cve_id": "CVE-2026-12328",
+      "title": "Memory safety bugs present in Firefox ESR 115.36, Firefox ESR 140 ...",
+      "description": "Memory safety bugs present in Firefox ESR 115.36, Firefox ESR 140.11, Thunderbird ESR 140.11, Firefox 151 and Thunderbird 151. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 152, Firefox ESR 140.12, Firefox ESR 115.37, Thunderbird 152, and Thunderbird 140.12.",
       "severity": "HIGH",
       "status": "fixed",
       "events": [
@@ -1186,6 +1693,162 @@
         }
       ]
     },
+    "CVE-2026-16349": {
+      "cve_id": "CVE-2026-16349",
+      "title": "Same-origin policy bypass in the DOM: Navigation component. This  ...",
+      "description": "Same-origin policy bypass in the DOM: Navigation component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16350": {
+      "cve_id": "CVE-2026-16350",
+      "title": "Incorrect boundary conditions in the Audio/Video: cubeb component ...",
+      "description": "Incorrect boundary conditions in the Audio/Video: cubeb component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16351": {
+      "cve_id": "CVE-2026-16351",
+      "title": "Sandbox escape due to use-after-free in the DOM: Navigation compo ...",
+      "description": "Sandbox escape due to use-after-free in the DOM: Navigation component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16352": {
+      "cve_id": "CVE-2026-16352",
+      "title": "Sandbox escape due to use-after-free in the Disability Access API ...",
+      "description": "Sandbox escape due to use-after-free in the Disability Access APIs component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16353": {
+      "cve_id": "CVE-2026-16353",
+      "title": "Invalid pointer in the DOM: Bindings (WebIDL) component. This vul ...",
+      "description": "Invalid pointer in the DOM: Bindings (WebIDL) component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16354": {
+      "cve_id": "CVE-2026-16354",
+      "title": "Information disclosure in the Graphics: ImageLib component. This  ...",
+      "description": "Information disclosure in the Graphics: ImageLib component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16355": {
+      "cve_id": "CVE-2026-16355",
+      "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
+      "description": "JIT miscompilation in the JavaScript Engine: JIT component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16356": {
+      "cve_id": "CVE-2026-16356",
+      "title": "Sandbox escape due to use-after-free in the Disability Access API ...",
+      "description": "Sandbox escape due to use-after-free in the Disability Access APIs component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16357": {
+      "cve_id": "CVE-2026-16357",
+      "title": "Incorrect boundary conditions in the Graphics component. This vul ...",
+      "description": "Incorrect boundary conditions in the Graphics component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16358": {
+      "cve_id": "CVE-2026-16358",
+      "title": "Site isolation issue in the Graphics: WebRender component. This v ...",
+      "description": "Site isolation issue in the Graphics: WebRender component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16359": {
+      "cve_id": "CVE-2026-16359",
+      "title": "Incorrect boundary conditions in the Audio/Video: GMP component.  ...",
+      "description": "Incorrect boundary conditions in the Audio/Video: GMP component. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16360": {
+      "cve_id": "CVE-2026-16360",
+      "title": "Memory safety bugs present in Firefox ESR 115.37, Firefox ESR 140 ...",
+      "description": "Memory safety bugs present in Firefox ESR 115.37, Firefox ESR 140.12 and Firefox 152. Some of these bugs showed evidence of memory corruption and we presume that with enough effort some of these could have been exploited to run arbitrary code. This vulnerability was fixed in Firefox 153, Firefox ESR 115.38, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
     "CVE-2026-16361": {
       "cve_id": "CVE-2026-16361",
       "title": "Memory safety bugs present in Thunderbird ESR 140.12. Some of the ...",
@@ -1204,6 +1867,32 @@
         {
           "introduced": "136.0.4-r0",
           "fixed": "142.0-r0"
+        }
+      ]
+    },
+    "CVE-2026-16362": {
+      "cve_id": "CVE-2026-16362",
+      "title": "Use-after-free in the WebRTC: Audio/Video component. This vulnera ...",
+      "description": "Use-after-free in the WebRTC: Audio/Video component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16363": {
+      "cve_id": "CVE-2026-16363",
+      "title": "JIT miscompilation in the JavaScript: WebAssembly component. This ...",
+      "description": "JIT miscompilation in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
         }
       ]
     },
@@ -1259,11 +1948,50 @@
         }
       ]
     },
+    "CVE-2026-16368": {
+      "cve_id": "CVE-2026-16368",
+      "title": "Incorrect boundary conditions in the JavaScript: WebAssembly comp ...",
+      "description": "Incorrect boundary conditions in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16369": {
+      "cve_id": "CVE-2026-16369",
+      "title": "Integer overflow in the JavaScript: WebAssembly component. This v ...",
+      "description": "Integer overflow in the JavaScript: WebAssembly component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
     "CVE-2026-16370": {
       "cve_id": "CVE-2026-16370",
       "title": "Mitigation bypass in the DOM: Networking component. This vulnerab ...",
       "description": "Mitigation bypass in the DOM: Networking component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16371": {
+      "cve_id": "CVE-2026-16371",
+      "title": "Privilege escalation in the DOM: Navigation component. This vulne ...",
+      "description": "Privilege escalation in the DOM: Navigation component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
@@ -1285,6 +2013,32 @@
         }
       ]
     },
+    "CVE-2026-16374": {
+      "cve_id": "CVE-2026-16374",
+      "title": "Information disclosure in the Framework component in DevTools. Th ...",
+      "description": "Information disclosure in the Framework component in DevTools. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16375": {
+      "cve_id": "CVE-2026-16375",
+      "title": "Site isolation issue in the Networking: HTTP component. This vuln ...",
+      "description": "Site isolation issue in the Networking: HTTP component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
     "CVE-2026-16376": {
       "cve_id": "CVE-2026-16376",
       "title": "Denial-of-service in the Graphics: WebGPU component. This vulnera ...",
@@ -1298,10 +2052,36 @@
         }
       ]
     },
+    "CVE-2026-16377": {
+      "cve_id": "CVE-2026-16377",
+      "title": "Mitigation bypass in the PDF Viewer component. This vulnerability ...",
+      "description": "Mitigation bypass in the PDF Viewer component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
     "CVE-2026-16378": {
       "cve_id": "CVE-2026-16378",
       "title": "Other issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component. T ...",
       "description": "Other issue in the DOM: Copy \u0026 Paste and Drag \u0026 Drop component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16379": {
+      "cve_id": "CVE-2026-16379",
+      "title": "Privilege escalation in the DOM: Content Processes component. Thi ...",
+      "description": "Privilege escalation in the DOM: Content Processes component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
       "severity": "HIGH",
       "status": "fixed",
       "events": [
@@ -1324,10 +2104,36 @@
         }
       ]
     },
+    "CVE-2026-16381": {
+      "cve_id": "CVE-2026-16381",
+      "title": "Same-origin policy bypass in the Networking: DNS component. This  ...",
+      "description": "Same-origin policy bypass in the Networking: DNS component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
     "CVE-2026-16382": {
       "cve_id": "CVE-2026-16382",
       "title": "Mitigation bypass in the DOM: Service Workers component. This vul ...",
       "description": "Mitigation bypass in the DOM: Service Workers component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16383": {
+      "cve_id": "CVE-2026-16383",
+      "title": "Mitigation bypass in the DOM: Networking component. This vulnerab ...",
+      "description": "Mitigation bypass in the DOM: Networking component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
       "severity": "CRITICAL",
       "status": "fixed",
       "events": [
@@ -1376,6 +2182,19 @@
         }
       ]
     },
+    "CVE-2026-16387": {
+      "cve_id": "CVE-2026-16387",
+      "title": "Site isolation issue in the Networking component. This vulnerabil ...",
+      "description": "Site isolation issue in the Networking component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
     "CVE-2026-16388": {
       "cve_id": "CVE-2026-16388",
       "title": "Sandbox escape in the DOM: Networking component. This vulnerabili ...",
@@ -1402,6 +2221,32 @@
         }
       ]
     },
+    "CVE-2026-16390": {
+      "cve_id": "CVE-2026-16390",
+      "title": "Mitigation bypass in the Enterprise Policies component. This vuln ...",
+      "description": "Mitigation bypass in the Enterprise Policies component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16391": {
+      "cve_id": "CVE-2026-16391",
+      "title": "Information disclosure in the Storage: IndexedDB component. This  ...",
+      "description": "Information disclosure in the Storage: IndexedDB component. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
     "CVE-2026-16392": {
       "cve_id": "CVE-2026-16392",
       "title": "JIT miscompilation in the JavaScript Engine: JIT component. This  ...",
@@ -1420,6 +2265,19 @@
       "title": "Incorrect boundary conditions in the Graphics: WebGPU component.  ...",
       "description": "Incorrect boundary conditions in the Graphics: WebGPU component. This vulnerability was fixed in Firefox 153 and Thunderbird 153.",
       "severity": "CRITICAL",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "151.0.3-r0",
+          "fixed": "153.0.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-16396": {
+      "cve_id": "CVE-2026-16396",
+      "title": "Privilege escalation in WebExtensions. This vulnerability was fix ...",
+      "description": "Privilege escalation in WebExtensions. This vulnerability was fixed in Firefox 153, Firefox ESR 140.13, Thunderbird 153, and Thunderbird 140.13.",
+      "severity": "HIGH",
       "status": "fixed",
       "events": [
         {
@@ -2679,11 +3537,35 @@
         }
       ]
     },
+    "CVE-2026-74963": {
+      "cve_id": "CVE-2026-74963",
+      "title": "Same-origin policy bypass in the Networking: Cookies component. T ...",
+      "description": "Same-origin policy bypass in the Networking: Cookies component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "151.0.3-r0"
+        }
+      ]
+    },
     "CVE-2026-74964": {
       "cve_id": "CVE-2026-74964",
       "title": "Integer overflow in the Graphics component. This vulnerability wa ...",
       "description": "Integer overflow in the Graphics component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
       "severity": "CRITICAL",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "151.0.3-r0"
+        }
+      ]
+    },
+    "CVE-2026-74965": {
+      "cve_id": "CVE-2026-74965",
+      "title": "Privilege escalation in the Shell Integration component. This vul ...",
+      "description": "Privilege escalation in the Shell Integration component. This vulnerability was fixed in Firefox 154, Firefox ESR 140.14, Firefox ESR 153.1, Thunderbird 154, Thunderbird 140.14, and Thunderbird 153.1.",
+      "severity": "HIGH",
       "status": "open",
       "events": [
         {

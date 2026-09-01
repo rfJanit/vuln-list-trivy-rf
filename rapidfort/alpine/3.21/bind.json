@@ -58,6 +58,19 @@
         }
       ]
     },
+    "CVE-2025-40777": {
+      "cve_id": "CVE-2025-40777",
+      "title": "If a `named` caching resolver is configured with `serve-stale-ena ...",
+      "description": "If a `named` caching resolver is configured with `serve-stale-enable` `yes`, and with `stale-answer-client-timeout` set to `0` (the only allowable value other than `disabled`), and if the resolver, in the process of resolving a query, encounters a CNAME chain involving a specific combination of cached or authoritative records, the daemon will abort with an assertion failure.\nThis issue affects BIND 9 versions 9.20.0 through 9.20.10, 9.21.0 through 9.21.9, and 9.20.9-S1 through 9.20.10-S1.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "9.18.39-r0",
+          "fixed": "9.20.11-r0"
+        }
+      ]
+    },
     "CVE-2025-40778": {
       "cve_id": "CVE-2025-40778",
       "title": "Under certain circumstances, BIND is too lenient when accepting r ...",
@@ -324,6 +337,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "9.18.39-r0",
+          "fixed": "9.20.21-r0"
+        },
+        {
           "introduced": "9.20.15-r0",
           "fixed": "9.20.21-r0"
         },
@@ -341,6 +358,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "9.18.39-r0",
+          "fixed": "9.20.21-r0"
+        },
+        {
           "introduced": "9.20.15-r0",
           "fixed": "9.20.21-r0"
         },
@@ -357,6 +378,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "9.18.39-r0",
+          "fixed": "9.20.21-r0"
+        },
         {
           "introduced": "9.20.15-r0",
           "fixed": "9.20.21-r0"

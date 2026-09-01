@@ -22,12 +22,16 @@
           "fixed": "1.2.4_git20230717-r5"
         },
         {
-          "introduced": "1.2.4_git20230717-r6",
+          "introduced": "1.2.4_git20230717-r5",
           "fixed": "1.2.5-r1"
         },
         {
-          "introduced": "1.2.5-r3",
+          "introduced": "1.2.5-r1",
           "fixed": "1.2.5-r9"
+        },
+        {
+          "introduced": "1.2.5-r9",
+          "fixed": "1.2.5-r10"
         }
       ]
     },
@@ -39,8 +43,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.2.5-r1",
-          "fixed": "1.2.5-r3"
+          "introduced": "1.2.5-r9",
+          "fixed": "1.2.5-r11"
         }
       ]
     },
@@ -52,8 +56,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "1.2.5-r1",
-          "fixed": "1.2.5-r2"
+          "introduced": "1.2.5-r9",
+          "fixed": "1.2.5-r10"
         }
       ]
     }

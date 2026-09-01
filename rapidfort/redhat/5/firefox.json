@@ -406,6 +406,19 @@
         }
       ]
     },
+    "CVE-2026-40930": {
+      "cve_id": "CVE-2026-40930",
+      "title": "LIBPNG is a reference library for use in applications that proces ...",
+      "description": "LIBPNG is a reference library for use in applications that process PNG (Portable Network Graphics) raster image files. In version 1.8.0, three inter-frame chunk discard paths in the push-mode APNG parser clear the chunk-header flag without consuming the chunk body and CRC, allowing attacker-controlled bytes inside an ignored ancillary chunk to be reinterpreted as a fresh chunk header on the next call to `png_process_data`. Commit faf06924688b62d7c1654b5ceddedbde66ffadb4 fixes the issue.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
     "CVE-2026-41305": {
       "cve_id": "CVE-2026-41305",
       "title": "PostCSS takes a CSS file and provides an API to analyze and modif ...",
@@ -489,6 +502,19 @@
       "title": "Next.js is a React framework for building full-stack web applicat ...",
       "description": "Next.js is a React framework for building full-stack web applications. From 13.4.6 to before 15.5.16 and 16.2.5, React Server Component responses can be vulnerable to cache poisoning in deployments that rely on shared caches with insufficient response partitioning. In affected conditions, collisions in the _rsc cache-busting value can allow an attacker to poison cache entries so users receive the wrong response variant for a given URL. This vulnerability is fixed in 15.5.16 and 16.2.5.",
       "severity": "LOW",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "143.0.3-1.fc43",
+          "identifier": "fc43"
+        }
+      ]
+    },
+    "CVE-2026-44967": {
+      "cve_id": "CVE-2026-44967",
+      "title": "OpenTelemetry-cpp is the C++ implementation of OpenTelemetry. Pri ...",
+      "description": "OpenTelemetry-cpp is the C++ implementation of OpenTelemetry. Prior to release 1.27.0, the OTLP HTTP exporters (traces/metrics/logs) read the full HTTP response into an in-memory vector of bytes without a size cap. This is exploitable for memory exhaustion when the configured collector endpoint is attacker-controlled (or a network attacker can MITM the exporter connection). This vulnerability is fixed in opentelemetry-cpp release 1.27.0.",
+      "severity": "MEDIUM",
       "status": "open",
       "events": [
         {

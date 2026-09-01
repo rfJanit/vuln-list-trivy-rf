@@ -12,14 +12,6 @@
         {
           "introduced": "9.3.1-r0",
           "fixed": "9.5.2-r2"
-        },
-        {
-          "introduced": "9.3.1-r1",
-          "fixed": "9.5.2-r2"
-        },
-        {
-          "introduced": "9.3.1-r2",
-          "fixed": "9.5.2-r2"
         }
       ]
     },
@@ -33,14 +25,6 @@
         {
           "introduced": "9.3.1-r0",
           "fixed": "9.5.2-r2"
-        },
-        {
-          "introduced": "9.3.1-r1",
-          "fixed": "9.5.2-r2"
-        },
-        {
-          "introduced": "9.3.1-r2",
-          "fixed": "9.5.2-r2"
         }
       ]
     },
@@ -53,14 +37,6 @@
       "events": [
         {
           "introduced": "9.3.1-r0",
-          "fixed": "9.5.2-r2"
-        },
-        {
-          "introduced": "9.3.1-r1",
-          "fixed": "9.5.2-r2"
-        },
-        {
-          "introduced": "9.3.1-r2",
           "fixed": "9.5.2-r2"
         }
       ]

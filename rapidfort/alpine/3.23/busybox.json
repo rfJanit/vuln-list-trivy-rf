@@ -28,7 +28,7 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r20"
+          "fixed": "1.36.1-r27"
         },
         {
           "introduced": "1.36.1-r7",
@@ -49,7 +49,11 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r20"
+          "fixed": "1.36.1-r29"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.36.1-r30"
         },
         {
           "introduced": "1.36.1-r7",
@@ -70,7 +74,11 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r20"
+          "fixed": "1.36.1-r29"
+        },
+        {
+          "introduced": "1.36.1-r29",
+          "fixed": "1.36.1-r30"
         },
         {
           "introduced": "1.36.1-r7",
@@ -91,7 +99,7 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r20"
+          "fixed": "1.36.1-r25"
         },
         {
           "introduced": "1.36.1-r7",

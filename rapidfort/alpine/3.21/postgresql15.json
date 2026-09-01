@@ -23,6 +23,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "15.10-r0",
+          "fixed": "15.15-r0"
+        },
+        {
           "introduced": "15.13-r0",
           "fixed": "15.15-r0"
         },
@@ -40,12 +44,29 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "15.10-r0",
+          "fixed": "15.15-r0"
+        },
+        {
           "introduced": "15.13-r0",
           "fixed": "15.15-r0"
         },
         {
           "introduced": "15.14-r0",
           "fixed": "15.15-r0"
+        }
+      ]
+    },
+    "CVE-2025-4207": {
+      "cve_id": "CVE-2025-4207",
+      "title": "Buffer over-read in PostgreSQL GB18030 encoding validation allows ...",
+      "description": "Buffer over-read in PostgreSQL GB18030 encoding validation allows a database input provider to achieve temporary denial of service on platforms where a 1-byte over-read can elicit process termination.  This affects the database server and also libpq.  Versions before PostgreSQL 17.5, 16.9, 15.13, 14.18, and 13.21 are affected.",
+      "severity": "MEDIUM",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "15.10-r0",
+          "fixed": "15.13-r0"
         }
       ]
     },
@@ -57,8 +78,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.13-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.17-r0"
         },
         {
           "introduced": "15.13-r0",
@@ -74,8 +95,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.13-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.17-r0"
         },
         {
           "introduced": "15.13-r0",
@@ -91,8 +112,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.13-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.17-r0"
         },
         {
           "introduced": "15.13-r0",
@@ -109,10 +130,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -130,10 +147,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -151,10 +164,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -172,10 +181,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -193,10 +198,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -214,10 +215,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -235,10 +232,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -256,10 +249,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -277,10 +266,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -298,10 +283,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -319,10 +300,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -340,10 +317,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -361,10 +334,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -382,10 +351,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -403,10 +368,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -424,10 +385,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -445,10 +402,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -466,10 +419,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -487,10 +436,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -508,10 +453,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -529,10 +470,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -550,10 +487,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -571,10 +504,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -590,6 +519,10 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "15.10-r0",
+          "fixed": "15.16-r0"
+        },
         {
           "introduced": "15.13-r0",
           "fixed": "15.16-r0"
@@ -608,6 +541,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "15.10-r0",
+          "fixed": "15.16-r0"
+        },
+        {
           "introduced": "15.13-r0",
           "fixed": "15.16-r0"
         },
@@ -624,6 +561,10 @@
       "severity": "HIGH",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "15.10-r0",
+          "fixed": "15.16-r0"
+        },
         {
           "introduced": "15.13-r0",
           "fixed": "15.16-r0"
@@ -642,8 +583,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.13-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.17-r0"
         },
         {
           "introduced": "15.14-r0",
@@ -659,8 +600,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.13-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.17-r0"
         },
         {
           "introduced": "15.14-r0",
@@ -677,10 +618,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -698,10 +635,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -719,10 +652,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -740,10 +669,6 @@
       "events": [
         {
           "introduced": "15.10-r0",
-          "fixed": "15.13-r0"
-        },
-        {
-          "introduced": "15.14-r0",
           "fixed": "15.19-r0"
         },
         {
@@ -760,8 +685,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     },
@@ -773,8 +702,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     },
@@ -786,8 +719,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     },
@@ -799,8 +736,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     },
@@ -812,8 +753,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     },
@@ -825,8 +770,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     },
@@ -838,8 +787,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     },
@@ -851,8 +804,12 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "15.14-r0",
-          "fixed": "15.16-r0"
+          "introduced": "15.10-r0",
+          "fixed": "15.18-r0"
+        },
+        {
+          "introduced": "15.16-r0",
+          "fixed": "15.18-r0"
         }
       ]
     }

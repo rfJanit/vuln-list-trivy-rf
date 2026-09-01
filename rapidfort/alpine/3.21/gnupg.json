@@ -49,9 +49,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2.4.5-r0"
-        },
-        {
           "introduced": "2.4.5-r1"
         },
         {

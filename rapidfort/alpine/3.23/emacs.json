@@ -28,9 +28,6 @@
       "events": [
         {
           "introduced": "30.2-r0"
-        },
-        {
-          "introduced": "30.2-r3"
         }
       ]
     },
@@ -43,9 +40,6 @@
       "events": [
         {
           "introduced": "30.2-r0"
-        },
-        {
-          "introduced": "30.2-r3"
         }
       ]
     },
@@ -58,9 +52,6 @@
       "events": [
         {
           "introduced": "30.2-r0"
-        },
-        {
-          "introduced": "30.2-r3"
         }
       ]
     },
@@ -73,9 +64,6 @@
       "events": [
         {
           "introduced": "30.2-r0"
-        },
-        {
-          "introduced": "30.2-r3"
         }
       ]
     },
@@ -88,9 +76,6 @@
       "events": [
         {
           "introduced": "30.2-r0"
-        },
-        {
-          "introduced": "30.2-r3"
         }
       ]
     },
@@ -103,9 +88,6 @@
       "events": [
         {
           "introduced": "30.2-r0"
-        },
-        {
-          "introduced": "30.2-r3"
         }
       ]
     }

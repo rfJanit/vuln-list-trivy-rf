@@ -10,6 +10,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -27,6 +30,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -46,6 +52,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -63,6 +72,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -82,6 +94,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -99,6 +114,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -118,6 +136,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -135,6 +156,9 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -154,6 +178,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -171,6 +198,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -190,6 +220,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -207,6 +240,9 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -226,6 +262,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -243,6 +282,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -262,6 +304,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -279,6 +324,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -298,6 +346,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -315,6 +366,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -334,6 +388,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -351,6 +408,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -370,6 +430,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -387,6 +450,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -406,6 +472,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -423,6 +492,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },
@@ -442,6 +514,9 @@
       "status": "open",
       "events": [
         {
+          "introduced": "115.18.0-r0"
+        },
+        {
           "introduced": "128.10.1-r0"
         },
         {
@@ -459,6 +534,9 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "115.18.0-r0"
+        },
         {
           "introduced": "128.10.1-r0"
         },

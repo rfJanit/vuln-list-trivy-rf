@@ -37,7 +37,7 @@
       "events": [
         {
           "introduced": "1.6.43-r0",
-          "fixed": "1.6.51-r0"
+          "fixed": "1.6.53-r0"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "events": [
         {
           "introduced": "1.6.43-r0",
-          "fixed": "1.6.51-r0"
+          "fixed": "1.6.53-r0"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "events": [
         {
           "introduced": "1.6.43-r0",
-          "fixed": "1.6.51-r0"
+          "fixed": "1.6.53-r0"
         }
       ]
     },
@@ -76,7 +76,7 @@
       "events": [
         {
           "introduced": "1.6.43-r0",
-          "fixed": "1.6.51-r0"
+          "fixed": "1.6.53-r0"
         }
       ]
     },

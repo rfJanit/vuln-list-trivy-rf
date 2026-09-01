@@ -75,8 +75,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -88,8 +88,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -101,8 +101,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -114,8 +114,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -127,8 +127,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -140,8 +140,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -153,8 +153,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -166,8 +166,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -192,8 +192,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -257,8 +257,8 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "introduced": "6.1.1-r8",
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -323,10 +323,6 @@
       "events": [
         {
           "introduced": "6.1.2-r1",
-          "fixed": "8.0.1-r1"
-        },
-        {
-          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -340,10 +336,6 @@
       "events": [
         {
           "introduced": "6.1.2-r1",
-          "fixed": "8.0.1-r1"
-        },
-        {
-          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -476,7 +468,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -502,10 +494,6 @@
       "events": [
         {
           "introduced": "6.1.2-r1",
-          "fixed": "8.0.1-r1"
-        },
-        {
-          "introduced": "8.1.2-r0",
           "fixed": "20100108-r0"
         }
       ]
@@ -621,11 +609,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "6.1.2-r1"
-        },
-        {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         },
         {
           "introduced": "6.1.1-r8",
@@ -680,11 +664,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "6.1.2-r1"
-        },
-        {
-          "introduced": "6.1.2-r2",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         },
         {
           "introduced": "6.1.1-r8",
@@ -787,7 +767,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -800,7 +780,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -813,7 +793,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -826,7 +806,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -839,7 +819,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -852,7 +832,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -882,7 +862,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.0.1-r1"
+          "fixed": "20100108-r0"
         }
       ]
     },
@@ -1328,7 +1308,7 @@
       "events": [
         {
           "introduced": "6.1.1-r8",
-          "fixed": "8.1.2-r0"
+          "fixed": "20100108-r0"
         },
         {
           "introduced": "8.0.1-r1",

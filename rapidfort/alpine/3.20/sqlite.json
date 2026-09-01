@@ -6,11 +6,15 @@
       "cve_id": "CVE-2025-29088CVE-2025-52099",
       "title": "",
       "description": "",
-      "severity": "UNKNOWN",
+      "severity": "",
       "status": "fixed",
       "events": [
         {
           "introduced": "3.45.3-r1",
+          "fixed": "3.49.1-r0"
+        },
+        {
+          "introduced": "3.45.3-r2",
           "fixed": "3.49.1-r0"
         }
       ]
@@ -36,11 +40,15 @@
       "cve_id": "CVE-2025-3277CVE-2025-29087",
       "title": "",
       "description": "",
-      "severity": "UNKNOWN",
+      "severity": "",
       "status": "fixed",
       "events": [
         {
           "introduced": "3.45.3-r1",
+          "fixed": "3.49.1-r0"
+        },
+        {
+          "introduced": "3.45.3-r2",
           "fixed": "3.49.1-r0"
         }
       ]
@@ -86,7 +94,7 @@
           "fixed": "3.51.1-r0"
         },
         {
-          "introduced": "3.51.2-r1",
+          "introduced": "3.51.2-r0",
           "fixed": "3.53.0-r0"
         }
       ]
@@ -125,11 +133,15 @@
       "cve_id": "CVE-2026-11822CVE-2026-11824",
       "title": "",
       "description": "",
-      "severity": "UNKNOWN",
+      "severity": "",
       "status": "fixed",
       "events": [
         {
           "introduced": "3.45.3-r1",
+          "fixed": "3.53.2-r0"
+        },
+        {
+          "introduced": "3.51.2-r1",
           "fixed": "3.53.2-r0"
         }
       ]

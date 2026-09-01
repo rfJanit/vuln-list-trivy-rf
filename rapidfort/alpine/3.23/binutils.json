@@ -55,6 +55,10 @@
         {
           "introduced": "2.43.1-r3",
           "fixed": "2.44-r3"
+        },
+        {
+          "introduced": "2.44-r3",
+          "fixed": "2.45.1-r0"
         }
       ]
     },
@@ -68,6 +72,10 @@
         {
           "introduced": "2.43.1-r3",
           "fixed": "2.44-r3"
+        },
+        {
+          "introduced": "2.44-r3",
+          "fixed": "2.45.1-r0"
         }
       ]
     },

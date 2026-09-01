@@ -30,10 +30,11 @@
       "title": "A flaw was found in iperf3. A remote attacker can exploit this vu ...",
       "description": "A flaw was found in iperf3. A remote attacker can exploit this vulnerability by sending crafted control-channel JSON with oversized numeric parameters, such as `parallel` and `len`, which are not properly validated by the server. This improper input validation can lead to excessive stream and thread creation, as well as large buffer allocations, causing resource exhaustion. Consequently, this can result in a Denial of Service (DoS) on the affected iperf3 server.",
       "severity": "HIGH",
-      "status": "open",
+      "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "3.17.1-5.el10_1",
+          "fixed": "0:3.17.1-6.el10_2.1",
           "identifier": "el10"
         }
       ]

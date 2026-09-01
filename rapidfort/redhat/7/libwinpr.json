@@ -2726,23 +2726,6 @@
         }
       ]
     },
-    "CVE-2026-69159": {
-      "cve_id": "CVE-2026-69159",
-      "title": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. C ...",
-      "description": "Rejected reason: ** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2026-67306. Reason: This candidate is a duplicate of CVE-2026-67306. Notes: All CVE users should reference CVE-2026-67306 instead of this candidate.",
-      "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el7"
-        },
-        {
-          "introduced": "2:3.16.0-4.fc43",
-          "identifier": "fc43"
-        }
-      ]
-    },
     "CVE-2026-73241": {
       "cve_id": "CVE-2026-73241",
       "title": "FreeRDP is a free implementation of the Remote Desktop Protocol.  ...",

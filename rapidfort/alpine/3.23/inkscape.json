@@ -11,9 +11,6 @@
       "events": [
         {
           "introduced": "1.4.2-r7"
-        },
-        {
-          "introduced": "1.4.2-r8"
         }
       ]
     }

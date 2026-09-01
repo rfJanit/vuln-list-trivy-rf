@@ -2,6 +2,97 @@
   "package_name": "dotnet8-runtime",
   "distro_version": "3.21",
   "advisories": {
+    "CVE-2025-21172": {
+      "cve_id": "CVE-2025-21172",
+      "title": ".NET and Visual Studio Remote Code Execution Vulnerability",
+      "description": ".NET and Visual Studio Remote Code Execution Vulnerability",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.11-r0",
+          "fixed": "8.0.12-r0"
+        }
+      ]
+    },
+    "CVE-2025-21173": {
+      "cve_id": "CVE-2025-21173",
+      "title": ".NET Elevation of Privilege Vulnerability",
+      "description": ".NET Elevation of Privilege Vulnerability",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.11-r0",
+          "fixed": "8.0.12-r0"
+        }
+      ]
+    },
+    "CVE-2025-21176": {
+      "cve_id": "CVE-2025-21176",
+      "title": ".NET, .NET Framework, and Visual Studio Remote Code Execution Vul ...",
+      "description": ".NET, .NET Framework, and Visual Studio Remote Code Execution Vulnerability",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.11-r0",
+          "fixed": "8.0.12-r0"
+        }
+      ]
+    },
+    "CVE-2025-24070": {
+      "cve_id": "CVE-2025-24070",
+      "title": "Weak authentication in ASP.NET Core \u0026amp; Visual Studio allows an ...",
+      "description": "Weak authentication in ASP.NET Core \u0026amp; Visual Studio allows an unauthorized attacker to elevate privileges over a network.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.11-r0",
+          "fixed": "8.0.14-r0"
+        }
+      ]
+    },
+    "CVE-2025-26646": {
+      "cve_id": "CVE-2025-26646",
+      "title": "External control of file name or path in .NET, Visual Studio, and ...",
+      "description": "External control of file name or path in .NET, Visual Studio, and Build Tools for Visual Studio allows an authorized attacker to perform spoofing over a network.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.11-r0",
+          "fixed": "8.0.16-r0"
+        }
+      ]
+    },
+    "CVE-2025-26682": {
+      "cve_id": "CVE-2025-26682",
+      "title": "Allocation of resources without limits or throttling in ASP.NET C ...",
+      "description": "Allocation of resources without limits or throttling in ASP.NET Core allows an unauthorized attacker to deny service over a network.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.11-r0",
+          "fixed": "8.0.15-r0"
+        }
+      ]
+    },
+    "CVE-2025-30399": {
+      "cve_id": "CVE-2025-30399",
+      "title": "Untrusted search path in .NET and Visual Studio allows an unautho ...",
+      "description": "Untrusted search path in .NET and Visual Studio allows an unauthorized attacker to execute code over a network.",
+      "severity": "HIGH",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "8.0.11-r0",
+          "fixed": "8.0.17-r0"
+        }
+      ]
+    },
     "CVE-2025-55247": {
       "cve_id": "CVE-2025-55247",
       "title": "Improper link resolution before file access ('link following') in ...",
@@ -50,7 +141,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.24-r0"
         }
       ]
     },
@@ -63,7 +154,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.25-r0"
         }
       ]
     },
@@ -76,7 +167,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.26-r0"
         }
       ]
     },
@@ -89,7 +180,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.27-r0"
         }
       ]
     },
@@ -102,7 +193,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.27-r0"
         }
       ]
     },
@@ -115,7 +206,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.26-r0"
         }
       ]
     },
@@ -128,7 +219,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.26-r0"
         }
       ]
     },
@@ -141,7 +232,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.26-r0"
         }
       ]
     },
@@ -154,7 +245,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.27-r0"
         }
       ]
     },
@@ -167,7 +258,7 @@
       "events": [
         {
           "introduced": "8.0.11-r0",
-          "fixed": "8.0.16-r0"
+          "fixed": "8.0.27-r0"
         }
       ]
     },

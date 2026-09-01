@@ -13,12 +13,6 @@
           "introduced": "1.11.1-r0"
         },
         {
-          "introduced": "1.11.1-r1"
-        },
-        {
-          "introduced": "1.11.1-r2"
-        },
-        {
           "introduced": "1.11.1-r3"
         }
       ]
@@ -60,12 +54,6 @@
           "introduced": "1.11.1-r0"
         },
         {
-          "introduced": "1.11.1-r1"
-        },
-        {
-          "introduced": "1.11.1-r2"
-        },
-        {
           "introduced": "1.11.1-r3"
         }
       ]
@@ -79,12 +67,6 @@
       "events": [
         {
           "introduced": "1.11.1-r0"
-        },
-        {
-          "introduced": "1.11.1-r1"
-        },
-        {
-          "introduced": "1.11.1-r2"
         },
         {
           "introduced": "1.11.1-r3"
@@ -102,12 +84,6 @@
           "introduced": "1.11.1-r0"
         },
         {
-          "introduced": "1.11.1-r1"
-        },
-        {
-          "introduced": "1.11.1-r2"
-        },
-        {
           "introduced": "1.11.1-r3"
         }
       ]
@@ -121,12 +97,6 @@
       "events": [
         {
           "introduced": "1.11.1-r0"
-        },
-        {
-          "introduced": "1.11.1-r1"
-        },
-        {
-          "introduced": "1.11.1-r2"
         },
         {
           "introduced": "1.11.1-r3"
@@ -144,12 +114,6 @@
           "introduced": "1.11.1-r0"
         },
         {
-          "introduced": "1.11.1-r1"
-        },
-        {
-          "introduced": "1.11.1-r2"
-        },
-        {
           "introduced": "1.11.1-r3"
         }
       ]
@@ -163,12 +127,6 @@
       "events": [
         {
           "introduced": "1.11.1-r0"
-        },
-        {
-          "introduced": "1.11.1-r1"
-        },
-        {
-          "introduced": "1.11.1-r2"
         },
         {
           "introduced": "1.11.1-r3"

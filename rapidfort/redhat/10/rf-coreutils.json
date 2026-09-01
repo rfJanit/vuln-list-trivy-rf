@@ -48,8 +48,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0",
-          "identifier": "el10"
+          "introduced": "0:8.32-36.el9",
+          "identifier": "el9"
         }
       ]
     }

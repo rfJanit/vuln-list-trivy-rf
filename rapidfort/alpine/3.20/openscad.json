@@ -11,18 +11,6 @@
       "events": [
         {
           "introduced": "2021.01-r14"
-        },
-        {
-          "introduced": "2021.01-r15"
-        },
-        {
-          "introduced": "2021.01-r16"
-        },
-        {
-          "introduced": "2021.01-r18"
-        },
-        {
-          "introduced": "2021.01-r19"
         }
       ]
     }

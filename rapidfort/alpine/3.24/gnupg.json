@@ -57,9 +57,6 @@
       "events": [
         {
           "introduced": "2.4.9-r0"
-        },
-        {
-          "introduced": "2.4.9-r1"
         }
       ]
     }

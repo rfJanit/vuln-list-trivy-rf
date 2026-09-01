@@ -3417,6 +3417,11 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1:16.20.2-8.el9_4",
+          "fixed": "1:24.19.0-1.module+el9.8.0+24708+e71d2e1d",
+          "identifier": "el9"
+        },
+        {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
         }
@@ -3442,6 +3447,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "1:16.20.2-8.el9_4",
+          "fixed": "1:24.19.0-1.module+el9.8.0+24708+e71d2e1d",
+          "identifier": "el9"
+        },
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
@@ -3507,6 +3517,11 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "1:16.20.2-8.el9_4",
+          "fixed": "1:24.19.0-1.module+el9.8.0+24708+e71d2e1d",
+          "identifier": "el9"
+        },
         {
           "introduced": "1:22.19.0-2.fc43",
           "identifier": "fc43"
