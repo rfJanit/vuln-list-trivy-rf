@@ -491,7 +491,7 @@
       "events": [
         {
           "introduced": "1.25.8-1.el10_1",
-          "fixed": "0:1.26.7-1.el10_2",
+          "fixed": "0:1.26.7-1.el10_0",
           "identifier": "el10"
         }
       ]
@@ -701,7 +701,7 @@
       "events": [
         {
           "introduced": "1.25.8-1.el10_1",
-          "fixed": "0:1.26.7-1.el10_2",
+          "fixed": "0:1.26.7-1.el10_0",
           "identifier": "el10"
         }
       ]
@@ -715,7 +715,7 @@
       "events": [
         {
           "introduced": "1.25.8-1.el10_1",
-          "fixed": "0:1.26.7-1.el10_2",
+          "fixed": "0:1.26.7-1.el10_0",
           "identifier": "el10"
         }
       ]
@@ -729,7 +729,7 @@
       "events": [
         {
           "introduced": "1.25.8-1.el10_1",
-          "fixed": "0:1.26.7-1.el10_2",
+          "fixed": "0:1.26.7-1.el10_0",
           "identifier": "el10"
         }
       ]
@@ -743,7 +743,7 @@
       "events": [
         {
           "introduced": "1.25.8-1.el10_1",
-          "fixed": "0:1.26.7-1.el10_2",
+          "fixed": "0:1.26.7-1.el10_0",
           "identifier": "el10"
         }
       ]
@@ -757,7 +757,7 @@
       "events": [
         {
           "introduced": "1.25.8-1.el10_1",
-          "fixed": "0:1.26.7-1.el10_2",
+          "fixed": "0:1.26.7-1.el10_0",
           "identifier": "el10"
         }
       ]

@@ -113,7 +113,7 @@
         },
         {
           "introduced": "0:2.42-23.rf",
-          "fixed": "2.42-26.rf",
+          "fixed": "0:2.42-26.rf",
           "identifier": "rf"
         },
         {
@@ -288,7 +288,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "2.42-23.rf",
           "identifier": "rf"
         }
@@ -302,7 +302,7 @@
       "status": "fixed",
       "events": [
         {
-          "introduced": "0",
+          "introduced": "0:0",
           "fixed": "2.42-23.rf",
           "identifier": "rf"
         }
