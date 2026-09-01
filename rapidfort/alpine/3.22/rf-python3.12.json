@@ -23,6 +23,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
         }
@@ -36,6 +44,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
         }
@@ -48,6 +64,9 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.13-r1"
         }
@@ -87,6 +106,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
         }
@@ -99,6 +126,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
@@ -204,6 +239,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r0"
+        },
+        {
           "introduced": "3.12.11-r0",
           "fixed": "3.12.12-r0"
         }
@@ -216,6 +255,14 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
@@ -230,6 +277,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r0"
+        },
+        {
           "introduced": "3.12.11-r0",
           "fixed": "3.12.12-r0"
         }
@@ -243,6 +294,10 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r0"
+        },
+        {
           "introduced": "3.12.11-r0",
           "fixed": "3.12.12-r0"
         }
@@ -255,6 +310,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
@@ -281,6 +344,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
@@ -334,6 +405,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
         }
@@ -373,6 +452,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "3.12.10-r0"
+        },
+        {
+          "introduced": "3.12.11-r0"
+        },
+        {
+          "introduced": "3.12.12-r0"
+        },
+        {
+          "introduced": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.13-r1"
         }
       ]
@@ -384,6 +475,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "3.12.10-r0"
+        },
+        {
+          "introduced": "3.12.11-r0"
+        },
+        {
+          "introduced": "3.12.12-r0"
+        },
+        {
+          "introduced": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.13-r1"
         }
@@ -397,6 +500,18 @@
       "status": "open",
       "events": [
         {
+          "introduced": "3.12.10-r0"
+        },
+        {
+          "introduced": "3.12.11-r0"
+        },
+        {
+          "introduced": "3.12.12-r0"
+        },
+        {
+          "introduced": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.13-r1"
         }
       ]
@@ -408,6 +523,14 @@
       "severity": "LOW",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
@@ -421,6 +544,18 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "3.12.10-r0"
+        },
+        {
+          "introduced": "3.12.11-r0"
+        },
+        {
+          "introduced": "3.12.12-r0"
+        },
+        {
+          "introduced": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.13-r1"
         }
@@ -447,6 +582,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
         }
@@ -472,6 +615,21 @@
       "severity": "",
       "status": "open",
       "events": [
+        {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.14.5-r0"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.14.5-r0"
+        },
+        {
+          "introduced": "3.12.12-r0",
+          "fixed": "3.14.5-r0"
+        },
+        {
+          "introduced": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.13-r1"
         }
@@ -563,6 +721,14 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"
         }
@@ -575,6 +741,14 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "3.12.10-r0",
+          "fixed": "3.12.12-r1"
+        },
+        {
+          "introduced": "3.12.11-r0",
+          "fixed": "3.12.12-r1"
+        },
         {
           "introduced": "3.12.12-r0",
           "fixed": "3.12.12-r1"

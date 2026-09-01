@@ -81,14 +81,19 @@
           "introduced": "0:0",
           "fixed": "0:1.10.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0:1.10.2-1.fc43",
+          "fixed": "0:1.10.2-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
     "CVE-2026-42784": {
       "cve_id": "CVE-2026-42784",
-      "title": "[openpgp: Don\u0026#x27;t imply missing key flags from key type]",
-      "description": "[openpgp: Don\u0026#x27;t imply missing key flags from key type]",
-      "severity": "LOW",
+      "title": "Title Not Available",
+      "description": "Description Not Available",
+      "severity": "MEDIUM",
       "status": "fixed",
       "events": [
         {
@@ -110,6 +115,11 @@
           "introduced": "0:0",
           "fixed": "0:1.10.2-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "0:1.10.2-1.fc43",
+          "fixed": "0:1.10.2-2.fc43",
+          "identifier": "fc43"
         }
       ]
     }

@@ -126,6 +126,10 @@
           "fixed": "3.8.13-r0"
         },
         {
+          "introduced": "3.8.11-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
           "introduced": "3.8.12-r0",
           "fixed": "3.8.13-r0"
         }
@@ -140,6 +144,10 @@
       "events": [
         {
           "introduced": "3.8.10_p0-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
+          "introduced": "3.8.11-r0",
           "fixed": "3.8.13-r0"
         },
         {
@@ -160,6 +168,10 @@
           "fixed": "3.8.13-r0"
         },
         {
+          "introduced": "3.8.11-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
           "introduced": "3.8.12-r0",
           "fixed": "3.8.13-r0"
         }
@@ -174,6 +186,10 @@
       "events": [
         {
           "introduced": "3.8.10_p0-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
+          "introduced": "3.8.11-r0",
           "fixed": "3.8.13-r0"
         },
         {
@@ -194,6 +210,10 @@
           "fixed": "3.8.13-r0"
         },
         {
+          "introduced": "3.8.11-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
           "introduced": "3.8.12-r0",
           "fixed": "3.8.13-r0"
         }
@@ -208,6 +228,10 @@
       "events": [
         {
           "introduced": "3.8.10_p0-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
+          "introduced": "3.8.11-r0",
           "fixed": "3.8.13-r0"
         },
         {
@@ -228,6 +252,10 @@
           "fixed": "3.8.13-r0"
         },
         {
+          "introduced": "3.8.11-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
           "introduced": "3.8.12-r0",
           "fixed": "3.8.13-r0"
         }
@@ -242,6 +270,10 @@
       "events": [
         {
           "introduced": "3.8.10_p0-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
+          "introduced": "3.8.11-r0",
           "fixed": "3.8.13-r0"
         },
         {
@@ -262,6 +294,10 @@
           "fixed": "3.8.13-r0"
         },
         {
+          "introduced": "3.8.11-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
           "introduced": "3.8.12-r0",
           "fixed": "3.8.13-r0"
         }
@@ -276,6 +312,10 @@
       "events": [
         {
           "introduced": "3.8.10_p0-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
+          "introduced": "3.8.11-r0",
           "fixed": "3.8.13-r0"
         },
         {
@@ -296,6 +336,10 @@
           "fixed": "3.8.13-r0"
         },
         {
+          "introduced": "3.8.11-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
           "introduced": "3.8.12-r0",
           "fixed": "3.8.13-r0"
         }
@@ -313,6 +357,10 @@
           "fixed": "3.8.13-r0"
         },
         {
+          "introduced": "3.8.11-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
           "introduced": "3.8.12-r0",
           "fixed": "3.8.13-r0"
         }
@@ -327,6 +375,10 @@
       "events": [
         {
           "introduced": "3.8.10_p0-r0",
+          "fixed": "3.8.13-r0"
+        },
+        {
+          "introduced": "3.8.11-r0",
           "fixed": "3.8.13-r0"
         },
         {

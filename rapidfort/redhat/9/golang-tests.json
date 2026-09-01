@@ -12,6 +12,11 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.15.7-1.fc33",
+          "identifier": "fc33"
         }
       ]
     },
@@ -38,6 +43,21 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.20.10-3.fc37",
+          "identifier": "fc37"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.20.10-2.fc38",
+          "identifier": "fc38"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.21.3-1.fc39",
+          "identifier": "fc39"
         }
       ]
     },
@@ -51,6 +71,16 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.23.8-1.fc40",
+          "identifier": "fc40"
+        },
+        {
+          "introduced": "0",
+          "fixed": "1.23.8-1.fc41",
+          "identifier": "fc41"
         }
       ]
     },
@@ -64,6 +94,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -104,6 +138,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -130,6 +168,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -143,6 +185,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -182,6 +228,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -208,6 +258,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -234,6 +288,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -247,6 +305,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -260,6 +322,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -301,6 +367,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -314,6 +384,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -327,6 +401,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -340,6 +418,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -478,6 +560,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -519,6 +605,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     },
@@ -826,6 +916,10 @@
         {
           "introduced": "0",
           "identifier": "el9"
+        },
+        {
+          "introduced": "1.25.1-2.fc43",
+          "identifier": "fc43"
         }
       ]
     }

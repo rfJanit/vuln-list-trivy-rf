@@ -2,6 +2,33 @@
   "package_name": "rf-openssl-libs",
   "distro_version": "7",
   "advisories": {
+    "CVE-2024-0727": {
+      "cve_id": "CVE-2024-0727",
+      "title": "openssl: denial of service via null dereference",
+      "description": "A flaw was found in OpenSSL. The optional ContentInfo fields can be set to null, even if the \"type\" is a valid value, which can lead to a null dereference error that may cause a denial of service.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        }
+      ]
+    },
+    "CVE-2024-12797": {
+      "cve_id": "CVE-2024-12797",
+      "title": "Issue summary: Clients using RFC7250 Raw Public Keys (RPKs) to au ...",
+      "description": "Issue summary: Clients using RFC7250 Raw Public Keys (RPKs) to authenticate a\nserver may fail to notice that the server was not authenticated, because\nhandshakes don't abort as expected when the SSL_VERIFY_PEER verification mode\nis set.\n\nImpact summary: TLS and DTLS connections using raw public keys may be\nvulnerable to man-in-middle attacks when server authentication failure is not\ndetected by clients.\n\nRPKs are disabled by default in both TLS clients and TLS servers.  The issue\nonly arises when TLS clients explicitly enable RPK use by the server, and the\nserver, likewise, enables sending of an RPK instead of an X.509 certificate\nchain.  The affected clients are those that then rely on the handshake to\nfail when the server's RPK fails to match one of the expected public keys,\nby setting the verification mode to SSL_VERIFY_PEER.\n\nClients that enable server-side raw public keys can still find out that raw\npublic key verification failed by calling SSL_get_verify_result(), and those\nthat do, and take appropriate action, are not affected.  This issue was\nintroduced in the initial implementation of RPK support in OpenSSL 3.2.\n\nThe FIPS modules in 3.4, 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
     "CVE-2024-13176": {
       "cve_id": "CVE-2024-13176",
       "title": "Issue summary: A timing side-channel which could potentially allo ...",
@@ -53,6 +80,20 @@
           "introduced": "1:0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        }
+      ]
+    },
+    "CVE-2024-2511": {
+      "cve_id": "CVE-2024-2511",
+      "title": "openssl: Unbounded memory growth with session handling in TLSv1.3",
+      "description": "A flaw was found in OpenSSL. A malicious client can trigger an uncontrolled memory consumption, resulting in a Denial of Service. This issue occurs due to OpenSSL's TLSv1.3 session cache going into an incorrect state, leading to it failing to flush properly as it fills. OpenSSL must be configured with the non-default SSL_OP_NO_TICKET option enabled to be vulnerable. This issue only affects TLSv1.3 servers, while TLS clients are not affected.",
+      "severity": "LOW",
+      "status": "fixed",
+      "events": [
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -124,6 +165,32 @@
         }
       ]
     },
+    "CVE-2024-6119": {
+      "cve_id": "CVE-2024-6119",
+      "title": "Issue summary: Applications performing certificate name checks (e ...",
+      "description": "Issue summary: Applications performing certificate name checks (e.g., TLS\nclients checking server certificates) may attempt to read an invalid memory\naddress resulting in abnormal termination of the application process.\n\nImpact summary: Abnormal termination of an application can a cause a denial of\nservice.\n\nApplications performing certificate name checks (e.g., TLS clients checking\nserver certificates) may attempt to read an invalid memory address when\ncomparing the expected name with an `otherName` subject alternative name of an\nX.509 certificate. This may result in an exception that terminates the\napplication program.\n\nNote that basic certificate chain validation (signatures, dates, ...) is not\naffected, the denial of service can occur only when the application also\nspecifies an expected DNS name, Email address or IP address.\n\nTLS servers rarely solicit client certificates, and even when they do, they\ngenerally don't perform a name check against a reference identifier (expected\nidentity), but rather extract the presented identity after checking the\ncertificate chain.  So TLS servers are generally not affected and the severity\nof the issue is Moderate.\n\nThe FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.",
+      "severity": "HIGH",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
+    "CVE-2024-9143": {
+      "cve_id": "CVE-2024-9143",
+      "title": "Issue summary: Use of the low-level GF(2^m) elliptic curve APIs w ...",
+      "description": "Issue summary: Use of the low-level GF(2^m) elliptic curve APIs with untrusted\nexplicit values for the field polynomial can lead to out-of-bounds memory reads\nor writes.\n\nImpact summary: Out of bound memory writes can lead to an application crash or\neven a possibility of a remote code execution, however, in all the protocols\ninvolving Elliptic Curve Cryptography that we're aware of, either only \"named\ncurves\" are supported, or, if explicit curve parameters are supported, they\nspecify an X9.62 encoding of binary (GF(2^m)) curves that can't represent\nproblematic input values. Thus the likelihood of existence of a vulnerable\napplication is low.\n\nIn particular, the X9.62 encoding is used for ECC keys in X.509 certificates,\nso problematic inputs cannot occur in the context of processing X.509\ncertificates.  Any problematic use-cases would have to be using an \"exotic\"\ncurve encoding.\n\nThe affected APIs include: EC_GROUP_new_curve_GF2m(), EC_GROUP_new_from_params(),\nand various supporting BN_GF2m_*() functions.\n\nApplications working with \"exotic\" explicit binary (GF(2^m)) curve parameters,\nthat make it possible to represent invalid field polynomials with a zero\nconstant term, via the above or similar APIs, may terminate abruptly as a\nresult of reading or writing outside of array bounds.  Remote code execution\ncannot easily be ruled out.\n\nThe FIPS modules in 3.3, 3.2, 3.1 and 3.0 are not affected by this issue.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "0",
+          "identifier": "el7"
+        }
+      ]
+    },
     "CVE-2025-11187": {
       "cve_id": "CVE-2025-11187",
       "title": "Issue summary: PBMAC1 parameters in PKCS#12 files are missing val ...",
@@ -170,6 +237,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -183,6 +255,11 @@
       "severity": "MEDIUM",
       "status": "fixed",
       "events": [
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
         {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
@@ -257,6 +334,11 @@
           "identifier": "fc35"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -299,6 +381,11 @@
           "introduced": "1:0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -394,6 +481,11 @@
           "identifier": "fc35"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -451,6 +543,11 @@
           "introduced": "1:0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -517,6 +614,11 @@
           "identifier": "fc45"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.2.4-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.2.4-1.fc41",
           "fixed": "1:3.2.6-2.fc41",
           "identifier": "fc41"
@@ -541,6 +643,11 @@
           "identifier": "fc45"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.2.4-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.2.4-1.fc41",
           "fixed": "1:3.2.6-2.fc41",
           "identifier": "fc41"
@@ -563,6 +670,11 @@
           "introduced": "1:0",
           "fixed": "1:3.5.5-2.fc45",
           "identifier": "fc45"
+        },
+        {
+          "introduced": "1:0",
+          "fixed": "1:3.5.4-10.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.2.4-1.fc41",
@@ -668,6 +780,11 @@
           "identifier": "fc35"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -725,6 +842,11 @@
           "introduced": "1:0",
           "fixed": "1:1.1.1i-3.fc35",
           "identifier": "fc35"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -976,6 +1098,11 @@
       "status": "fixed",
       "events": [
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -1059,6 +1186,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -1081,6 +1213,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1100,6 +1237,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1119,6 +1261,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1138,6 +1285,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1152,6 +1304,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1213,6 +1370,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -1235,6 +1397,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1249,6 +1416,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -1273,6 +1445,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1287,6 +1464,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -1306,6 +1488,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1325,6 +1512,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1344,6 +1536,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1408,6 +1605,11 @@
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.4-10.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1469,6 +1671,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
         }
@@ -1485,6 +1692,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1531,6 +1743,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "identifier": "fc43"
         }
@@ -1540,7 +1757,7 @@
       "cve_id": "CVE-2026-63073",
       "title": "Issue summary: OpenSSL CMP response validation passed an unexpect ...",
       "description": "Issue summary: OpenSSL CMP response validation passed an unexpected response\nsender distinguished name directly as the format string to `ERR_raise_data()`.\n\nImpact summary: A malicious or intercepted CMP endpoint can crash a CMP client\nthat enforces an expected sender or uses a pinned server certificate whose\nsubject becomes the default expected sender.\n\nCWE: CWE-134 (Use of Externally-Controlled Format String)\n\nDescription: When validating a received CMP message, ossl_cmp_msg_check_update()\nconverts the peer-supplied sender distinguished name with X509_NAME_oneline()\nand passes it directly as the format argument to ERR_raise_data(). Percent\ncharacters survive the conversion, so a sender DN such as \"CN=%s%n\" reaches\nBIO_vsnprintf() as an attacker-controlled format string with no matching variadic\narguments. This path is only reached when the caller configures an expected\nsender or pins a server certificate, which is the normal configuration for a\nCMP client validating server responses.\n\nSince the attacker controls the format string but none of the variadic\narguments, such specifiers as %s and %n dereference or write through unrelated\nstack contents and crash the client. The reliable consequence is a denial of\nservice, when the response comes from a malicious or intercepted CMP endpoint.\nThere is no controlled memory write, arbitrary-address read, or reliable path\nto remote code execution.\n\nFIPS impact: no\n\nNo FIPS modules are affected by this issue, as the CMP protocol\nimplementation is outside the OpenSSL FIPS module boundary.",
-      "severity": "LOW",
+      "severity": "CRITICAL",
       "status": "open",
       "events": [
         {
@@ -1666,6 +1883,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-1.fc43",
           "identifier": "fc43"
@@ -1746,6 +1968,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:3.2.2-19.rf",
+          "fixed": "1:3.2.2-20.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",

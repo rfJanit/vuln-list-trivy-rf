@@ -501,19 +501,6 @@
         }
       ]
     },
-    "CVE-2026-33810": {
-      "cve_id": "CVE-2026-33810",
-      "title": "When verifying a certificate chain containing excluded DNS constr ...",
-      "description": "When verifying a certificate chain containing excluded DNS constraints, these constraints are not correctly applied to wildcard DNS SANs which use a different case than the constraint. This only affects validation of otherwise trusted certificate chains, issued by a root CA in the VerifyOptions.Roots CertPool, or in the system certificate pool.",
-      "severity": "HIGH",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        }
-      ]
-    },
     "CVE-2026-33811": {
       "cve_id": "CVE-2026-33811",
       "title": "When using LookupCNAME with the cgo DNS resolver, a very long CNA ...",
@@ -558,19 +545,6 @@
       "title": "If a trusted template author were to write a \u003cscript\u003e tag contain ...",
       "description": "If a trusted template author were to write a \u003cscript\u003e tag containing an empty 'type' attribute or a 'type' attribute with an ASCII whitespace, the execution of the template would incorrectly escape any data passed into the \u003cscript\u003e block.",
       "severity": "MEDIUM",
-      "status": "open",
-      "events": [
-        {
-          "introduced": "0",
-          "identifier": "el9"
-        }
-      ]
-    },
-    "CVE-2026-42504": {
-      "cve_id": "CVE-2026-42504",
-      "title": "Decoding a maliciously-crafted MIME header containing many invali ...",
-      "description": "Decoding a maliciously-crafted MIME header containing many invalid encoded-words can consume excessive CPU.",
-      "severity": "HIGH",
       "status": "open",
       "events": [
         {

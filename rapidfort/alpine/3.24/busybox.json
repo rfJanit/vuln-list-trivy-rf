@@ -28,7 +28,7 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r27"
+          "fixed": "1.36.1-r20"
         },
         {
           "introduced": "1.36.1-r7",
@@ -49,11 +49,7 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r29"
-        },
-        {
-          "introduced": "1.36.1-r29",
-          "fixed": "1.36.1-r30"
+          "fixed": "1.36.1-r20"
         },
         {
           "introduced": "1.36.1-r7",
@@ -74,11 +70,7 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r29"
-        },
-        {
-          "introduced": "1.36.1-r29",
-          "fixed": "1.36.1-r30"
+          "fixed": "1.36.1-r20"
         },
         {
           "introduced": "1.36.1-r7",
@@ -99,7 +91,7 @@
         },
         {
           "introduced": "1.36.1-r19",
-          "fixed": "1.36.1-r25"
+          "fixed": "1.36.1-r20"
         },
         {
           "introduced": "1.36.1-r7",
@@ -124,6 +116,10 @@
         },
         {
           "introduced": "1.36.1-r29",
+          "fixed": "1.36.1-r31"
+        },
+        {
+          "introduced": "1.36.1-r32",
           "fixed": "1.37.0-r14"
         },
         {
@@ -132,7 +128,7 @@
         },
         {
           "introduced": "1.37.0-r10",
-          "fixed": "1.37.0-r20"
+          "fixed": "1.37.0-r14"
         },
         {
           "introduced": "1.37.0-r20",
@@ -157,6 +153,10 @@
         },
         {
           "introduced": "1.36.1-r29",
+          "fixed": "1.36.1-r31"
+        },
+        {
+          "introduced": "1.36.1-r32",
           "fixed": "1.37.0-r14"
         },
         {
@@ -165,7 +165,7 @@
         },
         {
           "introduced": "1.37.0-r10",
-          "fixed": "1.37.0-r20"
+          "fixed": "1.37.0-r14"
         },
         {
           "introduced": "1.37.0-r20",
@@ -284,7 +284,22 @@
       "status": "open",
       "events": [
         {
+          "introduced": "1.36.1_p0-r28"
+        },
+        {
           "introduced": "1.37.0-r30"
+        },
+        {
+          "introduced": "1.37.0-r8"
+        },
+        {
+          "introduced": "1.37.0_p0-r12"
+        },
+        {
+          "introduced": "1.37.0_p1-r12"
+        },
+        {
+          "introduced": "1.37.0_p2-r12"
         },
         {
           "introduced": "1.37.0_p3-r12"

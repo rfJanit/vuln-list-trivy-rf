@@ -12,6 +12,10 @@
         {
           "introduced": "3.0.4-r1",
           "fixed": "3.2.4-r0"
+        },
+        {
+          "introduced": "3.0.4-r0",
+          "fixed": "3.2.4-r0"
         }
       ]
     },
@@ -24,6 +28,10 @@
       "events": [
         {
           "introduced": "3.0.4-r1",
+          "fixed": "3.2.4-r0"
+        },
+        {
+          "introduced": "3.0.4-r0",
           "fixed": "3.2.4-r0"
         }
       ]
@@ -38,6 +46,10 @@
         {
           "introduced": "3.0.4-r1",
           "fixed": "3.2.4-r0"
+        },
+        {
+          "introduced": "3.0.4-r0",
+          "fixed": "3.2.4-r0"
         }
       ]
     },
@@ -50,6 +62,10 @@
       "events": [
         {
           "introduced": "3.0.4-r1",
+          "fixed": "3.2.4-r0"
+        },
+        {
+          "introduced": "3.0.4-r0",
           "fixed": "3.2.4-r0"
         }
       ]
@@ -64,6 +80,10 @@
         {
           "introduced": "3.0.4-r1",
           "fixed": "3.2.4-r0"
+        },
+        {
+          "introduced": "3.0.4-r0",
+          "fixed": "3.2.4-r0"
         }
       ]
     },
@@ -77,6 +97,10 @@
         {
           "introduced": "3.0.4-r1",
           "fixed": "3.2.4-r0"
+        },
+        {
+          "introduced": "3.0.4-r0",
+          "fixed": "3.2.4-r0"
         }
       ]
     },
@@ -89,6 +113,10 @@
       "events": [
         {
           "introduced": "3.0.4-r1",
+          "fixed": "3.2.4-r0"
+        },
+        {
+          "introduced": "3.0.4-r0",
           "fixed": "3.2.4-r0"
         }
       ]
@@ -228,6 +256,9 @@
           "introduced": "3.0.4-r1"
         },
         {
+          "introduced": "3.0.4-r0"
+        },
+        {
           "introduced": "3.2.4-r0"
         }
       ]
@@ -243,6 +274,9 @@
           "introduced": "3.0.4-r1"
         },
         {
+          "introduced": "3.0.4-r0"
+        },
+        {
           "introduced": "3.2.4-r0"
         }
       ]
@@ -251,6 +285,18 @@
       "cve_id": "CVE-2026-79902",
       "title": "A flaw was found in the Seattle FilmWorks plugin in GIMP. When pr ...",
       "description": "A flaw was found in the Seattle FilmWorks plugin in GIMP. When processing a specially crafted SFW image file, the plugin allocates a Variable-Length Array (VLA) on the stack without integer overflow checks, causing an unbounded stack allocation. This issue leads to an application crash, resulting in a denial of service.",
+      "severity": "MEDIUM",
+      "status": "open",
+      "events": [
+        {
+          "introduced": "3.2.4-r0"
+        }
+      ]
+    },
+    "CVE-2026-82330": {
+      "cve_id": "CVE-2026-82330",
+      "title": "A flaw was found in the file-pvr plugin in GIMP. When processing  ...",
+      "description": "A flaw was found in the file-pvr plugin in GIMP. When processing a specially crafted PVR image file, the VQ (compressed) decoder does not properly perform memory bounds checking. This missing validation results in a heap out-of-bounds read. This issue can result in an application crash, leading to a denial of service or a limited information disclosure of heap memory contents.",
       "severity": "MEDIUM",
       "status": "open",
       "events": [

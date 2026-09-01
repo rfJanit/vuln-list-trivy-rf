@@ -11,6 +11,12 @@
       "events": [
         {
           "introduced": "6.0-r14"
+        },
+        {
+          "introduced": "6.0-r15"
+        },
+        {
+          "introduced": "6.0-r16"
         }
       ]
     }

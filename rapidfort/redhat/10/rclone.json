@@ -296,8 +296,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "1.75.0-2.fc46",
-          "identifier": "fc46"
+          "fixed": "1.75.0-2.fc45",
+          "identifier": "fc45"
         }
       ]
     },
@@ -350,8 +350,8 @@
         },
         {
           "introduced": "0",
-          "fixed": "1.75.0-2.fc46",
-          "identifier": "fc46"
+          "fixed": "1.75.0-2.fc45",
+          "identifier": "fc45"
         }
       ]
     },

@@ -23,20 +23,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:1.35-10.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "2:1.35-4.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "2:1.35-6.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "2:1.35-9.el10_1",
-          "identifier": "el10"
+          "introduced": "0",
+          "identifier": "el7"
         }
       ]
     },
@@ -48,20 +36,8 @@
       "status": "open",
       "events": [
         {
-          "introduced": "2:1.35-10.rf",
-          "identifier": "rf"
-        },
-        {
-          "introduced": "2:1.35-4.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "2:1.35-6.fc43",
-          "identifier": "fc43"
-        },
-        {
-          "introduced": "2:1.35-9.el10_1",
-          "identifier": "el10"
+          "introduced": "0",
+          "identifier": "el7"
         }
       ]
     },
@@ -76,14 +52,6 @@
           "introduced": "2:0",
           "fixed": "2:1.35-10.rf",
           "identifier": "rf"
-        },
-        {
-          "introduced": "2:1.35-4.fc41",
-          "identifier": "fc41"
-        },
-        {
-          "introduced": "2:1.35-6.fc43",
-          "identifier": "fc43"
         },
         {
           "introduced": "2:1.35-9.el10_1",

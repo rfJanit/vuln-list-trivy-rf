@@ -109,7 +109,7 @@
           "identifier": "fc41"
         },
         {
-          "introduced": "0:5.42.2-523.fc43",
+          "introduced": "4:5.42.2-523.fc43",
           "fixed": "4:5.42.3-524.fc43",
           "identifier": "fc43"
         },
@@ -132,7 +132,7 @@
           "identifier": "fc41"
         },
         {
-          "introduced": "0:5.42.2-523.fc43",
+          "introduced": "4:5.42.2-523.fc43",
           "fixed": "4:5.42.3-524.fc43",
           "identifier": "fc43"
         },

@@ -11,7 +11,7 @@
       "events": [
         {
           "introduced": "1.11.2-r0",
-          "fixed": "1.11.2-r0"
+          "fixed": "1.12.0-r0"
         }
       ]
     }

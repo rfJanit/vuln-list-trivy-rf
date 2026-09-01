@@ -1044,9 +1044,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1061,6 +1071,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -1082,6 +1097,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
@@ -1101,6 +1121,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
@@ -1118,6 +1143,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -1198,9 +1228,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1217,9 +1257,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1236,9 +1286,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1253,6 +1313,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -1274,9 +1339,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1307,6 +1382,11 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
@@ -1324,6 +1404,11 @@
           "introduced": "1:0",
           "fixed": "1:4.0.2-1.fc46",
           "identifier": "fc46"
+        },
+        {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         },
         {
           "introduced": "1:3.5.1-2.fc43",
@@ -1390,9 +1475,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1525,7 +1620,7 @@
       "cve_id": "CVE-2026-63073",
       "title": "Issue summary: OpenSSL CMP response validation passed an unexpect ...",
       "description": "Issue summary: OpenSSL CMP response validation passed an unexpected response\nsender distinguished name directly as the format string to `ERR_raise_data()`.\n\nImpact summary: A malicious or intercepted CMP endpoint can crash a CMP client\nthat enforces an expected sender or uses a pinned server certificate whose\nsubject becomes the default expected sender.\n\nCWE: CWE-134 (Use of Externally-Controlled Format String)\n\nDescription: When validating a received CMP message, ossl_cmp_msg_check_update()\nconverts the peer-supplied sender distinguished name with X509_NAME_oneline()\nand passes it directly as the format argument to ERR_raise_data(). Percent\ncharacters survive the conversion, so a sender DN such as \"CN=%s%n\" reaches\nBIO_vsnprintf() as an attacker-controlled format string with no matching variadic\narguments. This path is only reached when the caller configures an expected\nsender or pins a server certificate, which is the normal configuration for a\nCMP client validating server responses.\n\nSince the attacker controls the format string but none of the variadic\narguments, such specifiers as %s and %n dereference or write through unrelated\nstack contents and crash the client. The reliable consequence is a denial of\nservice, when the response comes from a malicious or intercepted CMP endpoint.\nThere is no controlled memory write, arbitrary-address read, or reliable path\nto remote code execution.\n\nFIPS impact: no\n\nNo FIPS modules are affected by this issue, as the CMP protocol\nimplementation is outside the OpenSSL FIPS module boundary.",
-      "severity": "LOW",
+      "severity": "CRITICAL",
       "status": "open",
       "events": [
         {
@@ -1651,9 +1746,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     },
@@ -1733,9 +1838,19 @@
           "identifier": "fc46"
         },
         {
+          "introduced": "1:0",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
+        },
+        {
           "introduced": "1:3.5.1-2.fc43",
           "fixed": "1:3.5.7-2.fc43",
           "identifier": "fc43"
+        },
+        {
+          "introduced": "1:3.5.5-11.rf",
+          "fixed": "1:3.5.6-11.rf",
+          "identifier": "rf"
         }
       ]
     }

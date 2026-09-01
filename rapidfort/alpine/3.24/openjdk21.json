@@ -231,15 +231,7 @@
       "events": [
         {
           "introduced": "21.0.5_p11-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
+          "fixed": "21.0.8_p9-r0"
         }
       ]
     },
@@ -252,15 +244,7 @@
       "events": [
         {
           "introduced": "21.0.5_p11-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
+          "fixed": "21.0.8_p9-r0"
         }
       ]
     },
@@ -273,15 +257,7 @@
       "events": [
         {
           "introduced": "21.0.5_p11-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
+          "fixed": "21.0.8_p9-r0"
         }
       ]
     },
@@ -294,15 +270,7 @@
       "events": [
         {
           "introduced": "21.0.5_p11-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
-        },
-        {
-          "introduced": "21.0.8_p9-r0",
-          "fixed": "21.0.10_p7-r0"
+          "fixed": "21.0.8_p9-r0"
         }
       ]
     },

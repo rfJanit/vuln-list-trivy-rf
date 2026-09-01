@@ -44,6 +44,12 @@
       "status": "open",
       "events": [
         {
+          "introduced": "5.38.3-r1"
+        },
+        {
+          "introduced": "5.40.1-r1"
+        },
+        {
           "introduced": "5.40.4-r0"
         },
         {
@@ -58,6 +64,12 @@
       "severity": "MEDIUM",
       "status": "open",
       "events": [
+        {
+          "introduced": "5.38.3-r1"
+        },
+        {
+          "introduced": "5.40.1-r1"
+        },
         {
           "introduced": "5.40.4-r0"
         },
@@ -78,12 +90,12 @@
           "fixed": "5.40.4-r0"
         },
         {
-          "introduced": "5.40.1-r1",
+          "introduced": "5.38.3-r1",
           "fixed": "5.40.4-r0"
         },
         {
-          "introduced": "5.42.1-r0",
-          "fixed": "5.42.2-r0"
+          "introduced": "5.40.1-r1",
+          "fixed": "5.40.4-r0"
         }
       ]
     },
@@ -94,6 +106,12 @@
       "severity": "HIGH",
       "status": "open",
       "events": [
+        {
+          "introduced": "5.38.3-r1"
+        },
+        {
+          "introduced": "5.40.1-r1"
+        },
         {
           "introduced": "5.40.4-r0"
         },
@@ -109,6 +127,12 @@
       "severity": "CRITICAL",
       "status": "open",
       "events": [
+        {
+          "introduced": "5.38.3-r1"
+        },
+        {
+          "introduced": "5.40.1-r1"
+        },
         {
           "introduced": "5.40.4-r0"
         },

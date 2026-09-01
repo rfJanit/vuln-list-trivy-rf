@@ -101,7 +101,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.2.8-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -135,7 +135,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -152,7 +152,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -203,7 +203,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -220,7 +220,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -237,7 +237,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -254,7 +254,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -271,7 +271,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -287,9 +287,6 @@
       "status": "open",
       "events": [
         {
-          "introduced": "7.1.2.15-r0"
-        },
-        {
           "introduced": "7.1.2.27-r0"
         }
       ]
@@ -303,7 +300,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.2.8-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -337,7 +334,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -388,7 +385,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -404,920 +401,7 @@
       "status": "open",
       "events": [
         {
-          "introduced": "7.1.2.15-r0"
-        },
-        {
           "introduced": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-28493": {
-      "cve_id": "CVE-2026-28493",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16, an integer overflow vulnerability exists in the SIXEL decoer. The vulnerability allows an attacker to perform an out of bounds via a specially crafted image. This vulnerability is fixed in 7.1.2-16.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28494": {
-      "cve_id": "CVE-2026-28494",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, a stack buffer overflow exists in ImageMagick's morphology kernel parsing functions. User-controlled kernel strings exceeding a buffer are copied into fixed-size stack buffers via memcpy without bounds checking, resulting in stack corruption. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28686": {
-      "cve_id": "CVE-2026-28686",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, A heap-buffer-overflow vulnerability exists in the PCL encode due to an undersized output buffer allocation. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28687": {
-      "cve_id": "CVE-2026-28687",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, a heap use-after-free vulnerability in ImageMagick's MSL decoder allows an attacker to trigger access to freed memory by crafting an MSL file. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28688": {
-      "cve_id": "CVE-2026-28688",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, a heap-use-after-free vulnerability exists in the MSL encoder, where a cloned image is destroyed twice. The MSL coder does not support writing MSL so the write capability has been removed. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28689": {
-      "cve_id": "CVE-2026-28689",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, domain=\"path\" authorization is checked before final file open/use. A symlink swap between check-time and use-time bypasses policy-denied read/write. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28690": {
-      "cve_id": "CVE-2026-28690",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, a stack buffer overflow vulnerability exists in the MNG encoder. There is a bounds checks missing that could corrupting the stack with attacker-controlled data. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28691": {
-      "cve_id": "CVE-2026-28691",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, an uninitialized pointer dereference vulnerability exists in the JBIG decoder due to a missing check. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28692": {
-      "cve_id": "CVE-2026-28692",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, MAT decoder uses 32-bit arithmetic due to incorrect parenthesization resulting in a heap over-read. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-28693": {
-      "cve_id": "CVE-2026-28693",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, an integer overflow in DIB coder can result in out of bounds read or write. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-30883": {
-      "cve_id": "CVE-2026-30883",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, an extremely large image profile could result in a heap overflow when encoding a PNG image. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-30929": {
-      "cve_id": "CVE-2026-30929",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, MagnifyImage uses a fixed-size stack buffer. When using a specific image it is possible to overflow this buffer and corrupt the stack. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-30931": {
-      "cve_id": "CVE-2026-30931",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16, a heap-based buffer overflow in the UHDR encoder can happen due to truncation of a value and it would allow an out of bounds write. This vulnerability is fixed in 7.1.2-16.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-30935": {
-      "cve_id": "CVE-2026-30935",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16, BilateralBlurImage contains a heap buffer over-read caused by an incorrect conversion. When processing a crafted image with the -bilateral-blur operation an out of bounds read can occur. This vulnerability is fixed in 7.1.2-16.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-30936": {
-      "cve_id": "CVE-2026-30936",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, a crafted image could cause an out of bounds heap write inside the WaveletDenoiseImage method. When processing a crafted image with the -wavelet-denoise operation an out of bounds write can occur. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-30937": {
-      "cve_id": "CVE-2026-30937",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2-16 and 6.9.13-41, a 32-bit unsigned integer overflow in the XWD (X Windows) encoder can cause an undersized heap buffer allocation. When writing a extremely large image an out of bounds heap write can occur. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-31853": {
-      "cve_id": "CVE-2026-31853",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to 7.1.2-16 and 6.9.13-41, an overflow on 32-bit systems can cause a crash in the SFW decoder when processing extremely large images. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-32259": {
-      "cve_id": "CVE-2026-32259",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to 7.1.2-16 and 6.9.13-41, when a memory allocation fails in the sixel encoder it would be possible to write past the end of a buffer on the stack. This vulnerability is fixed in 7.1.2-16 and 6.9.13-41.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-32636": {
-      "cve_id": "CVE-2026-32636",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to 7.1.2-17 and 6.9.13-42, the NewXMLTree method contains a bug that could result in a crash due to an out of write bounds of a single zero byte. Versions 7.1.2-17 and 6.9.13-42 fix the issue.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.17-r0"
-        }
-      ]
-    },
-    "CVE-2026-33535": {
-      "cve_id": "CVE-2026-33535",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to 7.1.2-18 and 6.9.13-43, an out-of-bounds write of a zero byte exists in the X11 `display` interaction path that could lead to a crash. Versions 7.1.2-18 and 6.9.13-43 patch the issue.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.18-r0"
-        }
-      ]
-    },
-    "CVE-2026-33536": {
-      "cve_id": "CVE-2026-33536",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to 7.1.2-18 and 6.9.13-43, due to an incorrect return value on certain platforms a pointer is incremented past the end of a buffer that is on the stack and that could result in an out of bounds write. Versions 7.1.2-18 and 6.9.13-43 patch the issue.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.18-r0"
-        }
-      ]
-    },
-    "CVE-2026-33899": {
-      "cve_id": "CVE-2026-33899",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below 7.1.2-189 and 6.9.13-44, when `Magick` parses an XML file it is possible that a single zero byte is written out of the bounds. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-33900": {
-      "cve_id": "CVE-2026-33900",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below both 7.1.2-19 and 6.9.13-44, the viff encoder contains an integer truncation/wraparound issue on 32-bit builds that could trigger an out of bounds heap write, potentially causing a crash. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-33901": {
-      "cve_id": "CVE-2026-33901",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below both 7.1.2-19 and 6.9.13-44, a heap buffer overflow occurs in the MVG decoder that could result in an out of bounds write when processing a crafted image. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-33902": {
-      "cve_id": "CVE-2026-33902",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below both 7.1.2-19 and 6.9.13-44, a stack overflow vulnerability in ImageMagick's FX expression parser allows an attacker to crash the process by providing a deeply nested expression. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-33905": {
-      "cve_id": "CVE-2026-33905",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below both 7.1.2-19 and 6.9.13-44, the -sample operation has an out of bounds read when an specific offset is set through the `sample:offset` define that could lead to an out of bounds read. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-33908": {
-      "cve_id": "CVE-2026-33908",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below both 7.1.2-19 and 6.9.13-44, Magick frees the memory of the XML tree via the `DestroyXMLTree()` function; however, this process is executed recursively with no depth limit imposed. When Magick processes an XML file with deeply nested structures, it will exhaust the stack memory, resulting in a Denial of Service (DoS) attack. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-34238": {
-      "cve_id": "CVE-2026-34238",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below both 7.1.2-19 and 6.9.13-44, an integer overflow in the despeckle operation causes a heap buffer overflow on 32-bit builds that will result in an out of bounds write. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-40169": {
-      "cve_id": "CVE-2026-40169",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below 7.1.2-19, a crafted image could result in an out of bounds heap write when writing a yaml or json output, resulting in a crash. This issue has been fixed in version 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-40183": {
-      "cve_id": "CVE-2026-40183",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below 7.1.2-19, the JXL encoder has an heap write overflow when a user specifies that the image should be encoded as 16 bit floats. This issue has been fixed in version 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-40310": {
-      "cve_id": "CVE-2026-40310",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Versions below both 7.1.2-19 and 6.9.13-44, contain a heap out-of-bounds write in the JP2 encoder with when a user specifies an invalid sampling index. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-40311": {
-      "cve_id": "CVE-2026-40311",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Versions below 7.1.2-19 and 6.9.13-44 contain a heap use-after-free vulnerability that can cause a crash when reading and printing values from an invalid XMP profile. This issue has been fixed in versions 6.9.13-44 and 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-40312": {
-      "cve_id": "CVE-2026-40312",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions below 7.1.2-19, an off by one error in the MSL decoder could result in a crash when a malicous MSL file is read. This issue has been fixed in version 7.1.2-19.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.19-r0"
-        }
-      ]
-    },
-    "CVE-2026-42050": {
-      "cve_id": "CVE-2026-42050",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to 7.1.2-21 and 6.9.13-46, a malicious MIFF file could trigger an overflow when a user opens it in the display tool and right-clicks a tile to invoke the Load / Update menu item. This vulnerability is fixed in 7.1.2-21 and 6.9.13-46.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.21-r0"
-        }
-      ]
-    },
-    "CVE-2026-42326": {
-      "cve_id": "CVE-2026-42326",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-47 and 7.1.2-22, when writing an IPTC output file a malicious input file could cause an out of bounds read of a single byte. This issue has been patched in versions 6.9.13-47 and 7.1.2-22.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.22-r0"
-        }
-      ]
-    },
-    "CVE-2026-45031": {
-      "cve_id": "CVE-2026-45031",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-47 and 7.1.2-22, due to a missing check in the PSD decoder it would be possible to bypass the list-length resource policy when decoding a PSD image. Other security limits would still apply. This issue has been patched in versions 6.9.13-47 and 7.1.2-22.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.22-r0"
-        }
-      ]
-    },
-    "CVE-2026-45358": {
-      "cve_id": "CVE-2026-45358",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-47 and 7.1.2-22, an off by one in the meta encoder could result in an out of bounds read of a single byte in the meta encoder. This issue has been patched in versions 6.9.13-47 and 7.1.2-22.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.22-r0"
-        }
-      ]
-    },
-    "CVE-2026-45359": {
-      "cve_id": "CVE-2026-45359",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-22, an invalid connected-components:keep-top value could result in a heap buffer over-read when performing the connected components operation. This issue has been patched in versions 6.9.13-48 and 7.1.2-22.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.22-r0"
-        }
-      ]
-    },
-    "CVE-2026-45624": {
-      "cve_id": "CVE-2026-45624",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-47 and 7.1.2-22, when performing a polynomial distortion an out of bounds over-read of 24 bytes can occur when specifying specific arguments. This issue has been patched in versions 6.9.13-47 and 7.1.2-22.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.22-r0"
-        }
-      ]
-    },
-    "CVE-2026-45664": {
-      "cve_id": "CVE-2026-45664",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-47 and 7.1.2-22, because of a missing check in the MNG coder it would be possible to read more images than the list limit policy would allow resulting in excessive resource use. This issue has been patched in versions 6.9.13-47 and 7.1.2-22.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.22-r0"
-        }
-      ]
-    },
-    "CVE-2026-46520": {
-      "cve_id": "CVE-2026-46520",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-23, when reading multiple images with different dimensions an out of bounds heap write can occur. This issue has been patched in versions 6.9.13-48 and 7.1.2-23.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-46521": {
-      "cve_id": "CVE-2026-46521",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-23, when using LZMA compression in the MIFF encoder an out of bounds write can occur due to a missing check. This issue has been patched in versions 6.9.13-48 and 7.1.2-23.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-46522": {
-      "cve_id": "CVE-2026-46522",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2.23 and 6.9.13-48, due to a missing check in the MIFF decoder, a crafted file could cause an infinite loop resulting in CPU exhaustion. Versions 7.1.2.23 and 6.9.13-48 fix the issue.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-46523": {
-      "cve_id": "CVE-2026-46523",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 7.1.2.23 and 6.9.13-48, a crafted MSL image can trigger a heap-use-after-free. Versions 7.1.2.23 and 6.9.13-48 fix the issue.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-46557": {
-      "cve_id": "CVE-2026-46557",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to version 7.1.2-23, due to a missing depth check a stack overflow can occur in the fx operation by passing a crafted argument. This issue has been patched in version 7.1.2-23.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-46559": {
-      "cve_id": "CVE-2026-46559",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-23, an incorrect check in the JP2 will result in an heap buffer over-write of a single byte when specifying certain options. This issue has been patched in versions 6.9.13-48 and 7.1.2-23.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-46692": {
-      "cve_id": "CVE-2026-46692",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-23, an attacker who can connect to a magick -distribute-cache service can cause a heap buffer over-write in the server process. This issue has been patched in versions 6.9.13-48 and 7.1.2-23.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-46693": {
-      "cve_id": "CVE-2026-46693",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-23, an attacker who can connect to a magick -distribute-cache service can hijack a file descriptor in the server process when a race condition is met. This issue has been patched in versions 6.9.13-48 and 7.1.2-23.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-47165": {
-      "cve_id": "CVE-2026-47165",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-23, the distributed pixel cache was originally designed to operate without a challenge–response authentication model. This has been changed in versions 6.9.13-48 and 7.1.2-23.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-47166": {
-      "cve_id": "CVE-2026-47166",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-23, an attacker who can connect to a magick -distribute-cache service can cause a heap buffer over-read in the server process. This issue has been patched in versions 6.9.13-48 and 7.1.2-23.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.23-r0"
-        }
-      ]
-    },
-    "CVE-2026-48724": {
-      "cve_id": "CVE-2026-48724",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to version 7.1.2-24, when using an image with mask the Floyd-Steinberg dithering method it will cause a negative heap buffer over-write. This issue has been patched in version 7.1.2-24.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.24-r0"
-        }
-      ]
-    },
-    "CVE-2026-48733": {
-      "cve_id": "CVE-2026-48733",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-49 and 7.1.2-24, an infinite loop in the subimage-search operation can happen when using a crafted image. This issue has been patched in versions 6.9.13-49 and 7.1.2-24.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.24-r0"
-        }
-      ]
-    },
-    "CVE-2026-48734": {
-      "cve_id": "CVE-2026-48734",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-49 and 7.1.2-24, a crafted MVG file could result in a stack overflow due to a missing depth or visited-set check. This issue has been patched in versions 6.9.13-49 and 7.1.2-24.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.24-r0"
-        }
-      ]
-    },
-    "CVE-2026-48994": {
-      "cve_id": "CVE-2026-48994",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-24, a missing check of a return value could lead to a heap buffer over-write in the MAT decoder on 32-bit systems. This issue has been patched in versions 6.9.13-48 and 7.1.2-24.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.24-r0"
-        }
-      ]
-    },
-    "CVE-2026-49218": {
-      "cve_id": "CVE-2026-49218",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-24, a missing check in the DCM decoder could result in an image with invalid dimensions and that could cause crashes in other operation. This issue has been patched in versions 6.9.13-48 and 7.1.2-24.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.24-r0"
-        }
-      ]
-    },
-    "CVE-2026-49219": {
-      "cve_id": "CVE-2026-49219",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-48 and 7.1.2-24, an incorrect parsing of the filename can result in a policy bypass and read files disallowed by a security policy using a symlink. This issue has been patched in versions 6.9.13-48 and 7.1.2-24.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.24-r0"
-        }
-      ]
-    },
-    "CVE-2026-53460": {
-      "cve_id": "CVE-2026-53460",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-50 and 7.1.2-25, a missing check for maximum memory request in AcquireAlignedMemory could trigger an out-of-Memory condition. This issue has been patched in versions 6.9.13-50 and 7.1.2-25.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.25-r0"
-        }
-      ]
-    },
-    "CVE-2026-53461": {
-      "cve_id": "CVE-2026-53461",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-50 and 7.1.2-25, an incorrect loop in the ICON decoder can result in an out of bounds heap write resulting in a crash. This issue has been patched in versions 6.9.13-50 and 7.1.2-25.",
-      "severity": "HIGH",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.25-r0"
-        }
-      ]
-    },
-    "CVE-2026-53462": {
-      "cve_id": "CVE-2026-53462",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-50 and 7.1.2-25, when an allocation fails in CheckPrimitiveExtent this can result in a heap-use-after-free and result in a crash. This issue has been patched in versions 6.9.13-50 and 7.1.2-25.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.25-r0"
-        }
-      ]
-    },
-    "CVE-2026-53463": {
-      "cve_id": "CVE-2026-53463",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-50 and 7.1.2-25, when passing incorrect arguments in the distort operation a null pointer deference will occur. This issue has been patched in versions 6.9.13-50 and 7.1.2-25.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.25-r0"
-        }
-      ]
-    },
-    "CVE-2026-53464": {
-      "cve_id": "CVE-2026-53464",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to version 7.1.2-25, when providing invalid options to the wand option parser a small memory leak will occur. This issue has been patched in version 7.1.2-25.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.25-r0"
-        }
-      ]
-    },
-    "CVE-2026-53465": {
-      "cve_id": "CVE-2026-53465",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to version 7.1.2-25, a crafted multi-frame can result in a heap buffer over-write when encoding it with the SF3 encoder. This issue has been patched in version 7.1.2-25.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.25-r0"
-        }
-      ]
-    },
-    "CVE-2026-53466": {
-      "cve_id": "CVE-2026-53466",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-51 and 7.1.2-26, an integer overflow in the XCF decoder can result in an out of bounds read when a crafted image is read, potentially resulting in a crash. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-53467": {
-      "cve_id": "CVE-2026-53467",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-51 and 7.1.2-26, the MNG decoder contains a possible heap information disclosure vulnerability because part of the pixels are left unchanged. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-55510": {
-      "cve_id": "CVE-2026-55510",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-51 and 7.1.2-26, when identifying an image with a crafted 8BIM profile with a specific format string a use-after-free will occur. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-55577": {
-      "cve_id": "CVE-2026-55577",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-51 and 7.1.2-26, a heap buffer overflow occurs in the MVG decoder that could result in an out of bounds write when processing a crafted image. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-55594": {
-      "cve_id": "CVE-2026-55594",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-51 and 7.1.2-26, a missing depth check in the MVG decoder will result in a stack overflow when a crafted image is provided. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-55595": {
-      "cve_id": "CVE-2026-55595",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to versions 6.9.13-51 and 7.1.2-26, when providing invalid arguments to the connected-components option an infinite loop will occur. This issue has been fixed in versions 6.9.13-51 and 7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-55597": {
-      "cve_id": "CVE-2026-55597",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. Prior to version 7.1.2-26, an incorrect handling of arguments can cause a heap buffer over-write in the JP2 encoder. This issue has been fixed in version7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
-        }
-      ]
-    },
-    "CVE-2026-55628": {
-      "cve_id": "CVE-2026-55628",
-      "title": "ImageMagick is free and open-source software used for editing and ...",
-      "description": "ImageMagick is free and open-source software used for editing and manipulating digital images. In versions prior to 7.1.2-26he, the `-concatenate` operation is missing policy checks, potentially resulting in both reading and writing to paths disallowed by the security policy. This issue has been fixed in version 7.1.2-26.",
-      "severity": "MEDIUM",
-      "status": "fixed",
-      "events": [
-        {
-          "introduced": "7.1.2.15-r0",
-          "fixed": "7.1.2.27-r0"
         }
       ]
     },
@@ -1330,7 +414,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1347,7 +431,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1364,7 +448,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1398,7 +482,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1415,7 +499,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1432,7 +516,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1449,7 +533,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1466,7 +550,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1483,7 +567,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1517,7 +601,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1568,7 +652,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1585,7 +669,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1602,7 +686,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1619,7 +703,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1636,7 +720,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1653,7 +737,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1670,7 +754,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1687,7 +771,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1704,7 +788,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1755,7 +839,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1772,7 +856,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",
@@ -1806,7 +890,7 @@
       "events": [
         {
           "introduced": "7.1.1.32-r2",
-          "fixed": "7.1.1.32-r2"
+          "fixed": "7.1.1.43-r0"
         },
         {
           "introduced": "7.1.1.32-r2",

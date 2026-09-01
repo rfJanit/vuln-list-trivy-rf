@@ -10,7 +10,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "0:1.12-1.el9",
+          "fixed": "0:1.12-2.el9_8",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "0:1.13-10.rf",
           "fixed": "0:1.13-14.rf",
           "identifier": "rf"
         },
@@ -32,7 +37,12 @@
       "status": "open",
       "events": [
         {
-          "introduced": "0:0",
+          "introduced": "0:1.12-1.el9",
+          "fixed": "0:1.12-2.el9_8",
+          "identifier": "el9"
+        },
+        {
+          "introduced": "0:1.13-10.rf",
           "fixed": "0:1.13-14.rf",
           "identifier": "rf"
         },
